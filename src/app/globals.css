@@ -1,0 +1,372 @@
+:root {
+  --bg: #15171a;
+  --panel: #1f2226;
+  --panel-2: #262a2f;
+  --border: #353a40;
+  --text: #e6e8eb;
+  --muted: #9aa3ad;
+  --accent: #43d17a;
+  --accent-2: #2f9d5c;
+  --warn: #e8b84a;
+  --danger: #e0645a;
+  --info: #5aa7e0;
+  --radius: 8px;
+  --font: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+a {
+  color: var(--info);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--panel-2);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.btn:hover:not(:disabled) {
+  border-color: var(--muted);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--accent-2);
+  border-color: var(--accent-2);
+  color: #fff;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn-danger {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+.input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.input:focus {
+  outline: 2px solid var(--accent-2);
+  outline-offset: -1px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.small {
+  font-size: 12px;
+}
+
+.alert {
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+}
+
+.alert-warn {
+  border-color: var(--warn);
+  color: var(--warn);
+}
+
+.alert-danger {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+.alert-ok {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Barra superior y estructura general */
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 48px;
+  padding: 0 16px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+}
+
+.topbar .brand {
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.topbar .spacer {
+  flex: 1;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.page h1 {
+  font-size: 22px;
+  margin: 0 0 16px;
+}
+
+.grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+/* Pantalla de ingreso */
+.login {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  padding: 24px 16px;
+}
+
+.login .card {
+  width: 100%;
+  max-width: 420px;
+  display: grid;
+  gap: 12px;
+}
+
+.login h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* Visor: pantalla completa con paneles laterales */
+.workspace {
+  display: grid;
+  grid-template-rows: 48px 1fr;
+  grid-template-columns: 1fr 360px;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+.workspace .topbar {
+  grid-column: 1 / -1;
+}
+
+.workspace .viewer-host {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  background: var(--panel);
+}
+
+.workspace .side {
+  border-left: 1px solid var(--border);
+  background: var(--panel);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.side .tabs {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+}
+
+.side .tabs button {
+  flex: 1;
+  padding: 10px 8px;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.side .tabs button[aria-selected="true"] {
+  color: var(--text);
+  border-bottom-color: var(--accent);
+}
+
+.side .panel {
+  padding: 12px;
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+
+.side h2 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin: 8px 0 4px;
+}
+
+.kv {
+  display: grid;
+  grid-template-columns: minmax(90px, 40%) 1fr;
+  gap: 2px 8px;
+  font-size: 13px;
+}
+
+.kv dt {
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kv dd {
+  margin: 0;
+  word-break: break-word;
+}
+
+.pset {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 6px 8px;
+}
+
+.pset summary {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.drop-hint {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  color: var(--muted);
+  text-align: center;
+}
+
+.drop-hint .box {
+  pointer-events: auto;
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+  padding: 24px;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  background: rgba(31, 34, 38, 0.85);
+}
+
+.progress {
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  min-width: 280px;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  background: rgba(21, 23, 26, 0.92);
+  border: 1px solid var(--border);
+}
+
+.progress .track {
+  height: 6px;
+  margin-top: 6px;
+  border-radius: 3px;
+  background: var(--panel-2);
+  overflow: hidden;
+}
+
+.progress .bar {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.15s;
+}
+
+.badge {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+
+.model-list {
+  display: grid;
+  gap: 6px;
+}
+
+.model-list .row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.model-list .row .name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .workspace {
+    grid-template-columns: 1fr;
+    grid-template-rows: 48px 1fr minmax(200px, 40%);
+  }
+
+  .workspace .side {
+    border-left: 0;
+    border-top: 1px solid var(--border);
+  }
+}
