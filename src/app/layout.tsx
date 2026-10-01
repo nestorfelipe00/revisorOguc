@@ -8,6 +8,10 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#1f2226" };
 
+// Render dinámico en toda la app: la CSP con nonce (src/proxy.ts) exige que Next.js firme sus scripts en cada petición;
+// una página prerrenderizada estática no puede llevar el nonce.
+export const dynamic = "force-dynamic";
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="es">
