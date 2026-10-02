@@ -683,3 +683,34 @@ body.quick-active .legend {
   border-color: var(--accent);
   color: #fff;
 }
+
+/* Etiqueta de deslinde del predio (CSS2D): número y largo, legible como las cotas de las mediciones */
+.parcel-tag {
+  --tag: #e8590c;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 8px 2px 4px;
+  border-radius: 999px;
+  background: var(--tag);
+  color: #fff;
+  font: 600 12px/1.4 "Segoe UI", system-ui, sans-serif;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.parcel-tag b {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--tag);
+  font-size: 12px;
+  font-weight: 700;
+}

@@ -38,7 +38,10 @@ import ModelosPanel from "./ModelosPanel";
 import UbicacionPanel, { type Territorio } from "./UbicacionPanel";
 import CoordenadasPanel from "./CoordenadasPanel";
 import PredioPanel from "./PredioPanel";
-import RevisionPanel, { type Revision } from "./RevisionPanel";
+import RevisionPanel, { type FormatoInforme, type Revision } from "./RevisionPanel";
+import { informeHtml, informeJson, nombreArchivoInforme, predioInforme, tituloInforme, type Informe } from "@/lib/informe/informe";
+import { informeExcel } from "@/lib/informe/excel";
+import { descargarArchivo, imprimirHtml } from "@/lib/informe/descargar";
 import ElementoPanel from "./ElementoPanel";
 
 const Viewer = dynamic(() => import("@/components/Viewer"), { ssr: false });
@@ -780,8 +783,74 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
         ...(!parcel.groundConfirmed ? [alerta(`Suelo natural supuesto en Z = ${n(parcel.naturalGroundZ)} m: confírmelo en «Deslindes…».`)] : []),
         ...(!parcel.positionConfirmed ? [alerta("Posición del modelo en el predio sin verificar: confírmela en «Deslindes…».")] : []),
       ];
+
+  // --- Informes (MVP-W3): PDF, Excel y JSON de la última revisión, generados en el navegador -----------------------
+  const buildReport = (): Informe | null => {
+    if (!revision || revision.evaluation.results.length === 0) return null;
+    const statusLines = revision.statusLine.split(/\r?\n/).filter((l) => l.trim() !== "");
+    const warnings = [...parcelAlerts, ...locationAlerts, ...coordinateAlerts].filter((a) => a.severity === "warn" || a.severity === "danger").map((a) => a.text);
+    const projectLines: { label: string; value: string }[] = [];
+    if (project.nombre.trim()) projectLines.push({ label: "Proyecto", value: project.nombre.trim() });
+    if (location) projectLines.push({ label: "Ubicación", value: `${SOURCE_LABELS[location.source] ?? location.source} · ${n(location.center.latitude, 6)}, ${n(location.center.longitude, 6)}` });
+    const territoryLines: { label: string; value: string }[] = [];
+    if (analysis?.comuna) territoryLines.push({ label: "Comuna", value: `${analysis.comuna.nombre} (${analysis.comuna.region})` });
+    if (analysis?.instrument) territoryLines.push({ label: "Instrumento", value: analysis.instrument.nombre });
+    for (const z of analysis?.zones ?? []) territoryLines.push({ label: "Zona del PRC", value: `${z.code} ${z.name} (${z.layer}${z.sharePercent < 100 ? `, ${n(z.sharePercent, 0)} % del predio` : ""})` });
+    for (const t of analysis?.notes ?? []) territoryLines.push({ label: "Territorio", value: t });
+    const expected = new Map(project.expected.map((m) => [m.sha256, m]));
+    const zone = analysis?.zones[0] ? `${analysis.zones[0].code} ${analysis.zones[0].name}` : null;
+    return {
+      kind: revision.tipo === "cabida" ? "Estudio de cabida" : "Revisión normativa geométrica",
+      generatedAt: new Date().toISOString(),
+      appVersion: "web 0.1",
+      projectName: project.nombre.trim() || null,
+      permit: project.tramite,
+      project: projectLines,
+      models: models.map((m) => ({
+        fileName: m.name,
+        discipline: expected.get(m.sha256)?.disciplina ?? "Arquitectura",
+        condition: expected.get(m.sha256)?.condicion ?? "Proyectado",
+        sha256: m.sha256,
+        elementCount: m.elementCount,
+      })),
+      territory: territoryLines,
+      parcel: parcel ? predioInforme(parcel) : null,
+      zone,
+      status: statusLines[0] ?? null,
+      warnings: [...new Set([...warnings, ...statusLines.slice(1).map((l) => l.replace(/^⚠\s*/, ""))])],
+      results: revision.evaluation.results,
+    };
+  };
+
+  const exportReport = (format: FormatoInforme) => {
+    const report = buildReport();
+    if (!report) {
+      log("warn", "No hay una revisión que informar: ejecute primero la revisión o la cabida.");
+      return;
+    }
+    const base = nombreArchivoInforme(report);
+    try {
+      if (format === "json") descargarArchivo(`${base}.json`, informeJson(report), "application/json");
+      else if (format === "xlsx") descargarArchivo(`${base}.xlsx`, informeExcel(report) as BlobPart, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+      else imprimirHtml(informeHtml(report), tituloInforme(report));
+      log("info", format === "pdf" ? "Informe PDF: en el diálogo de impresión elija «Guardar como PDF»." : `Informe descargado: ${base}.${format}`);
+    } catch (error) {
+      log("error", `No se pudo generar el informe: ${error instanceof Error ? error.message : String(error)}`);
+    }
+  };
+  // Datos del predio que la revisión necesita para ser efectiva (RN-06): sin ellos las reglas quedan en «Revisión requerida».
+  const parcelPending: string[] = parcel
+    ? [
+        ...(frame && frame.elevation === null && !placement?.elevation ? ["cota del modelo (georreferencia: hoy es automática, apoyada en el terreno)"] : []),
+        ...(!parcel.positionConfirmed ? ["posición del modelo en el predio (verificada)"] : []),
+        ...(!parcel.groundConfirmed ? [`suelo natural en Z (hoy supuesto en ${n(parcel.naturalGroundZ)} m)`] : []),
+        ...(parcel.edges.some((e) => e.kind === "Frente" && e.officialLinesWidth === null) ? ["ancho entre líneas oficiales de cada frente (CIP)"] : []),
+      ]
+    : [];
+  const parcelChecklist: Alerta[] = parcelPending.length > 0 ? [alerta(`Para que la revisión sea efectiva complete en el predio: ${parcelPending.join(" · ")}. Se editan en «Deslindes…» (pestaña Predio) y en «Georreferenciar…» (Coordenadas).`)] : [];
   const reviewAlerts: Alerta[] = [
     ...(reviewError ? [alerta(reviewError, reviewError.startsWith("No se pudo") ? "danger" : "warn")] : []),
+    ...parcelChecklist,
     ...(!revision && !reviewing && !reviewError
       ? models.length === 0 && !isSiteStudy
         ? [alerta("Abra un modelo IFC o indique una ubicación sin modelo (pestaña Coordenadas) para un estudio de cabida.", "info")]
@@ -956,6 +1025,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
             onRun={() => void review()}
             onCancel={cancelReview}
             onShowElements={showElements}
+            onExport={exportReport}
           />
         )}
       </aside>

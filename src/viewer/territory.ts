@@ -2,6 +2,10 @@
 // árboles y volúmenes de altura máxima del PRC. Todo llega del host en coordenadas del modelo.
 import * as THREE from "three";
 import { mergeGeometries } from "three/examples/jsm/utils/BufferGeometryUtils.js";
+import { Line2 } from "three/examples/jsm/lines/Line2.js";
+import { LineGeometry } from "three/examples/jsm/lines/LineGeometry.js";
+import { LineMaterial } from "three/examples/jsm/lines/LineMaterial.js";
+import { CSS2DObject } from "three/examples/jsm/renderers/CSS2DRenderer.js";
 import type { BncViewer } from "./viewer";
 import type { TerritoryScene } from "./protocol";
 
@@ -32,7 +36,12 @@ interface Layers {
   buildings: THREE.Group;
   trees: THREE.InstancedMesh | null;
   heights: THREE.Group;
+  parcel: THREE.Group | null;
 }
+
+/** Deslindes del predio: línea vectorial de ancho fijo en píxeles, 0,3 m sobre el terreno. */
+const PARCEL_LINE_PX = 3;
+const PARCEL_LIFT = 0.3;
 
 /**
  * Escena de ciudad alrededor del proyecto. Las coordenadas del modelo (X este, Y norte, Z arriba,
@@ -43,6 +52,9 @@ export class TerritoryContext {
   readonly group = new THREE.Group();
   private scene: TerritoryScene | null = null;
   private layers: Layers | null = null;
+  /** Materiales de líneas gruesas: necesitan la resolución del lienzo y se actualizan al redimensionar. */
+  private readonly fatLines: LineMaterial[] = [];
+  private resizeHooked = false;
   private groundStyle: GroundStyle = "plano";
   private showZones = true;
   private savedFar: number[] = [];
@@ -96,9 +108,11 @@ export class TerritoryContext {
     const trees = this.buildTrees(scene);
     const heights = this.buildHeights(scene);
     heights.visible = false;
+    const parcel = this.buildParcel(scene);
     this.group.add(ground, buildings, heights);
     if (trees) this.group.add(trees);
-    this.layers = { ground, buildings, trees, heights };
+    if (parcel) this.group.add(parcel);
+    this.layers = { ground, buildings, trees, heights, parcel };
 
     if (!this.group.parent) this.viewer.world.scene.three.add(this.group);
     // Las mediciones y el punto bajo el cursor también funcionan sobre el terreno y los edificios.
@@ -193,9 +207,73 @@ export class TerritoryContext {
         }
       }
     });
+    // Las etiquetas CSS2D quitan su elemento del DOM al salir de la escena (evento «removed»).
     this.group.clear();
+    this.fatLines.length = 0;
     this.layers = null;
     this.scene = null;
+  }
+
+  // --- Predio ----------------------------------------------------------------------------------
+
+  /**
+   * Deslindes como líneas vectoriales (ancho constante en pantalla) con el color de su tipo, siguiendo el terreno,
+   * y una etiqueta por deslinde con su número y su largo, legible como las cotas de las mediciones.
+   */
+  private buildParcel(scene: TerritoryScene): THREE.Group | null {
+    const ring = scene.parcel;
+    if (!ring || ring.length < 6) return null;
+    const group = new THREE.Group();
+    group.name = "predio";
+    const renderer = this.viewer.world.renderer;
+    const size = renderer?.getSize() ?? new THREE.Vector2(1, 1);
+    if (renderer && !this.resizeHooked) {
+      this.resizeHooked = true;
+      renderer.onResize.add((s) => {
+        for (const m of this.fatLines) m.resolution.set(s.x, s.y);
+      });
+    }
+    const n = ring.length / 2;
+    for (let k = 0; k < n; k++) {
+      const [ax, ay, bx, by] = [ring[2 * k], ring[2 * k + 1], ring[(2 * k + 2) % ring.length], ring[(2 * k + 3) % ring.length]];
+      const kind = scene.parcelKinds?.[k] ?? "Vecino";
+      const color = COLORS.parcel[kind] ?? COLORS.parcel.Vecino;
+      const length = Math.hypot(bx - ax, by - ay);
+      const steps = Math.max(1, Math.ceil(length / 2));
+      const positions: number[] = [];
+      for (let t = 0; t <= steps; t++) {
+        const x = ax + ((bx - ax) * t) / steps;
+        const y = ay + ((by - ay) * t) / steps;
+        positions.push(x, this.groundAt(scene, x, y) + PARCEL_LIFT, -y);
+      }
+      const geometry = new LineGeometry();
+      geometry.setPositions(positions);
+      const material = new LineMaterial({ color, linewidth: PARCEL_LINE_PX, worldUnits: false, depthTest: false, depthWrite: false, transparent: true });
+      material.resolution.set(size.x, size.y);
+      this.fatLines.push(material);
+      const line = new Line2(geometry, material);
+      line.computeLineDistances();
+      line.renderOrder = 20;
+      line.name = `deslinde ${k + 1}`;
+      group.add(line);
+
+      const tag = document.createElement("div");
+      tag.className = "parcel-tag";
+      tag.style.setProperty("--tag", color);
+      const number = document.createElement("b");
+      number.textContent = String(k + 1);
+      const text = document.createElement("span");
+      text.textContent = `${length.toLocaleString("es-CL", { minimumFractionDigits: 2, maximumFractionDigits: 2 })} m`;
+      tag.append(number, text);
+      tag.title = `Deslinde ${k + 1} · ${kind === "AreaVerde" ? "Área verde" : kind}`;
+      const mx = (ax + bx) / 2;
+      const my = (ay + by) / 2;
+      const label = new CSS2DObject(tag);
+      label.position.set(mx, this.groundAt(scene, mx, my) + PARCEL_LIFT, -my);
+      label.name = `etiqueta deslinde ${k + 1}`;
+      group.add(label);
+    }
+    return group;
   }
 
   // --- Terreno ------------------------------------------------------------------------------
@@ -304,27 +382,7 @@ export class TerritoryContext {
       }
       ctx.setLineDash([]);
     }
-    if (scene.parcel && scene.parcel.length >= 6) {
-      // Predio: cada deslinde con el color de su tipo y su número (el mismo de la ventana «Deslindes»).
-      const ring = scene.parcel;
-      const n = ring.length / 2;
-      ctx.lineWidth = Math.max(2.5, 0.35 * scale);
-      ctx.font = `700 ${Math.round(Math.max(12, 2.2 * scale))}px Segoe UI, sans-serif`;
-      ctx.textAlign = "center";
-      ctx.textBaseline = "middle";
-      for (let k = 0; k < n; k++) {
-        const [ax, ay, bx, by] = [ring[2 * k], ring[2 * k + 1], ring[(2 * k + 2) % ring.length], ring[(2 * k + 3) % ring.length]];
-        const color = COLORS.parcel[scene.parcelKinds?.[k] ?? "Vecino"] ?? COLORS.parcel.Vecino;
-        ctx.strokeStyle = color;
-        ctx.beginPath();
-        ctx.moveTo(px(ax), py(ay));
-        ctx.lineTo(px(bx), py(by));
-        ctx.stroke();
-        ctx.fillStyle = color;
-        ctx.fillText(String(k + 1), px((ax + bx) / 2), py((ay + by) / 2));
-      }
-      ctx.textBaseline = "alphabetic";
-    }
+    // El predio ya no se pinta en la textura: son líneas vectoriales con etiqueta (buildParcel).
     if (scene.project) {
       ctx.strokeStyle = COLORS.project;
       ctx.lineWidth = Math.max(2, 0.6 * scale);

@@ -23,7 +23,11 @@ interface Props {
   onRun(): void;
   onCancel(): void;
   onShowElements(result: RuleResult): void;
+  /** Informe de la última revisión: PDF (impresión del navegador), Excel o JSON `bnc-report/1`. */
+  onExport(format: FormatoInforme): void;
 }
+
+export type FormatoInforme = "pdf" | "xlsx" | "json";
 
 const CHIP: Record<RuleState, string> = {
   Cumple: "var(--accent)",
@@ -35,7 +39,7 @@ const CHIP: Record<RuleState, string> = {
 };
 
 /** Pestaña Revisión: resumen, reglas R-01…R-11 (o C-… de la cabida) con estado, exigido, medido, fuentes y elementos. */
-export default function RevisionPanel({ revision, reviewing, progress, alerts, isSiteStudy, floorHeight, onFloorHeight, onRun, onCancel, onShowElements }: Props) {
+export default function RevisionPanel({ revision, reviewing, progress, alerts, isSiteStudy, floorHeight, onFloorHeight, onRun, onCancel, onShowElements, onExport }: Props) {
   const results = revision?.evaluation.results ?? [];
   const count = (s: RuleState) => results.filter((r) => r.state === s).length;
   const others = results.length - count("Cumple") - count("NoCumple") - count("RevisionRequerida");
@@ -66,6 +70,20 @@ export default function RevisionPanel({ revision, reviewing, progress, alerts, i
           </button>
         )}
       </div>
+      {results.length > 0 && !reviewing && (
+        <div className="small" style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center" }}>
+          <span className="muted">Informe</span>
+          <button className="btn small" onClick={() => onExport("pdf")} title="Abre el diálogo de impresión del navegador: elija «Guardar como PDF»">
+            PDF
+          </button>
+          <button className="btn small" onClick={() => onExport("xlsx")} title="Libro Excel: Resumen, Reglas, Fuentes, Elementos, Predio y Modelos">
+            Excel
+          </button>
+          <button className="btn small" onClick={() => onExport("json")} title="JSON bnc-report/1 para otros programas">
+            JSON
+          </button>
+        </div>
+      )}
       {isSiteStudy && (
         <div className="small" style={{ display: "flex", gap: 8, alignItems: "center" }}>
           <span className="muted">Piso a piso (m)</span>

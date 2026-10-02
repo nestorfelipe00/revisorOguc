@@ -18,6 +18,7 @@
     "@thatopen/components-front": "^3.4.4",
     "@thatopen/fragments": "^3.4.7",
     "camera-controls": "^3.1.2",
+    "fflate": "^0.8.3",
     "jsts": "^2.12.1",
     "leaflet": "^1.9.4",
     "next": "16.3.8",
