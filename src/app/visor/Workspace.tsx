@@ -22,8 +22,10 @@ import { fromGeographic, toGeographic, type GeoPoint } from "@/lib/territorio/ut
 import { centeredAt, crsFor, formatNumber, locationFromPlacement, parseNumber, placementFromFrame, siteLocation, type UserPlacement } from "@/lib/territorio/colocacion";
 import { EditorColocacion, type Direccion } from "@/lib/territorio/editorColocacion";
 import { importParcelGeoJson, parcelArea as parcelAreaOf, parcelFromVertices, rectangleParcel } from "@/lib/reglas/predio";
-import { fireRatingKey, RULE_STATE_LABELS, type ModelGeometry, type Parcel, type RuleResult, type RuleState } from "@/lib/reglas/tipos";
-import { construirContexto, parcelCenter } from "@/lib/revision/contexto";
+import { fireRatingKey, RULE_STATE_LABELS, type CabidaFloor, type ModelGeometry, type Parcel, type RuleResult, type RuleState } from "@/lib/reglas/tipos";
+import { NormCatalog } from "@/lib/reglas/normas";
+import { AJUSTES_CABIDA, cabidaPreliminar, datosDeEntrada, prepararEntradaCabida, type AjustesCabida, type ContextoCabida } from "@/lib/reglas/cabidaPreliminar";
+import { construirContexto, parcelCenter, type ContextoRevision } from "@/lib/revision/contexto";
 import { envelopeGrid, rasanteScene } from "@/lib/revision/escena";
 import { evaluarCabidaEnWorker, evaluarReglasEnWorker, RevisionCancelada, type EjecucionRevision } from "@/lib/revision/motorCliente";
 import { extraerGeometria } from "@/viewer/geometry";
@@ -39,10 +41,12 @@ import UbicacionPanel, { type Territorio } from "./UbicacionPanel";
 import CoordenadasPanel from "./CoordenadasPanel";
 import PredioPanel from "./PredioPanel";
 import RevisionPanel, { type FormatoInforme, type Revision } from "./RevisionPanel";
-import { informeHtml, informeJson, nombreArchivoInforme, predioInforme, tituloInforme, type Informe } from "@/lib/informe/informe";
+import { informeHtml, informeJson, nombreArchivoInforme, predioInforme, tituloInforme, type CabidaInforme, type Informe } from "@/lib/informe/informe";
 import { informeExcel } from "@/lib/informe/excel";
 import { descargarArchivo, imprimirHtml } from "@/lib/informe/descargar";
 import ElementoPanel from "./ElementoPanel";
+import CabidaPanel from "./CabidaPanel";
+import { laminasCabida, laminaSvg } from "./CabidaLaminas";
 import Comentarios from "@/components/Comentarios";
 
 const Viewer = dynamic(() => import("@/components/Viewer"), { ssr: false });
@@ -50,7 +54,7 @@ const MapaPanel = dynamic(() => import("./MapaPanel"), { ssr: false });
 
 // Panel izquierdo: todo lo del IFC (modelos y elemento). Panel derecho: proyecto, territorio, predio y revisión.
 type IfcTab = "modelos" | "elemento";
-type Tab = "proyecto" | "ubicacion" | "coordenadas" | "predio" | "revision";
+type Tab = "proyecto" | "ubicacion" | "coordenadas" | "predio" | "revision" | "cabida";
 const IFC_TABS: { id: IfcTab; label: string }[] = [
   { id: "modelos", label: "Modelos IFC" },
   { id: "elemento", label: "Elemento" },
@@ -61,6 +65,7 @@ const TABS: { id: Tab; label: string }[] = [
   { id: "coordenadas", label: "Coordenadas" },
   { id: "predio", label: "Predio" },
   { id: "revision", label: "Revisión" },
+  { id: "cabida", label: "Cabida" },
 ];
 
 const MAX_IFC_BYTES = 100 * 1024 * 1024;
@@ -99,6 +104,12 @@ const placementGeoreference = (p: UserPlacement): Georeference => ({
   lengthScale: 1,
 });
 
+/** Lo que la cabida preliminar toma de la consulta del predio: normativa, ficha de la zona principal, región y superficie. */
+function contextoCabida(c: ContextoRevision, parcel: Parcel): ContextoCabida {
+  const norms = new NormCatalog(c.oguc, c.local);
+  return { norms, zona: norms.zone(c.zoneCode), zonaCodigo: c.zoneCode, region: c.comuna?.region ?? null, superficiePredio: parcelAreaOf(parcel), notas: c.zoneNote ? [c.zoneNote] : [] };
+}
+
 function countStates(results: RuleResult[]): string {
   const order: RuleState[] = ["Cumple", "NoCumple", "RevisionRequerida", "NoVerificable", "NoAplica", "Informativo"];
   return order
@@ -131,6 +142,13 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
   const [reviewProgress, setReviewProgress] = useState<string | null>(null);
   const [reviewError, setReviewError] = useState<string | null>(null);
   const [floorHeight, setFloorHeight] = useState("2,7");
+  const [ajustesCabida, setAjustesCabida] = useState<AjustesCabida>(AJUSTES_CABIDA);
+  // Cabida 3D calculada (plantas del volumen teórico y el piso a piso con que se cortó) y consulta de la zona del predio.
+  const [cabida3D, setCabida3D] = useState<{ floors: CabidaFloor[]; floorHeight: number } | null>(null);
+  const [cabidaContexto, setCabidaContexto] = useState<{ parcel: Parcel; ctx: ContextoCabida | null; error: string | null } | null>(null);
+  const [cabidaError, setCabidaError] = useState<string | null>(null);
+  const [exportingCabida, setExportingCabida] = useState(false);
+  const cabidaSeq = useRef(0);
   const [lastPicked, setLastPicked] = useState<{ x: number; y: number; z: number } | null>(null);
   const [cityShown, setCityShown] = useState(false);
   const [mapOpen, setMapOpen] = useState<{ pickHint: string | null } | null>(null);
@@ -199,6 +217,8 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
     setParcelState(next);
     setRevision(null);
     setReviewError(null);
+    setCabida3D(null);
+    setCabidaError(null);
     api.current?.setEnvelope(null);
     api.current?.setRasantes(null);
   }, []);
@@ -292,6 +312,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
         setPlacement(p.campos.georef ?? null);
         setManualLocation(p.campos.ubicacion_manual ?? null);
         if (p.campos.piso_a_piso) setFloorHeight(p.campos.piso_a_piso);
+        if (p.campos.cabida) setAjustesCabida({ ...AJUSTES_CABIDA, ...p.campos.cabida });
         if (p.predio) setParcelState(p.predio);
         if (p.revision) {
           setRevision({
@@ -315,7 +336,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
         id: project.id,
         nombre: project.nombre,
         tramite: project.tramite,
-        campos: { georef: placement, ubicacion_manual: manualLocation, piso_a_piso: floorHeight },
+        campos: { georef: placement, ubicacion_manual: manualLocation, piso_a_piso: floorHeight, cabida: ajustesCabida },
         ubicacion: location?.center ?? null,
         ubicacion_fuente: location?.source ?? null,
         modelos: modelosGuardados(),
@@ -641,7 +662,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
 
   const cabida = async () => {
     if (!api.current) return;
-    setReviewError(null);
+    setCabidaError(null);
     const height = parseNumber(floorHeight);
     const missing = !parcel
       ? "Defina el predio: «Predio rectangular…», «Dibujar predio» o «Importar predio…»."
@@ -651,25 +672,26 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
           ? "La altura de piso a piso debe ser un número positivo (m)."
           : null;
     if (missing) {
-      setReviewError(missing);
+      setCabidaError(missing);
       return;
     }
     setReviewing(true);
     try {
       setReviewProgress("Calculando la cabida…");
       const contexto = await construirContexto(supabase, parcel!, frame!, [], { permitName: project.tramite });
+      setCabidaContexto({ parcel: parcel!, ctx: contextoCabida(contexto, parcel!), error: null });
       const run = evaluarCabidaEnWorker({ type: "cabida", oguc: contexto.oguc, local: contexto.local, input: contexto.input, floorHeight: height! });
       running.current = run;
       const study = await run.result;
       const statusLine = `Estudio de cabida · zona ${contexto.zoneCode ?? "sin PRC"} · predio ${n(study.lotArea)} m² · hasta ${n(study.buildableArea, 1)} m² en ${study.floors.length} piso${study.floors.length === 1 ? "" : "s"}${contexto.zoneNote ? ` · ${contexto.zoneNote}` : ""}`;
       setRevision({ tipo: "cabida", evaluation: study, statusLine });
+      setCabida3D({ floors: study.floors, floorHeight: height! });
       api.current.setEnvelope(envelopeGrid(study.volume));
       api.current.setRasantes(rasanteScene(study.rasantes));
       log("info", `${statusLine}.`);
-      setTab("revision");
     } catch (error) {
-      const message = error instanceof RevisionCancelada ? "Revisión cancelada." : `No se pudo calcular la cabida: ${error instanceof Error ? error.message : String(error)}`;
-      setReviewError(message);
+      const message = error instanceof RevisionCancelada ? "Cálculo de la cabida cancelado." : `No se pudo calcular la cabida: ${error instanceof Error ? error.message : String(error)}`;
+      setCabidaError(message);
       log(error instanceof RevisionCancelada ? "warn" : "error", message);
     } finally {
       running.current = null;
@@ -680,11 +702,10 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
 
   const review = async () => {
     if (!api.current) return;
-    if (isSiteStudy) return cabida();
     setReviewError(null);
     const missing =
       models.length === 0
-        ? "Abra un modelo IFC, o indique una ubicación sin modelo para un estudio de cabida."
+        ? "Abra un modelo IFC para revisar la normativa geométrica. Sin modelo, el estudio de cabida está en la pestaña Cabida."
         : !parcel
           ? "Defina el predio en la pestaña Predio."
           : !frame
@@ -753,6 +774,26 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
     else log("warn", "Identificador no reconocido: use #ExpressID (ej. #63) o un GlobalId de 22 caracteres.");
   };
 
+  // --- Cabida preliminar: zona del predio (una consulta por predio, al abrir la pestaña) y cálculo al instante ----------
+  const cabidaCtx = cabidaContexto && cabidaContexto.parcel === parcel ? cabidaContexto.ctx : null;
+  const cabidaLoading = tab === "cabida" && parcel !== null && frame !== null && cabidaContexto?.parcel !== parcel;
+  useEffect(() => {
+    if (tab !== "cabida" || !parcel || !frame || cabidaContexto?.parcel === parcel) return;
+    const seq = ++cabidaSeq.current;
+    construirContexto(supabase, parcel, frame, [], { permitName: project.tramite })
+      .then((c) => seq === cabidaSeq.current && setCabidaContexto({ parcel, ctx: contextoCabida(c, parcel), error: null }))
+      .catch((error: unknown) => seq === cabidaSeq.current && setCabidaContexto({ parcel, ctx: null, error: error instanceof Error ? error.message : String(error) }));
+  }, [tab, parcel, frame, cabidaContexto, supabase, project.tramite]);
+  const cabidaEntrada = useMemo(() => {
+    if (!cabidaCtx) return null;
+    // El volumen de la cabida 3D solo acota si se cortó con el mismo piso a piso.
+    const pp = parseNumber(floorHeight);
+    const volumen = cabida3D && pp !== null && Math.abs(cabida3D.floorHeight - pp) < 1e-9 ? cabida3D.floors : null;
+    return prepararEntradaCabida(cabidaCtx, ajustesCabida, floorHeight, volumen);
+  }, [cabidaCtx, ajustesCabida, floorHeight, cabida3D]);
+  const preliminar = useMemo(() => (cabidaEntrada?.entrada ? cabidaPreliminar(cabidaEntrada.entrada) : null), [cabidaEntrada]);
+  const laminas = useMemo(() => (preliminar && parcel ? laminasCabida(parcel, preliminar) : []), [preliminar, parcel]);
+
   // --- Alertas por pestaña (como en el escritorio) -------------------------------------------------------------------
   const geoLines = useMemo(
     () => models.map((m) => ({ name: m.name, lines: m.meta ? describeGeolocation(m.meta.geolocation) : ["⚠ No se pudieron leer los metadatos del IFC."] })),
@@ -784,12 +825,33 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
         ...(!parcel.groundConfirmed ? [alerta(`Suelo natural supuesto en Z = ${n(parcel.naturalGroundZ)} m: confírmelo en «Deslindes…».`)] : []),
         ...(!parcel.positionConfirmed ? [alerta("Posición del modelo en el predio sin verificar: confírmela en «Deslindes…».")] : []),
       ];
+  const faltantesCabida = preliminar ? datosDeEntrada(preliminar.entrada).filter((d) => d.origen === "Faltante").map((d) => d.label.toLowerCase()) : [];
+  const ppCabida = parseNumber(floorHeight);
+  const cabidaAlerts: Alerta[] = [
+    ...(cabidaError ? [alerta(cabidaError, cabidaError.startsWith("No se pudo") ? "danger" : "warn")] : []),
+    ...(!parcel ? [alerta("Sin predio. Defínalo en la pestaña Predio: importar GeoJSON, dibujarlo o crear uno rectangular.", "info")] : []),
+    ...(parcel && !frame ? [alerta("Indique la ubicación del predio en la pestaña Coordenadas.")] : []),
+    ...(cabidaLoading ? [alerta("Consultando la zona del PRC y su normativa…", "info")] : []),
+    ...(parcel && cabidaContexto?.parcel === parcel && cabidaContexto.error ? [alerta(`No se pudo consultar la zona del predio: ${cabidaContexto.error}`, "danger")] : []),
+    ...(cabidaCtx && !cabidaCtx.zona
+      ? [alerta(`Sin zona del PRC con normas cargadas para el predio${cabidaCtx.notas.length > 0 ? ` (${cabidaCtx.notas.join("; ")})` : ""}: indique coeficientes, altura y densidad desde el CIP.`)]
+      : (cabidaCtx?.notas.map((t) => alerta(`Zona del predio: ${t}.`)) ?? [])),
+    ...(cabidaEntrada?.errores.map((t) => alerta(t)) ?? []),
+    ...(faltantesCabida.length > 0 ? [alerta(`Datos faltantes: ${faltantesCabida.join(", ")}. Indíquelos desde el CIP; mientras tanto esos resultados quedan en «Revisión requerida».`)] : []),
+    ...(preliminar?.entrada.notasZona.filter((t) => !cabidaCtx?.notas.includes(t)).map((t) => alerta(t, "info")) ?? []),
+    ...(cabidaCtx && !cabida3D && !reviewing ? [alerta("Pulse «Calcular cabida» para acotar pisos y departamentos con el volumen teórico (rasantes) y verlo en el visor; también agrega la isométrica al informe.", "info")] : []),
+    ...(cabida3D && ppCabida !== null && Math.abs(cabida3D.floorHeight - ppCabida) > 1e-9 ? [alerta("El piso a piso cambió desde la cabida 3D: vuelva a «Calcular cabida» para acotar con el volumen teórico.")] : []),
+  ];
 
-  // --- Informes (MVP-W3): PDF, Excel y JSON de la última revisión, generados en el navegador -----------------------
-  const buildReport = (): Informe | null => {
-    if (!revision || revision.evaluation.results.length === 0) return null;
-    const statusLines = revision.statusLine.split(/\r?\n/).filter((l) => l.trim() !== "");
-    const warnings = [...parcelAlerts, ...locationAlerts, ...coordinateAlerts].filter((a) => a.severity === "warn" || a.severity === "danger").map((a) => a.text);
+  // --- Informes (MVP-W3): PDF, Excel y JSON de la última revisión o de la cabida, generados en el navegador -----------
+  const buildReport = (cabida: CabidaInforme | null = null): Informe | null => {
+    const results = cabida ? (revision?.tipo === "cabida" ? revision.evaluation.results : []) : (revision?.evaluation.results ?? []);
+    if (!cabida && results.length === 0) return null;
+    const p = cabida?.preliminar;
+    const statusLines = p
+      ? [`Cabida preliminar · zona ${p.entrada.zona ?? "sin PRC"} · predio ${n(p.entrada.superficiePredio)} m² · ${p.departamentos ?? "—"} departamentos en ${p.numeroPisos ?? "—"} pisos`]
+      : (revision?.statusLine ?? "").split(/\r?\n/).filter((l) => l.trim() !== "");
+    const warnings = [...parcelAlerts, ...locationAlerts, ...coordinateAlerts, ...(cabida ? cabidaAlerts : [])].filter((a) => a.severity === "warn" || a.severity === "danger").map((a) => a.text);
     const projectLines: { label: string; value: string }[] = [];
     if (project.nombre.trim()) projectLines.push({ label: "Proyecto", value: project.nombre.trim() });
     if (location) projectLines.push({ label: "Ubicación", value: `${SOURCE_LABELS[location.source] ?? location.source} · ${n(location.center.latitude, 6)}, ${n(location.center.longitude, 6)}` });
@@ -801,7 +863,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
     const expected = new Map(project.expected.map((m) => [m.sha256, m]));
     const zone = analysis?.zones[0] ? `${analysis.zones[0].code} ${analysis.zones[0].name}` : null;
     return {
-      kind: revision.tipo === "cabida" ? "Estudio de cabida" : "Revisión normativa geométrica",
+      kind: cabida ? "Informe de cabida" : revision?.tipo === "cabida" ? "Estudio de cabida" : "Revisión normativa geométrica",
       generatedAt: new Date().toISOString(),
       appVersion: "web 0.1",
       projectName: project.nombre.trim() || null,
@@ -819,8 +881,45 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
       zone,
       status: statusLines[0] ?? null,
       warnings: [...new Set([...warnings, ...statusLines.slice(1).map((l) => l.replace(/^⚠\s*/, ""))])],
-      results: revision.evaluation.results,
+      results,
+      cabidaPreliminar: cabida,
     };
+  };
+
+  /** Informe de cabida: la isométrica se captura del visor solo para PDF y JSON; si falla, el informe sale igual con el motivo. */
+  const exportCabida = async (format: FormatoInforme) => {
+    if (!preliminar) {
+      log("warn", "No hay una cabida que informar: defina el predio y espere la consulta de su zona.");
+      return;
+    }
+    setExportingCabida(true);
+    try {
+      let isometrica: string | null = null;
+      let isometricaError: string | null = null;
+      if (format !== "xlsx") {
+        if (!api.current?.envelope.loaded) {
+          isometricaError = "Sin cabida 3D: pulse «Calcular cabida» para incluir la isométrica del visor.";
+        } else {
+          try {
+            isometrica = await api.current.capturarIsometrica();
+          } catch (error) {
+            isometricaError = `No se pudo capturar la isométrica del visor: ${error instanceof Error ? error.message : String(error)}`;
+            log("warn", isometricaError);
+          }
+        }
+      }
+      const report = buildReport({ preliminar, laminas: laminas.map((l) => ({ titulo: l.titulo, svg: laminaSvg(l) })), isometrica, isometricaError });
+      if (!report) return;
+      const base = nombreArchivoInforme(report);
+      if (format === "json") descargarArchivo(`${base}.json`, informeJson(report), "application/json");
+      else if (format === "xlsx") descargarArchivo(`${base}.xlsx`, informeExcel(report) as BlobPart, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+      else imprimirHtml(informeHtml(report), tituloInforme(report));
+      log("info", format === "pdf" ? "Informe de cabida: en el diálogo de impresión elija «Guardar como PDF»." : `Informe de cabida descargado: ${base}.${format}`);
+    } catch (error) {
+      log("error", `No se pudo generar el informe de cabida: ${error instanceof Error ? error.message : String(error)}`);
+    } finally {
+      setExportingCabida(false);
+    }
   };
 
   const exportReport = (format: FormatoInforme) => {
@@ -853,8 +952,8 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
     ...(reviewError ? [alerta(reviewError, reviewError.startsWith("No se pudo") ? "danger" : "warn")] : []),
     ...parcelChecklist,
     ...(!revision && !reviewing && !reviewError
-      ? models.length === 0 && !isSiteStudy
-        ? [alerta("Abra un modelo IFC o indique una ubicación sin modelo (pestaña Coordenadas) para un estudio de cabida.", "info")]
+      ? models.length === 0
+        ? [alerta("Abra un modelo IFC para revisar la normativa geométrica. Sin modelo, el estudio de cabida está en la pestaña Cabida.", "info")]
         : !parcel
           ? [alerta("Defina el predio en la pestaña Predio antes de revisar.", "info")]
           : !frame
@@ -1021,13 +1120,28 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
             reviewing={reviewing}
             progress={reviewProgress}
             alerts={reviewAlerts}
-            isSiteStudy={isSiteStudy}
-            floorHeight={floorHeight}
-            onFloorHeight={setFloorHeight}
             onRun={() => void review()}
             onCancel={cancelReview}
             onShowElements={showElements}
             onExport={exportReport}
+          />
+        )}
+        {tab === "cabida" && (
+          <CabidaPanel
+            alerts={cabidaAlerts}
+            ajustes={ajustesCabida}
+            onAjustes={setAjustesCabida}
+            floorHeight={floorHeight}
+            onFloorHeight={setFloorHeight}
+            zona={cabidaCtx?.zona ?? null}
+            preliminar={preliminar}
+            laminas={laminas}
+            reviewing={reviewing}
+            progress={reviewProgress}
+            exporting={exportingCabida}
+            onCalcular={() => void cabida()}
+            onCancel={cancelReview}
+            onExport={(format) => void exportCabida(format)}
           />
         )}
       </aside>

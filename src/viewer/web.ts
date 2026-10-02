@@ -1,5 +1,7 @@
 // Entrada del visor para la web: reemplaza a main.ts (escritorio). Arma el visor That Open con sus herramientas dentro de un
 // contenedor y expone una API para React; no hay host C#, así que los mensajes del protocolo se atienden aquí mismo.
+import * as THREE from "three";
+import { CSS2DObject } from "three/examples/jsm/renderers/CSS2DRenderer.js";
 import { BncViewer } from "./viewer";
 import { ViewerTools } from "./tools";
 import { Toolbar } from "./toolbar";
@@ -216,6 +218,104 @@ export class WebViewer {
   /** No se pudo armar la ciudad 3D: la barra explica el motivo. */
   cityUnavailable(reason: string): void {
     this.toolbar.cityUnavailable(reason);
+  }
+
+  /**
+   * Isométrica de la cabida para el informe: perspectiva desde el suroriente que encuadra el predio, el volumen teórico y las
+   * rasantes, con las alturas máximas del PRC y la ciudad si está cargada. Renderiza al doble de resolución, dibuja encima las
+   * etiquetas del predio (son HTML: no están en el lienzo) y devuelve un PNG como data URL. La vista del usuario queda como estaba.
+   */
+  async capturarIsometrica(): Promise<string> {
+    if (!this.envelope.loaded) throw new Error("calcule primero la cabida 3D.");
+    if (this.quick.isActive) throw new Error("termine primero la colocación rápida.");
+    const world = this.viewer.world;
+    const camera = world.camera;
+    const controls = camera.controls;
+    const renderer = world.renderer!.three;
+    const saved = {
+      projection: camera.projection.current,
+      position: controls.getPosition(new THREE.Vector3()),
+      target: controls.getTarget(new THREE.Vector3()),
+      pixelRatio: renderer.getPixelRatio(),
+      envelope: this.envelope.group.visible,
+      rasantes: this.rasantes.group.visible,
+      city: this.city.visible,
+      heights: this.city.heightsVisible,
+    };
+    try {
+      this.envelope.setVisible(true);
+      this.rasantes.setVisible(true);
+      if (this.city.loaded) {
+        if (!saved.city) this.city.setVisible(true);
+        this.city.setHeightsVisible(true);
+      }
+      if (saved.projection !== "Perspective") await camera.projection.set("Perspective");
+      const box = new THREE.Box3().setFromObject(this.envelope.group);
+      if (this.rasantes.loaded) box.union(new THREE.Box3().setFromObject(this.rasantes.group));
+      const parcel = this.city.loaded ? this.city.group.getObjectByName("predio") : undefined;
+      if (parcel) box.union(new THREE.Box3().setFromObject(parcel));
+      const center = box.getCenter(new THREE.Vector3());
+      const d = Math.max(box.getSize(new THREE.Vector3()).length(), 20);
+      // Visor: X este, Y arriba, Z sur. Desde el suroriente: +X y +Z.
+      await controls.setLookAt(center.x + d, center.y + d * 0.8, center.z + d, center.x, center.y, center.z, false);
+      await controls.fitToSphere(box.getBoundingSphere(new THREE.Sphere()), false).catch(() => {});
+      controls.update(0);
+      await this.viewer.fragments.core.update(true);
+      renderer.setPixelRatio(2);
+      // Sin preserveDrawingBuffer el lienzo solo es legible justo después de renderizar: se copia en el mismo turno.
+      renderer.render(world.scene.three, camera.three);
+      const canvas = renderer.domElement;
+      const out = document.createElement("canvas");
+      out.width = canvas.width;
+      out.height = canvas.height;
+      const ctx = out.getContext("2d");
+      if (!ctx) throw new Error("el navegador no permite componer la imagen.");
+      ctx.drawImage(canvas, 0, 0);
+      this.drawLabels(ctx, camera.three, out.width, out.height, out.width / Math.max(1, canvas.clientWidth));
+      return out.toDataURL("image/png");
+    } finally {
+      renderer.setPixelRatio(saved.pixelRatio);
+      this.envelope.setVisible(saved.envelope);
+      this.rasantes.setVisible(saved.rasantes);
+      if (this.city.loaded) {
+        this.city.setHeightsVisible(saved.heights);
+        if (!saved.city) this.city.setVisible(false);
+      }
+      if (saved.projection !== "Perspective") await camera.projection.set(saved.projection);
+      const { position: p, target: t } = saved;
+      await controls.setLookAt(p.x, p.y, p.z, t.x, t.y, t.z, false);
+      controls.update(0);
+      void this.viewer.fragments.core.update(true);
+    }
+  }
+
+  /** Etiquetas CSS2D visibles (deslindes del predio, mediciones) dibujadas en la imagen, en su posición proyectada. */
+  private drawLabels(ctx: CanvasRenderingContext2D, camera: THREE.Camera, width: number, height: number, scale: number): void {
+    const v = new THREE.Vector3();
+    ctx.font = `600 ${Math.round(12 * scale)}px "Segoe UI", Arial, sans-serif`;
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    this.viewer.world.scene.three.traverseVisible((object) => {
+      if (!(object instanceof CSS2DObject)) return;
+      object.getWorldPosition(v).project(camera);
+      if (v.z < -1 || v.z > 1) return;
+      const parts = [...object.element.children].map((c) => c.textContent?.trim() ?? "").filter((t) => t !== "");
+      const text = parts.length > 0 ? parts.join(" · ") : (object.element.textContent?.trim() ?? "");
+      if (!text) return;
+      const x = ((v.x + 1) / 2) * width;
+      const y = ((1 - v.y) / 2) * height;
+      const w = ctx.measureText(text).width + 12 * scale;
+      const h = 20 * scale;
+      ctx.beginPath();
+      ctx.roundRect(x - w / 2, y - h / 2, w, h, 4 * scale);
+      ctx.fillStyle = "rgba(255, 255, 255, 0.92)";
+      ctx.fill();
+      ctx.lineWidth = 2 * scale;
+      ctx.strokeStyle = object.element.style.getPropertyValue("--tag") || "#1b1f23";
+      ctx.stroke();
+      ctx.fillStyle = "#1b1f23";
+      ctx.fillText(text, x, y);
+    });
   }
 
   /** Resistencia al fuego declarada (propiedad FireRating) de los elementos indicados, por ExpressID. */

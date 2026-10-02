@@ -17,9 +17,6 @@ interface Props {
   reviewing: boolean;
   progress: string | null;
   alerts: Alerta[];
-  isSiteStudy: boolean;
-  floorHeight: string;
-  onFloorHeight(value: string): void;
   onRun(): void;
   onCancel(): void;
   onShowElements(result: RuleResult): void;
@@ -39,7 +36,7 @@ const CHIP: Record<RuleState, string> = {
 };
 
 /** Pestaña Revisión: resumen, reglas R-01…R-11 (o C-… de la cabida) con estado, exigido, medido, fuentes y elementos. */
-export default function RevisionPanel({ revision, reviewing, progress, alerts, isSiteStudy, floorHeight, onFloorHeight, onRun, onCancel, onShowElements, onExport }: Props) {
+export default function RevisionPanel({ revision, reviewing, progress, alerts, onRun, onCancel, onShowElements, onExport }: Props) {
   const results = revision?.evaluation.results ?? [];
   const count = (s: RuleState) => results.filter((r) => r.state === s).length;
   const others = results.length - count("Cumple") - count("NoCumple") - count("RevisionRequerida");
@@ -62,7 +59,7 @@ export default function RevisionPanel({ revision, reviewing, progress, alerts, i
       <Alertas items={alerts} />
       <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
         <button className="btn btn-primary" disabled={reviewing} onClick={onRun} title="Altura, rasantes, distanciamientos, adosamiento, antejardín, coeficientes y volumen teórico (OGUC + Ordenanza Local)">
-          {isSiteStudy ? "Calcular cabida" : "Revisar normativa geométrica"}
+          Revisar normativa geométrica
         </button>
         {reviewing && (
           <button className="btn" onClick={onCancel}>
@@ -84,16 +81,9 @@ export default function RevisionPanel({ revision, reviewing, progress, alerts, i
           </button>
         </div>
       )}
-      {isSiteStudy && (
-        <div className="small" style={{ display: "flex", gap: 8, alignItems: "center" }}>
-          <span className="muted">Piso a piso (m)</span>
-          <input className="input" style={{ width: 70 }} value={floorHeight} onChange={(e) => onFloorHeight(e.target.value)} aria-label="Piso a piso" title="Supuesto de diseño para repartir la cabida en pisos (no es una norma)" />
-          <span className="muted">supuesto de diseño</span>
-        </div>
-      )}
       {progress && <div className="muted small">{progress}</div>}
       {revision?.statusLine && <div className="muted small">{revision.statusLine}</div>}
-      {!revision && !reviewing && <p className="muted small">Sin revisión ejecutada. Con el predio definido, pulse «Revisar normativa geométrica» (con modelo) o «Calcular cabida» (sin modelo).</p>}
+      {!revision && !reviewing && <p className="muted small">Sin revisión ejecutada. Con el predio definido, pulse «Revisar normativa geométrica» (con modelo). El estudio de cabida está en la pestaña Cabida.</p>}
       {revision && "floors" in revision.evaluation && revision.evaluation.floors.length > 0 && (
         <details className="pset" open>
           <summary>Pisos de la cabida</summary>

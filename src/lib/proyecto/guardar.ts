@@ -4,6 +4,7 @@ import type { SupabaseClient } from "@supabase/supabase-js";
 import type { GeoPoint } from "@/lib/territorio/utm";
 import type { UserPlacement } from "@/lib/territorio/colocacion";
 import type { CabidaEvaluation, Parcel, RuleEvaluation, RuleResult } from "@/lib/reglas/tipos";
+import type { AjustesCabida } from "@/lib/reglas/cabidaPreliminar";
 
 export interface ModeloGuardado {
   nombre_archivo: string;
@@ -20,6 +21,8 @@ export interface CamposProyecto {
   georef?: UserPlacement | null;
   ubicacion_manual?: GeoPoint | null;
   piso_a_piso?: string;
+  /** Entradas de la pestaña Cabida (cifras del CIP y supuestos), tal como se escribieron. */
+  cabida?: AjustesCabida;
 }
 
 export interface ProyectoGuardado {

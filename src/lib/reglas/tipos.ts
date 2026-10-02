@@ -271,3 +271,116 @@ export interface CabidaEvaluation extends RuleEvaluation {
   floors: CabidaFloor[];
   buildableArea: number;
 }
+
+// ---------- Cabida preliminar (edificio de departamentos) ----------
+
+/**
+ * De dónde sale un dato: la ficha de la zona (PRC), la OGUC, el CIP que indica el usuario, un supuesto editable, el polígono del
+ * predio, la cabida 3D, o falta (el resultado que lo usa queda «Revisión requerida»).
+ */
+export type OrigenDato = "PRC" | "OGUC" | "CIP" | "Supuesto" | "Predio" | "Cabida3D" | "Faltante";
+
+/** Dato de entrada con su origen y, si es normativo, su fuente literal; advertencia: la ficha trae la cifra con una salvedad. */
+export interface DatoCabida {
+  valor: number | null;
+  origen: OrigenDato;
+  fuente: NormSource | null;
+  advertencia: string | null;
+}
+
+/** Un paso del desarrollo matemático: fórmula → valores sustituidos → resultado, con su fuente o el supuesto que usa. */
+export interface PasoDesarrollo {
+  concepto: string;
+  formula: string;
+  sustitucion: string;
+  resultado: number | null;
+  unidad: string;
+  fuentes: NormSource[];
+  supuestos: string[];
+}
+
+/** Resultado de la cabida preliminar (CP-01…CP-06): nunca «Cumple»; «Revisión requerida» si falta un dato. */
+export interface ItemCabida {
+  id: string;
+  titulo: string;
+  estado: RuleState;
+  resumen: string;
+  valor: number | null;
+  unidad: string;
+  desarrollo: PasoDesarrollo[];
+  fuentes: NormSource[];
+  notas: string[];
+}
+
+/** Qué limita el número de departamentos. */
+export type TopeDepartamentos = "superficie" | "densidad" | "altura" | "volumen";
+
+/** Piso de la cabida preliminar: superficie construida y útil, departamentos y mezcla sugerida [1D, 2D, 3D]. */
+export interface PisoCabidaPreliminar {
+  numero: number;
+  base: number;
+  top: number;
+  superficie: number;
+  util: number;
+  departamentos: number;
+  mezcla: [number, number, number];
+}
+
+/** Restricción adicional con su cita (rasantes, distanciamientos, antejardín, cesiones, estacionamientos). */
+export interface RestriccionCabida {
+  id: string;
+  titulo: string;
+  estado: RuleState;
+  texto: string;
+  fuentes: NormSource[];
+}
+
+/** Datos ya resueltos de la cabida preliminar (normas con su origen, supuestos y, si se calculó, el volumen de la cabida 3D). */
+export interface EntradaCabidaPreliminar {
+  superficiePredio: number;
+  zona: string | null;
+  ocupacion: DatoCabida;
+  constructibilidad: DatoCabida;
+  alturaMetros: DatoCabida;
+  alturaPisos: DatoCabida;
+  /** La ficha no fija altura máxima («sin tope»): la limitan las rasantes (solo la cabida 3D la resuelve). */
+  alturaLibre: boolean;
+  /** hab/ha; con densidadLibre la Ordenanza no fija densidad (declarado por el usuario desde el CIP). */
+  densidad: DatoCabida;
+  densidadLibre: boolean;
+  antejardin: DatoCabida;
+  razonEstacionamientos: DatoCabida;
+  pisoAPiso: number;
+  m2Departamento: number;
+  mezcla: [number, number, number];
+  /** Fracción de la superficie construible en circulaciones y muros (supuesto editable). */
+  circulaciones: number;
+  habPorVivienda: number;
+  m2Estacionamiento: number;
+  /** anchoMaximoFrente: sobre ese ancho entre líneas oficiales no hay rasante en el frente (art. 2.6.3). */
+  rasante: { angulo: number | null; region: string | null; fuentes: NormSource[]; advertencia: string | null; anchoMaximoFrente: number };
+  distanciamientos: { tabla: { upTo: number | null; withOpening: number; withoutOpening: number }[]; fuente: NormSource };
+  adosamiento: { largoPct: number; altura: number; angulo: number; fuentes: NormSource[] };
+  definiciones: { ocupacion: NormSource | null; constructibilidad: NormSource | null };
+  alturaMinimaPisoCielo: { metros: number; fuente: NormSource };
+  /** Plantas que admite el volumen teórico de la cabida 3D (envolvente de cada piso), o null si no se calculó. */
+  volumen: { numero: number; base: number; top: number; envolvente: number }[] | null;
+  notasZona: string[];
+}
+
+export interface CabidaPreliminar {
+  entrada: EntradaCabidaPreliminar;
+  /** CP-01 construible, CP-02 ocupación, CP-03 útil, CP-04 departamentos, CP-05 pisos, CP-06 estacionamientos. */
+  items: ItemCabida[];
+  tope: TopeDepartamentos | null;
+  pisos: PisoCabidaPreliminar[];
+  restricciones: RestriccionCabida[];
+  construible: number | null;
+  ocupacion: number | null;
+  util: number | null;
+  departamentos: number | null;
+  numeroPisos: number | null;
+  alturaEdificio: number | null;
+  estacionamientos: number | null;
+  superficieEstacionamientos: number | null;
+}

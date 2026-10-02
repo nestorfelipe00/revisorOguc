@@ -1,9 +1,11 @@
 // Libro Excel (.xlsx) del informe, escrito a mano como SpreadsheetML dentro de un zip (fflate): sin librería de hojas
 // de cálculo. Mismas hojas y columnas que ReportWriters.WriteExcel del escritorio: Resumen, Reglas, Fuentes,
-// Elementos, Predio y Modelos. Los textos van como cadenas en línea (nunca fórmulas) y las cifras como números.
+// Elementos, Predio y Modelos (y Cabida en el informe de cabida). Los textos van como cadenas en línea (nunca fórmulas)
+// y las cifras como números.
 import { zipSync, strToU8 } from "fflate";
-import { RULE_STATE_LABELS, citation, type RuleState } from "@/lib/reglas/tipos";
-import { DESCARGO_INFORME, ESTADOS, conteos, tituloInforme, type Informe } from "./informe";
+import { RULE_STATE_LABELS, citation, type CabidaPreliminar, type RuleState } from "@/lib/reglas/tipos";
+import { ORIGEN_LABELS, datosDeEntrada } from "@/lib/reglas/cabidaPreliminar";
+import { DESCARGO_CABIDA, DESCARGO_INFORME, ESTADOS, conteos, tituloInforme, type Informe } from "./informe";
 
 type Celda = string | number | null | { v: string | number | null; s?: Estilo };
 type Fila = Celda[];
@@ -174,7 +176,46 @@ export function hojasInforme(r: Informe): Hoja[] {
     for (const m of r.models) modelos.push([m.fileName, m.discipline, m.condition, m.elementCount, m.sha256 ?? ""]);
     hojas.push({ nombre: "Modelos", anchos: [40, 24, 14, 12, 70], filas: modelos, congelar: true });
   }
+  if (r.cabidaPreliminar) hojas.push(hojaCabida(r.cabidaPreliminar.preliminar));
   return hojas;
+}
+
+const redondo = (v: number | null, d = 2): number | null => (v === null ? null : Math.round(v * 10 ** d) / 10 ** d);
+
+/** Hoja «Cabida»: entradas con su origen, desarrollo paso a paso, tabla por piso, estacionamientos y restricciones (sin imágenes). */
+function hojaCabida(c: CabidaPreliminar): Hoja {
+  const filas: Fila[] = [[{ v: "Cabida preliminar (edificio de departamentos)", s: Estilo.Titulo }], [DESCARGO_CABIDA], []];
+  filas.push([{ v: "Datos de entrada", s: Estilo.Negrita }], enc(["Dato", "Valor", "Origen", "Fuente", "Texto literal"]));
+  for (const d of datosDeEntrada(c.entrada)) filas.push([d.label, d.value, ORIGEN_LABELS[d.origen], d.fuente ? citation(d.fuente) : "", d.fuente?.quote ?? ""]);
+
+  filas.push([], [{ v: "Desarrollo matemático", s: Estilo.Negrita }], enc(["Punto", "Estado", "Paso", "Fórmula", "Sustitución", "Resultado", "Unidad", "Supuestos", "Fuentes"]));
+  for (const item of c.items) {
+    for (const p of item.desarrollo) {
+      filas.push([
+        `${item.id} ${item.titulo}`,
+        { v: RULE_STATE_LABELS[item.estado], s: estiloEstado(item.estado) },
+        p.concepto,
+        p.formula,
+        p.sustitucion,
+        redondo(p.resultado),
+        p.unidad,
+        p.supuestos.join("\n"),
+        p.fuentes.map((s) => `${citation(s)}: «${s.quote}»`).join("\n"),
+      ]);
+    }
+  }
+
+  filas.push([], [{ v: "Tabla por piso", s: Estilo.Negrita }], enc(["Piso", "Base (m)", "Techo (m)", "Superficie (m²)", "Útil (m²)", "Departamentos", "1D", "2D", "3D"]));
+  for (const p of c.pisos) filas.push([p.numero, redondo(p.base), redondo(p.top), redondo(p.superficie), redondo(p.util), p.departamentos, ...p.mezcla]);
+
+  filas.push([], [{ v: "Estacionamientos", s: Estilo.Negrita }]);
+  filas.push(["Estacionamientos", c.estacionamientos], ["Superficie estimada (m²)", redondo(c.superficieEstacionamientos)], ["m² por estacionamiento (supuesto)", c.entrada.m2Estacionamiento]);
+
+  filas.push([], [{ v: "Restricciones", s: Estilo.Negrita }], enc(["Restricción", "Estado", "Texto", "Fuentes"]));
+  for (const x of c.restricciones) {
+    filas.push([x.titulo, { v: RULE_STATE_LABELS[x.estado], s: estiloEstado(x.estado) }, x.texto, x.fuentes.map((s) => `${citation(s)}: «${s.quote}»`).join("\n")]);
+  }
+  return { nombre: "Cabida", anchos: [34, 30, 26, 50, 50, 14, 14, 40, 50], filas, congelar: false };
 }
 
 /** Bytes del .xlsx. */
