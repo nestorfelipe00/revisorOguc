@@ -1,7 +1,7 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
-const PUBLIC_PATHS = ["/ingresar", "/auth/", "/_next/", "/wasm/", "/fragments-worker.mjs", "/favicon.ico"];
+const PUBLIC_PATHS = ["/ingresar", "/auth/", "/_next/", "/wasm/", "/fragments-worker.mjs", "/favicon.ico", "/privacidad.html"];
 
 const supabaseHost = (() => {
   try {
