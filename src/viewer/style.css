@@ -537,6 +537,7 @@ button.small:hover {
   flex-wrap: wrap;
   gap: 6px;
   justify-content: center;
+  width: max-content;
   max-width: calc(100% - 24px);
   padding: 8px;
   background: rgba(35, 40, 45, 0.97);
@@ -636,4 +637,49 @@ button.tool.suggest {
 
 body.quick-active .legend {
   display: none;
+}
+
+/* Colocación rápida: deslizador vertical para subir o bajar el modelo con el cursor */
+.quick-z-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-right: 6px;
+  padding-right: 8px;
+  border-right: 1px solid #3a4148;
+  font-size: 11px;
+  color: #8e969e;
+}
+
+.quick-z {
+  width: 90px;
+  accent-color: #1fb6c9;
+  cursor: ns-resize;
+}
+
+/* Colocación rápida: conmutador de vista (planta / isométrica) */
+.quick-views {
+  display: inline-flex;
+  margin-right: 6px;
+  padding-right: 8px;
+  border-right: 1px solid #3a4148;
+}
+
+.quick-views button.quick-view {
+  border-radius: 0;
+}
+
+.quick-views button.quick-view:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.quick-views button.quick-view:last-child {
+  border-radius: 0 4px 4px 0;
+  margin-left: -1px;
+}
+
+.quick-views button.quick-view.active {
+  background: rgba(31, 182, 201, 0.25);
+  border-color: var(--accent);
+  color: #fff;
 }

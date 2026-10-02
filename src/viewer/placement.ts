@@ -12,11 +12,18 @@ export class PlacementPanel {
   private readonly box = document.createElement("div");
   private state: PlacementState | null = null;
 
+  private readonly onKeyBound = (e: KeyboardEvent) => this.onKey(e);
+
   constructor(root: HTMLElement, private readonly send: Send) {
     this.box.className = "placement";
     this.box.hidden = true;
     root.append(this.box);
-    window.addEventListener("keydown", (e) => this.onKey(e), true);
+    window.addEventListener("keydown", this.onKeyBound, true);
+  }
+
+  dispose(): void {
+    window.removeEventListener("keydown", this.onKeyBound, true);
+    this.box.remove();
   }
 
   get isOpen(): boolean {

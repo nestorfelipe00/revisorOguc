@@ -1,5 +1,5 @@
-// Colocación rápida (SRS-GEO-001): vista plano de ubicación en planta cenital, arrastrar el modelo para moverlo y
-// girarlo con el anillo o con giros fijos de 90° y 180°. La vista previa es local (se transforma el objeto del modelo
+// Colocación rápida (SRS-GEO-001): vista plano de ubicación en planta cenital (o isométrica, para ver la cota), arrastrar
+// el modelo para moverlo y girarlo con el anillo o con giros fijos de 90° y 180°. La vista previa es local (se transforma el objeto del modelo
 // en pantalla); al soltar se envía un único cambio al host, que rehace la ciudad con la cámara quieta sobre ella.
 import * as THREE from "three";
 import CameraControls from "camera-controls";
@@ -23,6 +23,13 @@ interface Drag {
   dy: number;
   rot: number;
 }
+
+/** Control vertical: arrastrar el deslizador sube o baja el modelo (m); al soltar se envía `elevate` al host. */
+const Z_RANGE = 5;
+
+/** Vista de trabajo: isométrica en perspectiva (se aprecia la cota; el botón derecho orbita) o planta cenital ortogonal. */
+type QuickView = "plan" | "iso";
+const ISO_MAX_POLAR = 1.45; // rad: la cámara no baja del horizonte
 
 interface SavedCamera {
   orthographic: boolean;
@@ -49,6 +56,13 @@ export class QuickPlacement {
   private plane = new THREE.Plane(new THREE.Vector3(0, 1, 0), 0);
   private handle = new THREE.Vector3();
   private footprint: THREE.Vector2[] = [];
+  private readonly zSlider = document.createElement("input");
+  private dz = 0;
+  private view: QuickView = "iso";
+  private readonly onPointerDownBound = (e: PointerEvent) => this.onPointerDown(e);
+  private readonly onPointerMoveBound = (e: PointerEvent) => this.onPointerMove(e);
+  private readonly onPointerUpBound = (e: PointerEvent) => this.onPointerUp(e);
+  private readonly onKeyBound = (e: KeyboardEvent) => this.onKey(e);
 
   constructor(
     private readonly viewer: BncViewer,
@@ -59,14 +73,56 @@ export class QuickPlacement {
     this.readout.className = "quick-readout";
     this.confirmBox.className = "quick-confirm";
     this.bar.hidden = this.readout.hidden = this.confirmBox.hidden = true;
-    document.body.append(this.readout, this.confirmBox, this.bar);
+    container.append(this.readout, this.confirmBox, this.bar);
     this.gizmo.name = "colocación rápida";
     this.gizmo.renderOrder = 10;
 
-    container.addEventListener("pointerdown", (e) => this.onPointerDown(e), { capture: true });
-    window.addEventListener("pointermove", (e) => this.onPointerMove(e));
-    window.addEventListener("pointerup", (e) => this.onPointerUp(e));
-    window.addEventListener("keydown", (e) => this.onKey(e), true);
+    const z = this.zSlider;
+    z.type = "range";
+    z.className = "quick-z";
+    z.min = String(-Z_RANGE);
+    z.max = String(Z_RANGE);
+    z.step = "0.05";
+    z.value = "0";
+    z.title = "Arrastre para subir o bajar el modelo (m); al soltar se aplica";
+    z.setAttribute("aria-label", "Ajuste vertical del modelo");
+    z.addEventListener("input", () => {
+      this.dz = Number(z.value);
+      this.applyPreview(0, 0, 0, this.dz);
+      this.renderReadout();
+    });
+    z.addEventListener("change", () => this.commitZ());
+
+    container.addEventListener("pointerdown", this.onPointerDownBound, { capture: true });
+    window.addEventListener("pointermove", this.onPointerMoveBound);
+    window.addEventListener("pointerup", this.onPointerUpBound);
+    window.addEventListener("keydown", this.onKeyBound, true);
+  }
+
+  /** Quita los elementos y los escuchadores globales (al desmontar el visor). */
+  dispose(): void {
+    if (this.active) this.exit();
+    this.container.removeEventListener("pointerdown", this.onPointerDownBound, { capture: true });
+    window.removeEventListener("pointermove", this.onPointerMoveBound);
+    window.removeEventListener("pointerup", this.onPointerUpBound);
+    window.removeEventListener("keydown", this.onKeyBound, true);
+    this.readout.remove();
+    this.confirmBox.remove();
+    this.bar.remove();
+  }
+
+  /** Suelta el deslizador vertical: la cota cambia en dz y la ciudad se rehace con la cámara quieta. */
+  private commitZ(): void {
+    const dz = this.dz;
+    this.zSlider.value = "0";
+    this.dz = 0;
+    if (Math.abs(dz) < 0.005 || this.pending || this.state?.confirmRequired) {
+      this.clearPreview();
+      return;
+    }
+    this.pending = true;
+    this.pendingTimer = window.setTimeout(() => this.onSceneApplied(), 4000);
+    this.send({ type: "placementCommand", command: "elevate", argument: String(Math.round(dz * 1000) / 1000) });
   }
 
   get isActive(): boolean {
@@ -105,15 +161,7 @@ export class QuickPlacement {
       minPolar: controls.minPolarAngle,
       maxPolar: controls.maxPolarAngle,
     };
-    if (!this.saved.orthographic) await camera.projection.set("Orthographic");
-    // En planta: arrastrar el fondo desplaza la vista, la rueda acerca y no se puede inclinar la cámara.
-    controls.mouseButtons.left = CameraControls.ACTION.TRUCK;
-    controls.mouseButtons.middle = CameraControls.ACTION.TRUCK;
-    controls.mouseButtons.right = CameraControls.ACTION.NONE;
-    controls.mouseButtons.wheel = CameraControls.ACTION.ZOOM;
-    controls.minPolarAngle = 0;
-    controls.maxPolarAngle = 0;
-
+    await this.applyCameraMode();
     await this.reframe();
     document.body.classList.add("quick-active");
     this.buildGizmo();
@@ -121,19 +169,51 @@ export class QuickPlacement {
     this.render();
   }
 
-  /** Planta cenital con el norte hacia arriba, encuadrando el modelo y 60 m alrededor. */
+  /** Planta ortogonal sin inclinar la cámara; isométrica en perspectiva con el botón derecho orbitando. El fondo se arrastra y la rueda acerca. */
+  private async applyCameraMode(): Promise<void> {
+    const camera = this.viewer.world.camera;
+    const controls = camera.controls;
+    const iso = this.view === "iso";
+    const wanted = iso ? "Perspective" : "Orthographic";
+    if (camera.projection.current !== wanted) await camera.projection.set(wanted);
+    controls.mouseButtons.left = CameraControls.ACTION.TRUCK;
+    controls.mouseButtons.middle = CameraControls.ACTION.TRUCK;
+    controls.mouseButtons.right = iso ? CameraControls.ACTION.ROTATE : CameraControls.ACTION.NONE;
+    controls.mouseButtons.wheel = CameraControls.ACTION.ZOOM;
+    controls.minPolarAngle = 0;
+    controls.maxPolarAngle = iso ? ISO_MAX_POLAR : 0;
+  }
+
+  /** Cambia entre planta e isométrica sin salir de la colocación (el modelo y la vista previa se conservan). */
+  setView(view: QuickView): void {
+    if (!this.active || view === this.view) return;
+    this.view = view;
+    void this.applyCameraMode().then(() => this.reframe());
+    this.render();
+  }
+
+  /** Planta cenital con el norte hacia arriba (o isométrica en perspectiva desde el suroriente), encuadrando el modelo y 60 m alrededor. */
   async reframe(): Promise<void> {
     const controls = this.viewer.world.camera.controls;
     const box = this.modelBox();
     if (box.isEmpty()) return;
     const center = box.getCenter(new THREE.Vector3());
-    await controls.setLookAt(center.x, box.max.y + 500, center.z + 0.001, center.x, box.min.y, center.z, false);
     const framed = box.clone();
     framed.min.x -= FRAME_MARGIN;
     framed.max.x += FRAME_MARGIN;
     framed.min.z -= FRAME_MARGIN;
     framed.max.z += FRAME_MARGIN;
-    await controls.fitToBox(framed, false).catch(() => {});
+    if (this.view === "iso") {
+      const d = Math.max(box.getSize(new THREE.Vector3()).length(), 20) + FRAME_MARGIN;
+      await controls.setLookAt(center.x + d, box.min.y + d * 1.05, center.z + d, center.x, box.min.y, center.z, false);
+      // fitToBox gira la cámara al eje más cercano (quedaría de lado): fitToSphere conserva la dirección isométrica.
+      // En perspectiva basta un margen menor para ver el modelo con sus vecinos.
+      const near = box.clone().expandByScalar(FRAME_MARGIN / 3);
+      await controls.fitToSphere(near.getBoundingSphere(new THREE.Sphere()), false).catch(() => {});
+    } else {
+      await controls.setLookAt(center.x, box.max.y + 500, center.z + 0.001, center.x, box.min.y, center.z, false);
+      await controls.fitToBox(framed, false).catch(() => {});
+    }
   }
 
   private exit(): void {
@@ -151,9 +231,23 @@ export class QuickPlacement {
       Object.assign(controls.mouseButtons, this.saved.buttons);
       controls.minPolarAngle = this.saved.minPolar;
       controls.maxPolarAngle = this.saved.maxPolar;
-      if (!this.saved.orthographic) void camera.projection.set("Perspective");
+      const wanted = this.saved.orthographic ? "Orthographic" : "Perspective";
+      const restore = camera.projection.current === wanted ? Promise.resolve() : camera.projection.set(wanted);
+      // La cámara de trabajo queda cenital o lejos: al salir se encuadra el modelo con su entorno desde el suroriente.
+      void restore.then(() => this.frameModel());
     }
     this.saved = null;
+  }
+
+  private async frameModel(): Promise<void> {
+    const controls = this.viewer.world.camera.controls;
+    const box = this.modelBox();
+    if (box.isEmpty()) return;
+    const center = box.getCenter(new THREE.Vector3());
+    const d = Math.max(box.getSize(new THREE.Vector3()).length(), 20) + FRAME_MARGIN / 2;
+    await controls.setLookAt(center.x + d, box.min.y + d * 0.9, center.z + d, center.x, center.y, center.z, true);
+    const framed = box.clone().expandByScalar(FRAME_MARGIN / 3);
+    await controls.fitToSphere(framed.getBoundingSphere(new THREE.Sphere()), true).catch(() => {});
   }
 
   // --- Gizmo ------------------------------------------------------------------------------
@@ -224,10 +318,10 @@ export class QuickPlacement {
 
   // --- Vista previa local -------------------------------------------------------------------
 
-  /** Traslada (dx, dy en coordenadas del modelo) y gira (grados, antihorario en planta) alrededor del pivote. */
-  private applyPreview(dx: number, dy: number, rot: number): void {
+  /** Traslada (dx, dy en coordenadas del modelo, dz vertical) y gira (grados, antihorario en planta) alrededor del pivote. */
+  private applyPreview(dx: number, dy: number, rot: number, dz = 0): void {
     const transform = new THREE.Matrix4()
-      .makeTranslation(this.pivot.x + dx, 0, this.pivot.z - dy)
+      .makeTranslation(this.pivot.x + dx, dz, this.pivot.z - dy)
       .multiply(new THREE.Matrix4().makeRotationY((rot * Math.PI) / 180))
       .multiply(new THREE.Matrix4().makeTranslation(-this.pivot.x, 0, -this.pivot.z));
     const targets: THREE.Object3D[] = [this.gizmo, ...[...this.viewer.fragments.list.values()].map((m) => m.object)];
@@ -281,11 +375,13 @@ export class QuickPlacement {
 
   private onPointerDown(e: PointerEvent): void {
     if (!this.active || e.button !== 0 || this.pending || this.state?.confirmRequired) return;
+    if (overUi(e)) return; // barra, letrero o paneles sobre el visor: no es un arrastre
     const point = this.groundPoint(e);
     if (!point) return;
     let kind: Drag["kind"] | null = null;
     if (this.screenDistance(e, this.handle) <= HANDLE_PIXELS) kind = "rotate";
-    else if (this.insideFootprint(point)) kind = "move";
+    // En planta basta la huella; en isométrica el usuario pincha el volumen del modelo (muros, techo), no el plano del anillo.
+    else if (this.insideFootprint(point) || this.raycaster.ray.intersectsBox(this.modelBox())) kind = "move";
     if (!kind) return; // fuera del modelo: la cámara se desplaza como siempre
     e.stopPropagation();
     e.preventDefault();
@@ -362,7 +458,28 @@ export class QuickPlacement {
       return b;
     };
     const locked = s.confirmRequired;
+    const zBox = document.createElement("label");
+    zBox.className = "quick-z-box";
+    zBox.title = this.zSlider.title;
+    zBox.append(Object.assign(document.createElement("span"), { textContent: "Z" }), this.zSlider);
+    this.zSlider.disabled = locked;
+    const viewButton = (label: string, title: string, view: QuickView) => {
+      const b = document.createElement("button");
+      b.className = `small quick-view${this.view === view ? " active" : ""}`;
+      b.textContent = label;
+      b.title = title;
+      b.addEventListener("click", () => this.setView(view));
+      return b;
+    };
+    const views = document.createElement("span");
+    views.className = "quick-views";
+    views.append(
+      viewButton("Isométrica", "Vista isométrica en perspectiva (por defecto): se aprecia la cota; el botón derecho orbita", "iso"),
+      viewButton("Planta", "Planta cenital ortogonal con el norte hacia arriba", "plan"),
+    );
     this.bar.replaceChildren(
+      views,
+      zBox,
       button("⟲ 90°", "Girar 90° antihorario (R)", "turn", "90", "", locked),
       button("⟳ 90°", "Girar 90° horario (Mayús + R)", "turn", "-90", "", locked),
       button("180°", "Girar 180°", "turn", "180", "", locked),
@@ -393,6 +510,7 @@ export class QuickPlacement {
     const lines = [
       `Rotación ${es(rotation, 1)}°${drag && drag.rot ? `  (${drag.rot > 0 ? "+" : ""}${es(drag.rot, 1)}°)` : ""}`,
       drag && drag.kind === "move" ? `Arrastre ${es(Math.hypot(drag.dx, drag.dy), 2)} m` : `Desplazamiento desde el inicio ${s.offset}`,
+      `Cota ${s.elevation}${this.dz ? `  (${this.dz > 0 ? "+" : ""}${es(this.dz, 2)} m)` : ""}`,
       s.center,
     ];
     const title = document.createElement("div");
@@ -400,8 +518,16 @@ export class QuickPlacement {
     title.textContent = "Colocación rápida";
     const hint = document.createElement("div");
     hint.className = "quick-hint";
-    hint.textContent = "Arrastre el modelo para moverlo · arrastre el punto del anillo para girarlo (Mayús: de 15° en 15°) · arrastre el fondo para desplazar la vista";
+    hint.textContent =
+      "Arrastre el modelo para moverlo · arrastre el punto del anillo para girarlo (Mayús: de 15° en 15°) · deslizador Z para subir o bajar · arrastre el fondo para desplazar la vista" +
+      (this.view === "iso" ? " · botón derecho para orbitar" : "");
     this.readout.replaceChildren(title, ...lines.map((line) => Object.assign(document.createElement("div"), { textContent: line })), hint);
     this.readout.hidden = false;
   }
+}
+
+/** El evento ocurre sobre la interfaz superpuesta al lienzo (barras, letreros, paneles), no sobre el modelo. */
+export function overUi(e: Event): boolean {
+  const target = e.target;
+  return target instanceof Element && target.closest(".quick-bar, .quick-readout, .quick-confirm, .placement, .toolbar, .legend, .hint") !== null;
 }

@@ -39,7 +39,8 @@ export class BncViewer {
   onSelectionChanged: SelectionHandler = () => {};
 
   readonly components = new OBC.Components();
-  world!: OBC.SimpleWorld<OBC.SimpleScene, OBC.OrthoPerspectiveCamera, OBC.SimpleRenderer>;
+  // RendererWith2D dibuja además las etiquetas CSS2D (rótulos de mediciones, marcas): SimpleRenderer no las muestra.
+  world!: OBC.SimpleWorld<OBC.SimpleScene, OBC.OrthoPerspectiveCamera, OBF.RendererWith2D>;
   fragments!: OBC.FragmentsManager;
   highlighter!: OBF.Highlighter;
   private grid!: OBC.SimpleGrid;
@@ -50,11 +51,11 @@ export class BncViewer {
   async init(container: HTMLElement): Promise<void> {
     const world = this.components
       .get(OBC.Worlds)
-      .create<OBC.SimpleScene, OBC.OrthoPerspectiveCamera, OBC.SimpleRenderer>();
+      .create<OBC.SimpleScene, OBC.OrthoPerspectiveCamera, OBF.RendererWith2D>();
     world.scene = new OBC.SimpleScene(this.components);
     world.scene.setup();
     world.scene.three.background = new THREE.Color(BACKGROUND);
-    world.renderer = new OBC.SimpleRenderer(this.components, container);
+    world.renderer = new OBF.RendererWith2D(this.components, container);
     // Rendimiento: en pantallas 4K/escaladas no se renderiza a más de 1,5 píxeles por píxel CSS.
     world.renderer.three.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
     world.camera = new OBC.OrthoPerspectiveCamera(this.components);

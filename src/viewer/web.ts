@@ -7,7 +7,11 @@ import { TerritoryContext } from "./territory";
 import { TheoreticalVolume } from "./envelope";
 import { RasantePlanes } from "./rasante";
 import { ParcelDrawing } from "./parceldraw";
-import type { ClassCount, ElementInfo, EnvelopeGrid, RasanteScene, TerritoryScene, ViewerMessage } from "./protocol";
+import { QuickPlacement } from "./quickplace";
+import { PlacementPanel } from "./placement";
+import type { ClassCount, ElementInfo, EnvelopeGrid, HostMessage, RasanteScene, TerritoryScene, ViewerMessage } from "./protocol";
+
+export type PlacementState = Extract<HostMessage, { type: "placementState" }>;
 import type { IfcMeta, MetaRequest, MetaResponse } from "./ifcMetaWorker";
 import type { ModelExtent } from "@/lib/territorio/location";
 import { propertyValues } from "./propiedades";
@@ -40,6 +44,8 @@ export interface WebViewerEvents {
   onParcelDrawn(points: number[]): void;
   /** El usuario pidió la ciudad 3D desde la barra del visor. */
   onCityRequested(): void;
+  /** Orden de la colocación rápida o del ajuste fino (quick-open, open, quick, turn, move, raise, elevate, rotate, step, undo, accept, cancel, confirm, fine, more, ground). */
+  onPlacementCommand(command: string, argument: string | null): void;
 }
 
 export class WebViewer {
@@ -51,6 +57,8 @@ export class WebViewer {
   envelope!: TheoreticalVolume;
   rasantes!: RasantePlanes;
   parcelDrawing!: ParcelDrawing;
+  quick!: QuickPlacement;
+  placement!: PlacementPanel;
   private readonly models = new Map<string, LoadedModel>();
   private queue = Promise.resolve();
   private disposed = false;
@@ -73,11 +81,10 @@ export class WebViewer {
     this.city = new TerritoryContext(this.viewer);
     const send = (message: ViewerMessage) => this.handleViewerMessage(message);
     this.parcelDrawing = new ParcelDrawing(this.viewer, container, send);
+    this.quick = new QuickPlacement(this.viewer, container, send);
+    this.placement = new PlacementPanel(container, send);
     this.toolbar.attachCity(this.city, () => this.events.onCityRequested());
-    this.toolbar.attachPlacement(
-      () => this.events.onLog("info", "Colocación rápida: disponible en una próxima versión web."),
-      () => this.events.onLog("info", "Ajuste fino: disponible en una próxima versión web."),
-    );
+    this.toolbar.attachPlacement(() => this.quick.open(), () => this.placement.open());
     this.envelope = new TheoreticalVolume(this.viewer);
     this.rasantes = new RasantePlanes(this.viewer);
     this.toolbar.attachEnvelope(this.envelope, this.rasantes);
@@ -92,6 +99,25 @@ export class WebViewer {
   private handleViewerMessage(message: ViewerMessage): void {
     if (message.type === "parcelDrawn") this.events.onParcelDrawn(message.points);
     else if (message.type === "log") this.events.onLog(message.level, message.message);
+    else if (message.type === "placementCommand") this.events.onPlacementCommand(message.command, message.argument);
+  }
+
+  /** Estado de la edición de la georreferencia: lo muestran la barra de colocación rápida y el panel de ajuste fino. */
+  setPlacementState(state: PlacementState): void {
+    this.placement.setState(state);
+    this.quick.setState(state);
+  }
+
+  setPlacementHint(suggest: boolean, message: string | null): void {
+    this.toolbar.setPlacementHint(suggest, message);
+  }
+
+  /** Quita la ciudad 3D del visor. */
+  clearTerritory(): void {
+    this.city.setVisible(false); // también oculta la leyenda y restaura el plano lejano de la cámara
+    this.city.dispose();
+    this.viewer.setGridVisible(true);
+    this.toolbar.cityLoaded();
   }
 
   private enqueue(operation: () => Promise<void>): Promise<void> {
@@ -172,11 +198,18 @@ export class WebViewer {
     const first = !this.city.loaded;
     this.city.setScene(scene, keepView);
     this.toolbar.setEnabled(true);
-    if (first) this.city.frame();
+    this.quick.onSceneApplied();
+    // En la colocación rápida la vista se queda en su encuadre (isométrica o planta); si no, se muestra el entorno en perspectiva.
+    if (first && this.quick.isActive) void this.quick.reframe();
+    else if (first) this.city.frame();
     this.toolbar.cityLoaded();
   }
 
   startParcelDrawing(current: number[] | null): void {
+    if (this.quick.isActive) {
+      this.toolbar.notify("Termine primero la colocación rápida (Aceptar o Cancelar).");
+      return;
+    }
     void this.parcelDrawing.start(current);
   }
 
@@ -222,6 +255,10 @@ export class WebViewer {
 
   dispose(): void {
     this.disposed = true;
+    // Las herramientas enganchan escuchadores en window y elementos en document.body: sin esto quedarían instancias zombi.
+    this.quick?.dispose();
+    this.placement?.dispose();
+    this.parcelDrawing?.dispose();
     try {
       this.viewer.components.dispose();
     } catch {

@@ -5,6 +5,7 @@ import * as THREE from "three";
 import CameraControls from "camera-controls";
 import type { BncViewer } from "./viewer";
 import type { ViewerMessage } from "./protocol";
+import { overUi } from "./quickplace";
 
 type Send = (message: ViewerMessage) => void;
 
@@ -46,13 +47,30 @@ export class ParcelDrawing {
     this.bar.className = "quick-bar";
     this.readout.className = "quick-readout parcel-readout";
     this.bar.hidden = this.readout.hidden = true;
-    document.body.append(this.readout, this.bar);
+    container.append(this.readout, this.bar);
     this.group.name = "dibujo del predio";
     this.group.renderOrder = 10;
-    container.addEventListener("pointerdown", (e) => this.onPointerDown(e), { capture: true });
-    window.addEventListener("pointermove", (e) => this.onPointerMove(e));
-    window.addEventListener("pointerup", (e) => this.onPointerUp(e));
-    window.addEventListener("keydown", (e) => this.onKey(e), true);
+    this.container = container;
+    container.addEventListener("pointerdown", this.onPointerDownBound, { capture: true });
+    window.addEventListener("pointermove", this.onPointerMoveBound);
+    window.addEventListener("pointerup", this.onPointerUpBound);
+    window.addEventListener("keydown", this.onKeyBound, true);
+  }
+
+  private readonly container: HTMLElement;
+  private readonly onPointerDownBound = (e: PointerEvent) => this.onPointerDown(e);
+  private readonly onPointerMoveBound = (e: PointerEvent) => this.onPointerMove(e);
+  private readonly onPointerUpBound = (e: PointerEvent) => this.onPointerUp(e);
+  private readonly onKeyBound = (e: KeyboardEvent) => this.onKey(e);
+
+  /** Quita los elementos y los escuchadores globales (al desmontar el visor). */
+  dispose(): void {
+    this.container.removeEventListener("pointerdown", this.onPointerDownBound, { capture: true });
+    window.removeEventListener("pointermove", this.onPointerMoveBound);
+    window.removeEventListener("pointerup", this.onPointerUpBound);
+    window.removeEventListener("keydown", this.onKeyBound, true);
+    this.bar.remove();
+    this.readout.remove();
   }
 
   get isActive(): boolean {
@@ -173,7 +191,7 @@ export class ParcelDrawing {
   }
 
   private onPointerDown(e: PointerEvent): void {
-    if (!this.active || e.button !== 0) return;
+    if (!this.active || e.button !== 0 || overUi(e)) return;
     this.down = { x: e.clientX, y: e.clientY, id: e.pointerId };
   }
 

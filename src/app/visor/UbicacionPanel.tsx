@@ -16,10 +16,15 @@ interface Props {
   alerts: Alerta[];
   hasModels: boolean;
   onShowMap(): void;
+  /** Hay georreferencia (modelo o ubicación indicada): se puede armar la ciudad 3D. */
+  canShowCity: boolean;
+  cityShown: boolean;
+  onShowCity(): void;
+  onClearCity(): void;
 }
 
 /** Pestaña Ubicación: comuna, región, instrumento, zonas del PRC con su ficha y fuentes. Solo sus alertas. */
-export default function UbicacionPanel({ territory, alerts, hasModels, onShowMap }: Props) {
+export default function UbicacionPanel({ territory, alerts, hasModels, onShowMap, canShowCity, cityShown, onShowCity, onClearCity }: Props) {
   const analysis = territory?.analysis ?? null;
   return (
     <div className="panel">
@@ -29,6 +34,16 @@ export default function UbicacionPanel({ territory, alerts, hasModels, onShowMap
         <button className="btn" onClick={onShowMap} title="Mapa del PRC con la ubicación del proyecto; permite indicarla a mano">
           Ver mapa
         </button>
+        {canShowCity && (
+          <button className="btn" onClick={onShowCity} title="Edificios, calles, áreas verdes, agua, árboles, terreno y alturas máximas del PRC alrededor del modelo">
+            {cityShown ? "Actualizar ciudad 3D" : "Ciudad 3D"}
+          </button>
+        )}
+        {cityShown && (
+          <button className="btn" onClick={onClearCity} title="Quita la ciudad 3D del visor">
+            Quitar ciudad
+          </button>
+        )}
       </div>
       {!territory?.location && (
         <p className="muted small">

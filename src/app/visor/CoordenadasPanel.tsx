@@ -23,9 +23,8 @@ interface Props {
   pivot: { x: number; y: number } | null;
   lastPicked: { x: number; y: number; z: number } | null;
   onEditStart(): void;
-  onShowCity(): void;
-  onShowMap(): void;
-  cityShown: boolean;
+  /** Pide abrir el editor de georreferencia (p. ej. «Más opciones…» desde el visor). */
+  openEditorRequest: number;
   /** Cota del terreno bajo el centro del modelo (porción de ciudad); null si no hay. */
   groundElevation(): Promise<number | null>;
   onPreview(p: UserPlacement): void;
@@ -38,6 +37,14 @@ export default function CoordenadasPanel(props: Props) {
   const { territory, alerts, models, hasManual, onRelocate, onUseIfc, editorInitial, pivot } = props;
   const [manual, setManual] = useState({ lat: "", lon: "" });
   const [editing, setEditing] = useState(false);
+  const [lastOpenRequest, setLastOpenRequest] = useState(0);
+  if (props.openEditorRequest !== lastOpenRequest) {
+    setLastOpenRequest(props.openEditorRequest);
+    if (props.openEditorRequest > 0 && editorInitial && pivot) {
+      props.onEditStart();
+      setEditing(true);
+    }
+  }
   const location = territory?.location ?? null;
   const frame = location?.frame ?? null;
   const origin = frame ? { e: frame.easting + 0, n: frame.northing + 0 } : null;
@@ -136,14 +143,6 @@ export default function CoordenadasPanel(props: Props) {
             Georreferenciar…
           </button>
         )}
-        <button className="btn" onClick={props.onShowMap} title="Mapa del PRC con la ubicación del proyecto; permite indicarla a mano">
-          Ver mapa
-        </button>
-        {location?.frame && (
-          <button className="btn" onClick={props.onShowCity} title="Edificios, calles, áreas verdes, agua, árboles, terreno y alturas máximas del PRC alrededor del modelo">
-            {props.cityShown ? "Actualizar ciudad 3D" : "Ciudad 3D"}
-          </button>
-        )}
       </div>
       {editing && editorInitial && pivot && (
         <EditorGeoreferencia
@@ -162,7 +161,7 @@ export default function CoordenadasPanel(props: Props) {
           }}
         />
       )}
-      <div className="muted small">La colocación rápida sobre la ciudad llega en la siguiente etapa. Guardar una copia IFC georreferenciada está disponible solo en la versión de escritorio.</div>
+      <div className="muted small">El mapa y la ciudad 3D están en la pestaña Ubicación; la colocación rápida y el ajuste fino, en la barra del visor. Guardar una copia IFC georreferenciada está disponible solo en la versión de escritorio.</div>
     </div>
   );
 }

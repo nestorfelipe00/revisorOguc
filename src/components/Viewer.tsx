@@ -24,8 +24,14 @@ export default function Viewer({ events, onReady, onError }: Props) {
   });
 
   useEffect(() => {
-    const container = host.current;
-    if (!container) return;
+    const outer = host.current;
+    if (!outer) return;
+    // Un elemento propio por montaje: en desarrollo React monta dos veces y los escuchadores del contenedor
+    // (herramientas, clics) quedarían vivos sobre un visor ya desechado.
+    const container = document.createElement("div");
+    container.style.position = "absolute";
+    container.style.inset = "0";
+    outer.replaceChildren(container);
     let api: WebViewer | null = null;
     let cancelled = false;
     // Los manejadores se leen en cada llamada, así React puede cambiarlos sin reiniciar el visor.
@@ -37,6 +43,7 @@ export default function Viewer({ events, onReady, onError }: Props) {
       onPointPicked: (...a) => eventsRef.current.onPointPicked(...a),
       onParcelDrawn: (...a) => eventsRef.current.onParcelDrawn(...a),
       onCityRequested: () => eventsRef.current.onCityRequested(),
+      onPlacementCommand: (...a) => eventsRef.current.onPlacementCommand(...a),
     };
     (async () => {
       const { WebViewer } = await import("@/viewer/web");
@@ -44,7 +51,10 @@ export default function Viewer({ events, onReady, onError }: Props) {
       api = new WebViewer(proxy);
       try {
         await api.init(container);
-        if (!cancelled) readyRef.current(api);
+        if (!cancelled) {
+          if (process.env.NODE_ENV !== "production") Object.assign(window, { __bncViewer: api });
+          readyRef.current(api);
+        }
       } catch (error) {
         errorRef.current(error instanceof Error ? error.message : String(error));
       }
@@ -52,7 +62,7 @@ export default function Viewer({ events, onReady, onError }: Props) {
     return () => {
       cancelled = true;
       api?.dispose();
-      container.replaceChildren();
+      container.remove();
     };
   }, []);
 

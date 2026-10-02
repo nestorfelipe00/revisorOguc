@@ -8,11 +8,15 @@ type Mode = "google" | "enlace" | "clave" | "registro";
 
 const MIN_PASSWORD = 12;
 
+// El botón de Google se muestra solo cuando el proveedor está activado en Supabase (NEXT_PUBLIC_AUTH_GOOGLE=1):
+// si no, Supabase responde «provider is not enabled» con un JSON crudo.
+const GOOGLE_ENABLED = process.env.NEXT_PUBLIC_AUTH_GOOGLE === "1";
+
 function IngresarForm() {
   const router = useRouter();
   const params = useSearchParams();
   const volver = params.get("volver") ?? "/";
-  const [mode, setMode] = useState<Mode>("google");
+  const [mode, setMode] = useState<Mode>(GOOGLE_ENABLED ? "google" : "clave");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [status, setStatus] = useState<{ kind: "ok" | "error"; text: string } | null>(
@@ -85,12 +89,16 @@ function IngresarForm() {
           proyecto.
         </p>
 
-        <button type="button" className="btn btn-primary" onClick={google} disabled={busy}>
-          Continuar con Google
-        </button>
-        <div className="muted small" style={{ textAlign: "center" }}>
-          o con su correo
-        </div>
+        {GOOGLE_ENABLED && (
+          <>
+            <button type="button" className="btn btn-primary" onClick={google} disabled={busy}>
+              Continuar con Google
+            </button>
+            <div className="muted small" style={{ textAlign: "center" }}>
+              o con su correo
+            </div>
+          </>
+        )}
 
         <label>
           <span className="small muted">Correo electrónico</span>
@@ -143,9 +151,11 @@ function IngresarForm() {
                   Enlace por correo
                 </button>
               )}
-              <button type="button" className="btn small" onClick={() => setMode("google")}>
-                Volver
-              </button>
+              {GOOGLE_ENABLED && (
+                <button type="button" className="btn small" onClick={() => setMode("google")}>
+                  Volver
+                </button>
+              )}
             </div>
           </>
         )}

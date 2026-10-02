@@ -19,7 +19,8 @@ import {
   type ProjectLocation,
 } from "@/lib/territorio/location";
 import { fromGeographic, toGeographic, type GeoPoint } from "@/lib/territorio/utm";
-import { centeredAt, crsFor, locationFromPlacement, parseNumber, placementFromFrame, siteLocation, type UserPlacement } from "@/lib/territorio/colocacion";
+import { centeredAt, crsFor, formatNumber, locationFromPlacement, parseNumber, placementFromFrame, siteLocation, type UserPlacement } from "@/lib/territorio/colocacion";
+import { EditorColocacion, type Direccion } from "@/lib/territorio/editorColocacion";
 import { importParcelGeoJson, parcelArea as parcelAreaOf, parcelFromVertices, rectangleParcel } from "@/lib/reglas/predio";
 import { fireRatingKey, RULE_STATE_LABELS, type ModelGeometry, type Parcel, type RuleResult, type RuleState } from "@/lib/reglas/tipos";
 import { construirContexto, parcelCenter } from "@/lib/revision/contexto";
@@ -129,6 +130,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
   const [lastPicked, setLastPicked] = useState<{ x: number; y: number; z: number } | null>(null);
   const [cityShown, setCityShown] = useState(false);
   const [mapOpen, setMapOpen] = useState<{ pickHint: string | null } | null>(null);
+  const [openEditorRequest, setOpenEditorRequest] = useState(0);
   const [cityPortions, setCityPortions] = useState<GeoPoint[][]>([]);
   const [street, setStreet] = useState<CalleCercana | null>(null);
   const citySeq = useRef(0);
@@ -201,6 +203,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
   const frameRef = useRef(frame);
   const modelsCountRef = useRef(models.length);
   const cityRequest = useRef<() => void>(() => {});
+  const placementCommand = useRef<(command: string, argument: string | null) => void>(() => {});
   useEffect(() => {
     frameRef.current = frame;
     modelsCountRef.current = models.length;
@@ -224,6 +227,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
       onLog: log,
       onPointPicked: (point) => setLastPicked(point),
       onCityRequested: () => cityRequest.current(),
+      onPlacementCommand: (command, argument) => placementCommand.current(command, argument),
       onParcelDrawn: (points) => {
         setDrawing(false);
         const f = frameRef.current;
@@ -389,6 +393,12 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
     };
   }, [location?.center, parcel]);
 
+  const clearCity = () => {
+    api.current?.clearTerritory();
+    setCityShown(false);
+    log("info", "Ciudad 3D quitada del visor.");
+  };
+
   /** Cota del nivel 0 del modelo según el terreno bajo su centro (0 si las cotas Z ya son absolutas), como el escritorio. */
   const groundElevation = async (): Promise<number | null> => {
     if (!frame || !reference.extent) return null;
@@ -443,6 +453,122 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
       parcel: parcel?.vertices ?? null,
     };
   }, [location, territory, cityActive, reference.extent, project.nombre, models, parcel, cityPortions]);
+
+  // --- Colocación rápida y ajuste fino desde el visor (porte de MainViewModel.Territory.cs) ----------------------------
+  interface SesionColocacion {
+    editor: EditorColocacion;
+    mode: "quick" | "fine";
+    confirmRequired: boolean;
+    before: UserPlacement | null;
+  }
+  const session = useRef<SesionColocacion | null>(null);
+
+  const publishPlacementState = useCallback(() => {
+    const s = session.current;
+    if (!s || !api.current) return;
+    const p = s.editor.current;
+    api.current.setPlacementState({
+      type: "placementState",
+      open: true,
+      mode: s.mode,
+      step: s.editor.step,
+      center: s.editor.centerText(),
+      rotation: `${formatNumber(p.rotationDegrees, 2)}°`,
+      elevation: p.elevation !== null ? `${formatNumber(p.elevation, 2)} m` : "automática",
+      error: s.editor.error(),
+      rotationDegrees: p.rotationDegrees,
+      pivotX: s.editor.pivot.x,
+      pivotY: s.editor.pivot.y,
+      offset: `${formatNumber(s.editor.offsetFromStart(), 2)} m`,
+      confirmRequired: s.confirmRequired,
+      canUndo: s.editor.canUndo,
+    });
+  }, []);
+
+  const startPlacementEditing = useCallback(
+    (mode: "quick" | "fine") => {
+      if (!api.current) return;
+      if (!session.current) {
+        if (!reference.extent || (!placement && !frame)) {
+          const reason = "Para mover el modelo, abra un IFC y ubíquelo primero («Ver mapa» → «Indicar ubicación en el mapa»).";
+          log("warn", reason);
+          api.current.cityUnavailable(reason);
+          return;
+        }
+        const initial = placement ?? placementFromFrame(frame!, reference.geo?.mapConversion?.crsName);
+        const editor = new EditorColocacion(initial, extentCenter(reference.extent), (p) => setPlacement(p));
+        // RN-05: un IFC ya georreferenciado solo se mueve tras confirmar que se usará una georreferencia del usuario.
+        session.current = { editor, mode, confirmRequired: !placement && location?.source === "mapConversion", before: placement };
+        if (!cityActive) void showCity(false);
+      }
+      session.current.mode = mode;
+      publishPlacementState();
+    },
+    [placement, frame, reference, location?.source, cityActive, showCity, log, publishPlacementState],
+  );
+
+  const finishPlacementEditing = useCallback(
+    (accepted: boolean) => {
+      const s = session.current;
+      if (!s || !api.current) return;
+      session.current = null;
+      if (accepted) {
+        setPlacement(s.editor.current);
+        log("info", `Georreferencia aplicada: E ${n(s.editor.current.easting)} · N ${n(s.editor.current.northing)} · rotación ${n(s.editor.current.rotationDegrees)}°.`);
+      } else {
+        setPlacement(s.before);
+      }
+      api.current.setPlacementState({ type: "placementState", open: false, mode: s.mode, step: s.editor.step, center: "", rotation: "", elevation: "", error: null, rotationDegrees: 0, pivotX: 0, pivotY: 0, offset: "", confirmRequired: false, canUndo: false });
+    },
+    [log],
+  );
+
+  useEffect(() => {
+    placementCommand.current = (command, argument) => {
+      if (command === "open") return startPlacementEditing("fine");
+      if (command === "quick-open") return startPlacementEditing("quick");
+      const s = session.current;
+      if (!s) return;
+      if (s.confirmRequired && !["confirm", "cancel", "accept", "fine", "more", "step"].includes(command)) return publishPlacementState();
+      const e = s.editor;
+      switch (command) {
+        case "confirm": s.confirmRequired = false; break;
+        case "fine": s.mode = "fine"; break;
+        case "quick": {
+          try {
+            const q = JSON.parse(argument ?? "{}") as { dx?: number; dy?: number; rot?: number };
+            e.applyQuick(Number(q.dx ?? 0), Number(q.dy ?? 0), Number(q.rot ?? 0));
+          } catch {
+            log("warn", "Colocación rápida: orden no válida.");
+          }
+          break;
+        }
+        case "turn": e.turn(Number(argument ?? 0)); break;
+        case "elevate": e.elevate(Number(argument ?? 0)); break;
+        case "undo": e.undo(); break;
+        case "move": e.move((argument ?? "N") as Direccion); break;
+        case "raise": e.raise(argument === "-" ? "-" : "+"); break;
+        case "rotate": e.rotate(argument === "-" ? "-" : "+"); break;
+        case "ground":
+          void groundElevation().then((h) => {
+            if (h === null) log("warn", "No hay porción de ciudad 3D en esta ubicación para estimar la cota.");
+            else e.setElevation(Math.round(h * 100) / 100);
+            publishPlacementState();
+          });
+          return;
+        case "step": e.setStep(Number(argument ?? 1) || 1); break;
+        case "more":
+          // «Más opciones…»: la ventana Georreferenciar del escritorio es el editor de la pestaña Coordenadas.
+          s.mode = "fine";
+          setTab("coordenadas");
+          setOpenEditorRequest((r) => r + 1);
+          break;
+        case "accept": return finishPlacementEditing(true);
+        case "cancel": return finishPlacementEditing(false);
+      }
+      publishPlacementState();
+    };
+  });
 
   // --- Ubicación manual y georreferencia -----------------------------------------------------------------------------
   const relocate = (point: GeoPoint) => {
@@ -764,7 +890,18 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
         {tab === "proyecto" && (
           <ProyectoPanel alerts={[]} logs={logs} project={project} onNombre={(nombre) => setProject((p) => ({ ...p, nombre }))} onSave={() => void saveProject()} />
         )}
-        {tab === "ubicacion" && <UbicacionPanel territory={territory} alerts={locationAlerts} hasModels={models.length > 0} onShowMap={() => setMapOpen({ pickHint: null })} />}
+        {tab === "ubicacion" && (
+          <UbicacionPanel
+            territory={territory}
+            alerts={locationAlerts}
+            hasModels={models.length > 0}
+            onShowMap={() => setMapOpen({ pickHint: null })}
+            canShowCity={!!location?.frame}
+            cityShown={cityActive}
+            onShowCity={() => void showCity(cityActive)}
+            onClearCity={clearCity}
+          />
+        )}
         {tab === "coordenadas" && (
           <CoordenadasPanel
             territory={territory}
@@ -779,9 +916,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
             onEditStart={() => {
               placementBeforeEditing.current = placement;
             }}
-            onShowCity={() => void showCity(cityActive)}
-            onShowMap={() => setMapOpen({ pickHint: null })}
-            cityShown={cityActive}
+            openEditorRequest={openEditorRequest}
             groundElevation={groundElevation}
             onPreview={(p) => setPlacement(p)}
             onAccept={(p) => {
