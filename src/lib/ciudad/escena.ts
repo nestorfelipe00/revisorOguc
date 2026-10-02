@@ -124,14 +124,15 @@ const cornersGeo = (frame: ModelFrame, cx: number, cy: number, hx: number, hy: n
 
 export class CiudadNoDisponible extends Error {}
 
+const SIN_CIUDAD = "La ciudad 3D aún no está disponible para esta ubicación.";
+
 /** Escena alrededor del modelo con las teselas de la porción de ciudad disponible. Lanza CiudadNoDisponible con el motivo. */
 export async function escenaCiudad(options: EscenaOpciones): Promise<TerritoryScene> {
   const { location, extent, parcel } = options;
   const frame = location.frame;
   if (!frame) throw new CiudadNoDisponible("Primero hay que ubicar el proyecto: indique la ubicación en la pestaña Coordenadas.");
   const ciudad = await ciudadPara(location.center);
-  const punto = `${location.center.latitude.toFixed(5)},${location.center.longitude.toFixed(5)}`;
-  if (!ciudad) throw new CiudadNoDisponible(`No hay porción de ciudad 3D generada para esta ubicación. Genérela en el escritorio con: python tools/gis/teselas_ciudad.py <comuna> <carpeta _ciudad> ${punto} 1500`);
+  if (!ciudad) throw new CiudadNoDisponible(SIN_CIUDAD);
   const index = await indiceCiudad(ciudad);
   if (!index) throw new CiudadNoDisponible(`No se pudo leer el índice de la ciudad ${ciudad}.`);
 
@@ -144,7 +145,7 @@ export async function escenaCiudad(options: EscenaOpciones): Promise<TerritorySc
     maxLat: Math.max(...corners.map((c) => c.latitude)) + 0.002,
   };
   const tiles = await teselasEn(index, env);
-  if (tiles.length === 0) throw new CiudadNoDisponible(`La ubicación queda fuera de las porciones de ciudad 3D generadas. Genere una con: python tools/gis/teselas_ciudad.py ${ciudad} <carpeta _ciudad> ${punto} 1500`);
+  if (tiles.length === 0) throw new CiudadNoDisponible(SIN_CIUDAD);
 
   const ground = (x: number, y: number): number => {
     const g = toGeo(frame, x, y);

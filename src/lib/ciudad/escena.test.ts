@@ -59,7 +59,7 @@ describe.skipIf(!disponible)("Ciudad 3D desde teselas (porción de La Serena)", 
   });
 
   it("fuera de la porción generada avisa en vez de fallar", async () => {
-    await expect(escenaCiudad({ location: siteLocation({ latitude: -33.45, longitude: -70.65 }), extent: null, parcel: null, zonas: [], alturasDocumento: null })).rejects.toThrow(/porción de ciudad/);
+    await expect(escenaCiudad({ location: siteLocation({ latitude: -33.45, longitude: -70.65 }), extent: null, parcel: null, zonas: [], alturasDocumento: null })).rejects.toThrow(/ciudad 3D aún no está disponible/);
     expect(await alturaTerreno({ latitude: -33.45, longitude: -70.65 })).toBeNull();
   });
 });
