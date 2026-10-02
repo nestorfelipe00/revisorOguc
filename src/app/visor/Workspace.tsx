@@ -28,6 +28,9 @@ import { evaluarCabidaEnWorker, evaluarReglasEnWorker, RevisionCancelada, type E
 import { extraerGeometria } from "@/viewer/geometry";
 import { cargarProyecto, guardarProyecto, type ModeloGuardado } from "@/lib/proyecto/guardar";
 import { alturaTerreno, areaDeCiudad, calleMasCercana, CiudadNoDisponible, escenaCiudad, zonasParaCiudad, type CalleCercana } from "@/lib/ciudad/escena";
+import { ciudadPara, indiceCiudad } from "@/lib/ciudad/teselas";
+import type { ProyectoMapa } from "@/lib/mapa/mapa";
+import { SOURCE_LABELS } from "@/lib/territorio/location";
 import { alerta, type Alerta } from "./Alerta";
 import ProyectoPanel, { type LogLine } from "./ProyectoPanel";
 import ModelosPanel from "./ModelosPanel";
@@ -38,6 +41,7 @@ import RevisionPanel, { type Revision } from "./RevisionPanel";
 import ElementoPanel from "./ElementoPanel";
 
 const Viewer = dynamic(() => import("@/components/Viewer"), { ssr: false });
+const MapaPanel = dynamic(() => import("./MapaPanel"), { ssr: false });
 
 // Panel izquierdo: todo lo del IFC (modelos y elemento). Panel derecho: proyecto, territorio, predio y revisión.
 type IfcTab = "modelos" | "elemento";
@@ -124,6 +128,8 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
   const [floorHeight, setFloorHeight] = useState("2,7");
   const [lastPicked, setLastPicked] = useState<{ x: number; y: number; z: number } | null>(null);
   const [cityShown, setCityShown] = useState(false);
+  const [mapOpen, setMapOpen] = useState<{ pickHint: string | null } | null>(null);
+  const [cityPortions, setCityPortions] = useState<GeoPoint[][]>([]);
   const [street, setStreet] = useState<CalleCercana | null>(null);
   const citySeq = useRef(0);
   const [project, setProject] = useState<{ id: string | null; nombre: string; tramite: string | null; saving: boolean; expected: ModeloGuardado[] }>({
@@ -381,6 +387,52 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
     return reference.extent.minZ > 20 && Math.abs(reference.extent.minZ - g) < 25 ? 0 : g;
   };
 
+  // --- Mapa territorial (ventana «Ver mapa») ---------------------------------------------------------------------------
+  useEffect(() => {
+    if (!mapOpen) return;
+    let cancelled = false;
+    const center = location?.center;
+    Promise.resolve(center ? ciudadPara(center) : null)
+      .then((c) => (c ? indiceCiudad(c) : null))
+      .then((index) => {
+        if (cancelled) return;
+        const portions = (index as { porciones?: { bounds: [number, number, number, number] }[] } | null)?.porciones ?? [];
+        setCityPortions(portions.map(({ bounds: [a, b, c, d] }) => [
+          { latitude: b, longitude: a }, { latitude: b, longitude: c }, { latitude: d, longitude: c }, { latitude: d, longitude: a },
+        ]));
+      })
+      .catch(() => !cancelled && setCityPortions([]));
+    return () => {
+      cancelled = true;
+    };
+  }, [mapOpen, location?.center]);
+  const mapProject = useMemo<ProyectoMapa>(() => {
+    const summary: string[] = [];
+    if (location) {
+      const utm = location.utm ? ` · UTM ${location.utm.zone}${location.utm.south ? "S" : "N"} E ${n(location.utm.easting, 0)} N ${n(location.utm.northing, 0)}` : "";
+      summary.push(`Ubicación · ${SOURCE_LABELS[location.source]}: ${n(location.center.latitude, 6)}, ${n(location.center.longitude, 6)}${utm}`);
+      for (const note of location.notes) summary.push(note);
+    }
+    for (const z of territory?.analysis?.zones ?? []) summary.push(`Zona ${z.code}${z.name !== z.code ? ` - ${z.name}` : ""}${z.sharePercent < 100 ? ` · ${n(z.sharePercent, 1)} % del proyecto` : ""}`);
+    for (const a of territory?.analysis?.specialAreas ?? []) summary.push(`⚠ Dentro de: ${a.name} (${a.layer})`);
+    for (const t of territory?.analysis?.notes ?? []) summary.push(`⚠ ${t}`);
+    if (territory?.analysis?.instrument) summary.push(`Fuente: ${territory.analysis.coverage} — ${territory.analysis.disclaimer}`);
+    const area = location && cityActive ? areaDeCiudad(location, reference.extent) : null;
+    const cityArea = area ? [
+      { latitude: area.env.minLat, longitude: area.env.minLon }, { latitude: area.env.minLat, longitude: area.env.maxLon },
+      { latitude: area.env.maxLat, longitude: area.env.maxLon }, { latitude: area.env.maxLat, longitude: area.env.minLon },
+    ] : null;
+    return {
+      center: location?.center ?? null,
+      footprint: location?.footprint ?? null,
+      label: project.nombre || models[0]?.name || "Proyecto",
+      summary,
+      cityArea,
+      cityPortions,
+      parcel: parcel?.vertices ?? null,
+    };
+  }, [location, territory, cityActive, reference.extent, project.nombre, models, parcel, cityPortions]);
+
   // --- Ubicación manual y georreferencia -----------------------------------------------------------------------------
   const relocate = (point: GeoPoint) => {
     if (reference.extent) {
@@ -635,6 +687,16 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
         onDrop={onDrop}
       >
         <Viewer events={events} onReady={(v) => ((api.current = v), setReady(true))} onError={(m) => log("error", `Visor: ${m}`)} />
+        {mapOpen && (
+          <MapaPanel
+            supabase={supabase}
+            project={mapProject}
+            pickHint={mapOpen.pickHint}
+            onPick={(p) => relocate(p)}
+            onClose={() => setMapOpen(null)}
+            onError={(m) => log("error", `Mapa: ${m}`)}
+          />
+        )}
         {models.length === 0 && !progress && (
           <div className="drop-hint">
             <div className="box">
@@ -690,7 +752,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
         {tab === "proyecto" && (
           <ProyectoPanel alerts={[]} logs={logs} project={project} onNombre={(nombre) => setProject((p) => ({ ...p, nombre }))} onSave={() => void saveProject()} />
         )}
-        {tab === "ubicacion" && <UbicacionPanel territory={territory} alerts={locationAlerts} hasModels={models.length > 0} />}
+        {tab === "ubicacion" && <UbicacionPanel territory={territory} alerts={locationAlerts} hasModels={models.length > 0} onShowMap={() => setMapOpen({ pickHint: null })} />}
         {tab === "coordenadas" && (
           <CoordenadasPanel
             territory={territory}
@@ -706,6 +768,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
               placementBeforeEditing.current = placement;
             }}
             onShowCity={() => void showCity(cityActive)}
+            onShowMap={() => setMapOpen({ pickHint: null })}
             cityShown={cityActive}
             groundElevation={groundElevation}
             onPreview={(p) => setPlacement(p)}

@@ -15,15 +15,21 @@ interface Props {
   territory: Territorio | null;
   alerts: Alerta[];
   hasModels: boolean;
+  onShowMap(): void;
 }
 
 /** Pestaña Ubicación: comuna, región, instrumento, zonas del PRC con su ficha y fuentes. Solo sus alertas. */
-export default function UbicacionPanel({ territory, alerts, hasModels }: Props) {
+export default function UbicacionPanel({ territory, alerts, hasModels, onShowMap }: Props) {
   const analysis = territory?.analysis ?? null;
   return (
     <div className="panel">
       <h2>Ubicación y plan regulador</h2>
       <Alertas items={alerts} />
+      <div>
+        <button className="btn" onClick={onShowMap} title="Mapa del PRC con la ubicación del proyecto; permite indicarla a mano">
+          Ver mapa
+        </button>
+      </div>
       {!territory?.location && (
         <p className="muted small">
           {hasModels

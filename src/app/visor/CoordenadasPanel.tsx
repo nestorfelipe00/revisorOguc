@@ -24,6 +24,7 @@ interface Props {
   lastPicked: { x: number; y: number; z: number } | null;
   onEditStart(): void;
   onShowCity(): void;
+  onShowMap(): void;
   cityShown: boolean;
   /** Cota del terreno bajo el centro del modelo (porción de ciudad); null si no hay. */
   groundElevation(): Promise<number | null>;
@@ -135,6 +136,9 @@ export default function CoordenadasPanel(props: Props) {
             Georreferenciar…
           </button>
         )}
+        <button className="btn" onClick={props.onShowMap} title="Mapa del PRC con la ubicación del proyecto; permite indicarla a mano">
+          Ver mapa
+        </button>
         {location?.frame && (
           <button className="btn" onClick={props.onShowCity} title="Edificios, calles, áreas verdes, agua, árboles, terreno y alturas máximas del PRC alrededor del modelo">
             {props.cityShown ? "Actualizar ciudad 3D" : "Ciudad 3D"}
