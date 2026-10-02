@@ -4,7 +4,7 @@ import { Suspense, useState, type FormEvent } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 
-type Mode = "google" | "enlace" | "clave" | "registro";
+type Mode = "clave" | "registro";
 
 const MIN_PASSWORD = 12;
 
@@ -16,7 +16,7 @@ function IngresarForm() {
   const router = useRouter();
   const params = useSearchParams();
   const volver = params.get("volver") ?? "/";
-  const [mode, setMode] = useState<Mode>(GOOGLE_ENABLED ? "google" : "clave");
+  const [mode, setMode] = useState<Mode>("clave");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [status, setStatus] = useState<{ kind: "ok" | "error"; text: string } | null>(
@@ -44,14 +44,7 @@ function IngresarForm() {
     setStatus(null);
     const supabase = createClient();
     try {
-      if (mode === "enlace") {
-        const { error } = await supabase.auth.signInWithOtp({
-          email,
-          options: { emailRedirectTo: `${location.origin}/auth/confirmar?volver=${encodeURIComponent(volver)}` },
-        });
-        if (error) throw error;
-        setStatus({ kind: "ok", text: "Le enviamos un enlace de acceso. Revise su correo, también la carpeta de spam. Si no tenía cuenta, el enlace la crea." });
-      } else if (mode === "registro") {
+      if (mode === "registro") {
         if (password.length < MIN_PASSWORD) throw new Error(`La contraseña debe tener al menos ${MIN_PASSWORD} caracteres.`);
         const { data, error } = await supabase.auth.signUp({
           email,
@@ -78,8 +71,6 @@ function IngresarForm() {
     }
   }
 
-  const needsPassword = mode === "clave" || mode === "registro";
-
   return (
     <main className="login">
       <form className="card" onSubmit={submit}>
@@ -104,61 +95,32 @@ function IngresarForm() {
           <span className="small muted">Correo electrónico</span>
           <input className="input" type="email" required autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} />
         </label>
-        {needsPassword && (
-          <label>
-            <span className="small muted">Contraseña{mode === "registro" ? ` (mínimo ${MIN_PASSWORD} caracteres)` : ""}</span>
-            <input
-              className="input"
-              type="password"
-              required
-              minLength={mode === "registro" ? MIN_PASSWORD : undefined}
-              autoComplete={mode === "registro" ? "new-password" : "current-password"}
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-            />
-          </label>
-        )}
-        {mode === "google" ? (
-          <div style={{ display: "grid", gap: 6 }}>
-            <button type="button" className="btn" onClick={() => setMode("enlace")}>
-              Recibir un enlace de acceso por correo
+        <label>
+          <span className="small muted">Contraseña{mode === "registro" ? ` (mínimo ${MIN_PASSWORD} caracteres)` : ""}</span>
+          <input
+            className="input"
+            type="password"
+            required
+            minLength={mode === "registro" ? MIN_PASSWORD : undefined}
+            autoComplete={mode === "registro" ? "new-password" : "current-password"}
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </label>
+        <button className="btn btn-primary" type="submit" disabled={busy}>
+          {busy ? "Enviando…" : mode === "registro" ? "Crear cuenta" : "Ingresar"}
+        </button>
+        <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+          {mode === "clave" ? (
+            <button type="button" className="btn small" onClick={() => setMode("registro")}>
+              Crear cuenta
             </button>
-            <button type="button" className="btn" onClick={() => setMode("clave")}>
-              Ingresar con contraseña
+          ) : (
+            <button type="button" className="btn small" onClick={() => setMode("clave")}>
+              Ya tengo contraseña
             </button>
-            <button type="button" className="btn" onClick={() => setMode("registro")}>
-              Crear una cuenta con correo y contraseña
-            </button>
-          </div>
-        ) : (
-          <>
-            <button className="btn btn-primary" type="submit" disabled={busy}>
-              {busy ? "Enviando…" : mode === "enlace" ? "Enviar enlace de acceso" : mode === "registro" ? "Crear cuenta" : "Ingresar"}
-            </button>
-            <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-              {mode !== "clave" && (
-                <button type="button" className="btn small" onClick={() => setMode("clave")}>
-                  Ya tengo contraseña
-                </button>
-              )}
-              {mode !== "registro" && (
-                <button type="button" className="btn small" onClick={() => setMode("registro")}>
-                  Crear cuenta
-                </button>
-              )}
-              {mode !== "enlace" && (
-                <button type="button" className="btn small" onClick={() => setMode("enlace")}>
-                  Enlace por correo
-                </button>
-              )}
-              {GOOGLE_ENABLED && (
-                <button type="button" className="btn small" onClick={() => setMode("google")}>
-                  Volver
-                </button>
-              )}
-            </div>
-          </>
-        )}
+          )}
+        </div>
         {status && <div className={`alert ${status.kind === "ok" ? "alert-ok" : "alert-danger"}`}>{status.text}</div>}
       </form>
     </main>
