@@ -43,6 +43,7 @@ import { informeHtml, informeJson, nombreArchivoInforme, predioInforme, tituloIn
 import { informeExcel } from "@/lib/informe/excel";
 import { descargarArchivo, imprimirHtml } from "@/lib/informe/descargar";
 import ElementoPanel from "./ElementoPanel";
+import Comentarios from "@/components/Comentarios";
 
 const Viewer = dynamic(() => import("@/components/Viewer"), { ssr: false });
 const MapaPanel = dynamic(() => import("./MapaPanel"), { ssr: false });
@@ -946,6 +947,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
           />
         )}
         {ifcTab === "elemento" && <ElementoPanel selection={selection} search={search} onSearch={setSearch} onLocate={locate} />}
+        <Comentarios supabase={supabase} proyectoId={project.id} pestana={tab} />
       </aside>
 
       <aside className="side">

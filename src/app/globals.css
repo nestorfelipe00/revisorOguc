@@ -516,3 +516,51 @@ textarea {
 .side .panel {
   grid-template-columns: minmax(0, 1fr);
 }
+
+/* Banner «Comentarios» al pie del panel IFC: siempre abajo, el resto del panel se desplaza */
+.comentarios {
+  margin-top: auto;
+  border-top: 1px solid var(--border);
+  background: var(--panel-2);
+}
+
+.comentarios-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.comentarios-head:hover {
+  background: var(--panel);
+}
+
+.comentarios-head .chevron {
+  color: var(--muted);
+}
+
+.comentarios-body {
+  display: grid;
+  gap: 8px;
+  padding: 0 12px 12px;
+}
+
+.comentarios-body textarea {
+  resize: vertical;
+  min-height: 64px;
+}
+
+.comentarios-pie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
