@@ -130,7 +130,8 @@ export async function escenaCiudad(options: EscenaOpciones): Promise<TerritorySc
   const frame = location.frame;
   if (!frame) throw new CiudadNoDisponible("Primero hay que ubicar el proyecto: indique la ubicación en la pestaña Coordenadas.");
   const ciudad = await ciudadPara(location.center);
-  if (!ciudad) throw new CiudadNoDisponible("No hay porción de ciudad 3D generada para esta ubicación. Se generan con tools/gis/teselas_ciudad.py.");
+  const punto = `${location.center.latitude.toFixed(5)},${location.center.longitude.toFixed(5)}`;
+  if (!ciudad) throw new CiudadNoDisponible(`No hay porción de ciudad 3D generada para esta ubicación. Genérela en el escritorio con: python tools/gis/teselas_ciudad.py <comuna> <carpeta _ciudad> ${punto} 1500`);
   const index = await indiceCiudad(ciudad);
   if (!index) throw new CiudadNoDisponible(`No se pudo leer el índice de la ciudad ${ciudad}.`);
 
@@ -143,7 +144,7 @@ export async function escenaCiudad(options: EscenaOpciones): Promise<TerritorySc
     maxLat: Math.max(...corners.map((c) => c.latitude)) + 0.002,
   };
   const tiles = await teselasEn(index, env);
-  if (tiles.length === 0) throw new CiudadNoDisponible("La ubicación queda fuera de la porción de ciudad 3D generada.");
+  if (tiles.length === 0) throw new CiudadNoDisponible(`La ubicación queda fuera de las porciones de ciudad 3D generadas. Genere una con: python tools/gis/teselas_ciudad.py ${ciudad} <carpeta _ciudad> ${punto} 1500`);
 
   const ground = (x: number, y: number): number => {
     const g = toGeo(frame, x, y);

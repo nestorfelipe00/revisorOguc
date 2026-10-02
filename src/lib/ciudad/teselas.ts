@@ -40,9 +40,9 @@ export interface Tesela {
 
 const SCALE = 1e7;
 
-const indices = new Map<string, Promise<CiudadIndice | null>>();
+// Solo las teselas se recuerdan en memoria; la lista de ciudades y los índices se vuelven a pedir (con revalidación HTTP)
+// para que una porción recién generada aparezca sin recargar la página.
 const cache = new Map<string, Promise<Tesela | null>>();
-let lista: Promise<{ ciudad: string; bounds: [number, number, number, number] }[]> | null = null;
 
 async function getJson<T>(url: string): Promise<T | null> {
   const response = await fetch(url, { cache: "no-cache" });
@@ -52,9 +52,8 @@ async function getJson<T>(url: string): Promise<T | null> {
 }
 
 /** Ciudades disponibles (ciudades.json). */
-export function ciudadesDisponibles(): Promise<{ ciudad: string; bounds: [number, number, number, number] }[]> {
-  lista ??= getJson<{ ciudad: string; bounds: [number, number, number, number] }[]>(`${CIUDAD_URL}/ciudades.json`).then((l) => l ?? []);
-  return lista;
+export async function ciudadesDisponibles(): Promise<{ ciudad: string; bounds: [number, number, number, number] }[]> {
+  return (await getJson<{ ciudad: string; bounds: [number, number, number, number] }[]>(`${CIUDAD_URL}/ciudades.json`)) ?? [];
 }
 
 /** Ciudad cuya extensión contiene el punto; si varias, aquella en que el punto queda más lejos del borde. */
@@ -74,8 +73,7 @@ export async function ciudadPara(point: GeoPoint): Promise<string | null> {
 }
 
 export function indiceCiudad(ciudad: string): Promise<CiudadIndice | null> {
-  if (!indices.has(ciudad)) indices.set(ciudad, getJson<CiudadIndice>(`${CIUDAD_URL}/${ciudad}/index.json`));
-  return indices.get(ciudad)!;
+  return getJson<CiudadIndice>(`${CIUDAD_URL}/${ciudad}/index.json`);
 }
 
 export function tesela(index: CiudadIndice, i: number, j: number): Promise<Tesela | null> {
