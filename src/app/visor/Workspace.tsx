@@ -335,6 +335,8 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
         return;
       }
       const seq = ++citySeq.current;
+      // Se marca activa desde el inicio: si la comuna (y sus zonas) llega mientras se descargan las teselas, se rehace.
+      setCityShown(true);
       try {
         const area = areaDeCiudad(location, reference.extent);
         const carpeta = carpetaInstrumento;
@@ -342,10 +344,10 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
         const scene = await escenaCiudad({ location, extent: reference.extent, parcel, zonas, alturasDocumento: alturas ? { documento: alturas.documento, alcance: alturas.alcance } : null });
         if (seq !== citySeq.current || !api.current) return;
         api.current.setTerritory(scene, keepView);
-        setCityShown(true);
         log("info", `Ciudad 3D: ${scene.buildings.length} edificios, ${scene.roads.length} tramos de calle y ${scene.zones.length} zonas del PRC (porción precalculada).`);
       } catch (error) {
         const message = error instanceof CiudadNoDisponible ? error.message : `No se pudo armar la ciudad 3D: ${error instanceof Error ? error.message : String(error)}`;
+        if (seq === citySeq.current) setCityShown(false);
         api.current?.cityUnavailable(message);
         log("warn", `Ciudad 3D: ${message}`);
       }
