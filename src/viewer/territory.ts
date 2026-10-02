@@ -207,7 +207,11 @@ export class TerritoryContext {
         }
       }
     });
-    // Las etiquetas CSS2D quitan su elemento del DOM al salir de la escena (evento «removed»).
+    // El evento «removed» solo llega al hijo directo que se quita: las etiquetas CSS2D anidadas en el grupo del predio
+    // dejarían su elemento en el DOM (etiquetas duplicadas al rehacer la ciudad). Se quitan a mano.
+    this.group.traverse((o) => {
+      if (o instanceof CSS2DObject) o.element.remove();
+    });
     this.group.clear();
     this.fatLines.length = 0;
     this.layers = null;
