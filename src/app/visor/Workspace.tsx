@@ -358,13 +358,22 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
   // Si la ciudad ya se mostró, se rehace con la nueva ubicación o el nuevo predio, con la cámara quieta sobre ella.
   const cityActiveRef = useRef(false);
   const showCityRef = useRef(showCity);
+  // Al indicar una ubicación (mapa o lat/lon) la ciudad 3D se carga en ese punto, como en el escritorio.
+  const cityPendingRef = useRef(false);
   useEffect(() => {
     cityActiveRef.current = cityActive;
     showCityRef.current = showCity;
   });
   useEffect(() => {
-    if (cityActiveRef.current) void showCityRef.current(true);
-  }, [location, parcel]);
+    if (cityPendingRef.current) {
+      const wasActive = cityActiveRef.current;
+      cityPendingRef.current = false;
+      void showCityRef.current(wasActive);
+    } else if (cityActiveRef.current) {
+      void showCityRef.current(true);
+    }
+    // carpetaInstrumento llega después de la ubicación (consulta a Supabase): con él se agregan las zonas del PRC.
+  }, [location, parcel, carpetaInstrumento]);
 
   // Calle más cercana a la ubicación (para orientar el predio rectangular).
   useEffect(() => {
@@ -448,7 +457,8 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
     } else {
       setManualLocation(point);
     }
-    log("info", `Ubicación del proyecto indicada: ${n(point.latitude, 6)}, ${n(point.longitude, 6)}.`);
+    cityPendingRef.current = true;
+    log("info", `Ubicación del proyecto indicada: ${n(point.latitude, 6)}, ${n(point.longitude, 6)}. La ciudad 3D se carga en ese punto.`);
   };
 
   const useIfc = () => {
