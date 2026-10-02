@@ -1,4 +1,4 @@
-// Escena de ciudad desde las teselas reales de la porción de La Serena (public/_ciudad), sin navegador ni Supabase.
+// Escena de ciudad desde las teselas reales de La Serena (public/_ciudad, gzip), sin navegador ni Supabase.
 import { readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
@@ -19,7 +19,8 @@ beforeAll(() => {
     const url = String(input);
     if (!url.startsWith(CIUDAD_URL)) return new Response(null, { status: 404 });
     const file = path.join(root, url.slice(CIUDAD_URL.length + 1));
-    if (!existsSync(file)) return new Response(null, { status: 404 });
+    // Como Supabase Storage: un objeto que no existe responde 400.
+    if (!existsSync(file)) return new Response('{"statusCode":"404","error":"not_found"}', { status: 400 });
     return new Response(await readFile(file), { status: 200, headers: { "content-type": "application/json" } });
   }) as typeof fetch;
 });
@@ -28,7 +29,7 @@ afterAll(() => {
   globalThis.fetch = originalFetch;
 });
 
-describe.skipIf(!disponible)("Ciudad 3D desde teselas (porción de La Serena)", () => {
+describe.skipIf(!disponible)("Ciudad 3D desde teselas (La Serena)", () => {
   it("arma la escena alrededor del predio con terreno, edificios y calles", async () => {
     const location = siteLocation(centro);
     const scene = await escenaCiudad({ location, extent: null, parcel: null, zonas: [], alturasDocumento: null });

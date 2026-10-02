@@ -1,5 +1,6 @@
 // Teselas estáticas de la base de ciudad (tools/gis/teselas_ciudad.py del escritorio): la web descarga solo las celdas
 // de ~250 m alrededor del modelo. Coordenadas: enteros de 1e-7° relativos a la esquina suroeste de la tesela.
+// Las comunas completas comparten la carpeta `teselas/` (cuadrícula de todo el país, lon0 = lat0 = 0) y vienen en gzip.
 import type { GeoPoint } from "@/lib/territorio/utm";
 
 export const CIUDAD_URL = process.env.NEXT_PUBLIC_CIUDAD_URL ?? "/_ciudad";
@@ -10,6 +11,10 @@ export interface CiudadIndice {
   lon0: number;
   lat0: number;
   bounds: [number, number, number, number];
+  /** Carpeta de las teselas; sin ella, la de la ciudad (porciones antiguas). */
+  carpeta?: string;
+  /** Teselas .json.gz. */
+  gzip?: boolean;
   teselas: number;
   terreno: { fuente: string; celda_m: number };
   fuentes: { capa: string; fuente: string; licencia: string }[];
@@ -46,9 +51,16 @@ const cache = new Map<string, Promise<Tesela | null>>();
 
 async function getJson<T>(url: string): Promise<T | null> {
   const response = await fetch(url, { cache: "no-cache" });
-  if (response.status === 404) return null;
+  // Supabase Storage responde 400 («Object not found») a un objeto público que no existe.
+  if (response.status === 404 || response.status === 400) return null;
   if (!response.ok) throw new Error(`No se pudo leer ${url} (HTTP ${response.status}).`);
-  return (await response.json()) as T;
+  const bytes = new Uint8Array(await response.arrayBuffer());
+  // Las teselas .json.gz llegan tal cual (sin Content-Encoding): se reconocen por la firma de gzip.
+  const text =
+    bytes[0] === 0x1f && bytes[1] === 0x8b
+      ? await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).text()
+      : new TextDecoder().decode(bytes);
+  return JSON.parse(text) as T;
 }
 
 /** Ciudades disponibles (ciudades.json). */
@@ -77,11 +89,11 @@ export function indiceCiudad(ciudad: string): Promise<CiudadIndice | null> {
 }
 
 export function tesela(index: CiudadIndice, i: number, j: number): Promise<Tesela | null> {
-  const key = `${index.ciudad}/${i}_${j}`;
+  const key = `${index.carpeta ?? index.ciudad}/${i}_${j}`;
   if (!cache.has(key)) {
     cache.set(
       key,
-      getJson<Omit<Tesela, "i" | "j" | "lon0" | "lat0">>(`${CIUDAD_URL}/${index.ciudad}/${i}_${j}.json`).then((t) =>
+      getJson<Omit<Tesela, "i" | "j" | "lon0" | "lat0">>(`${CIUDAD_URL}/${key}.json${index.gzip ? ".gz" : ""}`).then((t) =>
         t ? { ...t, i, j, lon0: index.lon0 + i * index.tesela, lat0: index.lat0 + j * index.tesela } : null,
       ),
     );
