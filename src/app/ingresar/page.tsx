@@ -4,7 +4,7 @@ import { Suspense, useState, type FormEvent } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 
-type Mode = "clave" | "registro";
+type Mode = "clave" | "registro" | "recuperar";
 
 const MIN_PASSWORD = 12;
 
@@ -20,7 +20,9 @@ function IngresarForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [status, setStatus] = useState<{ kind: "ok" | "error"; text: string } | null>(
-    params.get("error") ? { kind: "error", text: "El enlace no es válido o ya expiró. Pida uno nuevo." } : null,
+    params.get("error")
+      ? { kind: "error", text: "El enlace no es válido o ya expiró. Si era para cambiar la contraseña, pida uno nuevo con «Olvidé mi contraseña»." }
+      : null,
   );
   const [busy, setBusy] = useState(false);
 
@@ -44,7 +46,17 @@ function IngresarForm() {
     setStatus(null);
     const supabase = createClient();
     try {
-      if (mode === "registro") {
+      if (mode === "recuperar") {
+        // El enlace vuelve por /auth/confirmar, que abre la sesión y lleva a fijar la contraseña nueva.
+        const { error } = await supabase.auth.resetPasswordForEmail(email, {
+          redirectTo: `${location.origin}/auth/confirmar?volver=${encodeURIComponent("/ingresar/nueva-clave")}`,
+        });
+        if (error) throw error;
+        setStatus({
+          kind: "ok",
+          text: "Si el correo tiene una cuenta, le enviamos un enlace para cambiar la contraseña. Ábralo en este mismo navegador y revise también la carpeta de spam.",
+        });
+      } else if (mode === "registro") {
         if (password.length < MIN_PASSWORD) throw new Error(`La contraseña debe tener al menos ${MIN_PASSWORD} caracteres.`);
         const { data, error } = await supabase.auth.signUp({
           email,
@@ -95,26 +107,33 @@ function IngresarForm() {
           <span className="small muted">Correo electrónico</span>
           <input className="input" type="email" required autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} />
         </label>
-        <label>
-          <span className="small muted">Contraseña{mode === "registro" ? ` (mínimo ${MIN_PASSWORD} caracteres)` : ""}</span>
-          <input
-            className="input"
-            type="password"
-            required
-            minLength={mode === "registro" ? MIN_PASSWORD : undefined}
-            autoComplete={mode === "registro" ? "new-password" : "current-password"}
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-        </label>
+        {mode !== "recuperar" && (
+          <label>
+            <span className="small muted">Contraseña{mode === "registro" ? ` (mínimo ${MIN_PASSWORD} caracteres)` : ""}</span>
+            <input
+              className="input"
+              type="password"
+              required
+              minLength={mode === "registro" ? MIN_PASSWORD : undefined}
+              autoComplete={mode === "registro" ? "new-password" : "current-password"}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </label>
+        )}
         <button className="btn btn-primary" type="submit" disabled={busy}>
-          {busy ? "Enviando…" : mode === "registro" ? "Crear cuenta" : "Ingresar"}
+          {busy ? "Enviando…" : mode === "recuperar" ? "Enviar enlace para cambiar la contraseña" : mode === "registro" ? "Crear cuenta" : "Ingresar"}
         </button>
         <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
           {mode === "clave" ? (
-            <button type="button" className="btn small" onClick={() => setMode("registro")}>
-              Crear cuenta
-            </button>
+            <>
+              <button type="button" className="btn small" onClick={() => setMode("registro")}>
+                Crear cuenta
+              </button>
+              <button type="button" className="btn small" onClick={() => setMode("recuperar")}>
+                Olvidé mi contraseña
+              </button>
+            </>
           ) : (
             <button type="button" className="btn small" onClick={() => setMode("clave")}>
               Ya tengo contraseña
