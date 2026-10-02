@@ -488,3 +488,31 @@ textarea {
 .kv select.input {
   padding: 5px 8px;
 }
+
+/* Nombres de archivo largos: la fila y el resumen se recortan con puntos suspensivos en vez de desbordar el panel */
+.side,
+.side .panel,
+.model-list,
+.model-list .row {
+  min-width: 0;
+}
+
+.model-list .row .name {
+  min-width: 0;
+}
+
+.model-list .row .badge,
+.model-list .row .btn {
+  flex: none;
+}
+
+.pset > summary {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* La única columna del panel no debe crecer con el contenido más ancho (nombres largos) */
+.side .panel {
+  grid-template-columns: minmax(0, 1fr);
+}
