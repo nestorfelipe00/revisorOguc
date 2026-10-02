@@ -35,7 +35,7 @@ interface AlturasJson {
 export async function zonasParaCiudad(supabase: SupabaseClient, carpeta: string, areaJson: string): Promise<{ zonas: ZonaCiudad[]; alturas: AlturasJson | null }> {
   const [rows, alturas] = await Promise.all([
     zonasEnArea(supabase, carpeta, areaJson),
-    fetch(`/normas/${carpeta}/alturas_maximas.json`, { cache: "force-cache" }).then((r) => (r.ok ? (r.json() as Promise<AlturasJson>) : null)).catch(() => null),
+    fetch(`/normas/${carpeta}/alturas_maximas.json`, { cache: "no-cache" }).then((r) => (r.ok ? (r.json() as Promise<AlturasJson>) : null)).catch(() => null),
   ]);
   const byZone = new Map<string, AlturasJson["zonas"][number]>();
   for (const z of alturas?.zonas ?? []) byZone.set(zoneKey(z.zona), z);

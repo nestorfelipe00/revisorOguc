@@ -30,6 +30,7 @@ import { cargarProyecto, guardarProyecto, type ModeloGuardado } from "@/lib/proy
 import { alturaTerreno, areaDeCiudad, calleMasCercana, CiudadNoDisponible, escenaCiudad, zonasParaCiudad, type CalleCercana } from "@/lib/ciudad/escena";
 import { alerta, type Alerta } from "./Alerta";
 import ProyectoPanel, { type LogLine } from "./ProyectoPanel";
+import ModelosPanel from "./ModelosPanel";
 import UbicacionPanel, { type Territorio } from "./UbicacionPanel";
 import CoordenadasPanel from "./CoordenadasPanel";
 import PredioPanel from "./PredioPanel";
@@ -38,14 +39,19 @@ import ElementoPanel from "./ElementoPanel";
 
 const Viewer = dynamic(() => import("@/components/Viewer"), { ssr: false });
 
-type Tab = "proyecto" | "ubicacion" | "coordenadas" | "predio" | "revision" | "elemento";
+// Panel izquierdo: todo lo del IFC (modelos y elemento). Panel derecho: proyecto, territorio, predio y revisión.
+type IfcTab = "modelos" | "elemento";
+type Tab = "proyecto" | "ubicacion" | "coordenadas" | "predio" | "revision";
+const IFC_TABS: { id: IfcTab; label: string }[] = [
+  { id: "modelos", label: "Modelos IFC" },
+  { id: "elemento", label: "Elemento" },
+];
 const TABS: { id: Tab; label: string }[] = [
   { id: "proyecto", label: "Proyecto" },
   { id: "ubicacion", label: "Ubicación" },
   { id: "coordenadas", label: "Coordenadas" },
   { id: "predio", label: "Predio" },
   { id: "revision", label: "Revisión" },
-  { id: "elemento", label: "Elemento" },
 ];
 
 const MAX_IFC_BYTES = 100 * 1024 * 1024;
@@ -103,6 +109,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
   const [search, setSearch] = useState("");
   const [logs, setLogs] = useState<LogLine[]>([]);
   const [tab, setTab] = useState<Tab>("proyecto");
+  const [ifcTab, setIfcTab] = useState<IfcTab>("modelos");
   const [dragging, setDragging] = useState(false);
   const [placement, setPlacement] = useState<UserPlacement | null>(null);
   const [manualLocation, setManualLocation] = useState<GeoPoint | null>(null);
@@ -206,7 +213,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
       },
       onSelectionChanged: (count, element) => {
         setSelection({ count, element });
-        if (element) setTab("elemento");
+        if (element) setIfcTab("elemento");
       },
       onLog: log,
       onPointPicked: (point) => setLastPicked(point),
@@ -650,8 +657,30 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
         )}
       </section>
 
+      <aside className="side side-left">
+        <div className="tabs" role="tablist" aria-label="IFC">
+          {IFC_TABS.map((t) => (
+            <button key={t.id} role="tab" aria-selected={ifcTab === t.id} onClick={() => setIfcTab(t.id)}>
+              {t.label}
+            </button>
+          ))}
+        </div>
+        {ifcTab === "modelos" && (
+          <ModelosPanel
+            models={models}
+            alerts={projectAlerts}
+            ready={ready}
+            expected={project.expected}
+            onOpen={openFiles}
+            onVisible={(id, visible) => void api.current?.setVisible(id, visible)}
+            onUnload={(id) => void api.current?.unload(id)}
+          />
+        )}
+        {ifcTab === "elemento" && <ElementoPanel selection={selection} search={search} onSearch={setSearch} onLocate={locate} />}
+      </aside>
+
       <aside className="side">
-        <div className="tabs" role="tablist">
+        <div className="tabs" role="tablist" aria-label="Proyecto">
           {TABS.map((t) => (
             <button key={t.id} role="tab" aria-selected={tab === t.id} onClick={() => setTab(t.id)}>
               {t.label}
@@ -659,18 +688,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
           ))}
         </div>
         {tab === "proyecto" && (
-          <ProyectoPanel
-            models={models}
-            alerts={projectAlerts}
-            logs={logs}
-            ready={ready}
-            project={project}
-            onNombre={(nombre) => setProject((p) => ({ ...p, nombre }))}
-            onSave={() => void saveProject()}
-            onOpen={openFiles}
-            onVisible={(id, visible) => void api.current?.setVisible(id, visible)}
-            onUnload={(id) => void api.current?.unload(id)}
-          />
+          <ProyectoPanel alerts={[]} logs={logs} project={project} onNombre={(nombre) => setProject((p) => ({ ...p, nombre }))} onSave={() => void saveProject()} />
         )}
         {tab === "ubicacion" && <UbicacionPanel territory={territory} alerts={locationAlerts} hasModels={models.length > 0} />}
         {tab === "coordenadas" && (
@@ -730,7 +748,6 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
             onShowElements={showElements}
           />
         )}
-        {tab === "elemento" && <ElementoPanel selection={selection} search={search} onSearch={setSearch} onLocate={locate} />}
       </aside>
     </div>
   );

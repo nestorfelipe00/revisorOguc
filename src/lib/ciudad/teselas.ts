@@ -45,7 +45,7 @@ const cache = new Map<string, Promise<Tesela | null>>();
 let lista: Promise<{ ciudad: string; bounds: [number, number, number, number] }[]> | null = null;
 
 async function getJson<T>(url: string): Promise<T | null> {
-  const response = await fetch(url, { cache: "force-cache" });
+  const response = await fetch(url, { cache: "no-cache" });
   if (response.status === 404) return null;
   if (!response.ok) throw new Error(`No se pudo leer ${url} (HTTP ${response.status}).`);
   return (await response.json()) as T;

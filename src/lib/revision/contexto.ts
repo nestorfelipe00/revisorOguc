@@ -35,7 +35,7 @@ export const parcelCenter = (parcel: Parcel): GeoPoint => ({
 });
 
 async function fetchJson(url: string): Promise<unknown | null> {
-  const response = await fetch(url, { cache: "force-cache" });
+  const response = await fetch(url, { cache: "no-cache" });
   if (response.status === 404) return null;
   if (!response.ok) throw new Error(`No se pudo leer ${url} (HTTP ${response.status}).`);
   return response.json();
