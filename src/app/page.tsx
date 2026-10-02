@@ -12,7 +12,7 @@ export default async function HomePage() {
     <>
       <header className="topbar">
         <Link href="/" className="brand">
-          BIM Normative Checker
+          Norma+BIM
         </Link>
         <span className="spacer" />
         <span className="muted small">{user?.email}</span>

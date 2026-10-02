@@ -8,7 +8,7 @@ import { ORIGEN_LABELS, datosDeEntrada } from "@/lib/reglas/cabidaPreliminar";
 export const ESQUEMA_INFORME = "bnc-report/1";
 
 export const DESCARGO_INFORME =
-  "Revisión de apoyo generada por BIM Normative Checker. No reemplaza la revisión del arquitecto revisor ni de la DOM. " +
+  "Revisión de apoyo generada por Norma+BIM. No reemplaza la revisión del arquitecto revisor ni de la DOM. " +
   "Los datos del PRC obtenidos de la IDE MINVU son referenciales: lo oficial es la Ordenanza Local vigente. " +
   "Cada exigencia cita su fuente; un resultado «Revisión requerida» o «No verificable» no es una aprobación.";
 
@@ -161,7 +161,7 @@ const row = (label: string, value: string) => `<tr><th>${E(label)}</th><td>${E(v
 
 const fechaGenerado = (r: Informe): string => {
   const fecha = new Date(r.generatedAt);
-  return `Generado el ${fecha.toLocaleDateString("es-CL", { day: "numeric", month: "long", year: "numeric" })}, ${fecha.toLocaleTimeString("es-CL", { hour: "2-digit", minute: "2-digit" })} · BIM Normative Checker ${r.appVersion}`;
+  return `Generado el ${fecha.toLocaleDateString("es-CL", { day: "numeric", month: "long", year: "numeric" })}, ${fecha.toLocaleTimeString("es-CL", { hour: "2-digit", minute: "2-digit" })} · Norma+BIM ${r.appVersion}`;
 };
 
 const STYLE = `

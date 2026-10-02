@@ -969,7 +969,7 @@ export default function Workspace({ userEmail, proyectoId }: { userEmail: string
     <div className="workspace">
       <header className="topbar">
         <Link href="/" className="brand">
-          BIM Normative Checker
+          Norma+BIM
         </Link>
         <label className="btn btn-primary" style={{ cursor: ready ? "pointer" : "wait" }}>
           Abrir IFC

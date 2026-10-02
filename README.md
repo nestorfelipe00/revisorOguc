@@ -1,4 +1,4 @@
-# BIM Normative Checker — versión web
+# Norma+BIM — versión web
 
 Revisión de modelos IFC contra la normativa urbana y de edificación chilena (LGUC, OGUC, PRC), en el navegador. Es la versión web de la aplicación de escritorio `REVISOR OGUC`; comparte el visor That Open y el plan `docs/PLAN_WEB.md` de ese repositorio.
 

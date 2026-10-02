@@ -115,7 +115,7 @@ export function hojasInforme(r: Informe): Hoja[] {
   const resumen: Fila[] = [
     [{ v: tituloInforme(r), s: Estilo.Titulo }],
     ["Generado", `${fecha.toLocaleDateString("es-CL")} ${fecha.toLocaleTimeString("es-CL", { hour: "2-digit", minute: "2-digit" })}`],
-    ["Aplicación", `BIM Normative Checker ${r.appVersion}`],
+    ["Aplicación", `Norma+BIM ${r.appVersion}`],
   ];
   if (r.permit) resumen.push(["Trámite", r.permit]);
   if (r.zone) resumen.push(["Zona del PRC", r.zone]);

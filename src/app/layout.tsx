@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "BIM Normative Checker",
+  title: "Norma+BIM",
   description: "Revisión de modelos IFC contra la normativa urbana y de edificación chilena (LGUC, OGUC, PRC).",
 };
 

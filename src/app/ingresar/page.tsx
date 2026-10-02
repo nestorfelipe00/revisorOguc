@@ -86,7 +86,7 @@ function IngresarForm() {
   return (
     <main className="login">
       <form className="card" onSubmit={submit}>
-        <h1>BIM Normative Checker</h1>
+        <h1>Norma+BIM</h1>
         <p className="muted small" style={{ margin: 0 }}>
           Revisión de modelos IFC contra la normativa urbana chilena. El modelo se procesa en su navegador y no se sube salvo que guarde el
           proyecto.
