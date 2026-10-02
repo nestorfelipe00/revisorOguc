@@ -1,0 +1,127 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local de la Actualización del Plan Regulador Comunal de San Joaquín (D.A. N° 2.838 de 24-10-2019, D.O. 06-11-2019), publicada por la Municipalidad",
+ "url": "https://sanjoaquin.cl/informacion-del-plan-regulador-comunal/",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "ZU2a",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 7 m 2 pisos",
+   "pagina": 10,
+   "seccion": "Art. 12-13, Zona ZU2a",
+   "nota": null
+  },
+  {
+   "zona": "ZU2b",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 7 m 2 pisos",
+   "pagina": 12,
+   "seccion": "Art. 12-13, Zona ZU2b",
+   "nota": null
+  },
+  {
+   "zona": "ZU4",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m. 4 pisos",
+   "pagina": 14,
+   "seccion": "Art. 12-13, Zona ZU4",
+   "nota": null
+  },
+  {
+   "zona": "ZU5",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 18 m. 5 pisos.",
+   "pagina": 16,
+   "seccion": "Art. 12-13, Zona ZU5",
+   "nota": null
+  },
+  {
+   "zona": "ZU6",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 21 m 6 pisos",
+   "pagina": 18,
+   "seccion": "Art. 12-13, Zona ZU6",
+   "nota": null
+  },
+  {
+   "zona": "ZU8",
+   "altura_m": 28.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 28 m. 8 pisos.",
+   "pagina": 21,
+   "seccion": "Art. 12-13, Zona ZU8",
+   "nota": null
+  },
+  {
+   "zona": "ZU12",
+   "altura_m": 42.0,
+   "pisos": null,
+   "texto": "ZU12 (2) 2.000 42 12 - - A 5",
+   "pagina": 24,
+   "seccion": "Art. 12-13, Zona ZU12",
+   "nota": null
+  },
+  {
+   "zona": "ZAPP",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "ZAPP (2) 1.200 m2 18 5 2",
+   "pagina": 27,
+   "seccion": "Art. 12-13, Zona ZAPP",
+   "nota": null
+  },
+  {
+   "zona": "ZAPR",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "ZAPR (3) 18 5 - - - - 500 2 A 5",
+   "pagina": 29,
+   "seccion": "Art. 12-13, Zona ZAPR",
+   "nota": null
+  },
+  {
+   "zona": "ZE",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m 4 pisos",
+   "pagina": 31,
+   "seccion": "Art. 12-13, Zona ZE",
+   "nota": null
+  },
+  {
+   "zona": "ZED",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 7 m 2 pisos",
+   "pagina": 31,
+   "seccion": "Art. 12-13, Zona ZED",
+   "nota": null
+  },
+  {
+   "zona": "ZI",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 7 m",
+   "pagina": 31,
+   "seccion": "Art. 12-13, Zona ZI",
+   "nota": null
+  },
+  {
+   "zona": "ZAV",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación: 14 m",
+   "pagina": 32,
+   "seccion": "Art. 14, Zona ZAV",
+   "nota": null
+  }
+ ]
+}

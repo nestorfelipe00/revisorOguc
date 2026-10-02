@@ -1,0 +1,640 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Talcahuano (Decreto N° 247, D.O. 31-01-2006), «versión referencial integrada 2016» publicada por la Municipalidad de Talcahuano (copia de archive.org del 25-08-2025 del enlace municipal)",
+ "url": "https://adm.talcahuano.cl/imagenes/ckfinder/files/ORDENANZA%20VERSION%20REFERENCIAL%20INTEGRADA_2016.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "ZH-1",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7 9 9",
+   "pagina": 33,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 1: (Las Canchas – Población Young)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-2",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9 9 9",
+   "pagina": 34,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 2: (Poblaciones Navales, Señoret y Bannen)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-3",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 12 30 30",
+   "pagina": 35,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 3: (Centro)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-4",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9 20 9",
+   "pagina": 36,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 4: (David Fuentes)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-5",
+   "altura_m": 10.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 10 30 30",
+   "pagina": 37,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 5: (Bilbao – Simon)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-6",
+   "altura_m": 10.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 10 30 30",
+   "pagina": 38,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 6: (Bilbao – San Vicente)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-7",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9 15 9",
+   "pagina": 39,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 7: (Salinas – Santa Clara)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-8",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 12 15 12",
+   "pagina": 40,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 8: (Salinas)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-9",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9 15 9",
+   "pagina": 41,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 9: (Higueras – Salinas – Los Cóndores – Cruz del Sur –",
+   "nota": null
+  },
+  {
+   "zona": "ZH-10",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9 15 9",
+   "pagina": 42,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 10: (Santa Leonor – Santa María)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-11",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7 15 7",
+   "pagina": 43,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 11: (Diego Portales – P. Lynch – Carlos Condell)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-12",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9 15 12",
+   "pagina": 44,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 12: (Esmeralda)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-13",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9 20 9",
+   "pagina": 45,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 13: (Carriel Sur)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-14",
+   "altura_m": 10.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 10 45 (*) 45 (*)",
+   "pagina": 46,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 14 (Aeropuerto)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-1T",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7 9 7",
+   "pagina": 47,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 1T: (Cerro Vista Hermosa y Cerro Zaror)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-2T",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9 9 9",
+   "pagina": 48,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 2T: (Cerro Buena Vista)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-3T",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7 7 7",
+   "pagina": 49,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 3T: (Cerro La Gloria y Monte Redondo)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-4T",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7 7 7",
+   "pagina": 50,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 4T: (Los Lobos)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-5T",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7 7 7",
+   "pagina": 51,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 5T: (Nueva Los Lobos)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-6T",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7 12 12",
+   "pagina": 52,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 6T: (Centinela Sur)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-7T",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7 7 7",
+   "pagina": 53,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 7T: (Hijuela Los Copihues)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-8T",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9",
+   "pagina": 54,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 8T:",
+   "nota": null
+  },
+  {
+   "zona": "ZEXH-1",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9 9 9",
+   "pagina": 56,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 1: (Las Canchas):",
+   "nota": null
+  },
+  {
+   "zona": "ZEXH-2",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9 9 9",
+   "pagina": 57,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 2: (Las Canchas):",
+   "nota": null
+  },
+  {
+   "zona": "ZEXH-1T",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9 15 9",
+   "pagina": 58,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 1T: (Centinela Norte)",
+   "nota": null
+  },
+  {
+   "zona": "ZEXH-2T",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7 9 7",
+   "pagina": 59,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 2T: (Centinela)",
+   "nota": null
+  },
+  {
+   "zona": "ZEXH-3T",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9 15 9",
+   "pagina": 60,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 3T: (Centinela Sur)",
+   "nota": null
+  },
+  {
+   "zona": "ZEXH-4T",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 8 8 8",
+   "pagina": 61,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 4T: (Fuerte O’ Higgins)",
+   "nota": null
+  },
+  {
+   "zona": "ZEXH-5T",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9 8 8",
+   "pagina": 62,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 5T: (Los Lobos)",
+   "nota": null
+  },
+  {
+   "zona": "ZEXH-6T",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 8 8",
+   "pagina": 63,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 6T: (Península de Tumbes)",
+   "nota": null
+  },
+  {
+   "zona": "ZHEQ-1",
+   "altura_m": 10.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 10 20 15",
+   "pagina": 64,
+   "seccion": "Art. 42, ZONA RESIDENCIAL EQUIPAMIENTO, ZHEQ- 1: (Salinas)",
+   "nota": null
+  },
+  {
+   "zona": "ZEQ-1",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 12",
+   "pagina": 65,
+   "seccion": "Art. 42, ZONA EQUIPAMIENTO, ZEQ- 1:",
+   "nota": null
+  },
+  {
+   "zona": "ZEQ-2",
+   "altura_m": 30.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 8 30",
+   "pagina": 66,
+   "seccion": "Art. 42, ZONA EQUIPAMIENTO, ZEQ- 2:",
+   "nota": null
+  },
+  {
+   "zona": "ZEQ-3",
+   "altura_m": 45.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 45",
+   "pagina": 67,
+   "seccion": "Art. 42, ZONA EQUIPAMIENTO, ZEQ- 3:",
+   "nota": null
+  },
+  {
+   "zona": "ZEQ-4",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 12",
+   "pagina": 68,
+   "seccion": "Art. 42, ZONA EQUIPAMIENTO, ZEQ- 4: (Ventana al Mar - Huachipato)",
+   "nota": null
+  },
+  {
+   "zona": "ZEQ-5",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 15",
+   "pagina": 69,
+   "seccion": "Art. 42, ZONA EQUIPAMIENTO, ZEQ- 5: (Ventana al Mar)",
+   "nota": null
+  },
+  {
+   "zona": "ZEQ-6",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 15",
+   "pagina": 70,
+   "seccion": "Art. 42, ZONA EQUIPAMIENTO, ZEQ- 6: (San Vicente Sur)",
+   "nota": null
+  },
+  {
+   "zona": "ZEXEQ-1",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 12",
+   "pagina": 72,
+   "seccion": "Art. 42, ZONA EXTENSIÓN EQUIPAMIENTO, ZEXEQ- 1: (El Manzano)",
+   "nota": null
+  },
+  {
+   "zona": "ZEXEQ-2",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 15",
+   "pagina": 73,
+   "seccion": "Art. 42, ZONA EXTENSIÓN EQUIPAMIENTO, ZEXEQ- 2: (Cerro San Miguel)",
+   "nota": null
+  },
+  {
+   "zona": "ZEXEQ-3",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 21",
+   "pagina": 74,
+   "seccion": "Art. 42, ZONA EXTENSIÓN EQUIPAMIENTO, ZEXEQ- 3: (Carriel Sur)",
+   "nota": null
+  },
+  {
+   "zona": "ZEXEQ-4",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 15",
+   "pagina": 75,
+   "seccion": "Art. 42, ZONA EXTENSIÓN EQUIPAMIENTO, ZEXEQ- 4: (El Morro)",
+   "nota": null
+  },
+  {
+   "zona": "ZE-1",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 12",
+   "pagina": 77,
+   "seccion": "Art. 42, ZONA ESPARCIMIENTO, ZE-1 y ZEXE-1:",
+   "nota": null
+  },
+  {
+   "zona": "ZEXE-1",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 12",
+   "pagina": 77,
+   "seccion": "Art. 42, ZONA ESPARCIMIENTO, ZE-1 y ZEXE-1:",
+   "nota": null
+  },
+  {
+   "zona": "ZAV-1",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7",
+   "pagina": 78,
+   "seccion": "Art. 42, ZONA ÁREA VERDE, ZAV-1: (Vecinal)",
+   "nota": null
+  },
+  {
+   "zona": "ZAV-2",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9",
+   "pagina": 79,
+   "seccion": "Art. 42, ZONA ÁREA VERDE, ZAV-2: (Barrio)",
+   "nota": null
+  },
+  {
+   "zona": "ZAV-3",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9",
+   "pagina": 80,
+   "seccion": "Art. 42, ZONA ÁREA VERDE, ZAV-3: (Parques comunales)",
+   "nota": null
+  },
+  {
+   "zona": "ZAV-4",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9",
+   "pagina": 81,
+   "seccion": "Art. 42, ZONA ÁREA VERDE, ZAV-4: (Península de Tumbes)",
+   "nota": null
+  },
+  {
+   "zona": "ZEXAV",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9",
+   "pagina": 82,
+   "seccion": "Art. 42, ZONA ÁREA VERDE, ZEXAV: (Barrio)",
+   "nota": null
+  },
+  {
+   "zona": "ZCA-1",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7 7 9",
+   "pagina": 83,
+   "seccion": "Art. 42, ZONA CALETA TUMBES, ZCA- 1: (Caleta Tumbes)",
+   "nota": null
+  },
+  {
+   "zona": "ZCA-2",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7 7 7",
+   "pagina": 84,
+   "seccion": "Art. 42, ZONA CALETA, ZCA- 2: (Caleta El Morro - Rocuant)",
+   "nota": null
+  },
+  {
+   "zona": "ZPEA",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 15",
+   "pagina": 90,
+   "seccion": "Art. 42, ZONA PUERTO PESQUERO ARTESANAL, ZPEA:  (San Vicente-Poza Blanco)",
+   "nota": null
+  },
+  {
+   "zona": "ZPEI",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7",
+   "pagina": 91,
+   "seccion": "Art. 42, ZONA PUERTO PESQUERO INDUSTRIAL, ZPEI: (San Vicente)",
+   "nota": null
+  },
+  {
+   "zona": "ZAP",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 12",
+   "pagina": 92,
+   "seccion": "Art. 42, ZONA ANTEPUERTO, ZAP: (Sitrans – Cap - Muellaje San Vicente)",
+   "nota": null
+  },
+  {
+   "zona": "ZEXAP",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 12",
+   "pagina": 93,
+   "seccion": "Art. 42, ZONA EXTENSIÓN ANTEPUERTO, ZEXAP: (Rocuant)",
+   "nota": null
+  },
+  {
+   "zona": "ZSC-2",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9",
+   "pagina": 95,
+   "seccion": "Art. 42, ZONA SERVICIOS COMERCIALES, ZSC-2: (San Vicente - Gaete)",
+   "nota": null
+  },
+  {
+   "zona": "ZSC-3",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 15",
+   "pagina": 96,
+   "seccion": "Art. 42, ZONA SERVICIOS COMERCIALES, ZSC-3: (El Morro)",
+   "nota": null
+  },
+  {
+   "zona": "ZSC-4",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 7",
+   "pagina": 97,
+   "seccion": "Art. 42, ZONA SERVICIOS COMERCIALES, ZSC-4: (Libertad)",
+   "nota": null
+  },
+  {
+   "zona": "ZSC-6",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 12",
+   "pagina": 99,
+   "seccion": "Art. 42, ZONA SERVICIOS COMERCIALES, ZSC-6: (Arucas)",
+   "nota": null
+  },
+  {
+   "zona": "ZI-3",
+   "altura_m": 30.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 30",
+   "pagina": 104,
+   "seccion": "Art. 42, ZONA INDUSTRIAL, ZI- 3: (ASMAR)",
+   "nota": null
+  },
+  {
+   "zona": "ZI-4",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 15 15",
+   "pagina": 105,
+   "seccion": "Art. 42, ZONA INDUSTRIAL, ZI-4: (Isla Rocuant - San Vicente)",
+   "nota": null
+  },
+  {
+   "zona": "ZI-5",
+   "altura_m": 10.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 10",
+   "pagina": 106,
+   "seccion": "Art. 42, ZONA INDUSTRIAL, ZI-5: (Huertos Obreros)",
+   "nota": null
+  },
+  {
+   "zona": "ZI-6",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 12",
+   "pagina": 107,
+   "seccion": "Art. 42, ZONA INDUSTRIAL, ZI-6: (El Morro - San Vicente)",
+   "nota": null
+  },
+  {
+   "zona": "ZEXI-3",
+   "altura_m": 10.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 10",
+   "pagina": 110,
+   "seccion": "Art. 42, ZONA EXTENSIÓN INDUSTRIAL, ZEXI-3: (Huertos Obreros)",
+   "nota": null
+  },
+  {
+   "zona": "ZIn",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 15",
+   "pagina": 111,
+   "seccion": "Art. 42, ZONA INFRAESTRUCTURA,  ZIn:",
+   "nota": null
+  },
+  {
+   "zona": "ZC",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9",
+   "pagina": 112,
+   "seccion": "Art. 42, ZONA CEMENTERIO, ZC: (Cementerios)",
+   "nota": null
+  },
+  {
+   "zona": "ZII-1",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 15",
+   "pagina": 113,
+   "seccion": "Art. 42, ZONA INTERÉS INSTITUCIONAL, ZII-1: (Base Naval)",
+   "nota": null
+  },
+  {
+   "zona": "ZII-2",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 12",
+   "pagina": 114,
+   "seccion": "Art. 42, ZONA INTERÉS INSTITUCIONAL, ZII-2: (Península de Tumbes)",
+   "nota": null
+  },
+  {
+   "zona": "ZA",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 12",
+   "pagina": 115,
+   "seccion": "Art. 42, ZONA AEROPUERTO, ZA:",
+   "nota": null
+  },
+  {
+   "zona": "ZPCe",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9",
+   "pagina": 116,
+   "seccion": "Art. 42, ZONA PROTECCIÓN DE CERRO, ZPCe:",
+   "nota": null
+  },
+  {
+   "zona": "ZPBcP",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación (m): 9",
+   "pagina": 117,
+   "seccion": "Art. 42, ZONA PROTECCIÓN DE BORDE COSTERO PRODUCTIVO, ZPBcP:",
+   "nota": null
+  }
+ ]
+}

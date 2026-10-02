@@ -1,0 +1,593 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Texto ajustado de la Ordenanza Local del Plan Regulador Comunal de Talagante (D.A. N° 3.991/2014, D.O. 20-01-2016), con la Enmienda N° 1 (D.A. N° 2.225/2017) y la Modificación N° 3 (D.A. N° 1.146/2025), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1086817",
+ "sha256": "b2949e2a758389a06a4afa91c29f83410e6e6ea99d4e4bc142f4eb3e0f546d2d",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZU-CV",
+   "pagina": 0,
+   "seccion": "Artículo 9, Zona ZU-CV (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67202.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "infraestructura de transporte 300 0,5 0,5 C 2 7",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 1,
+   "coef_ocupacion_suelo_condicion": "según el destino (1: vivienda, científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social; 0,5: infraestructura de transporte) («vivienda 300 1 4 C 4 14»)",
+   "coef_constructibilidad_texto": "infraestructura de transporte 300 0,5 0,5 C 2 7",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 4,
+   "coef_constructibilidad_condicion": "según el destino (4: vivienda, científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social; 0,5: infraestructura de transporte) («vivienda 300 1 4 C 4 14»)",
+   "altura_m_texto": "infraestructura de transporte 300 0,5 0,5 C 2 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 14,
+   "incentivo_texto": "según el destino (14 m (4 pisos): vivienda, científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social; 7 m (2 pisos): infraestructura de transporte): «vivienda 300 1 4 C 4 14»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín: No se permite antejardín.",
+   "antejardin_m": 0.0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "vivienda 300 1 4 C 4 14",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Prohibidos el hospedaje y todas las actividades productivas."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-1",
+   "pagina": 0,
+   "seccion": "Artículo 10, Zona ZU-1 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67203.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "educación 300 0,5 1,5 C 4 14",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 1,
+   "coef_ocupacion_suelo_condicion": "según el destino (1: comercio, culto y cultura y servicios; 0,7: científico, deporte, salud, seguridad y actividades productivas inofensivas; 0,6: vivienda y social; 0,5: educación, esparcimiento y infraestructura de transporte, sanitaria y energética) («comercio 300 1 6 CA 8 28»)",
+   "coef_constructibilidad_texto": "infraestructura de transporte, sanitaria y energética 300 0,5 0,5 C 2 7",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 6,
+   "coef_constructibilidad_condicion": "según el destino (6: comercio y servicios; 4: vivienda; 2,5: científico y salud; 2: culto y cultura, seguridad y social; 1,5: deporte, educación y actividades productivas inofensivas; 1: esparcimiento; 0,5: infraestructura de transporte, sanitaria y energética) («comercio 300 1 6 CA 8 28»)",
+   "altura_m_texto": "esparcimiento 300 0,5 1 C 2 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 28,
+   "incentivo_texto": "según el destino (28 m (8 pisos): vivienda, científico, comercio, salud y servicios; 14 m (4 pisos): culto y cultura y educación; 11 m (3 pisos): deporte, seguridad, social y actividades productivas inofensivas; 7 m (2 pisos): esparcimiento y infraestructura de transporte, sanitaria y energética): «vivienda 300 0,6 4 CA 8 28»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín: No se permite antejardín.",
+   "antejardin_m": 0.0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "vivienda 300 0,6 4 CA 8 28",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Continuo hasta el piso 4 (14 m); sobre el piso 4, aislado con rasante de 70° desde el deslinde y retranqueo de 2 m desde la línea oficial."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Ocupación de los niveles 2 a 4 igual a la del primer piso y 0,5 sobre el nivel 4 (infraestructura: 0,2 en pisos superiores)."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-2",
+   "pagina": 0,
+   "seccion": "Artículo 11, Zona ZU-2 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67204.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "educación 200 0,5 2 CA 4 13",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 1,
+   "coef_ocupacion_suelo_condicion": "según el destino (1: culto y cultura; 0,6: vivienda, hospedaje, científico, comercio, deporte, salud, seguridad, servicios, social y actividades productivas inofensivas; 0,5: educación, esparcimiento y infraestructura de transporte, sanitaria y energética) («culto y cultura 200 1 2 CA 4 13»)",
+   "coef_constructibilidad_texto": "infraestructura de transporte, sanitaria y energética 200 0,5 0,5 C 2 7",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "según el destino (3: vivienda, hospedaje, comercio, salud y servicios; 2: científico, culto y cultura, deporte, educación, seguridad y social; 1,5: actividades productivas inofensivas; 1: esparcimiento; 0,5: infraestructura de transporte, sanitaria y energética) («vivienda 200 0,6 3 CA 6 19»)",
+   "altura_m_texto": "esparcimiento 200 0,5 1 C 2 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 19,
+   "incentivo_texto": "según el destino (19 m (6 pisos): vivienda, hospedaje, comercio, salud y servicios; 13 m (4 pisos): científico, culto y cultura, deporte, educación, seguridad y social; 10 m (3 pisos): actividades productivas inofensivas; 7 m (2 pisos): esparcimiento y infraestructura de transporte, sanitaria y energética): «vivienda 200 0,6 3 CA 6 19»",
+   "incentivo_pagina": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "vivienda 200 0,6 3 CA 6 19",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "7 m frente a vías troncales, 5 m frente a vías de otra jerarquía, sin exigencia en pasajes; 10 m para educación (salvo jardines infantiles)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continuo hasta el piso 2 (7 m); sobre el piso 2, aislado con rasante de 70° desde el deslinde y retranqueo de 2 m desde la línea oficial."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Ocupación de pisos superiores: 0,5 (infraestructura: 0,2)."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-3",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona ZU-3 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67205.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "culto y cultura 200 0,5 1 CA 2 7",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,7: vivienda, hospedaje, científico, comercio y deporte; 0,6: salud, seguridad, servicios y social; 0,5: culto y cultura, educación, esparcimiento, actividades productivas inofensivas y infraestructura de transporte, sanitaria y energética) («vivienda 200 0,7 1,8 CA 4 14»)",
+   "coef_constructibilidad_texto": "actividades productivas inofensivas 200 0,5 0,5 A 2 7",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "según el destino (2: científico, deporte, educación y salud; 1,8: vivienda, hospedaje y comercio; 1,5: seguridad, servicios y social; 1: culto y cultura y esparcimiento; 0,5: actividades productivas inofensivas y infraestructura de transporte, sanitaria y energética) («científico 200 0,7 2 CA 4 14»)",
+   "altura_m_texto": "culto y cultura 200 0,5 1 CA 2 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 14,
+   "incentivo_texto": "según el destino (14 m (4 pisos): vivienda, hospedaje, científico, educación y salud; 10 m (3 pisos): comercio, deporte, seguridad, servicios y social; 7 m (2 pisos): culto y cultura, esparcimiento, actividades productivas inofensivas y infraestructura de transporte, sanitaria y energética): «vivienda 200 0,7 1,8 CA 4 14»",
+   "incentivo_pagina": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "vivienda 200 0,7 1,8 CA 4 14",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "5 m frente a vías troncales, 3 m frente a vías de otra jerarquía, sin exigencia en pasajes; 10 m para educación (salvo jardines infantiles)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continuo solo en el primer piso (3,5 m); sobre él, aislado con rasante de 70° desde el deslinde."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Ocupación de pisos superiores: 0,5 (actividades productivas e infraestructura: 0,2)."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-4",
+   "pagina": 0,
+   "seccion": "Artículo 13, Zona ZU-4 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67206.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "infraestructura de transporte, sanitaria y energética 200 0,3 0,5 A 2 7",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,7: comercio, culto y cultura, deporte, educación, seguridad, servicios y social; 0,6: vivienda, hospedaje, científico, salud y actividades productivas inofensivas; 0,5: esparcimiento; 0,3: infraestructura de transporte, sanitaria y energética) («comercio 200 0,7 2,1 APC 4 14»)",
+   "coef_constructibilidad_texto": "infraestructura de transporte, sanitaria y energética 200 0,3 0,5 A 2 7",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 2.1,
+   "coef_constructibilidad_condicion": "según el destino (2,1: comercio, culto y cultura, educación y salud; 2: vivienda, hospedaje y científico; 1,7: seguridad, servicios y social; 1,5: deporte; 1: actividades productivas inofensivas; 0,7: esparcimiento; 0,5: infraestructura de transporte, sanitaria y energética) («comercio 200 0,7 2,1 APC 4 14»)",
+   "altura_m_texto": "esparcimiento 200 0,5 0,7 APC 2 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 14,
+   "incentivo_texto": "según el destino (14 m (4 pisos): vivienda, hospedaje, científico, comercio, culto y cultura, educación y salud; 11 m (3 pisos): deporte, seguridad, servicios y social; 7 m (2 pisos): esparcimiento, actividades productivas inofensivas y infraestructura de transporte, sanitaria y energética): «vivienda 200 0,6 2 APC 4 14»",
+   "incentivo_pagina": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "vivienda 200 0,6 2 APC 4 14",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "5 m frente a vías troncales, 3 m frente a vías de otra jerarquía, sin exigencia en pasajes; 10 m para educación (salvo jardines infantiles)."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-5",
+   "pagina": 0,
+   "seccion": "Artículo 14, Zona ZU-5 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67207.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "infraestructura de transporte, sanitaria y energética 200 0,3 0,5 A 2 7",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,8: deporte; 0,7: vivienda, hospedaje, científico y comercio; 0,6: educación, salud, seguridad, servicios y social; 0,5: culto y cultura, esparcimiento y actividades productivas inofensivas; 0,3: infraestructura de transporte, sanitaria y energética) («deporte 200 0,8 1,7 A 3 11»)",
+   "coef_constructibilidad_texto": "infraestructura de transporte, sanitaria y energética 200 0,3 0,5 A 2 7",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "según el destino (2: científico; 1,7: comercio, culto y cultura, deporte, educación y salud; 1,5: vivienda, hospedaje, seguridad y servicios; 1: esparcimiento, social y actividades productivas inofensivas; 0,5: infraestructura de transporte, sanitaria y energética) («científico 200 0,7 2 APC 4 14»)",
+   "altura_m_texto": "esparcimiento 200 0,5 1 A 2 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 14,
+   "incentivo_texto": "según el destino (14 m (4 pisos): científico, comercio y servicios; 11 m (3 pisos): vivienda, hospedaje, culto y cultura, deporte, educación, salud y seguridad; 7 m (2 pisos): esparcimiento, social, actividades productivas inofensivas y infraestructura de transporte, sanitaria y energética): «científico 200 0,7 2 APC 4 14»",
+   "incentivo_pagina": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "vivienda 200 0,7 1,5 APC 3 11",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "5 m frente a vías troncales y 3 m frente a vías de otra jerarquía; 10 m para educación (salvo jardines infantiles)."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-6",
+   "pagina": 0,
+   "seccion": "Artículo 15, Zona ZU-6 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67208.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "infraestructura de transporte, sanitaria y energética 200 0,3 0,5 A 2 7",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,7: comercio, educación y servicios; 0,6: vivienda, científico, culto y cultura, deporte, salud, seguridad y social; 0,5: hospedaje, esparcimiento y actividades productivas inofensivas; 0,3: infraestructura de transporte, sanitaria y energética) («comercio 200 0,7 2 A 3 10»)",
+   "coef_constructibilidad_texto": "infraestructura de transporte, sanitaria y energética 200 0,3 0,5 A 2 7",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "según el destino (2: comercio y educación; 1,5: científico; 1,2: vivienda, culto y cultura, deporte, salud, seguridad y servicios; 1: hospedaje, esparcimiento y social; 0,8: actividades productivas inofensivas; 0,5: infraestructura de transporte, sanitaria y energética) («comercio 200 0,7 2 A 3 10»)",
+   "altura_m_texto": "culto y cultura 200 0,6 1,2 A 2 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 10,
+   "incentivo_texto": "según el destino (10 m (3 pisos): vivienda, hospedaje, científico, comercio, educación, salud y seguridad; 7 m (2 pisos): culto y cultura, deporte, esparcimiento, servicios, social, actividades productivas inofensivas y infraestructura de transporte, sanitaria y energética): «vivienda 200 0,6 1,2 A 3 10»",
+   "incentivo_pagina": 0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "vivienda 200 0,6 1,2 A 3 10",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "5 m frente a vías troncales y de otra jerarquía, 2 m frente a pasajes; 10 m para educación (salvo jardines infantiles)."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-7",
+   "pagina": 0,
+   "seccion": "Artículo 16, Zona ZU-7 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67209.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 1000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "vivienda 1000 0,3 0,6 A 2 7",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "científico 1000 0,3 0,5 A 2 7",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 0.6,
+   "coef_constructibilidad_condicion": "según el destino (0,6: vivienda; 0,5: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social, actividades productivas inofensivas y infraestructura de transporte, sanitaria y energética) («vivienda 1000 0,3 0,6 A 2 7»)",
+   "altura_m_texto": "vivienda 1000 0,3 0,6 A 2 7",
+   "altura_m": 7,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "vivienda 1000 0,3 0,6 A 2 7",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "10 m frente a vías troncales, 5 m frente a colectoras y 3 m frente a vías de otra jerarquía; 15 m para educación (salvo jardines infantiles)."
+    },
+    {
+     "campo": "zona",
+     "texto": "Hospedaje prohibido."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-8",
+   "pagina": 0,
+   "seccion": "Artículo 17, Zona ZU-8 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67210.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 2500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "vivienda 2500 0,2 0,3 A 2 7",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.3,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,3: comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios, social y infraestructura de transporte, sanitaria y energética; 0,2: vivienda, científico y actividades productivas inofensivas) («comercio 2500 0,3 0,4 A 2 7»)",
+   "coef_constructibilidad_texto": "actividades productivas inofensivas 2500 0,2 0,2 A 2 7",
+   "coef_constructibilidad": 0.2,
+   "coef_constructibilidad_max": 0.5,
+   "coef_constructibilidad_condicion": "según el destino (0,5: infraestructura de transporte, sanitaria y energética; 0,4: científico, comercio, salud, seguridad, servicios y social; 0,3: vivienda, culto y cultura, deporte, educación y esparcimiento; 0,2: actividades productivas inofensivas) («infraestructura de transporte, sanitaria y energética 2500 0,3 0,5 A 2 7»)",
+   "altura_m_texto": "vivienda 2500 0,2 0,3 A 2 7",
+   "altura_m": 7,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "vivienda 2500 0,2 0,3 A 2 7",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "15 m frente a vías troncales y 10 m frente a vías de otra jerarquía; 15 m para educación (salvo jardines infantiles)."
+    },
+    {
+     "campo": "zona",
+     "texto": "Hospedaje prohibido."
+    }
+   ]
+  },
+  {
+   "zona": "ZIE-1",
+   "pagina": 0,
+   "seccion": "Artículo 20, Zona ZIE-1 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67211.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 1000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "científico 1000 0,5 0,6 A 2 7",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "actividades productivas inofensivas 1000 0,5 0,5 A 3 10",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 0.6,
+   "coef_constructibilidad_condicion": "según el destino (0,6: científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, seguridad, servicios y social; 0,5: actividades productivas inofensivas y infraestructura de transporte, sanitaria y energética) («científico 1000 0,5 0,6 A 2 7»)",
+   "altura_m_texto": "científico 1000 0,5 0,6 A 2 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 10,
+   "incentivo_texto": "según el destino (10 m (3 pisos): seguridad, servicios y actividades productivas inofensivas; 7 m (2 pisos): científico, comercio, culto y cultura, deporte, educación, esparcimiento, salud, social y infraestructura de transporte, sanitaria y energética): «seguridad 1000 0,5 0,6 A 3 10»",
+   "incentivo_pagina": 0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "científico 1000 0,5 0,6 A 2 7",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "15 m frente a vías troncales, 10 m frente a colectoras y 7 m frente a vías de otra jerarquía; 15 m para educación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Uso residencial prohibido."
+    }
+   ]
+  },
+  {
+   "zona": "ZIE-2",
+   "pagina": 0,
+   "seccion": "Artículo 21, Zona ZIE-2 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67212.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 2000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "científico 2000 0,5 0,9 A 2 7",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "infraestructura de transporte, sanitaria y energética 2000 0,5 0,6 A 2 7",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "según el destino (1,2: seguridad, servicios y actividades productivas molestas; 0,9: científico, comercio, deporte, educación, esparcimiento, salud y social; 0,6: infraestructura de transporte, sanitaria y energética) («seguridad 2000 0,5 1,2 A 3 10»)",
+   "altura_m_texto": "científico 2000 0,5 0,9 A 2 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 10,
+   "incentivo_texto": "según el destino (10 m (3 pisos): seguridad, servicios y actividades productivas molestas; 7 m (2 pisos): científico, comercio, deporte, educación, esparcimiento, salud, social y infraestructura de transporte, sanitaria y energética): «seguridad 2000 0,5 1,2 A 3 10»",
+   "incentivo_pagina": 0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "científico 2000 0,5 0,9 A 2 7",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "15 m frente a vías troncales, 10 m frente a colectoras y 7 m frente a vías de otra jerarquía; 15 m para educación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Uso residencial y equipamiento de culto y cultura prohibidos."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Ocupación de pisos superiores: 0,4 (infraestructura: 0,2)."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-1",
+   "pagina": 0,
+   "seccion": "Artículo 23, Zona Especial Deportivo - Recreacional ZE-1 (Enmienda N° 1)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67213.jpg"
+   ],
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0,75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1,3",
+   "coef_constructibilidad": 1.3,
+   "altura_m_texto": "Altura máxima de edificación: 14 m / 4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín No se permite.",
+   "antejardin_m": 0.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "No se permite adosamiento."
+    },
+    {
+     "campo": "zona",
+     "texto": "Solo equipamiento de deporte y servicios profesionales y artesanales."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-2",
+   "pagina": 0,
+   "seccion": "Artículo 24, Zona Especial Equipamiento Exclusivo ZE-2 (Enmienda N° 1)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67214.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima: 1.000 m2.",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 2",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de edificación: 14 m/4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín 3 metros",
+   "antejardin_m": 3.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Solo equipamiento (todas sus clases)."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-3",
+   "pagina": 0,
+   "seccion": "Artículo 25, Zona Especial de Resguardo Ferroviario ZE-3 (Enmienda N° 1)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/67215.jpg"
+   ],
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 2",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de edificación: 14 m/4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín 3 metros",
+   "antejardin_m": 3.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Equipamiento de cultura y esparcimiento, infraestructura de transporte e instalaciones ferroviarias, áreas verdes y espacio público."
+    }
+   ]
+  },
+  {
+   "zona": "ZP",
+   "pagina": 0,
+   "seccion": "Artículo 18, ZP: Zona de Parque",
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo: 0.01",
+   "coef_ocupacion_suelo": 0.01,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad: 0.01",
+   "coef_constructibilidad": 0.01,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Parques metropolitanos e intercomunales del PRMS: solo construcciones complementarias (quioscos, juegos infantiles, piletas)."
+    }
+   ]
+  },
+  {
+   "zona": "ZAV",
+   "pagina": 0,
+   "seccion": "Artículo 19, ZAV: Área Verde",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Uso exclusivo de áreas verdes, plazas y parques."
+    }
+   ]
+  },
+  {
+   "zona": "ZIE-3",
+   "pagina": 0,
+   "seccion": "Artículo 22, Zona Industrial 3 Peligrosa ZIE-3",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Complejo químico del Ejército (FAMAE): rige el artículo 8.2.2 del PRMS."
+    }
+   ]
+  },
+  {
+   "zona": "ZR-1",
+   "pagina": 0,
+   "seccion": "Artículo 26, ZR-1 Zona de Restricción por inundación y cauces",
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo : 0,02",
+   "coef_ocupacion_suelo": 0.02,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad : 0,02",
+   "coef_constructibilidad": 0.02,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área de riesgo por inundación de cauces: solo parques comunales e intercomunales."
+    }
+   ]
+  },
+  {
+   "zona": "ZR-2",
+   "pagina": 0,
+   "seccion": "Artículo 27, ZR-2 Zona de Restricción por pendiente y remoción en masa",
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo : 0,02",
+   "coef_ocupacion_suelo": 0.02,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad : 0,02",
+   "coef_constructibilidad": 0.02,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área de riesgo por pendiente y remoción en masa: solo parques comunales e intercomunales."
+    }
+   ]
+  },
+  {
+   "zona": "ZVN-HU",
+   "pagina": 0,
+   "seccion": "Artículo 27 bis, ZVN-HU Zona de Valor Natural Humedal Urbano Río Mapocho (Modificación N° 3)",
+   "superficie_predial_minima_m2_texto": "Superficie Predial : 40.000 metros² Mínima",
+   "superficie_predial_minima_m2": 40000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación : 0,001 de suelo",
+   "coef_ocupacion_suelo": 0.001,
+   "coef_constructibilidad_texto": "Coeficiente de : 0,001 Constructibilidad",
+   "coef_constructibilidad": 0.001,
+   "altura_m_texto": "Altura Máxima de : 3.5 metros Edificación",
+   "altura_m": 3.5,
+   "antejardin_m_texto": "Antejardín : 10.00 metros.",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento : Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Humedal urbano Río Mapocho (zona de protección legal, Res. Ex. N° 1.452/2021 del MMA): solo parques."
+    }
+   ]
+  }
+ ]
+}

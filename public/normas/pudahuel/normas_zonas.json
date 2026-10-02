@@ -1,0 +1,463 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Pudahuel (D.A. N° 205 de 26-01-2021, D.O. 05-02-2021), versión con el timbre del Ord. N° 206 de la SEREMI Metropolitana de Vivienda y Urbanismo que publica la Municipalidad",
+ "url": "https://media.mpudahuel.cl/web/media/documentos/2023/11/2-0-ordenanza-local.pdf",
+ "sha256": "9db8df977b00d469789564237e7559b30b6f5a2e91b6999d50506c531a117a0a",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "A",
+   "pagina": 15,
+   "seccion": "Art. 13, Zona A",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 160",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL Aislado, Pareado, Continuo 12.5 0.8 2.5",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "EQUIPAMIENTO Aislado, Pareado, Continuo 10.5 0.8 2.0",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 2,5; equipamiento: 2) («RESIDENCIAL Aislado, Pareado, Continuo 12.5 0.8 2.5»)",
+   "altura_m_texto": "EQUIPAMIENTO Aislado, Pareado, Continuo 10.5 0.8 2.0",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 12.5,
+   "incentivo_texto": "según el destino (residencial: 12,5; equipamiento: 10,5): «RESIDENCIAL Aislado, Pareado, Continuo 12.5 0.8 2.5»",
+   "incentivo_pagina": 15,
+   "antejardin_m_texto": "ANTEJARDÍN (m) No se exige",
+   "antejardin_m": 0.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "RESIDENCIAL Aislado, Pareado, Continuo 12.5 0.8 2.5",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Profundidad de la edificación continua: 60% del deslinde."
+    }
+   ]
+  },
+  {
+   "zona": "B",
+   "pagina": 16,
+   "seccion": "Art. 13, Zona B",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL Aislado, Pareado, Continuo 8.0 0.7 1.5",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "RESIDENCIAL Aislado, Pareado, Continuo 8.0 0.7 1.5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "RESIDENCIAL Aislado, Pareado, Continuo 8.0 0.7 1.5",
+   "altura_m": 8.0,
+   "antejardin_m_texto": "ANTEJARDÍN (m) No se exige",
+   "antejardin_m": 0.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "RESIDENCIAL Aislado, Pareado, Continuo 8.0 0.7 1.5",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Profundidad de la edificación continua: 60% del deslinde."
+    }
+   ]
+  },
+  {
+   "zona": "C",
+   "pagina": 17,
+   "seccion": "Art. 13, Zona C",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 400",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL Aislado, Pareado 8.0 0.6 1.2",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "RESIDENCIAL Aislado, Pareado 8.0 0.6 1.2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "RESIDENCIAL Aislado, Pareado 8.0 0.6 1.2",
+   "altura_m": 8.0,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 5.0",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "RESIDENCIAL Aislado, Pareado 8.0 0.6 1.2"
+  },
+  {
+   "zona": "D",
+   "pagina": 18,
+   "seccion": "Art. 13, Zona D",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 1.500",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "EQUIPAMIENTO Aislado 8.0 0.5 1.2",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,7; equipamiento: 0,5) («RESIDENCIAL Aislado 12.5 0.7 3.0»)",
+   "coef_constructibilidad_texto": "EQUIPAMIENTO Aislado 8.0 0.5 1.2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 3; equipamiento: 1,2) («RESIDENCIAL Aislado 12.5 0.7 3.0»)",
+   "altura_m_texto": "EQUIPAMIENTO Aislado 8.0 0.5 1.2",
+   "altura_m": 8.0,
+   "altura_incentivo_m": 12.5,
+   "incentivo_texto": "según el destino (residencial: 12,5; equipamiento: 8): «RESIDENCIAL Aislado 12.5 0.7 3.0»",
+   "incentivo_pagina": 18,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 5.0",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "RESIDENCIAL Aislado 12.5 0.7 3.0"
+  },
+  {
+   "zona": "E",
+   "pagina": 19,
+   "seccion": "Art. 13, Zona E",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL Aislado 40.0 0.6 5.0",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "EQUIPAMIENTO Aislado 20.0 0.6 3.0",
+   "coef_constructibilidad": 3.0,
+   "coef_constructibilidad_max": 5.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 5; equipamiento: 3) («RESIDENCIAL Aislado 40.0 0.6 5.0»)",
+   "altura_m_texto": "EQUIPAMIENTO Aislado 20.0 0.6 3.0",
+   "altura_m": 20.0,
+   "altura_incentivo_m": 40.0,
+   "incentivo_texto": "según el destino (residencial: 40; equipamiento: 20): «RESIDENCIAL Aislado 40.0 0.6 5.0»",
+   "incentivo_pagina": 19,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 5.0",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "RESIDENCIAL Aislado 40.0 0.6 5.0"
+  },
+  {
+   "zona": "F",
+   "pagina": 20,
+   "seccion": "Art. 13, Zona F",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL Aislado 40.0 0.6 5.0",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "RESIDENCIAL Aislado 40.0 0.6 5.0",
+   "coef_constructibilidad": 5.0,
+   "altura_m_texto": "RESIDENCIAL Aislado 40.0 0.6 5.0",
+   "altura_m": 40.0,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 5.0",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "RESIDENCIAL Aislado 40.0 0.6 5.0"
+  },
+  {
+   "zona": "G",
+   "pagina": 21,
+   "seccion": "Art. 13, Zona G",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL Pareado y Continuo 20.0 0.7 3.0",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "RESIDENCIAL Pareado y Continuo 20.0 0.7 3.0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "RESIDENCIAL Pareado y Continuo 20.0 0.7 3.0",
+   "altura_m": 20.0,
+   "antejardin_m_texto": "ANTEJARDÍN (m) No se exige",
+   "antejardin_m": 0.0,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "RESIDENCIAL Pareado y Continuo 20.0 0.7 3.0",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Profundidad de la edificación continua: 60% del deslinde."
+    }
+   ]
+  },
+  {
+   "zona": "H",
+   "pagina": 22,
+   "seccion": "Art. 13, Zona H",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL Pareado y Continuo 30.0 1.0 8.4",
+   "coef_ocupacion_suelo": 1.0,
+   "coef_constructibilidad_texto": "EQUIPAMIENTO Pareado y Continuo 12.5 1.0 4.9",
+   "coef_constructibilidad": 4.9,
+   "coef_constructibilidad_max": 8.4,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 8,4; equipamiento: 4,9) («RESIDENCIAL Pareado y Continuo 30.0 1.0 8.4»)",
+   "altura_m_texto": "EQUIPAMIENTO Pareado y Continuo 12.5 1.0 4.9",
+   "altura_m": 12.5,
+   "altura_incentivo_m": 30.0,
+   "incentivo_texto": "según el destino (residencial: 30; equipamiento: 12,5): «RESIDENCIAL Pareado y Continuo 30.0 1.0 8.4»",
+   "incentivo_pagina": 22,
+   "antejardin_m_texto": "ANTEJARDÍN (m) No se exige",
+   "antejardin_m": 0.0,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "RESIDENCIAL Pareado y Continuo 30.0 1.0 8.4",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Profundidad de la edificación continua: 60% del deslinde."
+    }
+   ]
+  },
+  {
+   "zona": "I",
+   "pagina": 23,
+   "seccion": "Art. 13, Zona I",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 160",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL Aislado, Pareado, Continuo 8.0 0.7 1.8",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,7; equipamiento: 1) («EQUIPAMIENTO Aislado, Pareado, Continuo 8.0 1.0 2.0»)",
+   "coef_constructibilidad_texto": "RESIDENCIAL Aislado, Pareado, Continuo 8.0 0.7 1.8",
+   "coef_constructibilidad": 1.8,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 1,8; equipamiento: 2) («EQUIPAMIENTO Aislado, Pareado, Continuo 8.0 1.0 2.0»)",
+   "altura_m_texto": "RESIDENCIAL Aislado, Pareado, Continuo 8.0 0.7 1.8",
+   "altura_m": 8.0,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 5.0",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "RESIDENCIAL Aislado, Pareado, Continuo 8.0 0.7 1.8",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Profundidad de la edificación continua: 60% del deslinde."
+    }
+   ]
+  },
+  {
+   "zona": "J",
+   "pagina": 24,
+   "seccion": "Art. 13, Zona J",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 2.000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "EQUIPAMIENTO Aislado 30.0 0.8 8.0",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "ACTIVIDADES PRODUCTIVAS Aislado 12.5 0.8 3.2",
+   "coef_constructibilidad": 3.2,
+   "coef_constructibilidad_max": 8.0,
+   "coef_constructibilidad_condicion": "según el destino (equipamiento: 8; actividades productivas: 3,2) («EQUIPAMIENTO Aislado 30.0 0.8 8.0»)",
+   "altura_m_texto": "ACTIVIDADES PRODUCTIVAS Aislado 12.5 0.8 3.2",
+   "altura_m": 12.5,
+   "altura_incentivo_m": 30.0,
+   "incentivo_texto": "según el destino (equipamiento: 30; actividades productivas: 12,5): «EQUIPAMIENTO Aislado 30.0 0.8 8.0»",
+   "incentivo_pagina": 24,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 5.0",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "EQUIPAMIENTO Aislado 30.0 0.8 8.0",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La fila de infraestructura del cuadro oficial trae valores aparentemente desplazados (altura 0,7; ocupación 3,5; constructibilidad 12,5): confirme con la DOM; las cifras de la zona son las de equipamiento y actividades productivas."
+    }
+   ]
+  },
+  {
+   "zona": "K",
+   "pagina": 25,
+   "seccion": "Art. 13, Zona K",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 2.000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "EQUIPAMIENTO Aislado 30.0 0.8 9.6",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "ACTIVIDADES PRODUCTIVAS Aislado 12.5 0.8 3.2",
+   "coef_constructibilidad": 3.2,
+   "coef_constructibilidad_max": 9.6,
+   "coef_constructibilidad_condicion": "según el destino (equipamiento: 9,6; actividades productivas: 3,2) («EQUIPAMIENTO Aislado 30.0 0.8 9.6»)",
+   "altura_m_texto": "ACTIVIDADES PRODUCTIVAS Aislado 12.5 0.8 3.2",
+   "altura_m": 12.5,
+   "altura_incentivo_m": 30.0,
+   "incentivo_texto": "según el destino (equipamiento: 30; actividades productivas: 12,5): «EQUIPAMIENTO Aislado 30.0 0.8 9.6»",
+   "incentivo_pagina": 25,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 5.0",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "EQUIPAMIENTO Aislado 30.0 0.8 9.6"
+  },
+  {
+   "zona": "L",
+   "pagina": 26,
+   "seccion": "Art. 13, Zona L",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "EQUIPAMIENTO Aislado 12.5 0.7 3.5",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "EQUIPAMIENTO Aislado 12.5 0.7 3.5",
+   "coef_constructibilidad": 3.5,
+   "altura_m_texto": "EQUIPAMIENTO Aislado 12.5 0.7 3.5",
+   "altura_m": 12.5,
+   "altura_incentivo_m": 25.0,
+   "incentivo_texto": "según el destino (equipamiento: 12,5; actividades productivas: 25; infraestructura: 12,5): «ACTIVIDADES PRODUCTIVAS Aislado 25.0 0.7 3.5»",
+   "incentivo_pagina": 26,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 5.0",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "EQUIPAMIENTO Aislado 12.5 0.7 3.5"
+  },
+  {
+   "zona": "M",
+   "pagina": 27,
+   "seccion": "Art. 13, Zona M",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 1.500",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "EQUIPAMIENTO Aislado 20.0 0.7 3.0",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "EQUIPAMIENTO Aislado 20.0 0.7 3.0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "EQUIPAMIENTO Aislado 20.0 0.7 3.0",
+   "altura_m": 20.0,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 5.0",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "EQUIPAMIENTO Aislado 20.0 0.7 3.0"
+  },
+  {
+   "zona": "N",
+   "pagina": 28,
+   "seccion": "Art. 13, Zona N",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8",
+   "coef_constructibilidad": 2.8,
+   "altura_m_texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 5.0",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8"
+  },
+  {
+   "zona": "N1",
+   "pagina": 29,
+   "seccion": "Art. 13, Zona N1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8",
+   "coef_constructibilidad": 2.8,
+   "altura_m_texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 5.0",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8"
+  },
+  {
+   "zona": "N2",
+   "pagina": 30,
+   "seccion": "Art. 13, Zona N2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8",
+   "coef_constructibilidad": 2.8,
+   "altura_m_texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 5.0",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8"
+  },
+  {
+   "zona": "CE",
+   "pagina": 31,
+   "seccion": "Art. 13, Zona Cementerio",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "EQUIPAMIENTO Aislado 7.0 0.1 0.2",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "ÁREA VERDE Aislado 3.5 -- 0.1",
+   "coef_constructibilidad": 0.1,
+   "coef_constructibilidad_max": 0.2,
+   "coef_constructibilidad_condicion": "según el destino (equipamiento: 0,2; área verde: 0,1) («EQUIPAMIENTO Aislado 7.0 0.1 0.2»)",
+   "altura_m_texto": "ÁREA VERDE Aislado 3.5 -- 0.1",
+   "altura_m": 3.5,
+   "altura_incentivo_m": 7.0,
+   "incentivo_texto": "según el destino (equipamiento: 7; área verde: 3,5): «EQUIPAMIENTO Aislado 7.0 0.1 0.2»",
+   "incentivo_pagina": 31,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 10.0",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "EQUIPAMIENTO Aislado 7.0 0.1 0.2"
+  },
+  {
+   "zona": "INF",
+   "pagina": 32,
+   "seccion": "Art. 13, Zona INF",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA (m²) 2.000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "INFRAESTRUCTURA Aislado 7.0 0.8 2.0",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "INFRAESTRUCTURA Aislado 7.0 0.8 2.0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "INFRAESTRUCTURA Aislado 7.0 0.8 2.0",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "ANTEJARDÍN (m) 5.0",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "INFRAESTRUCTURA Aislado 7.0 0.8 2.0"
+  },
+  {
+   "zona": "AV",
+   "pagina": 33,
+   "seccion": "Art. 13, Zona Área Verde no Pública",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área verde que no es bien nacional de uso público: rige el art. 2.1.31 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "AVUP",
+   "pagina": 33,
+   "seccion": "Art. 13, Zona Área Verde Utilidad Pública",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Plazas, parques y áreas verdes de uso público (art. 59 LGUC): rige el art. 2.1.30 de la OGUC."
+    }
+   ]
+  }
+ ]
+}

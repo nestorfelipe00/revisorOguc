@@ -1,0 +1,1359 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Modificación 2010 al Plan Regulador Comunal de La Reina (D.A. N° 1.516 de 03-09-2010, D.O. 09-09-2010), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1016931",
+ "sha256": "8001c9e7ce01ded236d09e740b3cc051a4ac09982528796e17d699be0d55f349",
+ "documentos_adicionales": {
+  "e2015": {
+   "documento": "Enmiendas al Plan Regulador vigente de La Reina (D.A. N° 1.929, D.O. 14-10-2015)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1082525",
+   "fuente": "bcn",
+   "sha256": "9e2b9821c64928dcd691747873d26fbe71259fe28de994e624660352a36ac5df"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "A",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona A (Tabla N° 1)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13162.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13163.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento de la clase cultura (predios esquina: 0,5) («Coeficiente de ocupación de suelo 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.8,
+   "coef_constructibilidad_condicion": "el destino es equipamiento de la clase cultura («Coeficiente de Constructibilidad 1,8»)",
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Adosamiento según el art. 2.6.2 de la OGUC, ubicándose 1,5 m más atrás de la línea de edificación."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Predios esquina: 0,5."
+    }
+   ]
+  },
+  {
+   "zona": "A-1",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona A-1 (Tabla N° 2, Enmienda 2015)",
+   "documento": "Enmiendas al Plan Regulador vigente de La Reina (D.A. N° 1.929, D.O. 14-10-2015)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1082525",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/52766.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el predio es esquina («Coeficiente de ocupación de suelo en predios esquina 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de edificación 14.4 metros (5 pisos)",
+   "altura_m": 14.4,
+   "antejardin_m_texto": "Antejardín Enfrentando calles 5 metros",
+   "antejardin_m": 5.0,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "No se permite adosamiento."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo a medianero: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "A-2",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona A-2 (Tabla N° 3)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13165.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,6",
+   "coef_constructibilidad": 1.6,
+   "altura_m_texto": "Altura máxima de edificación 20 metros (7 pisos)",
+   "altura_m": 20.0,
+   "antejardin_m_texto": "Antejardin 10 metros",
+   "antejardin_m": 10.0,
+   "pisos": 7,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "No se permite adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "D",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona D (Tabla N° 4)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13166.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 600 m2",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3;",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el predio es esquina (0,35 en esquina entre pasajes) («0,4 predios esquina y 0,35 en esquina entre pasajes»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,75",
+   "coef_constructibilidad": 0.75,
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Adosamiento según el art. 2.6.2 de la OGUC, ubicándose 1,5 m más atrás de la línea de edificación."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    }
+   ]
+  },
+  {
+   "zona": "G",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona G (Tabla N° 5)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13167.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 10 metros",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "No se permite adosamiento."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    }
+   ]
+  },
+  {
+   "zona": "H",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona H (Tabla N° 6)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13168.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 2000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,18",
+   "coef_ocupacion_suelo": 0.18,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,45",
+   "coef_constructibilidad": 0.45,
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 10 metros",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo a medianero: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "O",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona O (Tabla N° 7)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13169.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Adosamiento según el art. 2.6.2 de la OGUC, ubicándose 1,5 m más atrás de la línea de edificación."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    }
+   ]
+  },
+  {
+   "zona": "E",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona E (Tabla N° 8)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13195.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13196.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 100 m2",
+   "superficie_predial_minima_m2": 100,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,6",
+   "coef_constructibilidad": 1.6,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el predio está en el polígono de las vías Calama, Mamiña, Parinacota y Pasaje 2 («Coeficiente de Constructibilidad 2,4»)",
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el predio está en el polígono de las vías Calama, Mamiña, Parinacota y Pasaje 2: «Altura máxima de edificación 14 metros»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 3 metros",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado / Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    }
+   ]
+  },
+  {
+   "zona": "K",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona K (Tabla N° 9)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13197.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el predio es esquina («Coeficiente de ocupación de suelo en predios esquina 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,25",
+   "coef_constructibilidad": 1.25,
+   "altura_m_texto": "Altura máxima de edificación 18 metros (6 pisos)",
+   "altura_m": 18.0,
+   "antejardin_m_texto": "Antejardin 5 metros",
+   "antejardin_m": 5.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado"
+  },
+  {
+   "zona": "C",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona C (Tablas N° 10 y 10 Bis)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13201.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13202.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4 0,6",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (residencia: 0,4) («Coeficiente de ocupación de suelo 0,4 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,6 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el predio enfrenta Av. Américo Vespucio, acera oriente entre Las Abejas y Las Arañas (Tabla 10 Bis; en el resto: residencia 1,6, equipamiento 1,2) («Coeficiente de Constructibilidad 2,4 2,4»)",
+   "altura_m_texto": "Altura máxima de edificación 12 metros 12 metros",
+   "altura_m": 12.0,
+   "altura_incentivo_m": 24.0,
+   "incentivo_texto": "el predio enfrenta Av. Américo Vespucio, acera oriente entre Las Abejas y Las Arañas (Tabla 10 Bis: residencia 24 m, equipamiento 18 m): «Altura máxima de edificación 24 metros 18 metros»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardin 5 metros 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Art. 15: soterrar las instalaciones de la vía pública permite +0,1 de ocupación y +0,1 de constructibilidad (zonas B, C y C-1 a C-5)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Frente a Av. Américo Vespucio (acera oriente, entre Las Abejas y Las Arañas): 1.000 m² residencia y 500 m² equipamiento; antejardín 7 m (residencia) o 5 m; distanciamiento 8 m (5 m equipamiento) hacia la zona C y la mitad de la altura hacia la zona A."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Predios esquina: 0,5 residencia y 0,6 equipamiento."
+    }
+   ]
+  },
+  {
+   "zona": "C-4",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona C-4 (Tabla N° 11)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13203.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 1000 m2 1000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el destino es residencia (equipamiento: 0,3) («Coeficiente de ocupación de suelo 0,4 0,3»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,6 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el destino es residencia (equipamiento: 1,2) («Coeficiente de Constructibilidad 1,6 1,2»)",
+   "altura_m_texto": "Altura máxima de edificación 12 metros 12 metros",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "Antejardin 5 metros 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado - pareado Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Art. 15: soterrar las instalaciones de la vía pública permite +0,1 de ocupación y +0,1 de constructibilidad (zonas B, C y C-1 a C-5)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Equipamiento: solo aislado."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo a medianero: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "C-5",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona C-5 (Tabla N° 12)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13204.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 1000 m2 1000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,6 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el destino es residencia (equipamiento: 1,2) («Coeficiente de Constructibilidad 1,6 1,2»)",
+   "altura_m_texto": "Altura máxima de edificación 12 metros 12 metros",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "Antejardin 5 metros 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado - pareado Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Art. 15: soterrar las instalaciones de la vía pública permite +0,1 de ocupación y +0,1 de constructibilidad (zonas B, C y C-1 a C-5)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Equipamiento: solo aislado."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo a medianero: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "B",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona B (Tabla N° 13, Enmienda 2015)",
+   "documento": "Enmiendas al Plan Regulador vigente de La Reina (D.A. N° 1.929, D.O. 14-10-2015)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1082525",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/52768.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,56",
+   "coef_ocupacion_suelo": 0.56,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 6",
+   "coef_constructibilidad": 6.0,
+   "altura_m_texto": "Altura máxima de edificación 44,8 metros",
+   "altura_m": 44.8,
+   "antejardin_m_texto": "Antejardín Residencia 10 metros",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Art. 15: soterrar las instalaciones de la vía pública permite +0,1 de ocupación y +0,1 de constructibilidad (zonas B, C y C-1 a C-5)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Equipamiento: 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo a medianero: 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "C-1",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona C-1 (Tabla N° 14, Enmienda 2015)",
+   "documento": "Enmiendas al Plan Regulador vigente de La Reina (D.A. N° 1.929, D.O. 14-10-2015)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1082525",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/52770.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 500 m2 1000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,25 0,4",
+   "coef_ocupacion_suelo": 0.25,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (residencia: 0,25) («Coeficiente de ocupación de suelo 0,25 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2 2",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de edificación 24 metros (9 pisos) 24 metros (9 pisos)",
+   "altura_m": 24.0,
+   "antejardin_m_texto": "Antejardín 10 metros 10 metros",
+   "antejardin_m": 10.0,
+   "pisos": 9,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Art. 15: soterrar las instalaciones de la vía pública permite +0,1 de ocupación y +0,1 de constructibilidad (zonas B, C y C-1 a C-5)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Residencia: 500 m² (equipamiento: 1.000 m²)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo a medianero: 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "C-2",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona C-2 (Tabla N° 14, Enmienda 2015)",
+   "documento": "Enmiendas al Plan Regulador vigente de La Reina (D.A. N° 1.929, D.O. 14-10-2015)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1082525",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/52840.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 500 m2 1000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3 0,4",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (residencia: 0,3) («Coeficiente de ocupación de suelo 0,3 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2,4 2",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el destino es residencia (equipamiento: 2) («Coeficiente de Constructibilidad 2,4 2»)",
+   "altura_m_texto": "Altura máxima de edificación 24 metros 24 metros",
+   "altura_m": 24.0,
+   "antejardin_m_texto": "Antejardín 10 metros 10 metros",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Art. 15: soterrar las instalaciones de la vía pública permite +0,1 de ocupación y +0,1 de constructibilidad (zonas B, C y C-1 a C-5)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Residencia: 500 m² (equipamiento: 1.000 m²)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo a medianero: 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "C-3",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona C-3 (Tabla N° 14)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13208.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2 700 m2",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0.35 0.5",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (residencia: 0,35) («Coeficiente de ocupación de suelo 0.35 0.5»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3 3",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "Altura máxima de edificación 30 metros 30 metros",
+   "altura_m": 30.0,
+   "antejardin_m_texto": "Antejardin 10 metros 10 metros",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Art. 15: soterrar las instalaciones de la vía pública permite +0,1 de ocupación y +0,1 de constructibilidad (zonas B, C y C-1 a C-5)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Residencia: 300 m² (equipamiento: 700 m²)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo a medianero: 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "PC-1",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PC-1 (Tabla N° 15)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13211.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4 en sub-zona PC-1 y PC-6 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el destino es residencia (equipamiento: 0,3) («Coeficiente de ocupación de suelo 0,4 en sub-zona PC-1 y PC-6 0,3»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,6 en sub-zona PC-1 0,6",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el destino es residencia (equipamiento: 0,6) («Coeficiente de Constructibilidad 1,6 en sub-zona PC-1 0,6»)",
+   "altura_m_texto": "Altura máxima de edificación 12 metros 7 metros",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 12.0,
+   "incentivo_texto": "el destino es residencia (equipamiento: 7 m): «Altura máxima de edificación 12 metros 7 metros»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardin 5 metros 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Art. 15: soterrar las instalaciones de la vía pública permite +0,1 de ocupación y +0,1 de constructibilidad (zonas B, C y C-1 a C-5)."
+    }
+   ]
+  },
+  {
+   "zona": "PC-3",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PC-3 (Tabla N° 15)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13211.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3 en subzona PC-3 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,8 en sub-zona PC-3 0,6",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 0.8,
+   "coef_constructibilidad_condicion": "el destino es residencia (equipamiento: 0,6) («Coeficiente de Constructibilidad 0,8 en sub-zona PC-3 0,6»)",
+   "altura_m_texto": "Altura máxima de edificación 12 metros 7 metros",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 12.0,
+   "incentivo_texto": "el destino es residencia (equipamiento: 7 m): «Altura máxima de edificación 12 metros 7 metros»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardin 5 metros 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Art. 15: soterrar las instalaciones de la vía pública permite +0,1 de ocupación y +0,1 de constructibilidad (zonas B, C y C-1 a C-5)."
+    }
+   ]
+  },
+  {
+   "zona": "PC-6",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PC-6 (Tabla N° 15)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13211.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4 en sub-zona PC-1 y PC-6 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el destino es residencia (equipamiento: 0,3) («Coeficiente de ocupación de suelo 0,4 en sub-zona PC-1 y PC-6 0,3»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,6 en sub-zona PC-6 0,6",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el destino es residencia (equipamiento: 0,6) («Coeficiente de Constructibilidad 1,6 en sub-zona PC-6 0,6»)",
+   "altura_m_texto": "Altura máxima de edificación 12 metros 7 metros",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 12.0,
+   "incentivo_texto": "el destino es residencia (equipamiento: 7 m): «Altura máxima de edificación 12 metros 7 metros»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardin 5 metros 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Art. 15: soterrar las instalaciones de la vía pública permite +0,1 de ocupación y +0,1 de constructibilidad (zonas B, C y C-1 a C-5)."
+    }
+   ]
+  },
+  {
+   "zona": "PC-2",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PC-2 (Tabla N° 16)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13211.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2 800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1 1",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de edificación 14 metros 14 metros",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardin 5 metros 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Art. 15: soterrar las instalaciones de la vía pública permite +0,1 de ocupación y +0,1 de constructibilidad (zonas B, C y C-1 a C-5)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Residencia: 300 m² (equipamiento: 800 m²)."
+    }
+   ]
+  },
+  {
+   "zona": "PC-4",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PC-4 (Tabla N° 17)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13211.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "Altura máxima de edificación 18 metros (6 pisos)",
+   "altura_m": 18.0,
+   "antejardin_m_texto": "Antejardin 5 metros",
+   "antejardin_m": 5.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Art. 15: soterrar las instalaciones de la vía pública permite +0,1 de ocupación y +0,1 de constructibilidad (zonas B, C y C-1 a C-5)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "No se permite adosamiento."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo a medianero: 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "PC-5",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PC-5 (Tabla N° 18)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13211.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 2500 m2 300 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el destino es residencia (equipamiento: 0,3) («Coeficiente de ocupación de suelo 0,4 0,3»)",
+   "altura_m_texto": "Altura máxima de edificación 15 metros 7 metros",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 15.0,
+   "incentivo_texto": "el destino es residencia (equipamiento: 7 m): «Altura máxima de edificación 15 metros 7 metros»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardin 5 metros 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Art. 15: soterrar las instalaciones de la vía pública permite +0,1 de ocupación y +0,1 de constructibilidad (zonas B, C y C-1 a C-5)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento: 300 m² (residencia: 2.500 m²)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Constructibilidad libre para residencia; 0,6 para equipamiento."
+    }
+   ]
+  },
+  {
+   "zona": "PV-1",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-1 (Tabla N° 19)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13213.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Adosamiento según el art. 2.6.2 de la OGUC, ubicándose 1,5 m más atrás de la línea de edificación."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    }
+   ]
+  },
+  {
+   "zona": "PV-2",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-2 (Tabla N° 19)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13213.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Adosamiento según el art. 2.6.2 de la OGUC, ubicándose 1,5 m más atrás de la línea de edificación."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    }
+   ]
+  },
+  {
+   "zona": "PV-3",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-3 (Tabla N° 19)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13213.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Adosamiento según el art. 2.6.2 de la OGUC, ubicándose 1,5 m más atrás de la línea de edificación."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    }
+   ]
+  },
+  {
+   "zona": "PV-4",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-4 (Tabla N° 19)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13213.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Adosamiento según el art. 2.6.2 de la OGUC, ubicándose 1,5 m más atrás de la línea de edificación."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    }
+   ]
+  },
+  {
+   "zona": "PV-5",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-5 (Tabla N° 19)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13213.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Adosamiento según el art. 2.6.2 de la OGUC, ubicándose 1,5 m más atrás de la línea de edificación."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    }
+   ]
+  },
+  {
+   "zona": "PV-6",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-6 (Tabla N° 19)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13213.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Adosamiento según el art. 2.6.2 de la OGUC, ubicándose 1,5 m más atrás de la línea de edificación."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    }
+   ]
+  },
+  {
+   "zona": "PV-7",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-7 (Tabla N° 19)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13213.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Adosamiento según el art. 2.6.2 de la OGUC, ubicándose 1,5 m más atrás de la línea de edificación."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    }
+   ]
+  },
+  {
+   "zona": "PV-8",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-8 (Tabla N° 19)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13213.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Adosamiento según el art. 2.6.2 de la OGUC, ubicándose 1,5 m más atrás de la línea de edificación."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    }
+   ]
+  },
+  {
+   "zona": "PV-9",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-9 (Tabla N° 19)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13213.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial minima 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado / Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m frente a pasajes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Adosamiento según el art. 2.6.2 de la OGUC, ubicándose 1,5 m más atrás de la línea de edificación."
+    },
+    {
+     "campo": "altura",
+     "texto": "9 m: 2 pisos más mansarda."
+    }
+   ]
+  },
+  {
+   "zona": "F",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona F (Tabla N° 20)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13214.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 1500 m2 500 m2 1500 m2",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7 0,8 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento o actividad productiva inofensiva (molestas e infraestructura: 0,7) («Coeficiente de ocupación de suelo 0,7 0,8 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2,0 2,0 2,0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de edificación 14 metros 14 metros 14 metros",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardin Enfrentando calles 5 metros 3 metros 5 metros",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado Aislado - Pareado Aislado",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento y actividades productivas inofensivas: 500 m² (molestas e infraestructura: 1.500 m²)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "10 m frente a Jorge Alessandri; equipamiento e inofensivas: 3 m frente a otras calles."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Pareado solo para equipamiento y actividades inofensivas."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Actividades molestas: 5 m a medianeros."
+    }
+   ]
+  },
+  {
+   "zona": "ZEE",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona ZEE (Tabla N° 21)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/13217.jpg"
+   ],
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de edificación 9 metros o la existente",
+   "altura_m": 9.0,
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "9 m o la altura existente con recepción municipal anterior a la Modificación 2010."
+    },
+    {
+     "campo": "zona",
+     "texto": "Predios de equipamiento de 1 ha o más graficados en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "I",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona I Reina Andina",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona I Reina Andina: la Modificación 2010 no publica cuadro de normas para esta zona en la BCN; rigen las disposiciones de la Ordenanza de 2001 y del PRMS: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "J-1",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona J-1 Carpay 1",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona J-1 Carpay 1: la Modificación 2010 no publica cuadro de normas para esta zona en la BCN; rigen las disposiciones de la Ordenanza de 2001 y del PRMS: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "J-2",
+   "pagina": 0,
+   "seccion": "Art. 24, Área de protección ecológica con desarrollo controlado (PEDC-3 del PRMS)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área de protección ecológica con desarrollo controlado (PEDC-3 del PRMS): la Modificación 2010 no publica cuadro de normas para esta zona en la BCN; rigen las disposiciones de la Ordenanza de 2001 y del PRMS: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "L-1",
+   "pagina": 0,
+   "seccion": "Art. 24, Equipamiento metropolitano: Ejército de Chile, Campo Militar La Reina",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Equipamiento metropolitano: Ejército de Chile, Campo Militar La Reina: la Modificación 2010 no publica cuadro de normas para esta zona en la BCN; rigen las disposiciones de la Ordenanza de 2001 y del PRMS: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "L-2",
+   "pagina": 0,
+   "seccion": "Art. 24, Equipamiento metropolitano: Hospital Militar de Santiago",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Equipamiento metropolitano: Hospital Militar de Santiago: la Modificación 2010 no publica cuadro de normas para esta zona en la BCN; rigen las disposiciones de la Ordenanza de 2001 y del PRMS: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "M-1",
+   "pagina": 0,
+   "seccion": "Art. 24, Área verde: Parque Intercomunal Oriente",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área verde: Parque Intercomunal Oriente: la Modificación 2010 no publica cuadro de normas para esta zona en la BCN; rigen las disposiciones de la Ordenanza de 2001 y del PRMS: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "M-2",
+   "pagina": 0,
+   "seccion": "Art. 24, Área verde: Parque Municipal",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área verde: Parque Municipal: la Modificación 2010 no publica cuadro de normas para esta zona en la BCN; rigen las disposiciones de la Ordenanza de 2001 y del PRMS: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "M-3",
+   "pagina": 0,
+   "seccion": "Art. 24, Área verde: avenidas parque",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área verde: avenidas parque: la Modificación 2010 no publica cuadro de normas para esta zona en la BCN; rigen las disposiciones de la Ordenanza de 2001 y del PRMS: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "M-4",
+   "pagina": 0,
+   "seccion": "Art. 24, Área verde de nivel comunal",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área verde de nivel comunal: la Modificación 2010 no publica cuadro de normas para esta zona en la BCN; rigen las disposiciones de la Ordenanza de 2001 y del PRMS: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "M-5",
+   "pagina": 0,
+   "seccion": "Art. 24, Áreas verdes complementarias (Club de Campo Príncipe de Gales y Banco Central)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Áreas verdes complementarias (Club de Campo Príncipe de Gales y Banco Central): la Modificación 2010 no publica cuadro de normas para esta zona en la BCN; rigen las disposiciones de la Ordenanza de 2001 y del PRMS: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "R-6",
+   "pagina": 0,
+   "seccion": "Art. 24, Resguardo del aeródromo Eulogio Sánchez Errázuriz (Tobalaba)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Resguardo del aeródromo Eulogio Sánchez Errázuriz (Tobalaba): la Modificación 2010 no publica cuadro de normas para esta zona en la BCN; rigen las disposiciones de la Ordenanza de 2001 y del PRMS: confirme con la DOM."
+    }
+   ]
+  }
+ ]
+}

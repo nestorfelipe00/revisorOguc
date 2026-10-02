@@ -1,0 +1,752 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Plan Regulador Comunal de Colina (D.A. N° 629, D.O. 26-03-2010), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1012313",
+ "sha256": "7ad09e1f29270047930769d75d94a15b21b311d77d3ae856f4cb58b0544b11cd",
+ "documentos_adicionales": {
+  "e2016": {
+   "documento": "Enmienda al PRC de Colina, Zona A2 frente a la Carretera General San Martín (D.E. N° 763/2016, D.O. 28-10-2016)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1096028",
+   "fuente": "bcn",
+   "sha256": "f4bf107b2dd03707dca2502dbce5a85f0ffb6e69de62f4f175d47a03218bfb3f"
+  },
+  "e2017": {
+   "documento": "Enmienda al PRC de Colina, Zona A2 Barrio Los Robles (D.O. 19-12-2017)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1112632",
+   "fuente": "bcn",
+   "sha256": "89bd9cdb736ef8d7407b732b163f026412e6d26d80f27807faf42360cc399487"
+  },
+  "e2014a2": {
+   "documento": "Enmiendas al PRC de Colina, Zona A2 (Acuerdo N° 30, D.O. 03-05-2014)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1061864",
+   "fuente": "bcn",
+   "sha256": "9d7686a17e771905c322ad2e06d55a33ab5b95b05b333338925097760b890eda"
+  },
+  "e2014a13": {
+   "documento": "Enmiendas al PRC de Colina, Sector 3 El Colorado Zona A13a (Acuerdo N° 29, D.O. 03-05-2014)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1061863",
+   "fuente": "bcn",
+   "sha256": "9676fafba98bb18bbd93e28b9946fddb905771b39101d6d971a0bb68de237e5c"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "A1",
+   "pagina": 0,
+   "seccion": "Art. 4.2.1. A1",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3,0",
+   "coef_constructibilidad": 3.0,
+   "antejardin_m_texto": "Antejardín 10 m",
+   "antejardin_m": 10.0,
+   "pisos": 12,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "A2",
+   "pagina": 0,
+   "seccion": "Art. 4.2.2 A2: Zona Residencial Mixta 2 (Sector 1: Colina – Esmeralda)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/61529.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "comercio frente a la Carretera General San Martín (antigua) al norte de Av. Interprovincial (enmienda de 2016; los demás usos de ese sector y del Barrio Los Robles: 0,52) («cuando se trate específicamente de zonas con uso de suelo de equipamiento correspondiente a clase comercio, el coeficiente de ocupación de suelo podrá aumentarse hasta 1»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,5",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 0.65,
+   "coef_constructibilidad_condicion": "el predio enfrenta la Carretera General San Martín (antigua) al norte de Av. Interprovincial, o está en el Barrio Los Robles (enmiendas de 2016 y 2017: +30%) («autorizando una incrementación hasta un 30% el coeficiente de constructibilidad y coeficiente de ocupación de suelo»)",
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Enmienda de 2014 (Acuerdo N° 30) para los sitios de A2 frente a calle Alpatacal, entre Pedro Aguirre Cerda y Pasaje Oriente: la BCN no publica sus cifras."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Barrio Los Robles (enmienda de 2017): +30% en constructibilidad y ocupación."
+    }
+   ]
+  },
+  {
+   "zona": "A3",
+   "pagina": 0,
+   "seccion": "Art. 4.2.3. A3",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 160 m2",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,5",
+   "coef_constructibilidad": 0.5,
+   "antejardin_m_texto": "Antejardín 2 m",
+   "antejardin_m": 2.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, pareado, continuo."
+  },
+  {
+   "zona": "A4",
+   "pagina": 0,
+   "seccion": "Art. 4.2.4 A4",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "antejardin_m_texto": "Antejardín 4 m",
+   "antejardin_m": 4.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Los loteos y urbanizaciones requieren un Estudio de Impacto Urbano con informe favorable (zona condicionada)."
+    }
+   ]
+  },
+  {
+   "zona": "A5",
+   "pagina": 0,
+   "seccion": "Art. 4.2.5 A5",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 250 m2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,5",
+   "coef_constructibilidad": 0.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Los loteos y urbanizaciones requieren un Estudio de Impacto Urbano con informe favorable (zona condicionada)."
+    }
+   ]
+  },
+  {
+   "zona": "A6",
+   "pagina": 0,
+   "seccion": "Art. 4.2.6 A6",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 350 m2",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,5",
+   "coef_constructibilidad": 0.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Los loteos y urbanizaciones requieren un Estudio de Impacto Urbano con informe favorable (zona condicionada)."
+    }
+   ]
+  },
+  {
+   "zona": "A7",
+   "pagina": 0,
+   "seccion": "Art. 4.2.7 A7",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 450 m2",
+   "superficie_predial_minima_m2": 450,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,5",
+   "coef_constructibilidad": 0.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Los loteos y urbanizaciones requieren un Estudio de Impacto Urbano con informe favorable (zona condicionada)."
+    }
+   ]
+  },
+  {
+   "zona": "A8",
+   "pagina": 0,
+   "seccion": "Art. 4.2.8 A8",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,5",
+   "coef_constructibilidad": 0.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Los loteos y urbanizaciones requieren un Estudio de Impacto Urbano con informe favorable (zona condicionada)."
+    }
+   ]
+  },
+  {
+   "zona": "A9",
+   "pagina": 0,
+   "seccion": "Art. 4.2.9 A9",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,15",
+   "coef_ocupacion_suelo": 0.15,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado."
+  },
+  {
+   "zona": "A10a",
+   "pagina": 0,
+   "seccion": "Art. 4.2.10.1. A10a",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,6",
+   "coef_constructibilidad": 0.6,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, pareado"
+  },
+  {
+   "zona": "A10b",
+   "pagina": 0,
+   "seccion": "Art. 4.2.10.2 A10b",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,6",
+   "coef_constructibilidad": 0.6,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Los loteos y urbanizaciones requieren un Estudio de Impacto Urbano con informe favorable (zona condicionada)."
+    }
+   ]
+  },
+  {
+   "zona": "A11a",
+   "pagina": 0,
+   "seccion": "Art. 4.2.11.1. A11a",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 250 m2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,5",
+   "coef_constructibilidad": 0.5,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, pareado."
+  },
+  {
+   "zona": "A11b",
+   "pagina": 0,
+   "seccion": "Art. 4.2.11.2. A11b",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 250 m2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,5",
+   "coef_constructibilidad": 0.5,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Los loteos y urbanizaciones requieren un Estudio de Impacto Urbano con informe favorable (zona condicionada)."
+    }
+   ]
+  },
+  {
+   "zona": "A12a",
+   "pagina": 0,
+   "seccion": "Art. 4.2.12.1 A12a",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,5",
+   "coef_constructibilidad": 0.5,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, pareado."
+  },
+  {
+   "zona": "A12b",
+   "pagina": 0,
+   "seccion": "Art. 4.2.12.2 A12b",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,5",
+   "coef_constructibilidad": 0.5,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Los loteos y urbanizaciones requieren un Estudio de Impacto Urbano con informe favorable (zona condicionada)."
+    }
+   ]
+  },
+  {
+   "zona": "A13a",
+   "pagina": 0,
+   "seccion": "Art. 4.2.13.1. A13a",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 400 m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,4",
+   "coef_constructibilidad": 0.4,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Enmienda de 2014 (Acuerdo N° 29) para los sitios del costado norte del camino El Colorado entre Los Aromos y el camino Colorado Interior: la BCN no publica sus cifras."
+    }
+   ]
+  },
+  {
+   "zona": "A13b",
+   "pagina": 0,
+   "seccion": "Art. 4.2.13.2. A13b",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 400 m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,4",
+   "coef_constructibilidad": 0.4,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Los loteos y urbanizaciones requieren un Estudio de Impacto Urbano con informe favorable (zona condicionada)."
+    }
+   ]
+  },
+  {
+   "zona": "B1a",
+   "pagina": 0,
+   "seccion": "Art. 4.2.15.1. B1a",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2,0",
+   "coef_constructibilidad": 2.0,
+   "antejardin_m_texto": "Antejardín 10 m",
+   "antejardin_m": 10.0,
+   "pisos": 12,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Los loteos y urbanizaciones requieren un Estudio de Impacto Urbano con informe favorable (zona condicionada)."
+    }
+   ]
+  },
+  {
+   "zona": "B1b",
+   "pagina": 0,
+   "seccion": "Art. 4.2.15.2 B1b",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2,0",
+   "coef_constructibilidad": 2.0,
+   "antejardin_m_texto": "Antejardín 10 m",
+   "antejardin_m": 10.0,
+   "pisos": 12,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Los loteos y urbanizaciones requieren un Estudio de Impacto Urbano con informe favorable (zona condicionada)."
+    }
+   ]
+  },
+  {
+   "zona": "B2",
+   "pagina": 0,
+   "seccion": "Art. 4.2.16. B2",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 1000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "antejardin_m_texto": "Antejardín 10 m",
+   "antejardin_m": 10.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, pareado, continuo."
+  },
+  {
+   "zona": "B3",
+   "pagina": 0,
+   "seccion": "Art. 4.2.17. B3",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 2000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "antejardin_m_texto": "Antejardín 7 m",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "B4",
+   "pagina": 0,
+   "seccion": "Art. 4.2.18. B4",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "C1",
+   "pagina": 0,
+   "seccion": "Art. 4.2.20. C1",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 4.000 m2",
+   "superficie_predial_minima_m2": 4000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima 2 pisos (con una altura total máxima de 15 mts)",
+   "altura_m": 15.0,
+   "antejardin_m_texto": "Antejardín 10",
+   "antejardin_m": 10.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "C2",
+   "pagina": 0,
+   "seccion": "Art. 4.2.21. C2",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 4.000 m2",
+   "superficie_predial_minima_m2": 4000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima 2 pisos (con una altura total máxima de 15 mts)",
+   "altura_m": 15.0,
+   "antejardin_m_texto": "Antejardín 15",
+   "antejardin_m": 15.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "E1",
+   "pagina": 0,
+   "seccion": "Art. 4.2.22. E1",
+   "coef_ocupacion_suelo_texto": "% max.de Ocupación de Suelo. 1%",
+   "coef_ocupacion_suelo": 0.01,
+   "coef_constructibilidad_texto": "Coeficiente max. de Constructibilidad.0,01",
+   "coef_constructibilidad": 0.01,
+   "altura_m_texto": "Altura máxima 1 piso (con una altura máxima de 7 mts)",
+   "altura_m": 7.0,
+   "pisos": 1,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado.",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "No se permite subdivisión."
+    }
+   ]
+  },
+  {
+   "zona": "E2a",
+   "pagina": 0,
+   "seccion": "Art. 4.2.23. E2a",
+   "coef_ocupacion_suelo_texto": "% max.de Ocupación de Suelo 5 %",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente max.de Constructibilidad 0,05",
+   "coef_constructibilidad": 0.05,
+   "altura_m_texto": "Altura máxima 1 piso (con una altura máxima de 7 mts)",
+   "altura_m": 7.0,
+   "pisos": 1,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado.",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "No se permite subdivisión."
+    }
+   ]
+  },
+  {
+   "zona": "E2b",
+   "pagina": 0,
+   "seccion": "Art. 4.2.24. E2b",
+   "coef_ocupacion_suelo_texto": "% max. de Ocupación de Suelo 5 %",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente max. de Constructibilidad 0,05",
+   "coef_constructibilidad": 0.05,
+   "altura_m_texto": "Altura máxima 1 piso (con una altura máxima de 7 mts)",
+   "altura_m": 7.0,
+   "pisos": 1,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "No se permite subdivisión."
+    }
+   ]
+  },
+  {
+   "zona": "E2d",
+   "pagina": 0,
+   "seccion": "Art. 4.2.26. E2d",
+   "coef_ocupacion_suelo_texto": "% de Ocupación de Suelo 1 %",
+   "coef_ocupacion_suelo": 0.01,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,01",
+   "coef_constructibilidad": 0.01,
+   "altura_m_texto": "Altura máxima 1 piso (con una altura máxima de 7 mts)",
+   "altura_m": 7.0,
+   "pisos": 1,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado CONDICIONES",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "No se permite subdivisión."
+    }
+   ]
+  },
+  {
+   "zona": "E2e",
+   "pagina": 0,
+   "seccion": "Art. 4.2.27. E2e",
+   "coef_ocupacion_suelo_texto": "% de Ocupación de Suelo 1 %",
+   "coef_ocupacion_suelo": 0.01,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,01",
+   "coef_constructibilidad": 0.01,
+   "altura_m_texto": "Altura máxima 1 piso (con una altura máxima de 7 mts)",
+   "altura_m": 7.0,
+   "pisos": 1,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado CONDICIONES",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "No se permite subdivisión."
+    }
+   ]
+  },
+  {
+   "zona": "E3",
+   "pagina": 0,
+   "seccion": "Art. 4.2.28. E3",
+   "coef_ocupacion_suelo_texto": "% max. de Ocupación de Suelo. 20 %",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente max. de Constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "No se permite subdivisión."
+    }
+   ]
+  },
+  {
+   "zona": "E4",
+   "pagina": 0,
+   "seccion": "Art. 4.2.29. E4",
+   "superficie_predial_minima_m2_texto": "Tamaño predial mínimo 5.000 m2",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "% max de Ocupación de Suelo 5%",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente max de Constructibilidad 0,05",
+   "coef_constructibilidad": 0.05,
+   "altura_m_texto": "Altura máxima 1 piso o 3,5 mts",
+   "altura_m": 3.5,
+   "pisos": 1,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "AC",
+   "pagina": 0,
+   "seccion": "Art. 4.2.14 AC:",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona residencial mixta condicionada (Santa Elena, Santa Filomena, Chicureo y Chamicero – Pan de Azúcar): la BCN remite el cuadro de normas al Diario Oficial de 26-03-2010; solo se aprueban loteos de 300 ha o más con informe favorable de la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "B5",
+   "pagina": 0,
+   "seccion": "Art. 4.2.19. B5:",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Equipamiento de seguridad: rigen las condiciones existentes (tamaño predial, coeficientes, altura y agrupamiento)."
+    }
+   ]
+  },
+  {
+   "zona": "E2c",
+   "pagina": 0,
+   "seccion": "Art. 4.2.25. E2c:",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Parque intercomunal adyacente a cauces: rige el PRMS."
+    }
+   ]
+  }
+ ]
+}

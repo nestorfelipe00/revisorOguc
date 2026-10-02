@@ -1,0 +1,145 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Providencia PRCP 2007 (Decreto EX. N°131, D.O. 23-01-2007), versión que incluye la Fe de Erratas (D.A. EX. N°1042, D.O. 14-06-2008)",
+ "url": "https://providencia.cl/provi/site/docs/20191112/20191112162159/prcp_2007_ordenanza_local.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "EC3",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "de hasta 3 pisos y 10,00 mts de altura como máximo",
+   "pagina": 38,
+   "seccion": "Art. 4.3.03, Cuadro N° 08, EC 3 Zona de Edificación Continua, de máximo 3 pisos",
+   "nota": null
+  },
+  {
+   "zona": "EC5",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "de hasta 5 pisos y 16,00 mts de altura como máximo",
+   "pagina": 39,
+   "seccion": "Art. 4.3.04, Cuadro N° 09, EC 5 Zona de Edificación Continua, de máximo 5 pisos",
+   "nota": null
+  },
+  {
+   "zona": "EC7",
+   "altura_m": 22,
+   "pisos": null,
+   "texto": "de hasta 7 pisos y 22,00 mts de altura como máximo",
+   "pagina": 39,
+   "seccion": "Art. 4.3.05, Cuadro N° 10, EC 7 Zona de Edificación Continua, de máximo 7 pisos",
+   "nota": null
+  },
+  {
+   "zona": "EC12",
+   "altura_m": 37,
+   "pisos": null,
+   "texto": "de hasta 12 pisos y 37,00 mts de altura como máximo",
+   "pagina": 40,
+   "seccion": "Art. 4.3.06, Cuadro N° 11, EC 12 Zona de Edificación Continua, de máximo 12 pisos",
+   "nota": null
+  },
+  {
+   "zona": "EC2+A8",
+   "altura_m": 36,
+   "pisos": null,
+   "texto": "La altura total permitida para esta zona es de 10 pisos y 36,00 mts",
+   "pagina": 41,
+   "seccion": "Art. 4.3.08, Cuadro N° 13, EC 2 + A 8 Zona de Edif. Continua, de máx. 2 pisos, más Aislada de máx. 8 pisos",
+   "nota": null
+  },
+  {
+   "zona": "EA3",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "Son zonas de edificación aislada de hasta 3 pisos y un máximo de 10,00 m de altura",
+   "pagina": 42,
+   "seccion": "Art. 4.3.10, Cuadro N° 15, EA 3 Zona de Edif. Aislada, de máximo 3 pisos",
+   "nota": null
+  },
+  {
+   "zona": "EA5",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "Son zonas de edificación aislada de hasta 5 pisos y un máximo de 16,00 m de altura",
+   "pagina": 42,
+   "seccion": "Art. 4.3.11, Cuadro N° 16, EA 5 Zona de Edif. Aislada, de máximo 5 pisos",
+   "nota": null
+  },
+  {
+   "zona": "EA5/pa",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "Son zonas de edificación aislada de hasta 5 pisos y un máximo de 16,00 m de altura",
+   "pagina": 42,
+   "seccion": "Art. 4.3.11, Cuadro N° 16, EA 5 / pa Zona de Edif. Aislada, de máximo 5 pisos; permite adosamiento",
+   "nota": null
+  },
+  {
+   "zona": "EA7",
+   "altura_m": 22,
+   "pisos": null,
+   "texto": "Son zonas de edificación aislada de hasta 7 pisos y un máximo de 22,00 m de altura",
+   "pagina": 43,
+   "seccion": "Art. 4.3.12, Cuadro N° 17, EA 7 Zona de Edif. Aislada, de máximo 7 pisos",
+   "nota": null
+  },
+  {
+   "zona": "EA7/pa",
+   "altura_m": 22,
+   "pisos": null,
+   "texto": "Son zonas de edificación aislada de hasta 7 pisos y un máximo de 22,00 m de altura",
+   "pagina": 43,
+   "seccion": "Art. 4.3.12, Cuadro N° 17, EA 7 / pa Zona de Edif. Aislada, de máximo 7 pisos; permite adosamiento",
+   "nota": null
+  },
+  {
+   "zona": "EA12",
+   "altura_m": 37,
+   "pisos": null,
+   "texto": "Son zonas de edificación aislada de hasta 12 pisos y un máximo de 37,00 m de altura",
+   "pagina": 43,
+   "seccion": "Art. 4.3.13, Cuadro N° 18, EA 12 Zona de Edif. Aislada, de máximo 12 pisos",
+   "nota": null
+  },
+  {
+   "zona": "EA12/pa",
+   "altura_m": 37,
+   "pisos": null,
+   "texto": "Son zonas de edificación aislada de hasta 12 pisos y un máximo de 37,00 m de altura",
+   "pagina": 43,
+   "seccion": "Art. 4.3.13, Cuadro N° 18, EA 12 / pa Zona de Edif. Aislada, de máximo 12 pisos; permite adosamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZEP A3",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "0,6 3 pisos 9 m",
+   "pagina": 1,
+   "seccion": "Art. 4.3.02, fila ZEP A3 (texto de la Modificación N°8 ZEMoI de Salud)",
+   "nota": null
+  },
+  {
+   "zona": "ZEP A4",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "4 pisos 12 m",
+   "pagina": 2,
+   "seccion": "Art. 4.3.02 (texto de la Modificación N°4 Patrimonio), ZEP A4",
+   "nota": null
+  },
+  {
+   "zona": "ZEP A7",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "7 pisos 21 m",
+   "pagina": 2,
+   "seccion": "Art. 4.3.02 (texto de la Modificación N°4 Patrimonio), ZEP A7",
+   "nota": null
+  }
+ ]
+}

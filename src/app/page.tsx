@@ -27,15 +27,15 @@ export default async function HomePage() {
         <div className="grid">
           <Link href="/visor" className="card" style={{ textDecoration: "none" }}>
             <strong>Abrir IFC</strong>
-            <p className="muted small">Visor 3D, propiedades y territorio (comuna, zona del PRC). El archivo se procesa en su navegador.</p>
+            <p className="muted small">Visor 3D, territorio (comuna, zona del PRC), predio y revisión normativa R-01…R-11. El archivo se procesa en su navegador (hasta 100 MB).</p>
           </Link>
           <div className="card">
             <strong>Proyectos guardados</strong>
-            {!proyectos?.length && <p className="muted small">Aún no hay proyectos. Guardar un proyecto llega con la revisión normativa.</p>}
+            {!proyectos?.length && <p className="muted small">Aún no hay proyectos. En el visor, póngale nombre y pulse «Guardar proyecto».</p>}
             <ul style={{ margin: 0, paddingLeft: 18 }}>
               {proyectos?.map((p) => (
                 <li key={p.id} className="small">
-                  {p.nombre} <span className="muted">{p.tramite ?? ""}</span>
+                  <Link href={`/visor?proyecto=${p.id}`}>{p.nombre}</Link> <span className="muted">{p.tramite ?? ""}</span>
                 </li>
               ))}
             </ul>

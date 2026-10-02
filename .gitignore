@@ -50,3 +50,7 @@ next-env.d.ts
 
 # Registro de la carga de normativa
 scripts/carga.log
+
+# Teselas de ciudad y archivos de prueba servidos localmente (se generan con tools/gis/teselas_ciudad.py)
+/public/_ciudad/
+/public/_pruebas/

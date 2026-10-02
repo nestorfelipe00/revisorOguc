@@ -1,0 +1,145 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Texto ajustado de la Ordenanza Local del Plan Regulador Comunal de Talagante (D.A. N° 3.991/2014, D.O. 20-01-2016), con la Enmienda N° 1 (D.A. N° 2.225/2017) y la Modificación N° 3 (D.A. N° 1.146/2025), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1086817",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "ZU-CV",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "infraestructura de transporte 300 0,5 0,5 C 2 7",
+   "pagina": 0,
+   "seccion": "Artículo 9, Zona ZU-CV (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "nota": null
+  },
+  {
+   "zona": "ZU-1",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "esparcimiento 300 0,5 1 C 2 7",
+   "pagina": 0,
+   "seccion": "Artículo 10, Zona ZU-1 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "nota": null
+  },
+  {
+   "zona": "ZU-2",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "esparcimiento 200 0,5 1 C 2 7",
+   "pagina": 0,
+   "seccion": "Artículo 11, Zona ZU-2 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "nota": null
+  },
+  {
+   "zona": "ZU-3",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "culto y cultura 200 0,5 1 CA 2 7",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona ZU-3 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "nota": null
+  },
+  {
+   "zona": "ZU-4",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "esparcimiento 200 0,5 0,7 APC 2 7",
+   "pagina": 0,
+   "seccion": "Artículo 13, Zona ZU-4 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "nota": null
+  },
+  {
+   "zona": "ZU-5",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "esparcimiento 200 0,5 1 A 2 7",
+   "pagina": 0,
+   "seccion": "Artículo 14, Zona ZU-5 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "nota": null
+  },
+  {
+   "zona": "ZU-6",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "culto y cultura 200 0,6 1,2 A 2 7",
+   "pagina": 0,
+   "seccion": "Artículo 15, Zona ZU-6 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "nota": null
+  },
+  {
+   "zona": "ZU-7",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "vivienda 1000 0,3 0,6 A 2 7",
+   "pagina": 0,
+   "seccion": "Artículo 16, Zona ZU-7 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "nota": null
+  },
+  {
+   "zona": "ZU-8",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "vivienda 2500 0,2 0,3 A 2 7",
+   "pagina": 0,
+   "seccion": "Artículo 17, Zona ZU-8 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "nota": null
+  },
+  {
+   "zona": "ZIE-1",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "científico 1000 0,5 0,6 A 2 7",
+   "pagina": 0,
+   "seccion": "Artículo 20, Zona ZIE-1 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "nota": null
+  },
+  {
+   "zona": "ZIE-2",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "científico 2000 0,5 0,9 A 2 7",
+   "pagina": 0,
+   "seccion": "Artículo 21, Zona ZIE-2 (Enmienda N° 1, D.A. N° 2.225/2017)",
+   "nota": null
+  },
+  {
+   "zona": "ZE-1",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación: 14 m / 4 pisos",
+   "pagina": 0,
+   "seccion": "Artículo 23, Zona Especial Deportivo - Recreacional ZE-1 (Enmienda N° 1)",
+   "nota": null
+  },
+  {
+   "zona": "ZE-2",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación: 14 m/4 pisos",
+   "pagina": 0,
+   "seccion": "Artículo 24, Zona Especial Equipamiento Exclusivo ZE-2 (Enmienda N° 1)",
+   "nota": null
+  },
+  {
+   "zona": "ZE-3",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación: 14 m/4 pisos",
+   "pagina": 0,
+   "seccion": "Artículo 25, Zona Especial de Resguardo Ferroviario ZE-3 (Enmienda N° 1)",
+   "nota": null
+  },
+  {
+   "zona": "ZVN-HU",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura Máxima de : 3.5 metros Edificación",
+   "pagina": 0,
+   "seccion": "Artículo 27 bis, ZVN-HU Zona de Valor Natural Humedal Urbano Río Mapocho (Modificación N° 3)",
+   "nota": null
+  }
+ ]
+}

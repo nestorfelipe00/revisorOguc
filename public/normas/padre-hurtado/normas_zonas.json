@@ -1,0 +1,596 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Padre Hurtado (Res. N° 92 del GORE Metropolitano de 13-09-2004, D.O. 04-02-2005), texto publicado por la Municipalidad",
+ "url": "https://portal.mph.cl/wp-content/uploads/2026/04/ORDENANZA-LOCAL.pdf",
+ "sha256": "047f4f0d0a173eaf7a45a263b056fb24e6fe20fc9ef56b6c822a7539c98497c0",
+ "documentos_adicionales": {
+  "m2010": {
+   "documento": "Primera Modificación al PRC de Padre Hurtado, Zona E-6 Parcelas 9 y 10 El Progreso (D.O. 30-03-2010)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1012133",
+   "fuente": "bcn",
+   "sha256": "8d9932c70f806ebb241715ef4e2c7460d71b6ca5937abc2df7b8acd03ca983af"
+  },
+  "m2013": {
+   "documento": "Modificación al PRC de Padre Hurtado Zona A (D.O. 31-05-2013)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1051416",
+   "fuente": "bcn",
+   "sha256": "456c8b101cf355c5f3f442fc91275c365758c384bbc842569fa2b5de9dbdf3de"
+  },
+  "e2016": {
+   "documento": "Enmienda al PRC de Padre Hurtado «Zona E2 Villa Centenario» (D.O. 16-03-2016)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1088428",
+   "fuente": "bcn",
+   "sha256": "cb21229f4fbd7fda3c9dfb8ccb0ce603abc8eefd55a9f5e28b40e4926b2c9539"
+  },
+  "m2019": {
+   "documento": "Modificación al PRC de Padre Hurtado «Zona E 2-1 Sector Santa Rosa de Chena» (D.O. 13-06-2019)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1132539",
+   "fuente": "bcn",
+   "sha256": "4012095a2d1746629ac8636f82e51a5afcc43f784b41011f8bb59cdba1085e79"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "A",
+   "pagina": 8,
+   "seccion": "Art. 4.3.2, Zona A: Centro Comunal",
+   "superficie_predial_minima_m2_texto": "500 M2 0,7 2,8 21 M 600 Hab/Há CONTINUO (**) AISLADO SOBRE EDIFICACION CONTINUA",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "500 M2 0,7 2,8 21 M 600 Hab/Há CONTINUO (**) AISLADO SOBRE EDIFICACION CONTINUA",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "500 M2 0,7 2,8 21 M 600 Hab/Há CONTINUO (**) AISLADO SOBRE EDIFICACION CONTINUA",
+   "coef_constructibilidad": 2.8,
+   "altura_m_texto": "500 M2 0,7 2,8 21 M 600 Hab/Há CONTINUO (**) AISLADO SOBRE EDIFICACION CONTINUA",
+   "altura_m": 21.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "500 M2 0,7 2,8 21 M 600 Hab/Há CONTINUO (**) AISLADO SOBRE EDIFICACION CONTINUA",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Modificación Zona A (2013): agrupamiento aislado, pareado o continuo; la edificación continua tiene altura mínima de 7 m y sobre ella puede ir edificación aislada con rasante. Se eliminó la exigencia de línea de edificación en la línea oficial."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    },
+    {
+     "campo": "zona",
+     "texto": "En el área de transición urbana (franja de 100 m entre los puntos 11 y 20 del límite urbano) la densidad residencial máxima es 90 hab/ha."
+    }
+   ]
+  },
+  {
+   "zona": "B1",
+   "pagina": 9,
+   "seccion": "Art. 4.3.2, Zona B1: Corredor Regional",
+   "superficie_predial_minima_m2_texto": "1.000 M2 0,7 2,1 15 M. 450 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "1.000 M2 0,7 2,1 15 M. 450 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "1.000 M2 0,7 2,1 15 M. 450 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "coef_constructibilidad": 2.1,
+   "altura_m_texto": "1.000 M2 0,7 2,1 15 M. 450 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "altura_m": 15.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "1.000 M2 0,7 2,1 15 M. 450 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Edificación continua hasta 9 m; sobre esa altura, aislada con rasante desde los 9 m y el eje de la calle."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    },
+    {
+     "campo": "zona",
+     "texto": "En el área de transición urbana (franja de 100 m entre los puntos 11 y 20 del límite urbano) la densidad residencial máxima es 90 hab/ha."
+    }
+   ]
+  },
+  {
+   "zona": "B2",
+   "pagina": 9,
+   "seccion": "Art. 4.3.2, Zona B2: Corredor Intercomunal",
+   "superficie_predial_minima_m2_texto": "500 M2 0,7 2,1 15 M. 450 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "500 M2 0,7 2,1 15 M. 450 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "500 M2 0,7 2,1 15 M. 450 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "coef_constructibilidad": 2.1,
+   "altura_m_texto": "500 M2 0,7 2,1 15 M. 450 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "altura_m": 15.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "500 M2 0,7 2,1 15 M. 450 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Edificación continua hasta 9 m; sobre esa altura, aislada con rasante desde los 9 m y el eje de la calle."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    },
+    {
+     "campo": "zona",
+     "texto": "En el área de transición urbana (franja de 100 m entre los puntos 11 y 20 del límite urbano) la densidad residencial máxima es 90 hab/ha."
+    }
+   ]
+  },
+  {
+   "zona": "B3",
+   "pagina": 9,
+   "seccion": "Art. 4.3.2, Zona B3: Corredor Local",
+   "superficie_predial_minima_m2_texto": "300 M2 0,6 1,8 15 M. 350 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "300 M2 0,6 1,8 15 M. 350 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "300 M2 0,6 1,8 15 M. 350 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "300 M2 0,6 1,8 15 M. 350 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "altura_m": 15.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "300 M2 0,6 1,8 15 M. 350 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Edificación continua hasta 9 m; sobre esa altura, aislada con rasante desde los 9 m y el eje de la calle."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    },
+    {
+     "campo": "zona",
+     "texto": "En el área de transición urbana (franja de 100 m entre los puntos 11 y 20 del límite urbano) la densidad residencial máxima es 90 hab/ha."
+    }
+   ]
+  },
+  {
+   "zona": "C1",
+   "pagina": 10,
+   "seccion": "Art. 4.3.2, Zona C1: Habitacional",
+   "superficie_predial_minima_m2_texto": "C1 160 M2 0,7 1,4 15 M. 450 Hab/Há",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "C1 160 M2 0,7 1,4 15 M. 450 Hab/Há",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "C1 160 M2 0,7 1,4 15 M. 450 Hab/Há",
+   "coef_constructibilidad": 1.4,
+   "altura_m_texto": "C1 160 M2 0,7 1,4 15 M. 450 Hab/Há",
+   "altura_m": 15.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "C1 160 M2 0,7 1,4 15 M. 450 Hab/Há",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    },
+    {
+     "campo": "zona",
+     "texto": "En el área de transición urbana (franja de 100 m entre los puntos 11 y 20 del límite urbano) la densidad residencial máxima es 90 hab/ha."
+    }
+   ]
+  },
+  {
+   "zona": "C2",
+   "pagina": 10,
+   "seccion": "Art. 4.3.2, Zona C2: Habitacional",
+   "superficie_predial_minima_m2_texto": "C2 160 M2 0,6 1,2 12 M. 350 Hab/Há",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "C2 160 M2 0,6 1,2 12 M. 350 Hab/Há",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "C2 160 M2 0,6 1,2 12 M. 350 Hab/Há",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "C2 160 M2 0,6 1,2 12 M. 350 Hab/Há",
+   "altura_m": 12.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "C2 160 M2 0,6 1,2 12 M. 350 Hab/Há",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    },
+    {
+     "campo": "zona",
+     "texto": "En el área de transición urbana (franja de 100 m entre los puntos 11 y 20 del límite urbano) la densidad residencial máxima es 90 hab/ha."
+    }
+   ]
+  },
+  {
+   "zona": "C3",
+   "pagina": 10,
+   "seccion": "Art. 4.3.2, Zona C3: Habitacional",
+   "superficie_predial_minima_m2_texto": "C3 300 M2 0,5 1,0 9 M. 150 Hab/Há",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "C3 300 M2 0,5 1,0 9 M. 150 Hab/Há",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "C3 300 M2 0,5 1,0 9 M. 150 Hab/Há",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "C3 300 M2 0,5 1,0 9 M. 150 Hab/Há",
+   "altura_m": 9.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "C3 300 M2 0,5 1,0 9 M. 150 Hab/Há",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    },
+    {
+     "campo": "zona",
+     "texto": "En el área de transición urbana (franja de 100 m entre los puntos 11 y 20 del límite urbano) la densidad residencial máxima es 90 hab/ha."
+    }
+   ]
+  },
+  {
+   "zona": "D",
+   "pagina": 11,
+   "seccion": "Art. 4.3.2, Zona D: Mixta",
+   "superficie_predial_minima_m2_texto": "500 M2 0,8 2,4 9 M. 5 ----- AISLADO",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "- VIVIENDA (**). 300 M2 0.5 1.0 9 M. O.G.U.C. 150 Hab/Há PAREADO AISLADO",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es actividad productiva inofensiva, equipamiento o terminal de locomoción colectiva (vivienda: 0,5) («500 M2 0,8 2,4 9 M. 5 ----- AISLADO»)",
+   "coef_constructibilidad_texto": "- VIVIENDA (**). 300 M2 0.5 1.0 9 M. O.G.U.C. 150 Hab/Há PAREADO AISLADO",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el destino es actividad productiva inofensiva, equipamiento o terminal de locomoción colectiva (vivienda: 1,0) («500 M2 0,8 2,4 9 M. 5 ----- AISLADO»)",
+   "altura_m_texto": "500 M2 0,8 2,4 9 M. 5 ----- AISLADO",
+   "altura_m": 9.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "- VIVIENDA (**). 300 M2 0.5 1.0 9 M. O.G.U.C. 150 Hab/Há PAREADO AISLADO",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Vivienda: 300 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Actividades productivas y equipamiento: aislado, con 5 m a los medianeros; vivienda: distanciamiento según OGUC."
+    },
+    {
+     "campo": "zona",
+     "texto": "Al poniente de Camino a Melipilla la densidad máxima es 450 hab/ha (150 en el resto)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    },
+    {
+     "campo": "zona",
+     "texto": "En el área de transición urbana (franja de 100 m entre los puntos 11 y 20 del límite urbano) la densidad residencial máxima es 90 hab/ha."
+    }
+   ]
+  },
+  {
+   "zona": "E1",
+   "pagina": 11,
+   "seccion": "Art. 4.3.2, Zona E1: Centro Cívico",
+   "superficie_predial_minima_m2_texto": "2.000 M2 0,7 2,8 24 M. --------------- PAREADO AISLADO",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "2.000 M2 0,7 2,8 24 M. --------------- PAREADO AISLADO",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "2.000 M2 0,7 2,8 24 M. --------------- PAREADO AISLADO",
+   "coef_constructibilidad": 2.8,
+   "altura_m_texto": "2.000 M2 0,7 2,8 24 M. --------------- PAREADO AISLADO",
+   "altura_m": 24.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "2.000 M2 0,7 2,8 24 M. --------------- PAREADO AISLADO",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    }
+   ]
+  },
+  {
+   "zona": "E3",
+   "pagina": 12,
+   "seccion": "Art. 4.3.2, Zona E3: Recreacional Deportivo",
+   "superficie_predial_minima_m2_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "coef_constructibilidad": 0.3,
+   "altura_m_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "altura_m": 9.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "Social, esparcimiento y comercio: solo hasta el 20% del predio, superficie que se toma como total para calcular las condiciones de edificación."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    }
+   ]
+  },
+  {
+   "zona": "E4",
+   "pagina": 12,
+   "seccion": "Art. 4.3.2, Zona E4: Histórico y/o Cultural",
+   "superficie_predial_minima_m2_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "coef_constructibilidad": 0.3,
+   "altura_m_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "altura_m": 9.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    }
+   ]
+  },
+  {
+   "zona": "E5",
+   "pagina": 13,
+   "seccion": "Art. 4.3.2, Zona E5: Áreas Verdes e Infraestructura",
+   "superficie_predial_minima_m2_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "coef_constructibilidad": 0.3,
+   "altura_m_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "altura_m": 9.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    }
+   ]
+  },
+  {
+   "zona": "F1",
+   "pagina": 13,
+   "seccion": "Art. 4.3.2, Zona F1: Industria",
+   "superficie_predial_minima_m2_texto": "1.500 M2 0,6 1,8 12 M. 5 AISLADO",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "1.500 M2 0,6 1,8 12 M. 5 AISLADO",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "1.500 M2 0,6 1,8 12 M. 5 AISLADO",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "1.500 M2 0,6 1,8 12 M. 5 AISLADO",
+   "altura_m": 12.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "1.500 M2 0,6 1,8 12 M. 5 AISLADO",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo a medianeros: 5 m."
+    },
+    {
+     "campo": "zona",
+     "texto": "Se permite portería en el antejardín, de hasta 18 m² en un piso."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín en zona industrial: 10 m (vivienda, según la zona habitacional); frente a vías estructurantes, el del Art. 5.1.6."
+    }
+   ]
+  },
+  {
+   "zona": "E2",
+   "pagina": 0,
+   "seccion": "Art. 4.3.2, Zona E2: Equipamiento Comunitario (Enmienda Zona E2 Villa Centenario, 2016)",
+   "documento": "Enmienda al PRC de Padre Hurtado «Zona E2 Villa Centenario» (D.O. 16-03-2016)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1088428",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/56337.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Debe decir: ZONA E2 1.000 M2 0,7 2,1 15 M. 450 Hab/Há PAREADO AISLADO",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Debe decir: ZONA E2 1.000 M2 0,7 2,1 15 M. 450 Hab/Há PAREADO AISLADO",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Debe decir: ZONA E2 1.000 M2 0,7 2,1 15 M. 450 Hab/Há PAREADO AISLADO",
+   "coef_constructibilidad": 2.1,
+   "altura_m_texto": "Debe decir: ZONA E2 1.000 M2 0,7 2,1 15 M. 450 Hab/Há PAREADO AISLADO",
+   "altura_m": 15.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Debe decir: ZONA E2 1.000 M2 0,7 2,1 15 M. 450 Hab/Há PAREADO AISLADO",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "Vivienda hasta el 50% del predio."
+    },
+    {
+     "campo": "zona",
+     "texto": "Sector Santa Rosa de Chena (entre El Trébol, Primera Transversal, La Pirámide y las zonas D y B3): Zona E 2-1 (Modificación 2019), con las mismas cifras y equipamiento de salud; la capa no la distingue."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    }
+   ]
+  },
+  {
+   "zona": "E6",
+   "pagina": 0,
+   "seccion": "Art. 4.3.2, Zona E-6: Equipamiento (Primera Modificación, 2010)",
+   "documento": "Primera Modificación al PRC de Padre Hurtado, Zona E-6 Parcelas 9 y 10 El Progreso (D.O. 30-03-2010)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1012133",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/11109.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Zona E-6 Equipamiento Comunal 500 m2 0.7 2.1 15 m. ---- Continuo* Pareado Aislado",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Zona E-6 Equipamiento Comunal 500 m2 0.7 2.1 15 m. ---- Continuo* Pareado Aislado",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Zona E-6 Equipamiento Comunal 500 m2 0.7 2.1 15 m. ---- Continuo* Pareado Aislado",
+   "coef_constructibilidad": 2.1,
+   "altura_m_texto": "Zona E-6 Equipamiento Comunal 500 m2 0.7 2.1 15 m. ---- Continuo* Pareado Aislado",
+   "altura_m": 15.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Zona E-6 Equipamiento Comunal 500 m2 0.7 2.1 15 m. ---- Continuo* Pareado Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Edificación continua hasta 9 m; sobre esa altura, aislada con rasante desde los 9 m y el eje de la calle."
+    },
+    {
+     "campo": "zona",
+     "texto": "Equipamiento de educación, cultura, salud, deportes y esparcimiento (parcelas 9 y 10 de El Progreso)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 3.1.9): 2 m frente a pasajes y áreas verdes, 3 m hasta 15 m de ancho y 5 m sobre 15 m; frente a vías estructurantes, el del Art. 5.1.6."
+    }
+   ]
+  },
+  {
+   "zona": "ZH1",
+   "pagina": 10,
+   "seccion": "Art. 4.3.2, Zona H1 (ZH1): Habitacional",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "Sector de calle San Ignacio: siguen vigentes las normas del D.S. N° 156 (V. y U.) de 2002 (D.O. 16-05-2003), que no se transcriben; densidad máxima 450 hab/ha."
+    }
+   ]
+  },
+  {
+   "zona": "ATU",
+   "pagina": 13,
+   "seccion": "Art. 4.3.2, área de transición urbana",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: texto de la Ordenanza de 2005 que publica la Municipalidad (la publicación del Diario Oficial es un escaneo), con las modificaciones publicadas en la BCN: confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "En el área de transición urbana (franja de 100 m entre los puntos 11 y 20 del límite urbano) la densidad residencial máxima es 90 hab/ha."
+    },
+    {
+     "campo": "zona",
+     "texto": "Las demás normas son las de la zona que grafica el plano en cada predio."
+    }
+   ]
+  }
+ ]
+}

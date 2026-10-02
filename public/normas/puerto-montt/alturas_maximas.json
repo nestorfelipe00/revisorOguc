@@ -1,0 +1,253 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Puerto Montt (Res. afecta N° 124 del Gobierno Regional de Los Lagos, D.O. 12-11-2009), texto que incorpora la Enmienda publicada en el D.O. el 25-10-2016, publicado por la Municipalidad de Puerto Montt (SECPLAN, versión 2024)",
+ "url": "https://www.puertomontt.cl/wp-content/uploads/2024/12/1.4.2.-Ordenanza-Local-incorpora-enmienda.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "CB-1",
+   "altura_m": 33,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 33 m",
+   "pagina": 45,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 3. CENTRO BORDE 1 / CB-1",
+   "nota": null
+  },
+  {
+   "zona": "PC",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 21 m",
+   "pagina": 48,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 6. PERICENTRO / PC",
+   "nota": null
+  },
+  {
+   "zona": "ZEU",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 14 m",
+   "pagina": 50,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 8. ZONA DE EQUIPAMIENTO URBANO / ZEU",
+   "nota": null
+  },
+  {
+   "zona": "SC-2",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 21 m",
+   "pagina": 52,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 10. SUBCENTRO 2 / SC - 2",
+   "nota": null
+  },
+  {
+   "zona": "R1",
+   "altura_m": 15,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 15 m",
+   "pagina": 54,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 12. ZONA RESIDENCIAL 1 / R1",
+   "nota": null
+  },
+  {
+   "zona": "R2-A",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 12 m",
+   "pagina": 55,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 13. ZONA RESIDENCIAL 2-A / R2-A",
+   "nota": null
+  },
+  {
+   "zona": "R2-B",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 12 m",
+   "pagina": 56,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 14. ZONA RESIDENCIAL 2-B / R2-B",
+   "nota": null
+  },
+  {
+   "zona": "R2-C",
+   "altura_m": 18,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 18m",
+   "pagina": 57,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 15. ZONA RESIDENCIAL 2-C / R2-C",
+   "nota": null
+  },
+  {
+   "zona": "BC-1",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 7m",
+   "pagina": 74,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 26. BORDE COSTERO 1 / BC-1",
+   "nota": null
+  },
+  {
+   "zona": "BC-2",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 7m",
+   "pagina": 75,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 27. BORDE COSTERO 2 / BC-2",
+   "nota": null
+  },
+  {
+   "zona": "BC-4",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 7m",
+   "pagina": 77,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 29. BORDE COSTERO 4 / BC-4",
+   "nota": null
+  },
+  {
+   "zona": "ZOIT-2",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 9 m",
+   "pagina": 80,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 33. ISLA TENGLO 2 / ZOIT-2",
+   "nota": null
+  },
+  {
+   "zona": "ZOIT-3",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 14 m",
+   "pagina": 81,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 34. ISLA TENGLO 3 / ZOIT-3",
+   "nota": null
+  },
+  {
+   "zona": "RE-1",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 12 m",
+   "pagina": 84,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 37. ZONA RESIDENCIAL EXISTENTE 1 / RE-1",
+   "nota": null
+  },
+  {
+   "zona": "PU",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 12 m",
+   "pagina": 89,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 42. ZONA DE PARQUE URBANO / PU",
+   "nota": null
+  },
+  {
+   "zona": "D",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 12m",
+   "pagina": 90,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 43. ZONA DE EQUIPAMIENTO DEPORTIVO / D",
+   "nota": null
+  },
+  {
+   "zona": "BN",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 12 m",
+   "pagina": 91,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 44. ZONA DE BOSQUE NATIVO / BN",
+   "nota": null
+  },
+  {
+   "zona": "CN",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 7m",
+   "pagina": 92,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 45. FUENTES Y CAUCES NATURALES / CN",
+   "nota": null
+  },
+  {
+   "zona": "L-2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 10,5 m",
+   "pagina": 94,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 47. ZONA L-2",
+   "nota": null
+  },
+  {
+   "zona": "AI-1",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 14 m",
+   "pagina": 95,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 49. Seguridad / AI-1",
+   "nota": null
+  },
+  {
+   "zona": "AI-2",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 14 m",
+   "pagina": 97,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 50. Cementerios / AI-2",
+   "nota": null
+  },
+  {
+   "zona": "RI-1",
+   "altura_m": 15,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 15 m",
+   "pagina": 100,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 52. Infraestructura de Comunicaciones / RI-1",
+   "nota": null
+  },
+  {
+   "zona": "RI-3",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 14 m",
+   "pagina": 104,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 54. Infraestructura Sanitaria / RI-3",
+   "nota": null
+  },
+  {
+   "zona": "RI-4",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 14 m",
+   "pagina": 106,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 55. Recintos Portuarios / RI-4",
+   "nota": null
+  },
+  {
+   "zona": "RI-6",
+   "altura_m": 15,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 15 m",
+   "pagina": 109,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 57. Aeródromos / RI-6",
+   "nota": null
+  },
+  {
+   "zona": "RI-7",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 14 m",
+   "pagina": 110,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 58. Transporte Ferroviario / RI-7",
+   "nota": null
+  },
+  {
+   "zona": "IE",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA 14 m",
+   "pagina": 113,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 60. Infraestructuras Evacuadas / IE",
+   "nota": null
+  }
+ ]
+}

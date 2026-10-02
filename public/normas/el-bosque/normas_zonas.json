@@ -1,0 +1,333 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Texto refundido de la Enmienda de la Ordenanza del Plan Regulador de la Comuna de El Bosque 2025 (EPRC25), D.A. N° 126 de 09-01-2026, D.O. 27-01-2026",
+ "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2026/01/27/44360/01/2755442.pdf",
+ "sha256": "fff83f3e22fc429cd68d485ebb8f8d24303b36ce878884659a0aa6f64b6d01e0",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "C",
+   "pagina": 2,
+   "seccion": "Art. 2°, Zona C",
+   "superficie_predial_minima_m2_texto": "Superficie mínima predial Industria y/o Bodegas inofensivas: 600 m2.",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "Otros usos permitidos: 78%",
+   "coef_ocupacion_suelo": 0.78,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es taller inofensivo («Taller inofensivo: 80%»)",
+   "altura_m_texto": "Altura máxima de edificación: Libre, según disposición indicadas Art. 8.4.1.3. PRMS.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Para vivienda colectiva y condominio se exige: 3,00 m. Para otros usos permitidos se exige: 3,00 m.",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Otros usos permitidos: Continuo, pareado y aislado.",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Usos distintos de industria y bodegas inofensivas: 300 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro no indica la ocupación para industria y bodegas inofensivas."
+    },
+    {
+     "campo": "altura",
+     "texto": "Altura libre, sujeta a la restricción del aeródromo El Bosque (art. 8.4.1.3 del PRMS)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continua y pareada hasta 12 m de altura y 20 m de profundidad desde la línea oficial (100% en primer piso); sobre esa altura, aislada con rasantes y distanciamientos de la OGUC. Industria y bodegas: aislado."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "No se exige antejardín a la vivienda social."
+    }
+   ]
+  },
+  {
+   "zona": "H",
+   "pagina": 3,
+   "seccion": "Art. 2°, Zona H",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima Industria y/o Bodegas inofensivas: 400 m2.",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Taller inofensivo: 60%",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.78,
+   "coef_ocupacion_suelo_condicion": "el destino no es industria, bodega ni taller (estos: 60%) («Otros usos permitidos: 78%»)",
+   "altura_m_texto": "14,4 m. máximo de altura, medidos desde el nivel del terreno natural hasta el punto más alto de la techumbre.",
+   "altura_m": 14.4,
+   "antejardin_m_texto": "Para vivienda colectiva y condominio se exige: 3,00 m. Para otros usos permitidos se exige: 3,00 m.",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Otros usos permitidos: Aislado, pareado y continuo hasta 7 mts. de altura y hasta 10 mts. De profundidad.",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Otros usos (vivienda, comercio, equipamiento): 160 m²."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continuo hasta 7 m de altura y 10 m de profundidad; industria y bodegas: aislado."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "No se exige antejardín a la vivienda social."
+    }
+   ]
+  },
+  {
+   "zona": "R",
+   "pagina": 3,
+   "seccion": "Art. 2°, Zona R",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima: 160m2.",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Taller inofensivo: 60%",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.78,
+   "coef_ocupacion_suelo_condicion": "el destino no es taller (taller: 60%) («Otros usos permitidos: 78%»)",
+   "altura_m_texto": "14,4 m. máximo de altura, medidos desde el nivel de terreno natural hasta el punto más alto de la techumbre.",
+   "altura_m": 14.4,
+   "antejardin_m_texto": "Antejardín mínimo: No se exige",
+   "antejardin_m": 0.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Aislado, pareado con construcción simultánea.",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Pareado solo con construcción simultánea."
+    }
+   ]
+  },
+  {
+   "zona": "1",
+   "pagina": 4,
+   "seccion": "Art. 2°, Zona 1-2-3 Residencial - Equipamiento - Talleres: Zona 1 (Sector 1, área residencial)",
+   "superficie_predial_minima_m2_texto": "Superficie predial 210 m2.",
+   "superficie_predial_minima_m2": 210,
+   "coef_ocupacion_suelo_texto": "Para vivienda En un piso 80 % - En dos pisos 60% - Tres o más pisos 45%",
+   "coef_ocupacion_suelo": 0.45,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "la edificación es de un piso (dos pisos: 60%; talleres: 60%) («Para vivienda En un piso 80 % - En dos pisos 60% - Tres o más pisos 45%»)",
+   "altura_m_texto": "Para vivienda unifamiliar 8,4 m. máx.",
+   "altura_m": 8.4,
+   "altura_incentivo_m": 16.8,
+   "incentivo_texto": "el destino es vivienda colectiva: «Para vivienda colectivas 16,8 m. máx.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "Antejardín: 3m. mínimo.",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Vivienda unifamiliar y otros usos: 8,4 m; vivienda colectiva: 16,8 m."
+    },
+    {
+     "campo": "zona",
+     "texto": "Densidad: vivienda colectiva 600 hab/ha o margen volumétrico (art. 31 del PRC de San Bernardo); otros usos 360 hab/ha."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "No se exige antejardín a la vivienda social."
+    }
+   ]
+  },
+  {
+   "zona": "2",
+   "pagina": 4,
+   "seccion": "Art. 2°, Zona 1-2-3 Residencial - Equipamiento - Talleres: Zona 2 (Sector 2, área residencial)",
+   "superficie_predial_minima_m2_texto": "Superficie predial 210 m2.",
+   "superficie_predial_minima_m2": 210,
+   "coef_ocupacion_suelo_texto": "Para vivienda En un piso 80 % - En dos pisos 60% - Tres o más pisos 45%",
+   "coef_ocupacion_suelo": 0.45,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "la edificación es de un piso (dos pisos: 60%; talleres: 60%) («Para vivienda En un piso 80 % - En dos pisos 60% - Tres o más pisos 45%»)",
+   "altura_m_texto": "Para vivienda unifamiliar 8,4 m. máx.",
+   "altura_m": 8.4,
+   "altura_incentivo_m": 16.8,
+   "incentivo_texto": "el destino es vivienda colectiva: «Para vivienda colectivas 16,8 m. máx.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "Antejardín: 3m. mínimo.",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Vivienda unifamiliar y otros usos: 8,4 m; vivienda colectiva: 16,8 m."
+    },
+    {
+     "campo": "zona",
+     "texto": "Densidad: vivienda colectiva 600 hab/ha o margen volumétrico (art. 31 del PRC de San Bernardo); otros usos 360 hab/ha."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "No se exige antejardín a la vivienda social."
+    }
+   ]
+  },
+  {
+   "zona": "3AMIR",
+   "pagina": 4,
+   "seccion": "Art. 2°, Zona 1-2-3 Residencial - Equipamiento - Talleres: Zona 3 (la capa: Sector 3, área mixta industrial residencial)",
+   "superficie_predial_minima_m2_texto": "Superficie predial 210 m2.",
+   "superficie_predial_minima_m2": 210,
+   "coef_ocupacion_suelo_texto": "Para vivienda En un piso 80 % - En dos pisos 60% - Tres o más pisos 45%",
+   "coef_ocupacion_suelo": 0.45,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "la edificación es de un piso (dos pisos: 60%; talleres: 60%) («Para vivienda En un piso 80 % - En dos pisos 60% - Tres o más pisos 45%»)",
+   "altura_m_texto": "Para vivienda unifamiliar 8,4 m. máx.",
+   "altura_m": 8.4,
+   "altura_incentivo_m": 16.8,
+   "incentivo_texto": "el destino es vivienda colectiva: «Para vivienda colectivas 16,8 m. máx.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "Antejardín: 3m. mínimo.",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Vivienda unifamiliar y otros usos: 8,4 m; vivienda colectiva: 16,8 m."
+    },
+    {
+     "campo": "zona",
+     "texto": "Densidad: vivienda colectiva 600 hab/ha o margen volumétrico (art. 31 del PRC de San Bernardo); otros usos 360 hab/ha."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "No se exige antejardín a la vivienda social."
+    },
+    {
+     "campo": "zona",
+     "texto": "La capa distingue las zonas 3AMIR y 3AR; la Enmienda norma la Zona 3 junto con las zonas 1 y 2."
+    }
+   ]
+  },
+  {
+   "zona": "3AR",
+   "pagina": 4,
+   "seccion": "Art. 2°, Zona 1-2-3 Residencial - Equipamiento - Talleres: Zona 3 (la capa: Sector 3, área residencial)",
+   "superficie_predial_minima_m2_texto": "Superficie predial 210 m2.",
+   "superficie_predial_minima_m2": 210,
+   "coef_ocupacion_suelo_texto": "Para vivienda En un piso 80 % - En dos pisos 60% - Tres o más pisos 45%",
+   "coef_ocupacion_suelo": 0.45,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "la edificación es de un piso (dos pisos: 60%; talleres: 60%) («Para vivienda En un piso 80 % - En dos pisos 60% - Tres o más pisos 45%»)",
+   "altura_m_texto": "Para vivienda unifamiliar 8,4 m. máx.",
+   "altura_m": 8.4,
+   "altura_incentivo_m": 16.8,
+   "incentivo_texto": "el destino es vivienda colectiva: «Para vivienda colectivas 16,8 m. máx.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "Antejardín: 3m. mínimo.",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Vivienda unifamiliar y otros usos: 8,4 m; vivienda colectiva: 16,8 m."
+    },
+    {
+     "campo": "zona",
+     "texto": "Densidad: vivienda colectiva 600 hab/ha o margen volumétrico (art. 31 del PRC de San Bernardo); otros usos 360 hab/ha."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "No se exige antejardín a la vivienda social."
+    },
+    {
+     "campo": "zona",
+     "texto": "La capa distingue las zonas 3AMIR y 3AR; la Enmienda norma la Zona 3 junto con las zonas 1 y 2."
+    }
+   ]
+  },
+  {
+   "zona": "4AI",
+   "pagina": 5,
+   "seccion": "Art. 2°, Zona 4 (la capa: 4AI, área industrial)",
+   "superficie_predial_minima_m2_texto": "Superficie predial 1.500 m2",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Porcentaje ocupación de suelo 70% máximo",
+   "coef_ocupacion_suelo": 0.7,
+   "altura_m_texto": "Altura máxima de edificación: 9 m. máximo",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardín: 5 m. mínimo.",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado.",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamientos: 5 m."
+    },
+    {
+     "campo": "zona",
+     "texto": "Industrias inofensivas y molestas (no fumígenas ni peligrosas) con frente a vías de 20 m o más; 10% de la superficie con arborización."
+    }
+   ]
+  },
+  {
+   "zona": "LM",
+   "pagina": 5,
+   "seccion": "Art. 2°, Zona Seccional Lo Moreno Z-A (la capa: LM)",
+   "superficie_predial_minima_m2_texto": "Superficie predial 200m2.",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Porcentaje ocupación de Suelo 70% máximo",
+   "coef_ocupacion_suelo": 0.7,
+   "altura_m_texto": "Edificación Aislada: la que resulte de aplicar las normas sobre rasantes y distanciamientos establecidos en la Ordenanza General de Urbanismo y Construcciones",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: 3 m. mínimo.",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "El resto se permite Aislado y pareado.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Edificación pareada y continua: 9 m; sobre esa altura, aislada según la OGUC."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continua solo frente a las avenidas Lo Blanco, Gran Avenida José Miguel Carrera, Los Morros y Javier Moreno Correa (faja de 70% del deslinde común)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Sin antejardín frente a las avenidas Lo Moreno, Lo Blanco y Gran Avenida José Miguel Carrera, ni para vivienda social."
+    },
+    {
+     "campo": "zona",
+     "texto": "La capa rotula LM el Seccional Lo Moreno; la Ordenanza distingue Z-A (vivienda y equipamiento, la de este cuadro) y Z-B (equipamiento deportivo, sin edificación salvo construcciones complementarias)."
+    }
+   ]
+  }
+ ]
+}

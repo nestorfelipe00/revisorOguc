@@ -1,0 +1,82 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Plan Regulador Comunal de Pirque (D.A. N° 1.297, D.O. 23-12-2015), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1085677",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "ZM-1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5m 12,00 m",
+   "pagina": 0,
+   "seccion": "Art. 11, Zona ZM-1: Centro Cívico",
+   "nota": null
+  },
+  {
+   "zona": "ZM-2",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9m 9m 7m",
+   "pagina": 0,
+   "seccion": "Art. 11, Zona ZM-2: Zona Mixta Residencial Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZH-1",
+   "altura_m": 7.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 7,50m (2 pisos +mansarda) 7,50m (2 pisos +mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 11, Zona ZH-1: Zona Residencial Baja Densidad",
+   "nota": null
+  },
+  {
+   "zona": "ZH-2",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 7m 7m",
+   "pagina": 0,
+   "seccion": "Art. 11, Zona ZH-2: Zona Residencial",
+   "nota": null
+  },
+  {
+   "zona": "ZE-1",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 7m",
+   "pagina": 0,
+   "seccion": "Art. 11, Zona ZE-1: Equipamiento Metropolitano",
+   "nota": null
+  },
+  {
+   "zona": "ZE-2",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 3,5m",
+   "pagina": 0,
+   "seccion": "Art. 11, Zona ZE-2: Equipamiento Recreacional Deportivo",
+   "nota": null
+  },
+  {
+   "zona": "ZP-1",
+   "altura_m": 7.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 7,5m",
+   "pagina": 0,
+   "seccion": "Art. 11, Zona ZP-1: Actividades Productivas",
+   "nota": null
+  },
+  {
+   "zona": "ZP-E",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5m",
+   "pagina": 0,
+   "seccion": "Art. 11, Zona ZP-E: Actividades Productivas con Equipamiento",
+   "nota": null
+  }
+ ]
+}

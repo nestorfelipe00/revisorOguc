@@ -1,0 +1,474 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Chillán Viejo (Decreto N° 4.505, D.O. 20-08-2012), texto actualizado de la BCN con las modificaciones de los Decretos 4593 (D.O. 24-08-2015) y 4219 (D.O. 12-01-2018)",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1043077",
+ "sha256": "8e4a2752ff06f53278c28f22265fd5c6f9e16bc5c7415e2ebd9f44f7dc3f8c30",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZM-1",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZM-1 (Zona mixta)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27821.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 3,2",
+   "coef_constructibilidad": 3.2,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 14 m",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3 m para aislado y pareado",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado y Continuo",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín de 3 m se exige a la edificación aislada y pareada; la continua exige portal de 3,0 m desde la línea oficial (altura libre mínima de 3,0 m) frente a las vías estructurantes que enfrentan la Plaza y el Parque."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-2",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZM-2 (Zona mixta)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27822.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 4",
+   "coef_constructibilidad": 4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 20 m",
+   "altura_m": 20,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3 m frente a vías estructurantes",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado y Continuo",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín de 3 m se exige frente a vías estructurantes (Art. 4); frente a las demás vías el cuadro no lo exige."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 14 m (porcentaje máximo de continuidad indicado en el cuadro); la aislada, a 20 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-3",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZM-3 (Zona mixta)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27823.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0.5 Instalaciones de infraestructura sanitaria 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el proyecto no es una instalación de infraestructura sanitaria («COEFIC. DE OCUPACIÓN DE SUELO 0.5 Instalaciones de infraestructura sanitaria 0,1»)",
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN Libre según rasante",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m frente a vías estructurantes",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín de 5 m se exige frente a vías estructurantes (Art. 4); frente a las demás vías el cuadro no lo exige."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro no permite el adosamiento."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Las instalaciones de infraestructura sanitaria exigen un distanciamiento de 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-1",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZH-1 (Zona habitacional)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27824.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15 m",
+   "altura_m": 15,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3 m frente a vías estructurantes",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado y Continuo",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín de 3 m se exige frente a vías estructurantes (Art. 4); frente a las demás vías el cuadro no lo exige."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 m (porcentaje máximo de continuidad indicado en el cuadro); la aislada, a 15 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-2",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZH-2 (Zona habitacional)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27825.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15 m",
+   "altura_m": 15,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3 m frente a vías estructurantes",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín de 3 m se exige frente a vías estructurantes (Art. 4); frente a las demás vías el cuadro no lo exige."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-3",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZH-3 (Zona habitacional)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27826.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 150 m2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 7,5 m",
+   "altura_m": 7.5,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3 m.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado"
+  },
+  {
+   "zona": "ZH-4",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZH-4 (Zona habitacional)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27827.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 7,5 m",
+   "altura_m": 7.5,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3 m.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado"
+  },
+  {
+   "zona": "ZH-5",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZH-5 (Zona habitacional)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27828.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15 m",
+   "altura_m": 15,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3 m.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado"
+  },
+  {
+   "zona": "ZH-6",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZH-6 (Zona habitacional)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27830.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 7,5 m",
+   "altura_m": 7.5,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3 m.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado y Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 3,5 m (porcentaje máximo de continuidad indicado en el cuadro); la aislada, a 7,5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZI",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZI (Zona industrial)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27831.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0.5 Instalaciones de Infraestructura sanitaria 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el proyecto no es una instalación de infraestructura sanitaria («COEFIC. DE OCUPACIÓN DE SUELO 0.5 Instalaciones de Infraestructura sanitaria 0,1»)",
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN Libre según rasante",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 10 m.",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Las instalaciones de infraestructura sanitaria exigen un distanciamiento de 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-1",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZE-1 (Zona de equipamiento 1)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27832.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 5.000 m2",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 0,2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15 m",
+   "altura_m": 15,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-2",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZE-2 (Zona de equipamiento 2)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27833.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10 m",
+   "altura_m": 10,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3 m. frente a vías estructurantes",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín de 3 m se exige frente a vías estructurantes (Art. 4); frente a las demás vías el cuadro no lo exige."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-3",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZE-3 (Zona de equipamiento 3)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27834.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 7,5 m",
+   "altura_m": 7.5,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZIS",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZIS (Zona de infraestructura sanitaria)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27835.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 5.000 m2",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 7,5 m",
+   "altura_m": 7.5,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro no permite el adosamiento."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZRID",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZRID (Zona de riesgo de inundación por drenajes)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27836.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUB. PREDIAL MÍNIMA 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO 0,05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD 0,1",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 7 m",
+   "altura_m": 7,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 4 m.",
+   "antejardin_m": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro no permite el adosamiento."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de riesgo de inundación por drenajes: condiciones especiales según el Código de Aguas, y los proyectos en el área de riesgo de anegamiento deben cumplir el Art. 2.1.17 de la OGUC (Art. 7)."
+    }
+   ]
+  },
+  {
+   "zona": "ZNE",
+   "pagina": 0,
+   "seccion": "Art. 12, Normas urbanísticas de la zona ZNE (Zona no edificable de redes de alta tensión)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/27837.jpg"
+   ],
+   "coef_ocupacion_suelo_texto": "COEFIC. DE OCUPACIÓN DE SUELO No se permite",
+   "coef_ocupacion_suelo": 0,
+   "coef_constructibilidad_texto": "COEFIC. DE CONSTRUCTIBILIDAD No se permite",
+   "coef_constructibilidad": 0,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona no edificable de redes de alta tensión: el cuadro no permite subdivisión ni edificación."
+    }
+   ]
+  }
+ ]
+}

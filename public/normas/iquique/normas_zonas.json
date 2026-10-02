@@ -1,0 +1,1680 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Iquique (Decreto N° 184 de la Municipalidad de Iquique, D.O. 17-02-2025), texto oficial de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1211154",
+ "sha256": "57c078d3e3e0281344827cddc854c3359211e3064c56f9da6c67688407f3647b",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "A-1",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (a) A-1, Zona Mixta Alta 1",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192137.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192138.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192139.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3,5",
+   "coef_constructibilidad": 3.5,
+   "coef_constructibilidad_max": 4.5,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 38 m y un coeficiente de constructibilidad de 4 («Coeficiente de constructibilidad 4,5»)",
+   "altura_m_texto": "Altura máxima de edificación 35 m",
+   "altura_m": 35,
+   "altura_incentivo_m": 42,
+   "incentivo_texto": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 38 m y un coeficiente de constructibilidad de 4: «Altura máxima de edificación 42 m»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín (m) 5 m",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasantes 70°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado / Pareado / Continuo",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Nota (2) del cuadro: las edificaciones colectivas en altura de tres o más pisos y los equipamientos de escala menor, mediana o mayor deben emplazarse en predios de 600 m² o más."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m de altura, con una profundidad máxima de 70 % del deslinde; la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "A-2",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (b) A-2, Zona Mixta Alta 2",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192140.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192141.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192142.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,5",
+   "coef_constructibilidad": 2.5,
+   "coef_constructibilidad_max": 3.3,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 33 m y un coeficiente de constructibilidad de 2,9 («Coeficiente de constructibilidad 3,3»)",
+   "altura_m_texto": "Altura máxima de edificación 35 m",
+   "altura_m": 35,
+   "altura_incentivo_m": 42,
+   "incentivo_texto": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 33 m y un coeficiente de constructibilidad de 2,9: «Altura máxima de edificación 42 m»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín (m) 5 m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado / Pareado / Continuo",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Nota (2) del cuadro: las edificaciones colectivas en altura de tres o más pisos y los equipamientos de escala menor, mediana o mayor deben emplazarse en predios de 600 m² o más."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m de altura, con una profundidad máxima de 70 % del deslinde; la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "AM",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (c) AM, Zona Mixta Media Alta",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192144.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192145.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192146.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,2",
+   "coef_constructibilidad": 2.2,
+   "coef_constructibilidad_max": 2.7,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 21 m y un coeficiente de constructibilidad de 2,45 («Coeficiente de constructibilidad 2,7»)",
+   "altura_m_texto": "Altura máxima de edificación 21 m",
+   "altura_m": 21,
+   "altura_incentivo_m": 28,
+   "incentivo_texto": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 21 m y un coeficiente de constructibilidad de 2,45: «Altura máxima de edificación 28 m»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín (m) 5 m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado / Pareado / Continuo",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Nota (2) del cuadro: las edificaciones colectivas en altura de tres o más pisos y los equipamientos de escala menor, mediana o mayor deben emplazarse en predios de 500 m² o más."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m de altura, con una profundidad máxima de 70 % del deslinde; la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "BM-1",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (d) BM-1, Zona Mixta Media Baja 1",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192147.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192148.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192149.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2",
+   "coef_constructibilidad": 2,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 21 m y un coeficiente de constructibilidad de 2,45 («Coeficiente de constructibilidad 2,5»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m",
+   "altura_m": 14,
+   "altura_incentivo_m": 21,
+   "incentivo_texto": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 21 m y un coeficiente de constructibilidad de 2,45: «Altura máxima de edificación 21 m»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín (m) 3",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado / Pareado / Continuo",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Nota (2) del cuadro: las edificaciones colectivas en altura de tres o más pisos y los equipamientos de escala menor, mediana o mayor deben emplazarse en predios de 350 m² o más."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 m de altura, con una profundidad máxima de 60 % del deslinde; la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "BM-2",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (e) BM-2, Zona Mixta Media Baja 2",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192151.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192152.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192153.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "coef_constructibilidad_max": 2.3,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 25 m y un coeficiente de constructibilidad de 2,05 («Coeficiente de constructibilidad 2,3»)",
+   "altura_m_texto": "Altura máxima de edificación 21 m",
+   "altura_m": 21,
+   "altura_incentivo_m": 28,
+   "incentivo_texto": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 25 m y un coeficiente de constructibilidad de 2,05: «Altura máxima de edificación 28 m»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín (m) 3 m",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Nota (2) del cuadro: las edificaciones colectivas en altura de tres o más pisos y los equipamientos de escala menor, mediana o mayor deben emplazarse en predios de 350 m² o más."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro exige un retranqueo de 2 m; la aplicación no lo verifica."
+    }
+   ]
+  },
+  {
+   "zona": "BM-3",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (f) BM-3, Zona Mixta Media Baja 3",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192155.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192156.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192157.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1.200 m2",
+   "superficie_predial_minima_m2": 1200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 14 m (4 pisos) y un coeficiente de constructibilidad de 1,35 («Coeficiente de constructibilidad 1,5»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m",
+   "altura_m": 14,
+   "altura_incentivo_m": 17.5,
+   "incentivo_texto": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 14 m (4 pisos) y un coeficiente de constructibilidad de 1,35: «Altura máxima de edificación 17,5 m»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín (m) 5 m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Nota (2) del cuadro: las edificaciones colectivas en altura de tres o más pisos y los equipamientos de escala menor, mediana o mayor deben emplazarse en predios de 350 m² o más."
+    }
+   ]
+  },
+  {
+   "zona": "B-1",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (g) B-1, Zona Mixta Baja 1",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192159.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192160.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 320 m2",
+   "superficie_predial_minima_m2": 320,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 3 m",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado / Pareado / Continuo"
+  },
+  {
+   "zona": "B-2",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (h) B-2, Zona Mixta Baja 2",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192162.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 160 m2",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 2 m",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado / Pareado / Continuo"
+  },
+  {
+   "zona": "B-2.2",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (i) B-2.2, Zona Mixta Baja 2.2",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192163.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 160 m2",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,95",
+   "coef_ocupacion_suelo": 0.95,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 0 m",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado / Pareado / Continuo"
+  },
+  {
+   "zona": "EQ1",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (a) EQ1, Zona Equipamiento Preferente 1",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192164.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de edificación 7 m",
+   "altura_m": 7,
+   "antejardin_m_texto": "Antejardín (m) 10 m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro fija además un coeficiente de ocupación de pisos superiores de 0,5: la aplicación verifica solo el coeficiente de ocupación de suelo."
+    }
+   ]
+  },
+  {
+   "zona": "EQ2.1",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (b) EQ2, subzona EQ2.1, Equipamiento Preferente 2.1",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192166.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima de edificación 28 m",
+   "altura_m": 28,
+   "antejardin_m_texto": "Antejardín (m) 3 m",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado / Continuo / Aislado sobre la edificación continua",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 m de altura, con una profundidad máxima de 60 % del deslinde; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro exige un retranqueo de 1 m; la aplicación no lo verifica."
+    }
+   ]
+  },
+  {
+   "zona": "EQ2.2",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (b) EQ2, subzona EQ2.2, Equipamiento Preferente 2.2",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192168.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima de edificación 14 m",
+   "altura_m": 14,
+   "antejardin_m_texto": "Antejardín (m) 3 m",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado / Continuo / Aislado sobre la edificación continua",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 m de altura, con una profundidad máxima de 60 % del deslinde; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro exige un retranqueo de 1 m; la aplicación no lo verifica."
+    }
+   ]
+  },
+  {
+   "zona": "EQ3",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (c) EQ3, Zona Equipamiento Preferente 3",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192170.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192171.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192172.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): cualquiera de los incentivos 1 a 6 que el cuadro asigna a la zona, o los incentivos agregados 2+6, 3+4 o 3+5 (el Incentivo 1 y los agregados permiten 17,5 m; los incentivos 2 a 6 por separado, 14 m y 1,35) («Coeficiente de constructibilidad 1,5»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m",
+   "altura_m": 14,
+   "altura_incentivo_m": 17.5,
+   "incentivo_texto": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): cualquiera de los incentivos 1 a 6 que el cuadro asigna a la zona, o los incentivos agregados 2+6, 3+4 o 3+5 (el Incentivo 1 y los agregados permiten 17,5 m; los incentivos 2 a 6 por separado, 14 m y 1,35): «Altura máxima de edificación 17,5 m»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín (m) 10 m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZEES",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (d) ZEES, Zona Especial Equipamiento de Seguridad",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192174.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1.500 m2",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 5 m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro fija además un coeficiente de ocupación de pisos superiores de 0,4: la aplicación verifica solo el coeficiente de ocupación de suelo."
+    }
+   ]
+  },
+  {
+   "zona": "EQ+AM",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (e) EQ+AM, Zona Mixta Equipamiento Media Alta",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192176.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192177.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192178.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1.500 m2",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 25 m y un coeficiente de constructibilidad de 2,15 («Coeficiente de constructibilidad 2,5»)",
+   "altura_m_texto": "Altura máxima de edificación 21 m",
+   "altura_m": 21,
+   "altura_incentivo_m": 28,
+   "incentivo_texto": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4 o 3+5; los incentivos 2 a 6 por separado permiten 25 m y un coeficiente de constructibilidad de 2,15: «Altura máxima de edificación 28 m»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín (m) 10 m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro fija además un coeficiente de ocupación de pisos superiores de 0,2: la aplicación verifica solo el coeficiente de ocupación de suelo."
+    }
+   ]
+  },
+  {
+   "zona": "EQ+BM",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (f) EQ+BM, Zona Mixta Equipamiento Media Baja",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192181.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192182.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192183.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 400 m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3",
+   "coef_constructibilidad": 3,
+   "coef_constructibilidad_max": 4,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4, 3+5 o 6+7 (cesión de libre tránsito más equipamiento en primer piso); los incentivos 2 a 6 por separado permiten 25 m y un coeficiente de constructibilidad de 3,25 («Coeficiente de constructibilidad 4»)",
+   "altura_m_texto": "Altura máxima de edificación 24 m",
+   "altura_m": 24,
+   "altura_incentivo_m": 28,
+   "incentivo_texto": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): Incentivo 1 (vivienda de interés público, al menos 20 % de las viviendas) o los incentivos agregados 2+6, 3+4, 3+5 o 6+7 (cesión de libre tránsito más equipamiento en primer piso); los incentivos 2 a 6 por separado permiten 25 m y un coeficiente de constructibilidad de 3,25: «Altura máxima de edificación 28 m»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín (m) 5 m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado / Continuo / Aislado sobre la edificación continua",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 m de altura, con una profundidad máxima de 60 % del deslinde; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro exige un retranqueo de 1 m; la aplicación no lo verifica."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro fija además un coeficiente de ocupación de pisos superiores de 0,6: la aplicación verifica solo el coeficiente de ocupación de suelo."
+    }
+   ]
+  },
+  {
+   "zona": "EQ+B1",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (g) EQ+B, subzona EQ+B1, Mixta Equipamiento Baja 1",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192185.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192186.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 3 m",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado"
+  },
+  {
+   "zona": "EQ+B2",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (g) EQ+B, subzona EQ+B2, Mixta Equipamiento Baja 2",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192187.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192188.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192189.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,5",
+   "coef_constructibilidad": 2.5,
+   "coef_constructibilidad_max": 3.5,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): los incentivos agregados 2+6, 3+4 o 3+5 (los incentivos 2 a 6 por separado permiten 17,5 m y un coeficiente de constructibilidad de 3; la subzona no tiene Incentivo 1) («Coeficiente de constructibilidad 3,5»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m",
+   "altura_m": 14,
+   "altura_incentivo_m": 21,
+   "incentivo_texto": "el proyecto se acoge a los incentivos normativos del Art. 1.2.4 (Ley General de Urbanismo y Construcciones, Art. 184): los incentivos agregados 2+6, 3+4 o 3+5 (los incentivos 2 a 6 por separado permiten 17,5 m y un coeficiente de constructibilidad de 3; la subzona no tiene Incentivo 1): «Altura máxima de edificación 21 m»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín (m) 5 m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado"
+  },
+  {
+   "zona": "EQ+R1",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (h) EQ+R1, Zona Equipamiento en Riesgo 1",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192190.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,1",
+   "coef_constructibilidad": 2.1,
+   "altura_m_texto": "Altura máxima de edificación 17,5 m",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "Antejardín (m) 10 m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro fija además un coeficiente de ocupación de pisos superiores de 0,7: la aplicación verifica solo el coeficiente de ocupación de suelo."
+    }
+   ]
+  },
+  {
+   "zona": "EQ+R2",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (i) EQ+R2, Zona Equipamiento en Riesgo 2",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192192.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "Altura máxima de edificación 21 m",
+   "altura_m": 21,
+   "antejardin_m_texto": "Antejardín (m) 5 m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro fija además un coeficiente de ocupación de pisos superiores de 0,7: la aplicación verifica solo el coeficiente de ocupación de suelo."
+    }
+   ]
+  },
+  {
+   "zona": "EQ+C",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (j) EQ+C, Zona Equipamiento El Colorado",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192194.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "Altura máxima de edificación 21 m",
+   "altura_m": 21,
+   "antejardin_m_texto": "Antejardín (m) 3 m",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro fija además un coeficiente de ocupación de pisos superiores de 0,6: la aplicación verifica solo el coeficiente de ocupación de suelo."
+    }
+   ]
+  },
+  {
+   "zona": "EQ+Bc",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (k) EQ+Bc, Zona Equipamiento en Borde Costero",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192195.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192196.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1.500 m2",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "Altura máxima de edificación 21 m",
+   "altura_m": 21,
+   "antejardin_m_texto": "Antejardín (m) 3 m",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro fija además un coeficiente de ocupación de pisos superiores de 0,4: la aplicación verifica solo el coeficiente de ocupación de suelo."
+    }
+   ]
+  },
+  {
+   "zona": "EQ+Zf1",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (l) EQ+Zf, Zona Equipamiento Zona Franca (cuadro común de las subzonas EQ+Zf1 y EQ+Zf2)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192197.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 1",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) No aplica",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m con una profundidad del 100 % del deslinde."
+    }
+   ]
+  },
+  {
+   "zona": "EQ+Zf2",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (l) EQ+Zf, Zona Equipamiento Zona Franca (cuadro común de las subzonas EQ+Zf1 y EQ+Zf2)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192197.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 1",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) No aplica",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m con una profundidad del 100 % del deslinde."
+    }
+   ]
+  },
+  {
+   "zona": "ZP-I",
+   "pagina": 0,
+   "seccion": "Art. 2.1.3 Zonas de Actividades Productivas, (a) ZP-I, Zona Productiva Industrial",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192201.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 1",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 10 m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Art. 1.2.13: se prohíben los adosamientos para la industria (inofensiva, molesta, insalubre, contaminante o peligrosa)."
+    }
+   ]
+  },
+  {
+   "zona": "ZEI",
+   "pagina": 0,
+   "seccion": "Art. 2.1.4 Zonas Especiales de Infraestructura, (a) ZEI, Zona Especial de Infraestructura",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192202.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192203.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de edificación Según aplicación de rasantes",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín (m) 15 m",
+   "antejardin_m": 15,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 20 m y no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEI-E",
+   "pagina": 0,
+   "seccion": "Art. 2.1.4 Zonas Especiales de Infraestructura, (b) ZEI-E, Zona Especial de Infraestructura Energética",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192204.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de edificación Según aplicación de rasantes",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín (m) 15 m",
+   "antejardin_m": 15,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 20 m y no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEI-P1",
+   "pagina": 0,
+   "seccion": "Art. 2.1.4 Zonas Especiales de Infraestructura, Subzona ZEI-P1, Puerto de Iquique",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192206.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de edificación Según aplicación de rasantes",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín (m) 15 m",
+   "antejardin_m": 15,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 20 m y no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEI-P2",
+   "pagina": 0,
+   "seccion": "Art. 2.1.4 Zonas Especiales de Infraestructura, Subzona ZEI-P2, Caletas Pesqueras",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192208.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de edificación Según aplicación de rasantes",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín (m) 5 m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 20 m y no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEI-F",
+   "pagina": 0,
+   "seccion": "Art. 2.1.4 Zonas Especiales de Infraestructura, (d) ZEI-F, Zona Especial de Infraestructura Ferroviaria",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192210.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de edificación Según aplicación de rasantes",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín (m) 15 m",
+   "antejardin_m": 15,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 20 m y no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-PM1",
+   "pagina": 0,
+   "seccion": "Art. 2.1.5 Zonas de Impacto Intercomunal, (a) ZI-PM, subzona ZI-PM1",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192211.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192212.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m / 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 10 m",
+   "antejardin_m": 10,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 15 m y no permite el adosamiento."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de impacto intercomunal: rigen además las normas del Art. 3.4.2 del Plan Regulador Intercomunal Costero Región de Tarapacá que la Ordenanza transcribe para la zona ZI-PM (superficie predial mínima de 5.000 m², salvo en el sector Puerto Patillos, donde es de 2.500 m²; infraestructura sanitaria: ocupación 0,4 y constructibilidad 0,6); la base de cada norma es la más estricta de ambos cuadros."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-PM2",
+   "pagina": 0,
+   "seccion": "Art. 2.1.5 Zonas de Impacto Intercomunal, (a) ZI-PM, subzona ZI-PM2",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192211.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192214.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 5.000 m2",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m / 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 10 m",
+   "antejardin_m": 10,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 10 m y no permite el adosamiento."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de impacto intercomunal: rigen además las normas del Art. 3.4.2 del Plan Regulador Intercomunal Costero Región de Tarapacá que la Ordenanza transcribe para la zona ZI-PM (infraestructura sanitaria: ocupación 0,4, constructibilidad 0,6 y distanciamiento de 15 m); la base de cada norma es la más estricta de ambos cuadros."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-PC1",
+   "pagina": 0,
+   "seccion": "Art. 2.1.5 Zonas de Impacto Intercomunal, (b) ZI-PC, subzona ZI-PC1",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192215.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192216.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192217.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 10.000 m2",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,3",
+   "coef_constructibilidad": 0.3,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 15 m",
+   "antejardin_m": 15,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 15 m y no permite el adosamiento."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de impacto intercomunal: rigen además las normas del Art. 3.4.3 del Plan Regulador Intercomunal Costero Región de Tarapacá que la Ordenanza transcribe para la zona ZI-PC; la base de cada norma es la más estricta de ambos cuadros."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro de la subzona fija una ocupación de 0,6 y una constructibilidad de 0,3, y el cuadro intercomunal transcrito, 0,3 y 0,6 para actividades productivas (0,2 y 0,2 para infraestructura sanitaria y energética): se toma 0,3 y 0,3. Confirme con la Dirección de Obras."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-PC2",
+   "pagina": 0,
+   "seccion": "Art. 2.1.5 Zonas de Impacto Intercomunal, (b) ZI-PC, subzona ZI-PC2",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192215.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192216.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192218.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 10.000 m2",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 20 m",
+   "antejardin_m": 20,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 20 m y no permite el adosamiento."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de impacto intercomunal: rigen además las normas del Art. 3.4.3 del Plan Regulador Intercomunal Costero Región de Tarapacá que la Ordenanza transcribe para la zona ZI-PC; la base de cada norma es la más estricta de ambos cuadros."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-TA1",
+   "pagina": 0,
+   "seccion": "Art. 2.1.5 Zonas de Impacto Intercomunal, (c) ZI-TA, Zona Infraestructura de Transporte Aeroportuario (cuadro común de sus subzonas)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192220.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192221.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 10.000 m2",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de edificación Según aplicación de rasantes",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín (m) 15 m",
+   "antejardin_m": 15,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 20 m y no permite el adosamiento."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de impacto intercomunal: rigen además las normas del Art. 3.5.4 del Plan Regulador Intercomunal Costero Región de Tarapacá que la Ordenanza transcribe para la zona ZI-TA; la base de cada norma es la más estricta de ambos cuadros."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-TA2",
+   "pagina": 0,
+   "seccion": "Art. 2.1.5 Zonas de Impacto Intercomunal, (c) ZI-TA, Zona Infraestructura de Transporte Aeroportuario (cuadro común de sus subzonas)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192220.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192221.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 10.000 m2",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de edificación Según aplicación de rasantes",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín (m) 15 m",
+   "antejardin_m": 15,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 20 m y no permite el adosamiento."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de impacto intercomunal: rigen además las normas del Art. 3.5.4 del Plan Regulador Intercomunal Costero Región de Tarapacá que la Ordenanza transcribe para la zona ZI-TA; la base de cada norma es la más estricta de ambos cuadros."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-TP1",
+   "pagina": 0,
+   "seccion": "Art. 2.1.5 Zonas de Impacto Intercomunal, (d) ZI-TP, Zona Infraestructura de Transporte Portuario (cuadro común de sus subzonas)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192226.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192227.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 10.000 m2",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de edificación Según aplicación de rasantes",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín (m) 15 m",
+   "antejardin_m": 15,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 20 m y no permite el adosamiento."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de impacto intercomunal: rigen además las normas del Art. 3.5.5 del Plan Regulador Intercomunal Costero Región de Tarapacá que la Ordenanza transcribe para la zona ZI-TP; la base de cada norma es la más estricta de ambos cuadros."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-TP2",
+   "pagina": 0,
+   "seccion": "Art. 2.1.5 Zonas de Impacto Intercomunal, (d) ZI-TP, Zona Infraestructura de Transporte Portuario (cuadro común de sus subzonas)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192226.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192227.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 10.000 m2",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de edificación Según aplicación de rasantes",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín (m) 15 m",
+   "antejardin_m": 15,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 20 m y no permite el adosamiento."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de impacto intercomunal: rigen además las normas del Art. 3.5.5 del Plan Regulador Intercomunal Costero Región de Tarapacá que la Ordenanza transcribe para la zona ZI-TP; la base de cada norma es la más estricta de ambos cuadros."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-E",
+   "pagina": 0,
+   "seccion": "Art. 2.1.5 Zonas de Impacto Intercomunal, (e) ZI-E, Zona Infraestructura Energética",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192230.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192231.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 10.000 m2",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de edificación Según aplicación de rasantes",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín (m) 15 m",
+   "antejardin_m": 15,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 20 m y no permite el adosamiento."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de impacto intercomunal: rigen además las normas del Art. 3.5.3 del Plan Regulador Intercomunal Costero Región de Tarapacá que la Ordenanza transcribe para la zona ZI-E; la base de cada norma es la más estricta de ambos cuadros."
+    }
+   ]
+  },
+  {
+   "zona": "ZRE",
+   "pagina": 0,
+   "seccion": "Art. 2.1.9 Zonas de Restricción y Desarrollo Controlado, (a) ZRE, Zona Restricción a la Edificación",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192232.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 10.000 m2",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,001",
+   "coef_ocupacion_suelo": 0.001,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,001",
+   "coef_constructibilidad": 0.001,
+   "altura_m_texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "altura_m": 3.5,
+   "pisos": 1,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Terrenos de alta pendiente del farellón costero: la edificación queda restringida y solo se admiten áreas verdes y espacio público. El coeficiente de ocupación y de constructibilidad de 0,001 deja la zona prácticamente sin edificación."
+    }
+   ]
+  },
+  {
+   "zona": "ZBC",
+   "pagina": 0,
+   "seccion": "Art. 2.1.9 Zonas de Restricción y Desarrollo Controlado, (c) ZBC, Zona de Borde Costero",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192233.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,001",
+   "coef_ocupacion_suelo": 0.001,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,001",
+   "coef_constructibilidad": 0.001,
+   "altura_m_texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "altura_m": 3.5,
+   "pisos": 1,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Solo se admiten equipamiento deportivo (multicanchas y recintos para el deporte), áreas verdes y espacio público. El coeficiente de ocupación y de constructibilidad de 0,001 deja la zona prácticamente sin edificación."
+    }
+   ]
+  },
+  {
+   "zona": "D",
+   "pagina": 0,
+   "seccion": "Art. 2.1.9 Zonas de Restricción y Desarrollo Controlado, (d) D, Zona Desarrollo Controlado Reducido",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192234.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,001",
+   "coef_ocupacion_suelo": 0.001,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,001",
+   "coef_constructibilidad": 0.001,
+   "altura_m_texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "altura_m": 3.5,
+   "pisos": 1,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Suelo de reserva para el crecimiento del sector Extensión Sur: solo se admiten áreas verdes y espacio público. El coeficiente de ocupación y de constructibilidad de 0,001 deja la zona prácticamente sin edificación."
+    }
+   ]
+  },
+  {
+   "zona": "ZRI",
+   "pagina": 0,
+   "seccion": "Art. 2.1.9 Zonas de Restricción y Desarrollo Controlado, (e) ZRI, Zona Resguardo de Infraestructura",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192235.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,01",
+   "coef_ocupacion_suelo": 0.01,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,01",
+   "coef_constructibilidad": 0.01,
+   "altura_m_texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "altura_m": 3.5,
+   "pisos": 1,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Franja de servidumbre de ductos y tendidos (20 m a cada costado del eje): solo se admiten infraestructura energética, áreas verdes y espacio público. El coeficiente de ocupación y de constructibilidad de 0,01 deja la zona prácticamente sin edificación."
+    }
+   ]
+  },
+  {
+   "zona": "ZDP",
+   "pagina": 0,
+   "seccion": "Art. 2.1.9 Zonas de Restricción y Desarrollo Controlado, (b) ZDP, Zona de Playa",
+   "hereda_de": "ZBC",
+   "hereda_texto": "En caso de acoger concesiones, las normas de uso de suelo y edificación y subdivisión se asimilan a la zona ZBC, Zona de Borde Costero.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de Playa: bien nacional de uso público regido por el DFL N° 340 de 1960; solo en caso de concesiones rigen las normas de la zona ZBC."
+    },
+    {
+     "campo": "zona",
+     "texto": "Solo se admiten equipamiento deportivo (multicanchas y recintos para el deporte), áreas verdes y espacio público. El coeficiente de ocupación y de constructibilidad de 0,001 deja la zona prácticamente sin edificación."
+    }
+   ],
+   "superficie_predial_minima_m2": 2500,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "pisos"
+   ],
+   "coef_ocupacion_suelo": 0.001,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,001",
+   "coef_constructibilidad": 0.001,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,001",
+   "altura_m": 3.5,
+   "altura_m_texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "pisos": 1
+  },
+  {
+   "zona": "ZT",
+   "pagina": 0,
+   "seccion": "Art. 2.3.1 (b) ZT, Zona Típica Calle Baquedano y Plaza Prat (Cuadro 6)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192240.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m / 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) No exigible.",
+   "antejardin_m": 0,
+   "pisos": 3,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona Típica «Calle Baquedano y Plaza Prat», protegida por la Ley N° 17.288 de Monumentos Nacionales: las obras requieren además la autorización del Consejo de Monumentos Nacionales."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH-S",
+   "pagina": 0,
+   "seccion": "Art. 2.3.2 Inmuebles y Zonas de Conservación Histórica, (b) ZCH-S, Zona de Conservación Histórica Ciudad Salitrera",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192247.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,9",
+   "coef_ocupacion_suelo": 0.9,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "Altura máxima de edificación 17,5 m",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro fija además un coeficiente de ocupación de pisos superiores de 0,6: la aplicación verifica solo el coeficiente de ocupación de suelo."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro exige un retranqueo de 2 m a partir de los 10,5 m de altura; la aplicación no lo verifica."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH-P",
+   "pagina": 0,
+   "seccion": "Art. 2.3.2 Inmuebles y Zonas de Conservación Histórica, (c) ZCH-P, Zona de Conservación Histórica Corredores Patrimoniales",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192248.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192249.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "Altura máxima de edificación 17,5 m",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro fija además un coeficiente de ocupación de pisos superiores de 0,6: la aplicación verifica solo el coeficiente de ocupación de suelo."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro exige un retranqueo de 2 m a partir de los 10,5 m de altura; la aplicación no lo verifica."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH-M",
+   "pagina": 0,
+   "seccion": "Art. 2.3.2 Inmuebles y Zonas de Conservación Histórica, (d) ZCH-M, Zona de Conservación Histórica Ciudad Salitrera El Morro",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192250.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192251.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro fija además un coeficiente de ocupación de pisos superiores de 0,6: la aplicación verifica solo el coeficiente de ocupación de suelo."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH-E",
+   "pagina": 0,
+   "seccion": "Art. 2.3.2 Inmuebles y Zonas de Conservación Histórica, (e) ZCH-E, Zona de Conservación Histórica Especial",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192252.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192253.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "Altura máxima de edificación 17,5 m",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro fija además un coeficiente de ocupación de pisos superiores de 0,6: la aplicación verifica solo el coeficiente de ocupación de suelo."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro exige un retranqueo de 2 m a partir de los 10,5 m de altura; la aplicación no lo verifica."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH-T",
+   "pagina": 0,
+   "seccion": "Art. 2.3.2 Inmuebles y Zonas de Conservación Histórica, (f) ZCH-T, Zona de Conservación Histórica Contorno Zona Típica",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192254.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m / 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "pisos": 3,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro fija además un coeficiente de ocupación de pisos superiores de 0,6: la aplicación verifica solo el coeficiente de ocupación de suelo."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro exige un retranqueo de 2 m; la aplicación no lo verifica."
+    }
+   ]
+  },
+  {
+   "zona": "ZVN-1",
+   "pagina": 0,
+   "seccion": "Art. 2.3.3 Áreas de Protección de Recursos de Valor Natural, (a) ZVN-1, Zona de Valor Natural 1",
+   "altura_m_texto": "Altura máxima de edificación: 3,5 metros",
+   "altura_m": 3.5,
+   "antejardin_m_texto": "Antejardín: 10 m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área de protección de recursos de valor natural destinada a área verde (Art. 2.1.31 de la OGUC)."
+    }
+   ]
+  },
+  {
+   "zona": "ZVN-2",
+   "pagina": 0,
+   "seccion": "Art. 2.3.3 Áreas de Protección de Recursos de Valor Natural, (b) ZVN-2, Zona de Valor Natural 2",
+   "altura_m_texto": "Altura máxima de edificación: 3,5 metros",
+   "altura_m": 3.5,
+   "antejardin_m_texto": "Antejardín: 10 m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área de protección de recursos de valor natural destinada a área verde (Art. 2.1.31 de la OGUC)."
+    }
+   ]
+  },
+  {
+   "zona": "ZPC",
+   "pagina": 0,
+   "seccion": "Art. 2.3.4 Zonas de Protección Costera, (a) ZPC, Zona Protección Costera",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192255.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 10.000 m2",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,001",
+   "coef_ocupacion_suelo": 0.001,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,001",
+   "coef_constructibilidad": 0.001,
+   "altura_m_texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "altura_m": 3.5,
+   "pisos": 1,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Solo se admiten equipamiento deportivo (centros y clubes deportivos, multicanchas), áreas verdes y espacio público. El coeficiente de ocupación y de constructibilidad de 0,001 deja la zona prácticamente sin edificación."
+    }
+   ]
+  },
+  {
+   "zona": "ZPC-1",
+   "pagina": 0,
+   "seccion": "Art. 2.3.4 Zonas de Protección Costera, (b) ZPC-1, Zona Protección Costera 1 (Remediación Ambiental)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192256.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192257.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,001",
+   "coef_ocupacion_suelo": 0.001,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,001",
+   "coef_constructibilidad": 0.001,
+   "altura_m_texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "altura_m": 3.5,
+   "pisos": 1,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de remediación ambiental (vertederos irregulares de Plataforma Norte): solo se admiten áreas verdes y espacio público. El coeficiente de ocupación y de constructibilidad de 0,001 deja la zona prácticamente sin edificación."
+    }
+   ]
+  },
+  {
+   "zona": "ZPC-2",
+   "pagina": 0,
+   "seccion": "Art. 2.3.4 Zonas de Protección Costera, (c) ZPC-2, Zona Protección Costera 2 (Playa Blanca)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/192258.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,3",
+   "coef_constructibilidad": 0.3,
+   "altura_m_texto": "Altura máxima de edificación 7 m / 2 pisos",
+   "altura_m": 7,
+   "antejardin_m_texto": "Antejardín (m) 8 m",
+   "antejardin_m": 8,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija un distanciamiento de 8 m y no permite el adosamiento."
+    }
+   ]
+  }
+ ]
+}

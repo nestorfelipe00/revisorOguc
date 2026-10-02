@@ -1,0 +1,406 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Antofagasta (Res. N° 24 del Gobierno Regional de Antofagasta de 03-04-2002, D.O. 17-07-2002), texto actualizado de la BCN al 09-02-2016 (incluye la Enmienda N° 1/2015, Decreto N° 145/2016)",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=200632",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "CC",
+   "altura_m": 19.2,
+   "pisos": null,
+   "texto": "en fila CC, en la columna correspondiente a altura de edificación máxima m la expresión \"16 b)\" por la siguiente nueva expresión \"19,2 b)\"",
+   "pagina": 41,
+   "seccion": "Art. 54, cuadro de Zonas Consolidadas, fila CC (Zona Centro Cívico); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "C-1a",
+   "altura_m": 19.2,
+   "pisos": null,
+   "texto": "en fila C1a, en la columna correspondiente a altura de edificación máxima m la expresión \"16\" por la siguiente nueva expresión \"19,2 ras\"",
+   "pagina": 41,
+   "seccion": "Art. 54, cuadro de Zonas Consolidadas, fila C1a (Centro Institucional y Comercial); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "C-1d",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "en fila C1d, en la columna correspondiente a altura de edificación máxima m la expresión \"10\" por la siguiente nueva expresión \"12\"",
+   "pagina": 41,
+   "seccion": "Art. 54, cuadro de Zonas Consolidadas, fila C1d (Sub Centro Turístico Comunal); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "C-2",
+   "altura_m": 12.6,
+   "pisos": null,
+   "texto": "en nota e. la expresión \"10,5 metros en 4 pisos\" por la siguiente nueva expresión \"12,6 metros en 5 pisos\"",
+   "pagina": 41,
+   "seccion": "Art. 54, cuadro de Zonas Consolidadas, fila C2 (Barrios Costeros de Alta Densidad); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "C-3",
+   "altura_m": 18,
+   "pisos": null,
+   "texto": "en fila C3, en la columna correspondiente a altura de edificación máxima m la expresión \"15\" por la siguiente nueva expresión \"18\"",
+   "pagina": 41,
+   "seccion": "Art. 54, cuadro de Zonas Consolidadas, fila C3 (Barrios Costeros de Densidad Media); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "C-4",
+   "altura_m": 18,
+   "pisos": null,
+   "texto": "en fila C4, en la columna correspondiente a altura de edificación máxima m la expresión \"15\" por la siguiente nueva expresión \"18\"",
+   "pagina": 41,
+   "seccion": "Art. 54, cuadro de Zonas Consolidadas, fila C4 (Habitacional); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "C-5",
+   "altura_m": 18,
+   "pisos": null,
+   "texto": "en fila C5, en la columna correspondiente a altura de edificación máxima m la expresión \"15\" por la siguiente nueva expresión \"18\"",
+   "pagina": 41,
+   "seccion": "Art. 54, cuadro de Zonas Consolidadas, fila C5 (Habitacional); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "C-6",
+   "altura_m": 10.2,
+   "pisos": null,
+   "texto": "en fila C6, en la columna correspondiente a altura de edificación máxima m la expresión \"8,5\" por la siguiente nueva expresión \"10,2\"",
+   "pagina": 41,
+   "seccion": "Art. 54, cuadro de Zonas Consolidadas, fila C6 (Habitacional); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "C-8",
+   "altura_m": 18,
+   "pisos": null,
+   "texto": "en fila C8, en la columna correspondiente a altura de edificación máxima m la expresión \"15\" por la siguiente nueva expresión \"18\"",
+   "pagina": 41,
+   "seccion": "Art. 54, cuadro de Zonas Consolidadas, fila C8 (Habitacional); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "C-9",
+   "altura_m": 10.2,
+   "pisos": null,
+   "texto": "en fila C9, en la columna correspondiente a altura de edificación máxima m la expresión \"8,5\" por la siguiente nueva expresión \"10,2\"",
+   "pagina": 41,
+   "seccion": "Art. 54, cuadro de Zonas Consolidadas, fila C9 (Habitacional); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "U-3",
+   "altura_m": 18,
+   "pisos": null,
+   "texto": "en fila C8, en la columna correspondiente a altura de edificación máxima m la expresión \"15\" por la siguiente nueva expresión \"18\"",
+   "pagina": 0,
+   "seccion": "Art. 51, Zona U3 (Habitacional Densidad Predial Media): se asimila a C8",
+   "nota": null
+  },
+  {
+   "zona": "C-4a",
+   "altura_m": 18,
+   "pisos": null,
+   "texto": "en fila C4, en la columna correspondiente a altura de edificación máxima m la expresión \"15\" por la siguiente nueva expresión \"18\"",
+   "pagina": 0,
+   "seccion": "Art. 55, ZUDC 02 y 03, Zona C4a (Patio Ferroviario Norte de FCAB): se asimila a C4",
+   "nota": null
+  },
+  {
+   "zona": "E-3b",
+   "altura_m": 8.5,
+   "pisos": null,
+   "texto": "E3b 10.000 - 10% 0,3 A - 8,5 - 3 5",
+   "pagina": 42,
+   "seccion": "Art. 54, cuadro de Zonas Especiales, fila E3b (Áreas verdes); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "E-4a",
+   "altura_m": 5,
+   "pisos": null,
+   "texto": "E4a y E4d 5000 i) 50 5% 0,05 A - 5 - 1 5",
+   "pagina": 42,
+   "seccion": "Art. 54, cuadro de Zonas Especiales, fila E4a y E4d (Resguardo de Playas)",
+   "nota": null
+  },
+  {
+   "zona": "E-4d",
+   "altura_m": 5,
+   "pisos": null,
+   "texto": "E4a y E4d 5000 i) 50 5% 0,05 A - 5 - 1 5",
+   "pagina": 42,
+   "seccion": "Art. 54, cuadro de Zonas Especiales, fila E4a y E4d (Turística de Camping)",
+   "nota": null
+  },
+  {
+   "zona": "E-4b",
+   "altura_m": 25.8,
+   "pisos": null,
+   "texto": "en fila E4b, en la columna correspondiente a altura de edificación máxima la expresión \"21,5\" por la siguiente nueva expresión \"25,8\"",
+   "pagina": 42,
+   "seccion": "Art. 54, cuadro de Zonas Especiales, fila E4b (Turística Hotelera); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "E-4c",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "E4c 2500 i) 50 10% 0,1 A - 7 - 2 5",
+   "pagina": 42,
+   "seccion": "Art. 54, cuadro de Zonas Especiales, fila E4c (Turística Recreativa)",
+   "nota": null
+  },
+  {
+   "zona": "E-14",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "a) Altura Máxima 5 pisos aislados, 16 metros, (3 metros por piso, más 1 metro).",
+   "pagina": 0,
+   "seccion": "Art. 52, Zona E14 (Sector costero El Líder - Edelnor)",
+   "nota": null
+  },
+  {
+   "zona": "C-1Bb",
+   "altura_m": 61,
+   "pisos": null,
+   "texto": "a) Altura Máxima = 20 pisos, 61 metros, (3 metros por cada piso, más 1 metro).",
+   "pagina": 0,
+   "seccion": "Art. 55, ZUDC 01, condiciones de edificación de las zonas C1Bb y C1Bd (área poniente de los terrenos prescindibles del Puerto); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "C-1Bd",
+   "altura_m": 61,
+   "pisos": null,
+   "texto": "a) Altura Máxima = 20 pisos, 61 metros, (3 metros por cada piso, más 1 metro).",
+   "pagina": 0,
+   "seccion": "Art. 55, ZUDC 01, condiciones de edificación de las zonas C1Bb y C1Bd (sector sur del área prescindible del Puerto); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "C-1Bc",
+   "altura_m": 73,
+   "pisos": null,
+   "texto": "a) Altura Máxima = 24 pisos o 73 metros",
+   "pagina": 0,
+   "seccion": "Art. 55, ZUDC 01, condiciones de edificación de la zona C1Bc (cuadro de la Enmienda 2016)",
+   "nota": null
+  },
+  {
+   "zona": "C-1Ba",
+   "altura_m": 61,
+   "pisos": null,
+   "texto": "a) Altura Máxima = 20 pisos aislados, 61 metros, (3 metros por piso, más 1 metro).",
+   "pagina": 0,
+   "seccion": "Art. 55, ZUDC 02 y 03, condiciones de edificación de la zona C1Ba (Zona Histórica, Patio Ferroviario FCAB y Soquimich); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "C-2a",
+   "altura_m": 61,
+   "pisos": null,
+   "texto": "a) Altura Máxima = 20 pisos, 61 metros,.(3 metros por cada piso, más 1 metro).",
+   "pagina": 0,
+   "seccion": "Art. 55, ZUDC 02 y 03, condiciones de edificación de la zona C2a (Patio Ferroviario Norte y Sur de FCAB, zona poniente); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "C-3a",
+   "altura_m": 43,
+   "pisos": null,
+   "texto": "a) Altura Máxima = 14 pisos, 43 metros",
+   "pagina": 0,
+   "seccion": "Art. 55, ZUDC 02 y 03, condiciones de edificación de la zona C3a (Patio Norte y Sur de FCAB); Enmienda 2016",
+   "nota": null
+  },
+  {
+   "zona": "ZET-1",
+   "altura_m": 4,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 4 m",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona ZET-1 Zona Turística Borde Acantilado",
+   "nota": null
+  },
+  {
+   "zona": "ZET-2",
+   "altura_m": 4,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 4 m",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona ZET-2 Zona Turística de Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZET-3",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 21 m",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona ZET-3 Zona Turística Mixta",
+   "nota": null
+  },
+  {
+   "zona": "ZED",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10 m",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona ZED Zona Especial de Equipamiento Deportivo",
+   "nota": null
+  },
+  {
+   "zona": "ZEPM",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 7 m",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona ZEPM Zona de Equipamiento de Pie de Monte",
+   "nota": null
+  },
+  {
+   "zona": "ZEAP",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 7 m",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona ZEAP Zona Especial de Actividades Productivas",
+   "nota": null
+  },
+  {
+   "zona": "ZE-2",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10 metros",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona ZE-2 Zona Especial de Cementerio",
+   "nota": null
+  },
+  {
+   "zona": "Z-AC",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 7 metros",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona ZP-A Zona Especial Acantilado (código Z-AC en la capa)",
+   "nota": null
+  },
+  {
+   "zona": "Z-QLCH",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 8",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona Z-QLCH Zona Quebrada La Chimba",
+   "nota": null
+  },
+  {
+   "zona": "Z-CM",
+   "altura_m": 3,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 3",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona ZP-CM Zona Especial Cordón Montañoso (código Z-CM en la capa)",
+   "nota": null
+  },
+  {
+   "zona": "ZP-MNLP",
+   "altura_m": 6,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 6",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona ZP-MNLP Área de Protección Monumento Natural La Portada",
+   "nota": null
+  },
+  {
+   "zona": "PCJL",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10 m",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona PCJL Parque Comunal Juan López",
+   "nota": null
+  },
+  {
+   "zona": "PU-LCH",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10 m",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona PU LCH Parque Urbano La Chimba",
+   "nota": null
+  },
+  {
+   "zona": "AV",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10m",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona AV Áreas Verdes Vecinales",
+   "nota": null
+  },
+  {
+   "zona": "AV-PU",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10 m",
+   "pagina": 0,
+   "seccion": "Modificación Sector Norte 2012, Art. 8, Zona AV-PU Áreas afectas a utilidad pública destinadas a Parque Comunal",
+   "nota": null
+  },
+  {
+   "zona": "ZM-7",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 21 m y 6 pisos",
+   "pagina": 0,
+   "seccion": "Modificación Chimba Norte 2014, Art. 52.1, Zona ZM-7 Zona Mixta 7 (Frente Costero Sector Acantilado)",
+   "nota": null
+  },
+  {
+   "zona": "ZE-BC",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 7 m y 2 pisos",
+   "pagina": 0,
+   "seccion": "Modificación Chimba Norte 2014, Art. 52.1, Zona ZE-BC Zona de Equipamiento Exclusivo Borde Costero",
+   "nota": null
+  },
+  {
+   "zona": "ZAV",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10 m",
+   "pagina": 0,
+   "seccion": "Modificación Chimba Norte 2014, Art. 52.1, Zona ZAV Áreas Verdes Locales",
+   "nota": null
+  },
+  {
+   "zona": "ZEP-1",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 3,5 m y 1 piso",
+   "pagina": 0,
+   "seccion": "Modificación Chimba Norte 2014, Art. 52.1, Zona ZEP-1 Zona Especial 1 (Borde Costero 1)",
+   "nota": null
+  },
+  {
+   "zona": "ZEP-2",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 3,5 m y 1 piso",
+   "pagina": 0,
+   "seccion": "Modificación Chimba Norte 2014, Art. 52.1, Zona ZEP-2 Zona Especial 2 (Borde Costero 2)",
+   "nota": null
+  }
+ ]
+}

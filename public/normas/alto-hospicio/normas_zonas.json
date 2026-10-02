@@ -1,0 +1,357 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Plan Seccional Alto Hospicio - Alto Molle (Res. N° 40 del Gobierno Regional de Tarapacá, D.O. 31-01-2002), con los cuadros de normas de las zonas Z2, Z3, Z4, Z7, Z7-1, Z8 y Z10 según la Enmienda D.A. N° 710 de la Municipalidad de Alto Hospicio (D.O. 13-04-2013), texto oficial de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1050101",
+ "sha256": "1a0be78121ba6ac9caabd51b0cf774e16ac8d7065c09df647832eb38f112d571",
+ "documentos_adicionales": {
+  "e2014": {
+   "documento": "Enmienda al Art. 62° Zona Z5 Deportiva - Industrial (D.A. N° 119 de la Municipalidad de Alto Hospicio, D.O. 04-03-2014), texto oficial de la BCN",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1059979",
+   "sha256": "462b5fd69ce7f8a2587c0ec10194e450efb1f1a5768dfa872bfe4122244f61a5",
+   "fuente": "bcn"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "Z2",
+   "pagina": 0,
+   "seccion": "Art. 59° de la Ordenanza Local, según el Art. 2° de la Enmienda D.A. N° 710/2013, Zona Z2 Zona Residencial Mixta",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/32123.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m2) 175 (C.1.1 Vivienda unifamiliar)",
+   "superficie_predial_minima_m2": 175,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino; cuadros de la Enmienda D.A. N° 710/2013: C.1.1 vivienda unifamiliar pareada, aislada: superficie 175 m², ocupación 0,8, constructibilidad 1,3, altura 10,5 m o 3 pisos; C.1.2 vivienda en altura media aislada: superficie 1.050 m², ocupación 0,4, constructibilidad 2,3, altura libre; C.2 equipamiento: superficie 525 m², ocupación 1, constructibilidad 2,3, altura libre; C.3.1 establecimientos de impacto similar al industrial: superficie 245 m², ocupación 0,9, constructibilidad 2,3, altura libre; C.3.2 almacenamiento inofensivo: superficie 245 m², ocupación 1, constructibilidad 1,3, altura libre; C.3.3 talleres de carácter inofensivo: superficie 245 m², ocupación 0,9, constructibilidad 0,8, altura libre («Coeficiente de Ocupación de Suelo 1»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 2.3,
+   "coef_constructibilidad_condicion": "según el destino; cuadros de la Enmienda D.A. N° 710/2013: C.1.1 vivienda unifamiliar pareada, aislada: superficie 175 m², ocupación 0,8, constructibilidad 1,3, altura 10,5 m o 3 pisos; C.1.2 vivienda en altura media aislada: superficie 1.050 m², ocupación 0,4, constructibilidad 2,3, altura libre; C.2 equipamiento: superficie 525 m², ocupación 1, constructibilidad 2,3, altura libre; C.3.1 establecimientos de impacto similar al industrial: superficie 245 m², ocupación 0,9, constructibilidad 2,3, altura libre; C.3.2 almacenamiento inofensivo: superficie 245 m², ocupación 1, constructibilidad 1,3, altura libre; C.3.3 talleres de carácter inofensivo: superficie 245 m², ocupación 0,9, constructibilidad 0,8, altura libre («Coeficiente de Constructibilidad 2,3»)",
+   "altura_m_texto": "Altura Máxima (mts) 10.5 o 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el destino no es vivienda unifamiliar (vivienda en altura media, equipamiento o actividades productivas: altura libre, con rasante de 80°): «Altura Máxima (mts) Libre»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín No exigible",
+   "antejardin_m": 0,
+   "pisos": 3,
+   "rasante_grados": 80,
+   "rasante_texto": "Rasantes 80°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado Pareado Continuo*",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Los cuadros de vivienda en altura media, equipamiento y actividades productivas no permiten el adosamiento."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La superficie predial mínima de 175 m² es la de la vivienda unifamiliar; los demás destinos exigen la de su cuadro: vivienda en altura media aislada, 1.050 m²; equipamiento, 525 m²; establecimientos de impacto similar al industrial, 245 m²; almacenamiento inofensivo, 245 m²; talleres de carácter inofensivo, 245 m²."
+    }
+   ]
+  },
+  {
+   "zona": "Z3",
+   "pagina": 0,
+   "seccion": "Art. 60° de la Ordenanza Local, según el Art. 4° de la Enmienda D.A. N° 710/2013, Zona Z3 Zona Residencial en Densidad Alta",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/32124.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m2) 100 (C.1.1 Vivienda unifamiliar)",
+   "superficie_predial_minima_m2": 100,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino; cuadros de la Enmienda D.A. N° 710/2013: C.1.1 vivienda unifamiliar aislada y/o pareada: superficie 100 m², ocupación 0,8, constructibilidad 1,3, altura 10,5 m o 3 pisos; C.1.2 vivienda en altura media aislada: superficie 1.050 m², ocupación 0,4, constructibilidad 2,3, altura libre; C.2 equipamiento: superficie 525 m², ocupación 1, constructibilidad 2,3, altura libre; C.3.1 a C.3.3 actividades productivas inofensivas: superficie 525 m², ocupación 1, constructibilidad 2,3, altura libre («Coeficiente de Ocupación de Suelo 1»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,3",
+   "coef_constructibilidad": 1.3,
+   "coef_constructibilidad_max": 2.3,
+   "coef_constructibilidad_condicion": "según el destino; cuadros de la Enmienda D.A. N° 710/2013: C.1.1 vivienda unifamiliar aislada y/o pareada: superficie 100 m², ocupación 0,8, constructibilidad 1,3, altura 10,5 m o 3 pisos; C.1.2 vivienda en altura media aislada: superficie 1.050 m², ocupación 0,4, constructibilidad 2,3, altura libre; C.2 equipamiento: superficie 525 m², ocupación 1, constructibilidad 2,3, altura libre; C.3.1 a C.3.3 actividades productivas inofensivas: superficie 525 m², ocupación 1, constructibilidad 2,3, altura libre («Coeficiente de Constructibilidad 2,3»)",
+   "altura_m_texto": "Altura Máxima (mts) 10.5 o 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el destino no es vivienda unifamiliar (vivienda en altura media, equipamiento o actividades productivas: altura libre, con rasante de 80°): «Altura Máxima (mts) Libre»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín No exigible",
+   "antejardin_m": 0,
+   "pisos": 3,
+   "rasante_grados": 80,
+   "rasante_texto": "Rasantes 80°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado Pareado Continuo*",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Los cuadros de vivienda en altura media, equipamiento y actividades productivas no permiten el adosamiento."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La superficie predial mínima de 100 m² es la de la vivienda unifamiliar; los demás destinos exigen la de su cuadro: vivienda en altura media aislada, 1.050 m²; equipamiento, 525 m²; actividades productivas inofensivas, 525 m²."
+    }
+   ]
+  },
+  {
+   "zona": "Z4",
+   "pagina": 0,
+   "seccion": "Art. 61° de la Ordenanza Local, según el Art. 6° de la Enmienda D.A. N° 710/2013, Zona Z4 Zona Residencial en Densidad Media",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/32125.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m2) 245 (C.1.1 Vivienda unifamiliar)",
+   "superficie_predial_minima_m2": 245,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino; cuadros de la Enmienda D.A. N° 710/2013: C.1.1 vivienda unifamiliar aislada o pareada: superficie 245 m², ocupación 0,8, constructibilidad 1, altura 10,5 m o 3 pisos; C.1.2 vivienda en altura media aislada: superficie 1.050 m², ocupación 0,4, constructibilidad 2,6, altura libre; C.2 equipamiento: superficie 525 m², ocupación 1, constructibilidad 2,3, altura libre; C.3.1 y C.3.2 actividades productivas inofensivas: superficie 525 m², ocupación 1, constructibilidad 2,3, altura libre («Coeficiente de Ocupación de Suelo 1»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.6,
+   "coef_constructibilidad_condicion": "según el destino; cuadros de la Enmienda D.A. N° 710/2013: C.1.1 vivienda unifamiliar aislada o pareada: superficie 245 m², ocupación 0,8, constructibilidad 1, altura 10,5 m o 3 pisos; C.1.2 vivienda en altura media aislada: superficie 1.050 m², ocupación 0,4, constructibilidad 2,6, altura libre; C.2 equipamiento: superficie 525 m², ocupación 1, constructibilidad 2,3, altura libre; C.3.1 y C.3.2 actividades productivas inofensivas: superficie 525 m², ocupación 1, constructibilidad 2,3, altura libre («Coeficiente de Constructibilidad 2,6»)",
+   "altura_m_texto": "Altura Máxima (mts) 10.5 o 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el destino no es vivienda unifamiliar (vivienda en altura media, equipamiento o actividades productivas: altura libre, con rasante de 80°): «Altura Máxima (mts) Libre»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín No exigible",
+   "antejardin_m": 0,
+   "pisos": 3,
+   "rasante_grados": 80,
+   "rasante_texto": "Rasantes 80°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado Pareado Continuo*",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Los cuadros de vivienda en altura media, equipamiento y actividades productivas no permiten el adosamiento."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La superficie predial mínima de 245 m² es la de la vivienda unifamiliar; los demás destinos exigen la de su cuadro: vivienda en altura media aislada, 1.050 m²; equipamiento, 525 m²; actividades productivas inofensivas, 525 m²."
+    }
+   ]
+  },
+  {
+   "zona": "Z7",
+   "pagina": 0,
+   "seccion": "Art. 64° de la Ordenanza Local, según el Art. 7° de la Enmienda D.A. N° 710/2013, Zona Z7 Zona Industrial Exclusiva",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/32126.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m2) 1050",
+   "superficie_predial_minima_m2": 1050,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento; cuadros de la Enmienda D.A. N° 710/2013: C.1 equipamiento: superficie 3.500 m², ocupación 0,8, constructibilidad 1, altura libre; C.2.1 industrias, talleres y almacenamiento inofensivo y molestas: superficie 1.050 m², ocupación 0,7, constructibilidad 1, altura libre; C.2.2 establecimientos de impacto similar al industrial: superficie 1.050 m², ocupación 0,7, constructibilidad 1, altura libre («Coeficiente de Ocupación de Suelo 0.8»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1.0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura Máxima (mts) Libre",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín No exigible",
+   "antejardin_m": 0,
+   "rasante_grados": 80,
+   "rasante_texto": "Rasantes 80°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado Pareado Continuo*",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Los cuadros de la zona no permiten el adosamiento."
+    },
+    {
+     "campo": "superficie",
+     "texto": "El equipamiento exige un predio mínimo de 3.500 m²."
+    }
+   ]
+  },
+  {
+   "zona": "Z7-1",
+   "pagina": 0,
+   "seccion": "Art. 65° de la Ordenanza Local, según el Art. 8° de la Enmienda D.A. N° 710/2013, Zona Z7-1 Zona Industrial Mixta El Boro",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/32127.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m2) 100 (C.1.1 Vivienda unifamiliar)",
+   "superficie_predial_minima_m2": 100,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino; cuadros de la Enmienda D.A. N° 710/2013: C.1.1 vivienda unifamiliar aislada y/o pareada: superficie 100 m², ocupación 0,8, constructibilidad 1,3, altura 10,5 m o 3 pisos; C.1.2 vivienda en altura media aislada: superficie 1.050 m², ocupación 0,4, constructibilidad 2,3, altura libre; C.2 equipamiento: superficie 525 m², ocupación 1, constructibilidad 2,3, altura libre; C.2.2 industrias, talleres y almacenamiento inofensivo: superficie 1.050 m², ocupación 0,65, constructibilidad 1, altura libre; C.2.3 establecimientos de impacto similar al industrial: superficie 420 m², ocupación 0,8, constructibilidad 1, altura libre («Coeficiente de Ocupación de Suelo 1»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.3,
+   "coef_constructibilidad_condicion": "según el destino; cuadros de la Enmienda D.A. N° 710/2013: C.1.1 vivienda unifamiliar aislada y/o pareada: superficie 100 m², ocupación 0,8, constructibilidad 1,3, altura 10,5 m o 3 pisos; C.1.2 vivienda en altura media aislada: superficie 1.050 m², ocupación 0,4, constructibilidad 2,3, altura libre; C.2 equipamiento: superficie 525 m², ocupación 1, constructibilidad 2,3, altura libre; C.2.2 industrias, talleres y almacenamiento inofensivo: superficie 1.050 m², ocupación 0,65, constructibilidad 1, altura libre; C.2.3 establecimientos de impacto similar al industrial: superficie 420 m², ocupación 0,8, constructibilidad 1, altura libre («Coeficiente de Constructibilidad 2,3»)",
+   "altura_m_texto": "Altura Máxima (mts) 10.5 o 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el destino no es vivienda unifamiliar (vivienda en altura media, equipamiento o actividades productivas: altura libre, con rasante de 80°): «Altura Máxima (mts) Libre»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín No exigible",
+   "antejardin_m": 0,
+   "pisos": 3,
+   "rasante_grados": 80,
+   "rasante_texto": "Rasantes 80°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado Pareado Continuo*",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Los cuadros de vivienda en altura media, equipamiento y actividades productivas no permiten el adosamiento."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La superficie predial mínima de 100 m² es la de la vivienda unifamiliar; los demás destinos exigen la de su cuadro: vivienda en altura media aislada, 1.050 m²; equipamiento, 525 m²; industrias, talleres y almacenamiento inofensivo, 1.050 m²; establecimientos de impacto similar al industrial, 420 m²."
+    }
+   ]
+  },
+  {
+   "zona": "Z8",
+   "pagina": 0,
+   "seccion": "Art. 66° de la Ordenanza Local, según el Art. 9° de la Enmienda D.A. N° 710/2013, Zona Z8 Zona Industrial Mixta Alto Molle",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/32128.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m2) 100 (C.1.1 Vivienda unifamiliar)",
+   "superficie_predial_minima_m2": 100,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino; cuadros de la Enmienda D.A. N° 710/2013: C.1.1 vivienda unifamiliar aislada y/o pareada: superficie 100 m², ocupación 0,8, constructibilidad 1,3, altura 10,5 m o 3 pisos; C.1.2 vivienda en altura media aislada: superficie 1.050 m², ocupación 0,4, constructibilidad 2,3, altura libre; C.2 equipamiento: superficie 420 m², ocupación 0,8, constructibilidad 1, altura libre; C.3.1 y C.3.3 actividades productivas: superficie 420 m², ocupación 0,8, constructibilidad 1, altura libre («Coeficiente de Ocupación de Suelo 0,8»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.3,
+   "coef_constructibilidad_condicion": "según el destino; cuadros de la Enmienda D.A. N° 710/2013: C.1.1 vivienda unifamiliar aislada y/o pareada: superficie 100 m², ocupación 0,8, constructibilidad 1,3, altura 10,5 m o 3 pisos; C.1.2 vivienda en altura media aislada: superficie 1.050 m², ocupación 0,4, constructibilidad 2,3, altura libre; C.2 equipamiento: superficie 420 m², ocupación 0,8, constructibilidad 1, altura libre; C.3.1 y C.3.3 actividades productivas: superficie 420 m², ocupación 0,8, constructibilidad 1, altura libre («Coeficiente de Constructibilidad 2,3»)",
+   "altura_m_texto": "Altura Máxima (mts) 10.5 o 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el destino no es vivienda unifamiliar (vivienda en altura media, equipamiento o actividades productivas: altura libre, con rasante de 80°): «Altura Máxima (mts) Libre»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín No exigible",
+   "antejardin_m": 0,
+   "pisos": 3,
+   "rasante_grados": 80,
+   "rasante_texto": "Rasantes 80°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado Pareado Continuo*",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Los cuadros de vivienda en altura media, equipamiento y actividades productivas no permiten el adosamiento."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La superficie predial mínima de 100 m² es la de la vivienda unifamiliar; los demás destinos exigen la de su cuadro: vivienda en altura media aislada, 1.050 m²; equipamiento, 420 m²; actividades productivas, 420 m²."
+    }
+   ]
+  },
+  {
+   "zona": "Z10",
+   "pagina": 0,
+   "seccion": "Art. 68° de la Ordenanza Local, según el Art. 10° de la Enmienda D.A. N° 710/2013, Zona Z10 Zona Enmienda",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/32124.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m2) 525 (C.2 Equipamiento de la zona Z3)",
+   "superficie_predial_minima_m2": 525,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 1.0",
+   "coef_ocupacion_suelo": 1.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2.3",
+   "coef_constructibilidad": 2.3,
+   "altura_m_texto": "Altura Máxima (mts) Libre",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín No exigible",
+   "antejardin_m": 0,
+   "rasante_grados": 80,
+   "rasante_texto": "Rasantes 80°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado Pareado Continuo*",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Zona Enmienda (antes Zona de Cementerio) tiene los usos de suelo y normas urbanísticas del numeral C.2 Equipamiento de la zona Z3 (Art. 10° de la Enmienda D.A. N° 710/2013)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro C.2 de la zona Z3 no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "Z5",
+   "pagina": 0,
+   "seccion": "Art. 62° de la Ordenanza Local, según la Enmienda D.A. N° 119/2014, Zona Z5 Zona Deportiva - Industrial",
+   "documento": "Enmienda al Art. 62° Zona Z5 Deportiva - Industrial (D.A. N° 119 de la Municipalidad de Alto Hospicio, D.O. 04-03-2014), texto oficial de la BCN",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1059979",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38208.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 150 m2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 1para equipamiento y hospedaje y 0,5 para vivienda unifamiliar",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 1,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento, hospedaje o actividad productiva («COEFICIENTE DE OCUPACIÓN DE SUELO 1para equipamiento y hospedaje»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 4 para equipamiento y hospedaje y 0,5 para viviendas unifamiliares",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 4,
+   "coef_constructibilidad_condicion": "el destino es equipamiento, hospedaje o actividad productiva («COEFICIENTE DE CONSTRUCTIBILIDAD 4 para equipamiento y hospedaje»)",
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACIÓN Libre para equipamiento y hospedaje y 6 metros para vivienda unifamiliar",
+   "altura_m": 6,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el destino es equipamiento, hospedaje o actividad productiva: «ALTURA MAXIMA DE EDIFICACIÓN Libre para equipamiento y hospedaje»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "ANTEJARDIN NO EXIGIBLE",
+   "antejardin_m": 0,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO AISLADO - CONTINUO PAREADO",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 14 m con una profundidad máxima del 80 %."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La vivienda unifamiliar (solo complementaria a la actividad productiva y deportiva) es aislada."
+    }
+   ]
+  }
+ ]
+}

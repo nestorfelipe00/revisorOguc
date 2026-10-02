@@ -1,0 +1,2667 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Modificación N° 2 del Plan Regulador Comunal de Las Condes (D.A. N° 3.218, D.O. 05-12-2003), que reemplazó las normas de edificación del art. 38 de la Ordenanza (PRC aprobado por Res. N° 8/95 del Gobierno Regional Metropolitano, D.O. 13-06-1995); publicación del Diario Oficial que entrega la Municipalidad",
+ "url": "https://archivos.lascondes.cl/descargas/transparencia/plan_regulador/D.O.N3218.04dic2003.pdf",
+ "sha256": "73e0c316ced47ccf3180bd0a0494dd6272a36a869b6c5ea2e3bbd81c8429dadf",
+ "documentos_adicionales": {
+  "mod8": {
+   "documento": "Modificación N° 8 al PRC de Las Condes (D.A. N° 729, D.O. 28-01-2011), texto original de la BCN; el D.A. N° 1.022/2017 derogó la rectificación del D.A. N° 966/2014, salvo la corrección de fechas",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1022441&idVersion=2011-01-28",
+   "fuente": "bcn",
+   "sha256": "ce59f3baad414bf234a6f42c8d21471ba946841e1d27d70e23a0d3b7a9772ffd"
+  },
+  "mod7": {
+   "documento": "Modificación N° 7 al PRC de Las Condes (D.A. N° 173, D.O. 19-01-2010, rectificado el 22-05-2010), texto de la BCN",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1010289",
+   "fuente": "bcn",
+   "sha256": "fa4ebbf0081954edb63890d2b8266e4b06c889d0584fd91f42af39d4c4da60ec"
+  },
+  "do1995": {
+   "documento": "Plan Regulador Comunal de Las Condes, Res. N° 8/95 del Gobierno Regional Metropolitano, publicación del Diario Oficial de 13-06-1995 que entrega la Municipalidad (texto reconocido por OCR)",
+   "url": "https://archivos.lascondes.cl/descargas/transparencia/diario_oficial/2012/diario_oficial/D.O.8.30may1995.pdf",
+   "sha256": "850aeec2966040732d4ccc8e344ffe5e7010280f0fba2ff3a1db96da0bb460cd"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "UC1/EAa+ca",
+   "pagina": 7,
+   "seccion": "Art. 38, 15. Área E-Aa+ca: edificación aislada alta con continuidad alta (zona de uso UC1)",
+   "superficie_predial_minima_m2_texto": "libre. 1500 m² 2.5 para edifica- ción aislada 0.4 para edifica- ción ais- lada 0.2 70°",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "libre. 1500 m² 2.5 para edifica- ción aislada 0.4 para edifica- ción ais- lada 0.2 70°",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el proyecto se acoge a la tabla A) (4 pisos con un máximo de 14 m, Mod. N° 8) («------ Existente 2.5 0.7 0.3 70° 6 pisos»)",
+   "coef_constructibilidad_documento": "Modificación N° 8 al PRC de Las Condes (D.A. N° 729, D.O. 28-01-2011), texto original de la BCN; el D.A. N° 1.022/2017 derogó la rectificación del D.A. N° 966/2014, salvo la corrección de fechas",
+   "coef_constructibilidad_texto": "la expresión \"2.5\" por \"2.0\"",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el proyecto de densificación de vivienda o equipamiento se acoge a la tabla de la letra C) (ex tabla B) («libre. 1500 m² 2.5 para edifica- ción aislada 0.4 para edifica- ción ais- lada 0.2 70°»)",
+   "altura_m_texto": "y la altura máxima que será de 3 pisos o 10,50 metros",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 52.5,
+   "incentivo_texto": "el proyecto de densificación se acoge a la tabla de la letra C) (15 pisos y 52,5 m); la tabla A) permite 4 pisos con un máximo de 14 m (Mod. N° 8) y las viviendas nuevas, 3 pisos o 10,50 m: «libre. 1500 m² 2.5 para edifica- ción aislada 0.4 para edifica- ción ais- lada 0.2 70° sobre la edifica- ción continua 15 pisos con un máximo de 52.5»",
+   "incentivo_pagina": 8,
+   "antejardin_m_texto": "70° sobre la edifica- ción continua 15 pisos con un máximo de 52.5 metros de altura 7 m. 8 m.",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "------ Existente 2.5 0.7 0.3 70°",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 6 m (viviendas nuevas: OGUC); letra C): 8 m y 12 m a predios de E-Ab2 o E-Ab3."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): según plano de loteo (Mod. N° 8). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UC1/EAb2",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UC1)",
+   "superficie_predial_minima_m2_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_ocupacion_suelo": 0.4,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16067.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16068.jpg"
+   ],
+   "coef_constructibilidad_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa (Mod. N° 8; ampliaciones de viviendas unifamiliares: 0,8) («con excepción del polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa»)",
+   "altura_m_texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 20.0,
+   "incentivo_texto": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (5 pisos con altura máxima de 17,5 m; conjunto armónico 4 pisos y 14 m) o es de culto en el sector Francisco Bulnes Correa - San Francisco de Asís - El Alto - La Parroquia (20,0 m), según la Mod. N° 8: «los proyectos destinados a Culto deberán cumplir las siguientes normas»",
+   "incentivo_pagina": 0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Polígono A-B-C-D-E-F-A y culto (Mod. N° 8): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según plano de loteo; polígono A-B-C-D-E-F-A: 7 m; culto: 10 m (Mod. N° 8). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (Mod. N° 8): 1.000 m²; culto en el sector El Alto - La Parroquia: 2.500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Equipamiento de salud o educación entre Camino El Alba, Av. Plaza, Parque Quebrada Grande y Av. San Carlos de Apoquindo: hasta +0,3 (Mod. N° 8); culto en el sector El Alto - La Parroquia: 0,5."
+    }
+   ]
+  },
+  {
+   "zona": "UC1/EAb3",
+   "pagina": 3,
+   "seccion": "Art. 38, 3. Área E-Ab3: edificación aislada baja N° 3 (zona de uso UC1)",
+   "superficie_predial_minima_m2_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según plano de loteo. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UC1/EAm1",
+   "pagina": 4,
+   "seccion": "Art. 38, 6. Área E-Am1: edificación aislada media N° 1 (zona de uso UC1)",
+   "superficie_predial_minima_m2_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (fuera del sector Lo Fontecilla) («90 Viv/Há. 800 m² 1.0 0.3 0.2 60° 4 pisos»)",
+   "altura_m_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) o, en el sector Lo Fontecilla, de la tabla C) (4 pisos con altura máxima de 14 m): «90 Viv/Há. 800 m² 1.0 0.3 0.2 60° 4 pisos con altura máxima de 14 m.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "90 Viv/Há. 800 m² 1.0 0.3 0.2 60°",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación: 6 m (tabla B); Lo Fontecilla: 11 m (tabla C) y 18 m al área Ee5 «Casa de Lo Fontecilla»."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Densificación: 800 m² (tabla B); sector Lo Fontecilla (tabla C): 4.000 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación: 0,3 (tabla B); sector Lo Fontecilla (tabla C): 0,35."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Densificación: 7 m (tabla B); sector Lo Fontecilla: 10 m (tabla C). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UC1/EAm1p",
+   "pagina": 4,
+   "seccion": "Art. 38, 7. Área E-Am1’: edificación aislada media N° 1 prima (zona de uso UC1)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el proyecto de densificación se acoge a la tabla B) (4 pisos con altura máxima de 14 m); tabla C): 0,5; tabla D): 0,3 («----- 1.500m² 2.5 0.70 0.2 70° 4 pisos»)",
+   "coef_constructibilidad_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el proyecto de densificación se acoge a una de las tablas B), C) o D) (predio de 1.500 m²); en Av. Las Condes entre Estoril y Camino a Farellones: 1,8 («----- 1.500m² 2.5 0.70 0.2 70° 4 pisos»)",
+   "altura_m_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 24.5,
+   "incentivo_texto": "el proyecto de densificación se acoge a la tabla D) (7 pisos con altura máxima de 24,50 m; tabla B): 4 pisos y 14 m; tabla C): 5 pisos y 17,50 m): «----- 1.500m² 2.5 0.3 0.2 70° 7 pisos con altura máxima de 24.50 m.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "Plano loteo o mínimo 5 m.",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente Existente 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tablas B, C y D): 1.500 m²."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B, C y D): 70°."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación: 4 m (tabla B), 5 m (C) y 7 m (D); 18 m con predios del área E-Ab1 y 12 m con E-Ab2/E-Ab3 (en el deslinde de contrafrente, Mod. N° 8)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Densificación (tablas B, C y D): plano de loteo o 7 m. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UC1/EAm2",
+   "pagina": 5,
+   "seccion": "Art. 38, 8. Área E-Am2: edificación aislada media N° 2 (zona de uso UC1)",
+   "coef_ocupacion_suelo_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) o es de viviendas sociales en el polígono de la tabla C) («160 viv/há 1.500m² 1.6 0.3 0.4 70° 7 pisos»)",
+   "altura_m_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 25.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (7 pisos con altura máxima de 20 m) o, si es de servicios en un predio de al menos 2.000 m², 7 pisos o 25,0 m: «160 viv/há 1.500m² 1.6 0.3 0.4 70° 7 pisos con altura máxima de 20 m. … máxima de 7 pisos o 25,0 metros y un antejardín mínimo de 10,0 metros»",
+   "incentivo_pagina": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente. Existente. 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación: 1.500 m² (tabla B) y 2.500 m² (viviendas sociales, tabla C, y polígono Cuarto Centenario - La Goleta - Los Pozos)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B y C): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): plano de loteo; densificación: 7 m (servicios en predios de 2.000 m² o más: 10 m; 15 m por calle La Goleta en su polígono). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación (tabla B): 7 m; 12 m en el deslinde de contrafrente con predios de E-Ab2 o E-Ab3 (Mod. N° 8)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tabla B): 0,3; viviendas sociales (tabla C): 0,4."
+    }
+   ]
+  },
+  {
+   "zona": "UC1/EAm4",
+   "pagina": 5,
+   "seccion": "Art. 38, 9. Área E-Am4: edificación aislada media N° 4 (zona de uso UC1)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el proyecto de uso no residencial está en el Sector Visviri, en zona UC1 o UC2, con altura máxima de 14,0 m y cumple las condiciones de accesos y franja de jardines del artículo («podrán incrementar su coeficiente de ocupación de suelo hasta un 60%»)",
+   "coef_constructibilidad_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (1,8) o, en el Sector Hermanos Cabot, abarca una manzana completa y se acoge a la tabla C) (2,0) («240 viv/há 1.500 m² 1.8 0.4 0.4 70° 9 pisos … 200 viv/há 2.0 0.25 0.5 70° 13 pisos»)",
+   "altura_m_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10.5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (9 pisos y 31,5 m) o, en el Sector Los Militares o con frente a Av. Padre Hurtado en el Sector Visviri, 12 pisos y 42,0 m: «240 viv/há 1.500 m² 1.8 0.4 0.4 70° 9 pisos con un máximo de 31.5 metros de altura … a una altura máxima de 12 pisos con un máximo de 42,0 metros»",
+   "incentivo_pagina": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente Existente 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Sector Visviri: 7 pisos o 25,0 m en calle Visviri y 7 pisos o 24,5 m en Manuel Claro Vial; Sector Hermanos Cabot (tabla C): 13 pisos con frente a Hermanos Cabot y 7 pisos hacia Av. Presidente Riesco; Cerro San Luis: hasta la cota 690,50 m.s.n.m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tabla B): 1.500 m²."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B y C): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): plano de loteo; densificación: 7 m; Hermanos Cabot: 10 m por esa calle y 25 m por Av. Presidente Riesco. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación (tabla B): 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Sector Hermanos Cabot (tabla C): 0,25; Cerro San Luis: 0,1 (Mod. N° 8)."
+    }
+   ]
+  },
+  {
+   "zona": "UC2/EAa+cm",
+   "pagina": 7,
+   "seccion": "Art. 38, 14. Área E-Aa+cm: edificación aislada alta con continuidad media (zona de uso UC2)",
+   "superficie_predial_minima_m2_texto": "libre 1.500 m² 3.0 para edifica- ción aislada 0.3 para edifica- ción ais- lada 0.3 70° 15 pisos",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "libre 1.500 m² 3.0 para edifica- ción aislada 0.3 para edifica- ción ais- lada 0.3 70° 15 pisos",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "el proyecto es de equipamiento aislado acogido a la tabla B) (5 pisos con un máximo de 17,50 m); tabla C): 0,4 («----- Existente 3.0 0.75 0.2 70° 5 pisos»)",
+   "coef_constructibilidad_texto": "libre 1.500 m² 3.0 para edifica- ción aislada 0.3 para edifica- ción ais- lada 0.3 70° 15 pisos",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "----- Existente 3.0 0.75 0.2 70° 5 pisos con un máximo de 17.50 metros de altura",
+   "altura_m": 17.5,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el proyecto de densificación se acoge a la tabla A) (15 pisos y 52,5 m), C) (17 pisos y 59,5 m con cuerpo continuo de 2 pisos y 7 m) o, en el sector de la tabla D) (Presidente Riesco, Isidora Goyenechea, Vitacura y Andrés Bello), altura libre con rasante de 70° aplicada a 40 m: «libre 1.500 m² 3.0 para edifica- ción aislada 0.3 para edifica- ción ais- lada 0.3 70° 15 pisos con un máximo de 52,5 … 17 pisos con un máximo de 59,5 metros de altura … 70° aplicada a 40 metros de altura. libre»",
+   "incentivo_pagina": 7,
+   "antejardin_m_texto": "----- Existente 3.0 0.75 0.2 70° 5 pisos con un máximo de 17.50 metros de altura 7 m. 4 m.",
+   "antejardin_m": 7.0,
+   "pisos": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "----- Existente 3.0 0.75 0.2 70°",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Agrupamiento continuo entre Av. Isidora Goyenechea y calle Don Carlos: 8 pisos con un máximo de 32 m, sin antejardín (Mod. N° 8); equipamiento continuo en Mar de los Sargazos o República Árabe de Egipto: 2 pisos y 7 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "8 m (tablas A y C), 4 m (tabla B), 15 m sobre la placa en el sector de la tabla D) y 8 m a predios sin continuidad."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento aislado (tabla B): predio existente; equipamiento en cuerpo continuo (tabla C): 500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Sector de la tabla D) (Presidente Riesco, Isidora Goyenechea, Vitacura y Andrés Bello): 0,6 hasta 40 m y 0,3 sobre 40 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Cuerpo continuo (tabla C): 5 m; predios que enfrentan Av. Andrés Bello entre Tajamar y Presidente Riesco: 12 m; antejardines propios para la construcción continua en Los Milagros, Apoquindo, El Bosque, Isidora Goyenechea, El Golf y otras vías (Mod. N° 8). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UC2/EAa1",
+   "pagina": 6,
+   "seccion": "Art. 38, 10. Área E-Aa1: edificación aislada alta N° 1 (zona de uso UC2)",
+   "coef_ocupacion_suelo_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de vivienda de la tabla C) (equipamiento, tabla B): 1,8) («240 viv/há. 1.500 m² 2.0 0.3 0.3 70° 15 pisos»)",
+   "altura_m_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (equipamiento, 12 pisos) o C) (vivienda, 15 pisos), con un máximo de 42 m: «------ 1.500 m² 1.8 0.3 0.3 70° 12 pisos con un máximo de 42 metros de altura.»",
+   "incentivo_pagina": 6,
+   "antejardin_m_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura 7 m. 6 m.",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "Existente. Existente. 1.0 0.4 No se exige. 70°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tablas B y C): 1.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 6 m; densificación: 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tablas B y C): 0,3."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UC2/EAa2",
+   "pagina": 6,
+   "seccion": "Art. 38, 11. Área E-Aa2: edificación aislada alta N° 2 (zona de uso UC2)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) («220 Viv/há. 1.500 m² 2.0 0.3 0.5 70° 15 pisos»)",
+   "altura_m_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 52.5,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (15 pisos con un máximo de 52,5 m): «220 Viv/há. 1.500 m² 2.0 0.3 0.5 70° 15 pisos con un máximo de 52.5 metros de altura.»",
+   "incentivo_pagina": 6,
+   "antejardin_m_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura 7 m. 6 m.",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "Existente Existente 1.0 0.4 No se exige. 70°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tabla B): 1.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 6 m; densificación: 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tabla B): 0,3."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UC2/EAa3",
+   "pagina": 6,
+   "seccion": "Art. 38, 12. Área E-Aa3: edificación aislada alta N° 3 (zona de uso UC2)",
+   "superficie_predial_minima_m2_texto": "220 Viv/há. 2.500 m2 2.0 0.3 0.5 70° 15 pisos",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "220 Viv/há. 2.500 m2 2.0 0.3 0.5 70° 15 pisos",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el proyecto está en el sector de la tabla A) (Av. Presidente Riesco, Estocolmo, Cerro El Plomo y Alonso de Córdova) («220 viv/há 2.500 m2 4.0 0.4 0.6 70° 15 pisos»)",
+   "coef_constructibilidad_texto": "220 Viv/há. 2.500 m2 2.0 0.3 0.5 70° 15 pisos",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 4.0,
+   "coef_constructibilidad_condicion": "el proyecto está en el sector de la tabla A) (Av. Presidente Riesco, Estocolmo, Cerro El Plomo y Alonso de Córdova) («220 viv/há 2.500 m2 4.0 0.4 0.6 70° 15 pisos»)",
+   "altura_m_texto": "220 Viv/há. 2.500 m2 2.0 0.3 0.5 70° 15 pisos con un máximo de 52.5 metros de altura.",
+   "altura_m": 52.5,
+   "antejardin_m_texto": "220 Viv/há. 2.500 m2 2.0 0.3 0.5 70° 15 pisos con un máximo de 52.5 metros de altura. 7 m. 8 m.",
+   "antejardin_m": 7.0,
+   "pisos": 15,
+   "rasante_grados": 70,
+   "rasante_texto": "220 Viv/há. 2.500 m2 2.0 0.3 0.5 70°",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "El área solo tiene tablas de densificación por sector (A y B); la Modificación N° 2 no fija una tabla para vivienda individual."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "8 m (tabla B); 10 m en el sector de la tabla A)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Sector de la tabla A): 10 m. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UC2/EAa4",
+   "pagina": 7,
+   "seccion": "Art. 38, 13. Área E-Aa4: edificación aislada alta N° 4 (zona de uso UC2)",
+   "coef_ocupacion_suelo_texto": "Existente. Existente. 1.0 0.6 No se exige. 70° 3 pisos",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Existente. Existente. 1.0 0.6 No se exige. 70° 3 pisos",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de vivienda de la tabla C) (equipamiento, tabla B): 2,0) («350 viv/há 1.500 m² 2.5 0.3 0.3 70° 15 pisos»)",
+   "altura_m_texto": "Existente. Existente. 1.0 0.6 No se exige. 70° 3 pisos con un máximo de 10,5 metros",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (equipamiento, 12 pisos) o C) (vivienda, 15 pisos), con un máximo de 42 m: «----- 1.500m² 2.0 0.4 0.3. 70° 12 pisos con un máximo de 42 metros.»",
+   "incentivo_pagina": 7,
+   "antejardin_m_texto": "Existente. Existente. 1.0 0.6 No se exige. 70° 3 pisos con un máximo de 10,5 metros 7 m. 6 m.",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "Existente. Existente. 1.0 0.6 No se exige. 70°",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En terrenos de 2.500 m² o más que enfrentan calles de más de 30 m entre líneas oficiales: 10 pisos o 35,0 m (equipamiento) y 12 pisos o 34,0 m (vivienda)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tablas B y C): 1.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 6 m; densificación: 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación: 0,4 (equipamiento, tabla B) y 0,3 (vivienda, tabla C)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UC2/EAb2",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UC2)",
+   "superficie_predial_minima_m2_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_ocupacion_suelo": 0.4,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16067.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16068.jpg"
+   ],
+   "coef_constructibilidad_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa (Mod. N° 8; ampliaciones de viviendas unifamiliares: 0,8) («con excepción del polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa»)",
+   "altura_m_texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 20.0,
+   "incentivo_texto": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (5 pisos con altura máxima de 17,5 m; conjunto armónico 4 pisos y 14 m) o es de culto en el sector Francisco Bulnes Correa - San Francisco de Asís - El Alto - La Parroquia (20,0 m), según la Mod. N° 8: «los proyectos destinados a Culto deberán cumplir las siguientes normas»",
+   "incentivo_pagina": 0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Polígono A-B-C-D-E-F-A y culto (Mod. N° 8): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según plano de loteo; polígono A-B-C-D-E-F-A: 7 m; culto: 10 m (Mod. N° 8). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (Mod. N° 8): 1.000 m²; culto en el sector El Alto - La Parroquia: 2.500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Equipamiento de salud o educación entre Camino El Alba, Av. Plaza, Parque Quebrada Grande y Av. San Carlos de Apoquindo: hasta +0,3 (Mod. N° 8); culto en el sector El Alto - La Parroquia: 0,5."
+    }
+   ]
+  },
+  {
+   "zona": "UC2/EAb3",
+   "pagina": 3,
+   "seccion": "Art. 38, 3. Área E-Ab3: edificación aislada baja N° 3 (zona de uso UC2)",
+   "superficie_predial_minima_m2_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según plano de loteo. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UC2/EAm1p",
+   "pagina": 4,
+   "seccion": "Art. 38, 7. Área E-Am1’: edificación aislada media N° 1 prima (zona de uso UC2)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el proyecto de densificación se acoge a la tabla B) (4 pisos con altura máxima de 14 m); tabla C): 0,5; tabla D): 0,3 («----- 1.500m² 2.5 0.70 0.2 70° 4 pisos»)",
+   "coef_constructibilidad_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el proyecto de densificación se acoge a una de las tablas B), C) o D) (predio de 1.500 m²); en Av. Las Condes entre Estoril y Camino a Farellones: 1,8 («----- 1.500m² 2.5 0.70 0.2 70° 4 pisos»)",
+   "altura_m_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 24.5,
+   "incentivo_texto": "el proyecto de densificación se acoge a la tabla D) (7 pisos con altura máxima de 24,50 m; tabla B): 4 pisos y 14 m; tabla C): 5 pisos y 17,50 m): «----- 1.500m² 2.5 0.3 0.2 70° 7 pisos con altura máxima de 24.50 m.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "Plano loteo o mínimo 5 m.",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente Existente 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tablas B, C y D): 1.500 m²."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B, C y D): 70°."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación: 4 m (tabla B), 5 m (C) y 7 m (D); 18 m con predios del área E-Ab1 y 12 m con E-Ab2/E-Ab3 (en el deslinde de contrafrente, Mod. N° 8)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Densificación (tablas B, C y D): plano de loteo o 7 m. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UC2/EAm2",
+   "pagina": 5,
+   "seccion": "Art. 38, 8. Área E-Am2: edificación aislada media N° 2 (zona de uso UC2)",
+   "coef_ocupacion_suelo_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) o es de viviendas sociales en el polígono de la tabla C) («160 viv/há 1.500m² 1.6 0.3 0.4 70° 7 pisos»)",
+   "altura_m_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 25.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (7 pisos con altura máxima de 20 m) o, si es de servicios en un predio de al menos 2.000 m², 7 pisos o 25,0 m: «160 viv/há 1.500m² 1.6 0.3 0.4 70° 7 pisos con altura máxima de 20 m. … máxima de 7 pisos o 25,0 metros y un antejardín mínimo de 10,0 metros»",
+   "incentivo_pagina": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente. Existente. 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación: 1.500 m² (tabla B) y 2.500 m² (viviendas sociales, tabla C, y polígono Cuarto Centenario - La Goleta - Los Pozos)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B y C): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): plano de loteo; densificación: 7 m (servicios en predios de 2.000 m² o más: 10 m; 15 m por calle La Goleta en su polígono). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación (tabla B): 7 m; 12 m en el deslinde de contrafrente con predios de E-Ab2 o E-Ab3 (Mod. N° 8)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tabla B): 0,3; viviendas sociales (tabla C): 0,4."
+    }
+   ]
+  },
+  {
+   "zona": "UC2/EAm4",
+   "pagina": 5,
+   "seccion": "Art. 38, 9. Área E-Am4: edificación aislada media N° 4 (zona de uso UC2)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el proyecto de uso no residencial está en el Sector Visviri, en zona UC1 o UC2, con altura máxima de 14,0 m y cumple las condiciones de accesos y franja de jardines del artículo («podrán incrementar su coeficiente de ocupación de suelo hasta un 60%»)",
+   "coef_constructibilidad_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (1,8) o, en el Sector Hermanos Cabot, abarca una manzana completa y se acoge a la tabla C) (2,0) («240 viv/há 1.500 m² 1.8 0.4 0.4 70° 9 pisos … 200 viv/há 2.0 0.25 0.5 70° 13 pisos»)",
+   "altura_m_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10.5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (9 pisos y 31,5 m) o, en el Sector Los Militares o con frente a Av. Padre Hurtado en el Sector Visviri, 12 pisos y 42,0 m: «240 viv/há 1.500 m² 1.8 0.4 0.4 70° 9 pisos con un máximo de 31.5 metros de altura … a una altura máxima de 12 pisos con un máximo de 42,0 metros»",
+   "incentivo_pagina": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente Existente 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Sector Visviri: 7 pisos o 25,0 m en calle Visviri y 7 pisos o 24,5 m en Manuel Claro Vial; Sector Hermanos Cabot (tabla C): 13 pisos con frente a Hermanos Cabot y 7 pisos hacia Av. Presidente Riesco; Cerro San Luis: hasta la cota 690,50 m.s.n.m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tabla B): 1.500 m²."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B y C): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): plano de loteo; densificación: 7 m; Hermanos Cabot: 10 m por esa calle y 25 m por Av. Presidente Riesco. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación (tabla B): 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Sector Hermanos Cabot (tabla C): 0,25; Cerro San Luis: 0,1 (Mod. N° 8)."
+    }
+   ]
+  },
+  {
+   "zona": "UC3/EAb2",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UC3)",
+   "superficie_predial_minima_m2_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_ocupacion_suelo": 0.4,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16067.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16068.jpg"
+   ],
+   "coef_constructibilidad_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa (Mod. N° 8; ampliaciones de viviendas unifamiliares: 0,8) («con excepción del polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa»)",
+   "altura_m_texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 20.0,
+   "incentivo_texto": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (5 pisos con altura máxima de 17,5 m; conjunto armónico 4 pisos y 14 m) o es de culto en el sector Francisco Bulnes Correa - San Francisco de Asís - El Alto - La Parroquia (20,0 m), según la Mod. N° 8: «los proyectos destinados a Culto deberán cumplir las siguientes normas»",
+   "incentivo_pagina": 0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Polígono A-B-C-D-E-F-A y culto (Mod. N° 8): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según plano de loteo; polígono A-B-C-D-E-F-A: 7 m; culto: 10 m (Mod. N° 8). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (Mod. N° 8): 1.000 m²; culto en el sector El Alto - La Parroquia: 2.500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Equipamiento de salud o educación entre Camino El Alba, Av. Plaza, Parque Quebrada Grande y Av. San Carlos de Apoquindo: hasta +0,3 (Mod. N° 8); culto en el sector El Alto - La Parroquia: 0,5."
+    }
+   ]
+  },
+  {
+   "zona": "UC3/EAb3",
+   "pagina": 3,
+   "seccion": "Art. 38, 3. Área E-Ab3: edificación aislada baja N° 3 (zona de uso UC3)",
+   "superficie_predial_minima_m2_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según plano de loteo. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UC3/EAm2",
+   "pagina": 5,
+   "seccion": "Art. 38, 8. Área E-Am2: edificación aislada media N° 2 (zona de uso UC3)",
+   "coef_ocupacion_suelo_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) o es de viviendas sociales en el polígono de la tabla C) («160 viv/há 1.500m² 1.6 0.3 0.4 70° 7 pisos»)",
+   "altura_m_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 25.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (7 pisos con altura máxima de 20 m) o, si es de servicios en un predio de al menos 2.000 m², 7 pisos o 25,0 m: «160 viv/há 1.500m² 1.6 0.3 0.4 70° 7 pisos con altura máxima de 20 m. … máxima de 7 pisos o 25,0 metros y un antejardín mínimo de 10,0 metros»",
+   "incentivo_pagina": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente. Existente. 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación: 1.500 m² (tabla B) y 2.500 m² (viviendas sociales, tabla C, y polígono Cuarto Centenario - La Goleta - Los Pozos)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B y C): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): plano de loteo; densificación: 7 m (servicios en predios de 2.000 m² o más: 10 m; 15 m por calle La Goleta en su polígono). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación (tabla B): 7 m; 12 m en el deslinde de contrafrente con predios de E-Ab2 o E-Ab3 (Mod. N° 8)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tabla B): 0,3; viviendas sociales (tabla C): 0,4."
+    }
+   ]
+  },
+  {
+   "zona": "UEe1/EAa+cm",
+   "pagina": 7,
+   "seccion": "Art. 38, 14. Área E-Aa+cm: edificación aislada alta con continuidad media (zona de uso UEe1)",
+   "superficie_predial_minima_m2_texto": "libre 1.500 m² 3.0 para edifica- ción aislada 0.3 para edifica- ción ais- lada 0.3 70° 15 pisos",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "libre 1.500 m² 3.0 para edifica- ción aislada 0.3 para edifica- ción ais- lada 0.3 70° 15 pisos",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "el proyecto es de equipamiento aislado acogido a la tabla B) (5 pisos con un máximo de 17,50 m); tabla C): 0,4 («----- Existente 3.0 0.75 0.2 70° 5 pisos»)",
+   "coef_constructibilidad_texto": "libre 1.500 m² 3.0 para edifica- ción aislada 0.3 para edifica- ción ais- lada 0.3 70° 15 pisos",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "----- Existente 3.0 0.75 0.2 70° 5 pisos con un máximo de 17.50 metros de altura",
+   "altura_m": 17.5,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el proyecto de densificación se acoge a la tabla A) (15 pisos y 52,5 m), C) (17 pisos y 59,5 m con cuerpo continuo de 2 pisos y 7 m) o, en el sector de la tabla D) (Presidente Riesco, Isidora Goyenechea, Vitacura y Andrés Bello), altura libre con rasante de 70° aplicada a 40 m: «libre 1.500 m² 3.0 para edifica- ción aislada 0.3 para edifica- ción ais- lada 0.3 70° 15 pisos con un máximo de 52,5 … 17 pisos con un máximo de 59,5 metros de altura … 70° aplicada a 40 metros de altura. libre»",
+   "incentivo_pagina": 7,
+   "antejardin_m_texto": "----- Existente 3.0 0.75 0.2 70° 5 pisos con un máximo de 17.50 metros de altura 7 m. 4 m.",
+   "antejardin_m": 7.0,
+   "pisos": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "----- Existente 3.0 0.75 0.2 70°",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Agrupamiento continuo entre Av. Isidora Goyenechea y calle Don Carlos: 8 pisos con un máximo de 32 m, sin antejardín (Mod. N° 8); equipamiento continuo en Mar de los Sargazos o República Árabe de Egipto: 2 pisos y 7 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "8 m (tablas A y C), 4 m (tabla B), 15 m sobre la placa en el sector de la tabla D) y 8 m a predios sin continuidad."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento aislado (tabla B): predio existente; equipamiento en cuerpo continuo (tabla C): 500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Sector de la tabla D) (Presidente Riesco, Isidora Goyenechea, Vitacura y Andrés Bello): 0,6 hasta 40 m y 0,3 sobre 40 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Cuerpo continuo (tabla C): 5 m; predios que enfrentan Av. Andrés Bello entre Tajamar y Presidente Riesco: 12 m; antejardines propios para la construcción continua en Los Milagros, Apoquindo, El Bosque, Isidora Goyenechea, El Golf y otras vías (Mod. N° 8). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UEe1/EAb4",
+   "pagina": 3,
+   "seccion": "Art. 38, 4. Área E-Ab4: edificación aislada baja N° 4 (zona de uso UEe1)",
+   "superficie_predial_minima_m2_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "coef_ocupacion_suelo": 0.12,
+   "coef_ocupacion_suelo_max": 0.3,
+   "coef_ocupacion_suelo_condicion": "el proyecto opta a la densificación de la tabla B) (financiamiento proporcional y ejecución de las obras del art. 39) («25 viv/há 2.500m² 0.8 0.3 0.5 60° 4 pisos»)",
+   "coef_constructibilidad_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "coef_constructibilidad": 0.12,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (0,8; obras del art. 39) o, con frente a calle Vital Apoquindo, incluye un equipamiento de al menos 1.000 m² edificados (1,2; Mod. N° 8) («podrá incrementarse la densidad a 40 viv/ha y el coeficiente de constructibilidad a 1.2»)",
+   "altura_m_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 17.5,
+   "incentivo_texto": "el proyecto es de equipamiento de educación, cultura o salud en un terreno de 5 ha o más del polígono Monseñor Álvaro del Portillo - Av. Plaza - Carlos Peña Otaegui - Pie Andino - San Carlos de Apoquindo (Mod. N° 7); la densificación de la tabla B) permite 4 pisos con altura máxima de 14 m: «con una altura máxima de 5 pisos y 17,50 mts.»",
+   "incentivo_pagina": 0,
+   "antejardin_m_documento": "Modificación N° 8 al PRC de Las Condes (D.A. N° 729, D.O. 28-01-2011), texto original de la BCN; el D.A. N° 1.022/2017 derogó la rectificación del D.A. N° 966/2014, salvo la corrección de fechas",
+   "antejardin_m_texto": "Edif. Colectivas: 10 m Edif. Individuales: 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 45,
+   "rasante_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tabla B): 60°."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Edificaciones colectivas: 10 m; individuales: OGUC (Mod. N° 8); densificación (tabla B): 11 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Edificaciones colectivas: 10 m (Mod. N° 8); densificación (tabla B): 10 m. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UEe1/Ee1",
+   "pagina": 8,
+   "seccion": "Art. 38, 16. Área E-e1: Edificación Especial N° 1, Equipamientos (zona de uso UEe1)",
+   "superficie_predial_minima_m2_texto": "libre 2500 m2 para equipamiento comercial y 10.000 m² para equipamiento cultural",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "1.4 0.6 0.3 60° 5 pisos o 17,50 m.",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "1.4 0.6 0.3 60° 5 pisos o 17,50 m.",
+   "coef_constructibilidad": 1.4,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el predio colinda con áreas E-Am o E-Aa sin deslindar con áreas de densidad baja o especial (tabla B; 2.500 m² frente a vías de al menos 70 m) («2.0 0.6 hasta los 14 metros y 0.4 sobre los 14 metros.»)",
+   "altura_m_texto": "1.4 0.6 0.3 60° 5 pisos o 17,50 m.",
+   "altura_m": 17.5,
+   "altura_incentivo_m": 52.5,
+   "incentivo_texto": "el predio colinda con áreas E-Am o E-Aa sin deslindar con áreas de densidad baja o especial (tabla B: 4 pisos o 14 m para la edificación continua y 15 pisos o 52,5 m para la aislada): «pisos o 52.5 metros para edificación aislada.»",
+   "incentivo_pagina": 8,
+   "antejardin_m_texto": "1.4 0.6 0.3 60° 5 pisos o 17,50 m. 10 m. 11 m.",
+   "antejardin_m": 10.0,
+   "pisos": 5,
+   "rasante_grados": 60,
+   "rasante_texto": "1.4 0.6 0.3 60° 5 pisos o 17,50 m.",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Tabla B): 70° sobre los 14 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 11 m; tabla B): 10 m."
+    },
+    {
+     "campo": "zona",
+     "texto": "Área de equipamientos individualizados (PRMS y comunales, art. 38 N° 16, con las listas que agregaron las Modificaciones N° 4 y N° 8); el Plano Seccional Centro Comercial Mall Plaza (D.A. N° 2.974/2007) detalla parte del área."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento cultural (letras A y C): 10.000 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Tabla B): 0,6 hasta los 14 m y 0,4 sobre los 14 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla B): 15 m para la edificación aislada; las edificaciones existentes se exceptúan del antejardín. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UEe2/Ee2",
+   "pagina": 9,
+   "seccion": "Art. 38, 17. Área E-e2: Edificación Especial N° 2, Equipamiento Recreacional Deportivo (zona de uso UEe2)",
+   "coef_ocupacion_suelo_texto": "0.3 0.2 0.7 60° 5 pisos o 17,50 m.",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "0.3 0.2 0.7 60° 5 pisos o 17,50 m.",
+   "coef_constructibilidad": 0.3,
+   "altura_m_texto": "0.3 0.2 0.7 60° 5 pisos o 17,50 m.",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "0.3 0.2 0.7 60° 5 pisos o 17,50 m. 7 m.",
+   "antejardin_m": 7.0,
+   "pisos": 5,
+   "rasante_grados": 60,
+   "rasante_texto": "0.3 0.2 0.7 60° 5 pisos o 17,50 m.",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 11 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UEe2/Ee3",
+   "pagina": 8,
+   "seccion": "Art. 38, Área E-e3: Edificación Especial N° 3, Parques Intercomunales (Ordenanza de 1995) (zona de uso UEe2)",
+   "documento": "Plan Regulador Comunal de Las Condes, Res. N° 8/95 del Gobierno Regional Metropolitano, publicación del Diario Oficial de 13-06-1995 que entrega la Municipalidad (texto reconocido por OCR)",
+   "url": "https://archivos.lascondes.cl/descargas/transparencia/diario_oficial/2012/diario_oficial/D.O.8.30may1995.pdf",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Parques intercomunales del PRMS (parques, cerros isla, parques quebrada y parques adyacentes a cauces o vías): rigen las condiciones de la Ordenanza del PRMS, con las normas complementarias del art. 38 para los parques."
+    }
+   ]
+  },
+  {
+   "zona": "UEe3/Ee3",
+   "pagina": 8,
+   "seccion": "Art. 38, Área E-e3: Edificación Especial N° 3, Parques Intercomunales (Ordenanza de 1995) (zona de uso UEe3)",
+   "documento": "Plan Regulador Comunal de Las Condes, Res. N° 8/95 del Gobierno Regional Metropolitano, publicación del Diario Oficial de 13-06-1995 que entrega la Municipalidad (texto reconocido por OCR)",
+   "url": "https://archivos.lascondes.cl/descargas/transparencia/diario_oficial/2012/diario_oficial/D.O.8.30may1995.pdf",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Parques intercomunales del PRMS (parques, cerros isla, parques quebrada y parques adyacentes a cauces o vías): rigen las condiciones de la Ordenanza del PRMS, con las normas complementarias del art. 38 para los parques."
+    }
+   ]
+  },
+  {
+   "zona": "UEe4/Ee4",
+   "pagina": 8,
+   "seccion": "Art. 38, Área E-e4: Edificación Especial N° 4, Parques Metropolitanos (Ordenanza de 1995) (zona de uso UEe4)",
+   "documento": "Plan Regulador Comunal de Las Condes, Res. N° 8/95 del Gobierno Regional Metropolitano, publicación del Diario Oficial de 13-06-1995 que entrega la Municipalidad (texto reconocido por OCR)",
+   "url": "https://archivos.lascondes.cl/descargas/transparencia/diario_oficial/2012/diario_oficial/D.O.8.30may1995.pdf",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Parque Metropolitano (Parque del Río Mapocho): rigen las condiciones de la Ordenanza del PRMS."
+    }
+   ]
+  },
+  {
+   "zona": "UEe5/Ee5",
+   "pagina": 8,
+   "seccion": "Art. 38, Área E-e5: Edificación Especial N° 5, Áreas de Interés Patrimonial (Ordenanza de 1995) (zona de uso UEe5)",
+   "documento": "Plan Regulador Comunal de Las Condes, Res. N° 8/95 del Gobierno Regional Metropolitano, publicación del Diario Oficial de 13-06-1995 que entrega la Municipalidad (texto reconocido por OCR)",
+   "url": "https://archivos.lascondes.cl/descargas/transparencia/diario_oficial/2012/diario_oficial/D.O.8.30may1995.pdf",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área de interés patrimonial (inmuebles del art. 34): las obras que afecten Monumentos Históricos o Zonas Típicas se rigen por la Ley N° 17.288 y las que afecten inmuebles o zonas de conservación histórica requieren autorización previa de la SEREMI MINVU (art. 60 LGUC)."
+    }
+   ]
+  },
+  {
+   "zona": "UM/EAb2",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UM)",
+   "superficie_predial_minima_m2_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_ocupacion_suelo": 0.4,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16067.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16068.jpg"
+   ],
+   "coef_constructibilidad_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa (Mod. N° 8; ampliaciones de viviendas unifamiliares: 0,8) («con excepción del polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa»)",
+   "altura_m_texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 20.0,
+   "incentivo_texto": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (5 pisos con altura máxima de 17,5 m; conjunto armónico 4 pisos y 14 m) o es de culto en el sector Francisco Bulnes Correa - San Francisco de Asís - El Alto - La Parroquia (20,0 m), según la Mod. N° 8: «los proyectos destinados a Culto deberán cumplir las siguientes normas»",
+   "incentivo_pagina": 0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Polígono A-B-C-D-E-F-A y culto (Mod. N° 8): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según plano de loteo; polígono A-B-C-D-E-F-A: 7 m; culto: 10 m (Mod. N° 8). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (Mod. N° 8): 1.000 m²; culto en el sector El Alto - La Parroquia: 2.500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Equipamiento de salud o educación entre Camino El Alba, Av. Plaza, Parque Quebrada Grande y Av. San Carlos de Apoquindo: hasta +0,3 (Mod. N° 8); culto en el sector El Alto - La Parroquia: 0,5."
+    }
+   ]
+  },
+  {
+   "zona": "UM/EAb4",
+   "pagina": 3,
+   "seccion": "Art. 38, 4. Área E-Ab4: edificación aislada baja N° 4 (zona de uso UM)",
+   "superficie_predial_minima_m2_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "coef_ocupacion_suelo": 0.12,
+   "coef_ocupacion_suelo_max": 0.3,
+   "coef_ocupacion_suelo_condicion": "el proyecto opta a la densificación de la tabla B) (financiamiento proporcional y ejecución de las obras del art. 39) («25 viv/há 2.500m² 0.8 0.3 0.5 60° 4 pisos»)",
+   "coef_constructibilidad_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "coef_constructibilidad": 0.12,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (0,8; obras del art. 39) o, con frente a calle Vital Apoquindo, incluye un equipamiento de al menos 1.000 m² edificados (1,2; Mod. N° 8) («podrá incrementarse la densidad a 40 viv/ha y el coeficiente de constructibilidad a 1.2»)",
+   "altura_m_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 17.5,
+   "incentivo_texto": "el proyecto es de equipamiento de educación, cultura o salud en un terreno de 5 ha o más del polígono Monseñor Álvaro del Portillo - Av. Plaza - Carlos Peña Otaegui - Pie Andino - San Carlos de Apoquindo (Mod. N° 7); la densificación de la tabla B) permite 4 pisos con altura máxima de 14 m: «con una altura máxima de 5 pisos y 17,50 mts.»",
+   "incentivo_pagina": 0,
+   "antejardin_m_documento": "Modificación N° 8 al PRC de Las Condes (D.A. N° 729, D.O. 28-01-2011), texto original de la BCN; el D.A. N° 1.022/2017 derogó la rectificación del D.A. N° 966/2014, salvo la corrección de fechas",
+   "antejardin_m_texto": "Edif. Colectivas: 10 m Edif. Individuales: 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 45,
+   "rasante_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tabla B): 60°."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Edificaciones colectivas: 10 m; individuales: OGUC (Mod. N° 8); densificación (tabla B): 11 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Edificaciones colectivas: 10 m (Mod. N° 8); densificación (tabla B): 10 m. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UM/EAb4p",
+   "pagina": 4,
+   "seccion": "Art. 38, 5. Área E-Ab4’: edificación aislada baja N° 4 prima (zona de uso UM)",
+   "superficie_predial_minima_m2_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "coef_ocupacion_suelo": 0.12,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el proyecto opta a la densificación de la tabla B) (estudio de factibilidad y obras del art. 39); tabla C): 0,3 («17 viv/há 600 m² 0.6 0.4 No se exige. 70° 3 pisos»)",
+   "coef_constructibilidad_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "coef_constructibilidad": 0.12,
+   "coef_constructibilidad_max": 0.8,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla C) (2.500 m²; estudio de factibilidad y obras del art. 39); tabla B): 0,6 («30 viv/há 2.500 m² 0.8 0.3 0.4 60° 4 pisos»)",
+   "altura_m_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla C) (4 pisos con altura máxima de 14 m): «30 viv/há 2.500 m² 0.8 0.3 0.4 60° 4 pisos con altura máxima de 14 m.»",
+   "incentivo_pagina": 4,
+   "pisos": 3,
+   "rasante_grados": 45,
+   "rasante_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Densificación: 70° (tabla B) y 60° (tabla C)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): 10 m; densificación: 5 m (tabla B) y 7 m (tabla C). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tablas A) y C): 11 m; tabla B): OGUC."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Densificación de la tabla B): 600 m² (los loteos pueden disminuirla hasta en 25%)."
+    }
+   ]
+  },
+  {
+   "zona": "UV/EAb1",
+   "pagina": 3,
+   "seccion": "Art. 38, 1. Área E-Ab1: edificación aislada baja N° 1 (zona de uso UV)",
+   "superficie_predial_minima_m2_texto": "10 viv/há 1.000 m² 0.6 0.4 60°",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "10 viv/há 1.000 m² 0.6 0.4 60°",
+   "coef_ocupacion_suelo": 0.4,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16066.jpg"
+   ],
+   "coef_constructibilidad_texto": "10 viv/há 1.000 m² 0.6 0.4 60°",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto se emplaza en el sector de la tabla C) (Charles Hamilton, San Francisco de Asís, Francisco Bulnes Correa y República de Honduras; Mod. N° 8) («e) Reemplázase la tabla C) por la siguiente:»)",
+   "altura_m_texto": "3 pisos con altura máxima de 10,5 m. Según loteo o mínimo de 5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 17.5,
+   "incentivo_texto": "el proyecto se emplaza en el sector de la tabla C) (Mod. N° 8: 5 pisos con altura máxima de 17,5 m; 4 pisos y 14 m para conjuntos armónicos que enfrentan Av. Charles Hamilton): «e) Reemplázase la tabla C) por la siguiente:»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Según loteo o mínimo de 5 m.",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "10 viv/há 1.000 m² 0.6 0.4 60°",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Viviendas colectivas (tabla B): 45°; los conjuntos de viviendas económicas de hasta 4 pisos y los loteos DFL-2 con construcción simultánea respetan 45° en los deslindes; sector de la tabla C (Mod. N° 8): 70°."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Viviendas colectivas (tabla B) y sector de la tabla C: 11 m a medianeros."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Viviendas colectivas (tabla B): 2.500 m²; sector de la tabla C (Mod. N° 8): 4.000 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Viviendas colectivas (tabla B): 0,2; sector de la tabla C (Mod. N° 8): 0,30."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Viviendas colectivas (tabla B) y sector de la tabla C: 10 m. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV/EAb2",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UV)",
+   "superficie_predial_minima_m2_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_ocupacion_suelo": 0.4,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16067.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16068.jpg"
+   ],
+   "coef_constructibilidad_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa (Mod. N° 8; ampliaciones de viviendas unifamiliares: 0,8) («con excepción del polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa»)",
+   "altura_m_texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 20.0,
+   "incentivo_texto": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (5 pisos con altura máxima de 17,5 m; conjunto armónico 4 pisos y 14 m) o es de culto en el sector Francisco Bulnes Correa - San Francisco de Asís - El Alto - La Parroquia (20,0 m), según la Mod. N° 8: «los proyectos destinados a Culto deberán cumplir las siguientes normas»",
+   "incentivo_pagina": 0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Polígono A-B-C-D-E-F-A y culto (Mod. N° 8): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según plano de loteo; polígono A-B-C-D-E-F-A: 7 m; culto: 10 m (Mod. N° 8). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (Mod. N° 8): 1.000 m²; culto en el sector El Alto - La Parroquia: 2.500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Equipamiento de salud o educación entre Camino El Alba, Av. Plaza, Parque Quebrada Grande y Av. San Carlos de Apoquindo: hasta +0,3 (Mod. N° 8); culto en el sector El Alto - La Parroquia: 0,5."
+    }
+   ]
+  },
+  {
+   "zona": "UV/EAb4",
+   "pagina": 3,
+   "seccion": "Art. 38, 4. Área E-Ab4: edificación aislada baja N° 4 (zona de uso UV)",
+   "superficie_predial_minima_m2_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "coef_ocupacion_suelo": 0.12,
+   "coef_ocupacion_suelo_max": 0.3,
+   "coef_ocupacion_suelo_condicion": "el proyecto opta a la densificación de la tabla B) (financiamiento proporcional y ejecución de las obras del art. 39) («25 viv/há 2.500m² 0.8 0.3 0.5 60° 4 pisos»)",
+   "coef_constructibilidad_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "coef_constructibilidad": 0.12,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (0,8; obras del art. 39) o, con frente a calle Vital Apoquindo, incluye un equipamiento de al menos 1.000 m² edificados (1,2; Mod. N° 8) («podrá incrementarse la densidad a 40 viv/ha y el coeficiente de constructibilidad a 1.2»)",
+   "altura_m_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 17.5,
+   "incentivo_texto": "el proyecto es de equipamiento de educación, cultura o salud en un terreno de 5 ha o más del polígono Monseñor Álvaro del Portillo - Av. Plaza - Carlos Peña Otaegui - Pie Andino - San Carlos de Apoquindo (Mod. N° 7); la densificación de la tabla B) permite 4 pisos con altura máxima de 14 m: «con una altura máxima de 5 pisos y 17,50 mts.»",
+   "incentivo_pagina": 0,
+   "antejardin_m_documento": "Modificación N° 8 al PRC de Las Condes (D.A. N° 729, D.O. 28-01-2011), texto original de la BCN; el D.A. N° 1.022/2017 derogó la rectificación del D.A. N° 966/2014, salvo la corrección de fechas",
+   "antejardin_m_texto": "Edif. Colectivas: 10 m Edif. Individuales: 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 45,
+   "rasante_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tabla B): 60°."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Edificaciones colectivas: 10 m; individuales: OGUC (Mod. N° 8); densificación (tabla B): 11 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Edificaciones colectivas: 10 m (Mod. N° 8); densificación (tabla B): 10 m. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV/EAb4p",
+   "pagina": 4,
+   "seccion": "Art. 38, 5. Área E-Ab4’: edificación aislada baja N° 4 prima (zona de uso UV)",
+   "superficie_predial_minima_m2_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "coef_ocupacion_suelo": 0.12,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el proyecto opta a la densificación de la tabla B) (estudio de factibilidad y obras del art. 39); tabla C): 0,3 («17 viv/há 600 m² 0.6 0.4 No se exige. 70° 3 pisos»)",
+   "coef_constructibilidad_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "coef_constructibilidad": 0.12,
+   "coef_constructibilidad_max": 0.8,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla C) (2.500 m²; estudio de factibilidad y obras del art. 39); tabla B): 0,6 («30 viv/há 2.500 m² 0.8 0.3 0.4 60° 4 pisos»)",
+   "altura_m_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla C) (4 pisos con altura máxima de 14 m): «30 viv/há 2.500 m² 0.8 0.3 0.4 60° 4 pisos con altura máxima de 14 m.»",
+   "incentivo_pagina": 4,
+   "pisos": 3,
+   "rasante_grados": 45,
+   "rasante_texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Densificación: 70° (tabla B) y 60° (tabla C)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): 10 m; densificación: 5 m (tabla B) y 7 m (tabla C). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tablas A) y C): 11 m; tabla B): OGUC."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Densificación de la tabla B): 600 m² (los loteos pueden disminuirla hasta en 25%)."
+    }
+   ]
+  },
+  {
+   "zona": "UV/EAm1",
+   "pagina": 4,
+   "seccion": "Art. 38, 6. Área E-Am1: edificación aislada media N° 1 (zona de uso UV)",
+   "superficie_predial_minima_m2_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (fuera del sector Lo Fontecilla) («90 Viv/Há. 800 m² 1.0 0.3 0.2 60° 4 pisos»)",
+   "altura_m_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) o, en el sector Lo Fontecilla, de la tabla C) (4 pisos con altura máxima de 14 m): «90 Viv/Há. 800 m² 1.0 0.3 0.2 60° 4 pisos con altura máxima de 14 m.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "90 Viv/Há. 800 m² 1.0 0.3 0.2 60°",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación: 6 m (tabla B); Lo Fontecilla: 11 m (tabla C) y 18 m al área Ee5 «Casa de Lo Fontecilla»."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Densificación: 800 m² (tabla B); sector Lo Fontecilla (tabla C): 4.000 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación: 0,3 (tabla B); sector Lo Fontecilla (tabla C): 0,35."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Densificación: 7 m (tabla B); sector Lo Fontecilla: 10 m (tabla C). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV/EAm1p",
+   "pagina": 4,
+   "seccion": "Art. 38, 7. Área E-Am1’: edificación aislada media N° 1 prima (zona de uso UV)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el proyecto de densificación se acoge a la tabla B) (4 pisos con altura máxima de 14 m); tabla C): 0,5; tabla D): 0,3 («----- 1.500m² 2.5 0.70 0.2 70° 4 pisos»)",
+   "coef_constructibilidad_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el proyecto de densificación se acoge a una de las tablas B), C) o D) (predio de 1.500 m²); en Av. Las Condes entre Estoril y Camino a Farellones: 1,8 («----- 1.500m² 2.5 0.70 0.2 70° 4 pisos»)",
+   "altura_m_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 24.5,
+   "incentivo_texto": "el proyecto de densificación se acoge a la tabla D) (7 pisos con altura máxima de 24,50 m; tabla B): 4 pisos y 14 m; tabla C): 5 pisos y 17,50 m): «----- 1.500m² 2.5 0.3 0.2 70° 7 pisos con altura máxima de 24.50 m.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "Plano loteo o mínimo 5 m.",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente Existente 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tablas B, C y D): 1.500 m²."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B, C y D): 70°."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación: 4 m (tabla B), 5 m (C) y 7 m (D); 18 m con predios del área E-Ab1 y 12 m con E-Ab2/E-Ab3 (en el deslinde de contrafrente, Mod. N° 8)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Densificación (tablas B, C y D): plano de loteo o 7 m. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV/Ee1",
+   "pagina": 8,
+   "seccion": "Art. 38, 16. Área E-e1: Edificación Especial N° 1, Equipamientos (zona de uso UV)",
+   "superficie_predial_minima_m2_texto": "libre 2500 m2 para equipamiento comercial y 10.000 m² para equipamiento cultural",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "1.4 0.6 0.3 60° 5 pisos o 17,50 m.",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "1.4 0.6 0.3 60° 5 pisos o 17,50 m.",
+   "coef_constructibilidad": 1.4,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el predio colinda con áreas E-Am o E-Aa sin deslindar con áreas de densidad baja o especial (tabla B; 2.500 m² frente a vías de al menos 70 m) («2.0 0.6 hasta los 14 metros y 0.4 sobre los 14 metros.»)",
+   "altura_m_texto": "1.4 0.6 0.3 60° 5 pisos o 17,50 m.",
+   "altura_m": 17.5,
+   "altura_incentivo_m": 52.5,
+   "incentivo_texto": "el predio colinda con áreas E-Am o E-Aa sin deslindar con áreas de densidad baja o especial (tabla B: 4 pisos o 14 m para la edificación continua y 15 pisos o 52,5 m para la aislada): «pisos o 52.5 metros para edificación aislada.»",
+   "incentivo_pagina": 8,
+   "antejardin_m_texto": "1.4 0.6 0.3 60° 5 pisos o 17,50 m. 10 m. 11 m.",
+   "antejardin_m": 10.0,
+   "pisos": 5,
+   "rasante_grados": 60,
+   "rasante_texto": "1.4 0.6 0.3 60° 5 pisos o 17,50 m.",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Tabla B): 70° sobre los 14 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 11 m; tabla B): 10 m."
+    },
+    {
+     "campo": "zona",
+     "texto": "Área de equipamientos individualizados (PRMS y comunales, art. 38 N° 16, con las listas que agregaron las Modificaciones N° 4 y N° 8); el Plano Seccional Centro Comercial Mall Plaza (D.A. N° 2.974/2007) detalla parte del área."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento cultural (letras A y C): 10.000 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Tabla B): 0,6 hasta los 14 m y 0,4 sobre los 14 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla B): 15 m para la edificación aislada; las edificaciones existentes se exceptúan del antejardín. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV/Ee3",
+   "pagina": 8,
+   "seccion": "Art. 38, Área E-e3: Edificación Especial N° 3, Parques Intercomunales (Ordenanza de 1995) (zona de uso UV)",
+   "documento": "Plan Regulador Comunal de Las Condes, Res. N° 8/95 del Gobierno Regional Metropolitano, publicación del Diario Oficial de 13-06-1995 que entrega la Municipalidad (texto reconocido por OCR)",
+   "url": "https://archivos.lascondes.cl/descargas/transparencia/diario_oficial/2012/diario_oficial/D.O.8.30may1995.pdf",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Parques intercomunales del PRMS (parques, cerros isla, parques quebrada y parques adyacentes a cauces o vías): rigen las condiciones de la Ordenanza del PRMS, con las normas complementarias del art. 38 para los parques."
+    }
+   ]
+  },
+  {
+   "zona": "UV1/EAa+ca",
+   "pagina": 7,
+   "seccion": "Art. 38, 15. Área E-Aa+ca: edificación aislada alta con continuidad alta (zona de uso UV1)",
+   "superficie_predial_minima_m2_texto": "libre. 1500 m² 2.5 para edifica- ción aislada 0.4 para edifica- ción ais- lada 0.2 70°",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "libre. 1500 m² 2.5 para edifica- ción aislada 0.4 para edifica- ción ais- lada 0.2 70°",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el proyecto se acoge a la tabla A) (4 pisos con un máximo de 14 m, Mod. N° 8) («------ Existente 2.5 0.7 0.3 70° 6 pisos»)",
+   "coef_constructibilidad_documento": "Modificación N° 8 al PRC de Las Condes (D.A. N° 729, D.O. 28-01-2011), texto original de la BCN; el D.A. N° 1.022/2017 derogó la rectificación del D.A. N° 966/2014, salvo la corrección de fechas",
+   "coef_constructibilidad_texto": "la expresión \"2.5\" por \"2.0\"",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el proyecto de densificación de vivienda o equipamiento se acoge a la tabla de la letra C) (ex tabla B) («libre. 1500 m² 2.5 para edifica- ción aislada 0.4 para edifica- ción ais- lada 0.2 70°»)",
+   "altura_m_texto": "y la altura máxima que será de 3 pisos o 10,50 metros",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 52.5,
+   "incentivo_texto": "el proyecto de densificación se acoge a la tabla de la letra C) (15 pisos y 52,5 m); la tabla A) permite 4 pisos con un máximo de 14 m (Mod. N° 8) y las viviendas nuevas, 3 pisos o 10,50 m: «libre. 1500 m² 2.5 para edifica- ción aislada 0.4 para edifica- ción ais- lada 0.2 70° sobre la edifica- ción continua 15 pisos con un máximo de 52.5»",
+   "incentivo_pagina": 8,
+   "antejardin_m_texto": "70° sobre la edifica- ción continua 15 pisos con un máximo de 52.5 metros de altura 7 m. 8 m.",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "------ Existente 2.5 0.7 0.3 70°",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 6 m (viviendas nuevas: OGUC); letra C): 8 m y 12 m a predios de E-Ab2 o E-Ab3."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): según plano de loteo (Mod. N° 8). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV1/EAa1",
+   "pagina": 6,
+   "seccion": "Art. 38, 10. Área E-Aa1: edificación aislada alta N° 1 (zona de uso UV1)",
+   "coef_ocupacion_suelo_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de vivienda de la tabla C) (equipamiento, tabla B): 1,8) («240 viv/há. 1.500 m² 2.0 0.3 0.3 70° 15 pisos»)",
+   "altura_m_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (equipamiento, 12 pisos) o C) (vivienda, 15 pisos), con un máximo de 42 m: «------ 1.500 m² 1.8 0.3 0.3 70° 12 pisos con un máximo de 42 metros de altura.»",
+   "incentivo_pagina": 6,
+   "antejardin_m_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura 7 m. 6 m.",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "Existente. Existente. 1.0 0.4 No se exige. 70°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tablas B y C): 1.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 6 m; densificación: 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tablas B y C): 0,3."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV1/EAa2",
+   "pagina": 6,
+   "seccion": "Art. 38, 11. Área E-Aa2: edificación aislada alta N° 2 (zona de uso UV1)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) («220 Viv/há. 1.500 m² 2.0 0.3 0.5 70° 15 pisos»)",
+   "altura_m_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 52.5,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (15 pisos con un máximo de 52,5 m): «220 Viv/há. 1.500 m² 2.0 0.3 0.5 70° 15 pisos con un máximo de 52.5 metros de altura.»",
+   "incentivo_pagina": 6,
+   "antejardin_m_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura 7 m. 6 m.",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "Existente Existente 1.0 0.4 No se exige. 70°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tabla B): 1.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 6 m; densificación: 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tabla B): 0,3."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV1/EAb1",
+   "pagina": 3,
+   "seccion": "Art. 38, 1. Área E-Ab1: edificación aislada baja N° 1 (zona de uso UV1)",
+   "superficie_predial_minima_m2_texto": "10 viv/há 1.000 m² 0.6 0.4 60°",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "10 viv/há 1.000 m² 0.6 0.4 60°",
+   "coef_ocupacion_suelo": 0.4,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16066.jpg"
+   ],
+   "coef_constructibilidad_texto": "10 viv/há 1.000 m² 0.6 0.4 60°",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto se emplaza en el sector de la tabla C) (Charles Hamilton, San Francisco de Asís, Francisco Bulnes Correa y República de Honduras; Mod. N° 8) («e) Reemplázase la tabla C) por la siguiente:»)",
+   "altura_m_texto": "3 pisos con altura máxima de 10,5 m. Según loteo o mínimo de 5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 17.5,
+   "incentivo_texto": "el proyecto se emplaza en el sector de la tabla C) (Mod. N° 8: 5 pisos con altura máxima de 17,5 m; 4 pisos y 14 m para conjuntos armónicos que enfrentan Av. Charles Hamilton): «e) Reemplázase la tabla C) por la siguiente:»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Según loteo o mínimo de 5 m.",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "10 viv/há 1.000 m² 0.6 0.4 60°",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Viviendas colectivas (tabla B): 45°; los conjuntos de viviendas económicas de hasta 4 pisos y los loteos DFL-2 con construcción simultánea respetan 45° en los deslindes; sector de la tabla C (Mod. N° 8): 70°."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Viviendas colectivas (tabla B) y sector de la tabla C: 11 m a medianeros."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Viviendas colectivas (tabla B): 2.500 m²; sector de la tabla C (Mod. N° 8): 4.000 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Viviendas colectivas (tabla B): 0,2; sector de la tabla C (Mod. N° 8): 0,30."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Viviendas colectivas (tabla B) y sector de la tabla C: 10 m. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV1/EAb2",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UV1)",
+   "superficie_predial_minima_m2_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_ocupacion_suelo": 0.4,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16067.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16068.jpg"
+   ],
+   "coef_constructibilidad_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa (Mod. N° 8; ampliaciones de viviendas unifamiliares: 0,8) («con excepción del polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa»)",
+   "altura_m_texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 20.0,
+   "incentivo_texto": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (5 pisos con altura máxima de 17,5 m; conjunto armónico 4 pisos y 14 m) o es de culto en el sector Francisco Bulnes Correa - San Francisco de Asís - El Alto - La Parroquia (20,0 m), según la Mod. N° 8: «los proyectos destinados a Culto deberán cumplir las siguientes normas»",
+   "incentivo_pagina": 0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Polígono A-B-C-D-E-F-A y culto (Mod. N° 8): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según plano de loteo; polígono A-B-C-D-E-F-A: 7 m; culto: 10 m (Mod. N° 8). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (Mod. N° 8): 1.000 m²; culto en el sector El Alto - La Parroquia: 2.500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Equipamiento de salud o educación entre Camino El Alba, Av. Plaza, Parque Quebrada Grande y Av. San Carlos de Apoquindo: hasta +0,3 (Mod. N° 8); culto en el sector El Alto - La Parroquia: 0,5."
+    }
+   ]
+  },
+  {
+   "zona": "UV1/EAb3",
+   "pagina": 3,
+   "seccion": "Art. 38, 3. Área E-Ab3: edificación aislada baja N° 3 (zona de uso UV1)",
+   "superficie_predial_minima_m2_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según plano de loteo. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV1/EAm1",
+   "pagina": 4,
+   "seccion": "Art. 38, 6. Área E-Am1: edificación aislada media N° 1 (zona de uso UV1)",
+   "superficie_predial_minima_m2_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (fuera del sector Lo Fontecilla) («90 Viv/Há. 800 m² 1.0 0.3 0.2 60° 4 pisos»)",
+   "altura_m_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) o, en el sector Lo Fontecilla, de la tabla C) (4 pisos con altura máxima de 14 m): «90 Viv/Há. 800 m² 1.0 0.3 0.2 60° 4 pisos con altura máxima de 14 m.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "90 Viv/Há. 800 m² 1.0 0.3 0.2 60°",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación: 6 m (tabla B); Lo Fontecilla: 11 m (tabla C) y 18 m al área Ee5 «Casa de Lo Fontecilla»."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Densificación: 800 m² (tabla B); sector Lo Fontecilla (tabla C): 4.000 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación: 0,3 (tabla B); sector Lo Fontecilla (tabla C): 0,35."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Densificación: 7 m (tabla B); sector Lo Fontecilla: 10 m (tabla C). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV1/EAm1p",
+   "pagina": 4,
+   "seccion": "Art. 38, 7. Área E-Am1’: edificación aislada media N° 1 prima (zona de uso UV1)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el proyecto de densificación se acoge a la tabla B) (4 pisos con altura máxima de 14 m); tabla C): 0,5; tabla D): 0,3 («----- 1.500m² 2.5 0.70 0.2 70° 4 pisos»)",
+   "coef_constructibilidad_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el proyecto de densificación se acoge a una de las tablas B), C) o D) (predio de 1.500 m²); en Av. Las Condes entre Estoril y Camino a Farellones: 1,8 («----- 1.500m² 2.5 0.70 0.2 70° 4 pisos»)",
+   "altura_m_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 24.5,
+   "incentivo_texto": "el proyecto de densificación se acoge a la tabla D) (7 pisos con altura máxima de 24,50 m; tabla B): 4 pisos y 14 m; tabla C): 5 pisos y 17,50 m): «----- 1.500m² 2.5 0.3 0.2 70° 7 pisos con altura máxima de 24.50 m.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "Plano loteo o mínimo 5 m.",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente Existente 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tablas B, C y D): 1.500 m²."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B, C y D): 70°."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación: 4 m (tabla B), 5 m (C) y 7 m (D); 18 m con predios del área E-Ab1 y 12 m con E-Ab2/E-Ab3 (en el deslinde de contrafrente, Mod. N° 8)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Densificación (tablas B, C y D): plano de loteo o 7 m. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV1/EAm2",
+   "pagina": 5,
+   "seccion": "Art. 38, 8. Área E-Am2: edificación aislada media N° 2 (zona de uso UV1)",
+   "coef_ocupacion_suelo_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) o es de viviendas sociales en el polígono de la tabla C) («160 viv/há 1.500m² 1.6 0.3 0.4 70° 7 pisos»)",
+   "altura_m_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 25.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (7 pisos con altura máxima de 20 m) o, si es de servicios en un predio de al menos 2.000 m², 7 pisos o 25,0 m: «160 viv/há 1.500m² 1.6 0.3 0.4 70° 7 pisos con altura máxima de 20 m. … máxima de 7 pisos o 25,0 metros y un antejardín mínimo de 10,0 metros»",
+   "incentivo_pagina": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente. Existente. 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación: 1.500 m² (tabla B) y 2.500 m² (viviendas sociales, tabla C, y polígono Cuarto Centenario - La Goleta - Los Pozos)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B y C): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): plano de loteo; densificación: 7 m (servicios en predios de 2.000 m² o más: 10 m; 15 m por calle La Goleta en su polígono). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación (tabla B): 7 m; 12 m en el deslinde de contrafrente con predios de E-Ab2 o E-Ab3 (Mod. N° 8)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tabla B): 0,3; viviendas sociales (tabla C): 0,4."
+    }
+   ]
+  },
+  {
+   "zona": "UV1/EAm4",
+   "pagina": 5,
+   "seccion": "Art. 38, 9. Área E-Am4: edificación aislada media N° 4 (zona de uso UV1)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el proyecto de uso no residencial está en el Sector Visviri, en zona UC1 o UC2, con altura máxima de 14,0 m y cumple las condiciones de accesos y franja de jardines del artículo («podrán incrementar su coeficiente de ocupación de suelo hasta un 60%»)",
+   "coef_constructibilidad_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (1,8) o, en el Sector Hermanos Cabot, abarca una manzana completa y se acoge a la tabla C) (2,0) («240 viv/há 1.500 m² 1.8 0.4 0.4 70° 9 pisos … 200 viv/há 2.0 0.25 0.5 70° 13 pisos»)",
+   "altura_m_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10.5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (9 pisos y 31,5 m) o, en el Sector Los Militares o con frente a Av. Padre Hurtado en el Sector Visviri, 12 pisos y 42,0 m: «240 viv/há 1.500 m² 1.8 0.4 0.4 70° 9 pisos con un máximo de 31.5 metros de altura … a una altura máxima de 12 pisos con un máximo de 42,0 metros»",
+   "incentivo_pagina": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente Existente 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Sector Visviri: 7 pisos o 25,0 m en calle Visviri y 7 pisos o 24,5 m en Manuel Claro Vial; Sector Hermanos Cabot (tabla C): 13 pisos con frente a Hermanos Cabot y 7 pisos hacia Av. Presidente Riesco; Cerro San Luis: hasta la cota 690,50 m.s.n.m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tabla B): 1.500 m²."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B y C): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): plano de loteo; densificación: 7 m; Hermanos Cabot: 10 m por esa calle y 25 m por Av. Presidente Riesco. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación (tabla B): 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Sector Hermanos Cabot (tabla C): 0,25; Cerro San Luis: 0,1 (Mod. N° 8)."
+    }
+   ]
+  },
+  {
+   "zona": "UV2/EAa1",
+   "pagina": 6,
+   "seccion": "Art. 38, 10. Área E-Aa1: edificación aislada alta N° 1 (zona de uso UV2)",
+   "coef_ocupacion_suelo_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de vivienda de la tabla C) (equipamiento, tabla B): 1,8) («240 viv/há. 1.500 m² 2.0 0.3 0.3 70° 15 pisos»)",
+   "altura_m_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (equipamiento, 12 pisos) o C) (vivienda, 15 pisos), con un máximo de 42 m: «------ 1.500 m² 1.8 0.3 0.3 70° 12 pisos con un máximo de 42 metros de altura.»",
+   "incentivo_pagina": 6,
+   "antejardin_m_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura 7 m. 6 m.",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "Existente. Existente. 1.0 0.4 No se exige. 70°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tablas B y C): 1.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 6 m; densificación: 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tablas B y C): 0,3."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV2/EAa2",
+   "pagina": 6,
+   "seccion": "Art. 38, 11. Área E-Aa2: edificación aislada alta N° 2 (zona de uso UV2)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) («220 Viv/há. 1.500 m² 2.0 0.3 0.5 70° 15 pisos»)",
+   "altura_m_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 52.5,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (15 pisos con un máximo de 52,5 m): «220 Viv/há. 1.500 m² 2.0 0.3 0.5 70° 15 pisos con un máximo de 52.5 metros de altura.»",
+   "incentivo_pagina": 6,
+   "antejardin_m_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura 7 m. 6 m.",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "Existente Existente 1.0 0.4 No se exige. 70°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tabla B): 1.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 6 m; densificación: 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tabla B): 0,3."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV2/EAb2",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UV2)",
+   "superficie_predial_minima_m2_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_ocupacion_suelo": 0.4,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16067.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16068.jpg"
+   ],
+   "coef_constructibilidad_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa (Mod. N° 8; ampliaciones de viviendas unifamiliares: 0,8) («con excepción del polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa»)",
+   "altura_m_texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 20.0,
+   "incentivo_texto": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (5 pisos con altura máxima de 17,5 m; conjunto armónico 4 pisos y 14 m) o es de culto en el sector Francisco Bulnes Correa - San Francisco de Asís - El Alto - La Parroquia (20,0 m), según la Mod. N° 8: «los proyectos destinados a Culto deberán cumplir las siguientes normas»",
+   "incentivo_pagina": 0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Polígono A-B-C-D-E-F-A y culto (Mod. N° 8): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según plano de loteo; polígono A-B-C-D-E-F-A: 7 m; culto: 10 m (Mod. N° 8). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (Mod. N° 8): 1.000 m²; culto en el sector El Alto - La Parroquia: 2.500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Equipamiento de salud o educación entre Camino El Alba, Av. Plaza, Parque Quebrada Grande y Av. San Carlos de Apoquindo: hasta +0,3 (Mod. N° 8); culto en el sector El Alto - La Parroquia: 0,5."
+    }
+   ]
+  },
+  {
+   "zona": "UV2/EAm1",
+   "pagina": 4,
+   "seccion": "Art. 38, 6. Área E-Am1: edificación aislada media N° 1 (zona de uso UV2)",
+   "superficie_predial_minima_m2_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (fuera del sector Lo Fontecilla) («90 Viv/Há. 800 m² 1.0 0.3 0.2 60° 4 pisos»)",
+   "altura_m_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) o, en el sector Lo Fontecilla, de la tabla C) (4 pisos con altura máxima de 14 m): «90 Viv/Há. 800 m² 1.0 0.3 0.2 60° 4 pisos con altura máxima de 14 m.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "90 Viv/Há. 800 m² 1.0 0.3 0.2 60°",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación: 6 m (tabla B); Lo Fontecilla: 11 m (tabla C) y 18 m al área Ee5 «Casa de Lo Fontecilla»."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Densificación: 800 m² (tabla B); sector Lo Fontecilla (tabla C): 4.000 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación: 0,3 (tabla B); sector Lo Fontecilla (tabla C): 0,35."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Densificación: 7 m (tabla B); sector Lo Fontecilla: 10 m (tabla C). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV2/EAm2",
+   "pagina": 5,
+   "seccion": "Art. 38, 8. Área E-Am2: edificación aislada media N° 2 (zona de uso UV2)",
+   "coef_ocupacion_suelo_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) o es de viviendas sociales en el polígono de la tabla C) («160 viv/há 1.500m² 1.6 0.3 0.4 70° 7 pisos»)",
+   "altura_m_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 25.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (7 pisos con altura máxima de 20 m) o, si es de servicios en un predio de al menos 2.000 m², 7 pisos o 25,0 m: «160 viv/há 1.500m² 1.6 0.3 0.4 70° 7 pisos con altura máxima de 20 m. … máxima de 7 pisos o 25,0 metros y un antejardín mínimo de 10,0 metros»",
+   "incentivo_pagina": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente. Existente. 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación: 1.500 m² (tabla B) y 2.500 m² (viviendas sociales, tabla C, y polígono Cuarto Centenario - La Goleta - Los Pozos)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B y C): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): plano de loteo; densificación: 7 m (servicios en predios de 2.000 m² o más: 10 m; 15 m por calle La Goleta en su polígono). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación (tabla B): 7 m; 12 m en el deslinde de contrafrente con predios de E-Ab2 o E-Ab3 (Mod. N° 8)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tabla B): 0,3; viviendas sociales (tabla C): 0,4."
+    }
+   ]
+  },
+  {
+   "zona": "UV2/EAm4",
+   "pagina": 5,
+   "seccion": "Art. 38, 9. Área E-Am4: edificación aislada media N° 4 (zona de uso UV2)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el proyecto de uso no residencial está en el Sector Visviri, en zona UC1 o UC2, con altura máxima de 14,0 m y cumple las condiciones de accesos y franja de jardines del artículo («podrán incrementar su coeficiente de ocupación de suelo hasta un 60%»)",
+   "coef_constructibilidad_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (1,8) o, en el Sector Hermanos Cabot, abarca una manzana completa y se acoge a la tabla C) (2,0) («240 viv/há 1.500 m² 1.8 0.4 0.4 70° 9 pisos … 200 viv/há 2.0 0.25 0.5 70° 13 pisos»)",
+   "altura_m_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10.5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (9 pisos y 31,5 m) o, en el Sector Los Militares o con frente a Av. Padre Hurtado en el Sector Visviri, 12 pisos y 42,0 m: «240 viv/há 1.500 m² 1.8 0.4 0.4 70° 9 pisos con un máximo de 31.5 metros de altura … a una altura máxima de 12 pisos con un máximo de 42,0 metros»",
+   "incentivo_pagina": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente Existente 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Sector Visviri: 7 pisos o 25,0 m en calle Visviri y 7 pisos o 24,5 m en Manuel Claro Vial; Sector Hermanos Cabot (tabla C): 13 pisos con frente a Hermanos Cabot y 7 pisos hacia Av. Presidente Riesco; Cerro San Luis: hasta la cota 690,50 m.s.n.m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tabla B): 1.500 m²."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B y C): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): plano de loteo; densificación: 7 m; Hermanos Cabot: 10 m por esa calle y 25 m por Av. Presidente Riesco. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación (tabla B): 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Sector Hermanos Cabot (tabla C): 0,25; Cerro San Luis: 0,1 (Mod. N° 8)."
+    }
+   ]
+  },
+  {
+   "zona": "UV3/EAa1",
+   "pagina": 6,
+   "seccion": "Art. 38, 10. Área E-Aa1: edificación aislada alta N° 1 (zona de uso UV3)",
+   "coef_ocupacion_suelo_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de vivienda de la tabla C) (equipamiento, tabla B): 1,8) («240 viv/há. 1.500 m² 2.0 0.3 0.3 70° 15 pisos»)",
+   "altura_m_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (equipamiento, 12 pisos) o C) (vivienda, 15 pisos), con un máximo de 42 m: «------ 1.500 m² 1.8 0.3 0.3 70° 12 pisos con un máximo de 42 metros de altura.»",
+   "incentivo_pagina": 6,
+   "antejardin_m_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura 7 m. 6 m.",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "Existente. Existente. 1.0 0.4 No se exige. 70°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tablas B y C): 1.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 6 m; densificación: 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tablas B y C): 0,3."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV3/EAb2",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UV3)",
+   "superficie_predial_minima_m2_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_ocupacion_suelo": 0.4,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16067.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/16068.jpg"
+   ],
+   "coef_constructibilidad_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa (Mod. N° 8; ampliaciones de viviendas unifamiliares: 0,8) («con excepción del polígono A-B-C-D-E-F-A que enfrenta Av. Francisco Bulnes Correa»)",
+   "altura_m_texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 20.0,
+   "incentivo_texto": "el proyecto se emplaza en el polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (5 pisos con altura máxima de 17,5 m; conjunto armónico 4 pisos y 14 m) o es de culto en el sector Francisco Bulnes Correa - San Francisco de Asís - El Alto - La Parroquia (20,0 m), según la Mod. N° 8: «los proyectos destinados a Culto deberán cumplir las siguientes normas»",
+   "incentivo_pagina": 0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "40 viv/há 500 m² 0.6 0.4 60°",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Polígono A-B-C-D-E-F-A y culto (Mod. N° 8): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según plano de loteo; polígono A-B-C-D-E-F-A: 7 m; culto: 10 m (Mod. N° 8). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Polígono A-B-C-D-E-F-A de Av. Francisco Bulnes Correa (Mod. N° 8): 1.000 m²; culto en el sector El Alto - La Parroquia: 2.500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Equipamiento de salud o educación entre Camino El Alba, Av. Plaza, Parque Quebrada Grande y Av. San Carlos de Apoquindo: hasta +0,3 (Mod. N° 8); culto en el sector El Alto - La Parroquia: 0,5."
+    }
+   ]
+  },
+  {
+   "zona": "UV3/EAm1",
+   "pagina": 4,
+   "seccion": "Art. 38, 6. Área E-Am1: edificación aislada media N° 1 (zona de uso UV3)",
+   "superficie_predial_minima_m2_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (fuera del sector Lo Fontecilla) («90 Viv/Há. 800 m² 1.0 0.3 0.2 60° 4 pisos»)",
+   "altura_m_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) o, en el sector Lo Fontecilla, de la tabla C) (4 pisos con altura máxima de 14 m): «90 Viv/Há. 800 m² 1.0 0.3 0.2 60° 4 pisos con altura máxima de 14 m.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "90 Viv/Há. 800 m² 1.0 0.3 0.2 60°",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación: 6 m (tabla B); Lo Fontecilla: 11 m (tabla C) y 18 m al área Ee5 «Casa de Lo Fontecilla»."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Densificación: 800 m² (tabla B); sector Lo Fontecilla (tabla C): 4.000 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación: 0,3 (tabla B); sector Lo Fontecilla (tabla C): 0,35."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Densificación: 7 m (tabla B); sector Lo Fontecilla: 10 m (tabla C). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UV3/EAm4",
+   "pagina": 5,
+   "seccion": "Art. 38, 9. Área E-Am4: edificación aislada media N° 4 (zona de uso UV3)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el proyecto de uso no residencial está en el Sector Visviri, en zona UC1 o UC2, con altura máxima de 14,0 m y cumple las condiciones de accesos y franja de jardines del artículo («podrán incrementar su coeficiente de ocupación de suelo hasta un 60%»)",
+   "coef_constructibilidad_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (1,8) o, en el Sector Hermanos Cabot, abarca una manzana completa y se acoge a la tabla C) (2,0) («240 viv/há 1.500 m² 1.8 0.4 0.4 70° 9 pisos … 200 viv/há 2.0 0.25 0.5 70° 13 pisos»)",
+   "altura_m_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10.5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (9 pisos y 31,5 m) o, en el Sector Los Militares o con frente a Av. Padre Hurtado en el Sector Visviri, 12 pisos y 42,0 m: «240 viv/há 1.500 m² 1.8 0.4 0.4 70° 9 pisos con un máximo de 31.5 metros de altura … a una altura máxima de 12 pisos con un máximo de 42,0 metros»",
+   "incentivo_pagina": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente Existente 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Sector Visviri: 7 pisos o 25,0 m en calle Visviri y 7 pisos o 24,5 m en Manuel Claro Vial; Sector Hermanos Cabot (tabla C): 13 pisos con frente a Hermanos Cabot y 7 pisos hacia Av. Presidente Riesco; Cerro San Luis: hasta la cota 690,50 m.s.n.m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tabla B): 1.500 m²."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B y C): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): plano de loteo; densificación: 7 m; Hermanos Cabot: 10 m por esa calle y 25 m por Av. Presidente Riesco. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación (tabla B): 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Sector Hermanos Cabot (tabla C): 0,25; Cerro San Luis: 0,1 (Mod. N° 8)."
+    }
+   ]
+  },
+  {
+   "zona": "UV3/Ee5",
+   "pagina": 8,
+   "seccion": "Art. 38, Área E-e5: Edificación Especial N° 5, Áreas de Interés Patrimonial (Ordenanza de 1995) (zona de uso UV3)",
+   "documento": "Plan Regulador Comunal de Las Condes, Res. N° 8/95 del Gobierno Regional Metropolitano, publicación del Diario Oficial de 13-06-1995 que entrega la Municipalidad (texto reconocido por OCR)",
+   "url": "https://archivos.lascondes.cl/descargas/transparencia/diario_oficial/2012/diario_oficial/D.O.8.30may1995.pdf",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área de interés patrimonial (inmuebles del art. 34): las obras que afecten Monumentos Históricos o Zonas Típicas se rigen por la Ley N° 17.288 y las que afecten inmuebles o zonas de conservación histórica requieren autorización previa de la SEREMI MINVU (art. 60 LGUC)."
+    }
+   ]
+  },
+  {
+   "zona": "UVO/EAa1",
+   "pagina": 6,
+   "seccion": "Art. 38, 10. Área E-Aa1: edificación aislada alta N° 1 (zona de uso UVO)",
+   "coef_ocupacion_suelo_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de vivienda de la tabla C) (equipamiento, tabla B): 1,8) («240 viv/há. 1.500 m² 2.0 0.3 0.3 70° 15 pisos»)",
+   "altura_m_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (equipamiento, 12 pisos) o C) (vivienda, 15 pisos), con un máximo de 42 m: «------ 1.500 m² 1.8 0.3 0.3 70° 12 pisos con un máximo de 42 metros de altura.»",
+   "incentivo_pagina": 6,
+   "antejardin_m_texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura 7 m. 6 m.",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "Existente. Existente. 1.0 0.4 No se exige. 70°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tablas B y C): 1.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 6 m; densificación: 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tablas B y C): 0,3."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UVO/EAa2",
+   "pagina": 6,
+   "seccion": "Art. 38, 11. Área E-Aa2: edificación aislada alta N° 2 (zona de uso UVO)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) («220 Viv/há. 1.500 m² 2.0 0.3 0.5 70° 15 pisos»)",
+   "altura_m_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 52.5,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (15 pisos con un máximo de 52,5 m): «220 Viv/há. 1.500 m² 2.0 0.3 0.5 70° 15 pisos con un máximo de 52.5 metros de altura.»",
+   "incentivo_pagina": 6,
+   "antejardin_m_texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura 7 m. 6 m.",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "Existente Existente 1.0 0.4 No se exige. 70°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tabla B): 1.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Tabla A): 6 m; densificación: 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tabla B): 0,3."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UVO/EAm1p",
+   "pagina": 4,
+   "seccion": "Art. 38, 7. Área E-Am1’: edificación aislada media N° 1 prima (zona de uso UVO)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el proyecto de densificación se acoge a la tabla B) (4 pisos con altura máxima de 14 m); tabla C): 0,5; tabla D): 0,3 («----- 1.500m² 2.5 0.70 0.2 70° 4 pisos»)",
+   "coef_constructibilidad_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el proyecto de densificación se acoge a una de las tablas B), C) o D) (predio de 1.500 m²); en Av. Las Condes entre Estoril y Camino a Farellones: 1,8 («----- 1.500m² 2.5 0.70 0.2 70° 4 pisos»)",
+   "altura_m_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 24.5,
+   "incentivo_texto": "el proyecto de densificación se acoge a la tabla D) (7 pisos con altura máxima de 24,50 m; tabla B): 4 pisos y 14 m; tabla C): 5 pisos y 17,50 m): «----- 1.500m² 2.5 0.3 0.2 70° 7 pisos con altura máxima de 24.50 m.»",
+   "incentivo_pagina": 4,
+   "antejardin_m_texto": "Plano loteo o mínimo 5 m.",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente Existente 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tablas B, C y D): 1.500 m²."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B, C y D): 70°."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación: 4 m (tabla B), 5 m (C) y 7 m (D); 18 m con predios del área E-Ab1 y 12 m con E-Ab2/E-Ab3 (en el deslinde de contrafrente, Mod. N° 8)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Densificación (tablas B, C y D): plano de loteo o 7 m. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    }
+   ]
+  },
+  {
+   "zona": "UVO/EAm2",
+   "pagina": 5,
+   "seccion": "Art. 38, 8. Área E-Am2: edificación aislada media N° 2 (zona de uso UVO)",
+   "coef_ocupacion_suelo_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) o es de viviendas sociales en el polígono de la tabla C) («160 viv/há 1.500m² 1.6 0.3 0.4 70° 7 pisos»)",
+   "altura_m_texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 25.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (7 pisos con altura máxima de 20 m) o, si es de servicios en un predio de al menos 2.000 m², 7 pisos o 25,0 m: «160 viv/há 1.500m² 1.6 0.3 0.4 70° 7 pisos con altura máxima de 20 m. … máxima de 7 pisos o 25,0 metros y un antejardín mínimo de 10,0 metros»",
+   "incentivo_pagina": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente. Existente. 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación: 1.500 m² (tabla B) y 2.500 m² (viviendas sociales, tabla C, y polígono Cuarto Centenario - La Goleta - Los Pozos)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B y C): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): plano de loteo; densificación: 7 m (servicios en predios de 2.000 m² o más: 10 m; 15 m por calle La Goleta en su polígono). Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación (tabla B): 7 m; 12 m en el deslinde de contrafrente con predios de E-Ab2 o E-Ab3 (Mod. N° 8)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Densificación (tabla B): 0,3; viviendas sociales (tabla C): 0,4."
+    }
+   ]
+  },
+  {
+   "zona": "UVO/EAm4",
+   "pagina": 5,
+   "seccion": "Art. 38, 9. Área E-Am4: edificación aislada media N° 4 (zona de uso UVO)",
+   "coef_ocupacion_suelo_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el proyecto de uso no residencial está en el Sector Visviri, en zona UC1 o UC2, con altura máxima de 14,0 m y cumple las condiciones de accesos y franja de jardines del artículo («podrán incrementar su coeficiente de ocupación de suelo hasta un 60%»)",
+   "coef_constructibilidad_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto opta a la densificación de la tabla B) (1,8) o, en el Sector Hermanos Cabot, abarca una manzana completa y se acoge a la tabla C) (2,0) («240 viv/há 1.500 m² 1.8 0.4 0.4 70° 9 pisos … 200 viv/há 2.0 0.25 0.5 70° 13 pisos»)",
+   "altura_m_texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10.5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el proyecto opta a la densificación de la tabla B) (9 pisos y 31,5 m) o, en el Sector Los Militares o con frente a Av. Padre Hurtado en el Sector Visviri, 12 pisos y 42,0 m: «240 viv/há 1.500 m² 1.8 0.4 0.4 70° 9 pisos con un máximo de 31.5 metros de altura … a una altura máxima de 12 pisos con un máximo de 42,0 metros»",
+   "incentivo_pagina": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Existente Existente 0.6 0.4 No se exige. 60°",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Sector Visviri: 7 pisos o 25,0 m en calle Visviri y 7 pisos o 24,5 m en Manuel Claro Vial; Sector Hermanos Cabot (tabla C): 13 pisos con frente a Hermanos Cabot y 7 pisos hacia Av. Presidente Riesco; Cerro San Luis: hasta la cota 690,50 m.s.n.m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Tabla A): predio existente; densificación (tabla B): 1.500 m²."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Densificación (tablas B y C): 70°."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Tabla A): plano de loteo; densificación: 7 m; Hermanos Cabot: 10 m por esa calle y 25 m por Av. Presidente Riesco. Mod. N° 8 (art. 38, inciso 2°): los antejardines de las tablas son variables y se incrementan en las calles del cuadro del artículo (de 0,25 m a 5 m según la calle y el costado)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Densificación (tabla B): 8 m."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Art. 38, inciso 1° (Mod. N° 8): los proyectos de densificación con tendido subterráneo del cableado aéreo pueden incrementar la constructibilidad hasta en un 10%."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Sector Hermanos Cabot (tabla C): 0,25; Cerro San Luis: 0,1 (Mod. N° 8)."
+    }
+   ]
+  }
+ ]
+}

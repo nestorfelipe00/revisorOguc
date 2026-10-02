@@ -1,0 +1,2087 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Puerto Montt (Res. afecta N° 124 del Gobierno Regional de Los Lagos, D.O. 12-11-2009), texto que incorpora la Enmienda publicada en el D.O. el 25-10-2016, publicado por la Municipalidad de Puerto Montt (SECPLAN, versión 2024)",
+ "url": "https://www.puertomontt.cl/wp-content/uploads/2024/12/1.4.2.-Ordenanza-Local-incorpora-enmienda.pdf",
+ "sha256": "0dbc22395d433075b6510a1e2e40a080231ccd980af7776ff44b756dc8ab0d06",
+ "documentos_adicionales": {
+  "e2016": {
+   "documento": "Enmienda al Plan Regulador Comunal de Puerto Montt, Decreto exento N° 13.945 del 22-09-2016 (D.O. 25-10-2016, CVE 1127350): 62 alteraciones a los cuadros de los Arts. 33, 36 y 38",
+   "url": "https://www.puertomontt.cl/wp-content/uploads/2022/06/Publicacion-D.O.-Enmienda-2016.pdf",
+   "sha256": "cb09a47dfee9cd21e240bbdba12cce74255d05511b107d5d137d10e18b407016"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "C",
+   "pagina": 43,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 1. CENTRO / C",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 250 m2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 1",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 8",
+   "coef_constructibilidad": 8,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO No se exige.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 21 m., profundidad máxima 100%.; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Art. 19.1 (sector Centro): las edificaciones aisladas de más de 12 m o 4 pisos, y las aisladas sobre edificación continua, deben distanciarse 7,5 m de los medianeros; la aplicación verifica la tabla de la OGUC."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "CC",
+   "pagina": 44,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 2. CENTRO CÍVICO / CC",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 250 m2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 1",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 8",
+   "coef_constructibilidad": 8,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 14 m., profundidad máxima 100%; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El cuadro no fija antejardín."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Art. 19.1 (sector Centro): las edificaciones aisladas de más de 12 m o 4 pisos, y las aisladas sobre edificación continua, deben distanciarse 7,5 m de los medianeros; la aplicación verifica la tabla de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "CB-1",
+   "pagina": 45,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 3. CENTRO BORDE 1 / CB-1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5",
+   "coef_constructibilidad": 5,
+   "altura_m_texto": "ALTURA MÁXIMA 33 m",
+   "altura_m": 33,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO No se exige.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y Continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 9m., profundidad máxima 70% medido desde Av. Costanera.; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Art. 19.1 (sector Centro): las edificaciones aisladas de más de 12 m o 4 pisos, y las aisladas sobre edificación continua, deben distanciarse 7,5 m de los medianeros; la aplicación verifica la tabla de la OGUC."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "CB-2",
+   "pagina": 46,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 4. CENTRO BORDE 2 / CB-2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 250 m2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 1",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 8",
+   "coef_constructibilidad": 8,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO No se exige.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y Continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 21m., profundidad máxima 100%; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Art. 19.1 (sector Centro): las edificaciones aisladas de más de 12 m o 4 pisos, y las aisladas sobre edificación continua, deben distanciarse 7,5 m de los medianeros; la aplicación verifica la tabla de la OGUC."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "CB-3",
+   "pagina": 47,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 5. CENTRO BORDE 3 / CB-3",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 1200 m2",
+   "superficie_predial_minima_m2": 1200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 8",
+   "coef_constructibilidad": 8,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5m para edificación aislada.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y Continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 18 m., profundidad máxima 80% medido desde Av. España.; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Art. 19.1 (sector Centro): las edificaciones aisladas de más de 12 m o 4 pisos, y las aisladas sobre edificación continua, deben distanciarse 7,5 m de los medianeros; la aplicación verifica la tabla de la OGUC."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «5m para edificación aislada.»."
+    }
+   ]
+  },
+  {
+   "zona": "PC",
+   "pagina": 48,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 6. PERICENTRO / PC",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 250 m2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.9",
+   "coef_ocupacion_suelo": 0.9,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "ALTURA MÁXIMA 21 m",
+   "altura_m": 21,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO No se exige.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, pareado y continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva y el Equipamiento de clase Educación sólo se permitirá en predios de un mínimo de 500m2."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10,5 m., profundidad máxima 60%; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Art. 20.1 (Pericentro): las edificaciones aisladas de más de 10,5 m o 3 pisos deben distanciarse 5 m de los medianeros, y las de más de 21 m o 6 pisos con incentivos, 7,5 m; la aplicación verifica la tabla de la OGUC."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "ZEM",
+   "pagina": 49,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 7. ZONA DE EQUIPAMIENTO METROPOLITANO / ZEM",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2.5 Vivienda Colectiva. 5 otros usos.",
+   "coef_constructibilidad": 2.5,
+   "coef_constructibilidad_max": 5,
+   "coef_constructibilidad_condicion": "según el destino (2.5 Vivienda Colectiva. 5 otros usos.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 2.5 Vivienda Colectiva. 5 otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5m para edificación aislada.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo se permitirá en predios de un mínimo de 1000m2."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10,5 m., profundidad máxima 80%; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «5m para edificación aislada.»."
+    }
+   ]
+  },
+  {
+   "zona": "ZEU",
+   "pagina": 50,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 8. ZONA DE EQUIPAMIENTO URBANO / ZEU",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "ALTURA MÁXIMA 14 m",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5m para edificación aislada.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10,5 m., profundidad máxima 70%; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «5m para edificación aislada.»."
+    }
+   ]
+  },
+  {
+   "zona": "SC-1",
+   "pagina": 51,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 9. SUBCENTRO 1 / SC - 1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.6 Vivienda Unifamiliar y otros usos. 0.5 Vivienda Colectiva.",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0.6 Vivienda Unifamiliar y otros usos. 0.5 Vivienda Colectiva.); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0.6 Vivienda Unifamiliar y otros usos. 0.5 Vivienda Colectiva.»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.8 Vivienda Unifamiliar. 2.5 Vivienda Colectiva y otros usos.",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "según el destino (0.8 Vivienda Unifamiliar. 2.5 Vivienda Colectiva y otros usos.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 0.8 Vivienda Unifamiliar. 2.5 Vivienda Colectiva y otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo se permitirá en predios de un mínimo de 1000m2."
+    }
+   ]
+  },
+  {
+   "zona": "SC-2",
+   "pagina": 52,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 10. SUBCENTRO 2 / SC - 2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 180 m2",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.6 Unifamiliar y otros usos. 0.5 Vivienda Colectiva.",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0.6 Unifamiliar y otros usos. 0.5 Vivienda Colectiva.); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0.6 Unifamiliar y otros usos. 0.5 Vivienda Colectiva.»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1 Vivienda Unifamiliar. 3 Vivienda Colectiva y otros usos.",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "según el destino (1 Vivienda Unifamiliar. 3 Vivienda Colectiva y otros usos.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 1 Vivienda Unifamiliar. 3 Vivienda Colectiva y otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA 21 m",
+   "altura_m": 21,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3m para edificación aislada y pareada.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, pareado y continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo se permitirá en predios de un mínimo de 560 m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: Otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 300 m2."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10,5 m., profundidad máxima 60%; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «3m para edificación aislada y pareada.»."
+    }
+   ]
+  },
+  {
+   "zona": "SC-3",
+   "pagina": 53,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 11. SUBCENTRO 3 / SC -3",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.8 Vivienda Unifamiliar. 3 Vivienda Colectiva y otros usos.",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "según el destino (0.8 Vivienda Unifamiliar. 3 Vivienda Colectiva y otros usos.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 0.8 Vivienda Unifamiliar. 3 Vivienda Colectiva y otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo se permitirá en predios de un mínimo de 1000m2."
+    }
+   ]
+  },
+  {
+   "zona": "R1",
+   "pagina": 54,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 12. ZONA RESIDENCIAL 1 / R1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 180 m2",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.9 Vivienda Unifamiliar.",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.9,
+   "coef_ocupacion_suelo_condicion": "según el destino (0.9 Vivienda Unifamiliar. 0.7 Vivienda Colectiva y otros usos.); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0.9 Vivienda Unifamiliar.»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1,5 3 frente a vías estructurantes.",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "frente a vías estructurantes («COEFICIENTE DE CONSTRUCTIBILIDAD 1,5 3 frente a vías estructurantes.»)",
+   "altura_m_texto": "ALTURA MÁXIMA 15 m",
+   "altura_m": 15,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO No se exige.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo se permitirá en predios de un mínimo de 420 m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: OGUC)9 Otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 210 m2."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "R2-A",
+   "pagina": 55,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 13. ZONA RESIDENCIAL 2-A / R2-A",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.8 Vivienda Unifamiliar. 2 Vivienda Colectiva. 1.5 otros usos.",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "según el destino (0.8 Vivienda Unifamiliar. 2 Vivienda Colectiva. 1.5 otros usos.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 0.8 Vivienda Unifamiliar. 2 Vivienda Colectiva. 1.5 otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA 12 m",
+   "altura_m": 12,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 2m.",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo podrá ubicarse frente a vías de al menos 15m y sólo se permitirá en predios de un mínimo de 2500 m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: Otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 700m2."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "R2-B",
+   "pagina": 56,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 14. ZONA RESIDENCIAL 2-B / R2-B",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7 Vivienda Unifamiliar y otros usos. 0.5 Vivienda Colectiva.",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (0.7 Vivienda Unifamiliar y otros usos. 0.5 Vivienda Colectiva.); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0.7 Vivienda Unifamiliar y otros usos. 0.5 Vivienda Colectiva.»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1 Vivienda Unifamiliar y otros usos. 2 Vivienda Colectiva.",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "según el destino (1 Vivienda Unifamiliar y otros usos. 2 Vivienda Colectiva.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 1 Vivienda Unifamiliar y otros usos. 2 Vivienda Colectiva.»)",
+   "altura_m_texto": "ALTURA MÁXIMA 12 m",
+   "altura_m": 12,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 2 m.",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo podrá ubicarse frente a vías de al menos 15m y sólo se permitirá en predios de un mínimo de 1000m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: Otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 280m2."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "R2-C",
+   "pagina": 57,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 15. ZONA RESIDENCIAL 2-C / R2-C",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 150 m2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,7 Vivienda Unifamiliar y otros usos. 0.5 Vivienda Colectiva.",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,7 Vivienda Unifamiliar y otros usos. 0.5 Vivienda Colectiva.); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,7 Vivienda Unifamiliar y otros usos. 0.5 Vivienda Colectiva.»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1 Vivienda Unifamiliar. 3 Vivienda Colectiva. 2 otros usos.",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "según el destino (1 Vivienda Unifamiliar. 3 Vivienda Colectiva. 2 otros usos.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 1 Vivienda Unifamiliar. 3 Vivienda Colectiva. 2 otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA 18m",
+   "altura_m": 18,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3m para edificaciones de más de 14m de altura.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, pareado y continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo podrá ubicarse frente a vías de al menos 15m y sólo se permitirá en predios de un mínimo de 560 m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: OGUC)19 Otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 210 m2."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 9 m., profundidad máxima 70%; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «3m para edificaciones de más de 14m de altura. Otras edificaciones:No se exige.»."
+    }
+   ]
+  },
+  {
+   "zona": "R2-D",
+   "pagina": 58,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 16. ZONA RESIDENCIAL 2-D / R2-D",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 250 m2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.8 Vivienda Unifamiliar. 2 Vivienda Colectiva y otros usos.",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "según el destino (0.8 Vivienda Unifamiliar. 2 Vivienda Colectiva y otros usos.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 0.8 Vivienda Unifamiliar. 2 Vivienda Colectiva y otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 2m.",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo podrá ubicarse frente a vías de al menos 15m y sólo se permitirá en predios de un mínimo de 1000m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: Otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 700m2."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «2m. 5m para edificaciones de más de 14m de altura.»."
+    }
+   ]
+  },
+  {
+   "zona": "R3",
+   "pagina": 59,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 17. ZONA RESIDENCIAL 3 / R3",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 25 0 m2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.8 Vivienda Unifamiliar. 3 Vivienda Colectiva y otros usos.",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "según el destino (0.8 Vivienda Unifamiliar. 3 Vivienda Colectiva y otros usos.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 0.8 Vivienda Unifamiliar. 3 Vivienda Colectiva y otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO No se exige.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo podrá ubicarse frente a vías de al menos 15m y sólo se permitirá en predios de un mínimo de 1000m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: al Residencial sólo se permitirán en predios de un mínimo de 700m2."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «No se exige. 5m para edificaciones de más de 14m de altura.»."
+    }
+   ]
+  },
+  {
+   "zona": "R4",
+   "pagina": 60,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 18. ZONA RESIDENCIAL 4 / R4",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.8 Vivienda Unifamiliar. 2 Vivienda Colectiva y otros usos.",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "según el destino (0.8 Vivienda Unifamiliar. 2 Vivienda Colectiva y otros usos.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 0.8 Vivienda Unifamiliar. 2 Vivienda Colectiva y otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 2m.",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo podrá ubicarse frente a vías de al menos 15m y sólo se permitirá en predios de un mínimo de 1000m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: Otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 700m2."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «2m. 5m para edificaciones de más de 14m de altura.»."
+    }
+   ]
+  },
+  {
+   "zona": "AP-1",
+   "pagina": 61,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 19. ACTIVIDADES PRODUCTIVAS 1 / AP-1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 1000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.65",
+   "coef_ocupacion_suelo": 0.65,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "AP-2",
+   "pagina": 62,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 20. ACTIVIDADES PRODUCTIVAS 2 / AP-2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.65",
+   "coef_ocupacion_suelo": 0.65,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "AP-3",
+   "pagina": 63,
+   "seccion": "Art. 36 de la Ordenanza Local, ficha 21. ACTIVIDADES PRODUCTIVAS 3 / AP-3",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 1000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.65",
+   "coef_ocupacion_suelo": 0.65,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "ZEUC-1",
+   "pagina": 64,
+   "seccion": "Art. 37 de la Ordenanza Local, ficha USOS DE SUELO PERMITIDOS ZEUC-1 / ZEUC-2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.2Residencial. 0.4 otros usos.",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "proyecto de loteo aprobado con las condiciones del Art. 37 (ficha propia de la zona: 0.6 Vivienda Unifamiliar. 0.4 Vivienda Colectiva. 0.7 otros usos.); mientras no exista, rige el cuadro común (0.2Residencial. 0.4 otros usos.) («COEFICIENTE DE OCUPACIÓN DE SUELO 0.6 Vivienda Unifamiliar. 0.4 Vivienda Colectiva. 0.7 otros usos.»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.4 Residencial. 0.8 otros usos.",
+   "coef_constructibilidad": 0.4,
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "proyecto de loteo aprobado con las condiciones del Art. 37 (ficha propia de la zona: 1 Vivienda Unifamiliar. 2 Vivienda Colectiva y otros usos.); mientras no exista, rige el cuadro común (0.4 Residencial. 0.8 otros usos.) («COEFICIENTE DE CONSTRUCTIBILIDAD 1 Vivienda Unifamiliar. 2 Vivienda Colectiva y otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 8 m",
+   "antejardin_m": 8,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo se permitirá en predios de un mínimo de 2500m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: Otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 1000m2."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Con proyecto de loteo aprobado (Art. 37) rige la ficha propia: antejardín «3m Vivienda Unifamiliar. 5m para edificaciones de más de 18m de altura.», superficie «350 m2.»."
+    }
+   ]
+  },
+  {
+   "zona": "ZEUC-2",
+   "pagina": 64,
+   "seccion": "Art. 37 de la Ordenanza Local, ficha USOS DE SUELO PERMITIDOS ZEUC-1 / ZEUC-2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.2Residencial. 0.4 otros usos.",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "proyecto de loteo aprobado con las condiciones del Art. 37 (ficha propia de la zona: 0.6 Vivienda Unifamiliar. 0.4 Vivienda Colectiva. 0.5 otros usos.); mientras no exista, rige el cuadro común (0.2Residencial. 0.4 otros usos.) («COEFICIENTE DE OCUPACIÓN DE SUELO 0.6 Vivienda Unifamiliar. 0.4 Vivienda Colectiva. 0.5 otros usos.»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.4 Residencial. 0.8 otros usos.",
+   "coef_constructibilidad": 0.4,
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "proyecto de loteo aprobado con las condiciones del Art. 37 (ficha propia de la zona: 1 Vivienda Unifamiliar. 2 Vivienda Colectiva y otros usos.); mientras no exista, rige el cuadro común (0.4 Residencial. 0.8 otros usos.) («COEFICIENTE DE CONSTRUCTIBILIDAD 1 Vivienda Unifamiliar. 2 Vivienda Colectiva y otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 8 m",
+   "antejardin_m": 8,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo se permitirá en predios de un mínimo de 2500m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: Otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 1000m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo se permitirá en predios de un mínimo de 2500m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: Otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 1000m2."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Con proyecto de loteo aprobado (Art. 37) rige la ficha propia: antejardín «3 m. 5m para edificaciones de más de 18m de altura.», superficie «250 m2»."
+    }
+   ]
+  },
+  {
+   "zona": "ZEUI-1",
+   "pagina": 69,
+   "seccion": "Art. 37 de la Ordenanza Local, ficha USOS DE SUELO PERMITIDOS ZEUI-1 / ZEUI-2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 10 m.",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Con proyecto de loteo aprobado (Art. 37) rige la ficha propia: antejardín «10 m.», superficie «1000 m2.»."
+    }
+   ]
+  },
+  {
+   "zona": "ZEUI-2",
+   "pagina": 69,
+   "seccion": "Art. 37 de la Ordenanza Local, ficha USOS DE SUELO PERMITIDOS ZEUI-1 / ZEUI-2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 10 m.",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    }
+   ]
+  },
+  {
+   "zona": "BC-1",
+   "pagina": 74,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 26. BORDE COSTERO 1 / BC-1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 1000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA 7m",
+   "altura_m": 7,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    }
+   ]
+  },
+  {
+   "zona": "BC-2",
+   "pagina": 75,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 27. BORDE COSTERO 2 / BC-2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 1000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA 7m",
+   "altura_m": 7,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    }
+   ]
+  },
+  {
+   "zona": "BC-3",
+   "pagina": 76,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 28. BORDE COSTERO 3 / BC-3",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 1000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    }
+   ]
+  },
+  {
+   "zona": "BC-4",
+   "pagina": 77,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 29. BORDE COSTERO 4 / BC-4",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 1000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA 7m",
+   "altura_m": 7,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    }
+   ]
+  },
+  {
+   "zona": "B",
+   "pagina": 78,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 30. BALNEARIOS / B",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de Balnearios: solo áreas verdes públicas de balneario, sin cuadro de condiciones de edificación; kioscos e instalaciones sanitarias con permisos provisorios de la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "CAL",
+   "pagina": 78,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 31. CALETAS / CAL",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de Caletas: solo caleta, mercados, restaurantes y recintos portuarios, sin cuadro de condiciones de edificación; las obras se presentan como anteproyecto a la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "ZOIT-1",
+   "pagina": 79,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 32. ISLA TENGLO 1 / ZOIT-1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.6 Vivienda Unifamiliar. 1.5 Vivienda Colectiva.",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (0.6 Vivienda Unifamiliar. 1.5 Vivienda Colectiva.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 0.6 Vivienda Unifamiliar. 1.5 Vivienda Colectiva.»)",
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    }
+   ]
+  },
+  {
+   "zona": "ZOIT-2",
+   "pagina": 80,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 33. ISLA TENGLO 2 / ZOIT-2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1 Vivienda Unifamiliar. 1.5 Vivienda Colectiva y otros usos.",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (1 Vivienda Unifamiliar. 1.5 Vivienda Colectiva y otros usos.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 1 Vivienda Unifamiliar. 1.5 Vivienda Colectiva y otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA 9 m",
+   "altura_m": 9,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    }
+   ]
+  },
+  {
+   "zona": "ZOIT-3",
+   "pagina": 81,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 34. ISLA TENGLO 3 / ZOIT-3",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.25",
+   "coef_ocupacion_suelo": 0.25,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "ALTURA MÁXIMA 14 m",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 8m.",
+   "antejardin_m": 8,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    }
+   ]
+  },
+  {
+   "zona": "ZOIT-4",
+   "pagina": 82,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 35. ANGELMÓ / ZOIT-4",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 250 m2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2.5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, pareado, continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 9m., profundidad máxima 60%; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El cuadro no fija antejardín."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH",
+   "pagina": 83,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 36. Zona de Conservación Histórica / ZCH",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de Conservación Histórica: sin cuadro de condiciones de edificación; los edificios existentes no pueden demolerse ni refaccionarse sin autorización de la SEREMI de Vivienda y Urbanismo (Arts. 25 y 26 de la Ordenanza Local)."
+    }
+   ]
+  },
+  {
+   "zona": "RE-1",
+   "pagina": 84,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 37. ZONA RESIDENCIAL EXISTENTE 1 / RE-1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 350 m2",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.9 Vivienda Unifamiliar.",
+   "coef_ocupacion_suelo": 0.65,
+   "coef_ocupacion_suelo_max": 0.9,
+   "coef_ocupacion_suelo_condicion": "según el destino (0.9 Vivienda Unifamiliar. 0.65 Vivienda Colectiva y otros usos.); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0.9 Vivienda Unifamiliar.»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1 Vivienda Unifamiliar. 2 Vivienda Colectiva y otros usos.",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "según el destino (1 Vivienda Unifamiliar. 2 Vivienda Colectiva y otros usos.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 1 Vivienda Unifamiliar. 2 Vivienda Colectiva y otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA 12 m",
+   "altura_m": 12,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO Edificaciones frente a pasajes : 2m. Otras edificaciones: No se exige.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva y otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 700m2."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «Edificaciones frente a pasajes : 2m. Otras edificaciones: No se exige.»."
+    }
+   ]
+  },
+  {
+   "zona": "RE-2",
+   "pagina": 85,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 38. ZONA RESIDENCIAL EXISTENTE 2 / RE-2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 700 m2",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 2m .",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "RE-3",
+   "pagina": 86,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 39. ZONA RESIDENCIAL EXISTENTE 3 / RE-3",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 150 m2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.9",
+   "coef_ocupacion_suelo": 0.9,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO No se exige",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva y otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 350m2."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "RE-4",
+   "pagina": 87,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 40. ZONA RESIDENCIAL EXISTENTE 4 / RE-4",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 150 m2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.9",
+   "coef_ocupacion_suelo": 0.9,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO Frente a la Avda. Chinquihue: 2m. 56 Otras edificaciones : No se exige.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva y otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 350m2."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «Frente a la Avda. Chinquihue: 2m. 56 Otras edificaciones : No se exige.»."
+    }
+   ]
+  },
+  {
+   "zona": "AV",
+   "pagina": 88,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 41. ZONA DE ÁREAS VERDES / AV",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.05",
+   "coef_constructibilidad": 0.05,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3 m.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "PU",
+   "pagina": 89,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 42. ZONA DE PARQUE URBANO / PU",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "ALTURA MÁXIMA 12 m",
+   "altura_m": 12,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 10 m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "D",
+   "pagina": 90,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 43. ZONA DE EQUIPAMIENTO DEPORTIVO / D",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA 12m",
+   "altura_m": 12,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "BN",
+   "pagina": 91,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 44. ZONA DE BOSQUE NATIVO / BN",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "ALTURA MÁXIMA 12 m",
+   "altura_m": 12,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 15 m.",
+   "antejardin_m": 15,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    }
+   ]
+  },
+  {
+   "zona": "CN",
+   "pagina": 92,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 45. FUENTES Y CAUCES NATURALES / CN",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2.500m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0,05",
+   "coef_constructibilidad": 0.05,
+   "altura_m_texto": "ALTURA MÁXIMA 7m",
+   "altura_m": 7,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3m.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "L-1",
+   "pagina": 93,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 46. ZONA L-1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1.75",
+   "coef_constructibilidad": 1.75,
+   "altura_m_texto": "ALTURA MÁXIMA Según normas especiales.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Normas especiales: la altura máxima será de 6 m o 2 pisos sobre la cota superior de la ladera cuando ésta se encuentre entre la zona Centro (C) y cualquier otra zona."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "L-2",
+   "pagina": 94,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 47. ZONA L-2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.9",
+   "coef_constructibilidad": 0.9,
+   "altura_m_texto": "ALTURA MÁXIMA 10,5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3 m.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cifras alteradas por la Enmienda de 2016 (Decreto exento N° 13.945, D.O. 25-10-2016), marcadas en el cuadro con «PRC 2016»."
+    }
+   ]
+  },
+  {
+   "zona": "L-3",
+   "pagina": 94,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 48. ZONA L-3",
+   "coef_ocupacion_suelo_texto": "Esta zona es una zona de riesgo no edificable.",
+   "coef_ocupacion_suelo": 0,
+   "coef_constructibilidad_texto": "Esta zona es una zona de riesgo no edificable.",
+   "coef_constructibilidad": 0,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona L-3: zona de riesgo no edificable (Art. 38); coeficientes 0."
+    }
+   ]
+  },
+  {
+   "zona": "AI-1",
+   "pagina": 95,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 49. Seguridad / AI-1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "ALTURA MÁXIMA 14 m",
+   "altura_m": 14,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El cuadro no fija antejardín."
+    },
+    {
+     "campo": "zona",
+     "texto": "La zona puede variar sus normas para la totalidad de la zona (30 % de áreas verdes y estudios del Art. 38): superficie de subdivisión predial mínima 1000 m2.; antejardín mínimo 8 m.; coeficiente de ocupación de suelo 0.5; coeficiente de constructibilidad 1; altura máxima Según rasantes.."
+    }
+   ]
+  },
+  {
+   "zona": "AI-2",
+   "pagina": 97,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 50. Cementerios / AI-2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.25",
+   "coef_ocupacion_suelo": 0.25,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.5",
+   "coef_constructibilidad": 0.5,
+   "altura_m_texto": "ALTURA MÁXIMA 14 m",
+   "altura_m": 14,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El cuadro no fija antejardín."
+    }
+   ]
+  },
+  {
+   "zona": "AI-3",
+   "pagina": 98,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 51. Reserva de Equipamiento / AI-3",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 10m.",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva y el Equipamiento de clase Educación sólo se permitirá en predios de un mínimo de 500m2."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    },
+    {
+     "campo": "zona",
+     "texto": "La zona puede variar sus normas para la totalidad de la zona (30 % de áreas verdes y estudios del Art. 38): superficie de subdivisión predial mínima 250 m2.; antejardín mínimo 3m Vivienda Unifamiliar en edificación aislada y pareada. 5m Vivienda Colectiva y Equipamiento de clase educación en edificación aislada y pareada.; coeficiente de ocupación de suelo 0.7; coeficiente de constructibilidad 3; altura máxima 21 m.."
+    }
+   ]
+  },
+  {
+   "zona": "RI-1",
+   "pagina": 100,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 52. Infraestructura de Comunicaciones / RI-1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 180 m2",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7 Vivienda Unifamiliar. 0.6 Vivienda Colectiva y otros usos.",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (0.7 Vivienda Unifamiliar. 0.6 Vivienda Colectiva y otros usos.); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0.7 Vivienda Unifamiliar. 0.6 Vivienda Colectiva y otros usos.»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1,5 / 3 frente a vías estructurantes.",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "frente a vías estructurantes («COEFICIENTE DE CONSTRUCTIBILIDAD 1,5 / 3 frente a vías estructurantes.»)",
+   "altura_m_texto": "ALTURA MÁXIMA 15 m",
+   "altura_m": 15,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3m.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo se permitirá en predios de un mínimo de 600m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: Otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 300m2."
+    },
+    {
+     "campo": "zona",
+     "texto": "El régimen base de la zona admite solo la infraestructura indicada en sus usos de suelo, sin cuadro de condiciones de edificación; las cifras corresponden a la variación de normas para la totalidad de la zona, condicionada a destinar el 30 % de su superficie a áreas verdes y a los estudios que indica el Art. 38."
+    }
+   ]
+  },
+  {
+   "zona": "RI-2",
+   "pagina": 102,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 53. Subestaciones y Líneas de Alta Tensión / RI-2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2.5 Vivienda Colectiva. 5 otros usos.",
+   "coef_constructibilidad": 2.5,
+   "coef_constructibilidad_max": 5,
+   "coef_constructibilidad_condicion": "según el destino (2.5 Vivienda Colectiva. 5 otros usos.); la base es la cifra más estricta («COEFICIENTE DE CONSTRUCTIBILIDAD 2.5 Vivienda Colectiva. 5 otros usos.»)",
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5m para edificación aislada.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo se permitirá en predios de un mínimo de 1000m2."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10,5 m., profundidad máxima 80%; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "zona",
+     "texto": "El régimen base de la zona admite solo la infraestructura indicada en sus usos de suelo, sin cuadro de condiciones de edificación; las cifras corresponden a la variación de normas para la totalidad de la zona, condicionada a destinar el 30 % de su superficie a áreas verdes y a los estudios que indica el Art. 38."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «5m para edificación aislada.»."
+    }
+   ]
+  },
+  {
+   "zona": "RI-3",
+   "pagina": 104,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 54. Infraestructura Sanitaria / RI-3",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "ALTURA MÁXIMA 14 m",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5m para edificación aislada.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10,5 m., profundidad máxima 70%; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "zona",
+     "texto": "El régimen base de la zona admite solo la infraestructura indicada en sus usos de suelo, sin cuadro de condiciones de edificación; las cifras corresponden a la variación de normas para la totalidad de la zona, condicionada a destinar el 30 % de su superficie a áreas verdes y a los estudios que indica el Art. 38."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «5m para edificación aislada.»."
+    }
+   ]
+  },
+  {
+   "zona": "RI-4",
+   "pagina": 106,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 55. Recintos Portuarios / RI-4",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "ALTURA MÁXIMA 14 m",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5m para edificación aislada.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10,5 m., profundidad máxima 70%; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "zona",
+     "texto": "El régimen base de la zona admite solo la infraestructura indicada en sus usos de suelo, sin cuadro de condiciones de edificación; las cifras corresponden a la variación de normas para la totalidad de la zona, condicionada a destinar el 30 % de su superficie a áreas verdes y a los estudios que indica el Art. 38."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «5m para edificación aislada.»."
+    }
+   ]
+  },
+  {
+   "zona": "RI-5",
+   "pagina": 107,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 56. Transporte Rodoviario / RI-5",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "ALTURA MÁXIMA Según rasantes.",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 15 m.; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El cuadro no fija antejardín."
+    },
+    {
+     "campo": "zona",
+     "texto": "La zona puede variar sus normas para la totalidad de la zona (30 % de áreas verdes y estudios del Art. 38): superficie de subdivisión predial mínima 500 m2.; antejardín mínimo 5m para edificación aislada.; coeficiente de ocupación de suelo 0.7; coeficiente de constructibilidad 2; altura máxima 14 m.."
+    }
+   ]
+  },
+  {
+   "zona": "RI-6",
+   "pagina": 109,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 57. Aeródromos / RI-6",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 180 m2",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7 Vivienda Unifamiliar. 0.6 Vivienda Colectiva y otros usos.",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (0.7 Vivienda Unifamiliar. 0.6 Vivienda Colectiva y otros usos.); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0.7 Vivienda Unifamiliar. 0.6 Vivienda Colectiva y otros usos.»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1,5 / 3 frente a vías estructurantes.",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "frente a vías estructurantes («COEFICIENTE DE CONSTRUCTIBILIDAD 1,5 / 3 frente a vías estructurantes.»)",
+   "altura_m_texto": "ALTURA MÁXIMA 15 m",
+   "altura_m": 15,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 3m.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: NORMAS ESPECIALES La Vivienda Colectiva sólo se permitirá en predios de un mínimo de 600m2."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Normas especiales de uso de suelo: Otros usos distintos al Residencial sólo se permitirán en predios de un mínimo de 300m2."
+    },
+    {
+     "campo": "zona",
+     "texto": "El régimen base de la zona admite solo la infraestructura indicada en sus usos de suelo, sin cuadro de condiciones de edificación; las cifras corresponden a la variación de normas para la totalidad de la zona, condicionada a destinar el 30 % de su superficie a áreas verdes y a los estudios que indica el Art. 38."
+    }
+   ]
+  },
+  {
+   "zona": "RI-7",
+   "pagina": 110,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 58. Transporte Ferroviario / RI-7",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "ALTURA MÁXIMA 14 m",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5m para edificación aislada.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10,5 m., profundidad máxima 70%; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "zona",
+     "texto": "El régimen base de la zona admite solo la infraestructura indicada en sus usos de suelo, sin cuadro de condiciones de edificación; las cifras corresponden a la variación de normas para la totalidad de la zona, condicionada a destinar el 30 % de su superficie a áreas verdes y a los estudios que indica el Art. 38."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «5m para edificación aislada.»."
+    }
+   ]
+  },
+  {
+   "zona": "RI-8",
+   "pagina": 111,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 59. Infraestructura Energética y de Transporte / RI-8",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.6",
+   "coef_constructibilidad": 0.6,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 20m.",
+   "antejardin_m": 20,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "El cuadro no fija altura máxima de edificación."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido.»."
+    },
+    {
+     "campo": "zona",
+     "texto": "La zona puede variar sus normas para la totalidad de la zona (30 % de áreas verdes y estudios del Art. 38): superficie de subdivisión predial mínima 1000 m2.; antejardín mínimo 10 m.; coeficiente de ocupación de suelo 0.5; coeficiente de constructibilidad 1; altura máxima Según rasantes.."
+    }
+   ]
+  },
+  {
+   "zona": "IE",
+   "pagina": 113,
+   "seccion": "Art. 38 de la Ordenanza Local, ficha 60. Infraestructuras Evacuadas / IE",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE DE SUBDIVISIÓN PREDIAL MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "ALTURA MÁXIMA 14 m",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDÍN MÍNIMO 5m para edificación aislada.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local consolidada publicada por la Municipalidad de Puerto Montt (2024); la BCN no tiene los cuadros y la publicación del Diario Oficial de 2009 no está disponible en línea: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10,5 m., profundidad máxima 70%; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "zona",
+     "texto": "En la zona IE solo se admiten proyectos si cumplen las condiciones del Art. 38 (evaluación ambiental, informe de calidad del subsuelo, 30 % de áreas verdes privadas)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del caso: «5m para edificación aislada.»."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Maipú (D.A. N° 6.383, D.O. 13-11-2004), decreto y ordenanza publicados por la Municipalidad de Maipú",
+ "url": "https://www.transparenciamaipu.cl/wp-content/uploads/2022/08/1_Decreto_y_Ordenanza_PRC_Maipu.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "ZC-1",
+   "altura_m": 24,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 24 m",
+   "pagina": 17,
+   "seccion": "Art. 34, ZC-1 Centro Cívico",
+   "nota": null
+  },
+  {
+   "zona": "ZC-2",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "Para la zona \"ZC 2 Centro Comercial\", en cuadro de \"condiciones de edificación y subdivisión\", en la condición \"Altura de edificación máxima (m)\" en \"Edificación continua y aislada sobre continua\" modifíquese lo existente por \"4 pisos o 12 metros\"",
+   "pagina": 18,
+   "seccion": "Art. 34, ZC-2 Centro Comercial",
+   "nota": null
+  },
+  {
+   "zona": "ZC-3",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 9 10,5 Libre según rasantes",
+   "pagina": 19,
+   "seccion": "Art. 34, ZC-3 Mixta Comercio y Servicios",
+   "nota": null
+  },
+  {
+   "zona": "ZC-4",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 9 Li bre según rasante Libre según rasante",
+   "pagina": 20,
+   "seccion": "Art. 34, ZC-4 Mixta Equipamiento y Vivienda (Ex FISA)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 10,5 10,5",
+   "pagina": 21,
+   "seccion": "Art. 34, ZH-1 Habitacional 1 (Santa Ana de Chena)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-2",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 9 10,5 12",
+   "pagina": 22,
+   "seccion": "Art. 34, ZH-2 Habitacional 2 (Extensión El Abrazo – Sector Fundo El Bosque)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-3",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 9 10,5 12",
+   "pagina": 24,
+   "seccion": "Art. 34, ZH-3 Habitacional 3 (El Abrazo – Ciudad Satélite)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-4",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 9 9 12",
+   "pagina": 25,
+   "seccion": "Art. 34, ZH-4 Habitacional 4 (Maipú Centro Oriente)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-5",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 15 10,5 12",
+   "pagina": 26,
+   "seccion": "Art. 34, ZH-5 Habitacional 5 (Maipú Centro Antiguo)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-6",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 9 9 12",
+   "pagina": 27,
+   "seccion": "Art. 34, ZH-6 Habitacional 6 (Maipú Norte – Sector Villas Pehuén)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-7",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 9 12 9 12",
+   "pagina": 28,
+   "seccion": "Art. 34, ZH-7 Habitacional 7 (Maipú Poniente)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-8",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 9 Libre según rasantes Libre según rasantes",
+   "pagina": 29,
+   "seccion": "Art. 34, ZH-8 Habitacional 8 (Corredores de Densidad Alta: Av. Américo Vespucio y Av.",
+   "nota": null
+  },
+  {
+   "zona": "ZH-9",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 9 9 14",
+   "pagina": 30,
+   "seccion": "Art. 34, ZH-9 Habitacional 9 (El Porvenir)",
+   "nota": null
+  },
+  {
+   "zona": "ZH-10",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 9 9 12 Libre según rasante",
+   "pagina": 31,
+   "seccion": "Art. 34, ZH-10 Habitacional 10 (Borde El Porvenir de Densidad Condicionada)",
+   "nota": null
+  },
+  {
+   "zona": "ZI-1",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 14 14",
+   "pagina": 0,
+   "seccion": "Art. 34, ZI-1 Zona Industrial, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "nota": null
+  },
+  {
+   "zona": "ZI-2",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 14 Libre según rasantes",
+   "pagina": 0,
+   "seccion": "Art. 34, ZI-2 Zona Industrial, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "nota": null
+  },
+  {
+   "zona": "ZI-3",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 14 Libre según rasantes",
+   "pagina": 0,
+   "seccion": "Art. 34, ZI-3 Zona Industrial, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "nota": null
+  },
+  {
+   "zona": "ZE-2",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 9 15 otros Equip.",
+   "pagina": 0,
+   "seccion": "Art. 41, ZE-2 Equipamiento Recreacional y Deportivo, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "nota": null
+  },
+  {
+   "zona": "ZE-3",
+   "altura_m": 15,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 15",
+   "pagina": 0,
+   "seccion": "Art. 41, ZE-3 Parques Intercomunales, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "nota": null
+  },
+  {
+   "zona": "ZE-10",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "Altura de edificación máxima (m) 10",
+   "pagina": 0,
+   "seccion": "Art. 41, ZE-10 Estanques de Agua Potable, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "nota": null
+  }
+ ]
+}

@@ -1,0 +1,541 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Modificación N° 2 del Plan Regulador Comunal de Las Condes (D.A. N° 3.218, D.O. 05-12-2003), que reemplazó las normas de edificación del art. 38 de la Ordenanza (PRC aprobado por Res. N° 8/95 del Gobierno Regional Metropolitano, D.O. 13-06-1995); publicación del Diario Oficial que entrega la Municipalidad",
+ "url": "https://archivos.lascondes.cl/descargas/transparencia/plan_regulador/D.O.N3218.04dic2003.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "UC1/EAa+ca",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "y la altura máxima que será de 3 pisos o 10,50 metros",
+   "pagina": 7,
+   "seccion": "Art. 38, 15. Área E-Aa+ca: edificación aislada alta con continuidad alta (zona de uso UC1)",
+   "nota": null
+  },
+  {
+   "zona": "UC1/EAb2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UC1)",
+   "nota": null
+  },
+  {
+   "zona": "UC1/EAb3",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 3. Área E-Ab3: edificación aislada baja N° 3 (zona de uso UC1)",
+   "nota": null
+  },
+  {
+   "zona": "UC1/EAm1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "pagina": 4,
+   "seccion": "Art. 38, 6. Área E-Am1: edificación aislada media N° 1 (zona de uso UC1)",
+   "nota": null
+  },
+  {
+   "zona": "UC1/EAm1p",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 4,
+   "seccion": "Art. 38, 7. Área E-Am1’: edificación aislada media N° 1 prima (zona de uso UC1)",
+   "nota": null
+  },
+  {
+   "zona": "UC1/EAm2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 5,
+   "seccion": "Art. 38, 8. Área E-Am2: edificación aislada media N° 2 (zona de uso UC1)",
+   "nota": null
+  },
+  {
+   "zona": "UC1/EAm4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10.5 m.",
+   "pagina": 5,
+   "seccion": "Art. 38, 9. Área E-Am4: edificación aislada media N° 4 (zona de uso UC1)",
+   "nota": null
+  },
+  {
+   "zona": "UC2/EAa+cm",
+   "altura_m": 17.5,
+   "pisos": null,
+   "texto": "----- Existente 3.0 0.75 0.2 70° 5 pisos con un máximo de 17.50 metros de altura",
+   "pagina": 7,
+   "seccion": "Art. 38, 14. Área E-Aa+cm: edificación aislada alta con continuidad media (zona de uso UC2)",
+   "nota": null
+  },
+  {
+   "zona": "UC2/EAa1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "pagina": 6,
+   "seccion": "Art. 38, 10. Área E-Aa1: edificación aislada alta N° 1 (zona de uso UC2)",
+   "nota": null
+  },
+  {
+   "zona": "UC2/EAa2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "pagina": 6,
+   "seccion": "Art. 38, 11. Área E-Aa2: edificación aislada alta N° 2 (zona de uso UC2)",
+   "nota": null
+  },
+  {
+   "zona": "UC2/EAa3",
+   "altura_m": 52.5,
+   "pisos": null,
+   "texto": "220 Viv/há. 2.500 m2 2.0 0.3 0.5 70° 15 pisos con un máximo de 52.5 metros de altura.",
+   "pagina": 6,
+   "seccion": "Art. 38, 12. Área E-Aa3: edificación aislada alta N° 3 (zona de uso UC2)",
+   "nota": null
+  },
+  {
+   "zona": "UC2/EAa4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente. Existente. 1.0 0.6 No se exige. 70° 3 pisos con un máximo de 10,5 metros",
+   "pagina": 7,
+   "seccion": "Art. 38, 13. Área E-Aa4: edificación aislada alta N° 4 (zona de uso UC2)",
+   "nota": null
+  },
+  {
+   "zona": "UC2/EAb2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UC2)",
+   "nota": null
+  },
+  {
+   "zona": "UC2/EAb3",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 3. Área E-Ab3: edificación aislada baja N° 3 (zona de uso UC2)",
+   "nota": null
+  },
+  {
+   "zona": "UC2/EAm1p",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 4,
+   "seccion": "Art. 38, 7. Área E-Am1’: edificación aislada media N° 1 prima (zona de uso UC2)",
+   "nota": null
+  },
+  {
+   "zona": "UC2/EAm2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 5,
+   "seccion": "Art. 38, 8. Área E-Am2: edificación aislada media N° 2 (zona de uso UC2)",
+   "nota": null
+  },
+  {
+   "zona": "UC2/EAm4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10.5 m.",
+   "pagina": 5,
+   "seccion": "Art. 38, 9. Área E-Am4: edificación aislada media N° 4 (zona de uso UC2)",
+   "nota": null
+  },
+  {
+   "zona": "UC3/EAb2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UC3)",
+   "nota": null
+  },
+  {
+   "zona": "UC3/EAb3",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 3. Área E-Ab3: edificación aislada baja N° 3 (zona de uso UC3)",
+   "nota": null
+  },
+  {
+   "zona": "UC3/EAm2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 5,
+   "seccion": "Art. 38, 8. Área E-Am2: edificación aislada media N° 2 (zona de uso UC3)",
+   "nota": null
+  },
+  {
+   "zona": "UEe1/EAa+cm",
+   "altura_m": 17.5,
+   "pisos": null,
+   "texto": "----- Existente 3.0 0.75 0.2 70° 5 pisos con un máximo de 17.50 metros de altura",
+   "pagina": 7,
+   "seccion": "Art. 38, 14. Área E-Aa+cm: edificación aislada alta con continuidad media (zona de uso UEe1)",
+   "nota": null
+  },
+  {
+   "zona": "UEe1/EAb4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "pagina": 3,
+   "seccion": "Art. 38, 4. Área E-Ab4: edificación aislada baja N° 4 (zona de uso UEe1)",
+   "nota": null
+  },
+  {
+   "zona": "UEe1/Ee1",
+   "altura_m": 17.5,
+   "pisos": null,
+   "texto": "1.4 0.6 0.3 60° 5 pisos o 17,50 m.",
+   "pagina": 8,
+   "seccion": "Art. 38, 16. Área E-e1: Edificación Especial N° 1, Equipamientos (zona de uso UEe1)",
+   "nota": null
+  },
+  {
+   "zona": "UEe2/Ee2",
+   "altura_m": 17.5,
+   "pisos": null,
+   "texto": "0.3 0.2 0.7 60° 5 pisos o 17,50 m.",
+   "pagina": 9,
+   "seccion": "Art. 38, 17. Área E-e2: Edificación Especial N° 2, Equipamiento Recreacional Deportivo (zona de uso UEe2)",
+   "nota": null
+  },
+  {
+   "zona": "UM/EAb2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UM)",
+   "nota": null
+  },
+  {
+   "zona": "UM/EAb4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "pagina": 3,
+   "seccion": "Art. 38, 4. Área E-Ab4: edificación aislada baja N° 4 (zona de uso UM)",
+   "nota": null
+  },
+  {
+   "zona": "UM/EAb4p",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "pagina": 4,
+   "seccion": "Art. 38, 5. Área E-Ab4’: edificación aislada baja N° 4 prima (zona de uso UM)",
+   "nota": null
+  },
+  {
+   "zona": "UV/EAb1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "3 pisos con altura máxima de 10,5 m. Según loteo o mínimo de 5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 1. Área E-Ab1: edificación aislada baja N° 1 (zona de uso UV)",
+   "nota": null
+  },
+  {
+   "zona": "UV/EAb2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UV)",
+   "nota": null
+  },
+  {
+   "zona": "UV/EAb4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "pagina": 3,
+   "seccion": "Art. 38, 4. Área E-Ab4: edificación aislada baja N° 4 (zona de uso UV)",
+   "nota": null
+  },
+  {
+   "zona": "UV/EAb4p",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "2 viv/há 2.500 m² 0.12 0.12 0.8 45° 3 pisos",
+   "pagina": 4,
+   "seccion": "Art. 38, 5. Área E-Ab4’: edificación aislada baja N° 4 prima (zona de uso UV)",
+   "nota": null
+  },
+  {
+   "zona": "UV/EAm1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "pagina": 4,
+   "seccion": "Art. 38, 6. Área E-Am1: edificación aislada media N° 1 (zona de uso UV)",
+   "nota": null
+  },
+  {
+   "zona": "UV/EAm1p",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 4,
+   "seccion": "Art. 38, 7. Área E-Am1’: edificación aislada media N° 1 prima (zona de uso UV)",
+   "nota": null
+  },
+  {
+   "zona": "UV/Ee1",
+   "altura_m": 17.5,
+   "pisos": null,
+   "texto": "1.4 0.6 0.3 60° 5 pisos o 17,50 m.",
+   "pagina": 8,
+   "seccion": "Art. 38, 16. Área E-e1: Edificación Especial N° 1, Equipamientos (zona de uso UV)",
+   "nota": null
+  },
+  {
+   "zona": "UV1/EAa+ca",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "y la altura máxima que será de 3 pisos o 10,50 metros",
+   "pagina": 7,
+   "seccion": "Art. 38, 15. Área E-Aa+ca: edificación aislada alta con continuidad alta (zona de uso UV1)",
+   "nota": null
+  },
+  {
+   "zona": "UV1/EAa1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "pagina": 6,
+   "seccion": "Art. 38, 10. Área E-Aa1: edificación aislada alta N° 1 (zona de uso UV1)",
+   "nota": null
+  },
+  {
+   "zona": "UV1/EAa2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "pagina": 6,
+   "seccion": "Art. 38, 11. Área E-Aa2: edificación aislada alta N° 2 (zona de uso UV1)",
+   "nota": null
+  },
+  {
+   "zona": "UV1/EAb1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "3 pisos con altura máxima de 10,5 m. Según loteo o mínimo de 5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 1. Área E-Ab1: edificación aislada baja N° 1 (zona de uso UV1)",
+   "nota": null
+  },
+  {
+   "zona": "UV1/EAb2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UV1)",
+   "nota": null
+  },
+  {
+   "zona": "UV1/EAb3",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "40 viv/há 300 m² 0.8 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 3. Área E-Ab3: edificación aislada baja N° 3 (zona de uso UV1)",
+   "nota": null
+  },
+  {
+   "zona": "UV1/EAm1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "pagina": 4,
+   "seccion": "Art. 38, 6. Área E-Am1: edificación aislada media N° 1 (zona de uso UV1)",
+   "nota": null
+  },
+  {
+   "zona": "UV1/EAm1p",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 4,
+   "seccion": "Art. 38, 7. Área E-Am1’: edificación aislada media N° 1 prima (zona de uso UV1)",
+   "nota": null
+  },
+  {
+   "zona": "UV1/EAm2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 5,
+   "seccion": "Art. 38, 8. Área E-Am2: edificación aislada media N° 2 (zona de uso UV1)",
+   "nota": null
+  },
+  {
+   "zona": "UV1/EAm4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10.5 m.",
+   "pagina": 5,
+   "seccion": "Art. 38, 9. Área E-Am4: edificación aislada media N° 4 (zona de uso UV1)",
+   "nota": null
+  },
+  {
+   "zona": "UV2/EAa1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "pagina": 6,
+   "seccion": "Art. 38, 10. Área E-Aa1: edificación aislada alta N° 1 (zona de uso UV2)",
+   "nota": null
+  },
+  {
+   "zona": "UV2/EAa2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "pagina": 6,
+   "seccion": "Art. 38, 11. Área E-Aa2: edificación aislada alta N° 2 (zona de uso UV2)",
+   "nota": null
+  },
+  {
+   "zona": "UV2/EAb2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UV2)",
+   "nota": null
+  },
+  {
+   "zona": "UV2/EAm1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "pagina": 4,
+   "seccion": "Art. 38, 6. Área E-Am1: edificación aislada media N° 1 (zona de uso UV2)",
+   "nota": null
+  },
+  {
+   "zona": "UV2/EAm2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 5,
+   "seccion": "Art. 38, 8. Área E-Am2: edificación aislada media N° 2 (zona de uso UV2)",
+   "nota": null
+  },
+  {
+   "zona": "UV2/EAm4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10.5 m.",
+   "pagina": 5,
+   "seccion": "Art. 38, 9. Área E-Am4: edificación aislada media N° 4 (zona de uso UV2)",
+   "nota": null
+  },
+  {
+   "zona": "UV3/EAa1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "pagina": 6,
+   "seccion": "Art. 38, 10. Área E-Aa1: edificación aislada alta N° 1 (zona de uso UV3)",
+   "nota": null
+  },
+  {
+   "zona": "UV3/EAb2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "40 viv/há 500 m² 0.6 0.4 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 3,
+   "seccion": "Art. 38, 2. Área E-Ab2: edificación aislada baja N° 2 (zona de uso UV3)",
+   "nota": null
+  },
+  {
+   "zona": "UV3/EAm1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "correspondientes a la tabla A) del Área de Edificación Aislada Baja N°1",
+   "pagina": 4,
+   "seccion": "Art. 38, 6. Área E-Am1: edificación aislada media N° 1 (zona de uso UV3)",
+   "nota": null
+  },
+  {
+   "zona": "UV3/EAm4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10.5 m.",
+   "pagina": 5,
+   "seccion": "Art. 38, 9. Área E-Am4: edificación aislada media N° 4 (zona de uso UV3)",
+   "nota": null
+  },
+  {
+   "zona": "UVO/EAa1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente. Existente. 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "pagina": 6,
+   "seccion": "Art. 38, 10. Área E-Aa1: edificación aislada alta N° 1 (zona de uso UVO)",
+   "nota": null
+  },
+  {
+   "zona": "UVO/EAa2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 1.0 0.4 No se exige. 70° 3 pisos con un máximo de 10,5 metros de altura",
+   "pagina": 6,
+   "seccion": "Art. 38, 11. Área E-Aa2: edificación aislada alta N° 2 (zona de uso UVO)",
+   "nota": null
+  },
+  {
+   "zona": "UVO/EAm1p",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 4,
+   "seccion": "Art. 38, 7. Área E-Am1’: edificación aislada media N° 1 prima (zona de uso UVO)",
+   "nota": null
+  },
+  {
+   "zona": "UVO/EAm2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente. Existente. 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10,5 m.",
+   "pagina": 5,
+   "seccion": "Art. 38, 8. Área E-Am2: edificación aislada media N° 2 (zona de uso UVO)",
+   "nota": null
+  },
+  {
+   "zona": "UVO/EAm4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Existente Existente 0.6 0.4 No se exige. 60° 3 pisos con altura máxima de 10.5 m.",
+   "pagina": 5,
+   "seccion": "Art. 38, 9. Área E-Am4: edificación aislada media N° 4 (zona de uso UVO)",
+   "nota": null
+  }
+ ]
+}

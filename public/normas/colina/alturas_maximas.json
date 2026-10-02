@@ -1,0 +1,82 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Plan Regulador Comunal de Colina (D.A. N° 629, D.O. 26-03-2010), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1012313",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "C1",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima 2 pisos (con una altura total máxima de 15 mts)",
+   "pagina": 0,
+   "seccion": "Art. 4.2.20. C1",
+   "nota": null
+  },
+  {
+   "zona": "C2",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima 2 pisos (con una altura total máxima de 15 mts)",
+   "pagina": 0,
+   "seccion": "Art. 4.2.21. C2",
+   "nota": null
+  },
+  {
+   "zona": "E1",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima 1 piso (con una altura máxima de 7 mts)",
+   "pagina": 0,
+   "seccion": "Art. 4.2.22. E1",
+   "nota": null
+  },
+  {
+   "zona": "E2a",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima 1 piso (con una altura máxima de 7 mts)",
+   "pagina": 0,
+   "seccion": "Art. 4.2.23. E2a",
+   "nota": null
+  },
+  {
+   "zona": "E2b",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima 1 piso (con una altura máxima de 7 mts)",
+   "pagina": 0,
+   "seccion": "Art. 4.2.24. E2b",
+   "nota": null
+  },
+  {
+   "zona": "E2d",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima 1 piso (con una altura máxima de 7 mts)",
+   "pagina": 0,
+   "seccion": "Art. 4.2.26. E2d",
+   "nota": null
+  },
+  {
+   "zona": "E2e",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima 1 piso (con una altura máxima de 7 mts)",
+   "pagina": 0,
+   "seccion": "Art. 4.2.27. E2e",
+   "nota": null
+  },
+  {
+   "zona": "E4",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima 1 piso o 3,5 mts",
+   "pagina": 0,
+   "seccion": "Art. 4.2.29. E4",
+   "nota": null
+  }
+ ]
+}

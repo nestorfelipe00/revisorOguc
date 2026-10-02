@@ -1,0 +1,325 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Estación Central (actualización promulgada por Decreto N° 709, D.O. 18-07-2025), publicada por la Municipalidad conforme al Art. 28 septies de la LGUC",
+ "url": "https://drive.google.com/file/d/1C8Wz8XyXtP0xLKYUeZ0B88c3keoqrcXL/view",
+ "extraido": "2026-09-30",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "M-12",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 13,
+   "seccion": "Artículo 16 (a), Zona M-12, Zona Equipamiento Metropolitano y Residencial - 12 pisos",
+   "nota": null
+  },
+  {
+   "zona": "M-9",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 15,
+   "seccion": "Artículo 16 (b), Zona M-9, Zona Equipamiento Metropolitano y Residencial - 9 pisos",
+   "nota": null
+  },
+  {
+   "zona": "M-9(i/ii)",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 15,
+   "seccion": "Artículo 16 (b), Zona M-9, Zona Equipamiento Metropolitano y Residencial - 9 pisos",
+   "nota": null
+  },
+  {
+   "zona": "M-6",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 19,
+   "seccion": "Artículo 16 (c), Zona M-6, Zona Equipamiento Metropolitano y Residencial - 6 pisos",
+   "nota": null
+  },
+  {
+   "zona": "L-12",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 21,
+   "seccion": "Artículo 16 (d), Zona L-12 Residencial y Equipamiento Local - 12 pisos",
+   "nota": null
+  },
+  {
+   "zona": "L-12(c)",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 21,
+   "seccion": "Artículo 16 (d), Subzona L-12(c) Residencial y Equipamiento Local en Continuidad - 12 pisos",
+   "nota": null
+  },
+  {
+   "zona": "L-9",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 23,
+   "seccion": "Artículo 16 (e), Zona L-9 Residencial y Equipamiento Local - 9 pisos (y subzona L-9(ii))",
+   "nota": null
+  },
+  {
+   "zona": "L-9(c)",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 23,
+   "seccion": "Artículo 16 (e), Subzona L-9(c) Residencial y Equipamiento Local en Continuidad - 9 pisos",
+   "nota": null
+  },
+  {
+   "zona": "L-6",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 28,
+   "seccion": "Artículo 16 (f), Zona L-6 Residencial y Equipamiento Local - 6 pisos (y subzonas L-6(i) y L-6(ii))",
+   "nota": null
+  },
+  {
+   "zona": "L-6(c)",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 28,
+   "seccion": "Artículo 16 (f), Subzona L-6(c) Residencial y Equipamiento Local en Continuidad - 6 pisos",
+   "nota": null
+  },
+  {
+   "zona": "L-4",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 33,
+   "seccion": "Artículo 16 (g), Zona L-4 Residencial y Equipamiento Local - 4 pisos (y subzonas L-4(i) y L-4(ii))",
+   "nota": null
+  },
+  {
+   "zona": "L-2",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 37,
+   "seccion": "Artículo 16 (h), Zona L-2 Residencial y Equipamiento Local - 2 pisos",
+   "nota": null
+  },
+  {
+   "zona": "R-6",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 7 7",
+   "pagina": 39,
+   "seccion": "Artículo 16 (i), Zona R-6, Zona Residencial Preferente - 6 pisos",
+   "nota": null
+  },
+  {
+   "zona": "R-4",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 7 7",
+   "pagina": 41,
+   "seccion": "Artículo 16 (j), Zona R-4, Zona Residencial Preferente - 4 pisos",
+   "nota": null
+  },
+  {
+   "zona": "R-2",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 7 7",
+   "pagina": 43,
+   "seccion": "Artículo 16 (k), Zona R-2, Zona Residencial Preferente - 2 pisos",
+   "nota": null
+  },
+  {
+   "zona": "E-12",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 8",
+   "pagina": 45,
+   "seccion": "Artículo 17 (l), Zona E-12, Zona de Equipamiento Exclusivo - 12 pisos",
+   "nota": null
+  },
+  {
+   "zona": "E-12(c)",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 8",
+   "pagina": 45,
+   "seccion": "Artículo 17 (l), Subzona E-12(c), Subzona de Equipamiento Exclusivo en Continuidad - 12 pisos",
+   "nota": null
+  },
+  {
+   "zona": "E-9",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 8",
+   "pagina": 47,
+   "seccion": "Artículo 17 (m), Zona E-9, Zona de Equipamiento Exclusivo - 9 pisos",
+   "nota": null
+  },
+  {
+   "zona": "E-6",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 8",
+   "pagina": 49,
+   "seccion": "Artículo 17 (n), Zona E-6, Zona de Equipamiento Exclusivo - 6 pisos",
+   "nota": null
+  },
+  {
+   "zona": "E-4",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 8",
+   "pagina": 51,
+   "seccion": "Artículo 17 (o), Zona E-4, Zona de Equipamiento Exclusivo - 4 pisos",
+   "nota": null
+  },
+  {
+   "zona": "I-4",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 8",
+   "pagina": 53,
+   "seccion": "Artículo 17 (p), Zona I-4, Zona Industrial Exclusiva e Infraestructura",
+   "nota": null
+  },
+  {
+   "zona": "M-9(i)",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 15,
+   "seccion": "Artículo 16 (b), Subzona M-9(i) (normas de edificación de M-9(i/ii))",
+   "nota": null
+  },
+  {
+   "zona": "M-9(ii)",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 15,
+   "seccion": "Artículo 16 (b), Subzona M-9(ii) (normas de edificación de M-9(i/ii))",
+   "nota": null
+  },
+  {
+   "zona": "L-9(ii)",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 23,
+   "seccion": "Artículo 16 (e), Subzona L-9(ii) (normas de edificación de L-9)",
+   "nota": null
+  },
+  {
+   "zona": "L-6(i/ii)",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 28,
+   "seccion": "Artículo 16 (f), Subzona L-6(i/ii) (normas de edificación de L-6)",
+   "nota": null
+  },
+  {
+   "zona": "L-6(i)",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 28,
+   "seccion": "Artículo 16 (f), Subzona L-6(i) (normas de edificación de L-6)",
+   "nota": null
+  },
+  {
+   "zona": "L-6(ii)",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 28,
+   "seccion": "Artículo 16 (f), Subzona L-6(ii) (normas de edificación de L-6)",
+   "nota": null
+  },
+  {
+   "zona": "L-4(i/ii)",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 33,
+   "seccion": "Artículo 16 (g), Subzona L-4(i/ii) (normas de edificación de L-4)",
+   "nota": null
+  },
+  {
+   "zona": "L-4(i)",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 33,
+   "seccion": "Artículo 16 (g), Subzona L-4(i) (normas de edificación de L-4)",
+   "nota": null
+  },
+  {
+   "zona": "L-4(ii)",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 7",
+   "pagina": 33,
+   "seccion": "Artículo 16 (g), Subzona L-4(ii) (normas de edificación de L-4)",
+   "nota": null
+  },
+  {
+   "zona": "I-4(ii)",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 8",
+   "pagina": 53,
+   "seccion": "Artículo 17 (p), Subzona I-4(ii) (normas de edificación de I-4)",
+   "nota": null
+  },
+  {
+   "zona": "ZCH-1.1",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 3,5 7",
+   "pagina": 61,
+   "seccion": "Artículo 21, ZCH-1.1, Zona de Conservación Histórica - Villa Portales - General",
+   "nota": null
+  },
+  {
+   "zona": "ZCH-1.2",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación continua (m) 3,5 7",
+   "pagina": 61,
+   "seccion": "Artículo 21, ZCH-1.2, Zona de Conservación Histórica - Villa Portales - Especial",
+   "nota": null
+  },
+  {
+   "zona": "ZCH-2.1",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 7",
+   "pagina": 63,
+   "seccion": "Artículo 21, ZCH-2.1, Zona de Conservación Histórica - Villa O'Higgins - Bordes",
+   "nota": null
+  },
+  {
+   "zona": "ZCH-2.2",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 7",
+   "pagina": 63,
+   "seccion": "Artículo 21, ZCH-2.2, Zona de Conservación Histórica - Villa O'Higgins - Interior",
+   "nota": null
+  }
+ ]
+}

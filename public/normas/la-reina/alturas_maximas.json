@@ -1,0 +1,307 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Modificación 2010 al Plan Regulador Comunal de La Reina (D.A. N° 1.516 de 03-09-2010, D.O. 09-09-2010), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1016931",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "A",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona A (Tabla N° 1)",
+   "nota": null
+  },
+  {
+   "zona": "A-1",
+   "altura_m": 14.4,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14.4 metros (5 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona A-1 (Tabla N° 2, Enmienda 2015)",
+   "nota": null
+  },
+  {
+   "zona": "A-2",
+   "altura_m": 20.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 20 metros (7 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona A-2 (Tabla N° 3)",
+   "nota": null
+  },
+  {
+   "zona": "D",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona D (Tabla N° 4)",
+   "nota": null
+  },
+  {
+   "zona": "G",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona G (Tabla N° 5)",
+   "nota": null
+  },
+  {
+   "zona": "H",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona H (Tabla N° 6)",
+   "nota": null
+  },
+  {
+   "zona": "O",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona O (Tabla N° 7)",
+   "nota": null
+  },
+  {
+   "zona": "E",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona E (Tabla N° 8)",
+   "nota": null
+  },
+  {
+   "zona": "K",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 18 metros (6 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona K (Tabla N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "C",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 12 metros 12 metros",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona C (Tablas N° 10 y 10 Bis)",
+   "nota": null
+  },
+  {
+   "zona": "C-4",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 12 metros 12 metros",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona C-4 (Tabla N° 11)",
+   "nota": null
+  },
+  {
+   "zona": "C-5",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 12 metros 12 metros",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona C-5 (Tabla N° 12)",
+   "nota": null
+  },
+  {
+   "zona": "B",
+   "altura_m": 44.8,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 44,8 metros",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona B (Tabla N° 13, Enmienda 2015)",
+   "nota": null
+  },
+  {
+   "zona": "C-1",
+   "altura_m": 24.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 24 metros (9 pisos) 24 metros (9 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona C-1 (Tabla N° 14, Enmienda 2015)",
+   "nota": null
+  },
+  {
+   "zona": "C-2",
+   "altura_m": 24.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 24 metros 24 metros",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona C-2 (Tabla N° 14, Enmienda 2015)",
+   "nota": null
+  },
+  {
+   "zona": "C-3",
+   "altura_m": 30.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 30 metros 30 metros",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona C-3 (Tabla N° 14)",
+   "nota": null
+  },
+  {
+   "zona": "PC-1",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 12 metros 7 metros",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PC-1 (Tabla N° 15)",
+   "nota": null
+  },
+  {
+   "zona": "PC-3",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 12 metros 7 metros",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PC-3 (Tabla N° 15)",
+   "nota": null
+  },
+  {
+   "zona": "PC-6",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 12 metros 7 metros",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PC-6 (Tabla N° 15)",
+   "nota": null
+  },
+  {
+   "zona": "PC-2",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 metros 14 metros",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PC-2 (Tabla N° 16)",
+   "nota": null
+  },
+  {
+   "zona": "PC-4",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 18 metros (6 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PC-4 (Tabla N° 17)",
+   "nota": null
+  },
+  {
+   "zona": "PC-5",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 15 metros 7 metros",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PC-5 (Tabla N° 18)",
+   "nota": null
+  },
+  {
+   "zona": "PV-1",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-1 (Tabla N° 19)",
+   "nota": null
+  },
+  {
+   "zona": "PV-2",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-2 (Tabla N° 19)",
+   "nota": null
+  },
+  {
+   "zona": "PV-3",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-3 (Tabla N° 19)",
+   "nota": null
+  },
+  {
+   "zona": "PV-4",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-4 (Tabla N° 19)",
+   "nota": null
+  },
+  {
+   "zona": "PV-5",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-5 (Tabla N° 19)",
+   "nota": null
+  },
+  {
+   "zona": "PV-6",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-6 (Tabla N° 19)",
+   "nota": null
+  },
+  {
+   "zona": "PV-7",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-7 (Tabla N° 19)",
+   "nota": null
+  },
+  {
+   "zona": "PV-8",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-8 (Tabla N° 19)",
+   "nota": null
+  },
+  {
+   "zona": "PV-9",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros (2 pisos mas mansarda)",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona PV-9 (Tabla N° 19)",
+   "nota": null
+  },
+  {
+   "zona": "F",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 metros 14 metros 14 metros",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona F (Tabla N° 20)",
+   "nota": null
+  },
+  {
+   "zona": "ZEE",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 9 metros o la existente",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona ZEE (Tabla N° 21)",
+   "nota": null
+  }
+ ]
+}

@@ -141,7 +141,7 @@ function fromMapConversion(g: Georeference, zone: number, south: boolean): Model
   return { originX: 0, originY: 0, easting: g.eastings, northing: g.northings, cos, sin, factor, zone, south, elevation: g.height !== 0 ? g.height : null, assumed: false };
 }
 
-function build(frame: ModelFrame, extent: ModelExtent, source: LocationSource, site: GeoPoint | null, notes: string[], needsConfirmation: boolean): ProjectLocation {
+export function buildLocation(frame: ModelFrame, extent: ModelExtent, source: LocationSource, site: GeoPoint | null, notes: string[], needsConfirmation: boolean): ProjectLocation {
   const c = extentCenter(extent);
   const centerUtm = frameToUtm(frame, c.x, c.y);
   const center = toGeographic(centerUtm);
@@ -179,7 +179,7 @@ export function resolveLocation(geo: ModelGeolocation, extent: ModelExtent | nul
 
   if (geo.mapConversion && extent) {
     const zone = zoneFromCrs(geo.mapConversion.crsName);
-    if (zone) return build(fromMapConversion(geo.mapConversion, zone.zone, zone.south), extent, "mapConversion", site, notes, false);
+    if (zone) return buildLocation(fromMapConversion(geo.mapConversion, zone.zone, zone.south), extent, "mapConversion", site, notes, false);
     notes.push(`El CRS «${geo.mapConversion.crsName}» no se reconoce como UTM: no se usa la georreferencia del IFC.`);
   }
 
@@ -190,7 +190,7 @@ export function resolveLocation(geo: ModelGeolocation, extent: ModelExtent | nul
         ? `Huso ${zone}S deducido de la lat/lon del IfcSite; el IFC no declara su sistema de referencia.`
         : "Supuesto: coordenadas UTM huso 19S (WGS 84 / SIRGAS-Chile). Confírmelo: el IFC no declara su sistema de referencia.",
     );
-    return build(identityFrame(zone, true), extent, "modelUtmCoordinates", site, notes, true);
+    return buildLocation(identityFrame(zone, true), extent, "modelUtmCoordinates", site, notes, true);
   }
 
   if (site) {

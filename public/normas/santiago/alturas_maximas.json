@@ -1,0 +1,55 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Texto Refundido Ordenanza Local, Plan Regulador Comunal de Santiago (junio 2026)",
+ "url": "https://documentos.munistgo.cl/wp-content/uploads/2026/06/Texto-refundido-PRCS-JUNIO-2026.pdf",
+ "extraido": "2026-09-30",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "A",
+   "altura_m": 41.5,
+   "pisos": null,
+   "texto": "La altura máxima de la edificación será 41.5m.",
+   "pagina": 66,
+   "seccion": "Artículo 30, Zona A",
+   "nota": null
+  },
+  {
+   "zona": "B",
+   "altura_m": 22.5,
+   "pisos": null,
+   "texto": "Para todos los sistemas de agrupamiento la altura máxima de edificación será de 22,5m.",
+   "pagina": 77,
+   "seccion": "Artículo 30, Zona B",
+   "nota": null
+  },
+  {
+   "zona": "D",
+   "altura_m": 12.5,
+   "pisos": null,
+   "texto": "La altura máxima para los tres tipos de sistema de agrupamiento será 12.5m",
+   "pagina": 102,
+   "seccion": "Artículo 30, Zona D",
+   "nota": null
+  },
+  {
+   "zona": "E",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "Altura máxima (m) Para todos los sistemas de agrupamiento no se permitirá exceder la altura máxima de edificación 14",
+   "pagina": 122,
+   "seccion": "Artículo 30, Zona E",
+   "nota": null
+  },
+  {
+   "zona": "H",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "La altura máxima de edificación será 10m.",
+   "pagina": 150,
+   "seccion": "Artículo 30, Zona H Club Hípico",
+   "nota": null
+  }
+ ]
+}

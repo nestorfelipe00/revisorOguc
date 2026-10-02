@@ -1,0 +1,439 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Curacaví (D.S. N° 19 (V. y U.) de 09-01-1991, D.O. 07-02-1991), transcripción que publica la Municipalidad en su portal de transparencia",
+ "url": "https://transparencia.municipalidadcuracavi.cl/1_07_Plan_regulador/Plan_regulador_Decreto1042_27-05-2011.pdf",
+ "sha256": "c939ca0d2eee68489d865a7963900e130f4a2d6318235e72a561acd20e155508",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "Z1",
+   "pagina": 11,
+   "seccion": "Art. 20, Zona Z1",
+   "superficie_predial_minima_m2_texto": "2) Para los usos de industria y almacenamiento inofensivos a) Superficie predial mínima : 500m2.",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "c) Porcentaje máximo de ocupación de suelo : 60%.",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "uso de equipamiento («c) Porcentaje máximo de ocupación de suelo : 80 %»)",
+   "coef_constructibilidad_texto": "d) Coeficiente máximo de Constructibilidad: 0,6",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "según el destino (1,6: equipamiento; 1,2: vivienda; 0,6: industria y almacenamiento inofensivos) («d) Coeficiente máximo de Constructibilidad 1.6»)",
+   "altura_m_texto": "f) Altura máxima de edificación : 8m.",
+   "altura_m": 8.0,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "equipamiento o vivienda: sobre los 8 m de la edificación continua solo edificación aislada, según rasantes y retirada 10 m de la línea oficial: «Sobre dicha altura se permitirá edificación aislada según rasantes y retirada 10m . de l a línea oficial.»",
+   "incentivo_pagina": 11,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "e) Sistemas de agrupamiento :Continuo y aislado y pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Superficie predial mínima según el destino: 300 m² equipamiento y vivienda (frente 10 m); 500 m² industria y almacenamiento inofensivos (frente 15 m)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continuo con una profundidad máxima del cuerpo paralelo a la calle de 20 m; la vivienda aislada o pareada solo a 10 m o más de la línea oficial, con cierro continuo en la línea de edificación; la industria, aislada."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Sin antejardín, salvo loteos de más de 1 ha o predios con frente de 20 m o más: entonces 15 m como mínimo (Art. 11)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Rasantes y distanciamientos según el art. 479 de la antigua Ordenanza General de Construcciones (Art. 8); adosamientos según su art. 478 (Art. 9)."
+    }
+   ]
+  },
+  {
+   "zona": "Z2",
+   "pagina": 11,
+   "seccion": "Art. 20, Zona Z2",
+   "superficie_predial_minima_m2_texto": "a) Superficie predial mínimo: 500m2.",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "c) Porcentaje máximo de ocupación de suelo: 50%",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "uso de equipamiento («c) Porcentaje máximo de ocupación de suelo: 60%»)",
+   "coef_constructibilidad_texto": "d) Coeficiente de Constructibilidad máxima: 0,6",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.0,
+   "coef_constructibilidad_condicion": "equipamiento o vivienda (0,6: industria y almacenamiento inofensivos) («d) Coeficiente máximo de Constructibilidad: 1,0»)",
+   "altura_m_texto": "f) Altura máxima de edificación : 8m",
+   "altura_m": 8.0,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "equipamiento o vivienda: solo limitan las rasantes (Art. 8); la industria, 8 m: «f) Altura máxima de edificación: Según articulo 8 de esta Ordenanza.»",
+   "incentivo_pagina": 12,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "e) Sistema de agrupamiento: Aislado y pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Superficie predial mínima según el destino: 300 m² equipamiento (frente 10 m) y vivienda (frente 8 m); 500 m² industria y almacenamiento inofensivos (frente 15 m)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Equipamiento e industria: solo aislado; vivienda: aislado y pareado."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín mínimo de 3 m (Art. 11)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Rasantes y distanciamientos según el art. 479 de la antigua Ordenanza General de Construcciones (Art. 8); adosamientos según su art. 478 (Art. 9)."
+    }
+   ]
+  },
+  {
+   "zona": "Z3",
+   "pagina": 12,
+   "seccion": "Art. 20, Zona Z3",
+   "superficie_predial_minima_m2_texto": "a) Superficie predial mínima: 300m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "c) Porcentaje máximo de ocupación de suelo: 60%",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "d) Coeficiente de Constructibilidad máximo: 1,0",
+   "coef_constructibilidad": 1.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "f) Sistema de agrupamiento: Aislado y pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "altura",
+     "texto": "La transcripción municipal no trae la altura de Z3 (pasa de la letra d a la f): rigen las rasantes del Art. 8; confirme con la DOM."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Frente predial mínimo: 10 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín mínimo de 3 m (Art. 11)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Rasantes y distanciamientos según el art. 479 de la antigua Ordenanza General de Construcciones (Art. 8); adosamientos según su art. 478 (Art. 9)."
+    }
+   ]
+  },
+  {
+   "zona": "Z4",
+   "pagina": 12,
+   "seccion": "Art. 20, Zona Z4",
+   "superficie_predial_minima_m2_texto": "a) Superficie predial mínima: 350 m2",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "c) Porcentaje máximo de ocupación de suelo: 60%",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "d) Coeficiente máximo de Constructibilidad: 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "f) Altura máxima de edificación: Según Articulo 8 de esta Ordenanza",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "e) Sistema de agrupamiento: Aislado y pareado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Frente predial mínimo: 12 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín mínimo de 3 m (Art. 11)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Rasantes y distanciamientos según el art. 479 de la antigua Ordenanza General de Construcciones (Art. 8); adosamientos según su art. 478 (Art. 9)."
+    }
+   ]
+  },
+  {
+   "zona": "Z5",
+   "pagina": 12,
+   "seccion": "Art. 20, Zona Z5",
+   "superficie_predial_minima_m2_texto": "a) Superficie predial mínimo: 5.000 m2",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "c) Porcentaje máximo de ocupación de suelo: 10%",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "d) Coeficiente máximo de Constructibilidad: 0,1",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "f) Altura máxima edificación: Determinada por rasantes de 45º",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "e) Sistema de agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Altura determinada por rasantes de 45°; distanciamiento mínimo a medianeros de 5 m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Frente predial mínimo: 50 m; densidad máxima 40 hab/ha."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín mínimo de 3 m (Art. 11)."
+    }
+   ]
+  },
+  {
+   "zona": "ZI",
+   "pagina": 13,
+   "seccion": "Art. 20, Zona Industrial (ZI)",
+   "superficie_predial_minima_m2_texto": "a)Superficie predial minina: 1.500 m2",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "c) Porcentaje máximo de ocupación de suelo: 50%",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "d) Coeficiente máximo de Constructibilidad: 0,5",
+   "coef_constructibilidad": 0.5,
+   "altura_m_texto": "f) Altura máxima edificación: Libre según rasantes 60º",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "e) Sistema de agrupación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "La transcripción municipal titula «Zona Industrial Z1» el cuadro de la zona industrial ZI del Art. 19."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Altura libre según rasantes de 60°; distancia mínima a medianeros de 5 m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Frente predial mínimo: 25 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín mínimo de 15 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZR4",
+   "pagina": 13,
+   "seccion": "Art. 20, Zona ZR4: Restricción de aeródromos",
+   "superficie_predial_minima_m2_texto": "a) Superficie predial mínima: 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "d) Porcentaje máximo de ocupación de suelo: 40%",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "e) Coeficiente máximo de Constructibilidad: 0,4",
+   "coef_constructibilidad": 0.4,
+   "altura_m_texto": "g) Altura máxima de edificación: 6,00m",
+   "altura_m": 6.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "f) Sistema de agrupamiento: Aislado y pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "Área de restricción del aeródromo del Club Aéreo de Curacaví: todo proyecto requiere la aprobación de la DGAC; solo usos que no concentren personas (Art. 19)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Frente predial mínimo: 15 m; densidad neta máxima 40 hab/ha."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín mínimo de 3 m (Art. 11)."
+    }
+   ]
+  },
+  {
+   "zona": "Z6",
+   "pagina": 9,
+   "seccion": "Art. 19, Zona Z6",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "Uso permitido solo vivienda (Art. 19); el Art. 20 no fija sus normas de subdivisión y edificación: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "Z7",
+   "pagina": 9,
+   "seccion": "Art. 19, Zona Z7",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "Uso permitido solo equipamiento de seguridad (Art. 19); el Art. 20 no fija sus normas de subdivisión y edificación: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "ZR1",
+   "pagina": 10,
+   "seccion": "Art. 19, Zona ZR1",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de restricción: preservación de los cerros de los cordones de Alhué y La Higuerilla; solo forestación y recreación (Art. 19)."
+    }
+   ]
+  },
+  {
+   "zona": "ZR2",
+   "pagina": 10,
+   "seccion": "Art. 19, Zona ZR2",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de restricción por inundación (riberas de los esteros Puangue y Cuyuncaví): áreas verdes, vialidad y equipamiento recreacional sin edificaciones (Art. 19)."
+    }
+   ]
+  },
+  {
+   "zona": "ZR3",
+   "pagina": 10,
+   "seccion": "Art. 19, Zona ZR3",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de protección de acueductos y canales: franja de 5 m a ambos bordes; solo áreas verdes y forestación (Art. 19)."
+    }
+   ]
+  },
+  {
+   "zona": "ZR5",
+   "pagina": 10,
+   "seccion": "Art. 19, Zona ZR5",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de protección de captaciones, estanques de agua potable y plantas de aguas servidas: solo sus instalaciones (Art. 19)."
+    }
+   ]
+  },
+  {
+   "zona": "Z3A",
+   "pagina": 8,
+   "seccion": "Art. 18, Zona Z3A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "La Ordenanza de 1991 no define esta zona (la capa de la IDE MINVU la grafica): puede venir de una modificación posterior, como el Seccional Estadio Municipal de 1996, cuyo texto solo está en el Diario Oficial. Confirme las normas con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "Z8",
+   "pagina": 8,
+   "seccion": "Art. 18, Zona Z8",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "La Ordenanza de 1991 no define esta zona (la capa de la IDE MINVU la grafica): puede venir de una modificación posterior, como el Seccional Estadio Municipal de 1996, cuyo texto solo está en el Diario Oficial. Confirme las normas con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "ZE",
+   "pagina": 8,
+   "seccion": "Art. 18, Zona ZE",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "La Ordenanza de 1991 no define esta zona (la capa de la IDE MINVU la grafica): puede venir de una modificación posterior, como el Seccional Estadio Municipal de 1996, cuyo texto solo está en el Diario Oficial. Confirme las normas con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "ZAV",
+   "pagina": 8,
+   "seccion": "Art. 18, Zona ZAV",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: transcripción municipal de la Ordenanza de 1991 (la BCN solo registra el título del D.S. N° 19): no incorpora la modificación de 1996 (Seccional Estadio Municipal, D.O. 09-08-1996). Confirme con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "La Ordenanza de 1991 no define esta zona (la capa de la IDE MINVU la grafica): puede venir de una modificación posterior, como el Seccional Estadio Municipal de 1996, cuyo texto solo está en el Diario Oficial. Confirme las normas con la DOM."
+    }
+   ]
+  }
+ ]
+}

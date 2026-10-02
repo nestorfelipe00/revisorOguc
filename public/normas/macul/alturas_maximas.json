@@ -1,0 +1,46 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Plan Regulador Comunal de Macul (D.A. N° 552 de 22-04-2004, D.O. 08-05-2004), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=224980",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "ZM-6",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "3 10.50 Mts.",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZM-6 Residencial Mixta, Densidad Media (D.A. N° 2.422, D.O. 02-10-2018)",
+   "nota": null
+  },
+  {
+   "zona": "ZM-7",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "3 10.50 Mts.",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZM-7 Residencial Mixta, Densidad Media (D.A. N° 2.422, D.O. 02-10-2018)",
+   "nota": null
+  },
+  {
+   "zona": "ZR-8",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "2 más Mansarda 10.50 Mts.",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZR-8 Residencial, Densidad Baja (D.A. N° 2.422, D.O. 02-10-2018)",
+   "nota": null
+  },
+  {
+   "zona": "ZE-C",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "3 10.50 Mts.",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZE-C Equipamiento Comunal (D.A. N° 2.422, D.O. 02-10-2018)",
+   "nota": null
+  }
+ ]
+}

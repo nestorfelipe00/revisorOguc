@@ -1,0 +1,750 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local de la Actualización del Plan Regulador Comunal de Pedro Aguirre Cerda (D.A. N° 4.751 de 22-08-2025; extracto en el D.O. 29-08-2025), publicada por la Municipalidad (documento escaneado)",
+ "url": "https://drive.google.com/file/d/1tDJiY84-t5i5BZrlkOxI1Q9WCSaLT51m/view",
+ "sha256": "003434725e9be28560157f2b0c38144dd01b116030a63b6074e0f4aa9f61fa84",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZR1",
+   "pagina": 16,
+   "seccion": "Art. 2.2, ZR1 Zona Residencial Mixta 1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,4",
+   "coef_constructibilidad": 1.4,
+   "altura_m_texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 1,5",
+   "antejardin_m": 1.5,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado.",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    }
+   ]
+  },
+  {
+   "zona": "ZR2",
+   "pagina": 17,
+   "seccion": "Art. 2.2, ZR2 Zona Residencial Mixta 2",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,8 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el uso es residencial (otros usos: 0,7) («Coeficiente de ocupación del suelo 0,8 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,6 1,0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el uso es residencial (otros usos: 1,0) («Coeficiente de constructibilidad 1,6 1,0»)",
+   "altura_m_texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 1,5",
+   "antejardin_m": 1.5,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado, continuo (1)",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 1,5 m para uso residencial; el cuadro no lo fija para otros usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Edificación continua: hasta 7 m o 2 pisos y 50% de profundidad máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZR3",
+   "pagina": 18,
+   "seccion": "Art. 2.2, ZR3 Zona Residencial Mixta 3",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 120",
+   "superficie_predial_minima_m2": 120,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,8 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el uso es residencial (otros usos: 0,7) («Coeficiente de ocupación del suelo 0,8 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,0 1,0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el uso es residencial (otros usos: 1,0) («Coeficiente de constructibilidad 2,0 1,0»)",
+   "altura_m_texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 1,5",
+   "antejardin_m": 1.5,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado, continuo (1)",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Edificación continua: hasta 7 m o 2 pisos y 50% de profundidad máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZR4",
+   "pagina": 19,
+   "seccion": "Art. 2.2, ZR4 Zona Residencial Mixta 4",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 120",
+   "superficie_predial_minima_m2": 120,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el proyecto destina el 50% del primer piso a equipamiento de salud, educación, comercio o servicios y mejora la vereda y el arbolado de su frente (incentivo del Art. 1.10, pág. 12) («aumentar la ocupación de suelo de 0,6 a 0,8»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto destina el 50% del primer piso a equipamiento de salud, educación, comercio o servicios y mejora la vereda y el arbolado de su frente (incentivo del Art. 1.10, pág. 12) («el coeficiente de constructibilidad de 1,2 a 2,0»)",
+   "altura_m_texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 3",
+   "antejardin_m": 3.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado, continuo (1)",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Edificación continua: hasta 7 m o 2 pisos y 50% de profundidad máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZR5",
+   "pagina": 20,
+   "seccion": "Art. 2.2, ZR5 Zona Residencial Mixta 5",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 100",
+   "superficie_predial_minima_m2": 100,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,8 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el uso es residencial (otros usos: 0,7) («Coeficiente de ocupación del suelo 0,8 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4 1,0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el uso es residencial (otros usos: 1,0) («Coeficiente de constructibilidad 2,4 1,0»)",
+   "altura_m_texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "altura_m": 10.5,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado, continuo (1)",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El cuadro de la zona no fija antejardín."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Edificación continua: hasta 7 m o 2 pisos y 50% de profundidad máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZR6",
+   "pagina": 21,
+   "seccion": "Art. 2.2, ZR6 Zona Residencial Mixta 6",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 120",
+   "superficie_predial_minima_m2": 120,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "altura_m": 10.5,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado, continuo (1)",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El cuadro de la zona no fija antejardín."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Edificación continua: hasta 7 m o 2 pisos y 50% de profundidad máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZR7",
+   "pagina": 22,
+   "seccion": "Art. 2.2, ZR7 Zona Residencial Mixta 7",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 100",
+   "superficie_predial_minima_m2": 100,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,8 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el uso es residencial (otros usos: 0,7) («Coeficiente de ocupación del suelo 0,8 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4 1,0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el uso es residencial (otros usos: 1,0) («Coeficiente de constructibilidad 2,4 1,0»)",
+   "altura_m_texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 1,5",
+   "antejardin_m": 1.5,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado, continuo (1)",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Edificación continua: hasta 7 m o 2 pisos y 50% de profundidad máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZR8",
+   "pagina": 23,
+   "seccion": "Art. 2.2, ZR8 Zona Residencial Mixta 8",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 400",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el proyecto destina el 100% del primer piso a equipamiento de salud, educación, comercio o servicios y mejora la vereda y el arbolado de su frente (incentivo del Art. 1.10, pág. 12) («aumentar la ocupación de suelo de 0,6 a 0,8»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "coef_constructibilidad_max": 3.2,
+   "coef_constructibilidad_condicion": "el proyecto destina el 100% del primer piso a equipamiento y mejora el espacio público de su frente (incentivo del Art. 1.10, pág. 12) («el coeficiente de constructibilidad de 1,8 a 3,2»)",
+   "altura_m_texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto destina el 100% del primer piso a equipamiento y mejora el espacio público de su frente (4 pisos; incentivo del Art. 1.10, pág. 12): «la altura máxima de edificación de 3 a 4 pisos o 14 metros»",
+   "incentivo_pagina": 23,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado, continuo (1)",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El cuadro de la zona no fija antejardín."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Edificación continua: hasta 7 m o 2 pisos y 50% de profundidad máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZR9",
+   "pagina": 24,
+   "seccion": "Art. 2.2, ZR9 Zona Residencial Mixta 9",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 1.200",
+   "superficie_predial_minima_m2": 1200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el proyecto incorpora 30% o más de viviendas de interés público (incentivo del Art. 1.10, pág. 12) («el coeficiente de ocupación de suelo de 0,6 a 0,8»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "coef_constructibilidad_max": 3.6,
+   "coef_constructibilidad_condicion": "el proyecto incorpora 30% o más de viviendas de interés público (incentivo del Art. 1.10, pág. 12) («el coeficiente de constructibilidad de 2,4 a 3,6»)",
+   "altura_m_texto": "Altura máxima de la edificación 14 m o 4 pisos",
+   "altura_m": 14.0,
+   "altura_incentivo_m": 21.0,
+   "incentivo_texto": "el proyecto incorpora 30% o más de viviendas de interés público (6 pisos; incentivo del Art. 1.10, pág. 12): «la altura máxima de edificación de 4 a 6 pisos o 21 metros»",
+   "incentivo_pagina": 24,
+   "antejardin_m_texto": "Antejardín (m) 3",
+   "antejardin_m": 3.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado, continuo (1)",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Edificación continua: hasta 7 m o 2 pisos y 50% de profundidad máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZR10",
+   "pagina": 25,
+   "seccion": "Art. 2.2, ZR10 Zona Residencial Mixta 10",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 1.200",
+   "superficie_predial_minima_m2": 1200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima de la edificación 14 m o 4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín (m) 3",
+   "antejardin_m": 3.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado, continuo (1)",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Edificación continua: hasta 7 m o 2 pisos y 50% de profundidad máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZR11",
+   "pagina": 26,
+   "seccion": "Art. 2.2, ZR11 Zona Mixta Residencial Productiva 11",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 1.800",
+   "superficie_predial_minima_m2": 1800,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,8",
+   "coef_constructibilidad": 2.8,
+   "coef_constructibilidad_max": 4.2,
+   "coef_constructibilidad_condicion": "el proyecto incorpora 30% o más de viviendas de interés público y habilita áreas verdes públicas equivalentes al aumento de constructibilidad (incentivo del Art. 1.10, pág. 12) («el coeficiente de constructibilidad de 2,8 a 4,2»)",
+   "altura_m_texto": "Altura máxima de la edificación 14 m o 4 pisos",
+   "altura_m": 14.0,
+   "altura_incentivo_m": 21.0,
+   "incentivo_texto": "el proyecto incorpora 30% o más de viviendas de interés público y habilita áreas verdes públicas (6 pisos; incentivo del Art. 1.10, pág. 12): «la altura máxima de edificación de 4 a 6 pisos o 21 metros»",
+   "incentivo_pagina": 26,
+   "antejardin_m_texto": "Antejardín (m) 3",
+   "antejardin_m": 3.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    }
+   ]
+  },
+  {
+   "zona": "ZE1",
+   "pagina": 27,
+   "seccion": "Art. 2.2, ZE1 Zona de Equipamiento 1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 2.000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3,6",
+   "coef_constructibilidad": 3.6,
+   "altura_m_texto": "Altura máxima de la edificación 21 m o 6 pisos",
+   "altura_m": 21.0,
+   "antejardin_m_texto": "Antejardín (m) 3",
+   "antejardin_m": 3.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado"
+  },
+  {
+   "zona": "ZE2",
+   "pagina": 28,
+   "seccion": "Art. 2.2, ZE2 Zona de Equipamiento 2",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 1.000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima de la edificación 14 m o 4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín (m) 3",
+   "antejardin_m": 3.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    }
+   ]
+  },
+  {
+   "zona": "ZE2M",
+   "pagina": 29,
+   "seccion": "Art. 2.2, ZE2M Zona de Equipamiento 2M",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 1.000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima de la edificación 14 m o 4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín (m) 1,5",
+   "antejardin_m": 1.5,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    }
+   ]
+  },
+  {
+   "zona": "ZE2LV",
+   "pagina": 31,
+   "seccion": "Art. 2.2, ZE2LV Zona de Equipamiento 2LV",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 1.000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,6 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el uso es equipamiento (actividades productivas: 0,4) («Coeficiente de ocupación del suelo 0,6 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4 0,8",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el uso es equipamiento (actividades productivas: 0,8) («Coeficiente de constructibilidad 2,4 0,8»)",
+   "altura_m_texto": "Altura máxima de la edificación 14 m o 4 pisos 7 m o 2 pisos",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el uso es equipamiento (4 pisos; actividades productivas: 7 m o 2 pisos): «Altura máxima de la edificación 14 m o 4 pisos 7 m o 2 pisos»",
+   "incentivo_pagina": 31,
+   "antejardin_m_texto": "Antejardín (m) 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento: 5 m."
+    },
+    {
+     "campo": "zona",
+     "texto": "Se prohíbe la vivienda, salvo la del cuidador de las actividades productivas."
+    }
+   ]
+  },
+  {
+   "zona": "ZE3",
+   "pagina": 32,
+   "seccion": "Art. 2.2, ZE3 Zona de Equipamiento 3",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 3",
+   "antejardin_m": 3.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro marca el coeficiente de ocupación con (*) sin nota que lo explique."
+    }
+   ]
+  },
+  {
+   "zona": "ZE3M",
+   "pagina": 33,
+   "seccion": "Art. 2.2, ZE3M Zona de Equipamiento 3M",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín (m) 1,5",
+   "antejardin_m": 1.5,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Templos: solo agrupamiento aislado, con distanciamientos de 8 m como mínimo a los deslindes."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro marca el coeficiente de ocupación con (*) sin nota que lo explique."
+    }
+   ]
+  },
+  {
+   "zona": "ZE4",
+   "pagina": 34,
+   "seccion": "Art. 2.2, ZE4 Zona de Equipamiento 4",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 2.000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de la edificación 15 m - 2 pisos",
+   "altura_m": 15.0,
+   "antejardin_m_texto": "Antejardín (m) 6",
+   "antejardin_m": 6.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro marca el coeficiente de ocupación con (*) sin nota que lo explique."
+    }
+   ]
+  },
+  {
+   "zona": "ZAP1",
+   "pagina": 36,
+   "seccion": "Art. 2.2, ZAP1 Zona de Actividad Productiva Molesta",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3,6",
+   "coef_constructibilidad": 3.6,
+   "altura_m_texto": "Altura máxima de la edificación 21 m o 6 pisos",
+   "altura_m": 21.0,
+   "antejardin_m_texto": "Antejardín (m) 10",
+   "antejardin_m": 10.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento: 5 m."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro marca el coeficiente de ocupación con (*) sin nota que lo explique."
+    },
+    {
+     "campo": "zona",
+     "texto": "Se prohíbe la vivienda, salvo la del cuidador de las actividades productivas."
+    }
+   ]
+  },
+  {
+   "zona": "ZI1",
+   "pagina": 37,
+   "seccion": "Art. 2.2, ZI1 Zona de Infraestructura Energética",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,6",
+   "coef_constructibilidad": 0.6,
+   "altura_m_texto": "Altura máxima de la edificación 10 m o 2 pisos",
+   "altura_m": 10.0,
+   "antejardin_m_texto": "Antejardín (m) 10",
+   "antejardin_m": 10.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZI2",
+   "pagina": 38,
+   "seccion": "Art. 2.2, ZI2 Zona de Infraestructura Sanitaria",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación del suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,6",
+   "coef_constructibilidad": 0.6,
+   "altura_m_texto": "Altura máxima de la edificación 7 m o 2 pisos",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín (m) 10",
+   "antejardin_m": 10.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento: 5 m."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro marca el coeficiente de ocupación con (*) sin nota que lo explique."
+    }
+   ]
+  },
+  {
+   "zona": "AVI1",
+   "pagina": 39,
+   "seccion": "Art. 2.2, AVI1 Parques BNUP Intercomunales",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Parque intercomunal, bien nacional de uso público: rige la OGUC para el uso Espacio Público."
+    }
+   ]
+  },
+  {
+   "zona": "AVI2",
+   "pagina": 39,
+   "seccion": "Art. 2.2, AVI2 Parques DUP Intercomunales",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Parque intercomunal declarado de utilidad pública (arts. 59 y 59 bis de la LGUC)."
+    }
+   ]
+  },
+  {
+   "zona": "AVI3",
+   "pagina": 40,
+   "seccion": "Art. 2.2, AVI3 Áreas Verdes Asociadas a Pozos Extractivos",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área verde asociada a pozo extractivo (Parque André Jarlan y Pierre Dubois), regulada por la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "AV1",
+   "pagina": 40,
+   "seccion": "Art. 2.2, AV1 Espacio Público, Plazas, Parques y Áreas Verdes (BNUP)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Bien nacional de uso público: rige la OGUC para el uso Espacio Público."
+    }
+   ]
+  },
+  {
+   "zona": "AV2",
+   "pagina": 40,
+   "seccion": "Art. 2.2, AV2 Parques y Plazas (DUP)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Parque o plaza declarado de utilidad pública (arts. 59 y 59 bis de la LGUC)."
+    }
+   ]
+  },
+  {
+   "zona": "AV3",
+   "pagina": 40,
+   "seccion": "Art. 2.2, AV3 Áreas Verdes",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área verde que no es bien nacional de uso público: rige la OGUC para el uso Área Verde."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,628 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Plan Regulador Comunal de Huechuraba (D.E. N° 1.314 de 19-08-2004, D.O. 29-09-2004), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=230744",
+ "sha256": "40b254f8822c0e76e6cf7dfaf3aa7bb5f06f17c1dac8fd5a2c1e6d8327d36664",
+ "documentos_adicionales": {
+  "m6": {
+   "documento": "Modificación N° 6 al PRC de Huechuraba «MPRCH-6 Modifica uso de suelo en sector Ciudad Empresarial» (D.A. N° 01/2875/2021, D.O. 28-10-2021)",
+   "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2021/10/28/43089/01/2030712.pdf",
+   "sha256": "ccb4c33891f22d166b658a3cdc3b85d4aa92a1ddabaed0539ec5c4664832f7e1"
+  },
+  "o2010": {
+   "documento": "Ordenanza del PRC de Huechuraba modificada a junio de 2010, publicada por la Municipalidad",
+   "url": "https://transparencia.huechuraba.cl/archivos/IX/plan_regulador/Ordenanza%20PRCH,%20Modificado%20Junio%202010.pdf",
+   "sha256": "3283cf1a9ef47b2e146c659c8d2ce9d25526eb9f214d54c0997813d4f312cd82"
+  },
+  "e3": {
+   "documento": "Enmienda N° 3 al PRC de Huechuraba (D.E. N° 01/4275/2023), texto aprobatorio publicado por la Municipalidad",
+   "url": "https://drive.google.com/file/d/1E6kmslp1CchCY2kJLvCK1g2U8KawaQf_/view",
+   "sha256": "f41866767fe11d7c0e05adc07f9cb3baf8aff48699d0ce3eb068781fc24bfacd"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZC1",
+   "pagina": 0,
+   "seccion": "Art. 40, Zona ZC1 Equipamiento (Centro Comunal)",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie predial mínima frente a la Av. Recoleta y El Bosque Santiago: 480 m²",
+   "superficie_predial_minima_m2": 480,
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje máximo de ocupación de suelo: 80%",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: 2,5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "b.5 Altura máxima de la edificación: 14 metros.",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "b.6 Antejardín: sin antejardín.",
+   "antejardin_m": 0.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de agrupamiento: continuo, se permite edificación aislada y/o pareada a partir del segundo piso de la edificación continua",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Resto de la zona (sin frente a Av. Recoleta ni a El Bosque de Santiago): 360 m²."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continua en la base; aislada o pareada solo desde el segundo piso de la edificación continua, con distanciamientos de la OGUC y tope de 14 m."
+    },
+    {
+     "campo": "zona",
+     "texto": "Residencial solo desde el segundo piso."
+    }
+   ]
+  },
+  {
+   "zona": "ZC2",
+   "pagina": 0,
+   "seccion": "Art. 41, Zona ZC2 Equipamiento (Centro Pedro Fontova)",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie predial mínima: 480 m²",
+   "superficie_predial_minima_m2": 480,
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje máximo de ocupación de suelo: 70%",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: 1,4",
+   "coef_constructibilidad": 1.4,
+   "altura_m_texto": "b.5 Altura máxima de edificación: 14 metros",
+   "altura_m": 14.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de Agrupamiento: aislado y pareado en la línea oficial de edificación",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 18): 2 m frente a calles o pasajes de menos de 11 m, 3 m entre 11 y 25 m y 5 m desde 25 m; frente al Guanaco Norte, 15 m para equipamiento y 6 m para vivienda."
+    }
+   ]
+  },
+  {
+   "zona": "ZC3",
+   "pagina": 0,
+   "seccion": "Art. 42, Zona ZC3 Residencial Mixto (Santa Elena sur - El Salto), Modificación N° 7",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie de subdivisión predial mínima: 500 m²",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "b.3 Coeficiente de ocupación de suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "b.2 Coeficiente de constructibilidad: 1.8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "b.5 Altura máxima de edificación: 16 metros (6 pisos)",
+   "altura_m": 16.0,
+   "antejardin_m_texto": "b.6 Antejardín: 5 metros",
+   "antejardin_m": 5.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de Agrupamiento: Aislado"
+  },
+  {
+   "zona": "ZC4-1",
+   "pagina": 2,
+   "seccion": "Art. 43, Subzona ZC4-1 de Equipamiento (Ciudad Empresarial), Modificación N° 6",
+   "documento": "Modificación N° 6 al PRC de Huechuraba «MPRCH-6 Modifica uso de suelo en sector Ciudad Empresarial» (D.A. N° 01/2875/2021, D.O. 28-10-2021)",
+   "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2021/10/28/43089/01/2030712.pdf",
+   "superficie_predial_minima_m2_texto": "b.1. Superficie predial mínima: 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "b.3. Coeficiente de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "b.2. Coeficiente de constructibilidad: 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "b.7. Altura de edificación: 21 metros",
+   "altura_m": 21.0,
+   "antejardin_m_texto": "b.8. Antejardín: 10 metros",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4. Sistema de agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento: 6 m; no se permite adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZC4-2",
+   "pagina": 2,
+   "seccion": "Art. 43, Subzona ZC4-2 Sub-Centro de Equipamiento Metropolitano (Ciudad Empresarial), Modificación N° 6",
+   "documento": "Modificación N° 6 al PRC de Huechuraba «MPRCH-6 Modifica uso de suelo en sector Ciudad Empresarial» (D.A. N° 01/2875/2021, D.O. 28-10-2021)",
+   "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2021/10/28/43089/01/2030712.pdf",
+   "superficie_predial_minima_m2_texto": "b.1. Superficie predial mínima: 1.500 m2",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "b.3. Coeficiente de ocupación de suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "b.2. Coeficiente de constructibilidad: 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "b.7. Altura de edificación: 52,5 metros",
+   "altura_m": 52.5,
+   "antejardin_m_texto": "b.8. Antejardín: 10 metros",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4. Sistema de agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento: 10 m; no se permite adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZI1",
+   "pagina": 25,
+   "seccion": "Art. 44, Zona ZI1 Industrial Exclusiva (cuadro de la Ordenanza municipal de 2010)",
+   "documento": "Ordenanza del PRC de Huechuraba modificada a junio de 2010, publicada por la Municipalidad",
+   "url": "https://transparencia.huechuraba.cl/archivos/IX/plan_regulador/Ordenanza%20PRCH,%20Modificado%20Junio%202010.pdf",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie predial mínima 1.500 m2 1500 m2 1500 m2",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje máximo de ocupación de suelo 50% 50% 50%",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad 1,2 1,5 1,8",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.8,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (talleres: 1,5; industria y almacenamiento: 1,2) («b.2 Coeficiente máximo de constructibilidad 1,2 1,5 1,8»)",
+   "altura_m_texto": "b.5 Altura de edificación Según rasante O. G.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "b.6.2 Predio con frente a otras calles 15 m 15 m 15 m 10 m 15 m 10 m",
+   "antejardin_m": 15.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de Agrupamiento Aislado Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "15 m frente a Av. Américo Vespucio y Av. El Guanaco; frente a otras calles, 15 m para industria y almacenamiento y 10 m para talleres y equipamiento."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Actividades productivas molestas: 40 m de distanciamiento respecto de zonas habitacionales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cuadro tomado de la Ordenanza modificada a junio de 2010 que publica la Municipalidad (la BCN lo remite al Diario Oficial de 29-09-2004)."
+    }
+   ]
+  },
+  {
+   "zona": "ZI2",
+   "pagina": 26,
+   "seccion": "Art. 45, Zona ZI2 Industrial Inofensiva (cuadro de la Ordenanza municipal de 2010)",
+   "documento": "Ordenanza del PRC de Huechuraba modificada a junio de 2010, publicada por la Municipalidad",
+   "url": "https://transparencia.huechuraba.cl/archivos/IX/plan_regulador/Ordenanza%20PRCH,%20Modificado%20Junio%202010.pdf",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie predial mínima 2.000 m2 2.000 m2 1.000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje máximo de ocupación de suelo 70% 50% 50%",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (demás usos: 0,5) («b.3 Porcentaje máximo de ocupación de suelo 70% 50% 50%»)",
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad 1,2 1,00 1,00",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (industria, almacenamiento, actividades complementarias a la vialidad y talleres: 1,0) («b.2 Coeficiente máximo de constructibilidad 1,2 1,00 1,00»)",
+   "altura_m_texto": "b.5 Altura de edificación Según rasantes O. G.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "b.6.2 Predio con frente a otras calles 15 m 10 m 15 m 10 m 15 m 10 m",
+   "antejardin_m": 15.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de Agrupamiento Aislado Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Talleres: 1.000 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "15 m frente a Av. Américo Vespucio y Av. El Guanaco; 10 m frente a otras calles."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cuadro tomado de la Ordenanza modificada a junio de 2010 que publica la Municipalidad (la BCN lo remite al Diario Oficial de 29-09-2004)."
+    }
+   ]
+  },
+  {
+   "zona": "ZH1",
+   "pagina": 0,
+   "seccion": "Art. 46, Zona ZH1 Residencial (Sector Antiguo)",
+   "superficie_predial_minima_m2_texto": "c.1 Superficie predial mínima: 320 m²",
+   "superficie_predial_minima_m2": 320,
+   "coef_ocupacion_suelo_texto": "c.3 Porcentaje máximo de ocupación de suelo: 50%",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino es vivienda (equipamiento: 0,5) («b.3 Porcentaje máximo de ocupación de suelo: 70%»)",
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: 1,4",
+   "coef_constructibilidad": 1.4,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (vivienda: 1,4) («c.2 Coeficiente máximo de constructibilidad: 1,5»)",
+   "altura_m_texto": "b.5 Altura máxima de edificación: 10,5 metros.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "es un proyecto de densificación habitacional (fusión y posterior subdivisión de predios), continuo en 2 pisos o pareado en 3 pisos: «d.5 Altura máxima de edificación: 14 metro»",
+   "incentivo_pagina": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de Agrupamiento: Aislado, pareado y continuo.",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Vivienda: 160 m²; equipamiento: 320 m²; proyectos de densificación (fusión y subdivisión): 60 m²."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Equipamiento: aislado y pareado."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 18): 2 m frente a calles o pasajes de menos de 11 m, 3 m entre 11 y 25 m y 5 m desde 25 m; equipamiento: 5 m; Av. Las Torres entre Juan Cristóbal y Av. Recoleta: 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH2",
+   "pagina": 0,
+   "seccion": "Art. 47, Zona ZH2 Residencial (Los Libertadores), Modificación N° 7",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie de subdivisión predial mínima: 160 m²",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "b.3 Coeficiente de ocupación de suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "b.5 Altura máxima de edificación: 11 metros (4 pisos)",
+   "altura_m": 11.0,
+   "antejardin_m_texto": "b.6 Antejardín: 3 metros",
+   "antejardin_m": 3.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de agrupamiento: aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Enmienda N° 3 (D.E. N° 01/4275/2023): solo para equipamiento de salud dentro del polígono del plano EPRCH 03 HUE/2023, constructibilidad 1,3, ocupación 0,65 y altura 13,2 m (5 pisos)."
+    }
+   ]
+  },
+  {
+   "zona": "ZH3",
+   "pagina": 0,
+   "seccion": "Art. 48, Zona ZH3 Residencial (Santa Rosa de Huechuraba - Santa Clara), Modificación N° 7",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie de subdivisión predial mínima: 200 m²",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "b.3 Coeficiente de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "b.2 Coeficiente de constructibilidad: 1,6",
+   "coef_constructibilidad": 1.6,
+   "altura_m_texto": "b.5 Altura máxima de edificación: 11 metros (4 pisos)",
+   "altura_m": 11.0,
+   "antejardin_m_texto": "b.6 Antejardín: 5 metros",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de agrupamiento: Aislado"
+  },
+  {
+   "zona": "ZH4",
+   "pagina": 0,
+   "seccion": "Art. 49, Zona ZH4 Residencial (Rinconada)",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie predial mínima: 4.000 m²",
+   "superficie_predial_minima_m2": 4000,
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje máximo de ocupación de suelo: 20%",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: 2,2",
+   "coef_constructibilidad": 2.2,
+   "altura_m_texto": "b.5 Altura máxima de edificación: 42 metros.",
+   "altura_m": 42.0,
+   "antejardin_m_texto": "b.6 Antejardín: 10m.",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de Agrupamiento: Aislado"
+  },
+  {
+   "zona": "ZH5",
+   "pagina": 0,
+   "seccion": "Art. 50, Zona ZH5 Residencial (Los Almendros)",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie predial mínima: 800 m²",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje máximo de ocupación de suelo: Para vivienda : 30%",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (vivienda: 0,3) («Para equipamiento : 50%»)",
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: Para vivienda : 0.30",
+   "coef_constructibilidad": 0.3,
+   "coef_constructibilidad_max": 0.5,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (vivienda: 0,3) («Para equipamiento : 0.50»)",
+   "altura_m_texto": "b.5 Altura máxima de edificación: 10,5 metros.",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "b.6 Antejardín mínimo: Frente a calles: 5 m.",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de agrupamiento: Aislado, pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Frente a pasajes: 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH6",
+   "pagina": 0,
+   "seccion": "Art. 51, Zona ZH6 Residencial (El Carmen de Huechuraba), Modificación N° 7",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie de subdivisión predial mínima: 500 m²",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "b.3 Coeficiente de ocupación de suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "b.2 Coeficiente de constructibilidad: 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "b.5 Altura de edificación: 11 metros (4 pisos).",
+   "altura_m": 11.0,
+   "antejardin_m_texto": "b.6 Antejardín: 5 metros",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de Agrupamiento: aislado"
+  },
+  {
+   "zona": "ZH7",
+   "pagina": 0,
+   "seccion": "Art. 52, Zona ZH7 Residencial (El Salto)",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie predial mínima: 2.000 m²",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje máximo de ocupación de suelo: 30%",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: 2,0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "b.5 Altura máxima de edificación: Según rasantes Ordenanza General",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 18): 2 m frente a calles o pasajes de menos de 11 m, 3 m entre 11 y 25 m y 5 m desde 25 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH8",
+   "pagina": 0,
+   "seccion": "Art. 53, Zona ZH8 Residencial (Pie de Monte)",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie predial mínima: 2.000 m²",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje máximo de ocupación de suelo: 30%",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: 1.8",
+   "coef_constructibilidad": 1.8,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el predio supera 4.000 m² («b.7 Para predios superiores a 4.000 m2 se podrá aumentar la altura a 35 metros y el coeficiente de constructibilidad a 2,0»)",
+   "altura_m_texto": "b.5 Altura máxima de edificación: 21 metros",
+   "altura_m": 21.0,
+   "altura_incentivo_m": 35.0,
+   "incentivo_texto": "el predio supera 4.000 m² y no enfrenta la Avenida del Parque (frente a ella, 21 m): «b.7 Para predios superiores a 4.000 m2 se podrá aumentar la altura a 35 metros»",
+   "incentivo_pagina": 0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según el ancho de la vía (Art. 18): 2 m frente a calles o pasajes de menos de 11 m, 3 m entre 11 y 25 m y 5 m desde 25 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH9",
+   "pagina": 0,
+   "seccion": "Art. 54, Zona ZH9 Residencial (El Almendral)",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie predial mínima: 2.000 m²",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje máximo de ocupación de suelo: Vivienda : 20%",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (vivienda: 0,2) («Equipamiento : 50%»)",
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: Vivienda : 0,2",
+   "coef_constructibilidad": 0.2,
+   "coef_constructibilidad_max": 0.5,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (vivienda: 0,2) («Equipamiento : 0,5»)",
+   "altura_m_texto": "b.5 Altura máxima de edificación: Según rasantes Ordenanza General",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "b.6 Antejardín mínimo: 5 m.",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de agrupamiento: Aislado"
+  },
+  {
+   "zona": "ZH10",
+   "pagina": 0,
+   "seccion": "Art. 55, Zona ZH10 Residencial (altura media), Modificación N° 7",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie de subdivisión predial mínima: 400 m²",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "b.3 Coeficiente de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "b.2 Coeficiente de constructibilidad: 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "b.5 Altura máxima de edificación: 16 metros (6 pisos)",
+   "altura_m": 16.0,
+   "antejardin_m_texto": "b.6 Antejardín: 5 metros.",
+   "antejardin_m": 5.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de Agrupamiento: aislado"
+  },
+  {
+   "zona": "ZE1",
+   "pagina": 0,
+   "seccion": "Art. 56, Zona ZE1 Cementerios Parque",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cementerios parque: rigen las disposiciones sobre cementerios y el art. 5.2.4.2 del PRMS; en el perímetro, rasantes y distanciamientos del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "ZE3",
+   "pagina": 0,
+   "seccion": "Art. 58, Zona ZE3 Equipamiento Intercomunal",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie predial mínima: 10.000 m2",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje máximo de ocupación de suelo: 25%",
+   "coef_ocupacion_suelo": 0.25,
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: 0,25",
+   "coef_constructibilidad": 0.25,
+   "altura_m_texto": "b.5 Altura máxima de edificación: 14 metros",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "b.6 Antejardín mínimo: 5 metros.",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Frente a la Avenida El Guanaco: 15 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZE4",
+   "pagina": 0,
+   "seccion": "Art. 59, Zona ZE4 Equipamiento Recreacional y Deportivo",
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje ocupación máxima de suelo: 20%",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: 0,2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "b.5 Altura máxima de edificación: 10,5 metros",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "b.6 Antejardín: 10 metros",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "La existente: no se permite subdividir."
+    }
+   ]
+  },
+  {
+   "zona": "ZE5",
+   "pagina": 0,
+   "seccion": "Art. 60, Zona ZE5 Cerros Islas",
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje ocupación máxima de suelo: 5%",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: 0,05",
+   "coef_constructibilidad": 0.05,
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "La existente: no se permite subdividir."
+    }
+   ]
+  },
+  {
+   "zona": "ZE6",
+   "pagina": 0,
+   "seccion": "Art. 61, Zona ZE6 Plazas y Áreas Verdes",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Plazas y parques: solo arborización, mobiliario y juegos infantiles."
+    }
+   ]
+  },
+  {
+   "zona": "ZE7",
+   "pagina": 0,
+   "seccion": "Art. 62, Zona ZE7 Área Verde - Parque",
+   "superficie_predial_minima_m2_texto": "b.1 Subdivisión mínima: 10.000 m².",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje ocupación máxima de suelo: 20%",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: 0,2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "b.5 Altura máxima de edificación: 10,5 metros",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "b.6 Antejardín: 10 metros",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "b.4 Sistema de Agrupamiento: Aislado"
+  },
+  {
+   "zona": "ZE8",
+   "pagina": 0,
+   "seccion": "Art. 63, Zona ZE8 Equipamiento Deportivo Vecinal",
+   "coef_ocupacion_suelo_texto": "que en ningún caso deberán ocupar más del 10% de la superficie del predio",
+   "coef_ocupacion_suelo": 0.1,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Canchas, multicanchas, gimnasios y piscinas: se prohíbe subdividir y solo se permiten edificaciones complementarias (camarines, bodegas, luminarias, graderías)."
+    }
+   ]
+  },
+  {
+   "zona": "ZE9",
+   "pagina": 0,
+   "seccion": "Art. 64, Zona ZE9 Monumento Histórico",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Casa Patronal, bodegas y parque del ex Fundo El Salto: usos de la zona ZC4-1; las obras no pueden afectar las edificaciones de valor histórico (Ley 17.288) y las aprueba la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "ZE10",
+   "pagina": 0,
+   "seccion": "Art. 65, Zona ZE10 Equipamiento Comunitario Vecinal",
+   "superficie_predial_minima_m2_texto": "b.1 Superficie predial mínima: 120 m²",
+   "superficie_predial_minima_m2": 120,
+   "coef_ocupacion_suelo_texto": "b.3 Porcentaje máximo de ocupación de suelo: 80%",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "b.2 Coeficiente máximo de constructibilidad: 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "b.4 Altura máxima de edificación: rasante según Ordenanza General",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "b.5 Antejardín mínimo: 5 metros",
+   "antejardin_m": 5.0
+  }
+ ]
+}

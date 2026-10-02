@@ -1,0 +1,1462 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Estación Central (actualización promulgada por Decreto N° 709, D.O. 18-07-2025), publicada por la Municipalidad conforme al Art. 28 septies de la LGUC",
+ "url": "https://drive.google.com/file/d/1C8Wz8XyXtP0xLKYUeZ0B88c3keoqrcXL/view",
+ "sha256": "bf3f4723c9c67502369f616ce8f57a35e2201515b7f325e6b355f7f5da486f85",
+ "extraido": "2026-09-30",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "cuerpos_salientes": {
+  "articulo": "Artículo 7",
+  "texto": "A partir de la altura de 4 m. se permitirán cuerpos salientes que sobresalgan del plano vertical levantado sobre la línea oficial hasta de un ancho de 1,5 m",
+  "saliente_max_m": 1.5,
+  "altura_min_m": 4.0,
+  "solo_revision": true,
+  "pagina": 7
+ },
+ "zonas": [
+  {
+   "zona": "M-12",
+   "pagina": 13,
+   "seccion": "Artículo 16 (a), Zona M-12, Zona Equipamiento Metropolitano y Residencial - 12 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 1",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 9,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (residencial 4,5; 5,8 y 7,2 con más vivienda de interés público; otros usos 9) («Coeficiente de constructibilidad 4,5 5,8(1) 7,2(2) 9»)",
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 42,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11: 32 m (12 pisos) residencial y 42 m (12 pisos) otros usos, aislado sobre continuo con retranqueo de 5 m: «Altura máxima de edificación (m) 32 42»",
+   "incentivo_pagina": 14,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 1.500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,5 residencial (0,6 y 0,7 con más vivienda de interés público) y 0,95 otros usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Sin incentivos solo se permite la edificación continua; con incentivos, aislado sobre continuo."
+    }
+   ]
+  },
+  {
+   "zona": "M-9",
+   "pagina": 15,
+   "seccion": "Artículo 16 (b), Zona M-9, Zona Equipamiento Metropolitano y Residencial - 9 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 8,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (residencial 3,5; 4,5 y 5,6 con más vivienda de interés público; otros usos 8) («Coeficiente de constructibilidad 3,5 4,5(1) 5,6(2) 8 5»)",
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 32,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11: 25 m (9 pisos) residencial y 32 m (8 pisos, aislado o continuo hasta 25 m) otros usos, aislado sobre continuo con retranqueo de 5 m: «Altura máxima de edificación (m) 25 32 25»",
+   "incentivo_pagina": 18,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 1.000 m² residencial y 1.500 m² otros usos."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,5 residencial (0,6 y 0,7 con más vivienda de interés público) y 1 otros usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Sin incentivos solo se permite la edificación continua; con incentivos, aislado sobre continuo."
+    }
+   ]
+  },
+  {
+   "zona": "M-9(i/ii)",
+   "pagina": 15,
+   "seccion": "Artículo 16 (b), Zona M-9, Zona Equipamiento Metropolitano y Residencial - 9 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 5.6,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (residencial 3,5; 4,5 y 5,6 con más vivienda de interés público; otros usos 5) («Coeficiente de constructibilidad 3,5 4,5(1) 5,6(2) 8 5»)",
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 25,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11: 25 m (9 pisos) residencial y 25 m (8 pisos) otros usos, aislado sobre continuo con retranqueo de 5 m: «Altura máxima de edificación (m) 25 32 25»",
+   "incentivo_pagina": 18,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 1.000 m² residencial y 1.500 m² otros usos."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,5 residencial (0,6 y 0,7 con más vivienda de interés público) y 0,75 otros usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Sin incentivos solo se permite la edificación continua; con incentivos, aislado sobre continuo."
+    }
+   ]
+  },
+  {
+   "zona": "M-6",
+   "pagina": 19,
+   "seccion": "Artículo 16 (c), Zona M-6, Zona Equipamiento Metropolitano y Residencial - 6 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 1",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 3.5,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (residencial 2,5; 3 y 3,5 con más vivienda de interés público; otros usos 3,5) («Coeficiente de constructibilidad 2,5 3(1) 3,5(2) 3,5»)",
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 24,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11: 17 m (6 pisos) residencial y 24 m (6 pisos) otros usos, aislado sobre continuo con retranqueo de 3 m: «Altura máxima de edificación (m) 17 24»",
+   "incentivo_pagina": 20,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 700 m² residencial y 1.000 m² otros usos."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,5 residencial (0,6 y 0,7 con más vivienda de interés público) y 0,75 otros usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Sin incentivos solo se permite la edificación continua; con incentivos, aislado sobre continuo."
+    }
+   ]
+  },
+  {
+   "zona": "L-12",
+   "pagina": 21,
+   "seccion": "Artículo 16 (d), Zona L-12 Residencial y Equipamiento Local - 12 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 6.4,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (4; 5,2 y 6,4 con más vivienda de interés público) («Coeficiente de constructibilidad 4 5,2(1) 6,4(2) 5»)",
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_m": 7,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 32 m (12 pisos): «Altura máxima de edificación (m) 32 32»",
+   "incentivo_pagina": 22,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 1.200 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,6 (0,66 y 0,72 con más vivienda de interés público)."
+    }
+   ]
+  },
+  {
+   "zona": "L-12(c)",
+   "pagina": 21,
+   "seccion": "Artículo 16 (d), Subzona L-12(c) Residencial y Equipamiento Local en Continuidad - 12 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 5,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (5) («Coeficiente de constructibilidad 4 5,2(1) 6,4(2) 5»)",
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_m": 7,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 32 m (12 pisos), también en edificación continua: «Altura máxima de edificación (m) 32 32»",
+   "incentivo_pagina": 22,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,6."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Con incentivos la subzona es de edificación continua."
+    }
+   ]
+  },
+  {
+   "zona": "L-9",
+   "pagina": 23,
+   "seccion": "Artículo 16 (e), Zona L-9 Residencial y Equipamiento Local - 9 pisos (y subzona L-9(ii))",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 5.1,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (3; 4,05 y 5,1 con más vivienda de interés público) («Coeficiente de constructibilidad 3 4,05(1) 5,1(2) 4»)",
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_m": 7,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 25 m (9 pisos): «Altura máxima de edificación (m) 25 30»",
+   "incentivo_pagina": 26,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 1.000 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,6 (0,66 y 0,72 con más vivienda de interés público)."
+    }
+   ]
+  },
+  {
+   "zona": "L-9(c)",
+   "pagina": 23,
+   "seccion": "Artículo 16 (e), Subzona L-9(c) Residencial y Equipamiento Local en Continuidad - 9 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 4,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (4) («Coeficiente de constructibilidad 3 4,05(1) 5,1(2) 4»)",
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_m": 7,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 30 m (9 pisos), también en edificación continua, con retranqueo de 3 m sobre 18 m: «Altura máxima de edificación (m) 25 30»",
+   "incentivo_pagina": 26,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 1."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Con incentivos la subzona es de edificación continua."
+    }
+   ]
+  },
+  {
+   "zona": "L-6",
+   "pagina": 28,
+   "seccion": "Artículo 16 (f), Zona L-6 Residencial y Equipamiento Local - 6 pisos (y subzonas L-6(i) y L-6(ii))",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 2.8,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (2,2; 2,5 y 2,8 con más vivienda de interés público) («Coeficiente de constructibilidad 2,2 2,5(1) 2,8(2) 3»)",
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_m": 7,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 17 m (6 pisos): «Altura máxima de edificación (m) 17 17»",
+   "incentivo_pagina": 32,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 700 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,6 (0,66 y 0,72 con más vivienda de interés público)."
+    }
+   ]
+  },
+  {
+   "zona": "L-6(c)",
+   "pagina": 28,
+   "seccion": "Artículo 16 (f), Subzona L-6(c) Residencial y Equipamiento Local en Continuidad - 6 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (3) («Coeficiente de constructibilidad 2,2 2,5(1) 2,8(2) 3»)",
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_m": 7,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 17 m (6 pisos), también en edificación continua: «Altura máxima de edificación (m) 17 17»",
+   "incentivo_pagina": 32,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,6."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Con incentivos la subzona es de edificación continua."
+    }
+   ]
+  },
+  {
+   "zona": "L-4",
+   "pagina": 33,
+   "seccion": "Artículo 16 (g), Zona L-4 Residencial y Equipamiento Local - 4 pisos (y subzonas L-4(i) y L-4(ii))",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (1,8; 1,9 y 2 con más vivienda de interés público) («Coeficiente de constructibilidad 1,8 1,9(1) 2(2)»)",
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_m": 7,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 12 m (4 pisos): «Altura máxima de edificación (m) 12»",
+   "incentivo_pagina": 36,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,6 (0,66 y 0,72 con más vivienda de interés público)."
+    }
+   ]
+  },
+  {
+   "zona": "L-2",
+   "pagina": 37,
+   "seccion": "Artículo 16 (h), Zona L-2 Residencial y Equipamiento Local - 2 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_m": 7,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes: «Altura máxima de edificación continua (pisos) 2»",
+   "incentivo_pagina": 38,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    }
+   ]
+  },
+  {
+   "zona": "R-6",
+   "pagina": 39,
+   "seccion": "Artículo 16 (i), Zona R-6, Zona Residencial Preferente - 6 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200 300",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial (otros usos 0,4; con incentivos 0,4, 0,45 y 0,5 con más vivienda de interés público) («Coeficiente de ocupación de suelo 0,8 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (2; 2,2 y 2,4 con más vivienda de interés público) («Coeficiente de constructibilidad 2 2,2(1) 2,4(2)»)",
+   "altura_m_texto": "Altura máxima de edificación (m) 7 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 17,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11: 17 m (6 pisos), solo aislado: «Altura máxima de edificación (m) 17»",
+   "incentivo_pagina": 40,
+   "antejardin_m_texto": "Antejardín (m) 0 2",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado-Pareado-Continuo Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Otros usos: superficie predial mínima de 300 m². Con incentivos: 600 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 0 m para uso residencial y 2 m para otros usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Otros usos y la edificación con incentivos solo pueden ser aislados."
+    }
+   ]
+  },
+  {
+   "zona": "R-4",
+   "pagina": 41,
+   "seccion": "Artículo 16 (j), Zona R-4, Zona Residencial Preferente - 4 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 150 300",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial (otros usos 0,4; con incentivos 0,4, 0,45 y 0,5 con más vivienda de interés público) («Coeficiente de ocupación de suelo 0,8 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 1.76,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (1,6; 1,68 y 1,76 con más vivienda de interés público) («Coeficiente de constructibilidad 1,6 1,68(1) 1,76(2)»)",
+   "altura_m_texto": "Altura máxima de edificación (m) 7 7",
+   "altura_m": 7,
+   "altura_incentivo_m": 12,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11: 12 m (4 pisos), solo aislado: «Altura máxima de edificación (m) 12»",
+   "incentivo_pagina": 42,
+   "antejardin_m_texto": "Antejardín (m) 3 2",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado-Pareado-Continuo Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Otros usos: superficie predial mínima de 300 m². Con incentivos: 300 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín de 3 m para uso residencial y 2 m para otros usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Otros usos y la edificación con incentivos solo pueden ser aislados."
+    }
+   ]
+  },
+  {
+   "zona": "R-2",
+   "pagina": 43,
+   "seccion": "Artículo 16 (k), Zona R-2, Zona Residencial Preferente - 2 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 150 300",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial (otros usos 0,4) («Coeficiente de ocupación de suelo 0,8 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "Altura máxima de edificación (m) 7 7",
+   "altura_m": 7,
+   "antejardin_m_texto": "Antejardín (m) 2 2",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado-Pareado-Continuo Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Otros usos: superficie predial mínima de 300 m²."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Otros usos solo pueden ser aislados."
+    }
+   ]
+  },
+  {
+   "zona": "E-12",
+   "pagina": 45,
+   "seccion": "Artículo 17 (l), Zona E-12, Zona de Equipamiento Exclusivo - 12 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2000 2000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 4,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 («Coeficiente de constructibilidad 4 4»)",
+   "altura_m_texto": "Altura máxima de edificación (m) 8",
+   "altura_m": 8,
+   "altura_incentivo_m": 42,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11 (42 m): «Altura máxima de edificación (m) 42 42»",
+   "incentivo_pagina": 46,
+   "antejardin_m_texto": "Antejardín (m) 10",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Sin incentivos la superficie predial mínima es 2.500 m²; con incentivos (Art. 11), 2000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "E-12(c)",
+   "pagina": 45,
+   "seccion": "Artículo 17 (l), Subzona E-12(c), Subzona de Equipamiento Exclusivo en Continuidad - 12 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2000 2000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 4,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 («Coeficiente de constructibilidad 4 4»)",
+   "altura_m_texto": "Altura máxima de edificación (m) 8",
+   "altura_m": 8,
+   "altura_incentivo_m": 42,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11 (42 m, edificación continua de hasta 20 m de profundidad): «Altura máxima de edificación (m) 42 42»",
+   "incentivo_pagina": 46,
+   "antejardin_m_texto": "Antejardín (m) 10 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Sin incentivos la superficie predial mínima es 2.500 m²; con incentivos (Art. 11), 2000 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Sin incentivos el antejardín es de 10 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Sin incentivos solo se permite la edificación aislada."
+    }
+   ]
+  },
+  {
+   "zona": "E-9",
+   "pagina": 47,
+   "seccion": "Artículo 17 (m), Zona E-9, Zona de Equipamiento Exclusivo - 9 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1500",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 («Coeficiente de constructibilidad 3»)",
+   "altura_m_texto": "Altura máxima de edificación (m) 8",
+   "altura_m": 8,
+   "altura_incentivo_m": 32,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11 (32 m, aislado o continuo): «Altura máxima de edificación (m) 32»",
+   "incentivo_pagina": 48,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Sin incentivos la superficie predial mínima es 2.500 m²; con incentivos (Art. 11), 1500 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Sin incentivos el antejardín es de 7 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Sin incentivos solo se permite la edificación aislada."
+    }
+   ]
+  },
+  {
+   "zona": "E-6",
+   "pagina": 49,
+   "seccion": "Artículo 17 (n), Zona E-6, Zona de Equipamiento Exclusivo - 6 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "el proyecto opta a los incentivos del Art. 11 («Coeficiente de ocupación de suelo 0,75»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 («Coeficiente de constructibilidad 3»)",
+   "altura_m_texto": "Altura máxima de edificación (m) 8",
+   "altura_m": 8,
+   "altura_incentivo_m": 24,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11 (24 m, aislado o continuo hasta 20 m de profundidad): «Altura máxima de edificación (m) 24»",
+   "incentivo_pagina": 50,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Sin incentivos la superficie predial mínima es 2.500 m²; con incentivos (Art. 11), 1000 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Sin incentivos el antejardín es de 5 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Sin incentivos solo se permite la edificación aislada."
+    }
+   ]
+  },
+  {
+   "zona": "E-4",
+   "pagina": 51,
+   "seccion": "Artículo 17 (o), Zona E-4, Zona de Equipamiento Exclusivo - 4 pisos",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "el proyecto opta a los incentivos del Art. 11 («Coeficiente de ocupación de suelo 0,75»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 («Coeficiente de constructibilidad 2,5»)",
+   "altura_m_texto": "Altura máxima de edificación (m) 8",
+   "altura_m": 8,
+   "altura_incentivo_m": 16,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11 (16 m, aislado o continuo hasta 20 m de profundidad): «Altura máxima de edificación (m) 16»",
+   "incentivo_pagina": 52,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Sin incentivos la superficie predial mínima es 2.500 m²; con incentivos (Art. 11), 500 m²."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Sin incentivos solo se permite la edificación aislada."
+    }
+   ]
+  },
+  {
+   "zona": "I-4",
+   "pagina": 53,
+   "seccion": "Artículo 17 (p), Zona I-4, Zona Industrial Exclusiva e Infraestructura",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 («Coeficiente de constructibilidad 1,5»)",
+   "altura_m_texto": "Altura máxima de edificación (m) 8",
+   "altura_m": 8,
+   "altura_incentivo_m": 16,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11 (16 m, 4 pisos): «Altura máxima de edificación (m) 16»",
+   "incentivo_pagina": 55,
+   "antejardin_m_texto": "Antejardín (m) 5",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Sin incentivos la superficie predial mínima es 2.500 m²; con incentivos (Art. 11), 2000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "M-9(i)",
+   "pagina": 15,
+   "seccion": "Artículo 16 (b), Subzona M-9(i) (normas de edificación de M-9(i/ii))",
+   "hereda_de": "M-9(i/ii)",
+   "hereda_texto": "Normas urbanísticas de subdivisión y/o edificación en Zona M-9, Subzonas M-9(i) y M9(ii)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 1.000 m² residencial y 1.500 m² otros usos."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,5 residencial (0,6 y 0,7 con más vivienda de interés público) y 0,75 otros usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Sin incentivos solo se permite la edificación continua; con incentivos, aislado sobre continuo."
+    }
+   ],
+   "superficie_predial_minima_m2": 500,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 500",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.8,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad_max": 5.6,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (residencial 3,5; 4,5 y 5,6 con más vivienda de interés público; otros usos 5) («Coeficiente de constructibilidad 3,5 4,5(1) 5,6(2) 8 5»)",
+   "altura_m": 7,
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_incentivo_m": 25,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11: 25 m (9 pisos) residencial y 25 m (8 pisos) otros usos, aislado sobre continuo con retranqueo de 5 m: «Altura máxima de edificación (m) 25 32 25»",
+   "incentivo_pagina": 18,
+   "antejardin_m": 0,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo"
+  },
+  {
+   "zona": "M-9(ii)",
+   "pagina": 15,
+   "seccion": "Artículo 16 (b), Subzona M-9(ii) (normas de edificación de M-9(i/ii))",
+   "hereda_de": "M-9(i/ii)",
+   "hereda_texto": "Normas urbanísticas de subdivisión y/o edificación en Zona M-9, Subzonas M-9(i) y M9(ii)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 1.000 m² residencial y 1.500 m² otros usos."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,5 residencial (0,6 y 0,7 con más vivienda de interés público) y 0,75 otros usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Sin incentivos solo se permite la edificación continua; con incentivos, aislado sobre continuo."
+    }
+   ],
+   "superficie_predial_minima_m2": 500,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 500",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.8,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad_max": 5.6,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (residencial 3,5; 4,5 y 5,6 con más vivienda de interés público; otros usos 5) («Coeficiente de constructibilidad 3,5 4,5(1) 5,6(2) 8 5»)",
+   "altura_m": 7,
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_incentivo_m": 25,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11: 25 m (9 pisos) residencial y 25 m (8 pisos) otros usos, aislado sobre continuo con retranqueo de 5 m: «Altura máxima de edificación (m) 25 32 25»",
+   "incentivo_pagina": 18,
+   "antejardin_m": 0,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo"
+  },
+  {
+   "zona": "L-9(ii)",
+   "pagina": 23,
+   "seccion": "Artículo 16 (e), Subzona L-9(ii) (normas de edificación de L-9)",
+   "hereda_de": "L-9",
+   "hereda_texto": "Con incentivos Zona L-9 y Subzona L-9(ii)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 1.000 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,6 (0,66 y 0,72 con más vivienda de interés público)."
+    }
+   ],
+   "superficie_predial_minima_m2": 300,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.8,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad_max": 5.1,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (3; 4,05 y 5,1 con más vivienda de interés público) («Coeficiente de constructibilidad 3 4,05(1) 5,1(2) 4»)",
+   "altura_m": 7,
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 25 m (9 pisos): «Altura máxima de edificación (m) 25 30»",
+   "incentivo_pagina": 26,
+   "antejardin_m": 0,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo"
+  },
+  {
+   "zona": "L-6(i/ii)",
+   "pagina": 28,
+   "seccion": "Artículo 16 (f), Subzona L-6(i/ii) (normas de edificación de L-6)",
+   "hereda_de": "L-6",
+   "hereda_texto": "Con incentivos Zona L-6 y Subzonas L-6(i) y L-6(ii)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 700 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,6 (0,66 y 0,72 con más vivienda de interés público)."
+    }
+   ],
+   "superficie_predial_minima_m2": 300,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.8,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad_max": 2.8,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (2,2; 2,5 y 2,8 con más vivienda de interés público) («Coeficiente de constructibilidad 2,2 2,5(1) 2,8(2) 3»)",
+   "altura_m": 7,
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 17 m (6 pisos): «Altura máxima de edificación (m) 17 17»",
+   "incentivo_pagina": 32,
+   "antejardin_m": 0,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo"
+  },
+  {
+   "zona": "L-6(i)",
+   "pagina": 28,
+   "seccion": "Artículo 16 (f), Subzona L-6(i) (normas de edificación de L-6)",
+   "hereda_de": "L-6",
+   "hereda_texto": "Con incentivos Zona L-6 y Subzonas L-6(i) y L-6(ii)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 700 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,6 (0,66 y 0,72 con más vivienda de interés público)."
+    }
+   ],
+   "superficie_predial_minima_m2": 300,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.8,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad_max": 2.8,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (2,2; 2,5 y 2,8 con más vivienda de interés público) («Coeficiente de constructibilidad 2,2 2,5(1) 2,8(2) 3»)",
+   "altura_m": 7,
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 17 m (6 pisos): «Altura máxima de edificación (m) 17 17»",
+   "incentivo_pagina": 32,
+   "antejardin_m": 0,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo"
+  },
+  {
+   "zona": "L-6(ii)",
+   "pagina": 28,
+   "seccion": "Artículo 16 (f), Subzona L-6(ii) (normas de edificación de L-6)",
+   "hereda_de": "L-6",
+   "hereda_texto": "Con incentivos Zona L-6 y Subzonas L-6(i) y L-6(ii)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 700 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,6 (0,66 y 0,72 con más vivienda de interés público)."
+    }
+   ],
+   "superficie_predial_minima_m2": 300,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.8,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad_max": 2.8,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (2,2; 2,5 y 2,8 con más vivienda de interés público) («Coeficiente de constructibilidad 2,2 2,5(1) 2,8(2) 3»)",
+   "altura_m": 7,
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 17 m (6 pisos): «Altura máxima de edificación (m) 17 17»",
+   "incentivo_pagina": 32,
+   "antejardin_m": 0,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo"
+  },
+  {
+   "zona": "L-4(i/ii)",
+   "pagina": 33,
+   "seccion": "Artículo 16 (g), Subzona L-4(i/ii) (normas de edificación de L-4)",
+   "hereda_de": "L-4",
+   "hereda_texto": "Incentivos Normativos en Zona L-4 y Subzonas L-4(i) y L-4(ii)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,6 (0,66 y 0,72 con más vivienda de interés público)."
+    }
+   ],
+   "superficie_predial_minima_m2": 250,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.8,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (1,8; 1,9 y 2 con más vivienda de interés público) («Coeficiente de constructibilidad 1,8 1,9(1) 2(2)»)",
+   "altura_m": 7,
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 12 m (4 pisos): «Altura máxima de edificación (m) 12»",
+   "incentivo_pagina": 36,
+   "antejardin_m": 0,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo"
+  },
+  {
+   "zona": "L-4(i)",
+   "pagina": 33,
+   "seccion": "Artículo 16 (g), Subzona L-4(i) (normas de edificación de L-4)",
+   "hereda_de": "L-4",
+   "hereda_texto": "Incentivos Normativos en Zona L-4 y Subzonas L-4(i) y L-4(ii)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,6 (0,66 y 0,72 con más vivienda de interés público)."
+    }
+   ],
+   "superficie_predial_minima_m2": 250,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.8,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (1,8; 1,9 y 2 con más vivienda de interés público) («Coeficiente de constructibilidad 1,8 1,9(1) 2(2)»)",
+   "altura_m": 7,
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 12 m (4 pisos): «Altura máxima de edificación (m) 12»",
+   "incentivo_pagina": 36,
+   "antejardin_m": 0,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo"
+  },
+  {
+   "zona": "L-4(ii)",
+   "pagina": 33,
+   "seccion": "Artículo 16 (g), Subzona L-4(ii) (normas de edificación de L-4)",
+   "hereda_de": "L-4",
+   "hereda_texto": "Incentivos Normativos en Zona L-4 y Subzonas L-4(i) y L-4(ii)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Con incentivos (Art. 11) la superficie predial mínima es 500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Con incentivos (Art. 11) rige el coeficiente de ocupación del cuadro Con Incentivos: 0,6 (0,66 y 0,72 con más vivienda de interés público)."
+    }
+   ],
+   "superficie_predial_minima_m2": 250,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.8,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad_max": 2,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 (1,8; 1,9 y 2 con más vivienda de interés público) («Coeficiente de constructibilidad 1,8 1,9(1) 2(2)»)",
+   "altura_m": 7,
+   "altura_m_texto": "Altura máxima de edificación continua (m) 7",
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada: el cuadro Base solo fija la altura de la continua (2 pisos, 7 m) y para la aislada rigen las rasantes; el proyecto opta a los incentivos del Art. 11 la altura máxima es 12 m (4 pisos): «Altura máxima de edificación (m) 12»",
+   "incentivo_pagina": 36,
+   "antejardin_m": 0,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado y Continuo"
+  },
+  {
+   "zona": "I-4(ii)",
+   "pagina": 53,
+   "seccion": "Artículo 17 (p), Subzona I-4(ii) (normas de edificación de I-4)",
+   "hereda_de": "I-4",
+   "hereda_texto": "Incentivos Normativos en Zona I-4 y Subzona I-4(ii)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Sin incentivos la superficie predial mínima es 2.500 m²; con incentivos (Art. 11), 2000 m²."
+    }
+   ],
+   "superficie_predial_minima_m2": 2000,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2000",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el proyecto opta a los incentivos del Art. 11 («Coeficiente de constructibilidad 1,5»)",
+   "altura_m": 8,
+   "altura_m_texto": "Altura máxima de edificación (m) 8",
+   "altura_incentivo_m": 16,
+   "incentivo_texto": "el proyecto opta a los incentivos del Art. 11 (16 m, 4 pisos): «Altura máxima de edificación (m) 16»",
+   "incentivo_pagina": 55,
+   "antejardin_m": 5,
+   "antejardin_m_texto": "Antejardín (m) 5",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZCH-1.1",
+   "pagina": 61,
+   "seccion": "Artículo 21, ZCH-1.1, Zona de Conservación Histórica - Villa Portales - General",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 1 1",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1 1,5",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "Altura máxima de edificación continua (m) 3,5 7",
+   "altura_m": 3.5,
+   "antejardin_m_texto": "Antejardín (m) 3 3",
+   "antejardin_m": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasantes 60 60",
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH-1.2",
+   "pagina": 61,
+   "seccion": "Artículo 21, ZCH-1.2, Zona de Conservación Histórica - Villa Portales - Especial",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 1 1",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de edificación continua (m) 3,5 7",
+   "altura_m": 7,
+   "antejardin_m_texto": "Antejardín (m) 3 3",
+   "antejardin_m": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasantes 60 60",
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH-2.1",
+   "pagina": 63,
+   "seccion": "Artículo 21, ZCH-2.1, Zona de Conservación Histórica - Villa O'Higgins - Bordes",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "Altura máxima de edificación (m) 7",
+   "altura_m": 7,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasantes 60",
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH-2.2",
+   "pagina": 63,
+   "seccion": "Artículo 21, ZCH-2.2, Zona de Conservación Histórica - Villa O'Higgins - Interior",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "Altura máxima de edificación (m) 7",
+   "altura_m": 7,
+   "antejardin_m_texto": "Antejardín (m) 0",
+   "antejardin_m": 0,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasantes 60",
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano PRCEC-Z-01 escaneado y digitalizado (rótulos del plano y color; ver «Asignacion» en la capa): confírmela en el CIP, en especial cerca del límite de una zona o en manzanas sin rótulo."
+    }
+   ]
+  }
+ ]
+}

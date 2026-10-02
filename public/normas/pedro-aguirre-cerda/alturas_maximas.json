@@ -1,0 +1,199 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local de la Actualización del Plan Regulador Comunal de Pedro Aguirre Cerda (D.A. N° 4.751 de 22-08-2025; extracto en el D.O. 29-08-2025), publicada por la Municipalidad (documento escaneado)",
+ "url": "https://drive.google.com/file/d/1tDJiY84-t5i5BZrlkOxI1Q9WCSaLT51m/view",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "ZR1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "pagina": 16,
+   "seccion": "Art. 2.2, ZR1 Zona Residencial Mixta 1",
+   "nota": null
+  },
+  {
+   "zona": "ZR2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "pagina": 17,
+   "seccion": "Art. 2.2, ZR2 Zona Residencial Mixta 2",
+   "nota": null
+  },
+  {
+   "zona": "ZR3",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "pagina": 18,
+   "seccion": "Art. 2.2, ZR3 Zona Residencial Mixta 3",
+   "nota": null
+  },
+  {
+   "zona": "ZR4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "pagina": 19,
+   "seccion": "Art. 2.2, ZR4 Zona Residencial Mixta 4",
+   "nota": null
+  },
+  {
+   "zona": "ZR5",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "pagina": 20,
+   "seccion": "Art. 2.2, ZR5 Zona Residencial Mixta 5",
+   "nota": null
+  },
+  {
+   "zona": "ZR6",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "pagina": 21,
+   "seccion": "Art. 2.2, ZR6 Zona Residencial Mixta 6",
+   "nota": null
+  },
+  {
+   "zona": "ZR7",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "pagina": 22,
+   "seccion": "Art. 2.2, ZR7 Zona Residencial Mixta 7",
+   "nota": null
+  },
+  {
+   "zona": "ZR8",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "pagina": 23,
+   "seccion": "Art. 2.2, ZR8 Zona Residencial Mixta 8",
+   "nota": null
+  },
+  {
+   "zona": "ZR9",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 14 m o 4 pisos",
+   "pagina": 24,
+   "seccion": "Art. 2.2, ZR9 Zona Residencial Mixta 9",
+   "nota": null
+  },
+  {
+   "zona": "ZR10",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 14 m o 4 pisos",
+   "pagina": 25,
+   "seccion": "Art. 2.2, ZR10 Zona Residencial Mixta 10",
+   "nota": null
+  },
+  {
+   "zona": "ZR11",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 14 m o 4 pisos",
+   "pagina": 26,
+   "seccion": "Art. 2.2, ZR11 Zona Mixta Residencial Productiva 11",
+   "nota": null
+  },
+  {
+   "zona": "ZE1",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 21 m o 6 pisos",
+   "pagina": 27,
+   "seccion": "Art. 2.2, ZE1 Zona de Equipamiento 1",
+   "nota": null
+  },
+  {
+   "zona": "ZE2",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 14 m o 4 pisos",
+   "pagina": 28,
+   "seccion": "Art. 2.2, ZE2 Zona de Equipamiento 2",
+   "nota": null
+  },
+  {
+   "zona": "ZE2M",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 14 m o 4 pisos",
+   "pagina": 29,
+   "seccion": "Art. 2.2, ZE2M Zona de Equipamiento 2M",
+   "nota": null
+  },
+  {
+   "zona": "ZE2LV",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 14 m o 4 pisos 7 m o 2 pisos",
+   "pagina": 31,
+   "seccion": "Art. 2.2, ZE2LV Zona de Equipamiento 2LV",
+   "nota": null
+  },
+  {
+   "zona": "ZE3",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "pagina": 32,
+   "seccion": "Art. 2.2, ZE3 Zona de Equipamiento 3",
+   "nota": null
+  },
+  {
+   "zona": "ZE3M",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10,5 m o 3 pisos",
+   "pagina": 33,
+   "seccion": "Art. 2.2, ZE3M Zona de Equipamiento 3M",
+   "nota": null
+  },
+  {
+   "zona": "ZE4",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 15 m - 2 pisos",
+   "pagina": 34,
+   "seccion": "Art. 2.2, ZE4 Zona de Equipamiento 4",
+   "nota": null
+  },
+  {
+   "zona": "ZAP1",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 21 m o 6 pisos",
+   "pagina": 36,
+   "seccion": "Art. 2.2, ZAP1 Zona de Actividad Productiva Molesta",
+   "nota": null
+  },
+  {
+   "zona": "ZI1",
+   "altura_m": 10.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 10 m o 2 pisos",
+   "pagina": 37,
+   "seccion": "Art. 2.2, ZI1 Zona de Infraestructura Energética",
+   "nota": null
+  },
+  {
+   "zona": "ZI2",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de la edificación 7 m o 2 pisos",
+   "pagina": 38,
+   "seccion": "Art. 2.2, ZI2 Zona de Infraestructura Sanitaria",
+   "nota": null
+  }
+ ]
+}

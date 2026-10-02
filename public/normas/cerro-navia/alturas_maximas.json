@@ -1,0 +1,100 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local de la Actualización del Plan Regulador Comunal de Cerro Navia (D.A. N° 1.760 de 11-10-2019, D.O. 13-12-2019), publicada por la Municipalidad",
+ "url": "https://www.cerronavia.cl/wp-content/uploads/2020/05/Ordenanza-Local-PRCCN.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "H1",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "Altura máxima de e dificación Aislado y Pareado 8m",
+   "pagina": 9,
+   "seccion": "Art. II-1.1, Zona H1",
+   "nota": null
+  },
+  {
+   "zona": "H2",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 8m",
+   "pagina": 11,
+   "seccion": "Art. II-1.1, Zona H2",
+   "nota": null
+  },
+  {
+   "zona": "HE",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 18m",
+   "pagina": 13,
+   "seccion": "Art. II-1.1, Zona HE",
+   "nota": null
+  },
+  {
+   "zona": "HT",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 8m",
+   "pagina": 15,
+   "seccion": "Art. II-1.1, Zona HT",
+   "nota": null
+  },
+  {
+   "zona": "EE",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 18m",
+   "pagina": 17,
+   "seccion": "Art. II-1.1, Zona EE",
+   "nota": null
+  },
+  {
+   "zona": "EI",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 18m",
+   "pagina": 19,
+   "seccion": "Art. II-1.1, Zona EI",
+   "nota": null
+  },
+  {
+   "zona": "ES",
+   "altura_m": 22.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 22m",
+   "pagina": 21,
+   "seccion": "Art. II-1.1, Zona ES",
+   "nota": null
+  },
+  {
+   "zona": "ED",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14m",
+   "pagina": 23,
+   "seccion": "Art. II-1.1, Zona ED",
+   "nota": null
+  },
+  {
+   "zona": "RD",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 7m",
+   "pagina": 25,
+   "seccion": "Art. II-1.1, Zona RD",
+   "nota": null
+  },
+  {
+   "zona": "ZM",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10, 5 m",
+   "pagina": 27,
+   "seccion": "Art. II-1.1, Zona ZM",
+   "nota": null
+  }
+ ]
+}

@@ -1,0 +1,649 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local de la Actualización del Plan Regulador Comunal de Renca (D.A. N° 214 de 09-02-2022, D.O. 22-02-2022), versión timbrada que publica la Municipalidad",
+ "url": "https://renca.cl/wp-content/uploads/2022/02/Ordenanza-Local-PRCR_Timbrado.pdf",
+ "sha256": "ff34937aa0fc4d5be881e08d71e549cd4cd4a17656c59bd6201459037fd40379",
+ "documentos_adicionales": {
+  "e1": {
+   "documento": "Texto Aprobatorio de la Enmienda N° 1 al PRC de Renca (D.A. N° 1.460 de 15-06-2026), publicado por la Municipalidad",
+   "url": "https://drive.google.com/file/d/1LM0vbsyUOmGmZPoddTdzbdj8slnvXZXo/view",
+   "sha256": "9942f5dbbd5e35908f5d204b49e1a8ad95ba7939e484ceee941be96ab00dd53f"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "HM-1",
+   "pagina": 20,
+   "seccion": "Art. II-1.1, Zona HM-1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 160 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,8 -­‐ +0,3 -­‐",
+   "coef_constructibilidad": 1.8,
+   "coef_constructibilidad_max": 2.1,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13 («Coeficiente de constructibilidad 1,8 -­‐ +0,3 -­‐»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 13 -­‐ +3,2 -­‐",
+   "altura_m": 13.0,
+   "altura_incentivo_m": 16.2,
+   "incentivo_texto": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13: «Altura máxima de edificación (metros) 13 -­‐ +3,2 -­‐»",
+   "incentivo_pagina": 20,
+   "antejardin_m_texto": "Antejardín edificación aislada (metros) 3 -­‐ -­‐ -­‐",
+   "antejardin_m": 3.0,
+   "pisos": 4,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: hasta 10 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Edificación pareada y continua: 0 m."
+    }
+   ]
+  },
+  {
+   "zona": "HM-2",
+   "pagina": 22,
+   "seccion": "Art. II-1.1, Zona HM-2",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 500 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2 +0,2 -­‐ -­‐",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 2.2,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo a la diversidad en los precios de la vivienda (IDPV) del Art. I-2.13 («Coeficiente de constructibilidad 2 +0,2 -­‐ -­‐»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 14 +6,5 -­‐ -­‐",
+   "altura_m": 14.0,
+   "altura_incentivo_m": 20.5,
+   "incentivo_texto": "el proyecto cumple los requisitos del incentivo a la diversidad en los precios de la vivienda (IDPV) del Art. I-2.13: «Altura máxima de edificación (metros) 14 +6,5 -­‐ -­‐»",
+   "incentivo_pagina": 22,
+   "antejardin_m_texto": "Antejardín edificación aislada (metros) 5 -­‐ -­‐ -­‐",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: hasta 10 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Edificación pareada y continua: 0 m."
+    }
+   ]
+  },
+  {
+   "zona": "HM-3",
+   "pagina": 24,
+   "seccion": "Art. II-1.1, Zona HM-3",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 500 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2 +0,2 +0,4 -­‐",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13 («Coeficiente de constructibilidad 2 +0,2 +0,4 -­‐»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 16 +6,4 +3,2 -­‐",
+   "altura_m": 16.0,
+   "altura_incentivo_m": 22.4,
+   "incentivo_texto": "el proyecto cumple los requisitos del incentivo a la diversidad en los precios de la vivienda (IDPV) del Art. I-2.13: «Altura máxima de edificación (metros) 16 +6,4 +3,2 -­‐»",
+   "incentivo_pagina": 24,
+   "antejardin_m_texto": "Antejardín edificación aislada (metros) 5 -­‐ -­‐ -­‐",
+   "antejardin_m": 5.0,
+   "pisos": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: hasta 10 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Edificación pareada y continua: 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "HM-4",
+   "pagina": 26,
+   "seccion": "Art. II-1.1, Zona HM-4",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 500 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2 -­‐ +0,2 -­‐",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.4,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13 («Coeficiente de constructibilidad 1,2 -­‐ +0,2 -­‐»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 7 -­‐ +3,2 -­‐",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 10.2,
+   "incentivo_texto": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13: «Altura máxima de edificación (metros) 7 -­‐ +3,2 -­‐»",
+   "incentivo_pagina": 26,
+   "antejardin_m_texto": "Antejardín edificación aislada (metros) 5 -­‐ -­‐ -­‐",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Edificación pareada y continua: 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "RM",
+   "pagina": 28,
+   "seccion": "Art. II-1.1, Zona RM",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 2.000 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2 +0,4 +0,2 -­‐",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo a la diversidad en los precios de la vivienda (IDPV) del Art. I-2.13 («Coeficiente de constructibilidad 2 +0,4 +0,2 -­‐»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 20,4 +9 +3 +6",
+   "altura_m": 20.4,
+   "altura_incentivo_m": 29.4,
+   "incentivo_texto": "el proyecto cumple los requisitos del incentivo a la diversidad en los precios de la vivienda (IDPV) del Art. I-2.13: «Altura máxima de edificación (metros) 20,4 +9 +3 +6»",
+   "incentivo_pagina": 28,
+   "antejardin_m_texto": "Antejardín (metros) 5 -­‐ -­‐ -­‐",
+   "antejardin_m": 5.0,
+   "pisos": 6,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento de 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "HT-1",
+   "pagina": 30,
+   "seccion": "Art. II-1.1, Zona HT-1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 160 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2 -­‐ -­‐ -­‐",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de edificación (metros) 7 -­‐ -­‐ -­‐",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín (metros) 2 -­‐ -­‐ -­‐",
+   "antejardin_m": 2.0,
+   "pisos": 2,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60°",
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Pareado, continuo"
+  },
+  {
+   "zona": "HT-2",
+   "pagina": 32,
+   "seccion": "Art. II-1.1, Zona HT-2",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 160 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1 -­‐ -­‐ -­‐",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de edificación (metros) 9 -­‐ -­‐ -­‐",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardín (metros) 2 -­‐ -­‐ -­‐",
+   "antejardin_m": 2.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60°",
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Continuo"
+  },
+  {
+   "zona": "HT-3",
+   "pagina": 34,
+   "seccion": "Art. II-1.1, Zona HT-3",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 500 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2 -­‐ -­‐ -­‐",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de edificación (metros) 10 -­‐ -­‐ -­‐",
+   "altura_m": 10.0,
+   "antejardin_m_texto": "Antejardín (metros) 5 -­‐ -­‐ -­‐",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado"
+  },
+  {
+   "zona": "HT-4",
+   "pagina": 36,
+   "seccion": "Art. II-1.1, Zona HT-4",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 160 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,8 -­‐ +0,3 -­‐",
+   "coef_constructibilidad": 1.8,
+   "coef_constructibilidad_max": 2.1,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13 («Coeficiente de constructibilidad 1,8 -­‐ +0,3 -­‐»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 10 -­‐ +3 -­‐",
+   "altura_m": 10.0,
+   "altura_incentivo_m": 13.0,
+   "incentivo_texto": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13: «Altura máxima de edificación (metros) 10 -­‐ +3 -­‐»",
+   "incentivo_pagina": 36,
+   "antejardin_m_texto": "Antejardín edificación aislada (metros) 3 -­‐ -­‐ -­‐",
+   "antejardin_m": 3.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Edificación pareada y continua: 0 m."
+    }
+   ]
+  },
+  {
+   "zona": "EP-1",
+   "pagina": 38,
+   "seccion": "Art. II-1.1, Zona EP-1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 500 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,8 -­‐ -­‐ +0,6",
+   "coef_constructibilidad": 1.8,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo a la construcción de equipamiento (ICE) del Art. I-2.13 («Coeficiente de constructibilidad 1,8 -­‐ -­‐ +0,6»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 14 -­‐ -­‐ +6,5",
+   "altura_m": 14.0,
+   "altura_incentivo_m": 20.5,
+   "incentivo_texto": "el proyecto cumple los requisitos del incentivo a la construcción de equipamiento (ICE) del Art. I-2.13: «Altura máxima de edificación (metros) 14 -­‐ -­‐ +6,5»",
+   "incentivo_pagina": 38,
+   "antejardin_m_texto": "Antejardín (metros) 5 -­‐ -­‐ -­‐",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: hasta 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "EP-2",
+   "pagina": 40,
+   "seccion": "Art. II-1.1, Zona EP-2",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 500 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,8 -­‐ -­‐ +0,6",
+   "coef_constructibilidad": 1.8,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo a la construcción de equipamiento (ICE) del Art. I-2.13 («Coeficiente de constructibilidad 1,8 -­‐ -­‐ +0,6»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 19,2 -­‐ -­‐ +6,4",
+   "altura_m": 19.2,
+   "altura_incentivo_m": 25.6,
+   "incentivo_texto": "el proyecto cumple los requisitos del incentivo a la construcción de equipamiento (ICE) del Art. I-2.13: «Altura máxima de edificación (metros) 19,2 -­‐ -­‐ +6,4»",
+   "incentivo_pagina": 40,
+   "antejardin_m_texto": "Antejardín (metros) 5 -­‐ -­‐ -­‐",
+   "antejardin_m": 5.0,
+   "pisos": 6,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: hasta 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "EP-3",
+   "pagina": 43,
+   "seccion": "Art. II-1.1, Zona EP-3",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 1.500 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,6 -­‐ +0,1 +0,1",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 0.7,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13 («Coeficiente de constructibilidad 0,6 -­‐ +0,1 +0,1»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 12 -­‐ -­‐ +6",
+   "altura_m": 12.0,
+   "altura_incentivo_m": 18.0,
+   "incentivo_texto": "el proyecto cumple los requisitos del incentivo a la construcción de equipamiento (ICE) del Art. I-2.13: «Altura máxima de edificación (metros) 12 -­‐ -­‐ +6»",
+   "incentivo_pagina": 43,
+   "antejardin_m_texto": "Antejardín (metros) 5 -­‐ -­‐ -­‐",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado"
+  },
+  {
+   "zona": "EP-4",
+   "pagina": 45,
+   "seccion": "Art. II-1.1, Zona EP-4",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 2.000 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,6 -­‐ +0,2 +0,2",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 0.8,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13 («Coeficiente de constructibilidad 0,6 -­‐ +0,2 +0,2»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 13 -­‐ +6,4 +6,4",
+   "altura_m": 13.0,
+   "altura_incentivo_m": 19.4,
+   "incentivo_texto": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13: «Altura máxima de edificación (metros) 13 -­‐ +6,4 +6,4»",
+   "incentivo_pagina": 45,
+   "antejardin_m_texto": "Antejardín (metros) 5 -­‐ -­‐ -­‐",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento de 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "EE-1",
+   "pagina": 47,
+   "seccion": "Art. II-1.1, Zona EE-1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 800 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,8 -­‐ +0,4 -­‐",
+   "coef_constructibilidad": 1.8,
+   "coef_constructibilidad_max": 2.2,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13 («Coeficiente de constructibilidad 1,8 -­‐ +0,4 -­‐»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 20,5 -­‐ +10,2 -­‐",
+   "altura_m": 20.5,
+   "altura_incentivo_m": 30.7,
+   "incentivo_texto": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13: «Altura máxima de edificación (metros) 20,5 -­‐ +10,2 -­‐»",
+   "incentivo_pagina": 47,
+   "antejardin_m_texto": "Antejardín (metros) 5 -­‐ -­‐ -­‐",
+   "antejardin_m": 5.0,
+   "pisos": 6,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Subzona EE-1-1 (polígono ABCDE del plano MPRCR-E1, Enmienda N° 1, D.A. N° 1.460/2026): antejardín de 0 m; las demás normas son las de EE-1."
+    }
+   ]
+  },
+  {
+   "zona": "EE-2",
+   "pagina": 49,
+   "seccion": "Art. II-1.1, Zona EE-2",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 2.500 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,8 -­‐ +0,2 -­‐",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 1.0,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13 («Coeficiente de constructibilidad 0,8 -­‐ +0,2 -­‐»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 9 -­‐ +3 -­‐",
+   "altura_m": 9.0,
+   "altura_incentivo_m": 12.0,
+   "incentivo_texto": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13: «Altura máxima de edificación (metros) 9 -­‐ +3 -­‐»",
+   "incentivo_pagina": 49,
+   "antejardin_m_texto": "Antejardín (metros) 5 -­‐ -­‐ -­‐",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado"
+  },
+  {
+   "zona": "EE-3",
+   "pagina": 51,
+   "seccion": "Art. II-1.1, Zona EE-3",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 2.500 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,05 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,05 -­‐ +0,05 -­‐",
+   "coef_constructibilidad": 0.05,
+   "coef_constructibilidad_max": 0.1,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13 («Coeficiente de constructibilidad 0,05 -­‐ +0,05 -­‐»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 7 -­‐ -­‐ -­‐",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín (metros) 20 -­‐ -­‐ -­‐",
+   "antejardin_m": 20.0,
+   "pisos": 2,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento de 30 m."
+    }
+   ]
+  },
+  {
+   "zona": "I-2",
+   "pagina": 55,
+   "seccion": "Art. II-1.1, Zona I-2",
+   "superficie_predial_minima_m2_texto": "Superficie de subdiv isión predial mínima (m²) 2.000 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,7 -­‐ +0,3 -­‐",
+   "coef_constructibilidad": 0.7,
+   "coef_constructibilidad_max": 1.0,
+   "coef_constructibilidad_condicion": "el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13 («Coeficiente de constructibilidad 0,7 -­‐ +0,3 -­‐»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 12 -­‐ -­‐ -­‐",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "Antejardín (metros) 5 -­‐ -­‐ -­‐",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento de 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "I-3",
+   "pagina": 57,
+   "seccion": "Art. II-1.1, Zona I-3",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 2.000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,3",
+   "coef_constructibilidad": 0.3,
+   "altura_m_texto": "Altura máxima de edificación (metros) 7",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín (metros) 5",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento de 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZAV",
+   "pagina": 59,
+   "seccion": "Art. II-1.1, Zona ZAV",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,05",
+   "coef_constructibilidad": 0.05,
+   "altura_m_texto": "Altura máxima de edificación (metros) 9",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Antejardín (metros) 5",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento de 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "I-1",
+   "pagina": 53,
+   "seccion": "Art. II-1.1, Zona I-1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²) 1.500 -­‐ -­‐ -­‐",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5 -­‐ -­‐ -­‐",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (cuadro 40) («Coeficiente de ocupación de suelo 0,7 -­‐ -­‐ -­‐»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1 -­‐ +0,4 -­‐",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (cuadro 40) y el proyecto cumple los requisitos del incentivo al desarrollo de espacios públicos (IDEP) del Art. I-2.13 («Coeficiente de constructibilidad 2 -­‐ +0,4 -­‐»)",
+   "altura_m_texto": "Altura máxima de edificación (metros) 12 -­‐ -­‐ -­‐",
+   "altura_m": 12.0,
+   "altura_incentivo_m": 15.0,
+   "incentivo_texto": "el destino es equipamiento (cuadro 40): «Altura máxima de edificación (metros) 15 -­‐ -­‐ -­‐»",
+   "incentivo_pagina": 53,
+   "antejardin_m_texto": "Antejardín (metros) 5 -­‐ -­‐ -­‐",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento permitidos Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento de 5 m."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Equipamiento (cuadro 40): rasante de 70°; actividades productivas: 60°."
+    }
+   ]
+  }
+ ]
+}

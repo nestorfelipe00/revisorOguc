@@ -1,0 +1,1697 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local de la Modificación del Plan Regulador Comunal de Punta Arenas (promulgada por Res. N° 81 del Gobierno Regional de Magallanes, D.O. 28-12-2016), versión v29 de noviembre de 2016 publicada por la Municipalidad de Punta Arenas",
+ "url": "https://www.puntaarenas.cl/archivos/Plan_regulador/03_Ordenanza%20Local_v29_Nov2016.pdf",
+ "sha256": "bb891bd1700706c12d901069af322f7d3c99d4854d3e9f6962751188a9757f7a",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZC-1",
+   "pagina": 9,
+   "seccion": "Art. 4.1 ZC-1 Zona Centro Histórico",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 300 m 2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Residencial: 0.75 Otros: 1.0",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,75; otros: 1,0); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Residencial: 0.75 Otros: 1.0»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 2.0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de la edificación: 17.5 m / 5 pisos",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "Antejardín: No permitido",
+   "antejardin_m": 0,
+   "pisos": 5,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de las edificaciones: Pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La zona no permite antejardín: la edificación se construye en la línea oficial."
+    }
+   ]
+  },
+  {
+   "zona": "ZC-1A",
+   "pagina": 10,
+   "seccion": "Art. 4.1.1 ZC-1A Subzona Centro Histórico",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 300 m 2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Residencial: 0.75 Otros: 1.0",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,75; otros: 1,0); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Residencial: 0.75 Otros: 1.0»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 2.0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de la edificación: 17.5 m / 5 pisos",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "Antejardín: No permitido",
+   "antejardin_m": 0,
+   "pisos": 5,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de las edificaciones: Pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La zona no permite antejardín: la edificación se construye en la línea oficial."
+    }
+   ]
+  },
+  {
+   "zona": "ZC-2",
+   "pagina": 11,
+   "seccion": "Art. 4.2 ZC-2 Zona Pericentro Histórico",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 150 m 2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 2.0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de la edificación: 17.5 m / 5 pisos",
+   "altura_m": 17.5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de las edificaciones: Aislado, pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZC-2A",
+   "pagina": 12,
+   "seccion": "Art. 4.2.1 ZC-2A Subzona Cerro La Cruz",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 150 m 2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1.5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de la edificación: Residencial: 10,5 m /3 pisos Otros: 7 m /2 pisos",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 10.5,
+   "incentivo_texto": "según el destino (residencial: 10,5 m; otros: 7,0 m): «Altura máxima de la edificación: Residencial: 10,5 m /3 pisos Otros: 7 m /2 pisos»",
+   "incentivo_pagina": 12,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de las edificaciones: Aislado, pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZSC-1",
+   "pagina": 12,
+   "seccion": "Art. 4.3 ZSC-1 Zona Subcentro",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 200 m 2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 3.0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "Altura máxima de la edificación: 17.5 m / 5 pisos",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZMC-1",
+   "pagina": 13,
+   "seccion": "Art. 4.4 ZMC-1 Zona Mixta de Corredores 1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 150 m 2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Residencial: 0,75 Actividades productivas: 0.6 Otros: 1.0",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,75; actividades productivas: 0,6; otros: 1,0); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Residencial: 0,75 Actividades productivas: 0.6 Otros: 1.0»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: Residencial: 3.0 Otros: 2.0",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 3,0; otros: 2,0); la base es la cifra más estricta («Coeficiente de constructibilidad: Residencial: 3.0 Otros: 2.0»)",
+   "altura_m_texto": "Altura máxima de la edificación: 21 m / 6 pisos",
+   "altura_m": 21.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZMC-2",
+   "pagina": 14,
+   "seccion": "Art. 4.5 ZMC-2 Zona Mixta de Corredores 2",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 150 m 2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Actividades productivas: 0.6 Otros: 0,75",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "según el destino (actividades productivas: 0,6; otros: 0,75); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Actividades productivas: 0.6 Otros: 0,75»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: Residencial: 3.0 Otros: 2.0",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 3,0; otros: 2,0); la base es la cifra más estricta («Coeficiente de constructibilidad: Residencial: 3.0 Otros: 2.0»)",
+   "altura_m_texto": "Altura máxima de la edificación: 17.5 m / 5 pisos",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZMD-1",
+   "pagina": 15,
+   "seccion": "Art. 4.6 ZMD-1 Zona Mixta de Desarrollo 1.",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Residencial: 0.75 Otros:1",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,75; otros: 1,0); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Residencial: 0.75 Otros:1»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 4.0",
+   "coef_constructibilidad": 4.0,
+   "altura_m_texto": "Altura máxima de la edificación: 28 m / 8 pisos",
+   "altura_m": 28.0,
+   "antejardin_m_texto": "Antejardín: No permitido",
+   "antejardin_m": 0,
+   "pisos": 8,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La zona no permite antejardín: la edificación se construye en la línea oficial."
+    }
+   ]
+  },
+  {
+   "zona": "ZMD-2",
+   "pagina": 16,
+   "seccion": "Art. 4.7 ZMD-2 Zona Mixta de Desarrollo 2 (Plat aforma EPA)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.000 m 2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 1",
+   "coef_ocupacion_suelo": 1.0,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 3",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "Altura máxima de la edificación: 10.5m / 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín: No permitido",
+   "antejardin_m": 0,
+   "pisos": 3,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La zona no permite antejardín: la edificación se construye en la línea oficial."
+    }
+   ]
+  },
+  {
+   "zona": "ZMD-3",
+   "pagina": 17,
+   "seccion": "Art. 4.8 ZMD-3 Zona Mixta de Desarrollo 3 (Extr emo Sur)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 200 m 2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: Residenciales: 1.5 Otros: 2.0",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "según el destino (residenciales: 1,5; otros: 2,0); la base es la cifra más estricta («Coeficiente de constructibilidad: Residenciales: 1.5 Otros: 2.0»)",
+   "altura_m_texto": "Altura de la edificación: 14 m / 4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZMD-4",
+   "pagina": 17,
+   "seccion": "Art. 4.9 ZMD-4 Zona Mixta de Desarrollo 4",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 500 m 2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Residencial: 0.75 Otros: 1",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,75; otros: 1,0); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Residencial: 0.75 Otros: 1»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 4.0",
+   "coef_constructibilidad": 4.0,
+   "altura_m_texto": "Altura máxima de la edificación: 21 m / 6 Pisos",
+   "altura_m": 21.0,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Residencial: Aislado, pareado Otros: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino: Residencial: Aislado, pareado Otros: Aislado."
+    }
+   ]
+  },
+  {
+   "zona": "ZMD-4A",
+   "pagina": 18,
+   "seccion": "Art. 4.9.1 ZMD-4A Subzona Mixta de Desarrollo S ector Laguna Pudeto",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 200 m 2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: Residencial: 3.0 Otros: 2.0",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 3,0; otros: 2,0); la base es la cifra más estricta («Coeficiente de constructibilidad: Residencial: 3.0 Otros: 2.0»)",
+   "altura_m_texto": "Altura máxima de la edificación: 14 m / 4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Residencial: Aislado, pareado Otros: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino: Residencial: Aislado, pareado Otros: Aislado."
+    }
+   ]
+  },
+  {
+   "zona": "ZMR-1",
+   "pagina": 19,
+   "seccion": "Art. 4.10 ZMR-1 Zona Mixta de Renovación Urbana 1 (Barrio Croata)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 150 m 2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 2.0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de la edificación: 17.5 m / 5 pisos",
+   "altura_m": 17.5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZMR-2",
+   "pagina": 20,
+   "seccion": "Art. 4.11 ZMR-2 Zona Mixta de Renovación Urbana 2 (Frente Costero)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 300 m 2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Residencial: 0.75 Otros:1.0",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,75; otros: 1,0); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Residencial: 0.75 Otros:1.0»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 3.0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "Altura máxima de la edificación: 21 m / 6 pisos",
+   "altura_m": 21.0,
+   "antejardin_m_texto": "Antejardín: 5 m.",
+   "antejardin_m": 5.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZMR-3",
+   "pagina": 21,
+   "seccion": "Art. 4.12 ZMR-3 Zona Mixta de Renovación Urbana 3 (Barrio Sur)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 150 m 2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: Residencial: 3.0 Otros:2.0",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 3,0; otros: 2,0); la base es la cifra más estricta («Coeficiente de constructibilidad: Residencial: 3.0 Otros:2.0»)",
+   "altura_m_texto": "Altura máxima de la edificación: Residencial: 14 m / 4 pisos Otros: 7 m / 2 pisos",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "según el destino (residencial: 14,0 m; otros: 7,0 m): «Altura máxima de la edificación: Residencial: 14 m / 4 pisos Otros: 7 m / 2 pisos»",
+   "incentivo_pagina": 21,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Residencial: Aislado, pareado y continuo Otros: Aislado, pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino: Residencial: Aislado, pareado y continuo Otros: Aislado, pareado."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-BC",
+   "pagina": 21,
+   "seccion": "Art. 4.13 ZM-BC Zona Mixta Borde Costero Sur",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 200 m 2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1.5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de la edificación: 7 m / 2 pisos",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Residencial: Aislado, pareado Otros: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino: Residencial: Aislado, pareado Otros: Aislado."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-ZF",
+   "pagina": 22,
+   "seccion": "Art. 4.14 ZM-ZF Zona Mixta Zona Franca",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 300 m 2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 1.0",
+   "coef_ocupacion_suelo": 1.0,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 6.0",
+   "coef_constructibilidad": 6.0,
+   "altura_m_texto": "Altura máxima de la edificación: 28 m / 8 pisos",
+   "altura_m": 28.0,
+   "pisos": 8,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZMN-1",
+   "pagina": 23,
+   "seccion": "Art. 4.15 ZMN-1 Zona Mixta Norte 1 (Núcleo Cons olidado Norte)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 150 m 2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: Residencial: 1.5 Otros: 2.0",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 1,5; otros: 2,0); la base es la cifra más estricta («Coeficiente de constructibilidad: Residencial: 1.5 Otros: 2.0»)",
+   "altura_m_texto": "Altura máxima de la edificación: 7 m / 2 pisos",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZMN-2",
+   "pagina": 24,
+   "seccion": "Art. 4.16 ZMN-2 Zona Mixta Norte 2 (Mixta Equip amiento)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 500 m 2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Residencial: 0.6 Otros:0.8",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,6; otros: 0,8); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Residencial: 0.6 Otros:0.8»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: Residencial: 0.6 Otros:0.8",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 0.8,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 0,6; otros: 0,8); la base es la cifra más estricta («Coeficiente de constructibilidad: Residencial: 0.6 Otros:0.8»)",
+   "altura_m_texto": "Altura máxima de la edificación: 7 m / 2 pisos",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZMN-3",
+   "pagina": 25,
+   "seccion": "Art. 4.17 ZMN-3 Zona Mixta Norte 3 (Mixta Prod uctiva Ruta 9)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 1.500 m 2",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: Residencial: 0.5 Otros: 1.0",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 1.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 0,5; otros: 1,0); la base es la cifra más estricta («Coeficiente de constructibilidad: Residencial: 0.5 Otros: 1.0»)",
+   "altura_m_texto": "Altura máxima de la edificación: Residencial: 7 m / 2 pisos Otros: 10.5 m / 3 pisos",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 10.5,
+   "incentivo_texto": "según el destino (residencial: 7,0 m; otros: 10,5 m): «Altura máxima de la edificación: Residencial: 7 m / 2 pisos Otros: 10.5 m / 3 pisos»",
+   "incentivo_pagina": 25,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros equipamiento, actividades productivas e infraestructura: 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: Residencial: permitido Otros: no permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZMN-4",
+   "pagina": 26,
+   "seccion": "Art. 4.18 ZMN-4 Zona Mixta Norte 4 (Mixta Bord e Costero Norte)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: Residencial: 0.5 Otros: 1.0",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 1.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 0,5; otros: 1,0); la base es la cifra más estricta («Coeficiente de constructibilidad: Residencial: 0.5 Otros: 1.0»)",
+   "altura_m_texto": "Altura máxima de la edificación: Residencial: 7 m / 2 pisos Otros: 10.5 m / 3 pisos",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 10.5,
+   "incentivo_texto": "según el destino (residencial: 7,0 m; otros: 10,5 m): «Altura máxima de la edificación: Residencial: 7 m / 2 pisos Otros: 10.5 m / 3 pisos»",
+   "incentivo_pagina": 26,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros equipamiento, actividades productivas e infraestructura: 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: Residencial: permitido Otros: no permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZMS-1",
+   "pagina": 26,
+   "seccion": "Art. 4.19 ZMS-1 Zona Mixta Sur 1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 200 m 2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Residencial: 0.6 Otros:0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,6; otros: 0,5); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Residencial: 0.6 Otros:0.5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: Residencial: 0.6 Otros:0.5",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 0.6,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 0,6; otros: 0,5); la base es la cifra más estricta («Coeficiente de constructibilidad: Residencial: 0.6 Otros:0.5»)",
+   "altura_m_texto": "Altura máxima de la edificación: 4 m / 1 piso",
+   "altura_m": 4.0,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 1,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: Residencial: permitido Otros: no permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZMS-2",
+   "pagina": 27,
+   "seccion": "Art. 4.20 ZMS-2 Zona Mixta Sur 2",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 250 m 2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Residencial: 0.5 Otros:0.8",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,5; otros: 0,8); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Residencial: 0.5 Otros:0.8»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: Residencial: 1.0 Otros:0.8",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 1.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 1,0; otros: 0,8); la base es la cifra más estricta («Coeficiente de constructibilidad: Residencial: 1.0 Otros:0.8»)",
+   "altura_m_texto": "Altura máxima de la edificación: 7 m / 2 pisos",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-A",
+   "pagina": 28,
+   "seccion": "Art. 4.21 ZH-A Zona Residencial A",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 150 m 2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Residencial y equipamiento: 1.0 Otros: 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial y equipamiento: 1,0; otros: 0,6); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Residencial y equipamiento: 1.0 Otros: 0.6»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: Residencial y equipamiento: 3.0 Otros: 2.0",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial y equipamiento: 3,0; otros: 2,0); la base es la cifra más estricta («Coeficiente de constructibilidad: Residencial y equipamiento: 3.0 Otros: 2.0»)",
+   "altura_m_texto": "Altura máxima de la edificación: 17.5 m / 5 Pisos",
+   "altura_m": 17.5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-A1",
+   "pagina": 29,
+   "seccion": "Art. 4.21.1 ZH-A1 Subzona Residencial A1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 1000 m 2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1.0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de la edificación: 17.5 m / 5 Pisos",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-B",
+   "pagina": 30,
+   "seccion": "Art. 4.22 ZH-B Zona Residencial B",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 150 m 2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.85",
+   "coef_ocupacion_suelo": 0.85,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1.5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de la edificación: 7,0 m / 2 Pisos",
+   "altura_m": 7.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-B1",
+   "pagina": 31,
+   "seccion": "Art. 4.22.1 ZH-B1 Subzona Residencial B1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 300 m 2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1.2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación: 7,0 m / 2 Pisos",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-C",
+   "pagina": 32,
+   "seccion": "Art. 4.23 ZH-C Zona Residencial C",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 200 m 2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.85",
+   "coef_ocupacion_suelo": 0.85,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1.5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de la edificación: 14 m / 4 Pisos",
+   "altura_m": 14.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-C1",
+   "pagina": 33,
+   "seccion": "Art. 4.23.1 ZH-C1 Subzona Residencial C1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 1000 m 2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.85",
+   "coef_ocupacion_suelo": 0.85,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1.5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de la edificación: 14 m / 4 Pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-D",
+   "pagina": 34,
+   "seccion": "Art. 4.24 ZH-D Zona Residencial D",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 150 m 2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 1.0",
+   "coef_ocupacion_suelo": 1.0,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 3.0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "Altura máxima de la edificación: 17.5 m / 5 Pisos",
+   "altura_m": 17.5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-E",
+   "pagina": 34,
+   "seccion": "Art. 4.25 ZH-E Zona Residencial E",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 300 m 2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 2.0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de la edificación: 10.5 m / 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado, pareado, continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-F",
+   "pagina": 35,
+   "seccion": "Art. 4.26 ZH-F Zona Residencial F",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.000 m 2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "Altura máxima de la edificación: 7 m / 2 Pisos",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-C",
+   "pagina": 36,
+   "seccion": "Art. 4.27 ZE-C Zona de Equipamiento de Cemente rio",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 1.000 m 2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.4",
+   "coef_constructibilidad": 0.4,
+   "altura_m_texto": "Altura máxima de la edificación: 10.5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-D",
+   "pagina": 37,
+   "seccion": "Art. 4.28 ZE-D Zona de Equipamiento Deportivo",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.500 m 2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.0003",
+   "coef_ocupacion_suelo": 0.0003,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.05",
+   "coef_constructibilidad": 0.05,
+   "altura_m_texto": "Altura máxima de la edificación: 14 m",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-D1",
+   "pagina": 37,
+   "seccion": "Art. 4.28.1 ZE-D1 Subzona de Equipamiento Depo rtivo",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 1.000 m 2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de la edificación: 14 m",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-DC",
+   "pagina": 38,
+   "seccion": "Art. 4.29 ZE-DC Zona de Equipamiento Deportiv o y de Cementerio",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 1.000 m 2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de la edificación: 14 m",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-BC",
+   "pagina": 39,
+   "seccion": "Art. 4.30 ZE-BC Zona de Equipamiento Borde Cos tero",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.500 m 2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 2.0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de la edificación: 14 m / 4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín: 10 m",
+   "antejardin_m": 10.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-E",
+   "pagina": 40,
+   "seccion": "Art. 4.31 ZE-E Zona de Equipamiento de Educaci ón",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 1.000 m 2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1.0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de la edificación: 17,5 m / 2 pisos",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-M",
+   "pagina": 40,
+   "seccion": "Art. 4.32 ZE-M Zona de Equipamiento Militar",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 1.000 m 2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1.0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de la edificación: 14 m",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-CP",
+   "pagina": 41,
+   "seccion": "Art. 4.33 ZE-CP Zona de Equipamiento Cárcel Pú blica",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 1.000 m 2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de la edificación: 14 m",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín: 10 m",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros 10 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-SS",
+   "pagina": 42,
+   "seccion": "Art. 4.34 ZE-SS Zona de Equipamiento Sector Su r (Leñadura)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.000 m 2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de la edificación: 7 m / 2 pisos",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín: 10 m",
+   "antejardin_m": 10.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZAP-1",
+   "pagina": 43,
+   "seccion": "Art. 4.35 ZAP-1 Zona de Actividades Productiva s 1 (Zona Sector Portuario)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 1.000 m 2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Industrial: 0.5 Otros: 0.75",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "según el destino (industrial: 0,5; otros: 0,75); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Industrial: 0.5 Otros: 0.75»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: Industrial: 1.0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (industrial: 1,0; otros: 1,5); la base es la cifra más estricta («Otros: 1.5»)",
+   "altura_m_texto": "Altura máxima de la edificación: 14 m / 4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZAP-2",
+   "pagina": 44,
+   "seccion": "Art. 4.36 ZAP-2 Zona de Actividades Productivas 2 (Zona Industrial Norte)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.500 m 2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1.0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de la edificación: 10.5 m / 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín: 15 m",
+   "antejardin_m": 15.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZAP-3",
+   "pagina": 44,
+   "seccion": "Art. 4.37 ZAP-3 Zona de Actividades Productivas 3 (Rio Seco)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.000 m 2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1.0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de la edificación: 10.5 m / 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZAP-S",
+   "pagina": 45,
+   "seccion": "Art. 4.38 ZAP-S Zona de Actividades Productivas Sector Sur (Leñadura)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.000 m 2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura de la edificación: 7 m / 2 pisos",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZAV-1",
+   "pagina": 46,
+   "seccion": "Art. 4.39 ZAV-1 Áreas Verdes Comunales",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.500 m 2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.03",
+   "coef_ocupacion_suelo": 0.03,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.03",
+   "coef_constructibilidad": 0.03,
+   "altura_m_texto": "Altura de la edificación: 7 m",
+   "altura_m": 7.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZAV-2",
+   "pagina": 46,
+   "seccion": "Art. 4.40 ZAV-2 Áreas Verdes Locales",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 1.000 m 2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.025",
+   "coef_ocupacion_suelo": 0.025,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.025",
+   "coef_constructibilidad": 0.025,
+   "altura_m_texto": "Altura de la edificación: 4 m",
+   "altura_m": 4.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZTPC",
+   "pagina": 47,
+   "seccion": "Art. 4.41 ZTPC Terrenos Destinados a Parques Co munales",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.500 m 2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.05",
+   "coef_constructibilidad": 0.05,
+   "altura_m_texto": "Altura de la edificación: 7 m / 2 pisos",
+   "altura_m": 7.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZEP-3",
+   "pagina": 48,
+   "seccion": "Art. 4.44 ZEP-3 Zona Especial 3 (Manejo de Cau ces)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.500 m 2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.1",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "Altura máxima de la edificación: 3,5 m / 1 Pisos",
+   "altura_m": 3.5,
+   "antejardin_m_texto": "Antejardín: 10 m",
+   "antejardin_m": 10.0,
+   "pisos": 1,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros 10 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZEP-4",
+   "pagina": 48,
+   "seccion": "Art. 4.45 ZEP-4 Zona Especial 4 (Caleta de Pes cadores)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.000 m 2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1.0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de la edificación: 7 m / 2 Pisos",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín: 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "I – PTP",
+   "pagina": 49,
+   "seccion": "Art. 4.46 I – PTP I – PTP Plantas de Potabilización d e Agua Potable",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.500 m 2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.1",
+   "coef_constructibilidad": 0.1,
+   "antejardin_m_texto": "Antejardín: 15 m",
+   "antejardin_m": 15.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros 15 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "I – PTAS",
+   "pagina": 49,
+   "seccion": "Art. 4.47 I – PTAS Plantas de Tratamiento de A guas Servidas",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.500 m 2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.01",
+   "coef_ocupacion_suelo": 0.01,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.01",
+   "coef_constructibilidad": 0.01,
+   "antejardin_m_texto": "Antejardín: 20 m",
+   "antejardin_m": 20.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros 20 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "I – CGE",
+   "pagina": 49,
+   "seccion": "Art. 4.48 I – CGE Central de Generación Eléctr ica",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 2.500 m 2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.5",
+   "coef_constructibilidad": 0.5,
+   "antejardin_m_texto": "Antejardín: 15 m",
+   "antejardin_m": 15.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El artículo de la zona fija distanciamientos mínimos a medianeros 15 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Adosamientos: No permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZP-H",
+   "pagina": 52,
+   "seccion": "Art. 5.3.1 ZP-H Destinación de Bienes del Esta do - Humedal Tres Puentes",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 5000 m 2",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0.02",
+   "coef_ocupacion_suelo": 0.02,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 0.02",
+   "coef_constructibilidad": 0.02,
+   "altura_m_texto": "Altura de la edificación: 7 m / 2 Pisos",
+   "altura_m": 7.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH",
+   "pagina": 52,
+   "seccion": "Art. 5.3.2 ZCH Zona de Conservación Histórica",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 300 m 2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Residencial: 0,75 Otros: 1.0",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,75; otros: 1,0); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Residencial: 0,75 Otros: 1.0»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 4.0",
+   "coef_constructibilidad": 4.0,
+   "altura_m_texto": "Altura máxima de la edificación: 21 m",
+   "altura_m": 21.0,
+   "antejardin_m_texto": "Antejardín: No permitido",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La zona no permite antejardín: la edificación se construye en la línea oficial."
+    }
+   ]
+  },
+  {
+   "zona": "ZT",
+   "pagina": 55,
+   "seccion": "Art. 5.3.4 ZT Zona Típica",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima: 300 m 2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: Residencial: 0,75 Otros: 1.0",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,75; otros: 1,0); la base es la cifra más estricta («Coeficiente de ocupación de suelo: Residencial: 0,75 Otros: 1.0»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 4.0",
+   "coef_constructibilidad": 4.0,
+   "altura_m_texto": "Altura máxima de la edificación: 21 m",
+   "altura_m": 21.0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento de la edificación: Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Ordenanza Local publicada por la Municipalidad de Punta Arenas (versión de noviembre de 2016 de la Modificación promulgada por Res. N° 81/2016); no hay texto oficial consolidado en la BCN: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona Típica Plaza Gob. Benjamín Muñoz Gamero (Decreto N° 67 de 1991 del Ministerio de Educación, modificado por el Decreto N° 330 de 2015): las obras requieren además la autorización del Consejo de Monumentos Nacionales."
+    }
+   ]
+  }
+ ]
+}

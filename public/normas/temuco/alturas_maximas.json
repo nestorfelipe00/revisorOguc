@@ -1,0 +1,244 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Temuco (Modificación Planes Reguladores Temuco y Labranza, junio de 2009), versión actualizada a noviembre de 2015 publicada por la Municipalidad",
+ "url": "https://www.temuco.cl/wp-content/uploads/2022/04/MPRO-2.-Ordenanza-Actualizada-Noviembre-2015.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "ZH1",
+   "altura_m": 16.8,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16,8 m excepto con *5",
+   "pagina": 22,
+   "seccion": "Art. 16, B 1 Condiciones de edificación zona ZH1",
+   "nota": null
+  },
+  {
+   "zona": "ZH2",
+   "altura_m": 17.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 17,5 m",
+   "pagina": 23,
+   "seccion": "Art. 16, B 2 Condiciones de edificación zona ZH2",
+   "nota": null
+  },
+  {
+   "zona": "ZH3",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 14 m",
+   "pagina": 24,
+   "seccion": "Art. 16, B 3 Condiciones de edificación zona ZH3",
+   "nota": null
+  },
+  {
+   "zona": "ZHR2",
+   "altura_m": 31.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 31,5 m",
+   "pagina": 26,
+   "seccion": "Art. 16, B 5 Condiciones de edificación zona ZHR2",
+   "nota": null
+  },
+  {
+   "zona": "ZHR3",
+   "altura_m": 16.8,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16,8 m",
+   "pagina": 27,
+   "seccion": "Art. 16, B 6 Condiciones de edificación zona ZHR3",
+   "nota": null
+  },
+  {
+   "zona": "ZHR4",
+   "altura_m": 28,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 28 m (*)",
+   "pagina": 28,
+   "seccion": "Art. 16, B 7 Condiciones de edificación zona ZHR4",
+   "nota": null
+  },
+  {
+   "zona": "ZHR5",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m excepto *5",
+   "pagina": 29,
+   "seccion": "Art. 16, B 8 Condiciones de edificación zona ZHR5",
+   "nota": null
+  },
+  {
+   "zona": "ZHR6",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m",
+   "pagina": 30,
+   "seccion": "Art. 16, B 9 Condiciones de edificación zona ZHR6",
+   "nota": null
+  },
+  {
+   "zona": "ZHE1",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 14 m",
+   "pagina": 31,
+   "seccion": "Art. 16, B 10 Condiciones de edificación zona ZHE1",
+   "nota": null
+  },
+  {
+   "zona": "ZHE2",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 14 m",
+   "pagina": 32,
+   "seccion": "Art. 16, B 11 Condiciones de edificación zona ZHE2",
+   "nota": null
+  },
+  {
+   "zona": "ZHE3",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10,5 m",
+   "pagina": 33,
+   "seccion": "Art. 16, B 12 Condiciones de edificación zona ZHE3",
+   "nota": null
+  },
+  {
+   "zona": "ZHE4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10,5 m.",
+   "pagina": 34,
+   "seccion": "Art. 16, B 13 Condiciones de edificación zona ZHE4",
+   "nota": null
+  },
+  {
+   "zona": "ZHE5",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10,5 m.",
+   "pagina": 35,
+   "seccion": "Art. 16, B 14 Condiciones de edificación zona ZHE5",
+   "nota": null
+  },
+  {
+   "zona": "ZM1",
+   "altura_m": 25.2,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 25,2 m exepto con *5 (aumento 20%)",
+   "pagina": 36,
+   "seccion": "Art. 16, B 15 Condiciones de edificación zona ZM1",
+   "nota": null
+  },
+  {
+   "zona": "ZM2",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m exepto con *5 (aumento 20%)",
+   "pagina": 37,
+   "seccion": "Art. 16, B 16 Condiciones de edificación zona ZM2",
+   "nota": null
+  },
+  {
+   "zona": "ZM3",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m",
+   "pagina": 38,
+   "seccion": "Art. 16, B 17 Condiciones de edificación zona ZM3",
+   "nota": null
+  },
+  {
+   "zona": "ZM4",
+   "altura_m": 28,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 28 m",
+   "pagina": 39,
+   "seccion": "Art. 16, B 18 Condiciones de edificación zona ZM4",
+   "nota": null
+  },
+  {
+   "zona": "ZM5",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m excepto *5",
+   "pagina": 40,
+   "seccion": "Art. 16, B 19 Condiciones de edificación zona ZM5",
+   "nota": null
+  },
+  {
+   "zona": "ZM6",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10,5 metros",
+   "pagina": 41,
+   "seccion": "Art. 16, B 20 Condiciones de edificación zona ZM6",
+   "nota": null
+  },
+  {
+   "zona": "ZE1",
+   "altura_m": 11.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 11,5 m (altura edificio Marsano)",
+   "pagina": 42,
+   "seccion": "Art. 16, B 21 Condiciones de edificación zona ZE1",
+   "nota": null
+  },
+  {
+   "zona": "ZE2",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MAXIMA DE EDIFICACIÓN 21 m",
+   "pagina": 43,
+   "seccion": "Art. 16, B 22 Condiciones de edificación zona ZE2",
+   "nota": null
+  },
+  {
+   "zona": "ZE3",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m excepto *5",
+   "pagina": 44,
+   "seccion": "Art. 16, B 23 Condiciones de edificación zona ZE3",
+   "nota": null
+  },
+  {
+   "zona": "ZE4",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m (*)",
+   "pagina": 45,
+   "seccion": "Art. 16, B 24 Condiciones de edificación zona ZE4",
+   "nota": null
+  },
+  {
+   "zona": "ZE5",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 7,0 m",
+   "pagina": 46,
+   "seccion": "Art. 16, B 25 Condiciones de edificación zona ZE5",
+   "nota": null
+  },
+  {
+   "zona": "ZE6",
+   "altura_m": 9.6,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 9,60m",
+   "pagina": 48,
+   "seccion": "Art. 16, B 26 Condiciones de edificación zona ZE6",
+   "nota": null
+  },
+  {
+   "zona": "ZE7",
+   "altura_m": 9.6,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 9,60m",
+   "pagina": 49,
+   "seccion": "Art. 16, B 27 Condiciones de edificación zona ZE7",
+   "nota": null
+  }
+ ]
+}

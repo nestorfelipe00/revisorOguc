@@ -1,0 +1,91 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Puente Alto (aprobada por D.A. N° 423, D.O. 25-04-2003), versión publicada por la Municipalidad (diciembre de 2002)",
+ "url": "https://transparencia.mpuentealto.cl/doctos/778d18_ORDENANZA_14_DICIEMBRE_2002.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "AV1",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura Máxima 7,00 m.",
+   "pagina": 14,
+   "seccion": "Artículo 25, Zona AV1 Cerros Islas (Art. 5.2.3.2 del PRMS)",
+   "nota": null
+  },
+  {
+   "zona": "E(i)3",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima 10,50 m.",
+   "pagina": 15,
+   "seccion": "Artículo 25, Zona E(i)3 Equipamiento Recreacional y Deportivo (Art. 5.2.4 del PRMS)",
+   "nota": null
+  },
+  {
+   "zona": "H5",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima 10,50 m.",
+   "pagina": 22,
+   "seccion": "Artículo 28, Zona H5 Residencial y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "H6",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "máximo de 12,00 m. para agrupación aislada y/o pareada",
+   "pagina": 23,
+   "seccion": "Artículo 29, Zona H6 Residencial, Actividades Industriales Inofensivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "E(i)2",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura Máxima 7,00 m.",
+   "pagina": 29,
+   "seccion": "Artículo 34, Zona E(i)2 Equipamiento de Esparcimiento, Culto y Cultura",
+   "nota": null
+  },
+  {
+   "zona": "E(c)1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima 10,5 m.",
+   "pagina": 31,
+   "seccion": "Artículo 34, Zona E(c)1 Equipamiento de Educación, Culto y Cultura",
+   "nota": null
+  },
+  {
+   "zona": "E(c)2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima 10,50 m.",
+   "pagina": 32,
+   "seccion": "Artículo 34, Zona E(c)2 Equipamiento de Deporte y Cultura",
+   "nota": null
+  },
+  {
+   "zona": "IM1",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "Altura Máxima 12,00 m.",
+   "pagina": 34,
+   "seccion": "Artículo 38, Zona IM1 Actividad Productiva Exclusiva",
+   "nota": null
+  },
+  {
+   "zona": "II",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "Altura Máxima 12,00 m.",
+   "pagina": 36,
+   "seccion": "Artículo 38, Zona II Actividad Productiva Inofensiva",
+   "nota": null
+  }
+ ]
+}

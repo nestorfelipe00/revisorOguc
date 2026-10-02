@@ -1,0 +1,301 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local de la Actualización del Plan Regulador Comunal de Cerro Navia (D.A. N° 1.760 de 11-10-2019, D.O. 13-12-2019), publicada por la Municipalidad",
+ "url": "https://www.cerronavia.cl/wp-content/uploads/2020/05/Ordenanza-Local-PRCCN.pdf",
+ "sha256": "fadb3a5a0ee95252e0f6e96373183c50b1c117ab1b61f03834f6d22362cd431d",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "H1",
+   "pagina": 9,
+   "seccion": "Art. II-1.1, Zona H1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 200m²",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial y equipamiento: 0,7; actividades productivas: 0,6) («Coeficiente de ocupación de suelo 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "según el destino (residencial y equipamiento: 1,6; actividades productivas: 1,2) («Coeficiente constructibilidad 1,6»)",
+   "altura_m_texto": "Altura máxima de e dificación Aislado y Pareado 8m",
+   "altura_m": 8.0,
+   "antejardin_m_texto": "Antejardín 3m",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Edificación continua (residencial y equipamiento): hasta 8 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo (actividades productivas): 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "H2",
+   "pagina": 11,
+   "seccion": "Art. II-1.1, Zona H2",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 200m²",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial y equipamiento: 0,7; actividades productivas: 0,6) («Coeficiente de ocupación de suelo 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial y equipamiento: 2; actividades productivas: 1,2) («Coeficiente constructibilidad 2»)",
+   "altura_m_texto": "Altura máxima de edificación 8m",
+   "altura_m": 8.0,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "según el destino (residencial y equipamiento: 14; actividades productivas: 8): «Altura máxima de edificación Aislada y Pareada 14m»",
+   "incentivo_pagina": 12,
+   "antejardin_m_texto": "Antejardín 3m",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Edificación continua (residencial y equipamiento): hasta 8 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo (actividades productivas): 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "HE",
+   "pagina": 13,
+   "seccion": "Art. II-1.1, Zona HE",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 400m²",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente constructibilidad 4,2",
+   "coef_constructibilidad": 4.2,
+   "altura_m_texto": "Altura máxima de edificación 18m",
+   "altura_m": 18.0,
+   "antejardin_m_texto": "Antejardín Sin antejardín",
+   "antejardin_m": 0.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento Continuo hasta profundidad de 12m. Tras esa profundidad se permite aislado o pareado"
+  },
+  {
+   "zona": "HT",
+   "pagina": 15,
+   "seccion": "Art. II-1.1, Zona HT",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 200m²",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial y equipamiento: 0,7; actividades productivas: 0,8) («Coeficiente de ocupación de suelo 0,8»)",
+   "coef_constructibilidad_texto": "Coeficiente constructibilidad 2",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de edificación 8m",
+   "altura_m": 8.0,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "según el destino (residencial y equipamiento: 14; actividades productivas: 8): «Altura máxima de edificación 14m»",
+   "incentivo_pagina": 16,
+   "antejardin_m_texto": "Antejardín Sin antejardín",
+   "antejardin_m": 0.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado, Pareado Continuo: hasta profundidad de 6m",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo (actividades productivas): 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "EE",
+   "pagina": 17,
+   "seccion": "Art. II-1.1, Zona EE",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 800m²",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente constructibilidad 4,0",
+   "coef_constructibilidad": 4.0,
+   "altura_m_texto": "Altura máxima de edificación 18m",
+   "altura_m": 18.0,
+   "antejardin_m_texto": "Antejardín 5m",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasante de 60° en los deslindes con predios de la Zona H1."
+    }
+   ]
+  },
+  {
+   "zona": "EI",
+   "pagina": 19,
+   "seccion": "Art. II-1.1, Zona EI",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 800m²",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente constructibilidad 4,0",
+   "coef_constructibilidad": 4.0,
+   "altura_m_texto": "Altura máxima de edificación 18m",
+   "altura_m": 18.0,
+   "antejardin_m_texto": "Antejardín 5m",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasante de 60° en los deslindes con predios de la Zona H1."
+    }
+   ]
+  },
+  {
+   "zona": "ES",
+   "pagina": 21,
+   "seccion": "Art. II-1.1, Zona ES",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 800m²",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente constructibilidad 4,0",
+   "coef_constructibilidad": 4.0,
+   "altura_m_texto": "Altura máxima de edificación 22m",
+   "altura_m": 22.0,
+   "antejardin_m_texto": "Antejardín 5m",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasante de 60° en los deslindes con predios de la Zona H1."
+    }
+   ]
+  },
+  {
+   "zona": "ED",
+   "pagina": 23,
+   "seccion": "Art. II-1.1, Zona ED",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 800m²",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente constructibilidad 0,6",
+   "coef_constructibilidad": 0.6,
+   "altura_m_texto": "Altura máxima de edificación 14m",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín 5m",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado"
+  },
+  {
+   "zona": "RD",
+   "pagina": 25,
+   "seccion": "Art. II-1.1, Zona RD",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 2.500m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente constructibilidad 0,1",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "Altura máxima de edificación 7m",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín 5m",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo (general): 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZM",
+   "pagina": 27,
+   "seccion": "Art. II-1.1, Zona ZM",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 1.000m²",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente constructibilidad 1,6",
+   "coef_constructibilidad": 1.6,
+   "coef_constructibilidad_max": 8.0,
+   "coef_constructibilidad_condicion": "según el destino (residencial y equipamiento: 8; actividades productivas: 1,6) («Coeficiente constructibilidad 8»)",
+   "altura_m_texto": "Altura máxima de edificación 10, 5 m",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 30.0,
+   "incentivo_texto": "según el destino (residencial y equipamiento: 30; actividades productivas: 10,5): «Altura máxima de edificación 30 m»",
+   "incentivo_pagina": 28,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasantes 70º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo (residencial y equipamiento): 5 m. Distanciamiento mínimo (actividades productivas): 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "DAV",
+   "pagina": 33,
+   "seccion": "Art. II.3.1, terrenos consultados como plazas y parques (DAV)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Terrenos consultados como plazas y parques (afectos a utilidad pública, art. 59 LGUC)."
+    }
+   ]
+  }
+ ]
+}

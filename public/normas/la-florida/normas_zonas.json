@@ -1,0 +1,436 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Texto Refundido Ordenanza Local Plan Regulador Comunal de La Florida (septiembre 2016)",
+ "url": "https://appx.laflorida.cl/transparencia/documentacion/Ordenanza_Local_Vigente_PRCLF.pdf",
+ "sha256": "e5ad03213fed01f8ad0e1de14067d6ea47644a5628d8d9ac690ba375891a10d0",
+ "extraido": "2026-09-30",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "E-AB1",
+   "pagina": 41,
+   "seccion": "Artículo 30, Área E-AB1 Aislada baja densidad N° 1",
+   "superficie_predial_minima_m2_texto": "Residencial 1000 0,26 salvo vivienda existente 0,60 0,78 8,40 Aislado",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Residencial 1000 0,26 salvo vivienda existente 0,60",
+   "coef_ocupacion_suelo": 0.26,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "es vivienda existente o equipamiento (0,6, Art. 30) («0,26 salvo vivienda existente 0,60 … Coeficiente de Ocupación de Suelo 0,6 0,6 0,6 0,6»)",
+   "coef_constructibilidad_texto": "0,60 0,78 8,40 Aislado",
+   "coef_constructibilidad": 0.78,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (hasta 3 según su escala) («Equipamiento Articulo 30 Ordenanza Local … Coeficiente de Constructibilidad 3 2 1,5 1,2»)",
+   "altura_m_texto": "0,78 8,40 Aislado",
+   "altura_m": 8.4,
+   "altura_incentivo_m": 10.5,
+   "incentivo_texto": "el destino es equipamiento: «Equipamiento Articulo 30 Ordenanza Local 10,5 Aislado 4 No 8»",
+   "incentivo_pagina": 41,
+   "antejardin_m_texto": "salvo vivienda existente según OGUC 8 Articulo 15",
+   "antejardin_m": 8,
+   "rasante_grados": 70,
+   "rasante_texto": "8,40 Aislado 70º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "8,40 Aislado 70º",
+   "advertencias": [
+    {
+     "campo": "constructibilidad",
+     "texto": "Para equipamiento la constructibilidad depende de su escala (Art. 30: 3 mayor, 2 mediano, 1,5 menor y 1,2 básico) y no de la tabla residencial; el programa aún no conoce el destino del proyecto."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano de edificación PRLF-1 digitalizado (calce de unos 7 m): en predios cerca del límite de una zona, confírmela en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "E-AB2",
+   "pagina": 41,
+   "seccion": "Artículo 30, Área E-AB2 Aislada baja densidad N° 2",
+   "superficie_predial_minima_m2_texto": "Residencial 570 0,4 1,2 8,40 Aislado",
+   "superficie_predial_minima_m2": 570,
+   "coef_ocupacion_suelo_texto": "Residencial 570 0,4 1,2 8,40 Aislado",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (0,6, Art. 30) («Equipamiento Articulo 30 Ordenanza Local … Coeficiente de Ocupación de Suelo 0,6 0,6 0,6 0,6»)",
+   "coef_constructibilidad_texto": "Residencial 570 0,4 1,2 8,40 Aislado",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (hasta 3 según su escala) («Equipamiento Articulo 30 Ordenanza Local … Coeficiente de Constructibilidad 3 2 1,5 1,2»)",
+   "altura_m_texto": "Residencial 570 0,4 1,2 8,40 Aislado",
+   "altura_m": 8.4,
+   "altura_incentivo_m": 10.5,
+   "incentivo_texto": "el destino es equipamiento: «Equipamiento Articulo 30 Ordenanza Local 10,5 Aislado 4 No 5»",
+   "incentivo_pagina": 41,
+   "antejardin_m_texto": "salvo vivienda existente según OGUC 5 Articulo 15",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "8,40 Aislado 70º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "8,40 Aislado 70º",
+   "advertencias": [
+    {
+     "campo": "constructibilidad",
+     "texto": "Para equipamiento la constructibilidad depende de su escala (Art. 30: 3 mayor, 2 mediano, 1,5 menor y 1,2 básico) y no de la tabla residencial; el programa aún no conoce el destino del proyecto."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano de edificación PRLF-1 digitalizado (calce de unos 7 m): en predios cerca del límite de una zona, confírmela en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "E-AB3",
+   "pagina": 42,
+   "seccion": "Artículo 30, Área E-AB3 Aislada baja densidad N° 3",
+   "superficie_predial_minima_m2_texto": "Residencial 210 0,52, salvo vivienda existente 0,60 1,56 8,40 Aislado Pareado Continuo",
+   "superficie_predial_minima_m2": 210,
+   "coef_ocupacion_suelo_texto": "Residencial 210 0,52, salvo vivienda existente 0,60",
+   "coef_ocupacion_suelo": 0.52,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "es vivienda existente o equipamiento (0,6, Art. 30) («0,52, salvo vivienda existente 0,60 … Coeficiente de Ocupación de Suelo 0,6 0,6 0,6 0,6»)",
+   "coef_constructibilidad_texto": "0,60 1,56 8,40 Aislado",
+   "coef_constructibilidad": 1.56,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (hasta 3 según su escala) («Equipamiento Articulo 30 Ordenanza Local … Coeficiente de Constructibilidad 3 2 1,5 1,2»)",
+   "altura_m_texto": "1,56 8,40 Aislado",
+   "altura_m": 8.4,
+   "altura_incentivo_m": 14,
+   "incentivo_texto": "el destino es equipamiento: «Equipamiento Articulo 30 Ordenanza Local 14,0 Aislado 4 No 5»",
+   "incentivo_pagina": 42,
+   "antejardin_m_texto": "70º OGUC OGUC 3 Artículo 15",
+   "antejardin_m": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "Aislado Pareado Continuo 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "8,40 Aislado Pareado Continuo 70º",
+   "advertencias": [
+    {
+     "campo": "constructibilidad",
+     "texto": "Para equipamiento la constructibilidad depende de su escala (Art. 30: 3 mayor, 2 mediano, 1,5 menor y 1,2 básico) y no de la tabla residencial; el programa aún no conoce el destino del proyecto."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano de edificación PRLF-1 digitalizado (calce de unos 7 m): en predios cerca del límite de una zona, confírmela en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "E-AB4",
+   "pagina": 42,
+   "seccion": "Artículo 30, Área E-AB4 Aislada baja densidad N° 4",
+   "superficie_predial_minima_m2_texto": "Residencial 105 0,65 1,95 8,40 Aislado Pareado",
+   "superficie_predial_minima_m2": 105,
+   "coef_ocupacion_suelo_texto": "Equipamiento Articulo 30 Ordenanza Local",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.65,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial (0,65; equipamiento 0,6) («Residencial 105 0,65 1,95 8,40 Aislado»)",
+   "coef_constructibilidad_texto": "Residencial 105 0,65 1,95 8,40 Aislado",
+   "coef_constructibilidad": 1.95,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (hasta 3 según su escala) («Equipamiento Articulo 30 Ordenanza Local … Coeficiente de Constructibilidad 3 2 1,5 1,2»)",
+   "altura_m_texto": "1,95 8,40 Aislado",
+   "altura_m": 8.4,
+   "altura_incentivo_m": 14,
+   "incentivo_texto": "el destino es equipamiento: «Equipamiento Articulo 30 Ordenanza Local 14,0 Aislado 4 No 5»",
+   "incentivo_pagina": 42,
+   "antejardin_m_texto": "70º OGUC OGUC 2 Artículo 15",
+   "antejardin_m": 2,
+   "rasante_grados": 70,
+   "rasante_texto": "Aislado Pareado 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "8,40 Aislado Pareado 70º",
+   "advertencias": [
+    {
+     "campo": "constructibilidad",
+     "texto": "Para equipamiento la constructibilidad depende de su escala (Art. 30: 3 mayor, 2 mediano, 1,5 menor y 1,2 básico) y no de la tabla residencial; el programa aún no conoce el destino del proyecto."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano de edificación PRLF-1 digitalizado (calce de unos 7 m): en predios cerca del límite de una zona, confírmela en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "E-AB5",
+   "pagina": 43,
+   "seccion": "Artículo 30, Área E-AB5 Aislada baja densidad N° 5",
+   "superficie_predial_minima_m2_texto": "Residencial 105 0,65 1,95 8,40 Aislado Pareado",
+   "superficie_predial_minima_m2": 105,
+   "coef_ocupacion_suelo_texto": "Equipamiento Articulo 30 Ordenanza Local",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.65,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial (0,65; equipamiento 0,6) («Residencial 105 0,65 1,95 8,40 Aislado»)",
+   "coef_constructibilidad_texto": "Residencial 105 0,65 1,95 8,40 Aislado",
+   "coef_constructibilidad": 1.95,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (hasta 3 según su escala) («Equipamiento Articulo 30 Ordenanza Local … Coeficiente de Constructibilidad 3 2 1,5 1,2»)",
+   "altura_m_texto": "1,95 8,40 Aislado",
+   "altura_m": 8.4,
+   "altura_incentivo_m": 14,
+   "incentivo_texto": "el destino es equipamiento: «Equipamiento Articulo 30 Ordenanza Local 14,0 Aislado OGUC No 3»",
+   "incentivo_pagina": 43,
+   "antejardin_m_texto": "70º OGUC OGUC 2 Artículo 15",
+   "antejardin_m": 2,
+   "rasante_grados": 70,
+   "rasante_texto": "Aislado Pareado 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "8,40 Aislado Pareado 70º",
+   "advertencias": [
+    {
+     "campo": "constructibilidad",
+     "texto": "Para equipamiento la constructibilidad depende de su escala (Art. 30: 3 mayor, 2 mediano, 1,5 menor y 1,2 básico) y no de la tabla residencial; el programa aún no conoce el destino del proyecto."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano de edificación PRLF-1 digitalizado (calce de unos 7 m): en predios cerca del límite de una zona, confírmela en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "E-AM1",
+   "pagina": 43,
+   "seccion": "Artículo 30, Área E-AM1 Aislada media densidad N° 1",
+   "superficie_predial_minima_m2_texto": "Residencial 210 0,52, salvo vivienda existente 0,60 1,56 10,5 Aislado Pareado",
+   "superficie_predial_minima_m2": 210,
+   "coef_ocupacion_suelo_texto": "Residencial 210 0,52, salvo vivienda existente 0,60",
+   "coef_ocupacion_suelo": 0.52,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "es vivienda existente o equipamiento (0,6, Art. 30) («0,52, salvo vivienda existente 0,60 … Coeficiente de Ocupación de Suelo 0,6 0,6 0,6 0,6»)",
+   "coef_constructibilidad_texto": "0,60 1,56 10,5 Aislado",
+   "coef_constructibilidad": 1.56,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (hasta 3 según su escala) («Equipamiento Articulo 30 Ordenanza Local … Coeficiente de Constructibilidad 3 2 1,5 1,2»)",
+   "altura_m_texto": "1,56 10,5 Aislado",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14,
+   "incentivo_texto": "el destino es equipamiento: «Equipamiento Articulo 30 Ordenanza Local 14,0 Aislado 4 No 5»",
+   "incentivo_pagina": 43,
+   "antejardin_m_texto": "70º OGUC OGUC 3 Artículo 15",
+   "antejardin_m": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "Aislado Pareado 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "10,5 Aislado Pareado 70º",
+   "advertencias": [
+    {
+     "campo": "constructibilidad",
+     "texto": "Para equipamiento la constructibilidad depende de su escala (Art. 30: 3 mayor, 2 mediano, 1,5 menor y 1,2 básico) y no de la tabla residencial; el programa aún no conoce el destino del proyecto."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano de edificación PRLF-1 digitalizado (calce de unos 7 m): en predios cerca del límite de una zona, confírmela en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "E-AM2",
+   "pagina": 44,
+   "seccion": "Artículo 30, Área E-AM2 Aislada media densidad N° 2",
+   "superficie_predial_minima_m2_texto": "Residencial 500 0,52, salvo vivienda existente 0,60 1,56 * 10,5 ** Aislado",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Residencial 500 0,52, salvo vivienda existente 0,60",
+   "coef_ocupacion_suelo": 0.52,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "es vivienda existente o equipamiento (0,6, Art. 30) («0,52, salvo vivienda existente 0,60 … Coeficiente de Ocupación de Suelo 0,6 0,6 0,6 0,6»)",
+   "coef_constructibilidad_texto": "0,60 1,56 * 10,5 ** Aislado",
+   "coef_constructibilidad": 1.56,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (hasta 3 según su escala; 2,028 en el sector de excepción) («Equipamiento Articulo 30 Ordenanza Local … Coeficiente de Constructibilidad 3 2 1,5 1,2»)",
+   "altura_m_texto": "1,56 * 10,5 ** Aislado",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 12.6,
+   "incentivo_texto": "el predio está en el sector de excepción entre Av. Diego Portales, el límite comunal, Eusebio Lillo y Av. México: «** : Altura de Edificación Máxima (mt) 12.6»",
+   "incentivo_pagina": 44,
+   "antejardin_m_texto": "70º 4 OGUC 5 ***",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "** Aislado 70º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "10,5 ** Aislado 70º",
+   "advertencias": [
+    {
+     "campo": "constructibilidad",
+     "texto": "Para equipamiento la constructibilidad depende de su escala (Art. 30: 3 mayor, 2 mediano, 1,5 menor y 1,2 básico) y no de la tabla residencial; el programa aún no conoce el destino del proyecto."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano de edificación PRLF-1 digitalizado (calce de unos 7 m): en predios cerca del límite de una zona, confírmela en el CIP."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "La ficha fija 4 m de distancia a medianero, más que la tabla del art. 2.6.3 de la OGUC en edificios bajos."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "En el sector entre Av. Diego Portales, el límite comunal, Eusebio Lillo y Av. México el antejardín es 0, la constructibilidad 2,028 y la altura 12,6 m."
+    }
+   ]
+  },
+  {
+   "zona": "E-AM3",
+   "pagina": 44,
+   "seccion": "Artículo 30, Área E-AM3 Aislada media densidad N° 3",
+   "superficie_predial_minima_m2_texto": "Residencial 700 0,52, salvo vivienda existente 0,60 2,08 14,4 Aislado",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "Residencial 700 0,52, salvo vivienda existente 0,60",
+   "coef_ocupacion_suelo": 0.52,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "es vivienda existente o equipamiento (0,6, Art. 30) («0,52, salvo vivienda existente 0,60 … Coeficiente de Ocupación de Suelo 0,6 0,6 0,6 0,6»)",
+   "coef_constructibilidad_texto": "0,60 2,08 14,4 Aislado",
+   "coef_constructibilidad": 2.08,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (hasta 3 según su escala) («Equipamiento Articulo 30 Ordenanza Local … Coeficiente de Constructibilidad 3 2 1,5 1,2»)",
+   "altura_m_texto": "2,08 14,4 Aislado",
+   "altura_m": 14.4,
+   "altura_incentivo_m": 16.8,
+   "incentivo_texto": "el destino es equipamiento: «Equipamiento Articulo 30 Ordenanza Local 16,8 Aislado 4 No 5»",
+   "incentivo_pagina": 44,
+   "antejardin_m_texto": "70º OGUC OGUC 5 Artículo 15",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "14,4 Aislado 70º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "14,4 Aislado 70º",
+   "advertencias": [
+    {
+     "campo": "constructibilidad",
+     "texto": "Para equipamiento la constructibilidad depende de su escala (Art. 30: 3 mayor, 2 mediano, 1,5 menor y 1,2 básico) y no de la tabla residencial; el programa aún no conoce el destino del proyecto."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano de edificación PRLF-1 digitalizado (calce de unos 7 m): en predios cerca del límite de una zona, confírmela en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "E-AM4",
+   "pagina": 45,
+   "seccion": "Artículo 30, Área E-AM4 Aislada media densidad N° 4",
+   "superficie_predial_minima_m2_texto": "Residencial 200 0,7 2,1 11,4",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Equipamiento Articulo 30 Ordenanza Local",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial (0,7; equipamiento 0,6) («Residencial 200 0,7 2,1 11,4»)",
+   "coef_constructibilidad_texto": "Residencial 200 0,7 2,1 11,4",
+   "coef_constructibilidad": 2.1,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (hasta 3 según su escala) («Equipamiento Articulo 30 Ordenanza Local … Coeficiente de Constructibilidad 3 2 1,5 1,2»)",
+   "altura_m_texto": "Residencial 200 0,7 2,1 11,4",
+   "altura_m": 11.4,
+   "antejardin_m_texto": "70º OGUC OGUC 2 Artículo 15",
+   "antejardin_m": 2,
+   "rasante_grados": 70,
+   "rasante_texto": "Aislado Pareado Continuo 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "11,4 Aislado Pareado Continuo 70º",
+   "advertencias": [
+    {
+     "campo": "constructibilidad",
+     "texto": "Para equipamiento la constructibilidad depende de su escala (Art. 30: 3 mayor, 2 mediano, 1,5 menor y 1,2 básico) y no de la tabla residencial; el programa aún no conoce el destino del proyecto."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano de edificación PRLF-1 digitalizado (calce de unos 7 m): en predios cerca del límite de una zona, confírmela en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "E-AA1",
+   "pagina": 45,
+   "seccion": "Artículo 30, Área E-AA1 Aislada alta densidad N° 1",
+   "superficie_predial_minima_m2_texto": "Residencial 2000 0,35 salvo vivienda existente 0,60 2,2 22,0 Aislado",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Residencial 2000 0,35 salvo vivienda existente 0,60",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "es vivienda existente o equipamiento (0,6, Art. 30) («0,35 salvo vivienda existente 0,60 … Coeficiente de Ocupación de Suelo 0,6 0,6 0,6 0,6»)",
+   "coef_constructibilidad_texto": "0,60 2,2 22,0 Aislado",
+   "coef_constructibilidad": 2.2,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (hasta 3 según su escala) («Equipamiento Articulo 30 Ordenanza Local … Coeficiente de Constructibilidad 3 2 1,5 1,2»)",
+   "altura_m_texto": "2,2 22,0 Aislado",
+   "altura_m": 22,
+   "antejardin_m_texto": "70º OGUC OGUC 3 Artículo 15",
+   "antejardin_m": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "22,0 Aislado 70º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "22,0 Aislado 70º",
+   "advertencias": [
+    {
+     "campo": "constructibilidad",
+     "texto": "Para equipamiento la constructibilidad depende de su escala (Art. 30: 3 mayor, 2 mediano, 1,5 menor y 1,2 básico) y no de la tabla residencial; el programa aún no conoce el destino del proyecto."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano de edificación PRLF-1 digitalizado (calce de unos 7 m): en predios cerca del límite de una zona, confírmela en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "E-AA2",
+   "pagina": 46,
+   "seccion": "Artículo 30, Área E-AA2 Aislada alta densidad N° 2",
+   "superficie_predial_minima_m2_texto": "Residencial 2500 0,25 salvo vivienda existente 0,60 3,2 46,0 Aislado",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Residencial 2500 0,25 salvo vivienda existente 0,60",
+   "coef_ocupacion_suelo": 0.25,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "es vivienda existente o equipamiento (0,6, Art. 30) («0,25 salvo vivienda existente 0,60 … Coeficiente de Ocupación de Suelo 0,6 0,6 0,6 0,6»)",
+   "coef_constructibilidad_texto": "0,60 3,2 46,0 Aislado",
+   "coef_constructibilidad": 3.2,
+   "altura_m_texto": "3,2 46,0 Aislado",
+   "altura_m": 46,
+   "antejardin_m_texto": "según OGUC OGUC 3 Artículo 15",
+   "antejardin_m": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "46,0 Aislado 60º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "46,0 Aislado 60º",
+   "advertencias": [
+    {
+     "campo": "constructibilidad",
+     "texto": "Para equipamiento la constructibilidad depende de su escala (Art. 30: 3 mayor, 2 mediano, 1,5 menor y 1,2 básico) y no de la tabla residencial; el programa aún no conoce el destino del proyecto."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona tomada del plano de edificación PRLF-1 digitalizado (calce de unos 7 m): en predios cerca del límite de una zona, confírmela en el CIP."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "La ficha fija 12 m de distancia a medianero (salvo vivienda existente), más que la tabla del art. 2.6.3 de la OGUC."
+    }
+   ]
+  }
+ ]
+}

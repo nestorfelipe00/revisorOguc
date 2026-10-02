@@ -1,0 +1,811 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local, Actualización Plan Regulador Comunal de Coquimbo (D.E. N° 3.155, D.O. 24-12-2025)",
+ "url": "https://www.municoquimbo.cl/images/estructura/2026/plan-regulador-24122025/03_Ordenanza_Local.pdf",
+ "extraido": "2026-09-30",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica. No considera rasantes, distanciamientos, adosamientos ni incentivos de altura, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "ZU3",
+   "altura_m": 30.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 30",
+   "pagina": 20,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU3-1",
+   "altura_m": 30.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 30",
+   "pagina": 21,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU3"
+  },
+  {
+   "zona": "ZU3A",
+   "altura_m": 30.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 30",
+   "pagina": 21,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU3"
+  },
+  {
+   "zona": "ZU4",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 18",
+   "pagina": 21,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU4-1",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 18",
+   "pagina": 22,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU4"
+  },
+  {
+   "zona": "ZU4-2",
+   "altura_m": 30.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 30",
+   "pagina": 22,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZE4"
+  },
+  {
+   "zona": "ZU5",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 18",
+   "pagina": 22,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU5-1",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 18",
+   "pagina": 22,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU5"
+  },
+  {
+   "zona": "ZU5-2",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 18",
+   "pagina": 23,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU5"
+  },
+  {
+   "zona": "ZU5A",
+   "altura_m": 6.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 6",
+   "pagina": 23,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU5B",
+   "altura_m": 3.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 3",
+   "pagina": 23,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU5C",
+   "altura_m": 6.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 6",
+   "pagina": 24,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU5D",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 12",
+   "pagina": 25,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU6",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 15",
+   "pagina": 26,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU6-1",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 15",
+   "pagina": 26,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU6"
+  },
+  {
+   "zona": "ZU6-2",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 15",
+   "pagina": 26,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU6"
+  },
+  {
+   "zona": "ZU6A",
+   "altura_m": 22.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 22",
+   "pagina": 27,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU6A1",
+   "altura_m": 22.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 22",
+   "pagina": 27,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU6A"
+  },
+  {
+   "zona": "ZU6A2",
+   "altura_m": 22.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 22",
+   "pagina": 27,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU6A"
+  },
+  {
+   "zona": "ZU7",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 9",
+   "pagina": 28,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU7-1",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 9",
+   "pagina": 28,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU7"
+  },
+  {
+   "zona": "ZU7A",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 7",
+   "pagina": 29,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU7A1",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 7",
+   "pagina": 29,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU7A"
+  },
+  {
+   "zona": "ZU8",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 21",
+   "pagina": 30,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU8-1",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 21",
+   "pagina": 30,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU8"
+  },
+  {
+   "zona": "ZU8-2",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 21",
+   "pagina": 31,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU8"
+  },
+  {
+   "zona": "ZU9",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 15",
+   "pagina": 31,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU9-1",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 15",
+   "pagina": 31,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU9"
+  },
+  {
+   "zona": "ZU9-2",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 15",
+   "pagina": 32,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU9"
+  },
+  {
+   "zona": "ZU9A",
+   "altura_m": 45.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 45",
+   "pagina": 32,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU9A1",
+   "altura_m": 45.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 45",
+   "pagina": 32,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU9A"
+  },
+  {
+   "zona": "ZU9A2",
+   "altura_m": 45.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 45",
+   "pagina": 33,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU9A"
+  },
+  {
+   "zona": "ZU9B",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 12",
+   "pagina": 33,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU10",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 9",
+   "pagina": 34,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU10-1",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 9",
+   "pagina": 34,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU10"
+  },
+  {
+   "zona": "ZU11",
+   "altura_m": 24.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 24",
+   "pagina": 35,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU11-1",
+   "altura_m": 24.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 24",
+   "pagina": 35,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU11"
+  },
+  {
+   "zona": "ZU11-2",
+   "altura_m": 24.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 24",
+   "pagina": 35,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU11"
+  },
+  {
+   "zona": "ZU12",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 9",
+   "pagina": 36,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU12-1",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 9",
+   "pagina": 36,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU12"
+  },
+  {
+   "zona": "ZU12-2",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 9",
+   "pagina": 36,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU12"
+  },
+  {
+   "zona": "ZU13",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 18",
+   "pagina": 37,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU13-1",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 18",
+   "pagina": 37,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU13"
+  },
+  {
+   "zona": "ZU13A",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 18",
+   "pagina": 38,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU13"
+  },
+  {
+   "zona": "ZU14",
+   "altura_m": 30.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 30",
+   "pagina": 38,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU15",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 15",
+   "pagina": 39,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU15A",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 18m*",
+   "pagina": 40,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU16",
+   "altura_m": 19.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 19",
+   "pagina": 41,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU16-1",
+   "altura_m": 19.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 19",
+   "pagina": 41,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU16"
+  },
+  {
+   "zona": "ZU16A",
+   "altura_m": 19.0,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 19",
+   "pagina": 42,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU16"
+  },
+  {
+   "zona": "ZU17",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 12",
+   "pagina": 42,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": null
+  },
+  {
+   "zona": "ZU17-1",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 12",
+   "pagina": 42,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU17"
+  },
+  {
+   "zona": "ZAVPC",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación : 8 m",
+   "pagina": 43,
+   "seccion": "Artículo 13. Zonas de Áreas verdes",
+   "nota": null
+  },
+  {
+   "zona": "ZAVPC-A",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación : 8 m",
+   "pagina": 43,
+   "seccion": "Artículo 13. Zonas de Áreas verdes",
+   "nota": "heredada de ZAVPC"
+  },
+  {
+   "zona": "ZPI",
+   "altura_m": 4.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación : 4 m",
+   "pagina": 43,
+   "seccion": "Artículo 13. Zonas de Áreas verdes",
+   "nota": null
+  },
+  {
+   "zona": "ZU17-2",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 12",
+   "pagina": 43,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "nota": "heredada de ZU17"
+  },
+  {
+   "zona": "ZP1",
+   "altura_m": 27.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 27",
+   "pagina": 44,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZP1-1",
+   "altura_m": 27.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 27",
+   "pagina": 45,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": "heredada de ZP1"
+  },
+  {
+   "zona": "ZP2",
+   "altura_m": 30.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 30",
+   "pagina": 45,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZP2-1",
+   "altura_m": 30.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 30",
+   "pagina": 45,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": "heredada de ZP2"
+  },
+  {
+   "zona": "ZP2A",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura: 15 m",
+   "pagina": 45,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZE1",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación : 7 metros",
+   "pagina": 46,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZP3",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 15",
+   "pagina": 46,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZE2",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 18",
+   "pagina": 47,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZE2A",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima permitida: 21 m",
+   "pagina": 47,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZE2B",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 18",
+   "pagina": 47,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": "heredada de ZE2"
+  },
+  {
+   "zona": "ZE3",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 21",
+   "pagina": 48,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZE3A",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura Máxima: 14 m",
+   "pagina": 49,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZE4",
+   "altura_m": 30.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 30",
+   "pagina": 49,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZE4-1",
+   "altura_m": 30.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 30",
+   "pagina": 50,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": "heredada de ZE4"
+  },
+  {
+   "zona": "ZE4A",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 15",
+   "pagina": 50,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZE4A1",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 15",
+   "pagina": 51,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": "heredada de ZE4A"
+  },
+  {
+   "zona": "ZEBC1",
+   "altura_m": 6.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación : 6 metros",
+   "pagina": 51,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZEBC2",
+   "altura_m": 6.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación : 6 metros",
+   "pagina": 51,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZI1",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación : 12 metros",
+   "pagina": 52,
+   "seccion": "Artículo 15. Zonas de Infraestructura",
+   "nota": null
+  },
+  {
+   "zona": "ZI2",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación : 12 metros",
+   "pagina": 52,
+   "seccion": "Artículo 15. Zonas de Infraestructura",
+   "nota": null
+  },
+  {
+   "zona": "ZI3",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación : 12 metros",
+   "pagina": 52,
+   "seccion": "Artículo 15. Zonas de Infraestructura",
+   "nota": null
+  },
+  {
+   "zona": "ZI4",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación :15 metros",
+   "pagina": 53,
+   "seccion": "Artículo 15. Zonas de Infraestructura",
+   "nota": null
+  },
+  {
+   "zona": "AVP1",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima edificación (m) 3.5",
+   "pagina": 55,
+   "seccion": "Artículo 19. Zona Típica Pueblo de Guayacán",
+   "nota": null
+  },
+  {
+   "zona": "AVP2",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 7",
+   "pagina": 56,
+   "seccion": "Artículo 19. Zona Típica Pueblo de Guayacán",
+   "nota": null
+  },
+  {
+   "zona": "AVP2A",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 7",
+   "pagina": 56,
+   "seccion": "Artículo 19. Zona Típica Pueblo de Guayacán",
+   "nota": "heredada de AVP2"
+  },
+  {
+   "zona": "AVP3",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 7",
+   "pagina": 57,
+   "seccion": "Artículo 19. Zona Típica Pueblo de Guayacán",
+   "nota": null
+  },
+  {
+   "zona": "ZCH1",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 18",
+   "pagina": 58,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "nota": null
+  },
+  {
+   "zona": "ZCH1A",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 18",
+   "pagina": 59,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "nota": "heredada de ZCH1"
+  },
+  {
+   "zona": "ZCH2",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 7",
+   "pagina": 59,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "nota": null
+  },
+  {
+   "zona": "ZCH3",
+   "altura_m": 6.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 6",
+   "pagina": 60,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "nota": null
+  },
+  {
+   "zona": "ZCH4",
+   "altura_m": 6.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 6",
+   "pagina": 61,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "nota": null
+  },
+  {
+   "zona": "ZCH5",
+   "altura_m": 6.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 6",
+   "pagina": 62,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "nota": null
+  },
+  {
+   "zona": "ZCH5A",
+   "altura_m": 6.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (m) 6",
+   "pagina": 63,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "nota": "heredada de ZCH5"
+  }
+ ]
+}

@@ -1,0 +1,437 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador de San Miguel, Modificación N° 5 (D.E. N° 2.500, D.O. 25-11-2016), texto oficial de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1096925",
+ "sha256": "ce8c22fc9421a9ad84419d33d09b9d5273094195d737a56351185dd5bd26d641",
+ "extraido": "2026-09-30",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "Z-1",
+   "pagina": 0,
+   "seccion": "Artículo 24, Z1 Preferente comercio y servicios",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62300.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62301.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62302.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión Predial mínima 600m² (residencial y equipamiento)",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo 0,7 (residencial)",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento y el predio enfrenta Gran Avenida («Coeficiente ocupación de suelo 1,0 (equipamiento, predios que enfrentan Gran Avenida)»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "Continua 7m – máximo 2 pisos (equipamiento, predios que no enfrentan Gran Avenida)",
+   "altura_m": 7,
+   "altura_incentivo_m": 27,
+   "incentivo_texto": "la edificación es aislada (27 m, 10 pisos); la continua llega a 14 m (5 pisos) frente a Gran Avenida y a 7 m (2 pisos) para equipamiento en otras calles: «Aislada 27m – máximo 10 pisos»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo 3,0m para aislada; no se exige para continuo en predios que enfrentan Gran Avenida",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "continuo",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado/continuo; Aislado/pareado (residencial en predios que no enfrentan Gran Avenida)",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En proyectos de vivienda colectiva el antejardín no puede ser menor a 5 m (Art. 11 de la Ordenanza), aunque el cuadro de la zona fije menos."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "En predios que enfrentan Gran Avenida no se exige antejardín a la edificación continua."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Pareado solo para uso residencial en predios que no enfrentan Gran Avenida; continuo frente a Gran Avenida o para equipamiento."
+    }
+   ]
+  },
+  {
+   "zona": "Z-2",
+   "pagina": 0,
+   "seccion": "Artículo 24, Z2 Comercio y vivienda",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62317.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión Predial mínima 250m² (residencial); 600m² (equipamiento)",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo 0,7 (residencial)",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento («Coeficiente ocupación de suelo 0,8 (equipamiento)»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "Pareado/continuo 7m – máximo 2 pisos (equipamiento)",
+   "altura_m": 7,
+   "altura_incentivo_m": 14,
+   "incentivo_texto": "la edificación es aislada (14 m, 5 pisos); pareada o continua llega a 9 m (3 pisos) residencial y 7 m (2 pisos) equipamiento: «Aislado 14m – máximo 5 pisos»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo 3,0m Aislado/pareado/continuo",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado/pareado (residencial); Aislado/pareado/continuo (equipamiento)",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En proyectos de vivienda colectiva el antejardín no puede ser menor a 5 m (Art. 11 de la Ordenanza), aunque el cuadro de la zona fije menos."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Para equipamiento la superficie de subdivisión mínima es 600 m²."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento continuo es solo para equipamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-2",
+   "pagina": 0,
+   "seccion": "Artículo 24, ZU-2 Residencial de renovación",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62319.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión Predial mínima 2500m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,3",
+   "coef_constructibilidad": 2.3,
+   "altura_m_texto": "Altura máxima de edificación Aislado/pareado 14m – máximo 5 pisos",
+   "altura_m": 14,
+   "antejardin_m_texto": "Antejardín mínimo 3,0m",
+   "antejardin_m": 3,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado/pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En proyectos de vivienda colectiva el antejardín no puede ser menor a 5 m (Art. 11 de la Ordenanza), aunque el cuadro de la zona fije menos."
+    }
+   ]
+  },
+  {
+   "zona": "Z-3",
+   "pagina": 0,
+   "seccion": "Artículo 24, Z3 Residencial baja altura",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62321.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión Predial mínima 250m² (residencial); 500m² (equipamiento)",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo 0,7 (residencial)",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento («Coeficiente ocupación de suelo 0,8 (equipamiento)»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2 (equipamiento)",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el destino es residencial («Coeficiente de constructibilidad 1,5 (residencial)»)",
+   "altura_m_texto": "Continuo 7m – máximo 2 pisos (equipamiento)",
+   "altura_m": 7,
+   "altura_incentivo_m": 14,
+   "incentivo_texto": "la edificación es aislada (14 m, 5 pisos); pareada o continua llega a 9 m (3 pisos) residencial y 7 m (2 pisos) equipamiento: «Aislado 14m – máximo 5 pisos»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo (*) 3,0m; (*) No se exige, para edificaciones existentes de antes de 1987",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado/pareado/continuo (residencial); Aislado/continuo (equipamiento)",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En proyectos de vivienda colectiva el antejardín no puede ser menor a 5 m (Art. 11 de la Ordenanza), aunque el cuadro de la zona fije menos."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Para equipamiento la superficie de subdivisión mínima es 500 m²."
+    }
+   ]
+  },
+  {
+   "zona": "Z-4",
+   "pagina": 0,
+   "seccion": "Artículo 24, Z4 Residencial en altura",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62324.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión Predial mínima 250m² (residencial); 500m² (equipamiento)",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo 0,7 (residencial)",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento («Coeficiente ocupación de suelo 0,8 (equipamiento)»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,0 (equipamiento)",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el destino es residencial («Coeficiente de constructibilidad 2,5 (residencial)»)",
+   "altura_m_texto": "Pareado/continuo 7m – máximo 2 pisos (equipamiento)",
+   "altura_m": 7,
+   "altura_incentivo_m": 23,
+   "incentivo_texto": "la edificación es aislada de uso residencial (23 m, 8 pisos); el equipamiento pareado o continuo llega a 9 m (3 pisos) o 7 m (2 pisos): «Aislado 23m – máximo 8 pisos (residencial)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo 3,0m",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado/pareado/continuo (residencial); Aislado/continuo (equipamiento)",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En proyectos de vivienda colectiva el antejardín no puede ser menor a 5 m (Art. 11 de la Ordenanza), aunque el cuadro de la zona fije menos."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Para equipamiento la superficie de subdivisión mínima es 500 m²."
+    }
+   ]
+  },
+  {
+   "zona": "Z-5",
+   "pagina": 0,
+   "seccion": "Artículo 24, Z5 Mixto",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62327.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión Predial mínima 250m² (residencial); 500m² (equipamiento)",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo 0,7 (residencial)",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento («Coeficiente ocupación de suelo 0,8 (equipamiento)»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,5 (equipamiento)",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el destino es residencial («Coeficiente de constructibilidad 2,0 (residencial)»)",
+   "altura_m_texto": "Pareado/continuo 7m – máximo 2 pisos (equipamiento)",
+   "altura_m": 7,
+   "altura_incentivo_m": 14,
+   "incentivo_texto": "la edificación es aislada (14 m, 5 pisos); pareada o continua llega a 9 m (3 pisos) residencial y 7 m (2 pisos) equipamiento: «Aislado 14m – máximo 5 pisos»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo (*) 3,0m; (*) No se exige, para edificaciones existentes de antes de 1987",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado/pareado/continuo (residencial); Aislado/continuo (equipamiento)",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En proyectos de vivienda colectiva el antejardín no puede ser menor a 5 m (Art. 11 de la Ordenanza), aunque el cuadro de la zona fije menos."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Para equipamiento la superficie de subdivisión mínima es 500 m²."
+    }
+   ]
+  },
+  {
+   "zona": "Z-6",
+   "pagina": 0,
+   "seccion": "Artículo 24, Z6 Mixto en altura",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62332.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62333.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión Predial mínima 250m² (residencial); 500m² (equipamiento y actividad productiva)",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coef. Ocupación de suelo y pisos superiores 0,7 (actividad productiva)",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial o equipamiento («Coeficiente ocupación de suelo 0,8 (residencial y equipamiento)»)",
+   "coef_constructibilidad_texto": "Coef. de constructibilidad 2 (actividad productiva)",
+   "coef_constructibilidad": 2,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el destino es residencial o equipamiento («Coeficiente de constructibilidad 2,5 (residencial y equipamiento)»)",
+   "altura_m_texto": "Pareado/continuo 7m – máximo 2 pisos (equipamiento)",
+   "altura_m": 7,
+   "altura_incentivo_m": 27,
+   "incentivo_texto": "la edificación es aislada (27 m, 10 pisos; actividad productiva 13 m y 4 pisos); pareada o continua llega a 9 m (3 pisos) residencial y 7 m (2 pisos) equipamiento: «Aislado 27m-máximo 10 pisos»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo 3,0m",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado/pareado/continuo (residencial); Aislado/continuo (equipamiento); Aislado (actividad productiva)",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En proyectos de vivienda colectiva el antejardín no puede ser menor a 5 m (Art. 11 de la Ordenanza), aunque el cuadro de la zona fije menos."
+    },
+    {
+     "campo": "altura",
+     "texto": "El cuadro del uso residencial lleva un asterisco («Incentivo Normativo»): sus cifras pueden depender de un incentivo; verifique la condición en la Ordenanza."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Para equipamiento y actividad productiva la superficie de subdivisión mínima es 500 m²."
+    }
+   ]
+  },
+  {
+   "zona": "Z-7",
+   "pagina": 0,
+   "seccion": "Artículo 24, Z7 Industria exclusiva",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62336.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión Predial mínima 500m²",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,0 (equipamientos; actividades complementarias a la vialidad y transporte)",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el destino es industria, talleres o almacenamiento («Coeficiente de constructibilidad 2,0 (industria, talleres, almacenamiento)»)",
+   "altura_m_texto": "Altura máxima de edificación 14m máximo 5 pisos",
+   "altura_m": 14,
+   "antejardin_m_texto": "Antejardín mínimo 5,0m",
+   "antejardin_m": 5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En proyectos de vivienda colectiva el antejardín no puede ser menor a 5 m (Art. 11 de la Ordenanza), aunque el cuadro de la zona fije menos."
+    }
+   ]
+  },
+  {
+   "zona": "EC-1",
+   "pagina": 0,
+   "seccion": "Artículo 24, EC1 Equipamiento comunal",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62339.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima Existente",
+   "superficie_predial_minima_m2": null,
+   "coef_ocupacion_suelo_texto": "Coef. Ocupación de suelo y pisos sup. 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el predio enfrenta una calle de más de 30 m («Si enfrenta calle superior a 30m, podrá aumentar hasta 0,8»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el predio enfrenta una calle de más de 30 m («Si enfrenta calle superior a 30m, podrá aumentar hasta 1,5»)",
+   "altura_m_texto": "Altura Máxima 14m.",
+   "altura_m": 14,
+   "antejardin_m_texto": "Antejardín mínimo No consulta.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En proyectos de vivienda colectiva el antejardín no puede ser menor a 5 m (Art. 11 de la Ordenanza), aunque el cuadro de la zona fije menos."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija 5 m de distanciamiento, más que la tabla del art. 2.6.3 de la OGUC en edificios bajos."
+    }
+   ]
+  },
+  {
+   "zona": "EC-2",
+   "pagina": 0,
+   "seccion": "Artículo 24, EC2 Equipamiento comunal proyectado",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62342.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial No divisible",
+   "superficie_predial_minima_m2": null,
+   "coef_ocupacion_suelo_texto": "Coef. Ocupación de suelo y pisos 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "Altura Máxima 14m.",
+   "altura_m": 14,
+   "antejardin_m_texto": "Antejardín mínimo No consulta.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En proyectos de vivienda colectiva el antejardín no puede ser menor a 5 m (Art. 11 de la Ordenanza), aunque el cuadro de la zona fije menos."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija 5 m de distanciamiento, más que la tabla del art. 2.6.3 de la OGUC en edificios bajos."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro dice «Si enfrenta calle superior a 19m. podrá» aumentar, pero la tabla publicada no muestra hasta cuánto."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "El cuadro dice «Si enfrenta calle superior a 19m. podrá» aumentar, pero la tabla publicada no muestra hasta cuánto."
+    }
+   ]
+  },
+  {
+   "zona": "ES",
+   "pagina": 0,
+   "seccion": "Artículo 24, ES Equipamiento regional de salud",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/62367.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial 5000m²",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "Coef. Ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura Máxima 45m.",
+   "altura_m": 45,
+   "antejardin_m_texto": "Antejardín mínimo 7m.",
+   "antejardin_m": 7,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En proyectos de vivienda colectiva el antejardín no puede ser menor a 5 m (Art. 11 de la Ordenanza), aunque el cuadro de la zona fije menos."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro fija 5 m de distanciamiento, más que la tabla del art. 2.6.3 de la OGUC en edificios bajos."
+    }
+   ]
+  }
+ ]
+}

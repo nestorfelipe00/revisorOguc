@@ -1,0 +1,118 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Modificación del Plan Regulador Comunal de Paine (D.A. N° 823/2014, D.O. 12-02-2015), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1074700",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "ZU-1",
+   "altura_m": 5,
+   "pisos": null,
+   "texto": "actividades productivas inofensivas 500 0,6 1,2 APC 5 1",
+   "pagina": 0,
+   "seccion": "Artículo 11, Zona ZU-1: Zona Centro Cívico",
+   "nota": null
+  },
+  {
+   "zona": "ZU-2",
+   "altura_m": 5,
+   "pisos": null,
+   "texto": "actividades productivas inofensivas 500 0,8 1,2 APC 5 1",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona ZU-2: Zona Urbana Mixta de Equipamiento",
+   "nota": null
+  },
+  {
+   "zona": "ZU-3",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "residencial 200 0,6 1,2 AP 7 2",
+   "pagina": 0,
+   "seccion": "Artículo 13, Zona ZU-3: Zona Residencial Densidad Alta",
+   "nota": null
+  },
+  {
+   "zona": "ZU-4",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "residencial 350 0,6 1,2 AP 8 2",
+   "pagina": 0,
+   "seccion": "Artículo 14, Zona ZU-4: Zona Residencial Densidad Media",
+   "nota": null
+  },
+  {
+   "zona": "ZU-5",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "residencial 800 0,6 1,2 AP 8 2",
+   "pagina": 0,
+   "seccion": "Artículo 15, Zona ZU-5: Zona Residencial Densidad Baja",
+   "nota": null
+  },
+  {
+   "zona": "ZU-6",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "residencial 500 0,6 1,2 AP 8 2",
+   "pagina": 0,
+   "seccion": "Artículo 16, Zona ZU-6: Zona Residencial Densidad Intermedia",
+   "nota": null
+  },
+  {
+   "zona": "ZU-7",
+   "altura_m": 7.5,
+   "pisos": null,
+   "texto": "vivienda del cuidador 800 0,35 0,35 A 7,5 2",
+   "pagina": 0,
+   "seccion": "Artículo 17, Zona ZU-7: Zona Deportiva y Recreacional",
+   "nota": null
+  },
+  {
+   "zona": "ZU-8",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "comercio 800 0,3 0,3 A 8 2",
+   "pagina": 0,
+   "seccion": "Artículo 18, Zona ZU-8: Zona Mixta Especial",
+   "nota": null
+  },
+  {
+   "zona": "ZE-1",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "comercio 1000 0,3 0,3 APC 8 2",
+   "pagina": 0,
+   "seccion": "Artículo 19, Zona ZE-1: Zona Exclusiva Resguardo Ferroviario",
+   "nota": null
+  },
+  {
+   "zona": "ZE-2",
+   "altura_m": 7.5,
+   "pisos": null,
+   "texto": "vivienda del cuidador 800 0,35 0,35 A 7,5 2",
+   "pagina": 0,
+   "seccion": "Artículo 20, Zona ZE-2: Zona Exclusiva Resguardo Infraestructura Sanitaria",
+   "nota": null
+  },
+  {
+   "zona": "ZE-3",
+   "altura_m": 7.5,
+   "pisos": null,
+   "texto": "vivienda del cuidador 800 0,35 0,35 A 7,5 2",
+   "pagina": 0,
+   "seccion": "Artículo 21, Zona ZE-3: Zona Equipamiento Exclusivo Cementerio",
+   "nota": null
+  },
+  {
+   "zona": "ZAP",
+   "altura_m": 8,
+   "pisos": null,
+   "texto": "vivienda 1000 0,6 1,2 A 8 2",
+   "pagina": 0,
+   "seccion": "Artículo 22, Zona ZAP: Zona Actividades Productivas Inofensivas",
+   "nota": null
+  }
+ ]
+}

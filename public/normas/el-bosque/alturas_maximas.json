@@ -1,0 +1,73 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Texto refundido de la Enmienda de la Ordenanza del Plan Regulador de la Comuna de El Bosque 2025 (EPRC25), D.A. N° 126 de 09-01-2026, D.O. 27-01-2026",
+ "url": "https://www.diariooficial.interior.gob.cl/publicaciones/2026/01/27/44360/01/2755442.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "H",
+   "altura_m": 14.4,
+   "pisos": null,
+   "texto": "14,4 m. máximo de altura, medidos desde el nivel del terreno natural hasta el punto más alto de la techumbre.",
+   "pagina": 3,
+   "seccion": "Art. 2°, Zona H",
+   "nota": null
+  },
+  {
+   "zona": "R",
+   "altura_m": 14.4,
+   "pisos": null,
+   "texto": "14,4 m. máximo de altura, medidos desde el nivel de terreno natural hasta el punto más alto de la techumbre.",
+   "pagina": 3,
+   "seccion": "Art. 2°, Zona R",
+   "nota": null
+  },
+  {
+   "zona": "1",
+   "altura_m": 8.4,
+   "pisos": null,
+   "texto": "Para vivienda unifamiliar 8,4 m. máx.",
+   "pagina": 4,
+   "seccion": "Art. 2°, Zona 1-2-3 Residencial - Equipamiento - Talleres: Zona 1 (Sector 1, área residencial)",
+   "nota": null
+  },
+  {
+   "zona": "2",
+   "altura_m": 8.4,
+   "pisos": null,
+   "texto": "Para vivienda unifamiliar 8,4 m. máx.",
+   "pagina": 4,
+   "seccion": "Art. 2°, Zona 1-2-3 Residencial - Equipamiento - Talleres: Zona 2 (Sector 2, área residencial)",
+   "nota": null
+  },
+  {
+   "zona": "3AMIR",
+   "altura_m": 8.4,
+   "pisos": null,
+   "texto": "Para vivienda unifamiliar 8,4 m. máx.",
+   "pagina": 4,
+   "seccion": "Art. 2°, Zona 1-2-3 Residencial - Equipamiento - Talleres: Zona 3 (la capa: Sector 3, área mixta industrial residencial)",
+   "nota": null
+  },
+  {
+   "zona": "3AR",
+   "altura_m": 8.4,
+   "pisos": null,
+   "texto": "Para vivienda unifamiliar 8,4 m. máx.",
+   "pagina": 4,
+   "seccion": "Art. 2°, Zona 1-2-3 Residencial - Equipamiento - Talleres: Zona 3 (la capa: Sector 3, área residencial)",
+   "nota": null
+  },
+  {
+   "zona": "4AI",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación: 9 m. máximo",
+   "pagina": 5,
+   "seccion": "Art. 2°, Zona 4 (la capa: 4AI, área industrial)",
+   "nota": null
+  }
+ ]
+}

@@ -1,0 +1,792 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Temuco (Modificación Planes Reguladores Temuco y Labranza, junio de 2009), versión actualizada a noviembre de 2015 publicada por la Municipalidad",
+ "url": "https://www.temuco.cl/wp-content/uploads/2022/04/MPRO-2.-Ordenanza-Actualizada-Noviembre-2015.pdf",
+ "sha256": "2b578f7189e78dce972fb4d1137be373102ad1d15537ef05f6e7ba90fe56ad9a",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZH1",
+   "pagina": 22,
+   "seccion": "Art. 16, B 1 Condiciones de edificación zona ZH1",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 2,6",
+   "coef_constructibilidad": 2.6,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16,8 m excepto con *5",
+   "altura_m": 16.8,
+   "altura_incentivo_m": 30.8,
+   "incentivo_texto": "el proyecto cumple el Art. 16 *5 (altura adicional condicionada): enfrenta una vía de más de 13 m entre líneas oficiales (un piso de 3,5 m sobre 13 m, dos sobre 20 m, tres sobre 25 m y cuatro, 14 m, sobre 30 m), duplica el antejardín mínimo y ocupa menos del 50 % del predio: «ALTURA MÁXIMA DE EDIFICACIÓN 16,8 m excepto con *5 … Sobre 30 metros = cuatro pisos adicionales (14,0 metros)»",
+   "incentivo_pagina": 22,
+   "antejardin_m_texto": "ANTEJARDÍN Según artículo 4 de la presente Ordenanza.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasantes diferenciadas por orientación: 70° (OGUC) hacia el norte y el poniente y 60° hacia el sur y el oriente: la regla aplica una sola rasante; verifique las fachadas sur y oriente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZH2",
+   "pagina": 23,
+   "seccion": "Art. 16, B 2 Condiciones de edificación zona ZH2",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 150 m2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,5 0,65",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.65,
+   "coef_ocupacion_suelo_condicion": "la edificación es continua (*6) («COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,5 0,65»)",
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 1,5 2,0",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "la edificación es continua (*6) («COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 1,5 2,0»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 17,5 m",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "ANTEJARDÍN Según Artículo 4 de la presente Ordenanza.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado Pareado / Contínuo con *6",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasantes diferenciadas por orientación: 70° (OGUC) hacia el norte y el poniente y 60° hacia el sur y el oriente: la regla aplica una sola rasante; verifique las fachadas sur y oriente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continuidad condicionada (*6): frente a edificación aislada vecina, distanciarse al menos 4 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH3",
+   "pagina": 24,
+   "seccion": "Art. 16, B 3 Condiciones de edificación zona ZH3",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,5 0,6",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "la edificación es pareada («COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,5 0,6»)",
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 14 m",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDÍN Según Artículo 4 de la presente Ordenanza.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado Pareado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasantes diferenciadas por orientación: 70° (OGUC) hacia el norte y el poniente y 60° hacia el sur y el oriente: la regla aplica una sola rasante; verifique las fachadas sur y oriente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZHR1",
+   "pagina": 25,
+   "seccion": "Art. 16, B 4 Condiciones de edificación zona ZHR1",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL 0,975 0,975 OTROS USOS 1,0 0,91",
+   "coef_ocupacion_suelo": 0.975,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "otros usos en primer y segundo piso (0,91 en los demás pisos) («RESIDENCIAL 0,975 0,975 OTROS USOS 1,0 0,91»)",
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 7,0",
+   "coef_constructibilidad": 7.0,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN Libre según rasantes",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN Sin antejardín excepto calle Manuel Bulnes",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Altura máxima de continuidad: 21 m; sobre ella, solo rasantes (OGUC)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Calle Manuel Bulnes, entre Balmaceda y C. Solar: 5 m por el costado poniente."
+    }
+   ]
+  },
+  {
+   "zona": "ZHR2",
+   "pagina": 26,
+   "seccion": "Art. 16, B 5 Condiciones de edificación zona ZHR2",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,91",
+   "coef_ocupacion_suelo": 0.91,
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 6,0",
+   "coef_constructibilidad": 6.0,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 31,5 m",
+   "altura_m": 31.5,
+   "antejardin_m_texto": "ANTEJARDÍN Sin antejardín excepto Prieto Norte con 5 metros",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Altura máxima de continuidad: 10,5 m; profundidad máxima de la continuidad: 50 %."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Calle Prieto Norte: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZHR3",
+   "pagina": 27,
+   "seccion": "Art. 16, B 6 Condiciones de edificación zona ZHR3",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 2,6",
+   "coef_constructibilidad": 2.6,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16,8 m",
+   "altura_m": 16.8,
+   "antejardin_m_texto": "ANTEJARDÍN 5,0 m. frente vialidad estructurante y 3,0 m. frente a vías de servicio y locales",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasantes diferenciadas por orientación: 70° (OGUC) hacia el norte y el poniente y 60° hacia el sur y el oriente: la regla aplica una sola rasante; verifique las fachadas sur y oriente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZHR4",
+   "pagina": 28,
+   "seccion": "Art. 16, B 7 Condiciones de edificación zona ZHR4",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 500 m",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 3,0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 28 m (*)",
+   "altura_m": 28,
+   "antejardin_m_texto": "ANTEJARDÍN 5,0 m. frente vialidad estructurante y 3,0 m. frente a vías de servicio y locales",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasantes diferenciadas por orientación: 70° (OGUC) hacia el norte y el poniente y 60° hacia el sur y el oriente: la regla aplica una sola rasante; verifique las fachadas sur y oriente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZHR5",
+   "pagina": 29,
+   "seccion": "Art. 16, B 8 Condiciones de edificación zona ZHR5",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 2,5 excepto *5 con 3,5",
+   "coef_constructibilidad": 2.5,
+   "coef_constructibilidad_max": 3.5,
+   "coef_constructibilidad_condicion": "el proyecto cumple el Art. 16 *5 (altura adicional condicionada) («COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 2,5 excepto *5 con 3,5»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m excepto *5",
+   "altura_m": 21,
+   "altura_incentivo_m": 35,
+   "incentivo_texto": "el proyecto cumple el Art. 16 *5 (altura adicional condicionada): enfrenta una vía de más de 13 m entre líneas oficiales (un piso de 3,5 m sobre 13 m, dos sobre 20 m, tres sobre 25 m y cuatro, 14 m, sobre 30 m), duplica el antejardín mínimo y ocupa menos del 50 % del predio; en ZHR5, frente a las calles que indica el caso especial 3, 14 m adicionales con antejardín de 5 m: «ALTURA MÁXIMA DE EDIFICACIÓN 21 m excepto *5 … Sobre 30 metros = cuatro pisos adicionales (14,0 metros)»",
+   "incentivo_pagina": 29,
+   "antejardin_m_texto": "ANTEJARDÍN Según Artículo 4 de la presente Ordenanza.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Altura máxima de continuidad: 7 m; profundidad máxima de la continuidad: 50 %."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZHR6",
+   "pagina": 30,
+   "seccion": "Art. 16, B 9 Condiciones de edificación zona ZHR6",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 3,0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m",
+   "altura_m": 21,
+   "antejardin_m_texto": "ANTEJARDÍN Según Artículo 4 de la presente Ordenanza.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasantes diferenciadas por orientación: 70° hacia el norte y el oriente y 60° hacia el sur y el poniente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZHE1",
+   "pagina": 31,
+   "seccion": "Art. 16, B 10 Condiciones de edificación zona ZHE1",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 14 m",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDÍN Según Artículo 4 de la presente Ordenanza.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasantes diferenciadas por orientación: 70° (OGUC) hacia el norte y el poniente y 60° hacia el sur y el oriente: la regla aplica una sola rasante; verifique las fachadas sur y oriente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZHE2",
+   "pagina": 32,
+   "seccion": "Art. 16, B 11 Condiciones de edificación zona ZHE2",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 14 m",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDÍN Según Artículo 4 de la presente Ordenanza.",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasantes diferenciadas por orientación: 70° (OGUC) hacia el norte y el poniente y 60° hacia el sur y el oriente: la regla aplica una sola rasante; verifique las fachadas sur y oriente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZHE3",
+   "pagina": 33,
+   "seccion": "Art. 16, B 12 Condiciones de edificación zona ZHE3",
+   "superficie_predial_minima_m2_texto": "PREDIO MÍNIMO (m2) 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10,5 m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "ANTEJARDÍN MINIMO 5,0 m. frente vialidad estructurante y 3,0 m. frente a vías de servicio y locales",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZHE4",
+   "pagina": 34,
+   "seccion": "Art. 16, B 13 Condiciones de edificación zona ZHE4",
+   "superficie_predial_minima_m2_texto": "PREDIO MÍNIMO (m2) 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10,5 m.",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "ANTEJARDÍN MINIMO 5,0 m. frente vialidad estructurante y 3,0 m. frente a vías de servicio y locales",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Predios colindantes con el Monumento Natural Cerro Ñielol: distanciamiento mínimo de 50 m al deslinde común."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZHE5",
+   "pagina": 35,
+   "seccion": "Art. 16, B 14 Condiciones de edificación zona ZHE5",
+   "superficie_predial_minima_m2_texto": "PREDIO MÍNIMO (m2) 2.000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10,5 m.",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "ANTEJARDÍN MINIMO 5,0 m. frente vialidad estructurante y 3,0 m. frente a vías de servicio y locales",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Predios colindantes con el Monumento Natural Cerro Ñielol: distanciamiento mínimo de 50 m al deslinde común."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZM1",
+   "pagina": 36,
+   "seccion": "Art. 16, B 15 Condiciones de edificación zona ZM1",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL 0,26 OTROS USOS 0,6",
+   "coef_ocupacion_suelo": 0.26,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino no es residencial (otros usos) («RESIDENCIAL 0,26 OTROS USOS 0,6»)",
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 3,25 y 4,55 con *5 (aumento 30%)",
+   "coef_constructibilidad": 3.25,
+   "coef_constructibilidad_max": 4.55,
+   "coef_constructibilidad_condicion": "el proyecto cumple el Art. 16 *5 (altura adicional condicionada) («COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 3,25 y 4,55 con *5 (aumento 30%)»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 25,2 m exepto con *5 (aumento 20%)",
+   "altura_m": 25.2,
+   "altura_incentivo_m": 30.24,
+   "incentivo_texto": "el proyecto cumple el Art. 16 *5: aumento de 20 % sobre 25,2 m: «ALTURA MÁXIMA DE EDIFICACIÓN 25,2 m exepto con *5 (aumento 20%)»",
+   "incentivo_pagina": 36,
+   "antejardin_m_texto": "ANTEJARDÍN 5,0 m. frente vialidad estructurante y 3,0 m. frente a vías de servicio y locales",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasantes diferenciadas por orientación: 70° (OGUC) hacia el norte y el poniente y 60° hacia el sur y el oriente: la regla aplica una sola rasante; verifique las fachadas sur y oriente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZM2",
+   "pagina": 37,
+   "seccion": "Art. 16, B 16 Condiciones de edificación zona ZM2",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL 0,52 OTROS USOS 0,6",
+   "coef_ocupacion_suelo": 0.52,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino no es residencial (otros usos) («RESIDENCIAL 0,52 OTROS USOS 0,6»)",
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 2,6 3,9 con *5 (aumento 30%)",
+   "coef_constructibilidad": 2.6,
+   "coef_constructibilidad_max": 3.9,
+   "coef_constructibilidad_condicion": "el proyecto cumple el Art. 16 *5 (altura adicional condicionada) («COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 2,6 3,9 con *5 (aumento 30%)»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m exepto con *5 (aumento 20%)",
+   "altura_m": 21,
+   "altura_incentivo_m": 25.2,
+   "incentivo_texto": "el proyecto cumple el Art. 16 *5: aumento de 20 % sobre 21 m: «ALTURA MÁXIMA DE EDIFICACIÓN 21 m exepto con *5 (aumento 20%)»",
+   "incentivo_pagina": 37,
+   "antejardin_m_texto": "ANTEJARDÍN 5,0 m. frente vialidad estructurante y 3,0 m. frente a vías de servicio y locales",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado y pareado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasantes diferenciadas por orientación: 70° (OGUC) hacia el norte y el poniente y 60° hacia el sur y el oriente: la regla aplica una sola rasante; verifique las fachadas sur y oriente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZM3",
+   "pagina": 38,
+   "seccion": "Art. 16, B 17 Condiciones de edificación zona ZM3",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 3,0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m",
+   "altura_m": 21,
+   "antejardin_m_texto": "El resto sin antejardín",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Altura máxima de continuidad: 7 m; profundidad máxima de la continuidad: 40 % del deslinde común."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Zona Mixta P. Neruda / León Gallo: antejardín de 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZM4",
+   "pagina": 39,
+   "seccion": "Art. 16, B 18 Condiciones de edificación zona ZM4",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL 0,26 OTROS USOS 0,7",
+   "coef_ocupacion_suelo": 0.26,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino no es residencial (otros usos) («RESIDENCIAL 0,26 OTROS USOS 0,7»)",
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 3,0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 28 m",
+   "altura_m": 28,
+   "antejardin_m_texto": "ANTEJARDÍN 5,0 m. frente vialidad estructurante y 3,0 m. frente a vías de servicio y locales",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Altura máxima de pareo y continuidad: 7 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZM5",
+   "pagina": 40,
+   "seccion": "Art. 16, B 19 Condiciones de edificación zona ZM5",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL 0,26 OTROS USOS 0,4",
+   "coef_ocupacion_suelo": 0.26,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el destino no es residencial (otros usos) («RESIDENCIAL 0,26 OTROS USOS 0,4»)",
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 2,5 excepto *5 con 3,5",
+   "coef_constructibilidad": 2.5,
+   "coef_constructibilidad_max": 3.5,
+   "coef_constructibilidad_condicion": "el proyecto cumple el Art. 16 *5 (altura adicional condicionada) («COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 2,5 excepto *5 con 3,5»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m excepto *5",
+   "altura_m": 21,
+   "altura_incentivo_m": 35,
+   "incentivo_texto": "el proyecto cumple el Art. 16 *5 (altura adicional condicionada): enfrenta una vía de más de 13 m entre líneas oficiales (un piso de 3,5 m sobre 13 m, dos sobre 20 m, tres sobre 25 m y cuatro, 14 m, sobre 30 m), duplica el antejardín mínimo y ocupa menos del 50 % del predio: «ALTURA MÁXIMA DE EDIFICACIÓN 21 m excepto *5 … Sobre 30 metros = cuatro pisos adicionales (14,0 metros)»",
+   "incentivo_pagina": 40,
+   "antejardin_m_texto": "ANTEJARDÍN 5,0 m. frente vialidad estructurante y 3,0 m. frente a vías de servicio y locales",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasantes diferenciadas por orientación: 70° (OGUC) hacia el norte y el poniente y 60° hacia el sur y el oriente: la regla aplica una sola rasante; verifique las fachadas sur y oriente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZM6",
+   "pagina": 41,
+   "seccion": "Art. 16, B 20 Condiciones de edificación zona ZM6",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,52",
+   "coef_ocupacion_suelo": 0.52,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10,5 metros",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "ANTEJARDÍN 5,0 m. frente vialidad estructurante y 3,0 m. frente a vías de servicio y locales",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZE1",
+   "pagina": 42,
+   "seccion": "Art. 16, B 21 Condiciones de edificación zona ZE1",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL 0,65 OTROS USOS 1.0",
+   "coef_ocupacion_suelo": 0.65,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "el destino no es residencial (otros usos) («RESIDENCIAL 0,65 OTROS USOS 1.0»)",
+   "coef_constructibilidad_texto": "RESIDENCIAL 2,0 OTROS USOS 3,0",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "el destino no es residencial (otros usos) («RESIDENCIAL 2,0 OTROS USOS 3,0»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 11,5 m (altura edificio Marsano)",
+   "altura_m": 11.5,
+   "antejardin_m_texto": "ANTEJARDÍN Sin antejardín",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Continuo"
+  },
+  {
+   "zona": "ZE2",
+   "pagina": 43,
+   "seccion": "Art. 16, B 22 Condiciones de edificación zona ZE2",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 2000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL 0,2 OTROS USOS 0,8",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino no es residencial (otros usos) («RESIDENCIAL 0,2 OTROS USOS 0,8»)",
+   "coef_constructibilidad_texto": "RESIDENCIAL 2,0 OTROS USOS 3,0",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "el destino no es residencial (otros usos) («RESIDENCIAL 2,0 OTROS USOS 3,0»)",
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACIÓN 21 m",
+   "altura_m": 21,
+   "antejardin_m_texto": "ANTEJARDÍN 5 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Altura máxima de continuidad: 10,5 m; profundidad máxima de la continuidad: 50 %."
+    }
+   ]
+  },
+  {
+   "zona": "ZE3",
+   "pagina": 44,
+   "seccion": "Art. 16, B 23 Condiciones de edificación zona ZE3",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "RESIDENCIAL 0,5 OTROS USOS 0,7",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino no es residencial (otros usos) («RESIDENCIAL 0,5 OTROS USOS 0,7»)",
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 3,0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m excepto *5",
+   "altura_m": 21,
+   "altura_incentivo_m": 35,
+   "incentivo_texto": "el proyecto cumple el Art. 16 *5 (altura adicional condicionada): enfrenta una vía de más de 13 m entre líneas oficiales (un piso de 3,5 m sobre 13 m, dos sobre 20 m, tres sobre 25 m y cuatro, 14 m, sobre 30 m), duplica el antejardín mínimo y ocupa menos del 50 % del predio: «ALTURA MÁXIMA DE EDIFICACIÓN 21 m excepto *5 … Sobre 30 metros = cuatro pisos adicionales (14,0 metros)»",
+   "incentivo_pagina": 44,
+   "antejardin_m_texto": "ANTEJARDÍN 10,0 metros excepto calle Montevideo y Candelaria con 3,0 metros",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "Rasantes diferenciadas por orientación: 70° (OGUC) hacia el norte y el poniente y 60° hacia el sur y el oriente: la regla aplica una sola rasante; verifique las fachadas sur y oriente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Calles Montevideo y Candelaria: 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZE4",
+   "pagina": 45,
+   "seccion": "Art. 16, B 24 Condiciones de edificación zona ZE4",
+   "superficie_predial_minima_m2_texto": "MÍNIMA 5.000 m2",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 3,0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m (*)",
+   "altura_m": 21,
+   "antejardin_m_texto": "ANTEJARDÍN 5,0 metros según Artículo 4 de la presente Ordenanza.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado"
+  },
+  {
+   "zona": "ZE5",
+   "pagina": 46,
+   "seccion": "Art. 16, B 25 Condiciones de edificación zona ZE5",
+   "superficie_predial_minima_m2_texto": "PREDIO MÍNIMO 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE MÁXIMO DE OCUPACIÓN DE SUELO 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFICIENTE MÁXIMO DE CONSTRUCTIBILIDAD 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 7,0 m",
+   "altura_m": 7,
+   "antejardin_m_texto": "ANTEJARDÍN Según Artículo 4 de la presente Ordenanza.",
+   "antejardin_m": 3,
+   "rasante_grados": 70,
+   "rasante_texto": "RASANTES 70º según O.G.U.C",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4: antejardín mínimo de 5 m frente a vías expresas, troncales y colectoras y de 3 m frente a vías de servicio y locales; verifique la categoría de la vía en el plano."
+    }
+   ]
+  },
+  {
+   "zona": "ZE6",
+   "pagina": 48,
+   "seccion": "Art. 16, B 26 Condiciones de edificación zona ZE6",
+   "superficie_predial_minima_m2_texto": "PREDIO MÍNIMO (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 9,60m",
+   "altura_m": 9.6,
+   "antejardin_m_texto": "ANTEJARDÍN 10,00 m. según Artículo 4 de la presente Ordenanza",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado"
+  },
+  {
+   "zona": "ZE7",
+   "pagina": 49,
+   "seccion": "Art. 16, B 27 Condiciones de edificación zona ZE7",
+   "superficie_predial_minima_m2_texto": "PREDIO MÍNIMO (m2) 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 9,60m",
+   "altura_m": 9.6,
+   "antejardin_m_texto": "ANTEJARDÍN 10,00 m. según Articulo 4 de la presente Ordenanza",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado"
+  }
+ ]
+}

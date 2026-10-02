@@ -1,0 +1,2001 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local de la Actualización del Plan Regulador Comunal de Lo Barnechea (D.A. N° 0970 de 09-10-2025, D.O. 30-10-2025), versión de texto que la Municipalidad publica junto a la versión firmada; rige el Área Urbana Sector Valle de Lo Barnechea (el Sector Centro Cordillera se rige por la Modificación N° 9 del PRC)",
+ "url": "https://lobarnechea.cl/wp-content/uploads/2025/10/ORDENANZA-LOCAL_SIN-FIRMA.pdf",
+ "sha256": "35d5e5e90de394fbff81ea0b91783ec65e87098bf20953a48632bcc5750c0e6e",
+ "documentos_adicionales": {
+  "mod9": {
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "sha256": "1b827323bfa26f1bd66b3bf25df6ef840d8282a85746511b1d94113ab66e45fc"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZHE-2-DC1",
+   "pagina": 20,
+   "seccion": "Art. 2.1.1, (i) ZHE-2-DC1,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 2500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_ocupacion_suelo_max": 0.24,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,2 0,12 0,24»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "coef_constructibilidad_max": 0.48,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 0,4 0,24 0,48»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 2 pisos.",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZHE-2-DC2",
+   "pagina": 23,
+   "seccion": "Art. 2.1.1, (ii) ZHE-2-DC2,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 1500 m2",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_ocupacion_suelo_max": 0.24,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,2 0,12 0,24»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "coef_constructibilidad_max": 0.48,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 0,4 0,24 0,48»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZHE-2-DC3",
+   "pagina": 26,
+   "seccion": "Art. 2.1.1, (iii) ZHE-2-DC3,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 5000 m2",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_ocupacion_suelo_max": 0.24,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,2 0,12 0,24»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,1",
+   "coef_constructibilidad": 0.1,
+   "coef_constructibilidad_max": 0.24,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 0,2 0,12 0,24»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZHE-2.1",
+   "pagina": 28,
+   "seccion": "Art. 2.1.1, (i) ZHE-2.1,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 630 m2",
+   "superficie_predial_minima_m2": 630,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,40»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,4",
+   "coef_constructibilidad": 0.4,
+   "coef_constructibilidad_max": 0.45,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 0,45»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZHE-2.2",
+   "pagina": 31,
+   "seccion": "Art. 2.1.1, (ii) ZHE-2.2,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 350 m2",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,9",
+   "coef_constructibilidad": 0.9,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZHE-3",
+   "pagina": 33,
+   "seccion": "Art. 2.1.1, (iii) ZHE-3,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 1400 m2",
+   "superficie_predial_minima_m2": 1400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,15",
+   "coef_ocupacion_suelo": 0.15,
+   "coef_ocupacion_suelo_max": 0.2,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,2»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "coef_constructibilidad_max": 0.4,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 0,4»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado- Pareado - Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZHE-4a",
+   "pagina": 36,
+   "seccion": "Art. 2.1.1, para la subzona ZHE-4a",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 900 m2",
+   "superficie_predial_minima_m2": 900,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,6 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,4",
+   "coef_constructibilidad": 0.4,
+   "coef_constructibilidad_max": 1.8,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 1,2 1,8»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 14 m y 4 pisos 14 m y 4 pisos»",
+   "incentivo_pagina": 37,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZHE-4b",
+   "pagina": 37,
+   "seccion": "Art. 2.1.1, para la subzona ZHE-4b",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 900 m2",
+   "superficie_predial_minima_m2": 900,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZHE-6",
+   "pagina": 38,
+   "seccion": "Art. 2.1.1, (v) ZHE-6,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 1800 m2",
+   "superficie_predial_minima_m2": 1800,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.55,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,55 0,5 0,55»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,0",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 2.3,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 2,3 2,0 2,3»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "altura_m": 14.0,
+   "altura_incentivo_m": 21.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 21 m y 6 pisos 17,5 m y 5 pisos 21 m y 6 pisos»",
+   "incentivo_pagina": 40,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZHP-3.1",
+   "pagina": 41,
+   "seccion": "Art. 2.1.1, (i) ZHP-3.1,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 700 m2",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,6",
+   "coef_constructibilidad": 0.6,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZHP-3.2",
+   "pagina": 43,
+   "seccion": "Art. 2.1.1, (ii) ZHP-3.2,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 400 m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,25",
+   "coef_constructibilidad": 1.25,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 3 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 m y 2 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZHP-4.1",
+   "pagina": 45,
+   "seccion": "Art. 2.1.1, (iii) ZHP-4.1,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 350 m2",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo Residencial 0,35 Equipamiento 0,6",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,35; equipamiento: 0,6) («Coeficiente de ocupación de suelo Residencial 0,35 Equipamiento 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad Residencial 0,42 Equipamiento 2,5",
+   "coef_constructibilidad": 0.42,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 0,42; equipamiento: 2,5) («Coeficiente de constructibilidad Residencial 0,42 Equipamiento 2,5»)",
+   "altura_m_texto": "Altura máxima de edificación Residencial 10,5 m y 2 pisos Equipamiento 14 m y 4 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "según el destino (residencial: 10,5; equipamiento: 14,0): «Altura máxima de edificación Residencial 10,5 m y 2 pisos Equipamiento 14 m y 4 pisos»",
+   "incentivo_pagina": 46,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasantes 70°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado - Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: Residencial 3 m con/sin vano en 1° y 2 pisos Equipamiento y otros usos OGUC."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 2 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZHP-4.2",
+   "pagina": 48,
+   "seccion": "Art. 2.1.1, (iv) ZHP-4.2,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 400 m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,5 0,5 0,5 0,5 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,4",
+   "coef_constructibilidad": 0.4,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 2,0 1,6 1,6 1,6 2,0»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 14 m y 4 pisos 14 m y 4 pisos 14 m y 4 pisos 14 m y 4 pisos 14 m y 4 pisos»",
+   "incentivo_pagina": 50,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 55,
+   "rasante_texto": "Rasantes 55°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZHP-4.3",
+   "pagina": 51,
+   "seccion": "Art. 2.1.1, (v) ZHP-4.3,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,9",
+   "coef_constructibilidad": 0.9,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de Constructibilidad 1,5»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 14 m y 4 pisos»",
+   "incentivo_pagina": 52,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZHP-6.1",
+   "pagina": 53,
+   "seccion": "Art. 2.1.1, (vi) ZHP-6.1:",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 350 m2",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo Residencial 0,35 Equipamiento 0,6",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (residencial: 0,35; equipamiento: 0,6) («Coeficiente de ocupación de suelo Residencial 0,35 Equipamiento 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad Residencial 0,42 Equipamiento 2,5",
+   "coef_constructibilidad": 0.42,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "según el destino (residencial: 0,42; equipamiento: 2,5) («Coeficiente de constructibilidad Residencial 0,42 Equipamiento 2,5»)",
+   "altura_m_texto": "Altura máxima de edificación Residencial 10,5 m y 2 pisos Equipamiento 14 m y 4 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 21.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria); sin incentivos, la cifra depende del destino (residencial: 10,5; equipamiento: 14,0): «Altura máxima de edificación 21 m y 6 pisos»",
+   "incentivo_pagina": 55,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasantes 70°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado - Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: Residencial 3 m con/sin vano en 1° y 2 pisos Equipamiento OGUC."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 m y 2 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZHP-6.2",
+   "pagina": 56,
+   "seccion": "Art. 2.1.1, (vii) ZHP-6.2",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 250 m2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,4 0,4 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 2,4 2,4 2,4»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "altura_m": 14.0,
+   "altura_incentivo_m": 21.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 21 m y 6 pisos 17,5 m y 5 pisos 21 m y 6 pisos»",
+   "incentivo_pagina": 58,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasantes 60°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZHP-8",
+   "pagina": 59,
+   "seccion": "Art. 2.1.1, (viii) ZHP-8:",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 600 m2",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,5 0,5 0,5 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,6",
+   "coef_constructibilidad": 1.6,
+   "coef_constructibilidad_max": 2.6,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 2,6 2,4 2,4 2,6»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "altura_m": 14.0,
+   "altura_incentivo_m": 28.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 28 m y 8 pisos 21 m y 6 pisos 21 m y 6 pisos 28 m y 8 pisos»",
+   "incentivo_pagina": 61,
+   "antejardin_m_texto": "Antejardín 7 m",
+   "antejardin_m": 7.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 10 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZHP-10",
+   "pagina": 62,
+   "seccion": "Art. 2.1.1, (ix) ZHP-10:",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 600 m2",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,5 0,5 0,5 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,6",
+   "coef_constructibilidad": 1.6,
+   "coef_constructibilidad_max": 2.6,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 2,6 2,4 2,4 2,6»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "altura_m": 14.0,
+   "altura_incentivo_m": 35.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 35 m y 10 pisos 21 m y 6 pisos 21 m y 6 pisos 35 m y 10 pisos»",
+   "incentivo_pagina": 64,
+   "antejardin_m_texto": "Antejardín 7 m",
+   "antejardin_m": 7.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 10 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-2",
+   "pagina": 65,
+   "seccion": "Art. 2.1.1, (i) ZM-2",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 350 m2",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,9",
+   "coef_constructibilidad": 0.9,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-4.1",
+   "pagina": 67,
+   "seccion": "Art. 2.1.1, (ii) ZM-4.1,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 900 m2",
+   "superficie_predial_minima_m2": 900,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,5 0,5 0,5 0,5 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,4",
+   "coef_constructibilidad": 1.4,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 2,0 1,7 1,7 1,7 2,0»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 14 m y 4 pisos 14 m y 4 pisos 14 m y 4 pisos 14 m y 4 pisos 14 m y 4 pisos»",
+   "incentivo_pagina": 69,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 55,
+   "rasante_texto": "Rasantes 55°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-4.2",
+   "pagina": 70,
+   "seccion": "Art. 2.1.1, (iii) ZM-4.2:",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 900 m2",
+   "superficie_predial_minima_m2": 900,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,5 0,5 0,5 0,5 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 2,0 1,7 1,7 1,7 2,0»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 14 m y 4 pisos 10,5 m y 3 pisos 10,5 m y 3 pisos 10,5 m y 3 pisos 14 m y 4 pisos»",
+   "incentivo_pagina": 72,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 55,
+   "rasante_texto": "Rasantes 55°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-6a",
+   "pagina": 73,
+   "seccion": "Art. 2.1.1, para la subzona ZM-6a",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 400 m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,0",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 3,0 2,5 2,5 2,5 3,0»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "altura_m": 14.0,
+   "altura_incentivo_m": 21.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 21 m y 6 pisos 14 m y 4 pisos 14 m y 4 pisos 14 m y 4 pisos 21 m y 6 pisos»",
+   "incentivo_pagina": 75,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasantes 60°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 8 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-6b",
+   "pagina": 76,
+   "seccion": "Art. 2.1.1, para la subzona ZM-6b",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 400 m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,0",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 2,5»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "altura_m": 14.0,
+   "altura_incentivo_m": 21.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 21 m y 6 pisos»",
+   "incentivo_pagina": 77,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasantes 60°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 8 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-6c",
+   "pagina": 78,
+   "seccion": "Art. 2.1.1, para la subzona ZM-6c",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 900 m2",
+   "superficie_predial_minima_m2": 900,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,5 0,5 0,5 0,5 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,4",
+   "coef_constructibilidad": 1.4,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 3,0 2,5 2,5 2,5 3,0»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 21.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 21 m y 6 pisos 21 m y 6 pisos 21 m y 6 pisos 21 m y 6 pisos 21 m y 6 pisos»",
+   "incentivo_pagina": 80,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 55,
+   "rasante_texto": "Rasantes 55°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-8",
+   "pagina": 81,
+   "seccion": "Art. 2.1.1, (v) ZM-8:",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 600 m2",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,6 0,6 0,6 0,6 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,6",
+   "coef_constructibilidad": 1.6,
+   "coef_constructibilidad_max": 2.6,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 2,6 2,25 2,25 2,25 2,6»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "altura_m": 14.0,
+   "altura_incentivo_m": 28.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 28 m y 8 pisos 21 m y 6 pisos 21 m y 6 pisos 21 m y 6 pisos 28 m y 8 pisos»",
+   "incentivo_pagina": 83,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 8 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZEP-8",
+   "pagina": 84,
+   "seccion": "Art. 2.1.1, (i) ZEP-8:",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 600 m2",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,6 0,6 0,6 0,6 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,6",
+   "coef_constructibilidad": 1.6,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 3,0 2,25 2,25 2,35 3,0»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "altura_m": 14.0,
+   "altura_incentivo_m": 28.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 28 m y 8 pisos 21 m y 6 pisos 21 m y 6 pisos 21 m y 6 pisos 28 m y 8 pisos»",
+   "incentivo_pagina": 86,
+   "antejardin_m_texto": "Antejardín 7 m",
+   "antejardin_m": 7.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 8 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZEP-12",
+   "pagina": 87,
+   "seccion": "Art. 2.1.1, (ii) ZEP-12:",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 1300 m2",
+   "superficie_predial_minima_m2": 1300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de ocupación de suelo 0,5 0,6 0,6 0,6 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 2.8,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria) («Coeficiente de constructibilidad 2,8 2,25 2,25 2,25 2,8»)",
+   "altura_m_texto": "Altura máxima de edificación 21 m y 6 pisos",
+   "altura_m": 21.0,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 42 m y 12 pisos 28 m y 8 pisos 28 m y 8 pisos 28 m y 8 pisos 42 m y 12 pisos»",
+   "incentivo_pagina": 89,
+   "antejardin_m_texto": "Antejardín 7 m",
+   "antejardin_m": 7.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 8 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZEE-3a",
+   "pagina": 92,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3a",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 1000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZEE-3b",
+   "pagina": 94,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3b",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 1000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (equipamiento: 0,6; residencial: 0,1) («Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,1»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad Equipamiento 1,2 Residencial 0,2",
+   "coef_constructibilidad": 0.2,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "según el destino (equipamiento: 1,2; residencial: 0,2) («Coeficiente de constructibilidad Equipamiento 1,2 Residencial 0,2»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZEE-3c",
+   "pagina": 96,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3c",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 630 m2",
+   "superficie_predial_minima_m2": 630,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (equipamiento: 0,6; residencial: 0,35) («Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,35»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad Equipamiento 1,2 Residencial 0,4",
+   "coef_constructibilidad": 0.4,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "según el destino (equipamiento: 1,2; residencial: 0,4) («Coeficiente de constructibilidad Equipamiento 1,2 Residencial 0,4»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZEE-3d",
+   "pagina": 99,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3d",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 350 m2",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (equipamiento: 0,6; residencial: 0,4) («Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad Equipamiento 1,2 Residencial 0,9",
+   "coef_constructibilidad": 0.9,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "según el destino (equipamiento: 1,2; residencial: 0,9) («Coeficiente de constructibilidad Equipamiento 1,2 Residencial 0,9»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZEE-3e",
+   "pagina": 101,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3e",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 400 m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (equipamiento: 0,6; residencial: 0,5) («Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad Equipamiento 1,2 Residencial 1,25",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.25,
+   "coef_constructibilidad_condicion": "según el destino (equipamiento: 1,2; residencial: 1,25) («Coeficiente de constructibilidad Equipamiento 1,2 Residencial 1,25»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZEE-3f",
+   "pagina": 103,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3f",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 900 m2",
+   "superficie_predial_minima_m2": 900,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (equipamiento: 0,6; residencial: 0,35) («Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,35»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad Equipamiento 1,2 Residencial 0,4",
+   "coef_constructibilidad": 0.4,
+   "coef_constructibilidad_max": 1.8,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria); sin incentivos, la cifra depende del destino (equipamiento: 1,2; residencial: 0,4) («Coeficiente de constructibilidad 1,2 1,8»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 14 m y 4 pisos 14 m y 4 pisos»",
+   "incentivo_pagina": 104,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZEE-3g",
+   "pagina": 105,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3g",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (equipamiento: 0,6; residencial: 0,35) («Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,35»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad Equipamiento 1,2 Residencial 0,9",
+   "coef_constructibilidad": 0.9,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria); sin incentivos, la cifra depende del destino (equipamiento: 1,2; residencial: 0,9) («Coeficiente de Constructibilidad 1,5»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 14 m y 4 pisos»",
+   "incentivo_pagina": 106,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZEE-3h",
+   "pagina": 107,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3h",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 900 m2",
+   "superficie_predial_minima_m2": 900,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (equipamiento: 0,6; residencial: 0,35) («Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,35»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad Equipamiento 1,2 Residencial 1,4",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria); sin incentivos, la cifra depende del destino (equipamiento: 1,2; residencial: 1,4) («Coeficiente de constructibilidad 2,0 1,7 1,7 1,7 2,0»)",
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria): «Altura máxima de edificación 14 m y 4 pisos 14 m y 4 pisos 14 m y 4 pisos 14 m y 4 pisos 14 m y 4 pisos»",
+   "incentivo_pagina": 109,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 55,
+   "rasante_texto": "Rasantes Equipamiento OGUC Residencial 55°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "La rasante propia rige solo para el uso residencial; el equipamiento aplica la de la OGUC."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZEE-3i",
+   "pagina": 110,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3i",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 400 m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (equipamiento: 0,6; residencial: 0,5) («Coeficiente de ocupación de suelo Equipamiento 0,6 Residencial 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad Equipamiento 1,2 Residencial 2,0",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria); sin incentivos, la cifra depende del destino (equipamiento: 1,2; residencial: 2,0) («Coeficiente de constructibilidad 3,0 2,5 2,5 2,5 3,0»)",
+   "altura_m_texto": "Altura máxima de edificación Equipamiento 10,5 m y 3 pisos Residencial 14 m y 4 pisos",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 21.0,
+   "incentivo_texto": "el proyecto cumple las condiciones de los incentivos normativos del Art. 1.5.1 (vivienda de interés público, espacios abiertos al uso público, cesiones de espacio público, equipamiento en primer piso, soterramiento de cableado u otros que el cuadro de la zona indique, o su sumatoria); sin incentivos, la cifra depende del destino (equipamiento: 10,5; residencial: 14,0): «Altura máxima de edificación 21 m y 6 pisos 14 m y 4 pisos 14 m y 4 pisos 14 m y 4 pisos 21 m y 6 pisos»",
+   "incentivo_pagina": 112,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasantes Equipamiento OGUC Residencial 60°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "La rasante propia rige solo para el uso residencial; el equipamiento aplica la de la OGUC."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: Equipamiento 5 m Residencial 8 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZEE-4",
+   "pagina": 113,
+   "seccion": "Art. 2.1.1, (iii) ZEE-4,",
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,2",
+   "coef_constructibilidad": 2.2,
+   "altura_m_texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZEE-6",
+   "pagina": 115,
+   "seccion": "Art. 2.1.1, (iv) ZEE-6,",
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,2",
+   "coef_constructibilidad": 2.2,
+   "altura_m_texto": "Altura máxima de edificación 21 m y 6 pisos",
+   "altura_m": 21.0,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado – Pareado – Continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m y 3 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "AVI3",
+   "pagina": 118,
+   "seccion": "Art. 2.1.1, - AVI3, Áreas Verdes Complementarias",
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZERH",
+   "pagina": 120,
+   "seccion": "Art. 2.1.1, (i) ZERH,",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 5000 m2",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,02",
+   "coef_ocupacion_suelo": 0.02,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,02",
+   "coef_constructibilidad": 0.02,
+   "altura_m_texto": "Altura máxima de edificación 3,5 m y 1 piso",
+   "altura_m": 3.5,
+   "antejardin_m_texto": "Antejardín 10 m",
+   "antejardin_m": 10.0,
+   "pisos": 1,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZIE-2",
+   "pagina": 90,
+   "seccion": "Art. 2.1.1, (i) ZIE-2:",
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistemas de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "PA1",
+   "pagina": 21,
+   "seccion": "Art. 55°, Zona PA1 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 600 m²",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,45",
+   "coef_ocupacion_suelo": 0.45,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima 2 pisos y 7,5 mts",
+   "altura_m": 7.5,
+   "antejardin_m_texto": "Antejardín 5 mts",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "PA2",
+   "pagina": 22,
+   "seccion": "Art. 55°, Zona PA2 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 1700 m²",
+   "superficie_predial_minima_m2": 1700,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,45",
+   "coef_ocupacion_suelo": 0.45,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima 4 pisos y 14mts",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín 5 mts",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "PB1",
+   "pagina": 23,
+   "seccion": "Art. 55°, Zona PB1 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 600 m²",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,45",
+   "coef_ocupacion_suelo": 0.45,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "Altura máxima 3 pisos y 10,5 mts",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 mts",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "PB2",
+   "pagina": 24,
+   "seccion": "Art. 55°, Zona PB2 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 600 m²",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,45",
+   "coef_ocupacion_suelo": 0.45,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "se destina a uso público el 40% del área no construida en primer piso (patios, plazas, corredores y pasos peatonales conectados al espacio público, ejecutados por el propietario con proyecto aprobado por la DOM) («aumentar la constructibilidad a 2,40»)",
+   "altura_m_texto": "Altura máxima 3 pisos y 10,50 mts",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "se destina a uso público el 40% del área no construida en primer piso (patios, plazas, corredores y pasos peatonales conectados al espacio público, ejecutados por el propietario con proyecto aprobado por la DOM): «la altura máxima a 14,00 mts. y 4 pisos»",
+   "incentivo_pagina": 25,
+   "antejardin_m_texto": "Antejardín 5 mts",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "PB3",
+   "pagina": 25,
+   "seccion": "Art. 55°, Zona PB3 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 2.000 m²",
+   "superficie_predial_minima_m2": 2000,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima 4 pisos y 14mts",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín 5 mts",
+   "antejardin_m": 5.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro de la zona publicado en el Diario Oficial no fija coeficiente de ocupación de suelo."
+    }
+   ]
+  },
+  {
+   "zona": "PC1",
+   "pagina": 27,
+   "seccion": "Art. 55°, Zona PC1 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 4000 m²",
+   "superficie_predial_minima_m2": 4000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,1",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "Altura máxima 2 pisos y 10,5 mts",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 mts",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 10 mts. En esta zona no se permiten adosamientos."
+    }
+   ]
+  },
+  {
+   "zona": "QA1",
+   "pagina": 28,
+   "seccion": "Art. 55°, Zona QA1 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 700 m²",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,60",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima 4 pisos y 14 mts",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín 2 mts",
+   "antejardin_m": 2.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "QA2",
+   "pagina": 28,
+   "seccion": "Art. 55°, Zona QA2 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 700 m²",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,60",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima 6 pisos y 21 mts",
+   "altura_m": 21.0,
+   "antejardin_m_texto": "Antejardín 4 mts",
+   "antejardin_m": 4.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "QA3",
+   "pagina": 29,
+   "seccion": "Art. 55°, Zona QA3 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 700 m²",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,60",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima 6 pisos y 21 mts",
+   "altura_m": 21.0,
+   "antejardin_m_texto": "Antejardín 4 mts",
+   "antejardin_m": 4.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "QB1",
+   "pagina": 30,
+   "seccion": "Art. 55°, Zona QB1 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 600 m²",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima 7 pisos y 24 mts",
+   "altura_m": 24.0,
+   "antejardin_m_texto": "Antejardín 4 mts",
+   "antejardin_m": 4.0,
+   "pisos": 7,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "QC1",
+   "pagina": 31,
+   "seccion": "Art. 55°, Zona QC1 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 4000 m²",
+   "superficie_predial_minima_m2": 4000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,1",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "Altura máxima 2 pisos y 10,50 mts",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 mts",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 10 mts. En esta zona no se permiten adosamientos."
+    }
+   ]
+  },
+  {
+   "zona": "RA1",
+   "pagina": 32,
+   "seccion": "Art. 55°, Zona RA1 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 1700 m²",
+   "superficie_predial_minima_m2": 1700,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,4",
+   "coef_constructibilidad": 1.4,
+   "altura_m_texto": "Altura máxima 4 pisos y 14 mts",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín 3 mts",
+   "antejardin_m": 3.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "RA2",
+   "pagina": 33,
+   "seccion": "Art. 55°, Zona RA2 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 1500 m²",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima 6 pisos y 21 mts",
+   "altura_m": 21.0,
+   "antejardin_m_texto": "Antejardín 3 mts",
+   "antejardin_m": 3.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "SA1",
+   "pagina": 34,
+   "seccion": "Art. 55°, Zona SA1 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 2000 m²",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima 8 pisos y 28 mts",
+   "altura_m": 28.0,
+   "antejardin_m_texto": "Antejardín 5 mts",
+   "antejardin_m": 5.0,
+   "pisos": 8,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "SB1",
+   "pagina": 35,
+   "seccion": "Art. 55°, Zona SB1 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 1700 m²",
+   "superficie_predial_minima_m2": 1700,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima 3 pisos y 10,5 mts",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 mts",
+   "antejardin_m": 5.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "SB2",
+   "pagina": 36,
+   "seccion": "Art. 55°, Zona SB2 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 600 m²",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima 5 pisos y 17,5 mts",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "Antejardín 5 mts",
+   "antejardin_m": 5.0,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "SC1",
+   "pagina": 37,
+   "seccion": "Art. 55°, Zona SC1 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 4000 m²",
+   "superficie_predial_minima_m2": 4000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,1",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "Altura máxima 2 pisos y 7 mts",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Antejardín 5 mts",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 10 mts. En esta zona no se permiten adosamientos."
+    }
+   ]
+  },
+  {
+   "zona": "TB1",
+   "pagina": 38,
+   "seccion": "Art. 55°, Zona TB1 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 4000 m²",
+   "superficie_predial_minima_m2": 4000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,4",
+   "coef_constructibilidad": 0.4,
+   "altura_m_texto": "Altura máxima 2 pisos y 10,50 mts",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 mts.",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 3 mts. En esta zona no se permiten adosamientos."
+    }
+   ]
+  },
+  {
+   "zona": "TB2",
+   "pagina": 39,
+   "seccion": "Art. 55°, Zona TB2 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 4000 m²",
+   "superficie_predial_minima_m2": 4000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,4",
+   "coef_constructibilidad": 0.4,
+   "altura_m_texto": "Altura máxima 2 pisos y 10,50 mts",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 mts.",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 3 mts. En esta zona no se permiten adosamientos."
+    }
+   ]
+  },
+  {
+   "zona": "TC1",
+   "pagina": 39,
+   "seccion": "Art. 55°, Zona TC1 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 4000 m²",
+   "superficie_predial_minima_m2": 4000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,1",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "Altura máxima 2 pisos y 10,50 mts",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 5 mts",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 10 mts. En esta zona no se permiten adosamientos."
+    }
+   ]
+  },
+  {
+   "zona": "ZE1",
+   "pagina": 40,
+   "seccion": "Art. 55°, Zona ZE1 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 4000 m²",
+   "superficie_predial_minima_m2": 4000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,001",
+   "coef_ocupacion_suelo": 0.001,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,001",
+   "coef_constructibilidad": 0.001,
+   "altura_m_texto": "Altura máxima 1 piso y 3,5 mts",
+   "altura_m": 3.5,
+   "antejardin_m_texto": "Antejardín 5 mts.",
+   "antejardin_m": 5.0,
+   "pisos": 1,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 10 mts. En esta zona no se permiten adosamientos."
+    }
+   ]
+  },
+  {
+   "zona": "ZE2",
+   "pagina": 41,
+   "seccion": "Art. 55°, Zona ZE2 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 4000 m²",
+   "superficie_predial_minima_m2": 4000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,001",
+   "coef_ocupacion_suelo": 0.001,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,001",
+   "coef_constructibilidad": 0.001,
+   "altura_m_texto": "Altura máxima 1 piso y 3,5 mts",
+   "altura_m": 3.5,
+   "antejardin_m_texto": "Antejardín 5 mts.",
+   "antejardin_m": 5.0,
+   "pisos": 1,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 10 mts. En esta zona no se permiten adosamientos."
+    }
+   ]
+  },
+  {
+   "zona": "ZE3",
+   "pagina": 41,
+   "seccion": "Art. 55°, Zona ZE3 (Modificación N° 9)",
+   "documento": "Modificación N° 9 al Plan Regulador Comunal de Lo Barnechea, Sector Centro Cordillera (Farellones, La Parva, El Colorado y Valle Nevado), D.A. N° 537 de 13-07-2018, publicada en el Diario Oficial el 30-07-2018",
+   "url": "https://lobarnechea.cl/wp-content/uploads/2022/03/Publicacion-DO-Dcreto-Promulgacion-Modificacion-N-9-Centro-Cordillera.pdf",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 4000 m²",
+   "superficie_predial_minima_m2": 4000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,02",
+   "coef_ocupacion_suelo": 0.02,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,1",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "Altura máxima 1 piso y 3,5 mts",
+   "altura_m": 3.5,
+   "antejardin_m_texto": "Antejardín 5 mts.",
+   "antejardin_m": 5.0,
+   "pisos": 1,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona fija un distanciamiento propio: 10 mts. En esta zona no se permiten adosamientos."
+    }
+   ]
+  }
+ ]
+}

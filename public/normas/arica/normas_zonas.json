@@ -1,0 +1,753 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Arica 2009 (Res. N° 4 del Gobierno Regional, D.O. 11-07-2009), versión publicada por la Municipalidad de Arica",
+ "url": "https://transparencia.imaarica.cl/uploads/file/LEY20285/2011/ABRIL/7_Actos_y_Resoluciones/Varios/ORDENANZA_PLAN_REGULADOR.pdf",
+ "sha256": "22973d5fd9a58b8552e96ade7a8bf07309dcf6fab4aaf86579e7822e7b487802",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZR1",
+   "pagina": 24,
+   "seccion": "Art. 39, Zona ZR1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 900 m2",
+   "superficie_predial_minima_m2": 900,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,6 Primer Piso",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0,6",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el predio tiene más de 1 hectárea («Sobre 1 Hectáreas podrá aumentarse la densidad hasta 320 Hab/ha y el coeficiente de constructibilidad hasta 2,5»)",
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION Libre definida por rasantes y distanciamiento.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 5 m",
+   "antejardin_m": 5,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "ZR2",
+   "pagina": 25,
+   "seccion": "Art. 39, Zona ZR2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 160 m2",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,85",
+   "coef_ocupacion_suelo": 0.85,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2.5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 14 m ó 4 pisos.",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 3 metros",
+   "antejardin_m": 3,
+   "pisos": 4,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º sexagesimales",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado, pareado y continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Pareo solo con las dos edificaciones simultáneas (Art. 2.6.1 OGUC); continuidad hasta 7 m de altura o 2 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZR3-A",
+   "pagina": 26,
+   "seccion": "Art. 39, Zona ZR3, columna ZR3-A",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 250 m2 250 m2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,7 0,9",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2.5. 2.5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 24,50 m ó 7 pisos 24,50 m ó 7 pisos",
+   "altura_m": 24.5,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 3 metros",
+   "antejardin_m": 3,
+   "pisos": 7,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º sexagesimales 80º sexagesimales",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado, pareado y continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Pareo solo con las dos edificaciones simultáneas (Art. 2.6.1 OGUC); continuidad hasta 7 m de altura o 2 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZR3-B",
+   "pagina": 26,
+   "seccion": "Art. 39, Zona ZR3, columna ZR3-B",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 250 m2 250 m2",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,7 0,9",
+   "coef_ocupacion_suelo": 0.9,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2.5. 2.5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 24,50 m ó 7 pisos 24,50 m ó 7 pisos",
+   "altura_m": 24.5,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 3 metros",
+   "antejardin_m": 3,
+   "pisos": 7,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º sexagesimales 80º sexagesimales",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado, pareado y continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Pareo solo con las dos edificaciones simultáneas (Art. 2.6.1 OGUC); continuidad hasta 7 m de altura o 2 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZR4",
+   "pagina": 27,
+   "seccion": "Art. 39, Zona ZR4",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 450 m2.",
+   "superficie_predial_minima_m2": 450,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2.5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 24,50 m ó 7 pisos.",
+   "altura_m": 24.5,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 3m.",
+   "antejardin_m": 3,
+   "pisos": 7,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º sexagesimales",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado y pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Pareo solo con las dos edificaciones simultáneas (Art. 2.6.1 OGUC)."
+    }
+   ]
+  },
+  {
+   "zona": "ZM1",
+   "pagina": 28,
+   "seccion": "Art. 39, Zona ZM1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 160 m2.",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2,5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 17,50 m ó 5 pisos",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 3 m",
+   "antejardin_m": 3,
+   "pisos": 5,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º sexagesimales",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado, Pareado y Continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Los talleres y el almacenamiento no pueden adosarse."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continuidad hasta 2 pisos o 7 m y sobre ella edificación aislada; pareo solo simultáneo (Art. 2.6.1 OGUC)."
+    }
+   ]
+  },
+  {
+   "zona": "ZM2",
+   "pagina": 29,
+   "seccion": "Art. 39, Zona ZM2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 250 m2.",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DEOCUPACION DE SUELO 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2,5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 14,00 m ó 4 pisos",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 3 m",
+   "antejardin_m": 3,
+   "pisos": 4,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º sexagesimales",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado, Pareado y Continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continuidad hasta 7 m o 2 pisos y sobre ella edificación aislada; pareo solo simultáneo (Art. 2.6.1 OGUC)."
+    }
+   ]
+  },
+  {
+   "zona": "ZCA",
+   "pagina": 30,
+   "seccion": "Art. 39, Zona ZCA",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 1",
+   "coef_ocupacion_suelo": 1.0,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 6",
+   "coef_constructibilidad": 6,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION Libre limitada por rasantes y distanciamiento",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDIN MINIMO No exigible",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Continuo. Se puede adoptar continuidad de cuatro pisos de altura máximo y sobre ella edificación aislada",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante de 80° se aplica sobre 14 m o 4 pisos (continuidad)."
+    }
+   ]
+  },
+  {
+   "zona": "ZC",
+   "pagina": 31,
+   "seccion": "Art. 39, Zona ZC",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 350 m2.",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 6",
+   "coef_constructibilidad": 6,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION Libre , limitada por rasantes y distanciamiento",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDIN MINIMO No exigible.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado, Pareado y Continuo. Se puede adoptar continuidad de tres pisos de altura",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante de 80° se aplica sobre 10,50 m o 3 pisos (continuidad)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continuidad de 3 pisos y sobre ella edificación aislada; pareo solo simultáneo (Art. 2.6.1 OGUC)."
+    }
+   ]
+  },
+  {
+   "zona": "ZPE",
+   "pagina": 32,
+   "seccion": "Art. 39, Zona ZPE (actividades productivas, equipamiento e infraestructura; viviendas en predios de más de 2 ha)",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 1.000 M2 200 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,6 0,7",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino es vivienda, en predios de más de 2 ha («COEFICIENTE DE OCUPACION DE SUELO 0,6 0,7»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2.0 2.5",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el destino es vivienda, en predios de más de 2 ha («COEFICIENTE DE CONSTRUCTIBILIDAD 2.0 2.5»)",
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 14 m ó 4 pisos 24,50 m ó 7 pisos",
+   "altura_m": 14,
+   "altura_incentivo_m": 24.5,
+   "incentivo_texto": "el destino es vivienda, en predios de más de 2 ha: «ALTURA MAXIMA DE EDIFICACION 14 m ó 4 pisos 24,50 m ó 7 pisos»",
+   "incentivo_pagina": 32,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 5 m 3 m",
+   "antejardin_m": 5,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º sexagesimales 80º sexagesimales",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO AISLADO Aislado, Pareado y Continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Actividades productivas: distanciamiento mínimo de 5 m y sin adosamiento."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Viviendas (en predios de más de 2 ha): 200 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Viviendas: 3 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Actividades productivas, equipamiento e infraestructura: aislado; viviendas: aislado, pareado o continuo."
+    }
+   ]
+  },
+  {
+   "zona": "ZT2",
+   "pagina": 33,
+   "seccion": "Art. 39, Zona ZT2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 500 m2.",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,5.",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3.5",
+   "coef_constructibilidad": 3.5,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION Libre, limitada por rasantes y distanciamiento.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 3 m",
+   "antejardin_m": 3,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º.",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado, Pareado y Continuo. Se permite continuidad hasta 7 m",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continuidad hasta 7 m de altura o 2 pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZT3-A",
+   "pagina": 34,
+   "seccion": "Art. 39, Zona ZT3, columna ZT3-A",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 500 m2.",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,6.",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "la construcción adopta el sistema escalonado («Las construcciones que adopten el sistema escalonado podrán tener una ocupación de un 0,75.»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 4 4",
+   "coef_constructibilidad": 4,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 3 m 3 m",
+   "antejardin_m": 3,
+   "pisos": 2,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º. 80 º",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado, Pareado y Continuo. Se permite continuidad hasta 7 m",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "altura",
+     "texto": "Altura máxima de 2 pisos, sin cifra en metros; puede adoptarse edificación escalonada con retranqueo mínimo de 2,5 m y hasta dos pisos por escalón."
+    }
+   ]
+  },
+  {
+   "zona": "ZT3-B",
+   "pagina": 34,
+   "seccion": "Art. 39, Zona ZT3, columna ZT3-B",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 500 m2.",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,6.",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "la construcción adopta el sistema escalonado («Las construcciones que adopten el sistema escalonado podrán tener una ocupación de un 0,75.»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 4 4",
+   "coef_constructibilidad": 4,
+   "altura_m_texto": "Libre, limitada por rasantes y distanciamiento.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 3 m 3 m",
+   "antejardin_m": 3,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º. 80 º",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado, Pareado y Continuo. Se permite continuidad hasta 7 m",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "ZI1",
+   "pagina": 35,
+   "seccion": "Art. 39, Zona ZI1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 2.000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,5.",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1.0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 14 m ó 4 pisos.",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 5 m",
+   "antejardin_m": 5,
+   "pisos": 4,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º sexagesimales.",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Actividades productivas: distanciamiento mínimo de 5 m; adosamiento no permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZI2",
+   "pagina": 36,
+   "seccion": "Art. 39, Zona ZI2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,5.",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2.0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 14 m ó 4 pisos.",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 5m.",
+   "antejardin_m": 5,
+   "pisos": 4,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º sexagesimales",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Actividades productivas: distanciamiento mínimo de 5 m; adosamiento no permitido para industrias y talleres."
+    }
+   ]
+  },
+  {
+   "zona": "ZI3",
+   "pagina": 37,
+   "seccion": "Art. 39, Zona ZI3",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 350 m2 para los talleres",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,5 para industria y 0, 7 para talleres y otros usos.",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino es taller u otro uso no industrial («COEFICIENTE DE OCUPACION DE SUELO 0,5 para industria y 0, 7 para talleres y otros usos.»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1,0 para los usos industriales y 2,5 para los otros usos",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el destino no es industrial («COEFICIENTE DE CONSTRUCTIBILIDAD 1,0 para los usos industriales y 2,5 para los otros usos»)",
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION Industria y talleres 14 m ó 4 pisos.",
+   "altura_m": 14,
+   "altura_incentivo_m": 24.5,
+   "incentivo_texto": "el destino no es industria ni taller: «Otros usos 24,50 m ó 7 pisos.»",
+   "incentivo_pagina": 37,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 5 m para industria.",
+   "antejardin_m": 5,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º sexagesimales.",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado para talleres e industrias.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Industrias y almacenamiento: 1.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZP",
+   "pagina": 38,
+   "seccion": "Art. 39, Zona ZP Puerto",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 2.000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2.0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 14 m ó 4 pisos",
+   "altura_m": 14,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 5 m",
+   "antejardin_m": 5,
+   "pisos": 4,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo de 5 m; adosamiento no permitido."
+    }
+   ]
+  },
+  {
+   "zona": "ZPP",
+   "pagina": 39,
+   "seccion": "Art. 39, Zona ZP1 Playas (conformada por ZPP y ZPR), ZPP",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 2 pisos o 7 m.",
+   "altura_m": 7,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 5 m.",
+   "antejardin_m": 5,
+   "pisos": 2,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80 ª",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "No se permite adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZPR",
+   "pagina": 39,
+   "seccion": "Art. 39, Zona ZP1 Playas (conformada por ZPP y ZPR), ZPR",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 2 pisos o 7 m.",
+   "altura_m": 7,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 5 m.",
+   "antejardin_m": 5,
+   "pisos": 2,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80 ª",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "No se permite adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZET",
+   "pagina": 45,
+   "seccion": "Art. 39, Zona ZET",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1.5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 10,50 m ó 3 pisos.",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO No exigible. Excepto predios sobre 1.000 m2 el cual deberá contemplar antejardín de 5 m.",
+   "antejardin_m": 0,
+   "pisos": 3,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80 grados sexagesimales.",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo de 5 m; adosamiento no permitido."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Predios sobre 1.000 m²: antejardín de 5 m en todas las calles (3 m en el borde costero)."
+    }
+   ]
+  },
+  {
+   "zona": "ZDD",
+   "pagina": 46,
+   "seccion": "Art. 39, Zona ZDD",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 2.500 m2.",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1.",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 7m ó 2 pisos.",
+   "altura_m": 7,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 5 m.",
+   "antejardin_m": 5,
+   "pisos": 2,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80 grados sexagesimales.",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    },
+    {
+     "campo": "zona",
+     "texto": "Terreno con resolución sanitaria (concentraciones de plomo y arsénico): cumplir las condiciones del Servicio de Salud."
+    }
+   ]
+  },
+  {
+   "zona": "ZER",
+   "pagina": 47,
+   "seccion": "Art. 39, Zona ZER",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MINIMA 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACION DE SUELO 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1.5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "ALTURA MAXIMA DE EDIFICACION 10,50 m ó 3 pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "ANTEJARDIN MINIMO 5 m",
+   "antejardin_m": 5,
+   "pisos": 3,
+   "rasante_grados": 80,
+   "rasante_texto": "RASANTE 80 grados.",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "AGRUPAMIENTO Aislado.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad de Arica (portal de transparencia): el texto oficial de la BCN (Res. N° 4, D.O. 11-07-2009) remite al Diario Oficial para las fichas del Art. 39. Confírmela en el CIP."
+    }
+   ]
+  }
+ ]
+}

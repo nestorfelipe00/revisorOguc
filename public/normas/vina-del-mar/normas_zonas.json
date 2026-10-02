@@ -1,0 +1,923 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Reformulación del Plan Regulador Comunal de Viña del Mar (D.A. N° 10.949, D.O. 13-12-2002), texto actualizado de la BCN (versión del 25-10-2022)",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=208029",
+ "sha256": "980321822c691a37c170a181542d34ad88d345a441142f9d337993a9019de334",
+ "documentos_adicionales": {
+  "rnc": {
+   "documento": "Modificación al PRC de Viña del Mar, Sector Reñaca Norte Costa (D.A. N° 11.932 de 30-09-2025, D.O. 09-10-2025), Ordenanza Local firmada que publica la Municipalidad",
+   "url": "https://prc.munivina.cl/wp-content/uploads/2025/10/01_DA-11932.25_ORDENANZA-LOCAL-MPRC-RNC_FIRMADA.pdf",
+   "sha256": "0575c42d21b05291c3106ad7ceaefad995ce25365b26c663061964857a994225"
+  },
+  "pv": {
+   "documento": "Modificación al PRC de Viña del Mar, Sector Población Vergara (D.A. N° 4.595, D.O. 13-05-2016), texto de la BCN; Tabla 3 del Art. 6 como imagen fijada por SHA-256",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1090324",
+   "fuente": "bcn",
+   "sha256": "12cd33ede6e695c4aa75311b381b036a5badd80a3e78bb78849f6947f0a9b5a0"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "V1",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona V1",
+   "superficie_predial_minima_m2_texto": "2.1. Superficie predial mínima: 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "2.3. Coeficiente máximo de ocupación del suelo: Aislado 0,50 Escalonado 0,60.",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "la edificación es escalonada («2.3. Coeficiente máximo de ocupación del suelo: Aislado 0,50 Escalonado 0,60.»)",
+   "coef_constructibilidad_texto": "2.4. Coeficiente máximo de constructibilidad: Aislado 1,00 Escalonado 1,20",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "la edificación es escalonada («2.4. Coeficiente máximo de constructibilidad: Aislado 1,00 Escalonado 1,20»)",
+   "altura_m_texto": "a) Para edificaciones aisladas en general: 9 metros.",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "3 metros en propiedades con frente al resto de las calles de esta zona",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "2.5. Tipo de agrupamiento: Aislado. Escalonado.",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Edificación escalonada: 3 m a los deslindes en todos los pisos."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación escalonada: plano paralelo a 7 m sobre el suelo natural."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "6 m con frente a Los Acacios, Av. Los Plátanos, Av. Sporting Club y las demás calles de Miraflores y Reñaca que lista el artículo."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "También se permite la edificación escalonada."
+    }
+   ]
+  },
+  {
+   "zona": "V2",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona V2",
+   "superficie_predial_minima_m2_texto": "2.1. Superficie predial mínima: 450 m2",
+   "superficie_predial_minima_m2": 450,
+   "coef_ocupacion_suelo_texto": "a) Para edificaciones aisladas y pareadas: 0,50.",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "la edificación es escalonada («c) Para edificaciones escalonada: 0,60.»)",
+   "coef_constructibilidad_texto": "a) Para edificaciones aisladas y pareadas en altura 1,00.",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "la edificación es escalonada («b) Para edificaciones escalonadas: 1,20.»)",
+   "altura_m_texto": "a) Para edificaciones aisladas: 12 metros",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "En propiedades con frente a vías locales en general: 4 m.",
+   "antejardin_m": 4.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "2.5. Tipo de agrupamiento: Aislado; Pareado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "3 m a los deslindes en primer y segundo piso; desde el tercero, OGUC."
+    },
+    {
+     "campo": "altura",
+     "texto": "Pareo: 7 m; edificación escalonada: plano paralelo a 9 m sobre el suelo natural."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Escalonado: 3 m; frente a vías troncales y colectoras de la vialidad estructurante: 6 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Pareo de hasta 30% del deslinde común y 7 m; escalonado obligatorio en pendientes de 30° o más sobre 7 m."
+    }
+   ]
+  },
+  {
+   "zona": "V4",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona V4",
+   "superficie_predial_minima_m2_texto": "2.1. Superficie predial mínima: 450 m2",
+   "superficie_predial_minima_m2": 450,
+   "coef_ocupacion_suelo_texto": "De más de 9 metros de altura: 0,25.",
+   "coef_ocupacion_suelo": 0.25,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "la edificación aislada o pareada no supera 9 m de altura (0,50) o es escalonada (0,60) («De hasta 9 metros de altura: 0,50. … b) Para edificaciones escalonadas: 0,60.»)",
+   "coef_constructibilidad_texto": "a) Para edificación aislada y pareada:1,00.",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el predio está en Reñaca al norte de calle Luisa Nieto de Hamel (escalonada: 1,20) («c) En Reñaca, sector ubicado al norte de calle Luisa Nieto de Hamel:2,00»)",
+   "altura_m_texto": "a) Para edificaciones aisladas y pareadas: Se determinará de acuerdo a las rasantes establecidas en la Ordenanza de la Ley General de Urbanismo y Construcciones.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "3 metros en las propiedades que enfrenten calles u otros espacios públicos",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "a) Aislado y Pareado. La longitud del pareo será igual al 30% de la longitud del deslinde común",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Edificación escalonada: plano paralelo a 9 m sobre el suelo natural."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "6 m frente a vías troncales y colectoras de la vialidad estructurante."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Pareo de 30% del deslinde y 7 m; también escalonado, sin adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "V5",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona V5",
+   "superficie_predial_minima_m2_texto": "2.1. Superficie predial mínima: 480 m2",
+   "superficie_predial_minima_m2": 480,
+   "coef_ocupacion_suelo_texto": "a) Para edificaciones aisladas y pareada: 0,50.",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "la edificación es escalonada («b) Para edificaciones escalonadas: 0,60.»)",
+   "coef_constructibilidad_texto": "a) Para edificaciones aisladas y pareada: 1,00",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "la edificación es escalonada («b) Para edificaciones escalonadas: 1,20.»)",
+   "altura_m_texto": "12 m. medidos verticalmente desde el suelo natural, la altura máxima para el pareo será de 7 metros",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "En las propiedades que enfrenten al resto de las calles de la zona u otros espacios públicos. 4 metros",
+   "antejardin_m": 4.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "a) Aislado y Pareado. La longitud del pareo será hasta al 30% de la longitud del deslinde común.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Pareo: 7 m; edificación escalonada: plano paralelo a 7 m sobre el suelo natural."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "6 m frente a vías troncales y colectoras; edificación escalonada: 3 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Escalonado obligatorio en pendientes de 30° o más sobre 7 m."
+    }
+   ]
+  },
+  {
+   "zona": "V6-a",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona V6-a",
+   "superficie_predial_minima_m2_texto": "2.1. Superficie predial mínima: 500 m2.",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "b) Para edificaciones de más de 9 metros de altura: 0,30.",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "la edificación no supera 9 m de altura («a) Para edificaciones de hasta 9 metros de altura: 0,50.»)",
+   "coef_constructibilidad_texto": "2.4. Coeficiente máximo de constructibilidad: se determinará de acuerdo a la Tabla 1 incluida en el Artículo 6",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el predio supera la superficie del último tramo de la Tabla 1 del Art. 6 (1,0 hasta 500 m²; 1,2 hasta 700; 1,5 hasta 1.000; 1,8 hasta 1.300; 2,0 hasta 1.500; 2,5 sobre 1.500 m²) («2.4. Coeficiente máximo de constructibilidad: se determinará de acuerdo a la Tabla 1 incluida en el Artículo 6 … sobre 1.500 2,5 1.734 434»)",
+   "altura_m_texto": "2.6. Altura máxima: se determinará de acuerdo a las rasantes establecidas en la Ordenanza de la Ley General de Urbanismo y Construcciones",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Para edificaciones de hasta 9 metros de altura: 3 metros.",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "2.5. Tipo de agrupamiento: Aislado, sin adosamientos.",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Edificaciones (o partes) de más de 9 m de altura: 6 m."
+    }
+   ]
+  },
+  {
+   "zona": "V7",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona V7",
+   "superficie_predial_minima_m2_texto": "a) Para vivienda: 240m2",
+   "superficie_predial_minima_m2": 240,
+   "coef_ocupacion_suelo_texto": "c) Para Actividades Productivas en general: 0,50.",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino es vivienda o equipamiento en general (servicios artesanales y actividades productivas: 0,50) («a) Para Vivienda: 0,60»)",
+   "coef_constructibilidad_texto": "2.4. Coeficiente máximo de constructibilidad: se determinará de acuerdo a la Tabla Nº2 incluida en el Artículo 6",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el predio supera la superficie del último tramo de la Tabla 2 del Art. 6 (1,00 hasta 500 m²; 1,25 hasta 600; 1,40 hasta 700; 1,55 hasta 800; 1,70 hasta 900; 1,85 hasta 1.000; 2,00 sobre 1.000 m²) («2.4. Coeficiente máximo de constructibilidad: se determinará de acuerdo a la Tabla Nº2 incluida en el Artículo 6 … Sobre 1.000 2,00 1.734 434»)",
+   "altura_m_texto": "a) Para Aislado y Pareado se determinará de acuerdo a las rasantes establecidas",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "de Tipo A con un ancho mínimo de 3 m.",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "a) Para vivienda: Aislado y Pareado",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento: 240 m² (estaciones y centros de servicio automotor 500 m², venta de vehículos 600 m², grandes supermercados 1.000 m²); actividades productivas 480 a 2.000 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación escalonada: plano paralelo a 12 m sobre el suelo natural."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "7 m para los predios que enfrentan vías troncales y colectoras."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Servicio automotor, venta de vehículos, grandes supermercados, servicios artesanales y actividades productivas: aislado sin adosamiento; para todos los usos, también escalonado."
+    }
+   ]
+  },
+  {
+   "zona": "E1",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona E1",
+   "superficie_predial_minima_m2_texto": "2.1. Superficie predial mínima: 640 m2",
+   "superficie_predial_minima_m2": 640,
+   "coef_ocupacion_suelo_texto": "b) Para edificación aislada: 0,50",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "la edificación es continua, hasta la altura de 10,50 m (sobre ella, 0,50) («a) Para edificación continua: hasta la altura de 10.50 metros: 1,00»)",
+   "coef_constructibilidad_texto": "Si el destino no incluye vivienda o la incluye en una superficie menor al 30% de su superficie total proyectada: 1,75.",
+   "coef_constructibilidad": 1.75,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "la edificación es continua hasta 10,50 m (3,00); la aislada en general tiene 2,00 y, sobre 10,50 m, 2,50 si la vivienda supera el 30% de la superficie («a) Para edificación continua: hasta la altura de 10.50 metros: 3.00»)",
+   "altura_m_texto": "a) Edificación continua 10.50m con un máximo de tres pisos.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "edificación aislada (sobre la continua solo se permite aislada): rasantes de la OGUC: «b) Edificación aislada: Se determinará de acuerdo a las rasantes»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "antejardín de Tipo B con un ancho mínimo de 4 metros",
+   "antejardin_m": 4.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "2.5. Tipo de agrupamiento: Aislado. Continuo: A partir de la línea oficial.",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Edificación aislada: distanciamientos no inferiores a 4,00 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Sobre 14 m de altura se agrega 1 m por cada 3 m adicionales; la edificación continua se construye a partir de la línea oficial."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La continuidad solo hasta 10,50 m; sobre esa altura, edificación aislada."
+    }
+   ]
+  },
+  {
+   "zona": "E3",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona E3",
+   "superficie_predial_minima_m2_texto": "1) Vivienda: 480 m2.",
+   "superficie_predial_minima_m2": 480,
+   "coef_ocupacion_suelo_texto": "Venta de vehículos livianos: 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "el destino es vivienda o equipamiento en general (venta de vehículos y estaciones de servicio: 0,5) («1) Vivienda: 0.75»)",
+   "coef_constructibilidad_texto": "2.4. Coeficiente máximo de constructibilidad: se determinará de acuerdo a la Tabla 2 incluida en el Artículo 6",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el predio supera la superficie del último tramo de la Tabla 2 del Art. 6 (1,00 hasta 500 m²; 1,25 hasta 600; 1,40 hasta 700; 1,55 hasta 800; 1,70 hasta 900; 1,85 hasta 1.000; 2,00 sobre 1.000 m²) («2.4. Coeficiente máximo de constructibilidad: se determinará de acuerdo a la Tabla 2 incluida en el Artículo 6 … Sobre 1.000 2,00 1.734 434»)",
+   "altura_m_texto": "b) Continuo: hasta 7 metros.",
+   "altura_m": 7.0,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "edificación aislada: rasantes de la OGUC (escalonada en ladera: plano paralelo a 7 m): «a) Para la edificación aislada se determinará de acuerdo a las rasantes»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "3 m en las propiedades que enfrentan el resto de las calles",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "2.5. Tipo de agrupamiento: Aislado; Continuo; Escalonado.",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Venta de vehículos y estaciones de servicio: 1.000 m²; grandes supermercados y multitiendas: 5.000 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "7 m frente a las vías de la vialidad estructurante (Art. 20)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "También escalonado."
+    }
+   ]
+  },
+  {
+   "zona": "E3a",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona E3a",
+   "superficie_predial_minima_m2_texto": "2.1. Superficie predial mínima: 480 m2.",
+   "superficie_predial_minima_m2": 480,
+   "coef_ocupacion_suelo_texto": "2.3. Coeficiente máximo de ocupación del suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "2.4. Coeficiente máximo de constructibilidad: se determinará de acuerdo a la Tabla 1 incluida en el Artículo 6",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el predio supera la superficie del último tramo de la Tabla 1 del Art. 6 (1,0 hasta 500 m²; 1,2 hasta 700; 1,5 hasta 1.000; 1,8 hasta 1.300; 2,0 hasta 1.500; 2,5 sobre 1.500 m²) («2.4. Coeficiente máximo de constructibilidad: se determinará de acuerdo a la Tabla 1 incluida en el Artículo 6 … sobre 1.500 2,5 1.734 434»)",
+   "altura_m_texto": "2.6. Altura máxima: 12 m., medidos verticalmente desde el nivel de suelo natural. Con un máximo de 4 pisos.",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "3m en las propiedades que enfrentan el resto de las calles",
+   "antejardin_m": 3.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "2.5. Tipo de agrupamiento: Aislado,",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "7 m frente a las vías de la vialidad estructurante (Art. 20)."
+    }
+   ]
+  },
+  {
+   "zona": "E3b",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona E3b",
+   "superficie_predial_minima_m2_texto": "2.1. Superficie predial mínima: 480 m.",
+   "superficie_predial_minima_m2": 480,
+   "coef_ocupacion_suelo_texto": "2.3. Coeficiente máximo de ocupación del suelo: 0,75",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "2.4. Coeficiente máximo de constructibilidad: se determinará de acuerdo a la Tabla 1 incluida en el Artículo 6",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el predio supera la superficie del último tramo de la Tabla 1 del Art. 6 (1,0 hasta 500 m²; 1,2 hasta 700; 1,5 hasta 1.000; 1,8 hasta 1.300; 2,0 hasta 1.500; 2,5 sobre 1.500 m²) («2.4. Coeficiente máximo de constructibilidad: se determinará de acuerdo a la Tabla 1 incluida en el Artículo 6 … sobre 1.500 2,5 1.734 434»)",
+   "altura_m_texto": "a) Edificación continua altura obligatoria 7 metros con un máximo de 2 pisos",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 12.0,
+   "incentivo_texto": "la edificación es aislada (12 m y 4 pisos, también sobre la continua): «b) Edificación aislada 12 metros, medidos verticalmente desde el nivel del suelo natural, con una altura máxima de 4 pisos.»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "3 m en las propiedades que enfrentan el resto de las calles",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "a) Edificación continua hasta una profundidad de 10 metros. b) Edificación aislada sin adosamiento.",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "7 m frente a las vías de la vialidad estructurante (Art. 20)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continuidad hasta 10 m de profundidad y altura obligatoria de 7 m; escalonado obligatorio en pendientes de 29° o más."
+    }
+   ]
+  },
+  {
+   "zona": "E4",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona E4",
+   "superficie_predial_minima_m2_texto": "2.1. Superficie predial mínima: 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "2.3. Coeficiente máximo de ocupación del suelo: 0,50",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "2.4. Coeficiente máximo de constructibilidad: 1,00",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "2.6. Altura máxima: 9 m.",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "de Tipo A con un ancho mínimo de 6 metros.",
+   "antejardin_m": 6.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "2.5. Tipo de agrupamiento: Aislado"
+  },
+  {
+   "zona": "E5",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona E5",
+   "superficie_predial_minima_m2_texto": "a) Vivienda: 240 m2.",
+   "superficie_predial_minima_m2": 240,
+   "coef_ocupacion_suelo_texto": "0,30 para: Estaciones de Servicio Automotor (bombas de bencina); Centro de Servicio Automotor.",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "el destino es vivienda o equipamiento en general (servicio automotor: 0,30; venta de vehículos, combustibles, discotecas, grandes tiendas, actividades productivas e infraestructura: 0,60) («a) Vivienda: 0,75.»)",
+   "coef_constructibilidad_texto": "c) Actividades productivas en general: 0,80",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el destino es vivienda o equipamiento en general, según la Tabla 2 del Art. 6 (1,00 hasta 500 m²; 1,25 hasta 600; 1,40 hasta 700; 1,55 hasta 800; 1,70 hasta 900; 1,85 hasta 1.000; 2,00 sobre 1.000 m²); edificios de estacionamientos: 2,0 («a) Vivienda: Tabla 2, incluida en Art. 6, de la presente Ordenanza. … Sobre 1.000 2,00 1.734 434»)",
+   "altura_m_texto": "2.6. Altura máxima: se determinará de acuerdo a las rasantes establecidas en la Ordenanza de la Ley General de Urbanismo y Construcciones",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "3 metros frente a vías secundarias",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "a) Vivienda: aislado; pareado; y continuo hasta 7 metros de altura.",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento: 240 m² en general y 1.000 o 2.000 m² para venta de vehículos, combustibles, discotecas y grandes tiendas; actividades productivas e infraestructura: 400 a 2.500 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Vivienda: 6 m frente a vías estructurantes; equipamiento, actividades productivas e infraestructura: 6 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continuo solo hasta 7 m de altura; servicio automotor, combustibles, discotecas, grandes tiendas, actividades productivas e infraestructura: aislado."
+    }
+   ]
+  },
+  {
+   "zona": "E8",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona E8",
+   "coef_ocupacion_suelo_texto": "2.2. Coeficiente máximo de ocupación del suelo: 0.3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "2.3. Coeficiente máximo de constructibilidad: 1.00",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "2.5. Altura máxima: Se determinará de acuerdo a lo establecido en la Ordenanza de la Ley General de Urbanismo y Construcciones.",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "2.4. Tipo de agrupamiento: Aislado.",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "No se permite la subdivisión predial."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Se mantiene el antejardín del proyecto original."
+    },
+    {
+     "campo": "zona",
+     "texto": "Las condiciones de edificación las establece la DOM en cada caso; el 90% del predio debe mantenerse con cubierta vegetal o arbórea."
+    }
+   ]
+  },
+  {
+   "zona": "I",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona I",
+   "superficie_predial_minima_m2_texto": "2.1.1. Equipamiento en general: 400 m2.",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "0,30 para: Estaciones de Servicio Automotor (bombas de bencina); Centro de Servicio Automotor.",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento en general (servicio automotor: 0,30; actividades productivas e infraestructura: 0,60) («2.3.1. Equipamiento en general: 0,75»)",
+   "coef_constructibilidad_texto": "2.4.2. Actividades productivas en general: 0,80",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto es un edificio de estacionamientos (equipamiento en general: Tabla 2 del Art. 6 (1,00 hasta 500 m²; 1,25 hasta 600; 1,40 hasta 700; 1,55 hasta 800; 1,70 hasta 900; 1,85 hasta 1.000; 2,00 sobre 1.000 m²); industria y talleres: 1,0) («Edificio de Estacionamientos: 2.0.»)",
+   "altura_m_texto": "2.6. Altura máxima: se determinará de acuerdo a las rasantes establecidas en la Ordenanza de la Ley General de Urbanismo y Construcciones",
+   "altura_m": "sin tope",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Según la actividad, de 400 a 3.000 m² (industrias 750 m², bodegas 2.000 m², terminales 3.000 m²)."
+    }
+   ]
+  },
+  {
+   "zona": "EE-1",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona EE-1",
+   "superficie_predial_minima_m2_texto": "2.1. Superficie predial mínima: 10.000 m2.",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "2.2. Coeficiente máximo de ocupación del suelo: 0.40.",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "2.3. Coeficiente de constructibilidad: 1.0.",
+   "coef_constructibilidad": 1.0,
+   "antejardin_m_texto": "2.6. Antejardín: Tipo A. Profundidad 7 metros mínimo.",
+   "antejardin_m": 7.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "2.4. Tipo de Agrupamiento: Aislado.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura no puede superar la más restrictiva de las zonas adyacentes al área EE-1."
+    }
+   ]
+  },
+  {
+   "zona": "EE-2",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona EE-2",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Grandes parques urbanos (Jardín Botánico, Quinta Vergara, Sausalito, Sporting Club, Granadilla y otros): las condiciones de subdivisión y edificación las fijan modificaciones al Plan Intercomunal; en parques públicos, la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "AV",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona AV",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área verde (bien nacional de uso público): rige el art. 2.1.30 de la OGUC; los destinos complementarios requieren informe favorable de la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "BC",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona BC",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área especial BC: rigen las disposiciones de la zona LM del PRC de 1980 (D.S. N° 329/80 MINVU), no transcritas."
+    }
+   ]
+  },
+  {
+   "zona": "N",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona N",
+   "rasante_grados": 45,
+   "rasante_texto": "La edificación deberá respetar un distanciamiento mínimo de 15 metros respecto del cierro perimetral y una rasante de 45°.",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "15 m respecto del cierro perimetral, que se construye a 3 m del deslinde con la vía pública."
+    },
+    {
+     "campo": "zona",
+     "texto": "Cementerios y culto: rigen además las normas específicas de la legislación sobre cementerios; el predio debe estar rodeado por una vía pública de al menos 14 m."
+    }
+   ]
+  },
+  {
+   "zona": "M",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona M",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Territorio sujeto a disposiciones de las Fuerzas Armadas; las construcciones se rigen por la LGUC cuando corresponda."
+    }
+   ]
+  },
+  {
+   "zona": "V8",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona V8",
+   "documento": "Modificación al PRC de Viña del Mar, Sector Población Vergara (D.A. N° 4.595, D.O. 13-05-2016), texto de la BCN; Tabla 3 del Art. 6 como imagen fijada por SHA-256",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1090324",
+   "superficie_predial_minima_m2_texto": "2.1.- Superficie predial mínima: 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "2.2.- Coeficiente de ocupación del suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/57822.jpg"
+   ],
+   "coef_constructibilidad_texto": "Se determinará el acuerdo a la tabla Nº 3",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "2.5.- Altura máxima: 20,0 metros (6 pisos)",
+   "altura_m": 20.0,
+   "antejardin_m_texto": "2.7.- Antejardín: 6 metros",
+   "antejardin_m": 6.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "2.4.- Tipo de agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Ocupación de pisos superiores: 0,5 el segundo piso y 0,35 sobre el segundo."
+    }
+   ]
+  },
+  {
+   "zona": "V9",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona V9",
+   "documento": "Modificación al PRC de Viña del Mar, Sector Población Vergara (D.A. N° 4.595, D.O. 13-05-2016), texto de la BCN; Tabla 3 del Art. 6 como imagen fijada por SHA-256",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1090324",
+   "superficie_predial_minima_m2_texto": "2.1.- Superficie predial mínima: 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "2.2.- Coeficiente de ocupación del suelo: 0,50",
+   "coef_ocupacion_suelo": 0.5,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/57822.jpg"
+   ],
+   "coef_constructibilidad_texto": "Se determinará de acuerdo a la tabla N°3 incluida en el artículo N° 6 de la Ordenanza del Plan Regulador Comunal.",
+   "coef_constructibilidad": 1.9,
+   "altura_m_texto": "2.5.- Altura máxima: 32,0 metros (10 pisos)",
+   "altura_m": 32.0,
+   "antejardin_m_texto": "2.7.- Antejardín: 6 metros",
+   "antejardin_m": 6.0,
+   "pisos": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "2.4.- Tipo de agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Ocupación de pisos superiores: 0,5 el segundo piso y 0,35 sobre el segundo."
+    }
+   ]
+  },
+  {
+   "zona": "E6-c",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona E6-c",
+   "documento": "Modificación al PRC de Viña del Mar, Sector Población Vergara (D.A. N° 4.595, D.O. 13-05-2016), texto de la BCN; Tabla 3 del Art. 6 como imagen fijada por SHA-256",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1090324",
+   "superficie_predial_minima_m2_texto": "2.1.- Superficie predial mínima: 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "2.2.- Coeficiente de ocupación del suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/57822.jpg"
+   ],
+   "coef_constructibilidad_texto": "Se determinará de acuerdo a la tabla N°3 incluida en el artículo N° 6 de la Ordenanza del Plan Regulador Comunal.",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "c) Edificación Continua: 7 metros",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 39.0,
+   "incentivo_texto": "la edificación es aislada (12 pisos); la aislada sobre la continua llega a 32,0 m (10 pisos) con retranqueo de 3,5 m: «a) Aislado: 39,0 metros (12 pisos)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "2.7.- Antejardín: 6 metros",
+   "antejardin_m": 6.0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "a) Aislado y Aislado sobre Continuo b) Continuo",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Ocupación de pisos superiores: 0,5 el segundo piso y 0,35 sobre el segundo."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La continua (7 m) debe consolidar todo el frente con 7 m de profundidad (60% si el frente supera 25 m)."
+    }
+   ]
+  },
+  {
+   "zona": "E6-c1",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona E6-c1",
+   "documento": "Modificación al PRC de Viña del Mar, Sector Población Vergara (D.A. N° 4.595, D.O. 13-05-2016), texto de la BCN; Tabla 3 del Art. 6 como imagen fijada por SHA-256",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1090324",
+   "superficie_predial_minima_m2_texto": "2.1.- Superficie predial mínima: 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "2.2.- Coeficiente de ocupación del suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/57822.jpg"
+   ],
+   "coef_constructibilidad_texto": "Se determinará de acuerdo a la tabla N°3 incluida en el artículo N° 6 de la Ordenanza del Plan Regulador Comunal.",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "c) Edificación Continua: 7 metros",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 39.0,
+   "incentivo_texto": "la edificación es aislada (12 pisos); la aislada sobre la continua llega a 32,0 m (10 pisos) con retranqueo de 3,5 m: «a) Aislado: 39,0 metros (12 pisos)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "2.7.- Antejardín: 6 metros",
+   "antejardin_m": 6.0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "c) Aislado y Aislado sobre Continuo d) Continuo",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Ocupación de pisos superiores: 0,5 el segundo piso y 0,35 sobre el segundo."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Comercio, venta de vehículos, combustibles, servicio automotor, discotecas y grandes multitiendas: 0,8."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La continua (7 m) debe consolidar todo el frente con 7 m de profundidad (60% si el frente supera 25 m)."
+    }
+   ]
+  },
+  {
+   "zona": "E7-c",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona E7-c",
+   "documento": "Modificación al PRC de Viña del Mar, Sector Población Vergara (D.A. N° 4.595, D.O. 13-05-2016), texto de la BCN; Tabla 3 del Art. 6 como imagen fijada por SHA-256",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1090324",
+   "superficie_predial_minima_m2_texto": "2.1.- Superficie predial mínima: 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "2.2.- Coeficiente de ocupación del suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/57822.jpg"
+   ],
+   "coef_constructibilidad_texto": "Se determinará de acuerdo a la tabla N°3 incluida en el artículo N° 6 de la Ordenanza del Plan Regulador Comunal.",
+   "coef_constructibilidad": 1.6,
+   "altura_m_texto": "c) Edificación Continua: 7 metros",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 26.0,
+   "incentivo_texto": "la edificación es aislada (8 pisos); la aislada sobre la continua llega a 19,0 m (6 pisos) con retranqueo de 3,5 m: «a) Aislado: 26,0 metros (8 pisos)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "2.7.- Antejardín: 6 metros",
+   "antejardin_m": 6.0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "a) Aislado y Aislado sobre Continuo b) Continuo",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Ocupación de pisos superiores: 0,5 el segundo piso y 0,35 sobre el segundo."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La continua (7 m, altura mínima y máxima) debe consolidar todo el frente con 7 m de profundidad (60% si el frente supera 25 m)."
+    }
+   ]
+  },
+  {
+   "zona": "E7-c1",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona E7-c1",
+   "documento": "Modificación al PRC de Viña del Mar, Sector Población Vergara (D.A. N° 4.595, D.O. 13-05-2016), texto de la BCN; Tabla 3 del Art. 6 como imagen fijada por SHA-256",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1090324",
+   "superficie_predial_minima_m2_texto": "2.1.- Superficie predial mínima: 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "2.2.- Coeficiente de ocupación del suelo: 0,50",
+   "coef_ocupacion_suelo": 0.5,
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/57822.jpg"
+   ],
+   "coef_constructibilidad_texto": "Se determinará de acuerdo a la tabla N°3 incluida en el artículo N° 6 de la Ordenanza del Plan Regulador Comunal.",
+   "coef_constructibilidad": 1.6,
+   "altura_m_texto": "c) Edificación Continua: 7 metros",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 26.0,
+   "incentivo_texto": "la edificación es aislada (8 pisos); la aislada sobre la continua llega a 19,0 m (6 pisos) con retranqueo de 3,5 m: «a) Aislado: 26,0 metros (8 pisos)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "2.7.- Antejardín: 6 metros",
+   "antejardin_m": 6.0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "a) Aislado y Aislado sobre Continuo b) Continuo",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "La continua (7 m, altura mínima y máxima) debe consolidar todo el frente con 7 m de profundidad (60% si el frente supera 25 m)."
+    }
+   ]
+  },
+  {
+   "zona": "E8-1",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona E8-1",
+   "documento": "Modificación al PRC de Viña del Mar, Sector Población Vergara (D.A. N° 4.595, D.O. 13-05-2016), texto de la BCN; Tabla 3 del Art. 6 como imagen fijada por SHA-256",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1090324",
+   "superficie_predial_minima_m2_texto": "2.1.- Superficie predial mínima: 2.000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "2.2.- Coeficiente de ocupación del suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "2.4.- Coeficiente de constructibilidad: 1,3",
+   "coef_constructibilidad": 1.3,
+   "altura_m_texto": "2.6.- Altura máxima: 16,0 metros (5 pisos)",
+   "altura_m": 16.0,
+   "antejardin_m_texto": "a) Frente a calle 1 Oriente: 6 metros",
+   "antejardin_m": 6.0,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "2.5.- Tipo de agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Frente a otras calles: 15 m."
+    }
+   ]
+  },
+  {
+   "zona": "V3-a",
+   "pagina": 8,
+   "seccion": "Art. 17 (agregado por el art. 8° de la Modificación Sector Reñaca Norte Costa), Zona V3-a",
+   "documento": "Modificación al PRC de Viña del Mar, Sector Reñaca Norte Costa (D.A. N° 11.932 de 30-09-2025, D.O. 09-10-2025), Ordenanza Local firmada que publica la Municipalidad",
+   "url": "https://prc.munivina.cl/wp-content/uploads/2025/10/01_DA-11932.25_ORDENANZA-LOCAL-MPRC-RNC_FIRMADA.pdf",
+   "superficie_predial_minima_m2_texto": "Superﬁcie de subdivisión predial mínima 2.000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeﬁciente de ocupación del suelo 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "Coeﬁciente de constructibilidad 0,3",
+   "coef_constructibilidad": 0.3,
+   "altura_m_texto": "Altura máxima de ediﬁcación 3 pisos – 9,6 metros",
+   "altura_m": 9.6,
+   "antejardin_m_texto": "Antejardín 7 metros frente a todas las vialidades",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, sin adosamiento.",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "8 m; el 65% del terreno debe quedar libre de excavaciones (subterráneos a 7 m de los frentes y 8 m de los deslindes)."
+    }
+   ]
+  },
+  {
+   "zona": "V3-b",
+   "pagina": 10,
+   "seccion": "Art. 17 (agregado por el art. 8° de la Modificación Sector Reñaca Norte Costa), Zona V3-b",
+   "documento": "Modificación al PRC de Viña del Mar, Sector Reñaca Norte Costa (D.A. N° 11.932 de 30-09-2025, D.O. 09-10-2025), Ordenanza Local firmada que publica la Municipalidad",
+   "url": "https://prc.munivina.cl/wp-content/uploads/2025/10/01_DA-11932.25_ORDENANZA-LOCAL-MPRC-RNC_FIRMADA.pdf",
+   "superficie_predial_minima_m2_texto": "Superﬁcie de subdivisión predial mínima 2000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeﬁciente de ocupación del suelo 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeﬁciente de constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de ediﬁcación 8 pisos - 25,6 metros",
+   "altura_m": 25.6,
+   "antejardin_m_texto": "Antejardín 7 metros frente a todas las vialidades",
+   "antejardin_m": 7.0,
+   "pisos": 8,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, sin adosamiento.",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "10 m al límite sur del Santuario de la Naturaleza Campo Dunar de la Punta de Concón y 8 m a los demás deslindes; el 65% del terreno libre de excavaciones."
+    }
+   ]
+  },
+  {
+   "zona": "ZPD",
+   "pagina": 12,
+   "seccion": "Art. 17 (agregado por el art. 8° de la Modificación Sector Reñaca Norte Costa), Zona ZPD",
+   "documento": "Modificación al PRC de Viña del Mar, Sector Reñaca Norte Costa (D.A. N° 11.932 de 30-09-2025, D.O. 09-10-2025), Ordenanza Local firmada que publica la Municipalidad",
+   "url": "https://prc.munivina.cl/wp-content/uploads/2025/10/01_DA-11932.25_ORDENANZA-LOCAL-MPRC-RNC_FIRMADA.pdf",
+   "superficie_predial_minima_m2_texto": "Superﬁcie de subdivisión predial mínima 2.000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeﬁciente de ocupación del suelo 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "Coeﬁciente de constructibilidad 0,1",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "Altura máxima de ediﬁcación 2 pisos - 7 metros",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "7 metros frente a calle Costa Montemar",
+   "antejardin_m": 7.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, sin adosamiento.",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "10 m al límite del Santuario de la Naturaleza y 8 m a los demás deslindes; el 85% del terreno libre de excavaciones; uso residencial prohibido."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "12 m frente a Avenida Borgoño."
+    }
+   ]
+  }
+ ]
+}

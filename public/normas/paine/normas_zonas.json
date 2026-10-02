@@ -1,0 +1,532 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Modificación del Plan Regulador Comunal de Paine (D.A. N° 823/2014, D.O. 12-02-2015), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1074700",
+ "sha256": "355bfd44e6905f7bab89cca0c783b99cdee84ff5d36a441fe9430702a6352583",
+ "documentos_adicionales": {
+  "e2019": {
+   "documento": "Enmienda del Plan Regulador Comunal de Paine (D.O. 23-02-2019)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1129239",
+   "fuente": "bcn",
+   "sha256": "4c7220ca6e3b05e9aa889a1bc85aff3be3e94c0328f08c60dee6a8b29069f00b"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZU-1",
+   "pagina": 0,
+   "seccion": "Artículo 11, Zona ZU-1: Zona Centro Cívico",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47595.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial Mínima (m2) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "residencial 500 0,5 1 APC 10 3",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,6: equipamiento y actividades productivas inofensivas; 0,5: residencial y infraestructura) («equipamiento 500 0,6 1,5 APC 10 3»)",
+   "coef_constructibilidad_texto": "residencial 500 0,5 1 APC 10 3",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (1,5: equipamiento; 1,2: actividades productivas inofensivas; 1: residencial y infraestructura) («equipamiento 500 0,6 1,5 APC 10 3»)",
+   "altura_m_texto": "actividades productivas inofensivas 500 0,6 1,2 APC 5 1",
+   "altura_m": 5,
+   "altura_incentivo_m": 10,
+   "incentivo_texto": "según el destino (10 m (3 pisos): residencial y equipamiento; 7 m (2 pisos): infraestructura; 5 m (1 pisos): actividades productivas inofensivas): «residencial 500 0,5 1 APC 10 3»",
+   "incentivo_pagina": 0,
+   "antejardin_m_documento": "Enmienda del Plan Regulador Comunal de Paine (D.O. 23-02-2019)",
+   "antejardin_m_texto": "Modifíquense en el Artículo 11, \"Zona ZU-1 Centro Cívico\", los parámetros que se indican: - En la columna Antejardín Mínimo (mt.), en la celda que dice \"5\" debe decir \"S/A\"",
+   "antejardin_m": 0.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "residencial 500 0,5 1 APC 10 3",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Para emplazar nuevos destinos o usos, el cuadro exige predios mayores según el destino (columna «Requisito»)."
+    },
+    {
+     "campo": "zona",
+     "texto": "No se permiten estaciones de distribución de combustibles ni centros de servicio automotor a menos de 50 m de equipamientos de salud, educación y seguridad; deben ser aisladas con 10 m a los deslindes."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Predio mínimo para nuevos destinos: residencial 500 m², equipamiento y actividades productivas 800 m², infraestructura 1.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-2",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona ZU-2: Zona Urbana Mixta de Equipamiento",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47596.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial Mínima (m2) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "residencial 500 0,5 1,5 APC 10 3",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,8: equipamiento y actividades productivas inofensivas; 0,5: residencial y infraestructura) («equipamiento 500 0,8 1,5 APC 10 3»)",
+   "coef_constructibilidad_texto": "infraestructura 500 0,5 1 A 7 2",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (1,5: residencial y equipamiento; 1,2: actividades productivas inofensivas; 1: infraestructura) («residencial 500 0,5 1,5 APC 10 3»)",
+   "altura_m_texto": "actividades productivas inofensivas 500 0,8 1,2 APC 5 1",
+   "altura_m": 5,
+   "altura_incentivo_m": 10,
+   "incentivo_texto": "según el destino (10 m (3 pisos): residencial y equipamiento; 7 m (2 pisos): infraestructura; 5 m (1 pisos): actividades productivas inofensivas): «residencial 500 0,5 1,5 APC 10 3»",
+   "incentivo_pagina": 0,
+   "antejardin_m_documento": "Enmienda del Plan Regulador Comunal de Paine (D.O. 23-02-2019)",
+   "antejardin_m_texto": "Modifíquense en el Artículo 12, \"ZU-2 Urbana Mixta de Equipamiento\", los parámetros que se indican: - En la columna Antejardín Mínimo (mt.), en la celda que dice \"5\" debe decir \"S/A\"",
+   "antejardin_m": 0.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "residencial 500 0,5 1,5 APC 10 3",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Para emplazar nuevos destinos o usos, el cuadro exige predios mayores según el destino (columna «Requisito»)."
+    },
+    {
+     "campo": "zona",
+     "texto": "No se permiten estaciones de distribución de combustibles ni centros de servicio automotor a menos de 50 m de equipamientos de salud, educación y seguridad; deben ser aisladas con 10 m a los deslindes."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-3",
+   "pagina": 0,
+   "seccion": "Artículo 13, Zona ZU-3: Zona Residencial Densidad Alta",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47597.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47598.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial Mínima (m2) 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "otro equipamiento 200 0,5 1,5 AP 8 2",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,8: equipamiento científico, comercio, culto y cultura; 0,6: residencial, actividades productivas inofensivas y infraestructura; 0,5: otro equipamiento) («equipamiento científico, comercio, culto y cultura 200 0,8 1,5 AP 8 2»)",
+   "coef_constructibilidad_texto": "infraestructura 200 0,6 0,6 A 7 2",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (1,5: equipamiento científico, comercio, culto y cultura y otro equipamiento; 1,2: residencial; 1: actividades productivas inofensivas; 0,6: infraestructura) («equipamiento científico, comercio, culto y cultura 200 0,8 1,5 AP 8 2»)",
+   "altura_m_texto": "residencial 200 0,6 1,2 AP 7 2",
+   "altura_m": 7,
+   "altura_incentivo_m": 8,
+   "incentivo_texto": "según el destino (8 m (2 pisos): equipamiento científico, comercio, culto y cultura, otro equipamiento y actividades productivas inofensivas; 7 m (2 pisos): residencial y infraestructura): «equipamiento científico, comercio, culto y cultura 200 0,8 1,5 AP 8 2»",
+   "incentivo_pagina": 0,
+   "antejardin_m_documento": "Enmienda del Plan Regulador Comunal de Paine (D.O. 23-02-2019)",
+   "antejardin_m_texto": "Modifíquense en el Artículo 13, \"ZU-3 Residencial Densidad Alta\", los parámetros que se indican: - En la columna Antejardín Mínimo (mt.), en la celda que dice \"3\" debe decir \" S/A\"",
+   "antejardin_m": 0.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "residencial 200 0,6 1,2 AP 7 2",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Para emplazar nuevos destinos o usos, el cuadro exige predios mayores según el destino (columna «Requisito»)."
+    },
+    {
+     "campo": "zona",
+     "texto": "No se permiten estaciones de distribución de combustibles ni centros de servicio automotor a menos de 50 m de equipamientos de salud, educación y seguridad; deben ser aisladas con 10 m a los deslindes."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-4",
+   "pagina": 0,
+   "seccion": "Artículo 14, Zona ZU-4: Zona Residencial Densidad Media",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47599.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial Mínima (m2) 350",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "actividades productivas inofensivas 350 0,4 0,6 A 8 2",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,6: residencial; 0,5: equipamiento; 0,4: actividades productivas inofensivas y infraestructura) («residencial 350 0,6 1,2 AP 8 2»)",
+   "coef_constructibilidad_texto": "actividades productivas inofensivas 350 0,4 0,6 A 8 2",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (1,5: equipamiento; 1,2: residencial; 0,6: actividades productivas inofensivas y infraestructura) («equipamiento 350 0,5 1,5 AP 8 2»)",
+   "altura_m_texto": "residencial 350 0,6 1,2 AP 8 2",
+   "altura_m": 8,
+   "altura_incentivo_m": 10,
+   "incentivo_texto": "según el destino (10 m (2 pisos): infraestructura; 8 m (2 pisos): residencial, equipamiento y actividades productivas inofensivas): «infraestructura 350 0,4 0,6 A 10 2»",
+   "incentivo_pagina": 0,
+   "antejardin_m_documento": "Enmienda del Plan Regulador Comunal de Paine (D.O. 23-02-2019)",
+   "antejardin_m_texto": "Modifíquense en el Artículo 14, \"ZU-4 Residencial Densidad Media",
+   "antejardin_m": 0.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "residencial 350 0,6 1,2 AP 8 2",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Para emplazar nuevos destinos o usos, el cuadro exige predios mayores según el destino (columna «Requisito»)."
+    },
+    {
+     "campo": "zona",
+     "texto": "No se permiten estaciones de distribución de combustibles ni centros de servicio automotor a menos de 50 m de equipamientos de salud, educación y seguridad; deben ser aisladas con 10 m a los deslindes."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-5",
+   "pagina": 0,
+   "seccion": "Artículo 15, Zona ZU-5: Zona Residencial Densidad Baja",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47600.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial Mínima (m2) 800",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "actividades productivas inofensivas 800 0,4 0,6 A 8 2",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,6: residencial; 0,5: equipamiento; 0,4: actividades productivas inofensivas y infraestructura) («residencial 800 0,6 1,2 AP 8 2»)",
+   "coef_constructibilidad_texto": "actividades productivas inofensivas 800 0,4 0,6 A 8 2",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (1,5: equipamiento; 1,2: residencial; 0,6: actividades productivas inofensivas y infraestructura) («equipamiento 800 0,5 1,5 AP 8 2»)",
+   "altura_m_texto": "residencial 800 0,6 1,2 AP 8 2",
+   "altura_m": 8,
+   "altura_incentivo_m": 10,
+   "incentivo_texto": "según el destino (10 m (2 pisos): infraestructura; 8 m (2 pisos): residencial, equipamiento y actividades productivas inofensivas): «infraestructura 800 0,4 0,6 A 10 2»",
+   "incentivo_pagina": 0,
+   "antejardin_m_documento": "Enmienda del Plan Regulador Comunal de Paine (D.O. 23-02-2019)",
+   "antejardin_m_texto": "Modifíquense en el Artículo 15, \"ZU-5 Zona Residencial Densidad Baja\", los parámetros que se indican: - En la columna Antejardín Mínimo (mt.), en la celda que dice \"3\" debe decir \" S/A\"",
+   "antejardin_m": 0.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "residencial 800 0,6 1,2 AP 8 2",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Para emplazar nuevos destinos o usos, el cuadro exige predios mayores según el destino (columna «Requisito»)."
+    },
+    {
+     "campo": "zona",
+     "texto": "No se permiten estaciones de distribución de combustibles ni centros de servicio automotor a menos de 50 m de equipamientos de salud, educación y seguridad; deben ser aisladas con 10 m a los deslindes."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-6",
+   "pagina": 0,
+   "seccion": "Artículo 16, Zona ZU-6: Zona Residencial Densidad Intermedia",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47601.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47602.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial Mínima (m2) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "actividades productivas inofensivas 500 0,4 0,6 A 8 2",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,6: residencial; 0,5: equipamiento; 0,4: actividades productivas inofensivas y infraestructura) («residencial 500 0,6 1,2 AP 8 2»)",
+   "coef_constructibilidad_texto": "actividades productivas inofensivas 500 0,4 0,6 A 8 2",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (1,5: equipamiento; 1,2: residencial; 0,6: actividades productivas inofensivas y infraestructura) («equipamiento 500 0,5 1,5 AP 8 2»)",
+   "altura_m_texto": "residencial 500 0,6 1,2 AP 8 2",
+   "altura_m": 8,
+   "altura_incentivo_m": 10,
+   "incentivo_texto": "según el destino (10 m (2 pisos): infraestructura; 8 m (2 pisos): residencial, equipamiento y actividades productivas inofensivas): «infraestructura 500 0,4 0,6 A 10 2»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo (mt.) 3",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "residencial 500 0,6 1,2 AP 8 2",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Para emplazar nuevos destinos o usos, el cuadro exige predios mayores según el destino (columna «Requisito»)."
+    },
+    {
+     "campo": "zona",
+     "texto": "No se permiten estaciones de distribución de combustibles ni centros de servicio automotor a menos de 50 m de equipamientos de salud, educación y seguridad; deben ser aisladas con 10 m a los deslindes."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-7",
+   "pagina": 0,
+   "seccion": "Artículo 17, Zona ZU-7: Zona Deportiva y Recreacional",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47603.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial Mínima (m2) 800",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "comercio 800 0,3 0,3 A 8 2",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,8: culto y cultura, deporte y esparcimiento; 0,35: vivienda del cuidador; 0,3: comercio) («culto y cultura, deporte y esparcimiento 800 0,8 1,2 A 10 2»)",
+   "coef_constructibilidad_texto": "comercio 800 0,3 0,3 A 8 2",
+   "coef_constructibilidad": 0.3,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "según el destino (1,2: culto y cultura, deporte y esparcimiento; 0,35: vivienda del cuidador; 0,3: comercio) («culto y cultura, deporte y esparcimiento 800 0,8 1,2 A 10 2»)",
+   "altura_m_texto": "vivienda del cuidador 800 0,35 0,35 A 7,5 2",
+   "altura_m": 7.5,
+   "altura_incentivo_m": 10,
+   "incentivo_texto": "según el destino (10 m (2 pisos): culto y cultura, deporte y esparcimiento; 8 m (2 pisos): comercio; 7,5 m (2 pisos): vivienda del cuidador): «culto y cultura, deporte y esparcimiento 800 0,8 1,2 A 10 2»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo (mt.) 5",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "vivienda del cuidador 800 0,35 0,35 A 7,5 2",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Para emplazar nuevos destinos o usos, el cuadro exige predios mayores según el destino (columna «Requisito»)."
+    },
+    {
+     "campo": "zona",
+     "texto": "No se permiten estaciones de distribución de combustibles ni centros de servicio automotor a menos de 50 m de equipamientos de salud, educación y seguridad; deben ser aisladas con 10 m a los deslindes."
+    },
+    {
+     "campo": "zona",
+     "texto": "Solo se permite la vivienda del cuidador."
+    }
+   ]
+  },
+  {
+   "zona": "ZU-8",
+   "pagina": 0,
+   "seccion": "Artículo 18, Zona ZU-8: Zona Mixta Especial",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47604.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial Mínima (m2) 800",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "comercio 800 0,3 0,3 A 8 2",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,8: culto y cultura, deporte y esparcimiento; 0,35: vivienda y hospedaje; 0,3: comercio) («culto y cultura, deporte y esparcimiento 800 0,8 1,2 A 10 2»)",
+   "coef_constructibilidad_texto": "comercio 800 0,3 0,3 A 8 2",
+   "coef_constructibilidad": 0.3,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "según el destino (1,2: culto y cultura, deporte y esparcimiento; 0,35: vivienda y hospedaje; 0,3: comercio) («culto y cultura, deporte y esparcimiento 800 0,8 1,2 A 10 2»)",
+   "altura_m_texto": "comercio 800 0,3 0,3 A 8 2",
+   "altura_m": 8,
+   "altura_incentivo_m": 10,
+   "incentivo_texto": "según el destino (10 m (3 pisos): vivienda y hospedaje y culto y cultura, deporte y esparcimiento; 8 m (2 pisos): comercio): «vivienda y hospedaje 800 0,35 0,35 A 10 3»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo (mt.) S/A",
+   "antejardin_m": 0.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "vivienda y hospedaje 800 0,35 0,35 A 10 3",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Para emplazar nuevos destinos o usos, el cuadro exige predios mayores según el destino (columna «Requisito»)."
+    },
+    {
+     "campo": "zona",
+     "texto": "No se permiten estaciones de distribución de combustibles ni centros de servicio automotor a menos de 50 m de equipamientos de salud, educación y seguridad; deben ser aisladas con 10 m a los deslindes."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-1",
+   "pagina": 0,
+   "seccion": "Artículo 19, Zona ZE-1: Zona Exclusiva Resguardo Ferroviario",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47605.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial Mínima (m2) 1000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "comercio 1000 0,3 0,3 APC 8 2",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,8: infraestructura; 0,3: comercio) («infraestructura 1000 0,8 1,2 APC 10 2»)",
+   "coef_constructibilidad_texto": "comercio 1000 0,3 0,3 APC 8 2",
+   "coef_constructibilidad": 0.3,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "según el destino (1,2: infraestructura; 0,3: comercio) («infraestructura 1000 0,8 1,2 APC 10 2»)",
+   "altura_m_texto": "comercio 1000 0,3 0,3 APC 8 2",
+   "altura_m": 8,
+   "altura_incentivo_m": 10,
+   "incentivo_texto": "según el destino (10 m (2 pisos): infraestructura; 8 m (2 pisos): comercio): «infraestructura 1000 0,8 1,2 APC 10 2»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo (mt.) 10",
+   "antejardin_m": 10.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "comercio 1000 0,3 0,3 APC 8 2",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Para emplazar nuevos destinos o usos, el cuadro exige predios mayores según el destino (columna «Requisito»)."
+    },
+    {
+     "campo": "zona",
+     "texto": "No se permiten estaciones de distribución de combustibles ni centros de servicio automotor a menos de 50 m de equipamientos de salud, educación y seguridad; deben ser aisladas con 10 m a los deslindes."
+    },
+    {
+     "campo": "zona",
+     "texto": "Vivienda prohibida."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-2",
+   "pagina": 0,
+   "seccion": "Artículo 20, Zona ZE-2: Zona Exclusiva Resguardo Infraestructura Sanitaria",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47606.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial Mínima (m2) 800",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "comercio 800 0,3 0,3 A 8 2",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,8: infraestructura; 0,35: vivienda del cuidador; 0,3: comercio) («infraestructura 800 0,8 1,2 A 10 2»)",
+   "coef_constructibilidad_texto": "comercio 800 0,3 0,3 A 8 2",
+   "coef_constructibilidad": 0.3,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "según el destino (1,2: infraestructura; 0,35: vivienda del cuidador; 0,3: comercio) («infraestructura 800 0,8 1,2 A 10 2»)",
+   "altura_m_texto": "vivienda del cuidador 800 0,35 0,35 A 7,5 2",
+   "altura_m": 7.5,
+   "altura_incentivo_m": 10,
+   "incentivo_texto": "según el destino (10 m (2 pisos): infraestructura; 8 m (2 pisos): comercio; 7,5 m (2 pisos): vivienda del cuidador): «infraestructura 800 0,8 1,2 A 10 2»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo (mt.) 5",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "vivienda del cuidador 800 0,35 0,35 A 7,5 2",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Para emplazar nuevos destinos o usos, el cuadro exige predios mayores según el destino (columna «Requisito»)."
+    },
+    {
+     "campo": "zona",
+     "texto": "No se permiten estaciones de distribución de combustibles ni centros de servicio automotor a menos de 50 m de equipamientos de salud, educación y seguridad; deben ser aisladas con 10 m a los deslindes."
+    },
+    {
+     "campo": "zona",
+     "texto": "Solo se permite la vivienda del cuidador."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-3",
+   "pagina": 0,
+   "seccion": "Artículo 21, Zona ZE-3: Zona Equipamiento Exclusivo Cementerio",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47607.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial Mínima (m2) 800",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "salud 800 0,3 0,3 A 8 2",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.35,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,35: vivienda del cuidador; 0,3: salud) («vivienda del cuidador 800 0,35 0,35 A 7,5 2»)",
+   "coef_constructibilidad_texto": "salud 800 0,3 0,3 A 8 2",
+   "coef_constructibilidad": 0.3,
+   "coef_constructibilidad_max": 0.35,
+   "coef_constructibilidad_condicion": "según el destino (0,35: vivienda del cuidador; 0,3: salud) («vivienda del cuidador 800 0,35 0,35 A 7,5 2»)",
+   "altura_m_texto": "vivienda del cuidador 800 0,35 0,35 A 7,5 2",
+   "altura_m": 7.5,
+   "altura_incentivo_m": 8,
+   "incentivo_texto": "según el destino (8 m (2 pisos): salud; 7,5 m (2 pisos): vivienda del cuidador): «salud 800 0,3 0,3 A 8 2»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo (mt.) 5",
+   "antejardin_m": 5.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "vivienda del cuidador 800 0,35 0,35 A 7,5 2",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Para emplazar nuevos destinos o usos, el cuadro exige predios mayores según el destino (columna «Requisito»)."
+    },
+    {
+     "campo": "zona",
+     "texto": "No se permiten estaciones de distribución de combustibles ni centros de servicio automotor a menos de 50 m de equipamientos de salud, educación y seguridad; deben ser aisladas con 10 m a los deslindes."
+    },
+    {
+     "campo": "zona",
+     "texto": "Solo se permite la vivienda del cuidador."
+    }
+   ]
+  },
+  {
+   "zona": "ZAP",
+   "pagina": 0,
+   "seccion": "Artículo 22, Zona ZAP: Zona Actividades Productivas Inofensivas",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/47608.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial Mínima (m2) 1000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "equipamiento 1000 0,4 0,6 A 10 3",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,6: vivienda; 0,4: equipamiento, actividades productivas inofensivas y infraestructura) («vivienda 1000 0,6 1,2 A 8 2»)",
+   "coef_constructibilidad_texto": "equipamiento 1000 0,4 0,6 A 10 3",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "según el destino (1,2: vivienda; 0,6: equipamiento, actividades productivas inofensivas y infraestructura) («vivienda 1000 0,6 1,2 A 8 2»)",
+   "altura_m_texto": "vivienda 1000 0,6 1,2 A 8 2",
+   "altura_m": 8,
+   "altura_incentivo_m": 12,
+   "incentivo_texto": "según el destino (12 m (2 pisos): actividades productivas inofensivas; 10 m (3 pisos): equipamiento y infraestructura; 8 m (2 pisos): vivienda): «actividades productivas inofensivas 1000 0,4 0,6 A 12 2»",
+   "incentivo_pagina": 0,
+   "antejardin_m_documento": "Enmienda del Plan Regulador Comunal de Paine (D.O. 23-02-2019)",
+   "antejardin_m_texto": "en la celda que dice \"10\" debe decir \"3\"",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "vivienda 1000 0,6 1,2 A 8 2",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Para emplazar nuevos destinos o usos, el cuadro exige predios mayores según el destino (columna «Requisito»)."
+    },
+    {
+     "campo": "zona",
+     "texto": "No se permiten estaciones de distribución de combustibles ni centros de servicio automotor a menos de 50 m de equipamientos de salud, educación y seguridad; deben ser aisladas con 10 m a los deslindes."
+    }
+   ]
+  }
+ ]
+}

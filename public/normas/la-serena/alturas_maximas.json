@@ -1,0 +1,442 @@
+{
+  "norma": "Altura máxima de edificación por zona",
+  "documento": "Ordenanza Local, Actualización Plan Regulador Comunal de La Serena 2020",
+  "url": "https://transparencia.laserena.cl/documentos/doc_65__21122020091456.pdf",
+  "extraido": "2026-09-26",
+  "metodo": "Texto extraído del PDF oficial; cada página se valida contra el encabezado de su zona.",
+  "alcance": "Referencia volumétrica. No considera rasantes, distanciamientos, adosamientos ni edificación aislada sobre continuidad (Art. 4º), que se verifican aparte.",
+  "zonas": [
+    {
+      "zona": "ZCH-1",
+      "altura_m": 14.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 14 m",
+      "pagina": 56,
+      "seccion": "c.2.3) Zonas de Conservación Histórica",
+      "nota": null
+    },
+    {
+      "zona": "ZCH-2",
+      "altura_m": 12.0,
+      "pisos": 3,
+      "texto": "Altura máxima de edificación 12m y 3 pisos",
+      "pagina": 57,
+      "seccion": "c.2.3) Zonas de Conservación Histórica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-1",
+      "altura_m": 14.0,
+      "pisos": 4,
+      "texto": "Altura máxima de edificación 14m y 4 pisos",
+      "pagina": 46,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-2",
+      "altura_m": 11.0,
+      "pisos": 3,
+      "texto": "Altura máxima de edificación 11m y 3 pisos",
+      "pagina": 47,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-3",
+      "altura_m": 20.0,
+      "pisos": 6,
+      "texto": "Altura máxima de edificación 20m y 6 pisos",
+      "pagina": 48,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-4",
+      "altura_m": 14.0,
+      "pisos": 4,
+      "texto": "Altura máxima de edificación 14m y 4 pisos",
+      "pagina": 49,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-5A",
+      "altura_m": 9.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación Subzona ZPT-5-A 9m",
+      "pagina": 50,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-5B",
+      "altura_m": 10.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación Subzona ZPT-5-B 10m",
+      "pagina": 50,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-5C",
+      "altura_m": 7.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación Subzona ZPT-5-C 7m",
+      "pagina": 50,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-5D",
+      "altura_m": 7.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación Subzona ZPT-5-D 7m",
+      "pagina": 50,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-5E",
+      "altura_m": 9.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación Subzona ZPT-5-E 9m",
+      "pagina": 50,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-5F",
+      "altura_m": 7.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación Subzona ZPT-5-F 7m",
+      "pagina": 50,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-6",
+      "altura_m": 14.0,
+      "pisos": 4,
+      "texto": "Altura máxima de edificación 14m y 4 pisos",
+      "pagina": 51,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-7",
+      "altura_m": 8.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 8m",
+      "pagina": 52,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-8",
+      "altura_m": 21.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 21m",
+      "pagina": 53,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZPT-9",
+      "altura_m": 14.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 14m",
+      "pagina": 54,
+      "seccion": "c.2.1) ZPT Zona Típica",
+      "nota": null
+    },
+    {
+      "zona": "ZU-10A",
+      "altura_m": 22.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 22m",
+      "pagina": 27,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-10B",
+      "altura_m": 22.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 22m",
+      "pagina": 28,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-11A",
+      "altura_m": 14.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 14m",
+      "pagina": 29,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-11B",
+      "altura_m": 14.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 14m",
+      "pagina": 30,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-11C",
+      "altura_m": 14.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 14m",
+      "pagina": 31,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-12",
+      "altura_m": 9.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 9m",
+      "pagina": 32,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-13",
+      "altura_m": 18.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 18m",
+      "pagina": 33,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-14A",
+      "altura_m": 9.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 9m",
+      "pagina": 34,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-14B",
+      "altura_m": 9.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 9m",
+      "pagina": 35,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-14C",
+      "altura_m": 9.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 9m",
+      "pagina": 36,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-14D",
+      "altura_m": 9.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 9m",
+      "pagina": 37,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-15",
+      "altura_m": 14.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 14m",
+      "pagina": 38,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-16",
+      "altura_m": 14.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 14m",
+      "pagina": 39,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-17",
+      "altura_m": 14.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 14m",
+      "pagina": 40,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-18",
+      "altura_m": 14.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 14m",
+      "pagina": 41,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-19",
+      "altura_m": 30.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 30m",
+      "pagina": 42,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-1A",
+      "altura_m": 13.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 13 m",
+      "pagina": 13,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-1B",
+      "altura_m": 11.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 11mt",
+      "pagina": 14,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-20",
+      "altura_m": 14.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 14m",
+      "pagina": 43,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-2A",
+      "altura_m": 14.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 14m",
+      "pagina": 15,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-2B",
+      "altura_m": 22.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 22m",
+      "pagina": 16,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-3",
+      "altura_m": 13.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 13m",
+      "pagina": 17,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-4A",
+      "altura_m": 14.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 14m",
+      "pagina": 18,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-4B",
+      "altura_m": 22.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 22m",
+      "pagina": 19,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-5A",
+      "altura_m": 9.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 9m",
+      "pagina": 20,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-5B",
+      "altura_m": 9.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 9m",
+      "pagina": 21,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-6A",
+      "altura_m": 9.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 9m",
+      "pagina": 22,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-6B",
+      "altura_m": 9.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 9m",
+      "pagina": 23,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-7",
+      "altura_m": 26.4,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 26,4m",
+      "pagina": 24,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-7a",
+      "altura_m": 26.4,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 26,4m",
+      "pagina": 24,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": "Subzona ZU-7a: rigen las normas de ZU-7 salvo usos prohibidos (misma página)."
+    },
+    {
+      "zona": "ZU-8",
+      "altura_m": 8.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 8m",
+      "pagina": 25,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    },
+    {
+      "zona": "ZU-9",
+      "altura_m": 18.0,
+      "pisos": null,
+      "texto": "Altura máxima de edificación 18m",
+      "pagina": 26,
+      "seccion": "Artículo 17º Normas urbanísticas por zona",
+      "nota": null
+    }
+  ]
+}

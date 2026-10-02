@@ -1,0 +1,172 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Pudahuel (D.A. N° 205 de 26-01-2021, D.O. 05-02-2021), versión con el timbre del Ord. N° 206 de la SEREMI Metropolitana de Vivienda y Urbanismo que publica la Municipalidad",
+ "url": "https://media.mpudahuel.cl/web/media/documentos/2023/11/2-0-ordenanza-local.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "A",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "EQUIPAMIENTO Aislado, Pareado, Continuo 10.5 0.8 2.0",
+   "pagina": 15,
+   "seccion": "Art. 13, Zona A",
+   "nota": null
+  },
+  {
+   "zona": "B",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "RESIDENCIAL Aislado, Pareado, Continuo 8.0 0.7 1.5",
+   "pagina": 16,
+   "seccion": "Art. 13, Zona B",
+   "nota": null
+  },
+  {
+   "zona": "C",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "RESIDENCIAL Aislado, Pareado 8.0 0.6 1.2",
+   "pagina": 17,
+   "seccion": "Art. 13, Zona C",
+   "nota": null
+  },
+  {
+   "zona": "D",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "EQUIPAMIENTO Aislado 8.0 0.5 1.2",
+   "pagina": 18,
+   "seccion": "Art. 13, Zona D",
+   "nota": null
+  },
+  {
+   "zona": "E",
+   "altura_m": 20.0,
+   "pisos": null,
+   "texto": "EQUIPAMIENTO Aislado 20.0 0.6 3.0",
+   "pagina": 19,
+   "seccion": "Art. 13, Zona E",
+   "nota": null
+  },
+  {
+   "zona": "F",
+   "altura_m": 40.0,
+   "pisos": null,
+   "texto": "RESIDENCIAL Aislado 40.0 0.6 5.0",
+   "pagina": 20,
+   "seccion": "Art. 13, Zona F",
+   "nota": null
+  },
+  {
+   "zona": "G",
+   "altura_m": 20.0,
+   "pisos": null,
+   "texto": "RESIDENCIAL Pareado y Continuo 20.0 0.7 3.0",
+   "pagina": 21,
+   "seccion": "Art. 13, Zona G",
+   "nota": null
+  },
+  {
+   "zona": "H",
+   "altura_m": 12.5,
+   "pisos": null,
+   "texto": "EQUIPAMIENTO Pareado y Continuo 12.5 1.0 4.9",
+   "pagina": 22,
+   "seccion": "Art. 13, Zona H",
+   "nota": null
+  },
+  {
+   "zona": "I",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "RESIDENCIAL Aislado, Pareado, Continuo 8.0 0.7 1.8",
+   "pagina": 23,
+   "seccion": "Art. 13, Zona I",
+   "nota": null
+  },
+  {
+   "zona": "J",
+   "altura_m": 12.5,
+   "pisos": null,
+   "texto": "ACTIVIDADES PRODUCTIVAS Aislado 12.5 0.8 3.2",
+   "pagina": 24,
+   "seccion": "Art. 13, Zona J",
+   "nota": null
+  },
+  {
+   "zona": "K",
+   "altura_m": 12.5,
+   "pisos": null,
+   "texto": "ACTIVIDADES PRODUCTIVAS Aislado 12.5 0.8 3.2",
+   "pagina": 25,
+   "seccion": "Art. 13, Zona K",
+   "nota": null
+  },
+  {
+   "zona": "L",
+   "altura_m": 12.5,
+   "pisos": null,
+   "texto": "EQUIPAMIENTO Aislado 12.5 0.7 3.5",
+   "pagina": 26,
+   "seccion": "Art. 13, Zona L",
+   "nota": null
+  },
+  {
+   "zona": "M",
+   "altura_m": 20.0,
+   "pisos": null,
+   "texto": "EQUIPAMIENTO Aislado 20.0 0.7 3.0",
+   "pagina": 27,
+   "seccion": "Art. 13, Zona M",
+   "nota": null
+  },
+  {
+   "zona": "N",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8",
+   "pagina": 28,
+   "seccion": "Art. 13, Zona N",
+   "nota": null
+  },
+  {
+   "zona": "N1",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8",
+   "pagina": 29,
+   "seccion": "Art. 13, Zona N1",
+   "nota": null
+  },
+  {
+   "zona": "N2",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "EQUIPAMIENTO Aislado 14.0 0.7 2.8",
+   "pagina": 30,
+   "seccion": "Art. 13, Zona N2",
+   "nota": null
+  },
+  {
+   "zona": "CE",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "ÁREA VERDE Aislado 3.5 -- 0.1",
+   "pagina": 31,
+   "seccion": "Art. 13, Zona Cementerio",
+   "nota": null
+  },
+  {
+   "zona": "INF",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "INFRAESTRUCTURA Aislado 7.0 0.8 2.0",
+   "pagina": 32,
+   "seccion": "Art. 13, Zona INF",
+   "nota": null
+  }
+ ]
+}

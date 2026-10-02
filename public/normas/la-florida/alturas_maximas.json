@@ -1,0 +1,109 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Texto Refundido Ordenanza Local Plan Regulador Comunal de La Florida (septiembre 2016)",
+ "url": "https://appx.laflorida.cl/transparencia/documentacion/Ordenanza_Local_Vigente_PRCLF.pdf",
+ "extraido": "2026-09-30",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "E-AB1",
+   "altura_m": 8.4,
+   "pisos": null,
+   "texto": "0,78 8,40 Aislado",
+   "pagina": 41,
+   "seccion": "Artículo 30, Área E-AB1 Aislada baja densidad N° 1",
+   "nota": null
+  },
+  {
+   "zona": "E-AB2",
+   "altura_m": 8.4,
+   "pisos": null,
+   "texto": "Residencial 570 0,4 1,2 8,40 Aislado",
+   "pagina": 41,
+   "seccion": "Artículo 30, Área E-AB2 Aislada baja densidad N° 2",
+   "nota": null
+  },
+  {
+   "zona": "E-AB3",
+   "altura_m": 8.4,
+   "pisos": null,
+   "texto": "1,56 8,40 Aislado",
+   "pagina": 42,
+   "seccion": "Artículo 30, Área E-AB3 Aislada baja densidad N° 3",
+   "nota": null
+  },
+  {
+   "zona": "E-AB4",
+   "altura_m": 8.4,
+   "pisos": null,
+   "texto": "1,95 8,40 Aislado",
+   "pagina": 42,
+   "seccion": "Artículo 30, Área E-AB4 Aislada baja densidad N° 4",
+   "nota": null
+  },
+  {
+   "zona": "E-AB5",
+   "altura_m": 8.4,
+   "pisos": null,
+   "texto": "1,95 8,40 Aislado",
+   "pagina": 43,
+   "seccion": "Artículo 30, Área E-AB5 Aislada baja densidad N° 5",
+   "nota": null
+  },
+  {
+   "zona": "E-AM1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "1,56 10,5 Aislado",
+   "pagina": 43,
+   "seccion": "Artículo 30, Área E-AM1 Aislada media densidad N° 1",
+   "nota": null
+  },
+  {
+   "zona": "E-AM2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "1,56 * 10,5 ** Aislado",
+   "pagina": 44,
+   "seccion": "Artículo 30, Área E-AM2 Aislada media densidad N° 2",
+   "nota": null
+  },
+  {
+   "zona": "E-AM3",
+   "altura_m": 14.4,
+   "pisos": null,
+   "texto": "2,08 14,4 Aislado",
+   "pagina": 44,
+   "seccion": "Artículo 30, Área E-AM3 Aislada media densidad N° 3",
+   "nota": null
+  },
+  {
+   "zona": "E-AM4",
+   "altura_m": 11.4,
+   "pisos": null,
+   "texto": "Residencial 200 0,7 2,1 11,4",
+   "pagina": 45,
+   "seccion": "Artículo 30, Área E-AM4 Aislada media densidad N° 4",
+   "nota": null
+  },
+  {
+   "zona": "E-AA1",
+   "altura_m": 22,
+   "pisos": null,
+   "texto": "2,2 22,0 Aislado",
+   "pagina": 45,
+   "seccion": "Artículo 30, Área E-AA1 Aislada alta densidad N° 1",
+   "nota": null
+  },
+  {
+   "zona": "E-AA2",
+   "altura_m": 46,
+   "pisos": null,
+   "texto": "3,2 46,0 Aislado",
+   "pagina": 46,
+   "seccion": "Artículo 30, Área E-AA2 Aislada alta densidad N° 2",
+   "nota": null
+  }
+ ]
+}

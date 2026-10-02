@@ -1,0 +1,415 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Iquique (Decreto N° 184 de la Municipalidad de Iquique, D.O. 17-02-2025), texto oficial de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1211154",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "A-1",
+   "altura_m": 35,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 35 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (a) A-1, Zona Mixta Alta 1",
+   "nota": null
+  },
+  {
+   "zona": "A-2",
+   "altura_m": 35,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 35 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (b) A-2, Zona Mixta Alta 2",
+   "nota": null
+  },
+  {
+   "zona": "AM",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 21 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (c) AM, Zona Mixta Media Alta",
+   "nota": null
+  },
+  {
+   "zona": "BM-1",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (d) BM-1, Zona Mixta Media Baja 1",
+   "nota": null
+  },
+  {
+   "zona": "BM-2",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 21 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (e) BM-2, Zona Mixta Media Baja 2",
+   "nota": null
+  },
+  {
+   "zona": "BM-3",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (f) BM-3, Zona Mixta Media Baja 3",
+   "nota": null
+  },
+  {
+   "zona": "B-1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (g) B-1, Zona Mixta Baja 1",
+   "nota": null
+  },
+  {
+   "zona": "B-2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (h) B-2, Zona Mixta Baja 2",
+   "nota": null
+  },
+  {
+   "zona": "B-2.2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.1 Zonas Mixtas Residenciales Preferentes, (i) B-2.2, Zona Mixta Baja 2.2",
+   "nota": null
+  },
+  {
+   "zona": "EQ1",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 7 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (a) EQ1, Zona Equipamiento Preferente 1",
+   "nota": null
+  },
+  {
+   "zona": "EQ2.1",
+   "altura_m": 28,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 28 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (b) EQ2, subzona EQ2.1, Equipamiento Preferente 2.1",
+   "nota": null
+  },
+  {
+   "zona": "EQ2.2",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (b) EQ2, subzona EQ2.2, Equipamiento Preferente 2.2",
+   "nota": null
+  },
+  {
+   "zona": "EQ3",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (c) EQ3, Zona Equipamiento Preferente 3",
+   "nota": null
+  },
+  {
+   "zona": "ZEES",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (d) ZEES, Zona Especial Equipamiento de Seguridad",
+   "nota": null
+  },
+  {
+   "zona": "EQ+AM",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 21 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (e) EQ+AM, Zona Mixta Equipamiento Media Alta",
+   "nota": null
+  },
+  {
+   "zona": "EQ+BM",
+   "altura_m": 24,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 24 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (f) EQ+BM, Zona Mixta Equipamiento Media Baja",
+   "nota": null
+  },
+  {
+   "zona": "EQ+B1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (g) EQ+B, subzona EQ+B1, Mixta Equipamiento Baja 1",
+   "nota": null
+  },
+  {
+   "zona": "EQ+B2",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (g) EQ+B, subzona EQ+B2, Mixta Equipamiento Baja 2",
+   "nota": null
+  },
+  {
+   "zona": "EQ+R1",
+   "altura_m": 17.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 17,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (h) EQ+R1, Zona Equipamiento en Riesgo 1",
+   "nota": null
+  },
+  {
+   "zona": "EQ+R2",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 21 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (i) EQ+R2, Zona Equipamiento en Riesgo 2",
+   "nota": null
+  },
+  {
+   "zona": "EQ+C",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 21 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (j) EQ+C, Zona Equipamiento El Colorado",
+   "nota": null
+  },
+  {
+   "zona": "EQ+Bc",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 21 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (k) EQ+Bc, Zona Equipamiento en Borde Costero",
+   "nota": null
+  },
+  {
+   "zona": "EQ+Zf1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (l) EQ+Zf, Zona Equipamiento Zona Franca (cuadro común de las subzonas EQ+Zf1 y EQ+Zf2)",
+   "nota": null
+  },
+  {
+   "zona": "EQ+Zf2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.2 Zonas Mixtas Equipamientos Preferentes, (l) EQ+Zf, Zona Equipamiento Zona Franca (cuadro común de las subzonas EQ+Zf1 y EQ+Zf2)",
+   "nota": null
+  },
+  {
+   "zona": "ZP-I",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.3 Zonas de Actividades Productivas, (a) ZP-I, Zona Productiva Industrial",
+   "nota": null
+  },
+  {
+   "zona": "ZI-PM1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m / 3 pisos",
+   "pagina": 0,
+   "seccion": "Art. 2.1.5 Zonas de Impacto Intercomunal, (a) ZI-PM, subzona ZI-PM1",
+   "nota": null
+  },
+  {
+   "zona": "ZI-PM2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m / 3 pisos",
+   "pagina": 0,
+   "seccion": "Art. 2.1.5 Zonas de Impacto Intercomunal, (a) ZI-PM, subzona ZI-PM2",
+   "nota": null
+  },
+  {
+   "zona": "ZI-PC1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.5 Zonas de Impacto Intercomunal, (b) ZI-PC, subzona ZI-PC1",
+   "nota": null
+  },
+  {
+   "zona": "ZI-PC2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.1.5 Zonas de Impacto Intercomunal, (b) ZI-PC, subzona ZI-PC2",
+   "nota": null
+  },
+  {
+   "zona": "ZRE",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "pagina": 0,
+   "seccion": "Art. 2.1.9 Zonas de Restricción y Desarrollo Controlado, (a) ZRE, Zona Restricción a la Edificación",
+   "nota": null
+  },
+  {
+   "zona": "ZBC",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "pagina": 0,
+   "seccion": "Art. 2.1.9 Zonas de Restricción y Desarrollo Controlado, (c) ZBC, Zona de Borde Costero",
+   "nota": null
+  },
+  {
+   "zona": "D",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "pagina": 0,
+   "seccion": "Art. 2.1.9 Zonas de Restricción y Desarrollo Controlado, (d) D, Zona Desarrollo Controlado Reducido",
+   "nota": null
+  },
+  {
+   "zona": "ZRI",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "pagina": 0,
+   "seccion": "Art. 2.1.9 Zonas de Restricción y Desarrollo Controlado, (e) ZRI, Zona Resguardo de Infraestructura",
+   "nota": null
+  },
+  {
+   "zona": "ZDP",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "pagina": 0,
+   "seccion": "Art. 2.1.9 Zonas de Restricción y Desarrollo Controlado, (b) ZDP, Zona de Playa",
+   "nota": null
+  },
+  {
+   "zona": "ZT",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m / 3 pisos",
+   "pagina": 0,
+   "seccion": "Art. 2.3.1 (b) ZT, Zona Típica Calle Baquedano y Plaza Prat (Cuadro 6)",
+   "nota": null
+  },
+  {
+   "zona": "ZCH-S",
+   "altura_m": 17.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 17,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.3.2 Inmuebles y Zonas de Conservación Histórica, (b) ZCH-S, Zona de Conservación Histórica Ciudad Salitrera",
+   "nota": null
+  },
+  {
+   "zona": "ZCH-P",
+   "altura_m": 17.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 17,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.3.2 Inmuebles y Zonas de Conservación Histórica, (c) ZCH-P, Zona de Conservación Histórica Corredores Patrimoniales",
+   "nota": null
+  },
+  {
+   "zona": "ZCH-M",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.3.2 Inmuebles y Zonas de Conservación Histórica, (d) ZCH-M, Zona de Conservación Histórica Ciudad Salitrera El Morro",
+   "nota": null
+  },
+  {
+   "zona": "ZCH-E",
+   "altura_m": 17.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 17,5 m",
+   "pagina": 0,
+   "seccion": "Art. 2.3.2 Inmuebles y Zonas de Conservación Histórica, (e) ZCH-E, Zona de Conservación Histórica Especial",
+   "nota": null
+  },
+  {
+   "zona": "ZCH-T",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m / 3 pisos",
+   "pagina": 0,
+   "seccion": "Art. 2.3.2 Inmuebles y Zonas de Conservación Histórica, (f) ZCH-T, Zona de Conservación Histórica Contorno Zona Típica",
+   "nota": null
+  },
+  {
+   "zona": "ZVN-1",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación: 3,5 metros",
+   "pagina": 0,
+   "seccion": "Art. 2.3.3 Áreas de Protección de Recursos de Valor Natural, (a) ZVN-1, Zona de Valor Natural 1",
+   "nota": null
+  },
+  {
+   "zona": "ZVN-2",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación: 3,5 metros",
+   "pagina": 0,
+   "seccion": "Art. 2.3.3 Áreas de Protección de Recursos de Valor Natural, (b) ZVN-2, Zona de Valor Natural 2",
+   "nota": null
+  },
+  {
+   "zona": "ZPC",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "pagina": 0,
+   "seccion": "Art. 2.3.4 Zonas de Protección Costera, (a) ZPC, Zona Protección Costera",
+   "nota": null
+  },
+  {
+   "zona": "ZPC-1",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 3,5 m / 1 piso",
+   "pagina": 0,
+   "seccion": "Art. 2.3.4 Zonas de Protección Costera, (b) ZPC-1, Zona Protección Costera 1 (Remediación Ambiental)",
+   "nota": null
+  },
+  {
+   "zona": "ZPC-2",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 7 m / 2 pisos",
+   "pagina": 0,
+   "seccion": "Art. 2.3.4 Zonas de Protección Costera, (c) ZPC-2, Zona Protección Costera 2 (Playa Blanca)",
+   "nota": null
+  }
+ ]
+}

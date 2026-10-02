@@ -1,0 +1,2295 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Concepción (Decreto N° 148, D.O. 22-04-2004), cuadros refundidos de usos de suelo y edificación del Art. 45 según la 17ª Enmienda, Decreto N° 139 exento del 28-01-2026 de la Municipalidad de Concepción (aviso en el D.O. del 07-04-2026; texto completo publicado en el sitio municipal)",
+ "url": "https://concepcion.cl/wp-content/uploads/2026/02/01-DECRETO-N%C2%B0139-SECMUN.pdf",
+ "sha256": "b33f975c56cae6171ecb967f2d49d5510a11817d2950c4f5e3f3ef0655be420d",
+ "documentos_adicionales": {
+  "e2024": {
+   "documento": "16ª Enmienda del Plan Regulador Comunal de Concepción, Humedal Urbano Pichimapu (D.A. N° 1280 del 11-11-2024 de la Municipalidad de Concepción): zonas H3h y PPHU1 y Parque Humedal Urbano Pichimapu; PDF escaneado del sitio municipal",
+   "url": "https://concepcion.cl/wp-content/uploads/2025/09/D.A.-No1280-DE-2024.pdf",
+   "sha256": "3dabcd02792533691386111ae55152f6f796ddea1dd23906fa461ecd74e55921",
+   "fuente": "pdf_escaneado"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "cuerpos_salientes": {
+  "articulo": "Art. 36 (Enmienda 17 del Decreto N° 139/2026)",
+  "texto": "Los cuerpos salientes sobre el espacio Público se desarrollarán a partir de la línea oficial cuando coincida con la línea de edificación, a partir de los 3,5m de altura, y la proyección sobre el espacio público tendrá máximo 0,5m",
+  "pisos_superiores": "Los cuerpos salientes sobre la faja de antejardín se desarrollarán a partir de la línea de Edificación. La saliente se desarrollará a partir del segundo piso y su proyección sobre el antejardín será de máximo 1,5m",
+  "saliente_max_m": 0.5,
+  "altura_min_m": 3.5,
+  "solo_revision": true,
+  "pagina": 2
+ },
+ "zonas": [
+  {
+   "zona": "H1",
+   "pagina": 19,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 400 m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,6 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,25",
+   "coef_constructibilidad": 3.25,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16m equivalente a 5 pisos",
+   "altura_m": 16,
+   "antejardin_m_texto": "ANTEJARDÍN 4m",
+   "antejardin_m": 4,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 7,5 m y profundidad máxima 40% del deslinde (50 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "H1L",
+   "pagina": 20,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H1L",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 400 m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,6 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,25",
+   "coef_constructibilidad": 3.25,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10 m equivalente a 4 pisos",
+   "altura_m": 10,
+   "antejardin_m_texto": "ANTEJARDÍN 4m",
+   "antejardin_m": 4,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 3,5 m y profundidad máxima 40% del deslinde (50 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "H2",
+   "pagina": 21,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 200m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,50",
+   "coef_constructibilidad": 3.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "altura_m": 16,
+   "antejardin_m_texto": "ANTEJARDÍN 2,5 m",
+   "antejardin_m": 2.5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10 m y profundidad máxima 70% del deslinde (80 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "H3",
+   "pagina": 22,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H3",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 180 m2",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,50",
+   "coef_constructibilidad": 3.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "altura_m": 16,
+   "antejardin_m_texto": "ANTEJARDÍN 2,5m",
+   "antejardin_m": 2.5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10m y profundidad máxima 70% del deslinde (80 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "H3L",
+   "pagina": 23,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H3L",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 180 m2",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,8 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,8 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,8 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,50",
+   "coef_constructibilidad": 3.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10 m equivalente a 4 pisos",
+   "altura_m": 10,
+   "antejardin_m_texto": "ANTEJARDÍN 2,5m",
+   "antejardin_m": 2.5,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado y Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 5,5 m y profundidad máxima 70% del deslinde (80 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "H4",
+   "pagina": 24,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H4",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 200m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,50",
+   "coef_constructibilidad": 3.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "altura_m": 16,
+   "antejardin_m_texto": "ANTEJARDÍN 5m para actividad productiva 2,5m para resto de los usos",
+   "antejardin_m": 2.5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado para actividad productiva Aislado, Pareado, Continuo para el resto de los usos",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10m y profundidad máxima 70% del deslinde (80 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido sólo para actividad productiva Permitido para el resto de los usos»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino: «5m para actividad productiva 2,5m para resto de los usos»; la aplicación verifica el del resto de los usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino o del cuerpo: «Aislado para actividad productiva Aislado, Pareado, Continuo para el resto de los usos»."
+    }
+   ]
+  },
+  {
+   "zona": "H5",
+   "pagina": 25,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H5",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 200m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,8 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,8 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,8 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 6",
+   "coef_constructibilidad": 6,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 24m equivalente a 8 pisos",
+   "altura_m": 24,
+   "antejardin_m_texto": "ANTEJARDÍN 5m para actividad productiva 2,5 m para resto de los usos",
+   "antejardin_m": 2.5,
+   "pisos": 8,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado y Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10,0m y profundidad máxima 80% del deslinde (90 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido sólo para actividad productiva Permitido para el resto de los usos»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino: «5m para actividad productiva 2,5 m para resto de los usos»; la aplicación verifica el del resto de los usos."
+    }
+   ]
+  },
+  {
+   "zona": "H6",
+   "pagina": 26,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO CONSOLIDADO H6",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 700m2",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,7 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,7 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,7 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2,0",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15m equivalente a 5 pisos",
+   "altura_m": 15,
+   "antejardin_m_texto": "ANTEJARDÍN 5m",
+   "antejardin_m": 5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "H6a",
+   "pagina": 27,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO CONSOLIDADO H6A",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.000m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para el resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,5 para el resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para el resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1,0",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 6 m equivalente a 2 pisos",
+   "altura_m": 6,
+   "antejardin_m_texto": "ANTEJARDÍN 5m",
+   "antejardin_m": 5,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "Z-6.1",
+   "pagina": 28,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO CONSOLIDADO Z 6.1 Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 60m2",
+   "superficie_predial_minima_m2": 60,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15,5m equivalente a 5pisos",
+   "altura_m": 15.5,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "La Ordenanza no fija coeficiente de constructibilidad para esta zona (Libre)."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10m y profundidad máxima 70% del deslinde; la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "Z-6.3",
+   "pagina": 29,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO CONSOLIDADO Z 6.3 Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,6 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,5 para discoteca 0,6 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,6 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15,5m equivalente a 5pisos",
+   "altura_m": 15.5,
+   "antejardin_m_texto": "ANTEJARDÍN 2m",
+   "antejardin_m": 2,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 7m y profundidad máxima 50% del deslinde; la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "Z-7.1",
+   "pagina": 30,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO CONSOLIDADO Z 7.1 Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 200m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,8 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2,0",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10,5m equivalente a 4pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 7m y profundidad máxima 50% del deslinde; la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "H1LC",
+   "pagina": 31,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL H1LC",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 400 m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,6 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,25",
+   "coef_constructibilidad": 3.25,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10 m equivalente a 4 pisos",
+   "altura_m": 10,
+   "antejardin_m_texto": "ANTEJARDÍN 4 m",
+   "antejardin_m": 4,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 3,5m y profundidad máxima 40% del deslinde (50 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "H2C",
+   "pagina": 32,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL H2C",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,75 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,75 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,75 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,50",
+   "coef_constructibilidad": 3.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16,0 m equivalente a 5pisos",
+   "altura_m": 16,
+   "antejardin_m_texto": "ANTEJARDÍN 2,5 m",
+   "antejardin_m": 2.5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10,0 m y profundidad máxima 70 % del deslinde (80 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "H3C",
+   "pagina": 33,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL H3C",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 180 m2",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,8 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,8 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,8 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,50",
+   "coef_constructibilidad": 3.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "altura_m": 16,
+   "antejardin_m_texto": "ANTEJARDÍN 2,5m",
+   "antejardin_m": 2.5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10m y profundidad máxima 70% del deslinde (80 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "H4C",
+   "pagina": 34,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL H4C",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,75 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,75 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,75 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,50",
+   "coef_constructibilidad": 3.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "altura_m": 16,
+   "antejardin_m_texto": "ANTEJARDÍN 5m para actividad productiva 2,5 m para resto de los usos",
+   "antejardin_m": 2.5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10 m y profundidad máxima 70% del deslinde (80 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino: «5m para actividad productiva 2,5 m para resto de los usos»; la aplicación verifica el del resto de los usos."
+    }
+   ]
+  },
+  {
+   "zona": "H5C",
+   "pagina": 35,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL H5C",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 200m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,8 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,8 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,8 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 6,00",
+   "coef_constructibilidad": 6,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 24m equivalente a 8 pisos",
+   "altura_m": 24,
+   "antejardin_m_texto": "ANTEJARDÍN 2,5 m",
+   "antejardin_m": 2.5,
+   "pisos": 8,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10 m y profundidad máxima 80% del deslinde (90 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "HE1C",
+   "pagina": 36,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO HABITACIONAL EXPANSIÓN HE1C",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 700m2",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2,8",
+   "coef_constructibilidad": 2.8,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 18,5m equivalente a 6pisos",
+   "altura_m": 18.5,
+   "antejardin_m_texto": "ANTEJARDÍN 4,0m",
+   "antejardin_m": 4,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 18,5m y profundidad máxima 40% del deslinde (50 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Permitido solo para uso residencial Prohibido para el resto de los usos»."
+    }
+   ]
+  },
+  {
+   "zona": "HE3C",
+   "pagina": 37,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO HABITACIONAL EXPANSIÓN HE3C",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 315m2",
+   "superficie_predial_minima_m2": 315,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,6 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,5",
+   "coef_constructibilidad": 3.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "altura_m": 16,
+   "antejardin_m_texto": "ANTEJARDÍN 3m",
+   "antejardin_m": 3,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continua",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 7,5m y profundidad máxima 50% del deslinde (60 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "Z-6.1C",
+   "pagina": 38,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL Z 6.1C Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 60m2",
+   "superficie_predial_minima_m2": 60,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,75 para los restos de usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,5 para discoteca 0,75 para los restos de usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,75 para los restos de usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1,9",
+   "coef_constructibilidad": 1.9,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15,5m equivalente a 5pisos",
+   "altura_m": 15.5,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10m y profundidad máxima 70% del deslinde; la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "Z-7.1C",
+   "pagina": 39,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL Z 7.1C Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 200m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,9 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.9,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,5 para discoteca 0,9 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discoteca 0,9 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2,0",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10,5m equivalente a 4pisos",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 7m y profundidad máxima 50% del deslinde; la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "DR",
+   "pagina": 40,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO DENSIFICACIÓN RESIDENCIAL DR",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 400m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,6 para resto de los usos) y el proyecto se acoge al incentivo del Art. 40 (capa vegetal en la cubierta o patio interior de uso comunitario), que sube la ocupación a 0,6 para educación y 0,8 para el resto de los usos, la constructibilidad a 5 y la profundidad de continuidad al 80 % («al 0,8 coeficiente de ocupación de suelo para el resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 4,0",
+   "coef_constructibilidad": 4,
+   "coef_constructibilidad_max": 5,
+   "coef_constructibilidad_condicion": "el proyecto se acoge al incentivo del Art. 40 (capa vegetal en la cubierta o patio interior de uso comunitario), que sube la ocupación a 0,6 para educación y 0,8 para el resto de los usos, la constructibilidad a 5 y la profundidad de continuidad al 80 % («al 5 de coeficiente de constructibilidad»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m equivalente a 7 pisos",
+   "altura_m": 21,
+   "antejardin_m_texto": "ANTEJARDÍN 5m para actividad productiva 4m para el resto de los usos",
+   "antejardin_m": 4,
+   "pisos": 7,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado para actividad productiva Aislado, Pareado, Continuo para el resto de los usos",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 21 m y profundidad máxima 60% del deslinde (80 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido sólo para actividad productiva Permitido para el resto de los usos»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino: «5m para actividad productiva 4m para el resto de los usos»; la aplicación verifica el del resto de los usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino o del cuerpo: «Aislado para actividad productiva Aislado, Pareado, Continuo para el resto de los usos»."
+    }
+   ]
+  },
+  {
+   "zona": "CBD",
+   "pagina": 41,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO DENSIFICACIÓN CBD",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 400m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,8 para el resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,8 para el resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,8 para el resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5,0",
+   "coef_constructibilidad": 5,
+   "coef_constructibilidad_max": 6,
+   "coef_constructibilidad_condicion": "el proyecto se acoge al incentivo del Art. 40 (patio interior de uso comunitario o comercio en primer piso), que sube la constructibilidad a 6 y la profundidad de continuidad al 80 % («al 6 del coeficiente de constructibilidad»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21,0 m equivalente a 7 pisos",
+   "altura_m": 21,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "pisos": 7,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 21 m y profundidad máxima 60% del deslinde (80 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "HE1",
+   "pagina": 42,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO HABITACIONAL EXPANSIÓN HE1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 700m2",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2,8",
+   "coef_constructibilidad": 2.8,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 18,5m equivalente a 6pisos",
+   "altura_m": 18.5,
+   "antejardin_m_texto": "ANTEJARDÍN 4,0m",
+   "antejardin_m": 4,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 18,5m y profundidad máxima 40% del deslinde (50 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Permitido solo para uso residencial Prohibido para el resto de los usos»."
+    }
+   ]
+  },
+  {
+   "zona": "HE2",
+   "pagina": 43,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO HABITACIONAL EXPANSIÓN HE2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 600m2",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para el resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,5 para el resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para el resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2,5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 18,5m equivalente a 6pisos",
+   "altura_m": 18.5,
+   "antejardin_m_texto": "ANTEJARDÍN 4,0m",
+   "antejardin_m": 4,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 7,5m y profundidad máxima 30% del deslinde (40 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "HE3",
+   "pagina": 44,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO HABITACIONAL EXPANSIÓN HE3",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 315m2",
+   "superficie_predial_minima_m2": 315,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,6 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,5",
+   "coef_constructibilidad": 3.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "altura_m": 16,
+   "antejardin_m_texto": "ANTEJARDÍN 3m",
+   "antejardin_m": 3,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continua",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 7,5m y profundidad máxima 50% del deslinde (60 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "HE4",
+   "pagina": 45,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO HABITACIONAL EXPANSIÓN HE4",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 315m2",
+   "superficie_predial_minima_m2": 315,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para el resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,6 para el resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para el resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16m equivalente a 5 pisos",
+   "altura_m": 16,
+   "antejardin_m_texto": "ANTEJARDÍN 5m para actividad productiva 3m para el resto de los usos",
+   "antejardin_m": 3,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado solo para actividad productiva inofensiva Aislado, Pareado, Continuo para el resto de los usos",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 7,5m y profundidad máxima 60% del deslinde (70 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido para actividad productiva Permitido para resto de los usos»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino: «5m para actividad productiva 3m para el resto de los usos»; la aplicación verifica el del resto de los usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino o del cuerpo: «Aislado solo para actividad productiva inofensiva Aislado, Pareado, Continuo para el resto de los usos»."
+    }
+   ]
+  },
+  {
+   "zona": "ESB",
+   "pagina": 46,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS DE BARRIO ESB",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 300m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para el resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,6 para el resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para el resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 4,0",
+   "coef_constructibilidad": 4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21m equivalente a 7 pisos",
+   "altura_m": 21,
+   "antejardin_m_texto": "ANTEJARDÍN 5m para actividades productivas e infraestructura permitida 4m para resto de los usos",
+   "antejardin_m": 4,
+   "pisos": 7,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado para actividad productiva e infraestructura permitida Aislado, Pareado, Continuo para el resto de los usos",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 6 m y profundidad máxima 60% del deslinde (con el incentivo del Art. 40, 12 m (4 pisos) y 80 %); la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «No Permitido para actividad productiva e infraestructura permitida. Permitido para resto de los usos»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino: «5m para actividades productivas e infraestructura permitida 4m para resto de los usos»; la aplicación verifica el del resto de los usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino o del cuerpo: «Aislado para actividad productiva e infraestructura permitida Aislado, Pareado, Continuo para el resto de los usos»."
+    }
+   ]
+  },
+  {
+   "zona": "ESC1",
+   "pagina": 47,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS COMUNAL 1 ESC1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 400m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,6 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 4,0",
+   "coef_constructibilidad": 4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 27m equivalente a 9 pisos",
+   "altura_m": 27,
+   "antejardin_m_texto": "ANTEJARDÍN 5m para actividades productivas e infraestructura permitida 4m para resto de los usos",
+   "antejardin_m": 4,
+   "pisos": 9,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado para actividad productiva e infraestructura permitida Aislado, Pareado, Continuo para el resto de los usos",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 9 m y profundidad máxima 60% del deslinde (con el incentivo del Art. 40, 15 m (5 pisos) y 80 %); la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «No Permitido para actividad productiva e infraestructura permitida. Permitido para resto de los usos»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino: «5m para actividades productivas e infraestructura permitida 4m para resto de los usos»; la aplicación verifica el del resto de los usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino o del cuerpo: «Aislado para actividad productiva e infraestructura permitida Aislado, Pareado, Continuo para el resto de los usos»."
+    }
+   ]
+  },
+  {
+   "zona": "ESC2",
+   "pagina": 48,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS COMUNAL 2 ESC2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 700m2",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,6 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5,0",
+   "coef_constructibilidad": 5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 36 m equivalente a 12 pisos",
+   "altura_m": 36,
+   "antejardin_m_texto": "ANTEJARDÍN 5m para actividades productivas e infraestructura permitida 4m para resto de los usos",
+   "antejardin_m": 4,
+   "pisos": 12,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado para actividad productiva e infraestructura permitida Aislado, Pareado, Continuo para el resto de los usos",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 15 m y profundidad máxima 60% del deslinde (con el incentivo del Art. 40, 21 m (7 pisos) y 80 %); la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «No Permitido para actividad productiva e infraestructura permitida. Permitido para resto de los usos»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino: «5m para actividades productivas e infraestructura permitida 4m para resto de los usos»; la aplicación verifica el del resto de los usos."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino o del cuerpo: «Aislado para actividad productiva e infraestructura permitida Aislado, Pareado, Continuo para el resto de los usos»."
+    }
+   ]
+  },
+  {
+   "zona": "ESC2-1A",
+   "pagina": 49,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS COMUNAL 2 Subzona 1A ESC2-1A Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 700m2",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 1 resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 1,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 1 resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 1 resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5,0",
+   "coef_constructibilidad": 5,
+   "coef_constructibilidad_max": 6,
+   "coef_constructibilidad_condicion": "el proyecto se acoge al incentivo del Art. 40 (capa vegetal en la cubierta) («Aumento a 6,0 coeficiente de constructibilidad»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 36 m equivalente a 12 pisos",
+   "altura_m": 36,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "pisos": 12,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado sobre continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 21 m y profundidad máxima 100% del deslinde; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "altura",
+     "texto": "Altura máxima del cuerpo aislado sobre el continuo: 16 m equivalente a 5 pisos."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro exige un retranqueo de 4 m sobre piso 7; la aplicación no lo verifica."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino o del cuerpo: «Aislado sobre continuo»."
+    }
+   ]
+  },
+  {
+   "zona": "ESC2-1B",
+   "pagina": 50,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS COMUNAL 2 Subzona 1B ESC2-1B Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 700m2",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 1 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 1,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 1 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 1 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5,0",
+   "coef_constructibilidad": 5,
+   "coef_constructibilidad_max": 6,
+   "coef_constructibilidad_condicion": "el proyecto se acoge al incentivo del Art. 40 (capa vegetal en la cubierta) («Aumento a 6,0 coeficiente de constructibilidad»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 36 m equivalente a 12 pisos",
+   "altura_m": 36,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "pisos": 12,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado para actividad productiva e infraestructura permitida / Aislado, Pareado y Continuo para el resto de los usos",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 21 m y profundidad máxima 100% del deslinde; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro exige un retranqueo de 4 m sobre piso 7; la aplicación no lo verifica."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino o del cuerpo: «Aislado para actividad productiva e infraestructura permitida / Aislado, Pareado y Continuo para el resto de los usos»."
+    }
+   ]
+  },
+  {
+   "zona": "ESC2-1C",
+   "pagina": 51,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS COMUNAL 2 Subzona 1C ESC2-1C Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 700m2",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 1 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 1,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 1 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 1 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5,0",
+   "coef_constructibilidad": 5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 36 m equivalente a 12 pisos",
+   "altura_m": 36,
+   "antejardin_m_texto": "ANTEJARDÍN 4m",
+   "antejardin_m": 4,
+   "pisos": 12,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 21 m y profundidad máxima 100% del deslinde; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "ESC2-1D",
+   "pagina": 52,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS COMUNAL 2 Subzona 1D ESC2-1D Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 700m2",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,8 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,8 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,8 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 7,0",
+   "coef_constructibilidad": 7,
+   "coef_constructibilidad_max": 8,
+   "coef_constructibilidad_condicion": "el proyecto se acoge al incentivo del Art. 40 (capa vegetal en la cubierta) («Aumento a 8,0 coeficiente de constructibilidad»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 36 m equivalente a 12 pisos",
+   "altura_m": 36,
+   "antejardin_m_texto": "ANTEJARDÍN 4 m",
+   "antejardin_m": 4,
+   "pisos": 12,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 21 m y profundidad máxima 100% del deslinde; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "ESM",
+   "pagina": 53,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS METROPOLITANO ESM",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.000m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el proyecto se acoge al incentivo del Art. 40 (cubierta vegetal en la superficie del área libre) («Aumento a 0,5 de coeficiente de ocupación de suelo»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 4,0",
+   "coef_constructibilidad": 4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 45 m equivalente a 15 pisos",
+   "altura_m": 45,
+   "antejardin_m_texto": "ANTEJARDÍN 10 m",
+   "antejardin_m": 10,
+   "pisos": 15,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "CPH",
+   "pagina": 54,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO Y PLAZAS HISTÓRICAS CPH",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 350m2",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 1,
+   "coef_ocupacion_suelo_condicion": "el proyecto se acoge al incentivo del Art. 40 (capa vegetal en la cubierta o patio interior de uso comunitario), que sube la ocupación a 1 y la profundidad de continuidad al 100 % («a 1 coeficiente de ocupación de suelo»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5,0",
+   "coef_constructibilidad": 5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15 m equivalente a 5 pisos",
+   "altura_m": 15,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "pisos": 5,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 15 m y profundidad máxima 60% del deslinde (100 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "CPH1",
+   "pagina": 55,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO Y PLAZAS HISTÓRICAS CPH1 SUBZONA 1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 350m2",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 1,
+   "coef_ocupacion_suelo_condicion": "el proyecto se acoge al incentivo del Art. 40 (capa vegetal en la cubierta o patio interior de uso comunitario), que sube la ocupación a 1 y la profundidad de continuidad al 100 % («a 1 coeficiente de ocupación de suelo»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5,0",
+   "coef_constructibilidad": 5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15 m equivalente a 5 pisos",
+   "altura_m": 15,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "pisos": 5,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 15 m y profundidad máxima 60% del deslinde (100 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "CPH-MC",
+   "pagina": 56,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO Y PLAZAS HISTÓRICAS MONUMENTO HISTÓRICO MERCADO CENTRAL CPH-MC",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 1",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1,7",
+   "coef_constructibilidad": 1.7,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 20 m",
+   "altura_m": 20,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Continuo, Aislado sobre continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 6 m y profundidad máxima 100% del deslinde; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "altura",
+     "texto": "Altura máxima del cuerpo aislado sobre el continuo: 14m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro exige un retranqueo de 10 m sobre 6 metros de altura; la aplicación no lo verifica."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino o del cuerpo: «Continuo, Aislado sobre continuo»."
+    }
+   ]
+  },
+  {
+   "zona": "CPH-PC",
+   "pagina": 56,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO Y PLAZAS HISTÓRICAS MONUMENTO HISTÓRICOS PALACIO CASTELLÓN CPH -PC",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 1",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5,0",
+   "coef_constructibilidad": 5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 18 m",
+   "altura_m": 18,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 18m y profundidad máxima 100% del deslinde; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "CCC",
+   "pagina": 57,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO CÍVICO COMERCIAL Y DE SERVICIOS CCC",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 400m2",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,8 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.9,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,8 para resto de los usos) y el proyecto se acoge al incentivo del Art. 40 (apertura de espacio privado al uso público), que sube la ocupación a 0,6 para educación y 0,9 para el resto, la constructibilidad a 9, la altura de continuidad a 15 m y su profundidad al 100 % («a 0.9 coeficiente de ocupación de suelo para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5,0",
+   "coef_constructibilidad": 5,
+   "coef_constructibilidad_max": 9,
+   "coef_constructibilidad_condicion": "el proyecto se acoge al incentivo del Art. 40 (apertura de espacio privado al uso público), que sube la ocupación a 0,6 para educación y 0,9 para el resto, la constructibilidad a 9, la altura de continuidad a 15 m y su profundidad al 100 % («a 9,0 de coeficiente de constructibilidad»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 27 m equivalente a 9 pisos",
+   "altura_m": 27,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "pisos": 9,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado para actividad productiva e infraestructura permitida / Aislado, Pareado y Continuo para el resto de los usos",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 9 m equivalente a 3 pisos y profundidad máxima 60% del deslinde (con el incentivo del Art. 40, 15 m (5 pisos) y 100 %); la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido sólo para actividad productiva Permitido para el resto de los usos»."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento depende del destino o del cuerpo: «Aislado para actividad productiva e infraestructura permitida / Aislado, Pareado y Continuo para el resto de los usos»."
+    }
+   ]
+  },
+  {
+   "zona": "CCC-1A",
+   "pagina": 58,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO CÍVICO COMERCIAL Y DE SERVICIOS CCC Subzona 1A Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.500m2",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 1,0",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 6,0",
+   "coef_constructibilidad": 6,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 20 m equivalente a 6 pisos",
+   "altura_m": 20,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro exige un retranqueo de 7,5 m en primer y segundo nivel.; la aplicación no lo verifica."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "CCC-1B",
+   "pagina": 58,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO CÍVICO COMERCIAL Y DE SERVICIOS CCC Subzona 1B Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.500m2",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 1,0",
+   "coef_ocupacion_suelo": 1,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 6,0",
+   "coef_constructibilidad": 6,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 20 m equivalente a 6 pisos",
+   "altura_m": 20,
+   "antejardin_m_texto": "ANTEJARDÍN 5,0 m",
+   "antejardin_m": 5,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "CCC-1C",
+   "pagina": 59,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO CÍVICO COMERCIAL Y DE SERVICIOS CCC Subzona 1C Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.500m2",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,0",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m",
+   "altura_m": 16,
+   "antejardin_m_texto": "ANTEJARDÍN 30 m",
+   "antejardin_m": 30,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "CCC-2",
+   "pagina": 59,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO CÍVICO COMERCIAL Y DE SERVICIOS CCC Subzona 2 Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.000m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,5 para discotecas 0,6 para el resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.75,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,5 para discotecas 0,6 para el resto de los usos) y el proyecto se acoge al incentivo del Art. 40 (cubierta vegetal en la superficie del área libre), que sube la ocupación a 0,5 para educación, 0,6 para discotecas y 0,75 para el resto («a 0,75 coeficiente de ocupación de suelo para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 6,0",
+   "coef_constructibilidad": 6,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 27 m equivalente a 9 pisos",
+   "altura_m": 27,
+   "antejardin_m_texto": "ANTEJARDÍN 5m",
+   "antejardin_m": 5,
+   "pisos": 9,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "CCC-3",
+   "pagina": 60,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO CÍVICO COMERCIAL Y DE SERVICIOS CCC Subzona 3 Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 2.500m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 educación básica y media 0,5 para discotecas 1 para el resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 1,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 educación básica y media 0,5 para discotecas 1 para el resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 educación básica y media 0,5 para discotecas 1 para el resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5,0",
+   "coef_constructibilidad": 5,
+   "coef_constructibilidad_max": 6,
+   "coef_constructibilidad_condicion": "el proyecto se acoge al incentivo del Art. 40 (cubierta vegetal en la superficie del área libre) («Aumento a 6,0 coeficiente de constructibilidad»)",
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 27 m equivalente a 9pisos",
+   "altura_m": 27,
+   "antejardin_m_texto": "ANTEJARDÍN 10m",
+   "antejardin_m": 10,
+   "pisos": 9,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "FPEPS",
+   "pagina": 61,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA FRENTE A PARQUES Y EJES PEATONALES SUR FPEPS",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 350m2",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,6 para resto de los usos) y el proyecto se acoge al incentivo del Art. 40 (patio interior de uso comunitario o comercio en primer piso), que sube la ocupación a 0,6 para educación y 0,8 para el resto y la profundidad de continuidad al 80 % («a 0,8 de coeficiente de ocupación de suelo para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 4,0",
+   "coef_constructibilidad": 4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15 m equivalente a 5 pisos",
+   "altura_m": 15,
+   "antejardin_m_texto": "ANTEJARDÍN 4 m",
+   "antejardin_m": 4,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 15m y profundidad máxima 60% del deslinde (80 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "FPEPS-TEM",
+   "pagina": 62,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA FRENTE A PARQUES Y EJES PEATONALES SUR MONUMENTO HISTÓRICO TEATRO LICEO ENRIQUE MOLINA FPEPS-TEM",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2,0",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16,5 m",
+   "altura_m": 16.5,
+   "antejardin_m_texto": "ANTEJARDÍN 10 m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "EPN",
+   "pagina": 62,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA EJES PEATONALES NORTE EPN",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 350m2",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación básica y educación media 0,6 para resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación básica y educación media 0,6 para resto de los usos) y el proyecto se acoge al incentivo del Art. 40 (apertura del espacio privado al uso público y comercio en primer piso), que sube la ocupación a 0,6 para educación y 0,8 para el resto y la profundidad de continuidad al 80 % («a 0,8 coeficiente de ocupación de suelo para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 4,0",
+   "coef_constructibilidad": 4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m equivalente a 7 pisos",
+   "altura_m": 21,
+   "antejardin_m_texto": "ANTEJARDÍN No se exige",
+   "antejardin_m": 0,
+   "pisos": 7,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado y Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 21 m y profundidad máxima 60% del deslinde (80 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro exige un retranqueo de 4 m a partir del piso 2; la aplicación no lo verifica."
+    }
+   ]
+  },
+  {
+   "zona": "E1",
+   "pagina": 64,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO ESPARCIMIENTO E1",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.400 m2",
+   "superficie_predial_minima_m2": 1400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5,0",
+   "coef_constructibilidad": 5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN Libre",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN 5m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "E2",
+   "pagina": 64,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO EDUCACIONAL CAMPUES UNIVERSITARIO E2",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.400m2",
+   "superficie_predial_minima_m2": 1400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5,0",
+   "coef_constructibilidad": 5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN Libre",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN 5m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "E3",
+   "pagina": 65,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO SEGURIDAD E3",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.400m2",
+   "superficie_predial_minima_m2": 1400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 3,0",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN Libre",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN 12m",
+   "antejardin_m": 12,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "E4",
+   "pagina": 65,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO SALUD E4",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.400m2",
+   "superficie_predial_minima_m2": 1400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 10,0",
+   "coef_constructibilidad": 10,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN Libre",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN 5m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "E5A",
+   "pagina": 66,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO DEPORTIVO COMUNAL E5A",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 2.500m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1,0",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 35m",
+   "altura_m": 35,
+   "antejardin_m_texto": "ANTEJARDÍN 10m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "E5B",
+   "pagina": 66,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO DEPORTIVO DE BARRIO E5B",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.000m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0,1",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 6m equivalente a 2 pisos",
+   "altura_m": 6,
+   "antejardin_m_texto": "ANTEJARDÍN 5m",
+   "antejardin_m": 5,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "E6",
+   "pagina": 67,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO CULTURAL E6",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.000m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 5,0",
+   "coef_constructibilidad": 5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15 m equivalente a 5 pisos",
+   "altura_m": 15,
+   "antejardin_m_texto": "ANTEJARDÍN 4m",
+   "antejardin_m": 4,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 15 m y profundidad máxima 60% del deslinde; la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "MC",
+   "pagina": 67,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO MICROCENTRO DE BARRIO MC",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 200m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 4,0",
+   "coef_constructibilidad": 4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5 pisos",
+   "altura_m": 16,
+   "antejardin_m_texto": "ANTEJARDÍN 3m",
+   "antejardin_m": 3,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10m y profundidad máxima 70% del deslinde (80 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "Z-2.4",
+   "pagina": 68,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO DE BARRIO Z 2.4 Sector Ribera Norte",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 300m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación media y básica 0,5 para el resto de los usos",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,4 para educación media y básica 0,5 para el resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,4 para educación media y básica 0,5 para el resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2,0",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15,5m equivalente a 5pisos",
+   "altura_m": 15.5,
+   "antejardin_m_texto": "ANTEJARDÍN 5m",
+   "antejardin_m": 5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "PP",
+   "pagina": 68,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA PROTECCIÓN DE PAISAJE PP",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.400m2",
+   "superficie_predial_minima_m2": 1400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 1,0",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 13m equivalente a 4pisos",
+   "altura_m": 13,
+   "antejardin_m_texto": "ANTEJARDÍN 10m",
+   "antejardin_m": 10,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "PE",
+   "pagina": 69,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), PROTECCIÓN ECOLÓGICA PE",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.750m2",
+   "superficie_predial_minima_m2": 1750,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0,1",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 7,5m",
+   "altura_m": 7.5,
+   "antejardin_m_texto": "ANTEJARDÍN 10m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "La Ordenanza no fija coeficiente de ocupación de suelo para esta zona: solo admite espacio público y área verde (Arts. 2.1.30 y 2.1.31 de la OGUC)."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "P",
+   "pagina": 69,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO INDUSTRIAL P",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 700m2",
+   "superficie_predial_minima_m2": 700,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2,5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN Libre",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN 5m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 7,5m y profundidad máxima 30% del deslinde; la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "PI",
+   "pagina": 70,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA INFRAESTRUCTURA PI",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.400m2",
+   "superficie_predial_minima_m2": 1400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0,4",
+   "coef_constructibilidad": 0.4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN Libre",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN 5 m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "PIa",
+   "pagina": 71,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA INFRAESTRUCTURA PIa",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 1.400m2",
+   "superficie_predial_minima_m2": 1400,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0,4",
+   "coef_constructibilidad": 0.4,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN Libre",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "ANTEJARDÍN 5 m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "adosamiento",
+     "texto": "Adosamiento: «Prohibido»."
+    }
+   ]
+  },
+  {
+   "zona": "H3h",
+   "pagina": 3,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadro agregado por el N° 5.A del D.A. N° 1280/2024, BARRIO RESIDENCIAL H3h",
+   "documento": "16ª Enmienda del Plan Regulador Comunal de Concepción, Humedal Urbano Pichimapu (D.A. N° 1280 del 11-11-2024 de la Municipalidad de Concepción): zonas H3h y PPHU1 y Parque Humedal Urbano Pichimapu; PDF escaneado del sitio municipal",
+   "url": "https://concepcion.cl/wp-content/uploads/2025/09/D.A.-No1280-DE-2024.pdf",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 180 m2",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0,28 para educación básica y educación media 0,35 para discoteca 0,56 para resto de los usos",
+   "coef_ocupacion_suelo": 0.28,
+   "coef_ocupacion_suelo_max": 0.56,
+   "coef_ocupacion_suelo_condicion": "según el destino (0,28 para educación básica y educación media, 0,35 para discoteca, 0,56 para resto de los usos); la base es la cifra más estricta («COEFICIENTE DE OCUPACIÓN DE SUELO 0,28 para educación básica y educación media 0,35 para discoteca 0,56 para resto de los usos»)",
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 2,45",
+   "coef_constructibilidad": 2.45,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 12,8 m equivalente a 3pisos",
+   "altura_m": 12.8,
+   "antejardin_m_texto": "ANTEJARDÍN 2,5m",
+   "antejardin_m": 2.5,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona creada por la 16ª Enmienda (D.A. N° 1280/2024, Humedal Urbano Pichimapu), cuyo decreto se publicó escaneado; el Decreto N° 139/2026 (17ª Enmienda) no la incluye en sus cuadros refundidos."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 10 m y profundidad máxima 70 % del deslinde (80 % con el incentivo del Art. 40, cubierta vegetal en la superficie del área libre); la aplicación verifica la altura máxima de la zona."
+    }
+   ]
+  },
+  {
+   "zona": "PPHU1",
+   "pagina": 4,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadro agregado por el N° 5.B del D.A. N° 1280/2024, ZONA PROTECCIÓN DE PAISAJE PP HUMEDAL URBANO 1 PPHU1",
+   "documento": "16ª Enmienda del Plan Regulador Comunal de Concepción, Humedal Urbano Pichimapu (D.A. N° 1280 del 11-11-2024 de la Municipalidad de Concepción): zonas H3h y PPHU1 y Parque Humedal Urbano Pichimapu; PDF escaneado del sitio municipal",
+   "url": "https://concepcion.cl/wp-content/uploads/2025/09/D.A.-No1280-DE-2024.pdf",
+   "superficie_predial_minima_m2_texto": "SUPERFICIE PREDIAL MÍNIMA 180 m2",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "COEFICIENTE DE OCUPACIÓN DE SUELO 0.02",
+   "coef_ocupacion_suelo": 0.02,
+   "coef_constructibilidad_texto": "COEFICIENTE DE CONSTRUCTIBILIDAD 0.05",
+   "coef_constructibilidad": 0.05,
+   "altura_m_texto": "ALTURA MÁXIMA DE EDIFICACIÓN 5 m equivalente a 2 pisos",
+   "altura_m": 5,
+   "antejardin_m_texto": "ANTEJARDÍN 2,5m",
+   "antejardin_m": 2.5,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "SISTEMA DE AGRUPAMIENTO Aislado, Pareado, Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: Decreto N° 139/2026 (17ª Enmienda) publicado en el sitio de la Municipalidad de Concepción según aviso del Diario Oficial del 07-04-2026; no está en la BCN. Confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona creada por la 16ª Enmienda (D.A. N° 1280/2024, Humedal Urbano Pichimapu), cuyo decreto se publicó escaneado; el Decreto N° 139/2026 (17ª Enmienda) no la incluye en sus cuadros refundidos."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: altura máxima 3,5 m y profundidad máxima 70 % del deslinde (80 % con el incentivo del Art. 40); la aplicación verifica la altura máxima de la zona."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de protección de paisaje del Humedal Urbano Pichimapu (Res. Ex. MMA N° 520/2022): solo vivienda, equipamiento científico y de culto y cultura, y espacio público."
+    }
+   ]
+  }
+ ]
+}

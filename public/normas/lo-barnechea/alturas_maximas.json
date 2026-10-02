@@ -1,0 +1,586 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local de la Actualización del Plan Regulador Comunal de Lo Barnechea (D.A. N° 0970 de 09-10-2025, D.O. 30-10-2025), versión de texto que la Municipalidad publica junto a la versión firmada; rige el Área Urbana Sector Valle de Lo Barnechea (el Sector Centro Cordillera se rige por la Modificación N° 9 del PRC)",
+ "url": "https://lobarnechea.cl/wp-content/uploads/2025/10/ORDENANZA-LOCAL_SIN-FIRMA.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "ZHE-2-DC1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 2 pisos.",
+   "pagina": 20,
+   "seccion": "Art. 2.1.1, (i) ZHE-2-DC1,",
+   "nota": null
+  },
+  {
+   "zona": "ZHE-2-DC2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "pagina": 23,
+   "seccion": "Art. 2.1.1, (ii) ZHE-2-DC2,",
+   "nota": null
+  },
+  {
+   "zona": "ZHE-2-DC3",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "pagina": 26,
+   "seccion": "Art. 2.1.1, (iii) ZHE-2-DC3,",
+   "nota": null
+  },
+  {
+   "zona": "ZHE-2.1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "pagina": 28,
+   "seccion": "Art. 2.1.1, (i) ZHE-2.1,",
+   "nota": null
+  },
+  {
+   "zona": "ZHE-2.2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "pagina": 31,
+   "seccion": "Art. 2.1.1, (ii) ZHE-2.2,",
+   "nota": null
+  },
+  {
+   "zona": "ZHE-3",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 33,
+   "seccion": "Art. 2.1.1, (iii) ZHE-3,",
+   "nota": null
+  },
+  {
+   "zona": "ZHE-4a",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "pagina": 36,
+   "seccion": "Art. 2.1.1, para la subzona ZHE-4a",
+   "nota": null
+  },
+  {
+   "zona": "ZHE-4b",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "pagina": 37,
+   "seccion": "Art. 2.1.1, para la subzona ZHE-4b",
+   "nota": null
+  },
+  {
+   "zona": "ZHE-6",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "pagina": 38,
+   "seccion": "Art. 2.1.1, (v) ZHE-6,",
+   "nota": null
+  },
+  {
+   "zona": "ZHP-3.1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 41,
+   "seccion": "Art. 2.1.1, (i) ZHP-3.1,",
+   "nota": null
+  },
+  {
+   "zona": "ZHP-3.2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 43,
+   "seccion": "Art. 2.1.1, (ii) ZHP-3.2,",
+   "nota": null
+  },
+  {
+   "zona": "ZHP-4.1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación Residencial 10,5 m y 2 pisos Equipamiento 14 m y 4 pisos",
+   "pagina": 45,
+   "seccion": "Art. 2.1.1, (iii) ZHP-4.1,",
+   "nota": null
+  },
+  {
+   "zona": "ZHP-4.2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 48,
+   "seccion": "Art. 2.1.1, (iv) ZHP-4.2,",
+   "nota": null
+  },
+  {
+   "zona": "ZHP-4.3",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 51,
+   "seccion": "Art. 2.1.1, (v) ZHP-4.3,",
+   "nota": null
+  },
+  {
+   "zona": "ZHP-6.1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación Residencial 10,5 m y 2 pisos Equipamiento 14 m y 4 pisos",
+   "pagina": 53,
+   "seccion": "Art. 2.1.1, (vi) ZHP-6.1:",
+   "nota": null
+  },
+  {
+   "zona": "ZHP-6.2",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "pagina": 56,
+   "seccion": "Art. 2.1.1, (vii) ZHP-6.2",
+   "nota": null
+  },
+  {
+   "zona": "ZHP-8",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "pagina": 59,
+   "seccion": "Art. 2.1.1, (viii) ZHP-8:",
+   "nota": null
+  },
+  {
+   "zona": "ZHP-10",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "pagina": 62,
+   "seccion": "Art. 2.1.1, (ix) ZHP-10:",
+   "nota": null
+  },
+  {
+   "zona": "ZM-2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "pagina": 65,
+   "seccion": "Art. 2.1.1, (i) ZM-2",
+   "nota": null
+  },
+  {
+   "zona": "ZM-4.1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 67,
+   "seccion": "Art. 2.1.1, (ii) ZM-4.1,",
+   "nota": null
+  },
+  {
+   "zona": "ZM-4.2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 70,
+   "seccion": "Art. 2.1.1, (iii) ZM-4.2:",
+   "nota": null
+  },
+  {
+   "zona": "ZM-6a",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "pagina": 73,
+   "seccion": "Art. 2.1.1, para la subzona ZM-6a",
+   "nota": null
+  },
+  {
+   "zona": "ZM-6b",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "pagina": 76,
+   "seccion": "Art. 2.1.1, para la subzona ZM-6b",
+   "nota": null
+  },
+  {
+   "zona": "ZM-6c",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 78,
+   "seccion": "Art. 2.1.1, para la subzona ZM-6c",
+   "nota": null
+  },
+  {
+   "zona": "ZM-8",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "pagina": 81,
+   "seccion": "Art. 2.1.1, (v) ZM-8:",
+   "nota": null
+  },
+  {
+   "zona": "ZEP-8",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "pagina": 84,
+   "seccion": "Art. 2.1.1, (i) ZEP-8:",
+   "nota": null
+  },
+  {
+   "zona": "ZEP-12",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 21 m y 6 pisos",
+   "pagina": 87,
+   "seccion": "Art. 2.1.1, (ii) ZEP-12:",
+   "nota": null
+  },
+  {
+   "zona": "ZEE-3a",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 92,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3a",
+   "nota": null
+  },
+  {
+   "zona": "ZEE-3b",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 94,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3b",
+   "nota": null
+  },
+  {
+   "zona": "ZEE-3c",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 96,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3c",
+   "nota": null
+  },
+  {
+   "zona": "ZEE-3d",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 99,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3d",
+   "nota": null
+  },
+  {
+   "zona": "ZEE-3e",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 101,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3e",
+   "nota": null
+  },
+  {
+   "zona": "ZEE-3f",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 103,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3f",
+   "nota": null
+  },
+  {
+   "zona": "ZEE-3g",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 105,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3g",
+   "nota": null
+  },
+  {
+   "zona": "ZEE-3h",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 107,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3h",
+   "nota": null
+  },
+  {
+   "zona": "ZEE-3i",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación Equipamiento 10,5 m y 3 pisos Residencial 14 m y 4 pisos",
+   "pagina": 110,
+   "seccion": "Art. 2.1.1, para la subzona ZEE-3i",
+   "nota": null
+  },
+  {
+   "zona": "ZEE-4",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 14 m y 4 pisos",
+   "pagina": 113,
+   "seccion": "Art. 2.1.1, (iii) ZEE-4,",
+   "nota": null
+  },
+  {
+   "zona": "ZEE-6",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 21 m y 6 pisos",
+   "pagina": 115,
+   "seccion": "Art. 2.1.1, (iv) ZEE-6,",
+   "nota": null
+  },
+  {
+   "zona": "AVI3",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 3 pisos",
+   "pagina": 118,
+   "seccion": "Art. 2.1.1, - AVI3, Áreas Verdes Complementarias",
+   "nota": null
+  },
+  {
+   "zona": "ZERH",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 3,5 m y 1 piso",
+   "pagina": 120,
+   "seccion": "Art. 2.1.1, (i) ZERH,",
+   "nota": null
+  },
+  {
+   "zona": "ZIE-2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación 10,5 m y 2 pisos",
+   "pagina": 90,
+   "seccion": "Art. 2.1.1, (i) ZIE-2:",
+   "nota": null
+  },
+  {
+   "zona": "PA1",
+   "altura_m": 7.5,
+   "pisos": null,
+   "texto": "Altura máxima 2 pisos y 7,5 mts",
+   "pagina": 21,
+   "seccion": "Art. 55°, Zona PA1 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "PA2",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima 4 pisos y 14mts",
+   "pagina": 22,
+   "seccion": "Art. 55°, Zona PA2 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "PB1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima 3 pisos y 10,5 mts",
+   "pagina": 23,
+   "seccion": "Art. 55°, Zona PB1 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "PB2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima 3 pisos y 10,50 mts",
+   "pagina": 24,
+   "seccion": "Art. 55°, Zona PB2 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "PB3",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima 4 pisos y 14mts",
+   "pagina": 25,
+   "seccion": "Art. 55°, Zona PB3 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "PC1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima 2 pisos y 10,5 mts",
+   "pagina": 27,
+   "seccion": "Art. 55°, Zona PC1 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "QA1",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima 4 pisos y 14 mts",
+   "pagina": 28,
+   "seccion": "Art. 55°, Zona QA1 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "QA2",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima 6 pisos y 21 mts",
+   "pagina": 28,
+   "seccion": "Art. 55°, Zona QA2 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "QA3",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima 6 pisos y 21 mts",
+   "pagina": 29,
+   "seccion": "Art. 55°, Zona QA3 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "QB1",
+   "altura_m": 24.0,
+   "pisos": null,
+   "texto": "Altura máxima 7 pisos y 24 mts",
+   "pagina": 30,
+   "seccion": "Art. 55°, Zona QB1 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "QC1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima 2 pisos y 10,50 mts",
+   "pagina": 31,
+   "seccion": "Art. 55°, Zona QC1 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "RA1",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima 4 pisos y 14 mts",
+   "pagina": 32,
+   "seccion": "Art. 55°, Zona RA1 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "RA2",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "Altura máxima 6 pisos y 21 mts",
+   "pagina": 33,
+   "seccion": "Art. 55°, Zona RA2 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "SA1",
+   "altura_m": 28.0,
+   "pisos": null,
+   "texto": "Altura máxima 8 pisos y 28 mts",
+   "pagina": 34,
+   "seccion": "Art. 55°, Zona SA1 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "SB1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima 3 pisos y 10,5 mts",
+   "pagina": 35,
+   "seccion": "Art. 55°, Zona SB1 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "SB2",
+   "altura_m": 17.5,
+   "pisos": null,
+   "texto": "Altura máxima 5 pisos y 17,5 mts",
+   "pagina": 36,
+   "seccion": "Art. 55°, Zona SB2 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "SC1",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima 2 pisos y 7 mts",
+   "pagina": 37,
+   "seccion": "Art. 55°, Zona SC1 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "TB1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima 2 pisos y 10,50 mts",
+   "pagina": 38,
+   "seccion": "Art. 55°, Zona TB1 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "TB2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima 2 pisos y 10,50 mts",
+   "pagina": 39,
+   "seccion": "Art. 55°, Zona TB2 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "TC1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura máxima 2 pisos y 10,50 mts",
+   "pagina": 39,
+   "seccion": "Art. 55°, Zona TC1 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "ZE1",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima 1 piso y 3,5 mts",
+   "pagina": 40,
+   "seccion": "Art. 55°, Zona ZE1 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "ZE2",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima 1 piso y 3,5 mts",
+   "pagina": 41,
+   "seccion": "Art. 55°, Zona ZE2 (Modificación N° 9)",
+   "nota": null
+  },
+  {
+   "zona": "ZE3",
+   "altura_m": 3.5,
+   "pisos": null,
+   "texto": "Altura máxima 1 piso y 3,5 mts",
+   "pagina": 41,
+   "seccion": "Art. 55°, Zona ZE3 (Modificación N° 9)",
+   "nota": null
+  }
+ ]
+}

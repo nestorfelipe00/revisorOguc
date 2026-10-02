@@ -1,0 +1,879 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Copiapó (Decreto Alcaldicio N° 3.381 de 06-12-2002, D.O. 17-12-2002), texto actualizado de la BCN al 08-08-2011 (incluye la Enmienda del Art. 13 del Decreto N° 373/2005)",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=206008",
+ "sha256": "efc4fb99387ecd28bd9d16a022300aec3e7190d1c4fb12372e9d11607e004d8d",
+ "documentos_adicionales": {
+  "m373": {
+   "fuente": "bcn",
+   "documento": "Modificación del Plan Regulador Comunal de Copiapó, Zona B1 Sector Pueblo San Fernando, cambio de la Zona C a Zona B en los sectores Candelaria y Los Carrera, y Enmienda del Art. 13 Antejardines (Decreto N° 373 de 07-02-2005, D.O. 16-02-2005), texto de la BCN",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=235575",
+   "bcn_json": "https://nuevo.leychile.cl/servicios/Navegar/get_norma_json?idNorma=235575",
+   "sha256": "2f7168eb53eb92d6d5c3e4d9e5c304998fc4f3903f81063b625f9705fbb11937"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "Z-A",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona A, Área Central",
+   "superficie_predial_minima_m2_texto": "b) Superficie Predial Mínima 400 m2.",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 75% Otros Usos 100%",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda 75 %; otros usos 100 %); la base es la cifra más estricta («d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 75% Otros Usos 100%»)",
+   "coef_constructibilidad_texto": "e) Coeficiente Máximo de Constructibilidad 5,0",
+   "coef_constructibilidad": 5.0,
+   "altura_m_texto": "Para la edificación continua la altura mínima será de 7,00 m. y la máxima de 12,60 m.",
+   "altura_m": 12.6,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada o pareada, o aislada sobre la continua: la altura resulta de las rasantes del Art. 2.6.3 de la OGUC aplicadas desde los 12,60 m en los deslindes y desde el eje de la calle; la continua tiene altura mínima de 7 m y máxima de 12,60 m: «Sobre la construcción continua se permitirá la construcción aislada, cuya altura máxima resultará de la aplicación de las rasantes establecidas en el referido Artículo 2.6.3. de la Ordenanza General, a partir de los 12,60 m. en los deslindes laterales y de fondo, y desde el eje de la calle que enfrenta el predio. Este mismo procedimiento se aplicará para definir la altura máxima de la edificación aislada y pareada.»",
+   "incentivo_pagina": 0,
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "f) Sistema de Agrupamiento. Aislado, Pareado o Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Universidad, discoteca, estación de servicio, bomba de bencina, centro de reparación automotor, taller y almacenamiento inofensivos solo frente a calles de 20 m de ancho como mínimo; taller y almacenamiento inofensivos prohibidos en las Áreas Especiales y en el Crucero del Centro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Taller inofensivo y centro de reparación automotor 400 m²; discoteca, juegos electrónicos, billares, sala de espectáculos, supermercado, estación de servicio, bomba de bencina y bodega inofensiva 1.000 m²; frente predial mínimo 10 m (12 o 20 m para esos usos)."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Juegos electrónicos, billares, sala de espectáculos, discoteca, supermercado, estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva: 60 %."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Supermercado 3,5; juegos electrónicos, billares, sala de espectáculos, discoteca, estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva 1,0."
+    },
+    {
+     "campo": "altura",
+     "texto": "La faja de edificación continua en el deslinde común llega como máximo al 75 % de su profundidad para vivienda y al 100 % para otros usos."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 13: los antejardines son opcionales; se exigen (3 m como mínimo) cuando ya existen en el mismo costado de la cuadra en más del 50 % de su largo, 15 m como mínimo frente a vías expresas (texto del Decreto 373/2005) y 6 m para los usos que exigen edificación aislada sin adosamiento. Verifique la cuadra y la vía."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Supermercado: aislado o pareado; juegos electrónicos, billares, sala de espectáculos, discoteca, estación de servicio, bomba de bencina, taller, centro de reparación automotor y bodega: aislado sin adosamiento (antejardín mínimo 6 m)."
+    }
+   ]
+  },
+  {
+   "zona": "Z-A1",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona A h), Sector Especial A 1, Crucero del Centro de Copiapó",
+   "hereda_de": "Z-A",
+   "hereda_texto": "se aplicarán todas las normas de la Zona A",
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "2. Usos de Suelo Prohibidos Taller y Almacenamiento Inofensivos. 3. Sistema de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Dentro del sector rige además la Ordenanza Especial del Plano Seccional Área Central, cuyo texto no está publicado en la BCN ni en el sitio municipal: confirme sus condiciones con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Sector Especial A 1 Crucero del Centro: entre Maipú y Colipí (de Av. de Circunvalación a Chañarcillo) y entre Infante y Atacama (de la Alameda a Av. Henríquez); taller y almacenamiento inofensivos prohibidos."
+    },
+    {
+     "campo": "zona",
+     "texto": "Universidad, discoteca, estación de servicio, bomba de bencina, centro de reparación automotor, taller y almacenamiento inofensivos solo frente a calles de 20 m de ancho como mínimo; taller y almacenamiento inofensivos prohibidos en las Áreas Especiales y en el Crucero del Centro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Taller inofensivo y centro de reparación automotor 400 m²; discoteca, juegos electrónicos, billares, sala de espectáculos, supermercado, estación de servicio, bomba de bencina y bodega inofensiva 1.000 m²; frente predial mínimo 10 m (12 o 20 m para esos usos)."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Juegos electrónicos, billares, sala de espectáculos, discoteca, supermercado, estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva: 60 %."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Supermercado 3,5; juegos electrónicos, billares, sala de espectáculos, discoteca, estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva 1,0."
+    },
+    {
+     "campo": "altura",
+     "texto": "La faja de edificación continua en el deslinde común llega como máximo al 75 % de su profundidad para vivienda y al 100 % para otros usos."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 13: los antejardines son opcionales; se exigen (3 m como mínimo) cuando ya existen en el mismo costado de la cuadra en más del 50 % de su largo, 15 m como mínimo frente a vías expresas (texto del Decreto 373/2005) y 6 m para los usos que exigen edificación aislada sin adosamiento. Verifique la cuadra y la vía."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Supermercado: aislado o pareado; juegos electrónicos, billares, sala de espectáculos, discoteca, estación de servicio, bomba de bencina, taller, centro de reparación automotor y bodega: aislado sin adosamiento (antejardín mínimo 6 m)."
+    }
+   ],
+   "superficie_predial_minima_m2": 400,
+   "superficie_predial_minima_m2_texto": "b) Superficie Predial Mínima 400 m2.",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "antejardin_m"
+   ],
+   "coef_ocupacion_suelo": 0.75,
+   "coef_ocupacion_suelo_texto": "d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 75% Otros Usos 100%",
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda 75 %; otros usos 100 %); la base es la cifra más estricta («d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 75% Otros Usos 100%»)",
+   "coef_constructibilidad": 5.0,
+   "coef_constructibilidad_texto": "e) Coeficiente Máximo de Constructibilidad 5,0",
+   "altura_m": 12.6,
+   "altura_m_texto": "Para la edificación continua la altura mínima será de 7,00 m. y la máxima de 12,60 m.",
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada o pareada, o aislada sobre la continua: la altura resulta de las rasantes del Art. 2.6.3 de la OGUC aplicadas desde los 12,60 m en los deslindes y desde el eje de la calle; la continua tiene altura mínima de 7 m y máxima de 12,60 m: «Sobre la construcción continua se permitirá la construcción aislada, cuya altura máxima resultará de la aplicación de las rasantes establecidas en el referido Artículo 2.6.3. de la Ordenanza General, a partir de los 12,60 m. en los deslindes laterales y de fondo, y desde el eje de la calle que enfrenta el predio. Este mismo procedimiento se aplicará para definir la altura máxima de la edificación aislada y pareada.»",
+   "incentivo_pagina": 0,
+   "antejardin_m": 0
+  },
+  {
+   "zona": "Z-A2",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona A h), Sector de Conservación A 2, Alameda Manuel Antonio Matta, Estación de Ferrocarriles",
+   "altura_m_texto": "Altura de Edificación Mínima 6,00 m., Máxima 12,60 m. Dentro de este Sector rige la Ordenanza Especial del Plano Seccional Barrio Histórico",
+   "altura_m": 12.6,
+   "hereda_de": "Z-A",
+   "hereda_texto": "se aplicarán todas las normas de la Zona A",
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo 3. Altura de Edificación Mínima 6,00 m., Máxima 12,60 m. Dentro de este Sector rige la Ordenanza Especial del Plano Seccional Barrio Histórico",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Dentro del sector rige además la Ordenanza Especial del Plano Seccional Barrio Histórico, cuyo texto no está publicado en la BCN ni en el sitio municipal: confirme sus condiciones con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Altura mínima de edificación 6 m. El sector contiene los Monumentos Históricos de la Estación de Ferrocarriles y la Casa de los Empleados y la Zona Típica de la Estación: autorización del Consejo de Monumentos Nacionales (Arts. 19 y 20)."
+    },
+    {
+     "campo": "zona",
+     "texto": "Universidad, discoteca, estación de servicio, bomba de bencina, centro de reparación automotor, taller y almacenamiento inofensivos solo frente a calles de 20 m de ancho como mínimo; taller y almacenamiento inofensivos prohibidos en las Áreas Especiales y en el Crucero del Centro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Taller inofensivo y centro de reparación automotor 400 m²; discoteca, juegos electrónicos, billares, sala de espectáculos, supermercado, estación de servicio, bomba de bencina y bodega inofensiva 1.000 m²; frente predial mínimo 10 m (12 o 20 m para esos usos)."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Juegos electrónicos, billares, sala de espectáculos, discoteca, supermercado, estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva: 60 %."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Supermercado 3,5; juegos electrónicos, billares, sala de espectáculos, discoteca, estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva 1,0."
+    },
+    {
+     "campo": "altura",
+     "texto": "La faja de edificación continua en el deslinde común llega como máximo al 75 % de su profundidad para vivienda y al 100 % para otros usos."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 13: los antejardines son opcionales; se exigen (3 m como mínimo) cuando ya existen en el mismo costado de la cuadra en más del 50 % de su largo, 15 m como mínimo frente a vías expresas (texto del Decreto 373/2005) y 6 m para los usos que exigen edificación aislada sin adosamiento. Verifique la cuadra y la vía."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Supermercado: aislado o pareado; juegos electrónicos, billares, sala de espectáculos, discoteca, estación de servicio, bomba de bencina, taller, centro de reparación automotor y bodega: aislado sin adosamiento (antejardín mínimo 6 m)."
+    }
+   ],
+   "superficie_predial_minima_m2": 400,
+   "superficie_predial_minima_m2_texto": "b) Superficie Predial Mínima 400 m2.",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "antejardin_m"
+   ],
+   "coef_ocupacion_suelo": 0.75,
+   "coef_ocupacion_suelo_texto": "d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 75% Otros Usos 100%",
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda 75 %; otros usos 100 %); la base es la cifra más estricta («d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 75% Otros Usos 100%»)",
+   "coef_constructibilidad": 5.0,
+   "coef_constructibilidad_texto": "e) Coeficiente Máximo de Constructibilidad 5,0",
+   "antejardin_m": 0
+  },
+  {
+   "zona": "Z-A3",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona A h), Sector de Conservación A 3, Plaza de Armas",
+   "altura_m_texto": "Altura de Edificación Única 12,60 m",
+   "altura_m": 12.6,
+   "hereda_de": "Z-A",
+   "hereda_texto": "se aplicarán todas las normas de la Zona A",
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo 3. Altura de Edificación Única 12,60 m",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Dentro del sector rige además la Ordenanza Especial del Plano Seccional Área Central, cuyo texto no está publicado en la BCN ni en el sitio municipal: confirme sus condiciones con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Altura única de 12,60 m (no menor). La Catedral, las casas parroquiales y la ex Municipalidad son Monumentos Históricos: autorización del Consejo de Monumentos Nacionales (Arts. 19 y 20)."
+    },
+    {
+     "campo": "zona",
+     "texto": "Universidad, discoteca, estación de servicio, bomba de bencina, centro de reparación automotor, taller y almacenamiento inofensivos solo frente a calles de 20 m de ancho como mínimo; taller y almacenamiento inofensivos prohibidos en las Áreas Especiales y en el Crucero del Centro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Taller inofensivo y centro de reparación automotor 400 m²; discoteca, juegos electrónicos, billares, sala de espectáculos, supermercado, estación de servicio, bomba de bencina y bodega inofensiva 1.000 m²; frente predial mínimo 10 m (12 o 20 m para esos usos)."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Juegos electrónicos, billares, sala de espectáculos, discoteca, supermercado, estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva: 60 %."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Supermercado 3,5; juegos electrónicos, billares, sala de espectáculos, discoteca, estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva 1,0."
+    },
+    {
+     "campo": "altura",
+     "texto": "La faja de edificación continua en el deslinde común llega como máximo al 75 % de su profundidad para vivienda y al 100 % para otros usos."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 13: los antejardines son opcionales; se exigen (3 m como mínimo) cuando ya existen en el mismo costado de la cuadra en más del 50 % de su largo, 15 m como mínimo frente a vías expresas (texto del Decreto 373/2005) y 6 m para los usos que exigen edificación aislada sin adosamiento. Verifique la cuadra y la vía."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Supermercado: aislado o pareado; juegos electrónicos, billares, sala de espectáculos, discoteca, estación de servicio, bomba de bencina, taller, centro de reparación automotor y bodega: aislado sin adosamiento (antejardín mínimo 6 m)."
+    }
+   ],
+   "superficie_predial_minima_m2": 400,
+   "superficie_predial_minima_m2_texto": "b) Superficie Predial Mínima 400 m2.",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "antejardin_m"
+   ],
+   "coef_ocupacion_suelo": 0.75,
+   "coef_ocupacion_suelo_texto": "d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 75% Otros Usos 100%",
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda 75 %; otros usos 100 %); la base es la cifra más estricta («d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 75% Otros Usos 100%»)",
+   "coef_constructibilidad": 5.0,
+   "coef_constructibilidad_texto": "e) Coeficiente Máximo de Constructibilidad 5,0",
+   "antejardin_m": 0
+  },
+  {
+   "zona": "Z-A4",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona A h), Sector Especial A 4, De Enlace Peatonal",
+   "altura_m_texto": "2. Sistema de agrupamiento Continuo. 3. Altura de Edificación Mínima 6,00 m., Máxima 12,60 m.",
+   "altura_m": 12.6,
+   "hereda_de": "Z-A",
+   "hereda_texto": "se aplicarán todas las normas de la Zona A",
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Continuo. 3. Altura de Edificación Mínima 6,00 m., Máxima 12,60 m. Dentro de este Sector rige la Ordenanza Especial del Plano Seccional Área Central",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Dentro del sector rige además la Ordenanza Especial del Plano Seccional Área Central, cuyo texto no está publicado en la BCN ni en el sitio municipal: confirme sus condiciones con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Altura mínima de edificación 6 m."
+    },
+    {
+     "campo": "zona",
+     "texto": "Universidad, discoteca, estación de servicio, bomba de bencina, centro de reparación automotor, taller y almacenamiento inofensivos solo frente a calles de 20 m de ancho como mínimo; taller y almacenamiento inofensivos prohibidos en las Áreas Especiales y en el Crucero del Centro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Taller inofensivo y centro de reparación automotor 400 m²; discoteca, juegos electrónicos, billares, sala de espectáculos, supermercado, estación de servicio, bomba de bencina y bodega inofensiva 1.000 m²; frente predial mínimo 10 m (12 o 20 m para esos usos)."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Juegos electrónicos, billares, sala de espectáculos, discoteca, supermercado, estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva: 60 %."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Supermercado 3,5; juegos electrónicos, billares, sala de espectáculos, discoteca, estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva 1,0."
+    },
+    {
+     "campo": "altura",
+     "texto": "La faja de edificación continua en el deslinde común llega como máximo al 75 % de su profundidad para vivienda y al 100 % para otros usos."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 13: los antejardines son opcionales; se exigen (3 m como mínimo) cuando ya existen en el mismo costado de la cuadra en más del 50 % de su largo, 15 m como mínimo frente a vías expresas (texto del Decreto 373/2005) y 6 m para los usos que exigen edificación aislada sin adosamiento. Verifique la cuadra y la vía."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Supermercado: aislado o pareado; juegos electrónicos, billares, sala de espectáculos, discoteca, estación de servicio, bomba de bencina, taller, centro de reparación automotor y bodega: aislado sin adosamiento (antejardín mínimo 6 m)."
+    }
+   ],
+   "superficie_predial_minima_m2": 400,
+   "superficie_predial_minima_m2_texto": "b) Superficie Predial Mínima 400 m2.",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "antejardin_m"
+   ],
+   "coef_ocupacion_suelo": 0.75,
+   "coef_ocupacion_suelo_texto": "d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 75% Otros Usos 100%",
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda 75 %; otros usos 100 %); la base es la cifra más estricta («d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 75% Otros Usos 100%»)",
+   "coef_constructibilidad": 5.0,
+   "coef_constructibilidad_texto": "e) Coeficiente Máximo de Constructibilidad 5,0",
+   "antejardin_m": 0
+  },
+  {
+   "zona": "Z-B",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona B, Mixta de Vivienda, Equipamiento, Talleres y Almacenamiento Inofensivo",
+   "superficie_predial_minima_m2_texto": "b) Superficie Predial Mínima 200 m2.",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 75% Otros Usos 75%",
+   "coef_ocupacion_suelo": 0.75,
+   "coef_constructibilidad_texto": "e) Coeficiente Máximo de Constructibilidad Vivienda 1,5 Otros Usos 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Para la edificación continua la altura máxima será de 7,00 m.",
+   "altura_m": 7.0,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "la edificación es aislada o pareada, o aislada sobre la continua: la altura resulta de las rasantes del Art. 2.6.3 de la OGUC aplicadas desde los 7 m en los deslindes y desde el eje de la calle; la continua llega a 7 m: «Sobre la construcción continua se permitirá la construcción aislada, cuya altura máxima resultará de la aplicación de las rasantes establecidas en el referido Artículo 2.6.3. de la Ordenanza General, a partir de los 7,00 m. en los deslindes laterales y de fondo, y desde el eje de la calle que enfrenta el predio. Este mismo procedimiento se aplicará para definir la altura máxima de la edificación aislada y pareada.»",
+   "incentivo_pagina": 0,
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "f) Sistema de Agrupamiento. Aislado, Pareado o Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Universidad, discoteca, estación de servicio, bomba de bencina, centro de reparación automotor, taller y almacenamiento inofensivos y terminales de locomoción colectiva solo frente a calles de 20 m de ancho como mínimo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Juegos electrónicos, billares, taller inofensivo y centro de reparación automotor 400 m²; discoteca, sala de espectáculos, supermercado, mercado, estación de servicio, bomba de bencina y bodega inofensiva 1.000 m²; frente predial mínimo 10 m (12 o 20 m para esos usos). Loteos DFL 2 con construcción simultánea en predios de 2.500 m² como mínimo (150 hab/ha)."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Discoteca, sala de espectáculos, supermercado, mercado, estación de servicio, bomba de bencina, taller inofensivo, bodega inofensiva y terminal de locomoción colectiva urbana: 60 %."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Discoteca, juegos electrónicos, billares, supermercado, mercado, taller inofensivo, bodega inofensiva y terminales de locomoción colectiva: 0,6."
+    },
+    {
+     "campo": "altura",
+     "texto": "La faja de edificación continua en el deslinde común llega como máximo al 60 % de su profundidad para vivienda y al 75 % para otros usos."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 13: los antejardines son opcionales; se exigen (3 m como mínimo) cuando ya existen en el mismo costado de la cuadra en más del 50 % de su largo, 15 m como mínimo frente a vías expresas (texto del Decreto 373/2005) y 6 m para los usos que exigen edificación aislada sin adosamiento. Verifique la cuadra y la vía."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Supermercado: aislado o pareado; discoteca, juegos electrónicos, billares, mercado, taller, bodega y terminal de locomoción colectiva urbana: aislado sin adosamiento (antejardín mínimo 6 m)."
+    }
+   ]
+  },
+  {
+   "zona": "Z-B1",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona B h), Sector de Conservación B 1, La Candelaria; Zona B1 Sector Pueblo San Fernando (Decreto N° 373/2005)",
+   "altura_m_texto": "3. Altura de Edificación Única 7,00 m.",
+   "altura_m": 7.0,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el predio está en el polígono Pueblo San Fernando (Zona B1 de la Modificación del Decreto N° 373/2005, D.O. 16-02-2005): sobre la continua de 7 m se permite la aislada según las rasantes de la OGUC; en el Sector de Conservación B 1 La Candelaria la altura es única de 7 m: «Para la edificación continua la altura máxima será de 7,00 m. Sobre la construcción continua se permitirá la construcción aislada, cuya altura máxima resultará de la aplicación de las rasantes establecidas en el referido Artículo 2.6.3. de la Ordenanza General, a partir de los 7,00 m. en los deslindes laterales y de fondo»",
+   "incentivo_pagina": 0,
+   "hereda_de": "Z-B",
+   "hereda_texto": "se aplicarán todas las normas de la Zona B",
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "2. Sistema de Agrupamiento Continuo 3. Altura de Edificación Única 7,00 m.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "zona",
+     "texto": "La capa trae dos polígonos Z-B1: el Sector de Conservación B 1 La Candelaria (Av. Los Carrera entre Carlos van Buren y Av. Diego de Almagro y Pasaje Candelaria; Parroquia de la Candelaria propuesta como Inmueble de Conservación Histórica) y la Zona B1 Sector Pueblo San Fernando del Decreto N° 373/2005, con las cifras de la Zona B (200 m², 75 %, 1,5; continua 7 m), densidad máxima de 250 hab/ha, estudio de riesgos en sus zonas R.1 y R.2 y prohibición de talar espinos, chañares y pimientos. Confirme en la DOM cuál rige."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "En el polígono Pueblo San Fernando (Zona B1 del Decreto N° 373/2005) el agrupamiento es aislado, pareado o continuo."
+    },
+    {
+     "campo": "zona",
+     "texto": "Universidad, discoteca, estación de servicio, bomba de bencina, centro de reparación automotor, taller y almacenamiento inofensivos y terminales de locomoción colectiva solo frente a calles de 20 m de ancho como mínimo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Juegos electrónicos, billares, taller inofensivo y centro de reparación automotor 400 m²; discoteca, sala de espectáculos, supermercado, mercado, estación de servicio, bomba de bencina y bodega inofensiva 1.000 m²; frente predial mínimo 10 m (12 o 20 m para esos usos). Loteos DFL 2 con construcción simultánea en predios de 2.500 m² como mínimo (150 hab/ha)."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Discoteca, sala de espectáculos, supermercado, mercado, estación de servicio, bomba de bencina, taller inofensivo, bodega inofensiva y terminal de locomoción colectiva urbana: 60 %."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Discoteca, juegos electrónicos, billares, supermercado, mercado, taller inofensivo, bodega inofensiva y terminales de locomoción colectiva: 0,6."
+    },
+    {
+     "campo": "altura",
+     "texto": "La faja de edificación continua en el deslinde común llega como máximo al 60 % de su profundidad para vivienda y al 75 % para otros usos."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 13: los antejardines son opcionales; se exigen (3 m como mínimo) cuando ya existen en el mismo costado de la cuadra en más del 50 % de su largo, 15 m como mínimo frente a vías expresas (texto del Decreto 373/2005) y 6 m para los usos que exigen edificación aislada sin adosamiento. Verifique la cuadra y la vía."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Supermercado: aislado o pareado; discoteca, juegos electrónicos, billares, mercado, taller, bodega y terminal de locomoción colectiva urbana: aislado sin adosamiento (antejardín mínimo 6 m)."
+    }
+   ],
+   "superficie_predial_minima_m2": 200,
+   "superficie_predial_minima_m2_texto": "b) Superficie Predial Mínima 200 m2.",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "antejardin_m"
+   ],
+   "coef_ocupacion_suelo": 0.75,
+   "coef_ocupacion_suelo_texto": "d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 75% Otros Usos 75%",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_texto": "e) Coeficiente Máximo de Constructibilidad Vivienda 1,5 Otros Usos 1,5",
+   "antejardin_m": 0
+  },
+  {
+   "zona": "Z-C",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona C, Vivienda y Equipamiento Complementario",
+   "superficie_predial_minima_m2_texto": "b) Superficie Predial Mínima 400 m2. * Taller Inofensivo, Centro de Reparación Automotor 400 m2.",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 60% Otros Usos 60%",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "e) Coeficiente Máximo de Constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "g) Altura, Distanciamientos y Adosamientos La definición de la altura, distanciamientos y adosamientos de la edificación se regirán por las disposiciones del Artículo 2.6.3. de la Ordenanza General de Urbanismo y Construcciones.",
+   "altura_m": "sin tope",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "f) Sistema de Agrupamiento. Aislado y Pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Universidad, estación de servicio, bomba de bencina, centro de reparación automotor, taller y almacenamiento inofensivos solo frente a calles de 20 m de ancho como mínimo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Supermercado, estación de servicio, bomba de bencina y bodega inofensiva 1.000 m²; frente predial mínimo 10 m (12 o 20 m para esos usos). Loteos DFL 2 con construcción simultánea en predios de 2.500 m² como mínimo (150 hab/ha)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Supermercado, estación de servicio, bomba de bencina y bodega inofensiva: 0,6."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 13: los antejardines son opcionales; se exigen (3 m como mínimo) cuando ya existen en el mismo costado de la cuadra en más del 50 % de su largo, 15 m como mínimo frente a vías expresas (texto del Decreto 373/2005) y 6 m para los usos que exigen edificación aislada sin adosamiento. Verifique la cuadra y la vía."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva: aislado sin adosamiento (antejardín mínimo 6 m)."
+    }
+   ]
+  },
+  {
+   "zona": "Z-C1",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona C h), Sector Especial C 1, Vivienda Exclusiva",
+   "superficie_predial_minima_m2_texto": "3.1. Superficie Predial Mínima 5.000 m2.",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "3.3. Máxima Ocupación de Suelo 10 %",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "3.4. Coeficiente de Constructibilidad 0,1",
+   "coef_constructibilidad": 0.1,
+   "antejardin_m_texto": "2.6. Antejardín Mínimo 5 m.",
+   "antejardin_m": 5,
+   "hereda_de": "Z-C",
+   "hereda_texto": "se aplicarán todas las normas de la Zona C",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "3.5. Sistema de Agrupamiento Aislado sin Adosamiento 2.6. Antejardín Mínimo 5 m.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Uso de suelo permitido: vivienda exclusiva. En terrenos de 5.000 m² o más de suelos clase 1, 2 o 3 se exige escarpe de la capa vegetal de 0,20 m como mínimo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Frente predial mínimo 25 m; densidad máxima 20 hab/ha."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La Ordenanza exige edificación aislada sin adosamiento."
+    },
+    {
+     "campo": "zona",
+     "texto": "Universidad, estación de servicio, bomba de bencina, centro de reparación automotor, taller y almacenamiento inofensivos solo frente a calles de 20 m de ancho como mínimo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Supermercado, estación de servicio, bomba de bencina y bodega inofensiva 1.000 m²; frente predial mínimo 10 m (12 o 20 m para esos usos). Loteos DFL 2 con construcción simultánea en predios de 2.500 m² como mínimo (150 hab/ha)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Supermercado, estación de servicio, bomba de bencina y bodega inofensiva: 0,6."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 13: los antejardines son opcionales; se exigen (3 m como mínimo) cuando ya existen en el mismo costado de la cuadra en más del 50 % de su largo, 15 m como mínimo frente a vías expresas (texto del Decreto 373/2005) y 6 m para los usos que exigen edificación aislada sin adosamiento. Verifique la cuadra y la vía."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva: aislado sin adosamiento (antejardín mínimo 6 m)."
+    }
+   ],
+   "altura_m": "sin tope",
+   "altura_m_texto": "g) Altura, Distanciamientos y Adosamientos La definición de la altura, distanciamientos y adosamientos de la edificación se regirán por las disposiciones del Artículo 2.6.3. de la Ordenanza General de Urbanismo y Construcciones.",
+   "heredado": [
+    "altura_m"
+   ]
+  },
+  {
+   "zona": "Z-C2",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona C h), Sector Especial C 2, Vivienda y Equipamiento",
+   "superficie_predial_minima_m2_texto": "3.1. Superficie Predial Mínima 1.000 m2.",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "3.3. Ocupación Máxima del Suelo 50%",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "3.4. Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "antejardin_m_texto": "3.6. Antejardín Mínimo 5 m.",
+   "antejardin_m": 5,
+   "hereda_de": "Z-C",
+   "hereda_texto": "se aplicarán todas las normas de la Zona C",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "3.5. Sistema de Agrupamiento Aislado sin Adosamiento 3.6. Antejardín Mínimo 5 m.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Usos exclusivos: vivienda en altura y equipamiento de esparcimiento y turismo al costado nororiente de la franja de Av. Copayapu; equipamiento de servicios al surponiente. Rige además la Ordenanza Especial del Plano Seccional Av. Copayapu, no publicada: confirme con la DOM."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Frente predial mínimo 25 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La Ordenanza exige edificación aislada sin adosamiento."
+    },
+    {
+     "campo": "zona",
+     "texto": "Universidad, estación de servicio, bomba de bencina, centro de reparación automotor, taller y almacenamiento inofensivos solo frente a calles de 20 m de ancho como mínimo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Supermercado, estación de servicio, bomba de bencina y bodega inofensiva 1.000 m²; frente predial mínimo 10 m (12 o 20 m para esos usos). Loteos DFL 2 con construcción simultánea en predios de 2.500 m² como mínimo (150 hab/ha)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Supermercado, estación de servicio, bomba de bencina y bodega inofensiva: 0,6."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 13: los antejardines son opcionales; se exigen (3 m como mínimo) cuando ya existen en el mismo costado de la cuadra en más del 50 % de su largo, 15 m como mínimo frente a vías expresas (texto del Decreto 373/2005) y 6 m para los usos que exigen edificación aislada sin adosamiento. Verifique la cuadra y la vía."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva: aislado sin adosamiento (antejardín mínimo 6 m)."
+    }
+   ],
+   "altura_m": "sin tope",
+   "altura_m_texto": "g) Altura, Distanciamientos y Adosamientos La definición de la altura, distanciamientos y adosamientos de la edificación se regirán por las disposiciones del Artículo 2.6.3. de la Ordenanza General de Urbanismo y Construcciones.",
+   "heredado": [
+    "altura_m"
+   ]
+  },
+  {
+   "zona": "Z-C3",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona C h), Sector de Conservación C 3, Parroquia de la Santísima Trinidad",
+   "altura_m_texto": "4. Altura de Edificación Máxima 6,00 m.",
+   "altura_m": 6.0,
+   "antejardin_m_texto": "3. Antejardín Mínimo 5 m. 4. Altura de Edificación Máxima 6,00 m.",
+   "antejardin_m": 5,
+   "hereda_de": "Z-C",
+   "hereda_texto": "se aplicarán todas las normas de la Zona C",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "2. Sistema de Agrupamiento Aislado y Pareado 3. Antejardín Mínimo 5 m. 4. Altura de Edificación Máxima 6,00 m.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Área de Conservación de la manzana de la Parroquia de la Santísima Trinidad (Av. Los Carrera esquina Celsa Vergara), propuesta como Inmueble de Conservación Histórica: autorización previa de la Seremi MINVU (Art. 19)."
+    },
+    {
+     "campo": "zona",
+     "texto": "Universidad, estación de servicio, bomba de bencina, centro de reparación automotor, taller y almacenamiento inofensivos solo frente a calles de 20 m de ancho como mínimo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Supermercado, estación de servicio, bomba de bencina y bodega inofensiva 1.000 m²; frente predial mínimo 10 m (12 o 20 m para esos usos). Loteos DFL 2 con construcción simultánea en predios de 2.500 m² como mínimo (150 hab/ha)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "Supermercado, estación de servicio, bomba de bencina y bodega inofensiva: 0,6."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 13: los antejardines son opcionales; se exigen (3 m como mínimo) cuando ya existen en el mismo costado de la cuadra en más del 50 % de su largo, 15 m como mínimo frente a vías expresas (texto del Decreto 373/2005) y 6 m para los usos que exigen edificación aislada sin adosamiento. Verifique la cuadra y la vía."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Estación de servicio, bomba de bencina, taller inofensivo, centro de reparación automotor y bodega inofensiva: aislado sin adosamiento (antejardín mínimo 6 m)."
+    }
+   ],
+   "superficie_predial_minima_m2": 400,
+   "superficie_predial_minima_m2_texto": "b) Superficie Predial Mínima 400 m2. * Taller Inofensivo, Centro de Reparación Automotor 400 m2.",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad"
+   ],
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_texto": "d) Porcentaje Máximo de Ocupación de Suelo. Vivienda 60% Otros Usos 60%",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_texto": "e) Coeficiente Máximo de Constructibilidad 1,5"
+  },
+  {
+   "zona": "Z-D",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona D, Exclusiva de Explotación Agrícola",
+   "superficie_predial_minima_m2_texto": "b) Superficie Predial Mínima 5.000 m2.",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "d) Porcentaje Máximo de Ocupación de Suelo. 10 %",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "e) Coeficiente Máximo de Constructibilidad 0,15",
+   "coef_constructibilidad": 0.15,
+   "altura_m_texto": "g) Alturas, Distanciamientos : Altura Máxima 2 pisos",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Mínimo 6 m.",
+   "antejardin_m": 6,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "f) Sistema de Agrupamiento. Aislado sin Adosamiento",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de uso exclusivo de explotación agrícola: solo vivienda patronal y del personal de vigilancia, cementerio y parque, y bodegas para productos y maquinaria agrícola."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Frente predial mínimo 50 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "La Ordenanza fija la altura máxima en pisos (2 pisos), no en metros: la aplicación verifica el número de pisos y las rasantes de la OGUC."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La Ordenanza exige edificación aislada sin adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "Z-E",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona E, Industrial Exclusiva",
+   "superficie_predial_minima_m2_texto": "b) Superficie Predial Mínima 1.000 m2.",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "d) Porcentaje Máximo de Ocupación de Suelo. 40%",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "e) Coeficiente Máximo de Constructibilidad 0,4",
+   "coef_constructibilidad": 0.4,
+   "altura_m_texto": "g) Altura y Distanciamientos . La definición de la altura y distanciamientos de la edificación se regirán por las disposiciones del Artículo 2.6.3. de la Ordenanza General de Urbanismo y Construcciones.",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "f) Sistema de Agrupamiento. Aislado sin Adosamiento",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín mínimo de 15 m de la Zona E fue eliminado por el Decreto N° 373/2005; rige el Art. 13: 15 m como mínimo frente a vías expresas, 6 m con edificación aislada sin adosamiento y 3 m si la cuadra ya los tiene."
+    },
+    {
+     "campo": "zona",
+     "texto": "Prohibidas las actividades insalubres, contaminantes y peligrosas; industria y almacenamiento molestos, terminales y depósitos de transporte solo frente a calles de 20 m como mínimo. Vivienda: solo la del personal de seguridad."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Industria, maestranza y almacenamiento molestos, terminales de locomoción colectiva y depósitos de transporte 2.500 m²; frente predial mínimo 25 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La Ordenanza exige edificación aislada sin adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "Z-E1",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona E h), Sector Especial E1, Acceso Norte y Acceso Sur de la ciudad",
+   "hereda_de": "Z-E",
+   "hereda_texto": "se aplicarán todas las normas de la Zona E",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "zona",
+     "texto": "Usos exclusivos: equipamiento de educación, esparcimiento y turismo y comercio minorista indicados, industria y almacenamiento inofensivos, y terminales de locomoción colectiva. En terrenos de 5.000 m² o más de suelos clase 1, 2 o 3 se exige escarpe de la capa vegetal de 0,20 m como mínimo."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín mínimo de 15 m de la Zona E fue eliminado por el Decreto N° 373/2005; rige el Art. 13: 15 m como mínimo frente a vías expresas, 6 m con edificación aislada sin adosamiento y 3 m si la cuadra ya los tiene."
+    },
+    {
+     "campo": "zona",
+     "texto": "Prohibidas las actividades insalubres, contaminantes y peligrosas; industria y almacenamiento molestos, terminales y depósitos de transporte solo frente a calles de 20 m como mínimo. Vivienda: solo la del personal de seguridad."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Industria, maestranza y almacenamiento molestos, terminales de locomoción colectiva y depósitos de transporte 2.500 m²; frente predial mínimo 25 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La Ordenanza exige edificación aislada sin adosamiento."
+    }
+   ],
+   "superficie_predial_minima_m2": 1000,
+   "superficie_predial_minima_m2_texto": "b) Superficie Predial Mínima 1.000 m2.",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_texto": "d) Porcentaje Máximo de Ocupación de Suelo. 40%",
+   "coef_constructibilidad": 0.4,
+   "coef_constructibilidad_texto": "e) Coeficiente Máximo de Constructibilidad 0,4",
+   "altura_m": "sin tope",
+   "altura_m_texto": "g) Altura y Distanciamientos . La definición de la altura y distanciamientos de la edificación se regirán por las disposiciones del Artículo 2.6.3. de la Ordenanza General de Urbanismo y Construcciones.",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "f) Sistema de Agrupamiento. Aislado sin Adosamiento"
+  },
+  {
+   "zona": "Z-F",
+   "pagina": 0,
+   "seccion": "Art. 22, Zona F, Áreas Verdes",
+   "coef_ocupacion_suelo_texto": "d) Porcentaje Máximo de Ocupación de Suelo 0,01",
+   "coef_ocupacion_suelo": 0.01,
+   "altura_m": "sin tope",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación del PRC Sector Río Copiapó (Decreto N° 3.598, D.O. 12-09-2012, enmendado por el Decreto N° 14.092, D.O. 22-08-2024) creó las zonas ZU-RÍO-1 a ZU-RÍO-7 en 293,5 ha a ambos bordes del río, que la capa de la IDE MINVU no trae: si el predio está junto al río Copiapó, confirme en la DOM si rige esa Modificación."
+    },
+    {
+     "campo": "superficie",
+     "texto": "No se permite la subdivisión predial."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "La Ordenanza no fija coeficiente de constructibilidad en la Zona F; solo construcciones complementarias de áreas verdes y deportes."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "La Ordenanza escribe «0,01» en un campo de porcentaje: se toma como coeficiente 0,01 (1 % del predio). Solo construcciones complementarias de los usos permitidos."
+    },
+    {
+     "campo": "altura",
+     "texto": "La Ordenanza no fija altura en la Zona F: rigen las rasantes de la OGUC (Art. 15)."
+    }
+   ]
+  }
+ ]
+}

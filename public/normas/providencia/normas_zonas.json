@@ -1,0 +1,582 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Providencia PRCP 2007 (Decreto EX. N°131, D.O. 23-01-2007), versión que incluye la Fe de Erratas (D.A. EX. N°1042, D.O. 14-06-2008)",
+ "url": "https://providencia.cl/provi/site/docs/20191112/20191112162159/prcp_2007_ordenanza_local.pdf",
+ "sha256": "f5afc9644c8e823f50ccdc90617a8ac8921a69fea85dbc47654c4deadd33aac2",
+ "documentos_adicionales": {
+  "m3": {
+   "documento": "Texto aprobatorio de la Modificación N°3 Uso de suelo del PRCP 2007 (Decreto EX. N°4, D.O. 09-01-2016)",
+   "url": "https://providencia.cl/provi/site/docs/20191112/20191112152541/texto_aprobatorio_m3.pdf",
+   "sha256": "75cad8f6c5c2949cb821d03ff21525b1d903ee0ee5050926cd888b5b9bb7a4d8"
+  },
+  "m4": {
+   "documento": "Texto aprobatorio de la Modificación N°4 Patrimonio del PRCP 2007 (Decreto EX. N°2009, D.O. 06-12-2016)",
+   "url": "https://providencia.cl/provi/site/docs/20191112/20191112144311/texto_aprobatorio_22nov16.pdf",
+   "sha256": "0beaaecba00e89e1b08accb6b7e63ee7f99b8713cf76882e34c633731faa429e"
+  },
+  "m8": {
+   "documento": "Texto aprobatorio de la Modificación N°8 ZEMoI de Salud del PRCP 2007 (D.O. 05-12-2024)",
+   "url": "https://providencia.cl/provi/site/docs/20241205/20241205115637/5__texto_aprobatorio.pdf",
+   "sha256": "c5577af8e71470b9f781f18a9b50c73e4ca759986c43d69056c131c054b1df51"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "EC3",
+   "pagina": 38,
+   "seccion": "Art. 4.3.03, Cuadro N° 08, EC 3 Zona de Edificación Continua, de máximo 3 pisos",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "0,60 0,60",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, texto de la Modificación N°3, D.O. 09-01-2016) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "1,10 ------ 0,60 0,60",
+   "coef_constructibilidad": 1.1,
+   "altura_m_texto": "de hasta 3 pisos y 10,00 mts de altura como máximo",
+   "altura_m": 10,
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 3,
+   "pisos": 3,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "faja de edificación continua obligatoria en la línea de edificación",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06 a): en edificación continua, donde el plano L1/4 indica antejardín, mínimo 3 m (la aislada sobre o tras la continua, 2 m más atrás que su plomo). Verifique en el plano si el predio tiene antejardín."
+    }
+   ]
+  },
+  {
+   "zona": "EC5",
+   "pagina": 39,
+   "seccion": "Art. 4.3.04, Cuadro N° 09, EC 5 Zona de Edificación Continua, de máximo 5 pisos",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "0,60 0,60",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, texto de la Modificación N°3, D.O. 09-01-2016) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "1,80 ------ 0,60 0,60",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "de hasta 5 pisos y 16,00 mts de altura como máximo",
+   "altura_m": 16,
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 3,
+   "pisos": 5,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "faja de edificación continua obligatoria en la línea de edificación",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06 a): en edificación continua, donde el plano L1/4 indica antejardín, mínimo 3 m (la aislada sobre o tras la continua, 2 m más atrás que su plomo). Verifique en el plano si el predio tiene antejardín."
+    }
+   ]
+  },
+  {
+   "zona": "EC7",
+   "pagina": 39,
+   "seccion": "Art. 4.3.05, Cuadro N° 10, EC 7 Zona de Edificación Continua, de máximo 7 pisos",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "0,60 0,60",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, texto de la Modificación N°3, D.O. 09-01-2016) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "2,50 ------ 0,60 0,60",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "de hasta 7 pisos y 22,00 mts de altura como máximo",
+   "altura_m": 22,
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 3,
+   "pisos": 7,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "faja de edificación continua obligatoria en la línea de edificación",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06 a): en edificación continua, donde el plano L1/4 indica antejardín, mínimo 3 m (la aislada sobre o tras la continua, 2 m más atrás que su plomo). Verifique en el plano si el predio tiene antejardín."
+    }
+   ]
+  },
+  {
+   "zona": "EC12",
+   "pagina": 40,
+   "seccion": "Art. 4.3.06, Cuadro N° 11, EC 12 Zona de Edificación Continua, de máximo 12 pisos",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "0,60 0,60",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, texto de la Modificación N°3, D.O. 09-01-2016) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "4,30 ------ 0,60 0,60",
+   "coef_constructibilidad": 4.3,
+   "altura_m_texto": "de hasta 12 pisos y 37,00 mts de altura como máximo",
+   "altura_m": 37,
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 3,
+   "pisos": 12,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "faja de edificación continua obligatoria en la línea de edificación",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06 a): en edificación continua, donde el plano L1/4 indica antejardín, mínimo 3 m (la aislada sobre o tras la continua, 2 m más atrás que su plomo). Verifique en el plano si el predio tiene antejardín."
+    }
+   ]
+  },
+  {
+   "zona": "EC2+A8",
+   "pagina": 41,
+   "seccion": "Art. 4.3.08, Cuadro N° 13, EC 2 + A 8 Zona de Edif. Continua, de máx. 2 pisos, más Aislada de máx. 8 pisos",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "1,20 1,60 0,60 0,60 ------ 0,40",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, texto de la Modificación N°3, D.O. 09-01-2016) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "1,20 1,60 0,60 0,60 ------ 0,40",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "La altura total permitida para esta zona es de 10 pisos y 36,00 mts",
+   "altura_m": 36,
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 3,
+   "pisos": 10,
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "más edificación aislada sobre o tras la edificación continua, de hasta 8 pisos",
+   "advertencias": [
+    {
+     "campo": "constructibilidad",
+     "texto": "La ficha fija constructibilidad 1,20 para la edificación continua y 1,60 para la aislada: la regla no separa los dos cuerpos; verifíquelos por separado."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Ocupación de suelo: 0,60 la edificación continua (primer piso y superiores) y 0,40 la aislada en los pisos superiores."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua es de 7 m de altura obligatoria (2 pisos) y la aislada llega a 8 pisos y 28 m sobre o tras ella."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06 a): en edificación continua, donde el plano L1/4 indica antejardín, mínimo 3 m (la aislada sobre o tras la continua, 2 m más atrás que su plomo). Verifique en el plano si el predio tiene antejardín."
+    }
+   ]
+  },
+  {
+   "zona": "EC3+AL",
+   "pagina": 41,
+   "seccion": "Art. 4.3.09, Cuadro N° 14, EC 3 + AL Zona de Edif. Continua, de máx. 3 pisos, más Aislada Libre",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "3,00 4,00 1,00 1,00 ------ 0,40",
+   "coef_ocupacion_suelo": 1.0,
+   "coef_constructibilidad_texto": "3,00 4,00 1,00 1,00 ------ 0,40",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "más edificación aislada sobre o tras la edificación continua, sin límite de altura",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "más edificación aislada sobre o tras la edificación continua, sin límite de altura",
+   "advertencias": [
+    {
+     "campo": "constructibilidad",
+     "texto": "La ficha fija constructibilidad 3,00 para la edificación continua y 4,00 para la aislada: la regla no separa los dos cuerpos; verifíquelos por separado."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Ocupación de suelo: 1,00 la edificación continua y 0,40 la aislada en los pisos superiores."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06 a): en edificación continua, donde el plano L1/4 indica antejardín, mínimo 3 m (la aislada sobre o tras la continua, 2 m más atrás que su plomo). Verifique en el plano si el predio tiene antejardín."
+    }
+   ]
+  },
+  {
+   "zona": "EA3",
+   "pagina": 42,
+   "seccion": "Art. 4.3.10, Cuadro N° 15, EA 3 Zona de Edif. Aislada, de máximo 3 pisos",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "------ 0,70 ------ ------ 0,40 0,40",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, texto de la Modificación N°3, D.O. 09-01-2016) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "------ 0,70 ------ ------ 0,40 0,40",
+   "coef_constructibilidad": 0.7,
+   "altura_m_texto": "Son zonas de edificación aislada de hasta 3 pisos y un máximo de 10,00 m de altura",
+   "altura_m": 10,
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 5,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Son zonas de edificación aislada",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06: donde el plano L1/4 indica antejardín, mínimo 5 m en edificación aislada (el Director de Obras puede reducirlo a 3 m en los casos del Art. 4.1.07); sobre 16 m de altura aumenta en (altura − 16 m) / 3."
+    }
+   ]
+  },
+  {
+   "zona": "EA5",
+   "pagina": 42,
+   "seccion": "Art. 4.3.11, Cuadro N° 16, EA 5 Zona de Edif. Aislada, de máximo 5 pisos",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "( * ) 1,20 ( * ) ( * ) 0,30 0,40",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, texto de la Modificación N°3, D.O. 09-01-2016) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "( * ) 1,20 ( * ) ( * ) 0,30 0,40",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Son zonas de edificación aislada de hasta 5 pisos y un máximo de 16,00 m de altura",
+   "altura_m": 16,
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Son zonas de edificación aislada",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06: donde el plano L1/4 indica antejardín, mínimo 5 m en edificación aislada (el Director de Obras puede reducirlo a 3 m en los casos del Art. 4.1.07); sobre 16 m de altura aumenta en (altura − 16 m) / 3."
+    }
+   ]
+  },
+  {
+   "zona": "EA5/pa",
+   "pagina": 42,
+   "seccion": "Art. 4.3.11, Cuadro N° 16, EA 5 / pa Zona de Edif. Aislada, de máximo 5 pisos; permite adosamiento",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "( * ) 1,20 ( * ) ( * ) 0,30 0,40",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, Modificación N°3: 0,7) o el proyecto tiene un cuerpo adosado de hasta 2 pisos destinado a usos no residenciales (0,60 por cada planta, nota de la ficha) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "( * ) 1,20 ( * ) ( * ) 0,30 0,40",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.7,
+   "coef_constructibilidad_condicion": "el proyecto tiene un cuerpo adosado destinado exclusivamente a usos no residenciales («se dispondrá de un coeficiente adicional de 0,50, para ser utilizado exclusivamente en dicho cuerpo destinado a usos no residenciales»)",
+   "altura_m_texto": "Son zonas de edificación aislada de hasta 5 pisos y un máximo de 16,00 m de altura",
+   "altura_m": 16,
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 5,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Son zonas de edificación aislada",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06: donde el plano L1/4 indica antejardín, mínimo 5 m en edificación aislada (el Director de Obras puede reducirlo a 3 m en los casos del Art. 4.1.07); sobre 16 m de altura aumenta en (altura − 16 m) / 3."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Permite adosamiento de hasta 2 pisos y 7 m de altura (Art. 2.6.2 OGUC), sin retiro a la línea de edificación."
+    }
+   ]
+  },
+  {
+   "zona": "EA7",
+   "pagina": 43,
+   "seccion": "Art. 4.3.12, Cuadro N° 17, EA 7 Zona de Edif. Aislada, de máximo 7 pisos",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "( * ) 1,60 ( * ) ( * ) 0,20 0,40",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, texto de la Modificación N°3, D.O. 09-01-2016) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "( * ) 1,60 ( * ) ( * ) 0,20 0,40",
+   "coef_constructibilidad": 1.6,
+   "altura_m_texto": "Son zonas de edificación aislada de hasta 7 pisos y un máximo de 22,00 m de altura",
+   "altura_m": 22,
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 5,
+   "pisos": 7,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Son zonas de edificación aislada",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06: donde el plano L1/4 indica antejardín, mínimo 5 m en edificación aislada (el Director de Obras puede reducirlo a 3 m en los casos del Art. 4.1.07); sobre 16 m de altura aumenta en (altura − 16 m) / 3."
+    }
+   ]
+  },
+  {
+   "zona": "EA7/pa",
+   "pagina": 43,
+   "seccion": "Art. 4.3.12, Cuadro N° 17, EA 7 / pa Zona de Edif. Aislada, de máximo 7 pisos; permite adosamiento",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "( * ) 1,60 ( * ) ( * ) 0,20 0,40",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, Modificación N°3: 0,7) o el proyecto tiene un cuerpo adosado de hasta 2 pisos destinado a usos no residenciales (0,60 por cada planta, nota de la ficha) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "( * ) 1,60 ( * ) ( * ) 0,20 0,40",
+   "coef_constructibilidad": 1.6,
+   "coef_constructibilidad_max": 2.2,
+   "coef_constructibilidad_condicion": "el proyecto tiene un cuerpo adosado destinado exclusivamente a usos no residenciales («se dispondrá de un coeficiente adicional de 0,60, para ser utilizado exclusivamente en dicho cuerpo destinado a usos no residenciales»)",
+   "altura_m_texto": "Son zonas de edificación aislada de hasta 7 pisos y un máximo de 22,00 m de altura",
+   "altura_m": 22,
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 5,
+   "pisos": 7,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Son zonas de edificación aislada",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06: donde el plano L1/4 indica antejardín, mínimo 5 m en edificación aislada (el Director de Obras puede reducirlo a 3 m en los casos del Art. 4.1.07); sobre 16 m de altura aumenta en (altura − 16 m) / 3."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Permite adosamiento de hasta 2 pisos y 7 m de altura (Art. 2.6.2 OGUC), sin retiro a la línea de edificación."
+    }
+   ]
+  },
+  {
+   "zona": "EA12",
+   "pagina": 43,
+   "seccion": "Art. 4.3.13, Cuadro N° 18, EA 12 Zona de Edif. Aislada, de máximo 12 pisos",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "( * ) 1,70 ( * ) ( * ) 0,20 0,40",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, texto de la Modificación N°3, D.O. 09-01-2016) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "( * ) 1,70 ( * ) ( * ) 0,20 0,40",
+   "coef_constructibilidad": 1.7,
+   "altura_m_texto": "Son zonas de edificación aislada de hasta 12 pisos y un máximo de 37,00 m de altura",
+   "altura_m": 37,
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 5,
+   "pisos": 12,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Son zonas de edificación aislada",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06: donde el plano L1/4 indica antejardín, mínimo 5 m en edificación aislada (el Director de Obras puede reducirlo a 3 m en los casos del Art. 4.1.07); sobre 16 m de altura aumenta en (altura − 16 m) / 3."
+    }
+   ]
+  },
+  {
+   "zona": "EA12/pa",
+   "pagina": 43,
+   "seccion": "Art. 4.3.13, Cuadro N° 18, EA 12 / pa Zona de Edif. Aislada, de máximo 12 pisos; permite adosamiento",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "( * ) 1,70 ( * ) ( * ) 0,20 0,40",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, Modificación N°3: 0,7) o el proyecto tiene un cuerpo adosado de hasta 2 pisos destinado a usos no residenciales (0,60 por cada planta, nota de la ficha) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "( * ) 1,70 ( * ) ( * ) 0,20 0,40",
+   "coef_constructibilidad": 1.7,
+   "coef_constructibilidad_max": 2.3,
+   "coef_constructibilidad_condicion": "el proyecto tiene un cuerpo adosado destinado exclusivamente a usos no residenciales («se dispondrá de un coeficiente adicional de 0,60, para ser utilizado exclusivamente en dicho cuerpo destinado a usos no residenciales»)",
+   "altura_m_texto": "Son zonas de edificación aislada de hasta 12 pisos y un máximo de 37,00 m de altura",
+   "altura_m": 37,
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 5,
+   "pisos": 12,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Son zonas de edificación aislada",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06: donde el plano L1/4 indica antejardín, mínimo 5 m en edificación aislada (el Director de Obras puede reducirlo a 3 m en los casos del Art. 4.1.07); sobre 16 m de altura aumenta en (altura − 16 m) / 3."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Permite adosamiento de hasta 2 pisos y 7 m de altura (Art. 2.6.2 OGUC), sin retiro a la línea de edificación."
+    }
+   ]
+  },
+  {
+   "zona": "EAL/pa",
+   "pagina": 44,
+   "seccion": "Art. 4.3.14, Cuadro N° 19, EAL / pa Zona de Edif. Aislada Libre, permite adosamiento",
+   "superficie_predial_minima_m2_texto": "800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "( * ) 2,90 ( * ) ( * ) 0,20 0,40",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, Modificación N°3: 0,7) o el proyecto tiene un cuerpo adosado de hasta 2 pisos destinado a usos no residenciales (0,60 por cada planta, nota de la ficha) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "( * ) 2,90 ( * ) ( * ) 0,20 0,40",
+   "coef_constructibilidad": 2.9,
+   "coef_constructibilidad_max": 3.5,
+   "coef_constructibilidad_condicion": "el proyecto tiene un cuerpo adosado destinado exclusivamente a usos no residenciales («se dispondrá de un coeficiente adicional de 0,60, para ser utilizado exclusivamente en dicho cuerpo destinado a usos no residenciales»)",
+   "altura_m_texto": "Son zonas de edificación aislada sin límite de altura",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Art. 4.1.06. de esta OL",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Son zonas de edificación aislada",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 4.1.06: donde el plano L1/4 indica antejardín, mínimo 5 m; en EAL/pa, sobre 16 m de altura aumenta en (altura − 16 m) / 5 (el Director de Obras puede reducir los 5 m a 3 m en los casos del Art. 4.1.07)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Permite adosamiento de hasta 2 pisos y 7 m de altura (Art. 2.6.2 OGUC), sin retiro a la línea de edificación."
+    }
+   ]
+  },
+  {
+   "zona": "ZEP CE1",
+   "pagina": 1,
+   "seccion": "Art. 4.3.02 (texto de la Modificación N°4 Patrimonio), ZEP CE1",
+   "documento": "Texto aprobatorio de la Modificación N°4 Patrimonio del PRCP 2007 (Decreto EX. N°2009, D.O. 06-12-2016)",
+   "url": "https://providencia.cl/provi/site/docs/20191112/20191112144311/texto_aprobatorio_22nov16.pdf",
+   "coef_ocupacion_suelo_texto": "ZEP CE 1 CONTINUO 1 existente",
+   "coef_ocupacion_suelo": 1.0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "ZEP CE 1 CONTINUO",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura máxima es la de la edificación existente (Art. 4.3.02, texto de la Modificación N°4): compárela con la del inmueble existente en el predio."
+    }
+   ]
+  },
+  {
+   "zona": "ZEP CE2",
+   "pagina": 1,
+   "seccion": "Art. 4.3.02 (texto de la Modificación N°4 Patrimonio), ZEP CE2",
+   "documento": "Texto aprobatorio de la Modificación N°4 Patrimonio del PRCP 2007 (Decreto EX. N°2009, D.O. 06-12-2016)",
+   "url": "https://providencia.cl/provi/site/docs/20191112/20191112144311/texto_aprobatorio_22nov16.pdf",
+   "coef_ocupacion_suelo_texto": "ZEP CE 2 CONTINUO 0,8 existente",
+   "coef_ocupacion_suelo": 0.8,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "ZEP CE 2 CONTINUO",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura máxima es la de la edificación existente (Art. 4.3.02, texto de la Modificación N°4): compárela con la del inmueble existente en el predio."
+    }
+   ]
+  },
+  {
+   "zona": "ZEP AE",
+   "pagina": 1,
+   "seccion": "Art. 4.3.02 (texto de la Modificación N°4 Patrimonio), ZEP AE",
+   "documento": "Texto aprobatorio de la Modificación N°4 Patrimonio del PRCP 2007 (Decreto EX. N°2009, D.O. 06-12-2016)",
+   "url": "https://providencia.cl/provi/site/docs/20191112/20191112144311/texto_aprobatorio_22nov16.pdf",
+   "coef_ocupacion_suelo_texto": "ZEP AE AISLADO 0,6 existente",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, texto de la Modificación N°3, D.O. 09-01-2016) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "ZEP AE AISLADO",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura máxima es la de la edificación existente (Art. 4.3.02, texto de la Modificación N°4): compárela con la del inmueble existente en el predio."
+    }
+   ]
+  },
+  {
+   "zona": "ZEP A3",
+   "pagina": 1,
+   "seccion": "Art. 4.3.02, fila ZEP A3 (texto de la Modificación N°8 ZEMoI de Salud)",
+   "documento": "Texto aprobatorio de la Modificación N°8 ZEMoI de Salud del PRCP 2007 (D.O. 05-12-2024)",
+   "url": "https://providencia.cl/provi/site/docs/20241205/20241205115637/5__texto_aprobatorio.pdf",
+   "coef_ocupacion_suelo_texto": "AISLADO PAREADO CONTINUO 0,6 3 pisos",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, texto de la Modificación N°3, D.O. 09-01-2016) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "9 m 1,2 195 viviendas",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "0,6 3 pisos 9 m",
+   "altura_m": 9,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "ZEP A3 AISLADO PAREADO CONTINUO"
+  },
+  {
+   "zona": "ZEP A4",
+   "pagina": 2,
+   "seccion": "Art. 4.3.02 (texto de la Modificación N°4 Patrimonio), ZEP A4",
+   "documento": "Texto aprobatorio de la Modificación N°4 Patrimonio del PRCP 2007 (Decreto EX. N°2009, D.O. 06-12-2016)",
+   "url": "https://providencia.cl/provi/site/docs/20191112/20191112144311/texto_aprobatorio_22nov16.pdf",
+   "coef_ocupacion_suelo_texto": "ZEP A4 AISLADO 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, texto de la Modificación N°3, D.O. 09-01-2016) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "12 m 2,0 335 viviendas",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "4 pisos 12 m",
+   "altura_m": 12,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "ZEP A4 AISLADO"
+  },
+  {
+   "zona": "ZEP A7",
+   "pagina": 2,
+   "seccion": "Art. 4.3.02 (texto de la Modificación N°4 Patrimonio), ZEP A7",
+   "documento": "Texto aprobatorio de la Modificación N°4 Patrimonio del PRCP 2007 (Decreto EX. N°2009, D.O. 06-12-2016)",
+   "url": "https://providencia.cl/provi/site/docs/20191112/20191112144311/texto_aprobatorio_22nov16.pdf",
+   "coef_ocupacion_suelo_texto": "ZEP A7 AISLADO 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio acoge edificaciones de hasta 3 pisos con destino residencial (Art. 4.2.26, texto de la Modificación N°3, D.O. 09-01-2016) («En los predios que acojan edificaciones de hasta tres pisos con destino residencial se admitirá un coeficiente de ocupación de suelo en primer piso de 0,7»)",
+   "coef_constructibilidad_texto": "21 m 2,1 350 viviendas",
+   "coef_constructibilidad": 2.1,
+   "altura_m_texto": "7 pisos 21 m",
+   "altura_m": 21,
+   "pisos": 7,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "ZEP A7 AISLADO"
+  }
+ ]
+}

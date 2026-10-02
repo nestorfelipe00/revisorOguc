@@ -1,0 +1,2495 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local, Actualización Plan Regulador Comunal de Coquimbo (D.E. N° 3.155, D.O. 24-12-2025)",
+ "url": "https://www.municoquimbo.cl/images/estructura/2026/plan-regulador-24122025/03_Ordenanza_Local.pdf",
+ "sha256": "f7499204d443a341a827114a61ce9d38472f8f97a03f6375bf8d20d4ace3beb6",
+ "rectificacion": {
+  "documento": "Decreto Exento N° 031 (09-01-2026), aclara y rectifica el D.E. N° 3.155",
+  "url": "https://www.municoquimbo.cl/images/estructura/2026/plan-regulador-24122025/07_decreto-ex_031_09.01.2025_rectifica-decreto-3155.pdf",
+  "sha256": "67e6356f6799f242d510a2bdcb79aa9587f6d79ae9db0d074f99325ec339173c"
+ },
+ "extraido": "2026-09-30",
+ "metodo": "Texto extraído del PDF oficial; «pagina» es la del PDF y «pagina_impresa» la del pie. Las subzonas heredan de su zona base lo que no fijan. Las correcciones del D.E. N° 031 se aplican con su «donde dice» verificado. Los campos sin cifra quedan en null.",
+ "cuerpos_salientes": {
+  "articulo": "Artículo 8",
+  "pagina": 19,
+  "texto": "Las fachadas que enfrenten calles y espacios públicos, que contemplen cuerpos salientes, deberán respetar las normas y definiciones contenidas en el Artículo 2.7.1 de la Ordenanza General de Urbanismo y Construcciones. En el territorio normado por el presente Plan, se permitirán cuerpos salientes hasta un ancho de 1,50 m. a partir de la altura de 3 m.",
+  "saliente_max_m": 1.5,
+  "altura_min_m": 3.0
+ },
+ "antejardin_edificable": {
+  "articulo": "Artículo 6",
+  "pagina": 19,
+  "texto": "En el caso de proyectarse antejardines, cualquiera sea el sistema de agrupamiento, éstos deberán constituirse como un área libre de edificación y ocupación, con excepción de lo estipulado en el Artículo 2.5.8 OGUC, dónde será posible la construcción de casetas de portería, pérgolas u otras de si milar naturaleza, asimismo estacionamientos para visitas sin cubierta."
+ },
+ "zonas": [
+  {
+   "zona": "ZU3",
+   "codigo_ordenanza": "ZU3",
+   "pagina": 20,
+   "pagina_impresa": 19,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "superficie_predial_minima_m2": 200.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 30",
+   "altura_m": 30.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 4",
+   "coef_constructibilidad": 4.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado",
+   "antejardin_m_texto": "Antejardines Sin antejardín",
+   "antejardin_m": 0.0
+  },
+  {
+   "zona": "ZU3-1",
+   "codigo_ordenanza": "ZU3-1",
+   "pagina": 21,
+   "pagina_impresa": 20,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU3",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU3, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 3 m",
+   "antejardin_m": 3.0,
+   "superficie_predial_minima_m2": 200.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 30.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 30",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,7",
+   "coef_constructibilidad": 4.0,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 4",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZU3A",
+   "codigo_ordenanza": "ZU3-A",
+   "pagina": 21,
+   "pagina_impresa": 20,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU3",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU3, excepto la norma de densidad bruta máxima que será de 900 Hab/ha.",
+   "superficie_predial_minima_m2": 200.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "altura_m": 30.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 30",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,7",
+   "coef_constructibilidad": 4.0,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 4",
+   "antejardin_m": 0.0,
+   "antejardin_m_texto": "Antejardines Sin antejardín",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZU4",
+   "codigo_ordenanza": "ZU4",
+   "pagina": 21,
+   "pagina_impresa": 20,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "superficie_predial_minima_m2": 250.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 18",
+   "altura_m": 18.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3",
+   "coef_constructibilidad": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado",
+   "antejardin_m_texto": "Antejardines 3",
+   "antejardin_m": 3.0
+  },
+  {
+   "zona": "ZU4-1",
+   "codigo_ordenanza": "ZU4-1",
+   "pagina": 22,
+   "pagina_impresa": 21,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU4",
+   "hereda_texto": "En esta subzona regirán las normas urbanísticas de la Zona ZU4, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "rectificacion": {
+    "documento": "Decreto Exento N° 031 (09-01-2026), aclara y rectifica el D.E. N° 3.155",
+    "punto": "1",
+    "pagina": 2,
+    "donde_dice": "En esta subzona regirán las normas urbanísticas de la Zona ZE4, excepto la norma de antejardines que corresponderá a la siguiente: Antejardines: 7m",
+    "debe_decir": "En esta subzona regirán las normas urbanísticas de la Zona ZU4, excepto la norma de antejardines que corresponderá a la siguiente: Antejardines: 7m"
+   },
+   "superficie_predial_minima_m2": 250.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 18.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 18",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_constructibilidad": 3.0,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZU4-2",
+   "codigo_ordenanza": "ZU4-2",
+   "pagina": 22,
+   "pagina_impresa": 21,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZE4",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZE4, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 5 m",
+   "antejardin_m": 5.0,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Ordenanza dice que en la subzona ZU4-2 «regirán las normas urbanísticas de la Zona ZE4», pero el Art. 4 la lista como subzona de ZU4 y el D.E. N° 031 corrigió lo mismo solo en ZU4-1. Se usan las normas de ZE4 (texto literal); confirmarlo con la DOM."
+    }
+   ],
+   "superficie_predial_minima_m2": 1000.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 30.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 30",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_constructibilidad": 6.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 6.0",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZU5",
+   "codigo_ordenanza": "ZU5",
+   "pagina": 22,
+   "pagina_impresa": 21,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "superficie_predial_minima_m2": 200.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 18",
+   "altura_m": 18.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2.8",
+   "coef_constructibilidad": 2.8,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, Pareado y Continuo",
+   "antejardin_m_texto": "Antejardines 3",
+   "antejardin_m": 3.0
+  },
+  {
+   "zona": "ZU5-1",
+   "codigo_ordenanza": "ZU5-1",
+   "pagina": 22,
+   "pagina_impresa": 21,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU5",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU5, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 200.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 18.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 18",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,7",
+   "coef_constructibilidad": 2.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2.8",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, Pareado y Continuo"
+  },
+  {
+   "zona": "ZU5-2",
+   "codigo_ordenanza": "ZU5-2",
+   "pagina": 23,
+   "pagina_impresa": 22,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU5",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU5, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 5 m",
+   "antejardin_m": 5.0,
+   "superficie_predial_minima_m2": 200.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 18.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 18",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,7",
+   "coef_constructibilidad": 2.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2.8",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, Pareado y Continuo"
+  },
+  {
+   "zona": "ZU5A",
+   "codigo_ordenanza": "ZU5-A",
+   "pagina": 23,
+   "pagina_impresa": 22,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU5",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU5, además de las siguientes normas urbanísticas generales NORMAS URBANISTICAS GENERALES Superficie de Subdivisión Predial Mínima (m2) 300 Altura máxima de edificación (m) 6 Densidad Bruta Máxima (Hab./Ha.) 300 Coeficiente de ocupación De Suelo 0,8 Coeficiente de Constructibilidad 1.6 Sistema de Agrupamiento Continuo y pareado, con retranqueo frontal de 4m a partir del s",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 6",
+   "altura_m": 6.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación De Suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1.6",
+   "coef_constructibilidad": 1.6,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo y pareado, con retranqueo frontal de 4m a partir del segundo piso.",
+   "antejardin_m_texto": "Antejardines 3, se mantienen los existentes",
+   "antejardin_m": null,
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento tiene condiciones que el motor no verifica: «Continuo y pareado, con retranqueo frontal de 4m a partir del segundo piso.»."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín no es una cifra única: «3, se mantienen los existentes»."
+    }
+   ]
+  },
+  {
+   "zona": "ZU5B",
+   "codigo_ordenanza": "ZU5-B",
+   "pagina": 23,
+   "pagina_impresa": 22,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 3",
+   "altura_m": 3.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación De Suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1.6",
+   "coef_constructibilidad": 1.6,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo y pareado",
+   "antejardin_m_texto": "Antejardines 5 (Romeral) y 3 (Buen Pastor)",
+   "antejardin_m": null,
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín no es una cifra única: «5 (Romeral) y 3 (Buen Pastor)»."
+    }
+   ]
+  },
+  {
+   "zona": "ZU5C",
+   "codigo_ordenanza": "ZU5-C",
+   "pagina": 24,
+   "pagina_impresa": 23,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 6",
+   "altura_m": 6.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de Suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1.6",
+   "coef_constructibilidad": 1.6,
+   "agrupamiento": [
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Pareado",
+   "antejardin_m_texto": "Antejardines 5",
+   "antejardin_m": 5.0
+  },
+  {
+   "zona": "ZU5D",
+   "codigo_ordenanza": "ZU5-D",
+   "pagina": 25,
+   "pagina_impresa": 24,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 12",
+   "altura_m": 12.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2.4",
+   "coef_constructibilidad": 2.4,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado",
+   "antejardin_m_texto": "Antejardines 3 m",
+   "antejardin_m": 3.0
+  },
+  {
+   "zona": "ZU6",
+   "codigo_ordenanza": "ZU6",
+   "pagina": 26,
+   "pagina_impresa": 25,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 400",
+   "superficie_predial_minima_m2": 400.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 15",
+   "altura_m": 15.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2",
+   "coef_constructibilidad": 2.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado",
+   "antejardin_m_texto": "Antejardines 3",
+   "antejardin_m": 3.0
+  },
+  {
+   "zona": "ZU6-1",
+   "codigo_ordenanza": "ZU6-1",
+   "pagina": 26,
+   "pagina_impresa": 25,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU6",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU6, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 400.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 400",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 15.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 15",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZU6-2",
+   "codigo_ordenanza": "ZU6-2",
+   "pagina": 26,
+   "pagina_impresa": 25,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU6",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU6, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 5 m",
+   "antejardin_m": 5.0,
+   "superficie_predial_minima_m2": 400.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 400",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 15.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 15",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZU6A",
+   "codigo_ordenanza": "ZU6-A",
+   "pagina": 27,
+   "pagina_impresa": 26,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 400",
+   "superficie_predial_minima_m2": 400.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 22",
+   "altura_m": 22.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2",
+   "coef_constructibilidad": 2.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado",
+   "antejardin_m_texto": "Antejardines 3",
+   "antejardin_m": 3.0
+  },
+  {
+   "zona": "ZU6A1",
+   "codigo_ordenanza": "ZU6A-1",
+   "pagina": 27,
+   "pagina_impresa": 26,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU6A",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU6-A, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 400.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 400",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 22.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 22",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZU6A2",
+   "codigo_ordenanza": "ZU6A-2",
+   "pagina": 27,
+   "pagina_impresa": 26,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU6A",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU6-A, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 5 m",
+   "antejardin_m": 5.0,
+   "superficie_predial_minima_m2": 400.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 400",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 22.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 22",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZU7",
+   "codigo_ordenanza": "ZU7",
+   "pagina": 28,
+   "pagina_impresa": 27,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "superficie_predial_minima_m2": 1000.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 9",
+   "altura_m": 9.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1.2",
+   "coef_constructibilidad": 1.2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "antejardin_m_texto": "Antejardines 5",
+   "antejardin_m": 5.0
+  },
+  {
+   "zona": "ZU7-1",
+   "codigo_ordenanza": "ZU7-1",
+   "pagina": 28,
+   "pagina_impresa": 27,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU7",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU7, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 1000.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 9.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 9",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1.2",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZU7A",
+   "codigo_ordenanza": "ZU7-A",
+   "pagina": 29,
+   "pagina_impresa": 28,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2500 según Artículo 2.1.20 LOGUC",
+   "superficie_predial_minima_m2": 2500.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 7",
+   "altura_m": 7.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,12",
+   "coef_constructibilidad": 0.12,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "antejardin_m_texto": "Antejardines 5",
+   "antejardin_m": 5.0
+  },
+  {
+   "zona": "ZU7A1",
+   "codigo_ordenanza": "ZU7a-1",
+   "pagina": 29,
+   "pagina_impresa": 28,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU7A",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU7-A, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 2500.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2500 según Artículo 2.1.20 LOGUC",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 7.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 7",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,05",
+   "coef_constructibilidad": 0.12,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,12",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZU8",
+   "codigo_ordenanza": "ZU8",
+   "pagina": 30,
+   "pagina_impresa": 29,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "superficie_predial_minima_m2": 1000.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 21",
+   "altura_m": 21.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3",
+   "coef_constructibilidad": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "antejardin_m_texto": "Antejardines 3",
+   "antejardin_m": 3.0,
+   "altura_incentivo_m": 27.0,
+   "incentivo_texto": "aumento de la altura máxima permitida a 27 m"
+  },
+  {
+   "zona": "ZU8-1",
+   "codigo_ordenanza": "ZU8-1",
+   "pagina": 30,
+   "pagina_impresa": 29,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU8",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU8, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 1000.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 21.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 21",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_constructibilidad": 3.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "altura_incentivo_m": 27.0,
+   "incentivo_texto": "aumento de la altura máxima permitida a 27 m"
+  },
+  {
+   "zona": "ZU8-2",
+   "codigo_ordenanza": "ZU8-2",
+   "pagina": 31,
+   "pagina_impresa": 30,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU8",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU8, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 5 m",
+   "antejardin_m": 5.0,
+   "superficie_predial_minima_m2": 1000.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 21.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 21",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_constructibilidad": 3.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "altura_incentivo_m": 27.0,
+   "incentivo_texto": "aumento de la altura máxima permitida a 27 m"
+  },
+  {
+   "zona": "ZU9",
+   "codigo_ordenanza": "ZU9",
+   "pagina": 31,
+   "pagina_impresa": 30,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "superficie_predial_minima_m2": 250.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 15",
+   "altura_m": 15.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3.5",
+   "coef_constructibilidad": 3.5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, Pareado y Continuo",
+   "antejardin_m_texto": "Antejardines 3",
+   "antejardin_m": 3.0
+  },
+  {
+   "zona": "ZU9-1",
+   "codigo_ordenanza": "ZU9-1",
+   "pagina": 31,
+   "pagina_impresa": 30,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU9",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU9, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 250.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 15.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 15",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_constructibilidad": 3.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3.5",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, Pareado y Continuo"
+  },
+  {
+   "zona": "ZU9-2",
+   "codigo_ordenanza": "ZU9-2",
+   "pagina": 32,
+   "pagina_impresa": 31,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU9",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU9, excepto la norma de subdivisión predial mínima y la de antejardines que corresponderá a la siguiente",
+   "superficie_predial_minima_m2_texto": "Subdivisión Predial Mínima: 180m2",
+   "superficie_predial_minima_m2": 180.0,
+   "antejardin_m_texto": "Antejardines 2 m",
+   "antejardin_m": 2.0,
+   "altura_m": 15.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 15",
+   "heredado": [
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_constructibilidad": 3.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3.5",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, Pareado y Continuo"
+  },
+  {
+   "zona": "ZU9A",
+   "codigo_ordenanza": "ZU9-A",
+   "pagina": 32,
+   "pagina_impresa": 31,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "superficie_predial_minima_m2": 250.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 45",
+   "altura_m": 45.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4",
+   "coef_constructibilidad": 4.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, Pareado y Continuo",
+   "antejardin_m_texto": "Antejardines 7",
+   "antejardin_m": 7.0
+  },
+  {
+   "zona": "ZU9A1",
+   "codigo_ordenanza": "ZU9A-1",
+   "pagina": 32,
+   "pagina_impresa": 31,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU9A",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU9-A, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 250.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 45.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 45",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_constructibilidad": 4.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, Pareado y Continuo"
+  },
+  {
+   "zona": "ZU9A2",
+   "codigo_ordenanza": "ZU9A-2",
+   "pagina": 33,
+   "pagina_impresa": 32,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU9A",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU9-A, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 5 m",
+   "antejardin_m": 5.0,
+   "superficie_predial_minima_m2": 250.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 45.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 45",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_constructibilidad": 4.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, Pareado y Continuo"
+  },
+  {
+   "zona": "ZU9B",
+   "codigo_ordenanza": "ZU9-B",
+   "pagina": 33,
+   "pagina_impresa": 32,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "superficie_predial_minima_m2": 200.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 12",
+   "altura_m": 12.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3",
+   "coef_constructibilidad": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, Pareado y Continuo",
+   "antejardin_m_texto": "Antejardines 7",
+   "antejardin_m": 7.0
+  },
+  {
+   "zona": "ZU10",
+   "codigo_ordenanza": "ZU10",
+   "pagina": 34,
+   "pagina_impresa": 33,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "superficie_predial_minima_m2": 250.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 9",
+   "altura_m": 9.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "antejardin_m_texto": "Antejardines 3",
+   "antejardin_m": 3.0
+  },
+  {
+   "zona": "ZU10-1",
+   "codigo_ordenanza": "ZU10-1",
+   "pagina": 34,
+   "pagina_impresa": 33,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU10",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU10, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 5 m",
+   "antejardin_m": 5.0,
+   "superficie_predial_minima_m2": 250.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 9.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 9",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_constructibilidad": 1.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,8",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZU11",
+   "codigo_ordenanza": "ZU11",
+   "pagina": 35,
+   "pagina_impresa": 34,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 500",
+   "superficie_predial_minima_m2": 500.0,
+   "altura_m_texto": "Altura máxima edificación (m) 24",
+   "altura_m": 24.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2",
+   "coef_constructibilidad": 2.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado",
+   "antejardin_m_texto": "Antejardines 3",
+   "antejardin_m": 3.0
+  },
+  {
+   "zona": "ZU11-1",
+   "codigo_ordenanza": "ZU11-1",
+   "pagina": 35,
+   "pagina_impresa": 34,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU11",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU11, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 500.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 500",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 24.0,
+   "altura_m_texto": "Altura máxima edificación (m) 24",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZU11-2",
+   "codigo_ordenanza": "ZU11-2",
+   "pagina": 35,
+   "pagina_impresa": 34,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU11",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU11, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 5 m",
+   "antejardin_m": 5.0,
+   "superficie_predial_minima_m2": 500.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 500",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 24.0,
+   "altura_m_texto": "Altura máxima edificación (m) 24",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZU12",
+   "codigo_ordenanza": "ZU12",
+   "pagina": 36,
+   "pagina_impresa": 35,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "superficie_predial_minima_m2": 200.0,
+   "altura_m_texto": "Altura máxima edificación (m) 9",
+   "altura_m": 9.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2.1",
+   "coef_constructibilidad": 2.1,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado",
+   "antejardin_m_texto": "Antejardines Sin antejardín",
+   "antejardin_m": 0.0
+  },
+  {
+   "zona": "ZU12-1",
+   "codigo_ordenanza": "ZU12-1",
+   "pagina": 36,
+   "pagina_impresa": 35,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU12",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU12, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 200.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 9.0,
+   "altura_m_texto": "Altura máxima edificación (m) 9",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_constructibilidad": 2.1,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2.1",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZU12-2",
+   "codigo_ordenanza": "ZU12-2",
+   "pagina": 36,
+   "pagina_impresa": 35,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU12",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU12, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 5 m",
+   "antejardin_m": 5.0,
+   "superficie_predial_minima_m2": 200.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 9.0,
+   "altura_m_texto": "Altura máxima edificación (m) 9",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_constructibilidad": 2.1,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2.1",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZU13",
+   "codigo_ordenanza": "ZU13",
+   "pagina": 37,
+   "pagina_impresa": 36,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "superficie_predial_minima_m2": 200.0,
+   "altura_m_texto": "Altura máxima edificación (m) 18",
+   "altura_m": 18.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3",
+   "coef_constructibilidad": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado",
+   "antejardin_m_texto": "Antejardines 3",
+   "antejardin_m": 3.0
+  },
+  {
+   "zona": "ZU13-1",
+   "codigo_ordenanza": "ZU13-1",
+   "pagina": 37,
+   "pagina_impresa": 36,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU13",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU13, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 200.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 18.0,
+   "altura_m_texto": "Altura máxima edificación (m) 18",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_constructibilidad": 3.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZU13A",
+   "codigo_ordenanza": "ZU13-A",
+   "pagina": 38,
+   "pagina_impresa": 37,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU13",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU13, excepto la prohibición de las siguientes actividades",
+   "superficie_predial_minima_m2": 200.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 200",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "altura_m": 18.0,
+   "altura_m_texto": "Altura máxima edificación (m) 18",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_constructibilidad": 3.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3",
+   "antejardin_m": 3.0,
+   "antejardin_m_texto": "Antejardines 3",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZU14",
+   "codigo_ordenanza": "ZU14",
+   "pagina": 38,
+   "pagina_impresa": 37,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "superficie_predial_minima_m2": 1000.0,
+   "altura_m_texto": "Altura máxima edificación (m) 30",
+   "altura_m": 30.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2",
+   "coef_constructibilidad": 2.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "antejardin_m_texto": "Antejardines 10",
+   "antejardin_m": 10.0
+  },
+  {
+   "zona": "ZU15",
+   "codigo_ordenanza": "ZU15",
+   "pagina": 39,
+   "pagina_impresa": 38,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 500",
+   "superficie_predial_minima_m2": 500.0,
+   "altura_m_texto": "Altura máxima edificación (m) 15",
+   "altura_m": 15.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3.0",
+   "coef_constructibilidad": 3.0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo.",
+   "antejardin_m_texto": "Antejardines No se considera antejardín.",
+   "antejardin_m": 0.0,
+   "rasante_texto": "Rasantes 70º",
+   "rasante_grados": 70.0
+  },
+  {
+   "zona": "ZU15A",
+   "codigo_ordenanza": "ZU15-A",
+   "pagina": 40,
+   "pagina_impresa": 39,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU15",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU15, excepto a lo siguiente",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300.0,
+   "altura_m_texto": "Altura máxima edificación (m) 18m*",
+   "altura_m": 18.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 1",
+   "coef_ocupacion_suelo": 1.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4.5",
+   "coef_constructibilidad": 4.5,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo.",
+   "antejardin_m_texto": "Antejardines No se considera antejardín.",
+   "antejardin_m": 0.0,
+   "rasante_texto": "Rasantes 70º",
+   "rasante_grados": 70.0,
+   "altura_incentivo_m": 24.0,
+   "incentivo_texto": "(*) En el marco de la aplicación del Art 184 LGUC. Sí el destino del primer piso es comercial, se establece como incentivo al fomento del destino residencial, vivienda, en los pisos superiores, el aumento de la altura máxima permitida a 24 m"
+  },
+  {
+   "zona": "ZU16",
+   "codigo_ordenanza": "ZU16",
+   "pagina": 41,
+   "pagina_impresa": 40,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "superficie_predial_minima_m2": 250.0,
+   "altura_m_texto": "Altura máxima edificación (m) 19",
+   "altura_m": 19.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3.5",
+   "coef_constructibilidad": 3.5,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, Pareado",
+   "antejardin_m_texto": "Antejardines 3",
+   "antejardin_m": 3.0
+  },
+  {
+   "zona": "ZU16-1",
+   "codigo_ordenanza": "ZU16-1",
+   "pagina": 41,
+   "pagina_impresa": 40,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU16",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU16, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 250.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 19.0,
+   "altura_m_texto": "Altura máxima edificación (m) 19",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_constructibilidad": 3.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3.5",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, Pareado"
+  },
+  {
+   "zona": "ZU16A",
+   "codigo_ordenanza": "ZU16-A",
+   "pagina": 42,
+   "pagina_impresa": 41,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU16",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU16, excepto la norma de densidad bruta máxima que corresponderá a la siguiente",
+   "superficie_predial_minima_m2": 250.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 250",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "altura_m": 19.0,
+   "altura_m_texto": "Altura máxima edificación (m) 19",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_constructibilidad": 3.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3.5",
+   "antejardin_m": 3.0,
+   "antejardin_m_texto": "Antejardines 3",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado, Pareado"
+  },
+  {
+   "zona": "ZU17",
+   "codigo_ordenanza": "ZU17",
+   "pagina": 42,
+   "pagina_impresa": 41,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 12",
+   "altura_m": 12.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación De Suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2.4",
+   "coef_constructibilidad": 2.4,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado",
+   "antejardin_m_texto": "Antejardines No se exige",
+   "antejardin_m": 0.0
+  },
+  {
+   "zona": "ZU17-1",
+   "codigo_ordenanza": "ZU17-1",
+   "pagina": 42,
+   "pagina_impresa": 41,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU17",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU17, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 300.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 12.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 12",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación De Suelo 0,6",
+   "coef_constructibilidad": 2.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2.4",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZAV",
+   "codigo_ordenanza": "ZAV",
+   "pagina": 43,
+   "pagina_impresa": 42,
+   "seccion": "Artículo 13. Zonas de Áreas verdes"
+  },
+  {
+   "zona": "ZAVPC",
+   "codigo_ordenanza": "ZAVPC",
+   "pagina": 43,
+   "pagina_impresa": 42,
+   "seccion": "Artículo 13. Zonas de Áreas verdes",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima :10.000 m2",
+   "superficie_predial_minima_m2": 10000.0,
+   "altura_m_texto": "Altura máxima de edificación : 8 m",
+   "altura_m": 8.0,
+   "coef_ocupacion_suelo_texto": "Coef. Ocupación de suelo : Art. 2.1.30 y 2.1.31 de la OGUC",
+   "coef_ocupacion_suelo": null,
+   "coef_constructibilidad_texto": "Coef. Constructibilidad : Art. 2.1.30 y 2.1.31 de la OGUC",
+   "coef_constructibilidad": null
+  },
+  {
+   "zona": "ZAVPC-A",
+   "codigo_ordenanza": "ZAVPC-A",
+   "pagina": 43,
+   "pagina_impresa": 42,
+   "seccion": "Artículo 13. Zonas de Áreas verdes",
+   "hereda_de": "ZAVPC",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZAVPC, excepto la norma de usos de suelo permitidos que corresponderá a la siguiente",
+   "superficie_predial_minima_m2": 10000.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima :10.000 m2",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "altura_m": 8.0,
+   "altura_m_texto": "Altura máxima de edificación : 8 m",
+   "coef_ocupacion_suelo": null,
+   "coef_ocupacion_suelo_texto": "Coef. Ocupación de suelo : Art. 2.1.30 y 2.1.31 de la OGUC",
+   "coef_constructibilidad": null,
+   "coef_constructibilidad_texto": "Coef. Constructibilidad : Art. 2.1.30 y 2.1.31 de la OGUC",
+   "antejardin_m": null,
+   "antejardin_m_texto": null,
+   "agrupamiento": null,
+   "agrupamiento_texto": null
+  },
+  {
+   "zona": "ZPI",
+   "codigo_ordenanza": "ZPI",
+   "pagina": 43,
+   "pagina_impresa": 42,
+   "seccion": "Artículo 13. Zonas de Áreas verdes",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima :10.000 m2",
+   "superficie_predial_minima_m2": 10000.0,
+   "altura_m_texto": "Altura máxima de edificación : 4 m",
+   "altura_m": 4.0,
+   "coef_ocupacion_suelo_texto": "Coef. Ocupación de suelo : Art. 2.1.30 y 2.1.31 de la OGUC",
+   "coef_ocupacion_suelo": null,
+   "coef_constructibilidad_texto": "Coef. Constructibilidad : Art. 2.1.30 y 2.1.31 de la OGUC",
+   "coef_constructibilidad": null
+  },
+  {
+   "zona": "ZU17-2",
+   "codigo_ordenanza": "ZU17-2",
+   "pagina": 43,
+   "pagina_impresa": 42,
+   "seccion": "Artículo 12. Zonas Urbanas Mixtas Residenciales",
+   "hereda_de": "ZU17",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZU17, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 5 m",
+   "antejardin_m": 5.0,
+   "superficie_predial_minima_m2": 300.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 12.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 12",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación De Suelo 0,6",
+   "coef_constructibilidad": 2.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2.4",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZP1",
+   "codigo_ordenanza": "ZP1",
+   "pagina": 44,
+   "pagina_impresa": 43,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "superficie_predial_minima_m2": 1000.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 27",
+   "altura_m": 27.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 5.4",
+   "coef_constructibilidad": 5.4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "antejardin_m_texto": "Antejardines 5",
+   "antejardin_m": 5.0
+  },
+  {
+   "zona": "ZP1-1",
+   "codigo_ordenanza": "ZP1-1",
+   "pagina": 45,
+   "pagina_impresa": 44,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "hereda_de": "ZP1",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZP1, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 1000.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 27.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 27",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_constructibilidad": 5.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 5.4",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZP2",
+   "codigo_ordenanza": "ZP2",
+   "pagina": 45,
+   "pagina_impresa": 44,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "superficie_predial_minima_m2": 1000.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 30",
+   "altura_m": 30.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 6.0",
+   "coef_constructibilidad": 6.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "antejardin_m_texto": "Antejardines 5",
+   "antejardin_m": 5.0
+  },
+  {
+   "zona": "ZP2-1",
+   "codigo_ordenanza": "ZP2-1",
+   "pagina": 45,
+   "pagina_impresa": 44,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "hereda_de": "ZP2",
+   "hereda_texto": "regirán las normas urbaní sticas de la Zona ZP2, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 1000.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 30.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 30",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,8",
+   "coef_constructibilidad": 6.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 6.0",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZP2A",
+   "codigo_ordenanza": "ZP2-A",
+   "pagina": 45,
+   "pagina_impresa": 44,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "hereda_de": "ZP2",
+   "hereda_texto": "En esta subzona regirán las normas urbanísticas de la Zona ZP2-A, excepto la norma de altura máxima de edificación, que corresponderá a la siguiente",
+   "altura_m_texto": "Altura: 15 m",
+   "altura_m": 15.0,
+   "rectificacion": {
+    "documento": "Decreto Exento N° 031 (09-01-2026), aclara y rectifica el D.E. N° 3.155",
+    "punto": "2",
+    "pagina": 2,
+    "donde_dice": "En esta subzona regirán las normas urbanísticas de la Zona ZP2, excepto la norma de antejardines, que corresponderá a la siguiente: Altura: 15m",
+    "debe_decir": "En esta subzona regirán las normas urbanísticas de la Zona ZP2-A, excepto la norma de altura máxima de edificación, que corresponderá a la siguiente: Altura: 15m"
+   },
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "El D.E. N° 031 dice que en ZP2-A «regirán las normas urbanísticas de la Zona ZP2-A»: se remite a sí misma. Se usan las normas de ZP2 (texto original) salvo la altura de 15 m; confirmarlo con la DOM."
+    }
+   ],
+   "superficie_predial_minima_m2": 1000.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.8,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,8",
+   "coef_constructibilidad": 6.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 6.0",
+   "antejardin_m": 5.0,
+   "antejardin_m_texto": "Antejardines 5",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZE1",
+   "codigo_ordenanza": "ZE1",
+   "pagina": 46,
+   "pagina_impresa": 45,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima : 2500 m2",
+   "superficie_predial_minima_m2": 2500.0,
+   "altura_m_texto": "Altura máxima de edificación : 7 metros",
+   "altura_m": 7.0,
+   "coef_ocupacion_suelo_texto": "Coef. Ocupación de suelo : 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "Coef. Constructibilidad : 0,2",
+   "coef_constructibilidad": 0.2
+  },
+  {
+   "zona": "ZP3",
+   "codigo_ordenanza": "ZP3",
+   "pagina": 46,
+   "pagina_impresa": 45,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "superficie_predial_minima_m2": 1000.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 15",
+   "altura_m": 15.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 6.0",
+   "coef_constructibilidad": 6.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "antejardin_m_texto": "Antejardines 10",
+   "antejardin_m": 10.0
+  },
+  {
+   "zona": "ZE2",
+   "codigo_ordenanza": "ZE2",
+   "pagina": 47,
+   "pagina_impresa": 46,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2500",
+   "superficie_predial_minima_m2": 2500.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 18",
+   "altura_m": 18.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2,8",
+   "coef_constructibilidad": 2.8,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "antejardin_m_texto": "Antejardines 5",
+   "antejardin_m": 5.0
+  },
+  {
+   "zona": "ZE2-1",
+   "codigo_ordenanza": "ZE2-1",
+   "pagina": 47,
+   "pagina_impresa": 46,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "hereda_de": "ZE2",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZE2, excepto la norma de altura máxima y antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "altura_m": null,
+   "altura_m_texto": "regirán las normas urbanísticas de la Zona ZE2, excepto la norma de altura máxima y antejardines que corresponderá a la siguiente",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La subzona exceptúa esa norma de las de ZE2 pero no indica el nuevo valor: «regirán las normas urbanísticas de la Zona ZE2, excepto la norma de altura máxima y antejardines que corresponderá a la siguiente»."
+    }
+   ],
+   "superficie_predial_minima_m2": 2500.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2500",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,7",
+   "coef_constructibilidad": 2.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2,8",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZE2A",
+   "codigo_ordenanza": "ZE2-A",
+   "pagina": 47,
+   "pagina_impresa": 46,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "hereda_de": "ZE2",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZE2, excepto la norma de altura máxima permitida que corresponderá a la siguiente",
+   "altura_m_texto": "Altura máxima permitida: 21 m",
+   "altura_m": 21.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad: 3.3",
+   "coef_constructibilidad": 3.3,
+   "superficie_predial_minima_m2": 2500.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2500",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,7",
+   "antejardin_m": 5.0,
+   "antejardin_m_texto": "Antejardines 5",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZE2B",
+   "codigo_ordenanza": "ZE2-B",
+   "pagina": 47,
+   "pagina_impresa": 46,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "hereda_de": "ZE2",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZE2, excepto la norma de Usos que corresponderá a la siguiente",
+   "superficie_predial_minima_m2": 2500.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 2500",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "altura_m": 18.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 18",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación 0,7",
+   "coef_constructibilidad": 2.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2,8",
+   "antejardin_m": 5.0,
+   "antejardin_m_texto": "Antejardines 5",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZE3",
+   "codigo_ordenanza": "ZE3",
+   "pagina": 48,
+   "pagina_impresa": 47,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "superficie_predial_minima_m2": 1000.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 21",
+   "altura_m": 21.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4.2",
+   "coef_constructibilidad": 4.2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "antejardin_m_texto": "Antejardines 5",
+   "antejardin_m": 5.0
+  },
+  {
+   "zona": "ZE3-1",
+   "codigo_ordenanza": "ZE3-1",
+   "pagina": 49,
+   "pagina_impresa": 48,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "hereda_de": "ZE3",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZE3, excepto la norma de altura máxima y antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "altura_m": null,
+   "altura_m_texto": "regirán las normas urbanísticas de la Zona ZE3, excepto la norma de altura máxima y antejardines que corresponderá a la siguiente",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La subzona exceptúa esa norma de las de ZE3 pero no indica el nuevo valor: «regirán las normas urbanísticas de la Zona ZE3, excepto la norma de altura máxima y antejardines que corresponderá a la siguiente»."
+    }
+   ],
+   "superficie_predial_minima_m2": 1000.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_constructibilidad": 4.2,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4.2",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZE3A",
+   "codigo_ordenanza": "ZE3-A",
+   "pagina": 49,
+   "pagina_impresa": 48,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "hereda_de": "ZE3",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZE3, excepto la norma de altura máxima y antejardines que corresponderá a la siguiente",
+   "altura_m_texto": "Altura Máxima: 14 m",
+   "altura_m": 14.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad: 2,8",
+   "coef_constructibilidad": 2.8,
+   "antejardin_m_texto": "Antejardines 10 m",
+   "antejardin_m": 10.0,
+   "superficie_predial_minima_m2": 1000.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "agrupamiento"
+   ],
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZE4",
+   "codigo_ordenanza": "ZE4",
+   "pagina": 49,
+   "pagina_impresa": 48,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "superficie_predial_minima_m2": 1000.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 30",
+   "altura_m": 30.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 6.0",
+   "coef_constructibilidad": 6.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "antejardin_m_texto": "Antejardines 5",
+   "antejardin_m": 5.0
+  },
+  {
+   "zona": "ZE4-1",
+   "codigo_ordenanza": "ZE4-1",
+   "pagina": 50,
+   "pagina_impresa": 49,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "hereda_de": "ZE4",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZE4, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 1000.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 30.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 30",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_constructibilidad": 6.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 6.0",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZE4A",
+   "codigo_ordenanza": "ZE4-A",
+   "pagina": 50,
+   "pagina_impresa": 49,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "superficie_predial_minima_m2": 1000.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 15",
+   "altura_m": 15.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 6.0",
+   "coef_constructibilidad": 6.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado",
+   "antejardin_m_texto": "Antejardines 5",
+   "antejardin_m": 5.0
+  },
+  {
+   "zona": "ZE4A1",
+   "codigo_ordenanza": "ZE4A-1",
+   "pagina": 51,
+   "pagina_impresa": 50,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "hereda_de": "ZE4A",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZE4-A, excepto la norma de antejardines que corresponderá a la siguiente",
+   "antejardin_m_texto": "Antejardines 7 m",
+   "antejardin_m": 7.0,
+   "superficie_predial_minima_m2": 1000.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 1000",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "agrupamiento"
+   ],
+   "altura_m": 15.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 15",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_constructibilidad": 6.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 6.0",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y Pareado"
+  },
+  {
+   "zona": "ZEBC1",
+   "codigo_ordenanza": "ZEBC1",
+   "pagina": 51,
+   "pagina_impresa": 50,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima : 800 m2",
+   "superficie_predial_minima_m2": 800.0,
+   "altura_m_texto": "Altura máxima de edificación : 6 metros",
+   "altura_m": 6.0,
+   "coef_ocupacion_suelo_texto": "Coef. Ocupación de suelo : 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coef. Constructibilidad : 1,2",
+   "coef_constructibilidad": 1.2
+  },
+  {
+   "zona": "ZEBC2",
+   "codigo_ordenanza": "ZEBC2",
+   "pagina": 51,
+   "pagina_impresa": 50,
+   "seccion": "Artículo 14. Zonas de Actividades Productivas y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima : 1000 m2",
+   "superficie_predial_minima_m2": 1000.0,
+   "altura_m_texto": "Altura máxima de edificación : 6 metros",
+   "altura_m": 6.0,
+   "coef_ocupacion_suelo_texto": "Coef. Ocupación de suelo : 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coef. Constructibilidad : 0,1",
+   "coef_constructibilidad": 0.1
+  },
+  {
+   "zona": "ZI1",
+   "codigo_ordenanza": "ZI1",
+   "pagina": 52,
+   "pagina_impresa": 51,
+   "seccion": "Artículo 15. Zonas de Infraestructura",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima : 2500 m2",
+   "superficie_predial_minima_m2": 2500.0,
+   "altura_m_texto": "Altura máxima de edificación : 12 metros",
+   "altura_m": 12.0,
+   "coef_ocupacion_suelo_texto": "Coef. de Ocupación de suelo : 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coef. de Constructibilidad : 1,8",
+   "coef_constructibilidad": 1.8,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZI2",
+   "codigo_ordenanza": "ZI2",
+   "pagina": 52,
+   "pagina_impresa": 51,
+   "seccion": "Artículo 15. Zonas de Infraestructura",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima : 2500 m2",
+   "superficie_predial_minima_m2": 2500.0,
+   "altura_m_texto": "Altura máxima de edificación : 12 metros",
+   "altura_m": 12.0,
+   "coef_ocupacion_suelo_texto": "Coef. de Ocupación de suelo : 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coef. de Constructibilidad : 1,2",
+   "coef_constructibilidad": 1.2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZI3",
+   "codigo_ordenanza": "ZI3",
+   "pagina": 52,
+   "pagina_impresa": 51,
+   "seccion": "Artículo 15. Zonas de Infraestructura",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima : 2500 m2",
+   "superficie_predial_minima_m2": 2500.0,
+   "altura_m_texto": "Altura máxima de edificación : 12 metros",
+   "altura_m": 12.0,
+   "coef_ocupacion_suelo_texto": "Coef. de Ocupación de suelo : 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coef. de Constructibilidad : 1,2",
+   "coef_constructibilidad": 1.2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZI4",
+   "codigo_ordenanza": "ZI4",
+   "pagina": 53,
+   "pagina_impresa": 52,
+   "seccion": "Artículo 15. Zonas de Infraestructura",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima : 2500 m2",
+   "superficie_predial_minima_m2": 2500.0,
+   "altura_m_texto": "Altura máxima de edificación :15 metros",
+   "altura_m": 15.0,
+   "coef_ocupacion_suelo_texto": "Coef. de Ocupación de suelo : 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coef. de Constructibilidad : 1,8",
+   "coef_constructibilidad": 1.8,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "AVP1",
+   "codigo_ordenanza": "AVP1",
+   "pagina": 55,
+   "pagina_impresa": 54,
+   "seccion": "Artículo 19. Zona Típica Pueblo de Guayacán",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2): 160",
+   "superficie_predial_minima_m2": 160.0,
+   "altura_m_texto": "Altura máxima edificación (m) 3.5",
+   "altura_m": 3.5,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de Suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo y Pareado",
+   "antejardin_m_texto": "Antejardines No se considera antejardín.",
+   "antejardin_m": 0.0,
+   "rectificacion": {
+    "documento": "Decreto Exento N° 031 (09-01-2026), aclara y rectifica el D.E. N° 3.155",
+    "punto": "3",
+    "pagina": 2,
+    "donde_dice": "Superficie predial mínima (m2): 0",
+    "debe_decir": "Superficie predial mínima (m2): 160"
+   }
+  },
+  {
+   "zona": "AVP2",
+   "codigo_ordenanza": "AVP2",
+   "pagina": 56,
+   "pagina_impresa": 55,
+   "seccion": "Artículo 19. Zona Típica Pueblo de Guayacán",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 7",
+   "altura_m": 7.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1.4",
+   "coef_constructibilidad": 1.4,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continua y pareada",
+   "antejardin_m_texto": "Antejardines No se considera antejardín.",
+   "antejardin_m": 0.0,
+   "rasante_texto": "Rasantes 45º deslinde sobre edificación continua, 70º desde eje de calle.",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "La ficha fija su propia rasante («Rasantes 45º deslinde sobre edificación continua, 70º desde eje de calle.»); el motor usa la del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "AVP2A",
+   "codigo_ordenanza": "AVP2-A",
+   "pagina": 56,
+   "pagina_impresa": 55,
+   "seccion": "Artículo 19. Zona Típica Pueblo de Guayacán",
+   "hereda_de": "AVP2",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona AVP2, excepto lo siguiente",
+   "superficie_predial_minima_m2": 300.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "altura_m": 7.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 7",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación",
+   "coef_constructibilidad": 1.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1.4",
+   "antejardin_m": 0.0,
+   "antejardin_m_texto": "Antejardines No se considera antejardín.",
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continua y pareada",
+   "rasante_texto": "Rasantes 45º deslinde sobre edificación continua, 70º desde eje de calle.",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "La ficha fija su propia rasante («Rasantes 45º deslinde sobre edificación continua, 70º desde eje de calle.»); el motor usa la del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "AVP3",
+   "codigo_ordenanza": "AVP3",
+   "pagina": 57,
+   "pagina_impresa": 56,
+   "seccion": "Artículo 19. Zona Típica Pueblo de Guayacán",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 7",
+   "altura_m": 7.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de Suelo 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0.2",
+   "coef_constructibilidad": 0.2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "antejardin_m_texto": "Antejardines 10 m",
+   "antejardin_m": 10.0,
+   "rasante_texto": "Rasantes 45º deslinde sobre edificación continua, 70º desde eje de calle.",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "La ficha fija su propia rasante («Rasantes 45º deslinde sobre edificación continua, 70º desde eje de calle.»); el motor usa la del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH1",
+   "codigo_ordenanza": "ZCH1",
+   "pagina": 58,
+   "pagina_impresa": 57,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 18",
+   "altura_m": 18.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación Pisos 1 a 3 1 Pisos 4 0,7",
+   "coef_ocupacion_suelo": null,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4.5",
+   "coef_constructibilidad": 4.5,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continua hasta 10,5 m altura, con retranqueo frontal de 5m sobre continuidad.",
+   "antejardin_m_texto": "Antejardines No se considera antejardín.",
+   "antejardin_m": 0.0,
+   "rasante_texto": "Rasantes 45º aplicada sobre altura de edificación continua.",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "La ficha fija la ocupación de suelo por piso («Coeficiente de ocupación Pisos 1 a 3 1 Pisos 4 0,7»): el motor no la separa por piso."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento tiene condiciones que el motor no verifica: «Continua hasta 10,5 m altura, con retranqueo frontal de 5m sobre continuidad.»."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La ficha fija su propia rasante («Rasantes 45º aplicada sobre altura de edificación continua.»); el motor usa la del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH1A",
+   "codigo_ordenanza": "ZCH-1A",
+   "pagina": 59,
+   "pagina_impresa": 58,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "hereda_de": "ZCH1",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZCH1, además de los siguientes usos de suelo y destinos permitidos y/o prohibidos",
+   "superficie_predial_minima_m2": 300.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "altura_m": 18.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 18",
+   "coef_ocupacion_suelo": null,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación Pisos 1 a 3 1 Pisos 4 0,7",
+   "coef_constructibilidad": 4.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4.5",
+   "antejardin_m": 0.0,
+   "antejardin_m_texto": "Antejardines No se considera antejardín.",
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continua hasta 10,5 m altura, con retranqueo frontal de 5m sobre continuidad.",
+   "rasante_texto": "Rasantes 45º aplicada sobre altura de edificación continua.",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "La ficha fija la ocupación de suelo por piso («Coeficiente de ocupación Pisos 1 a 3 1 Pisos 4 0,7»): el motor no la separa por piso."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El agrupamiento tiene condiciones que el motor no verifica: «Continua hasta 10,5 m altura, con retranqueo frontal de 5m sobre continuidad.»."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La ficha fija su propia rasante («Rasantes 45º aplicada sobre altura de edificación continua.»); el motor usa la del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH2",
+   "codigo_ordenanza": "ZCH2",
+   "pagina": 59,
+   "pagina_impresa": 58,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 7",
+   "altura_m": 7.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1.6",
+   "coef_constructibilidad": 1.6,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo y Aislado",
+   "antejardin_m_texto": "Antejardines No se considera antejardín",
+   "antejardin_m": 0.0
+  },
+  {
+   "zona": "ZCH3",
+   "codigo_ordenanza": "ZCH3",
+   "pagina": 60,
+   "pagina_impresa": 59,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 6",
+   "altura_m": 6.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación",
+   "coef_ocupacion_suelo": 1.0,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo y Pareado",
+   "antejardin_m_texto": "Antejardines No se considera antejardín.",
+   "antejardin_m": 0.0,
+   "rasante_texto": "Rasantes 45º aplicada sobre altura de edificación continua.",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "La ficha fija su propia rasante («Rasantes 45º aplicada sobre altura de edificación continua.»); el motor usa la del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH4",
+   "codigo_ordenanza": "ZCH4",
+   "pagina": 61,
+   "pagina_impresa": 60,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 6",
+   "altura_m": 6.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,4",
+   "coef_constructibilidad": 1.4,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo, pareado",
+   "antejardin_m_texto": "Antejardines No se considera antejardín.",
+   "antejardin_m": 0.0,
+   "rasante_texto": "Rasantes 45º aplicada sobre altura de edificación continua.",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "La ficha fija su propia rasante («Rasantes 45º aplicada sobre altura de edificación continua.»); el motor usa la del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "ZCH5",
+   "codigo_ordenanza": "ZCH5",
+   "pagina": 62,
+   "pagina_impresa": 61,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "superficie_predial_minima_m2": 300.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 6",
+   "altura_m": 6.0,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de Suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1.4",
+   "coef_constructibilidad": 1.4,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo, Pareado",
+   "antejardin_m_texto": "Antejardines No considera",
+   "antejardin_m": 0.0
+  },
+  {
+   "zona": "ZCH5A",
+   "codigo_ordenanza": "ZCH5-A",
+   "pagina": 63,
+   "pagina_impresa": 62,
+   "seccion": "Artículo 21. ZCH Zonas de Conservación Histórica",
+   "hereda_de": "ZCH5",
+   "hereda_texto": "regirán las normas urbanísticas de la Zona ZCH5, además de los siguientes usos de suelo y destinos permitidos y/o prohibidos",
+   "superficie_predial_minima_m2": 300.0,
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima (m2) 300",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "altura_m",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "antejardin_m",
+    "agrupamiento"
+   ],
+   "altura_m": 6.0,
+   "altura_m_texto": "Altura máxima de edificación (m) 6",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de Suelo 0,7",
+   "coef_constructibilidad": 1.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1.4",
+   "antejardin_m": 0.0,
+   "antejardin_m_texto": "Antejardines No considera",
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo, Pareado"
+  }
+ ]
+}

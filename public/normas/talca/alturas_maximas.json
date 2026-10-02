@@ -1,0 +1,127 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Talca (Res. N° 342 del Gobierno Regional del Maule, D.O. 26-10-2011), texto actualizado de la BCN con las enmiendas del Decreto 3920 (D.O. 03-11-2016) y del Decreto 5267 (D.O. 13-10-2025)",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1031594",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "U-10",
+   "altura_m": 14,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 14m",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-10 Equipamiento Recreacional - Área Verde",
+   "nota": null
+  },
+  {
+   "zona": "U-12",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 10,5m",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-12 Villorrio Residencial",
+   "nota": null
+  },
+  {
+   "zona": "U-13",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 10,5m",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-13 Villorrio Mixto",
+   "nota": null
+  },
+  {
+   "zona": "U-15",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 7m",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-15 Vivienda",
+   "nota": null
+  },
+  {
+   "zona": "U-16",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 10,5m",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-16 Vivienda Poniente",
+   "nota": null
+  },
+  {
+   "zona": "U-17",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 7m",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-17 Vivienda Baja Densidad - Agroindustria",
+   "nota": null
+  },
+  {
+   "zona": "U-19",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 10,5m",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-19 Industria e Infraestructura",
+   "nota": null
+  },
+  {
+   "zona": "U-21",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 10,5m",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-21 Recreacional - Deportiva",
+   "nota": null
+  },
+  {
+   "zona": "U-22",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 10,5m",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-22 Agricultura y Agroindustria",
+   "nota": null
+  },
+  {
+   "zona": "R-2",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 7m",
+   "pagina": 0,
+   "seccion": "Art. 22 b), Zona Zona Inundable de Alto Riesgo",
+   "nota": null
+  },
+  {
+   "zona": "R-3A",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 7m (equipamiento y actividades productivas)",
+   "pagina": 0,
+   "seccion": "Art. 22 b), Zona Zona Inundable de Riesgo Medio, Subzona R-3A",
+   "nota": null
+  },
+  {
+   "zona": "R-3D",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 10,5m",
+   "pagina": 0,
+   "seccion": "Art. 22 b), Zona Zona Inundable de Riesgo Medio, Subzona R-3D",
+   "nota": null
+  },
+  {
+   "zona": "R-4",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 7m",
+   "pagina": 0,
+   "seccion": "Art. 22 b), Zona Zona Potencialmente Inundable: Recreacional - Deportivo",
+   "nota": null
+  }
+ ]
+}

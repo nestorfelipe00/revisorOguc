@@ -1,0 +1,91 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Plan Regulador Comunal de Conchalí (D.E. N° 292 de 12-02-2013, D.O. 04-05-2013), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1050767",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "ZM-1",
+   "altura_m": 53.0,
+   "pisos": null,
+   "texto": "53m (hasta 15 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZM-1",
+   "nota": null
+  },
+  {
+   "zona": "ZM-2",
+   "altura_m": 42.0,
+   "pisos": null,
+   "texto": "42m. (hasta 12 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZM-2",
+   "nota": null
+  },
+  {
+   "zona": "ZM-3",
+   "altura_m": 28.0,
+   "pisos": null,
+   "texto": "28m. (hasta 8 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZM-3",
+   "nota": null
+  },
+  {
+   "zona": "ZM-4",
+   "altura_m": 42.0,
+   "pisos": null,
+   "texto": "42m. (hasta 12 pisos).",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZM-4",
+   "nota": null
+  },
+  {
+   "zona": "ZM-5",
+   "altura_m": 22.0,
+   "pisos": null,
+   "texto": "22 m. (hasta 6 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZM-5",
+   "nota": null
+  },
+  {
+   "zona": "ZM-6",
+   "altura_m": 22.0,
+   "pisos": null,
+   "texto": "28m. (hasta 8 pisos) y 22m. (hasta 6 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZM-6",
+   "nota": null
+  },
+  {
+   "zona": "ZR-1",
+   "altura_m": 18.0,
+   "pisos": null,
+   "texto": "18m. (hasta 5 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZR-1",
+   "nota": null
+  },
+  {
+   "zona": "ZR-2",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "14m (hasta 4 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZR-2",
+   "nota": null
+  },
+  {
+   "zona": "ZEs-1",
+   "altura_m": 11.0,
+   "pisos": null,
+   "texto": "11m. (hasta 3 pisos max)",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZEs-1",
+   "nota": null
+  }
+ ]
+}

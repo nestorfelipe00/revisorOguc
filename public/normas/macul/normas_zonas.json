@@ -1,0 +1,382 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Plan Regulador Comunal de Macul (D.A. N° 552 de 22-04-2004, D.O. 08-05-2004), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=224980",
+ "sha256": "89579cc06c67dfd9f2298687cc0488fbe4f3e2daf0b9e38daa012c72146abc35",
+ "documentos_adicionales": {
+  "m13": {
+   "documento": "Modificación del PRC de Macul «Zonas Residenciales Mixtas» (D.A. N° 2.230, D.O. 18-01-2022), texto aprobatorio publicado por la Municipalidad",
+   "url": "https://www.munimacul.cl/portalnv/wp-content/uploads/2022/01/TEXTO-APROBATORIO-ORDENANZA.pdf",
+   "sha256": "6421a47c2865079390882c6254440a85ecaa969b5d0ff7c24f249ef928d91309"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZM-1",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZM-1 Residencial Mixta, Densidad Alta",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "La Modificación de 2022 (D.A. N° 2.230, D.O. 18-01-2022) rezonificó un sector a las zonas ZM-1A, ZM-2A, ZM-4A, ZM-5A, ZR-6A, ZM-8 y ZE-C2, que la capa de la IDE aún no grafica: si el predio está en el polígono del plano MOD PRC MAC/13/2021, rigen esas zonas."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-2",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZM-2 Residencial Mixta, Densidad Alta, Comercial",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "La Modificación de 2022 (D.A. N° 2.230, D.O. 18-01-2022) rezonificó un sector a las zonas ZM-1A, ZM-2A, ZM-4A, ZM-5A, ZR-6A, ZM-8 y ZE-C2, que la capa de la IDE aún no grafica: si el predio está en el polígono del plano MOD PRC MAC/13/2021, rigen esas zonas."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-3",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZM-3 Residencial Mixta, Densidad Alta, Cívica",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona eliminada por la Modificación de 2022 (D.A. N° 2.230, D.O. 18-01-2022): el sector pasó a las zonas nuevas del plano MOD PRC MAC/13/2021 (ZM-1A, ZM-2A, ZM-4A, ZM-5A, ZR-6A, ZM-8, ZE-C2), que la capa de la IDE aún no grafica."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-4",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZM-4 Residencial Mixta, Densidad Media",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "La Modificación de 2022 (D.A. N° 2.230, D.O. 18-01-2022) rezonificó un sector a las zonas ZM-1A, ZM-2A, ZM-4A, ZM-5A, ZR-6A, ZM-8 y ZE-C2, que la capa de la IDE aún no grafica: si el predio está en el polígono del plano MOD PRC MAC/13/2021, rigen esas zonas."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-5",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZM-5 Residencial Mixta, Densidad Media, Comercial",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona eliminada por la Modificación de 2022 (D.A. N° 2.230, D.O. 18-01-2022): el sector pasó a las zonas nuevas del plano MOD PRC MAC/13/2021 (ZM-1A, ZM-2A, ZM-4A, ZM-5A, ZR-6A, ZM-8, ZE-C2), que la capa de la IDE aún no grafica."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-6",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZM-6 Residencial Mixta, Densidad Media (D.A. N° 2.422, D.O. 02-10-2018)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/84118.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/84119.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/84120.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Subdivisión Predial mínima (M2) 1000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de suelo 0.4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (vivienda: 0,4) («Coeficiente Ocupación de suelo 0.5»)",
+   "coef_constructibilidad_texto": "Coeficiente Construc- tibilidad 1.5",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 1.8,
+   "coef_constructibilidad_condicion": "el destino es vivienda (equipamiento: 1,5) («Coeficiente Construc- tibilidad 1.8»)",
+   "altura_m_texto": "3 10.50 Mts.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 21.0,
+   "incentivo_texto": "el destino es vivienda (6 pisos; equipamiento: 3 pisos y 10,5 m): «6 21.00 Mts.»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín Mínimo Mts. 7",
+   "antejardin_m": 7.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema Agrupamiento A-P-C A-P",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Vivienda: 5 m (equipamiento: 7 m)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Equipamiento: solo aislado."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-7",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZM-7 Residencial Mixta, Densidad Media (D.A. N° 2.422, D.O. 02-10-2018)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/84124.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/84125.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/84126.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Subdivisión Predial mínima (M2) 800",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de suelo 0.4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (vivienda: 0,4) («Coeficiente Ocupación de suelo 0.5»)",
+   "coef_constructibilidad_texto": "Coeficiente Construc- tibilidad 1.5",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "el destino es vivienda (equipamiento: 1,5) («Coeficiente Construc- tibilidad 1.6»)",
+   "altura_m_texto": "3 10.50 Mts.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 14.0,
+   "incentivo_texto": "el destino es vivienda (4 pisos; equipamiento: 3 pisos y 10,5 m): «4 14.00 Mts.»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín Mínimo Mts. 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema Agrupamiento A-P-C A-P",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Equipamiento: solo aislado."
+    }
+   ]
+  },
+  {
+   "zona": "ZR-6",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZR-6 Residencial, Densidad Baja",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "La Modificación de 2022 (D.A. N° 2.230, D.O. 18-01-2022) rezonificó un sector a las zonas ZM-1A, ZM-2A, ZM-4A, ZM-5A, ZR-6A, ZM-8 y ZE-C2, que la capa de la IDE aún no grafica: si el predio está en el polígono del plano MOD PRC MAC/13/2021, rigen esas zonas."
+    }
+   ]
+  },
+  {
+   "zona": "ZR-7",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZR-7 Residencial, Densidad Baja 2-M (D.A. N° 1.542, D.O. 10-12-2014)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/45616.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Subdivisión Predial mínima (M2) 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de suelo 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente Construc- tibilidad 1.2",
+   "coef_constructibilidad": 1.2,
+   "antejardin_m_texto": "Antejardín Mínimo m 3",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema Agrupación A-P-C A-P-C",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Los dos pisos incluyen la mansarda (habilitación de la techumbre, que se considera un piso más). El cuadro no fija la altura en metros."
+    }
+   ]
+  },
+  {
+   "zona": "ZR-8",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZR-8 Residencial, Densidad Baja (D.A. N° 2.422, D.O. 02-10-2018)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/84130.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/84131.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Subdivisión Predial mínima (M2) 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de suelo 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente Construc- tibilidad 1.0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "2 más Mansarda 10.50 Mts.",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín Mínimo Mts. 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento A-P-C A-P",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "El cuadro indica «2 más Mansarda» y las disposiciones complementarias dicen que los dos pisos incluyen la mansarda (que se considera un piso más): confirme con la DOM el número de pisos."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-e",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZI-e Industrial Exclusiva",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-i",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZI-i Industrial Inofensiva",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-m",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZI-m Industrial Mixta",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-i",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZE-i Equipamiento Intercomunal",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-C",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZE-C Equipamiento Comunal (D.A. N° 2.422, D.O. 02-10-2018)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/84134.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/84135.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Subdivisión Predial mínima (M2) 2000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de suelo 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente Construc- tibilidad 1.5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "3 10.50 Mts.",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín Mínimo Mts. 7",
+   "antejardin_m": 7.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento A-P-C A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Residencial prohibido."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-d",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZE-d Equipamiento Recreacional y Deportivo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "PI",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona PI Parque Intercomunal",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "AP",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona AP Avenidas-Parque",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "MN",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona MN Monumento Nacional",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    },
+    {
+     "campo": "zona",
+     "texto": "Monumento Nacional (casas, bodegas y parque de la Viña Santa Carolina): refacción o demolición con autorización previa del Consejo de Monumentos Nacionales."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-dc",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona ZE-dc Equipamiento Recreacional y Deportivo Comunal",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "AV-c",
+   "pagina": 0,
+   "seccion": "Art. 25, Zona AV-c Áreas Verdes Comunales",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cuadro de normas sin transcribir: la BCN remite el cuadro de 2004 al Diario Oficial (08-05-2004) y no ingresó los cambios del D.A. N° 559 (D.O. 11-04-2008) a los cuadros del Art. 25. Confirme las normas con la DOM."
+    }
+   ]
+  }
+ ]
+}

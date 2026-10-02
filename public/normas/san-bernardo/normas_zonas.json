@@ -1,0 +1,941 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de San Bernardo y Lo Herrera (D.E. N° 3.855, D.O. 13-06-2006), texto actualizado de la BCN con el D.S. N° 23 de 2015, las Enmiendas N° 1 a 3 de 2017 y los D.S. N° 34 de 2017 y N° 29 de 2022 (V. y U.)",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=250425",
+ "sha256": "b809afcf130bcd5e5e322ed764df56703d21c7418627c3e141cc3ba27b62a8ee",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZU1.1",
+   "pagina": 0,
+   "seccion": "Artículo 55, Zona ZU 1.1 Plaza de Armas",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: 600 m²",
+   "superficie_predial_minima_m2": 600,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: 3.5",
+   "coef_constructibilidad": 3.5,
+   "altura_m_texto": "Libre según rasante",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Mínimo: A la línea.",
+   "antejardin_m": 0,
+   "rasante_grados": 60,
+   "rasante_texto": "será de 60º",
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Continua hasta el cuarto piso",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Sobre los 12 m (cuarto piso): distanciamiento mínimo de 6 m al deslinde posterior y de 4 m a los laterales; la rasante se aplica desde los 12 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Continua hasta el cuarto piso incluido (12 m) y aislada en los pisos superiores, con retranqueo de 2,5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZU1.2",
+   "pagina": 0,
+   "seccion": "Artículo 56, Zona ZU 1.2 Centro",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: 1000 m²",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Residencial: 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento («Equipamiento: 0,7»)",
+   "coef_constructibilidad_texto": "Equipamiento: 1,47",
+   "coef_constructibilidad": 1.47,
+   "coef_constructibilidad_max": 2.1,
+   "coef_constructibilidad_condicion": "el destino es residencial («Coeficiente Constructibilidad: Residencial: 2,1»)",
+   "altura_m_texto": "Libre según rasante",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Mínimo: 3 metros, excepto en las calles Freire, Eyzaguirre y San José, en las cuales se exige a la línea.",
+   "antejardin_m": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "será de 60º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Aislada.",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En las calles Freire, Eyzaguirre y San José la edificación va a la línea (sin antejardín)."
+    }
+   ]
+  },
+  {
+   "zona": "ZU1.3",
+   "pagina": 0,
+   "seccion": "Artículo 57, Zona ZU 1.3 Sur Nogales",
+   "superficie_predial_minima_m2_texto": "Residencial y equipamiento menor: 250 m² Equipamiento: 500 m²",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Residencial y equipamiento menor: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento («Equipamiento: 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Residencial y equipamiento menor: 1,12",
+   "coef_constructibilidad": 1.12,
+   "coef_constructibilidad_max": 1.26,
+   "coef_constructibilidad_condicion": "el destino es equipamiento («Equipamiento: 1,26»)",
+   "altura_m_texto": "Residencial y equipamiento: Libre según rasante",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Mínimo: 3 metros",
+   "antejardin_m": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "será de 60º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Residencial y equipamiento menor: Aislado y pareado Equipamiento: Aislada",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento: superficie predial mínima de 500 m²."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El equipamiento solo puede ser aislado."
+    }
+   ]
+  },
+  {
+   "zona": "ZU2",
+   "pagina": 0,
+   "seccion": "Artículo 58, Zona ZU 2 Periferia Centro",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial y equipamiento menor: 160 m²",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Actividad productiva de tipo inofensiva: 0,45",
+   "coef_ocupacion_suelo": 0.45,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial o equipamiento («Coeficiente Ocupación de Suelo: Residencial y equipamiento menor: 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Residencial y equipamiento menor: 0,9",
+   "coef_constructibilidad": 0.9,
+   "coef_constructibilidad_max": 1.8,
+   "coef_constructibilidad_condicion": "el destino es equipamiento mediano (1,8), mayor o actividad productiva inofensiva (1,2) («Equipamiento mediano: 1,8»)",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial y equipamiento menor: 3 metros",
+   "antejardin_m": 3,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial y equipamiento menor: Aislada y pareada",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en pisos y depende del destino: residencial y equipamiento menor, equivalente a 2 pisos más mansarda; equipamiento mediano y mayor y actividad productiva, libre según rasante. La Ordenanza no la expresa en metros."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Talleres y actividad productiva inofensiva: distanciamiento mínimo de 5 m, y de 10 m cuando colindan con uso residencial."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento mediano 500 m², mayor 3.000 m² y actividad productiva inofensiva 2.000 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Equipamiento mayor: 5 m; actividad productiva inofensiva: 10 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Equipamiento y actividad productiva: solo aislada."
+    }
+   ]
+  },
+  {
+   "zona": "ZU3",
+   "pagina": 0,
+   "seccion": "Artículo 59, Zona ZU 3 Triángulo Gran Avenida",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial existente y equipamiento menor: 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Residencial existente y equipamiento mediano, menor y básico: 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el destino es talleres (0,5) o actividad productiva inofensiva (0,45) («Talleres: 0,5»)",
+   "coef_constructibilidad_texto": "Equipamiento mediano, menor y básico: 0,3",
+   "coef_constructibilidad": 0.3,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el destino es residencial existente (0,8), talleres (1,0) o actividad productiva inofensiva (1,2) («Actividad productiva de tipo inofensiva: 1,2»)",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial existente: 3 metros",
+   "antejardin_m": 3,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial existente y equipamiento menor y básico: Aislada y pareada.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en pisos y depende del destino: residencial existente, 2 pisos más mansarda; equipamiento, talleres y actividad productiva, libre según rasante. La Ordenanza no la expresa en metros."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Talleres y actividad productiva inofensiva: distanciamiento mínimo de 5 m, y de 10 m cuando colindan con uso residencial."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento mediano y talleres 500 m²; actividad productiva inofensiva 2.000 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "5 m en vías colectoras y troncales; talleres y equipamiento: 5 m; actividad productiva: 10 m; el sector poniente de Gran Avenida mantiene su morfología sin antejardín."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Equipamiento mediano, talleres y actividad productiva: solo aislada. El sector poniente de Gran Avenida (entre la vía férrea y Av. Lo Blanco) mantiene su agrupamiento continuo o pareado en la línea de edificación."
+    }
+   ]
+  },
+  {
+   "zona": "ZU4",
+   "pagina": 0,
+   "seccion": "Artículo 60, Zona ZU 4 La Vara",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial y equipamiento menor y básico: 120 m²",
+   "superficie_predial_minima_m2": 120,
+   "coef_ocupacion_suelo_texto": "Equipamiento mediano: 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial o equipamiento menor (0,6), talleres (0,5) o actividad productiva (0,45) («Coeficiente Ocupación de Suelo: Residencial y equipamiento menor y básico: 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Residencial y equipamiento menor y básico: 0,9",
+   "coef_constructibilidad": 0.9,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el destino es equipamiento mediano (1,2), talleres (1,0) o actividad productiva (1,2) («Equipamiento mediano: 1,2»)",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial y equipamiento menor y básico: 3 metros",
+   "antejardin_m": 3,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial y equipamiento menor y básico: Aislada y pareada",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en pisos y depende del destino: residencial y equipamiento menor y básico, equivalente a 2 pisos más mansarda; equipamiento mediano, talleres y actividad productiva, libre según rasante. La Ordenanza no la expresa en metros."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Talleres y actividad productiva inofensiva: distanciamiento mínimo de 5 m, y de 10 m cuando colindan con uso residencial."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento mediano y talleres 1.000 m²; actividad productiva y de servicios de carácter industrial 2.000 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Equipamiento mediano y talleres: 5 m; actividad productiva: 10 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Equipamiento mediano, talleres y actividad productiva: solo aislada."
+    }
+   ]
+  },
+  {
+   "zona": "ZU5",
+   "pagina": 0,
+   "seccion": "Artículo 61, Zona ZU 5 Los Morros - Lo Blanco",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial y equipamiento menor y básico: 120 m²",
+   "superficie_predial_minima_m2": 120,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Residencial y equipamiento menor y básico: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Residencial y equipamiento menor y básico: 0,9",
+   "coef_constructibilidad": 0.9,
+   "coef_constructibilidad_max": 1.8,
+   "coef_constructibilidad_condicion": "el destino es equipamiento mediano (1,8) o mayor (1,2) («Equipamiento mediano: 1,8»)",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial y equipamiento menor y básico: 3 metros",
+   "antejardin_m": 3,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial y equipamiento menor y básico: Aislada y pareada",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en pisos y depende del destino: residencial y equipamiento menor y básico, 2 pisos más mansarda; equipamiento mediano y mayor, libre según rasante. La Ordenanza no la expresa en metros."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento mediano 500 m² y mayor 3.000 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Equipamiento mediano y mayor: 5 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El equipamiento mediano y mayor solo puede ser aislado."
+    }
+   ]
+  },
+  {
+   "zona": "ZU5-1",
+   "pagina": 0,
+   "seccion": "Artículo 61, Subzona ZU5-1",
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: 0,6.",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: 0,9.",
+   "coef_constructibilidad": 0.9,
+   "antejardin_m_texto": "Antejardín Mínimo: 3 metros.",
+   "antejardin_m": 3,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "continuo",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Aislada, continua y pareada.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en 2 pisos más mansarda, sin cifra en metros."
+    }
+   ]
+  },
+  {
+   "zona": "ZU5-2",
+   "pagina": 0,
+   "seccion": "Artículo 61, Subzona ZU5-2 El Mariscal (D.S. N° 34 de 2017 y N° 29 de 2022, V. y U.)",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima: 80 m2",
+   "superficie_predial_minima_m2": 80,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad: 2,0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura Máxima de Edificación: 17,5 m (5 pisos)",
+   "altura_m": 17.5,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Residencial: Aislado y pareado Equipamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "El equipamiento solo puede ser aislado."
+    }
+   ]
+  },
+  {
+   "zona": "ZU6",
+   "pagina": 0,
+   "seccion": "Artículo 62, Zona ZU 6 Estación San Bernardo",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial y equipamiento menor y básico: 250 m²",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Residencial y equipamiento menor y básico: 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento o talleres (0,5) o actividad productiva (0,45) («Equipamiento y talleres inofensivos: 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Residencial y equipamiento menor y básico: 1,05",
+   "coef_constructibilidad": 1.05,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el destino es equipamiento o talleres (1,5) o actividad productiva (1,2) («Equipamiento y talleres inofensivos: 1,5»)",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial y equipamiento menor y básico: 3 metros",
+   "antejardin_m": 3,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial y equipamiento menor y básico: Aislada y pareada",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en pisos y depende del destino: residencial y equipamiento menor y básico, equivalente a 3 pisos; equipamiento, talleres y actividad productiva, libre según rasante. La Ordenanza no la expresa en metros."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Talleres y actividad productiva inofensiva: distanciamiento mínimo de 5 m, y de 10 m cuando colindan con uso residencial."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento y talleres inofensivos 1.000 m²; actividad productiva inofensiva 2.000 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Equipamiento y talleres: 5 m; actividad productiva: 10 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Equipamiento, talleres y actividad productiva: solo aislada."
+    }
+   ]
+  },
+  {
+   "zona": "ZU7",
+   "pagina": 0,
+   "seccion": "Artículo 63, Zona ZU 7 Maestranza",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial: 1200 m²",
+   "superficie_predial_minima_m2": 1200,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Residencial: 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Equipamiento: 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el destino es residencial («Coeficiente Constructibilidad: Residencial: 2,0»)",
+   "altura_m_texto": "Residencial: Libre según rasante. Equipamiento: Libre según rasante.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial: 5 metros",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial: Aislada",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Equipamiento: distanciamiento mínimo de 5 m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento: 2.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZU7-1",
+   "pagina": 0,
+   "seccion": "Artículo 63, Subzona ZU7-1 Padre Hurtado",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima: 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo: 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad: 3,0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "Altura Máxima de Edificación: 49 m (14 pisos)",
+   "altura_m": 49,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3,
+   "pisos": 14,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Residencial: Aislado Equipamiento: Aislado y continuo",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "La vivienda solo puede ser aislada; el equipamiento, aislado o continuo hasta 10,5 m (3 pisos)."
+    }
+   ]
+  },
+  {
+   "zona": "ZU8",
+   "pagina": 0,
+   "seccion": "Artículo 64, Zona ZU 8 La Selva",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial y equipamiento menor y básico: 250 m²",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Residencial y equipamiento menor y básico: 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Actividades productivas inofensivas: 0,4",
+   "coef_constructibilidad": 0.4,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el destino es residencial (1,0) o equipamiento (1,2) («Equipamiento: 1,2»)",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial y equipamiento menor y básico: 3 metros",
+   "antejardin_m": 3,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial y equipamiento menor y básico: Aislada y pareada",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en pisos y depende del destino: residencial, equivalente a 2 pisos más mansarda; equipamiento y actividades productivas, libre según rasante. La Ordenanza no la expresa en metros."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Talleres y actividad productiva inofensiva: distanciamiento mínimo de 5 m, y de 10 m cuando colindan con uso residencial."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento y actividades productivas inofensivas: 1.000 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Equipamiento: 5 m; actividad productiva: 10 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Equipamiento y actividad productiva: solo aislada."
+    }
+   ]
+  },
+  {
+   "zona": "ZU9",
+   "pagina": 0,
+   "seccion": "Artículo 65, Zona ZU 9 Borde Oriente Av. Presidente Jorge Alessandri",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Equipamiento y talleres: 1000 m²",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Actividad productiva de tipo inofensiva: 0,45",
+   "coef_ocupacion_suelo": 0.45,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento o talleres («Equipamiento y talleres: 0,5»)",
+   "coef_constructibilidad_texto": "Equipamiento y talleres: 1,0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el destino es actividad productiva inofensiva («Actividad productiva de tipo inofensiva: 1,2»)",
+   "altura_m_texto": "Equipamiento y talleres: Libre según rasante.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Mínimo: Equipamiento y talleres: 5 metros",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Equipamiento y talleres: Aislada",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Talleres y actividad productiva inofensiva: distanciamiento mínimo de 5 m, y de 10 m cuando colindan con uso residencial."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Actividad productiva inofensiva: 2.000 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Actividad productiva inofensiva: 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZU10",
+   "pagina": 0,
+   "seccion": "Artículo 66, Zona ZU10 Nos - Portales",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial y equipamiento menor y básico: 250 m²",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Actividad productiva de tipo inofensiva: 0,45",
+   "coef_ocupacion_suelo": 0.45,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial o equipamiento («Coeficiente Ocupación de Suelo: Residencial y equipamiento menor y básico: 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Residencial y equipamiento menor y básico: 1,0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (1,5) o actividad productiva (1,2) («Equipamiento: 1,5»)",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial y equipamiento menor y básico: 3 metros",
+   "antejardin_m": 3,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial y equipamiento menor y básico: Aislada y pareada",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en pisos y depende del destino: residencial y equipamiento menor y básico, equivalente a 2 pisos más mansarda; equipamiento y actividad productiva, libre según rasante. La Ordenanza no la expresa en metros."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Equipamiento: distanciamiento mínimo de 5 m; actividad productiva inofensiva: 5 m, y 10 m cuando colinda con uso residencial."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento 1.000 m²; actividad productiva inofensiva 2.000 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Equipamiento: 5 m; actividad productiva: 10 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Equipamiento y actividad productiva: solo aislada."
+    }
+   ]
+  },
+  {
+   "zona": "ZU11",
+   "pagina": 0,
+   "seccion": "Artículo 67, Zona ZU11 Localidad de Lo Herrera",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial y equipamiento menor y básico: 250 m²",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Residencial y equipamiento menor y básico: 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Residencial y equipamiento menor y básico: 1,0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el destino es equipamiento mediano («Equipamiento mediano: 1,2»)",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial y equipamiento menor y básico: 3 metros",
+   "antejardin_m": 3,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial y equipamiento menor y básico: Aislada y pareada",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en pisos y depende del destino: residencial, equivalente a 2 pisos más mansarda (el mismo literal dice también «residencial y equipamiento menor y básico: libre según rasante»); equipamiento mediano, libre según rasante. La Ordenanza no la expresa en metros."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento mediano: 500 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Equipamiento mediano: 5 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El equipamiento mediano solo puede ser aislado."
+    }
+   ]
+  },
+  {
+   "zona": "ZUE1",
+   "pagina": 0,
+   "seccion": "Artículo 68, Zona ZUE1 Cerro Chena",
+   "superficie_predial_minima_m2_texto": "Equipamiento: 2000 m²",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Residencial: 0,05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento («Equipamiento: 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Residencial: 0,12",
+   "coef_constructibilidad": 0.12,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el destino es equipamiento («Equipamiento: 1,2»)",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial: 5 metros",
+   "antejardin_m": 5,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial: aislada",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en pisos y depende del destino: residencial, equivalente a 2 pisos más mansarda; equipamiento, libre según rasante. La Ordenanza no la expresa en metros."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Equipamiento: distanciamiento mínimo de 5 m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Residencial: superficie predial mínima de 5.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZUE2",
+   "pagina": 0,
+   "seccion": "Artículo 69, Zona ZUE2 Los Morros - Cerro Negro",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial y equipamiento menor y básico: 250 m²",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Residencial y equipamiento menor y básico: 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento mediano («Equipamiento mediano: 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Residencial y equipamiento menor y básico: 1,0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el destino es equipamiento mediano («Equipamiento mediano: 1,5»)",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial y equipamiento menor y básico: 3 metros",
+   "antejardin_m": 3,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial y equipamiento menor y básico: Aislada y pareada",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en pisos y depende del destino: residencial, equivalente a 2 pisos más mansarda; equipamiento menor, básico y mediano, libre según rasante. La Ordenanza no la expresa en metros."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento mediano: 500 m²."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El equipamiento mediano solo puede ser aislado."
+    }
+   ]
+  },
+  {
+   "zona": "ZUE3",
+   "pagina": 0,
+   "seccion": "Artículo 70, Zona ZUE3 La Masía",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial y equipamiento menor y básico: 625 m²",
+   "superficie_predial_minima_m2": 625,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Residencial y equipamiento menor y básico: 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento mediano («Equipamiento mediano: 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Residencial y equipamiento menor y básico: 0,4",
+   "coef_constructibilidad": 0.4,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el destino es equipamiento mediano («Equipamiento mediano: 1,2»)",
+   "altura_m_texto": "Residencial y equipamiento menor y básico: Libre según rasante.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial y equipamiento menor y básico: 5 metros",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial y equipamiento menor y básico: Aislada",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Equipamiento mediano: distanciamiento mínimo de 5 m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento mediano: 2.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZUE4",
+   "pagina": 0,
+   "seccion": "Artículo 71, Zona ZUE4 Nos - San León",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial y equipamiento menor y básico: 1000 m²",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Residencial y equipamiento menor y básico: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento mediano o mayor («Equipamiento mediano y mayor: 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Residencial y equipamiento menor y básico: 0,5",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el destino es equipamiento mediano o mayor («Equipamiento mediano y mayor: 1,2»)",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial y equipamiento menor y básico: 5 metros",
+   "antejardin_m": 5,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial y equipamiento menor y básico: Aislada",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en pisos y depende del destino: residencial y equipamiento menor y básico, equivalente a 2 pisos más mansarda; equipamiento mediano y mayor, libre según rasante. La Ordenanza no la expresa en metros."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Equipamiento mediano y mayor: distanciamiento mínimo de 5 m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento mediano y mayor: 2.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZUE5",
+   "pagina": 0,
+   "seccion": "Artículo 72, Zona ZUE5 El Cerrillo",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial y equipamiento menor y básico: 120 m²",
+   "superficie_predial_minima_m2": 120,
+   "coef_ocupacion_suelo_texto": "Equipamiento mediano: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial o equipamiento menor y básico («Coeficiente Ocupación de Suelo: Residencial y equipamiento menor y básico: 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Residencial y equipamiento menor y básico: 0,9",
+   "coef_constructibilidad": 0.9,
+   "coef_constructibilidad_max": 1.3,
+   "coef_constructibilidad_condicion": "el destino es equipamiento mediano («Equipamiento mediano: 1,3»)",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial y equipamiento menor y básico: 3 metros",
+   "antejardin_m": 3,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial y equipamiento menor y básico: aislada y pareada.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en pisos y depende del destino: residencial y equipamiento menor y básico, equivalente a 2 pisos más mansarda; equipamiento mediano, libre según rasante. La Ordenanza no la expresa en metros."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento mediano: 500 m²."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El equipamiento mediano solo puede ser aislado."
+    }
+   ]
+  },
+  {
+   "zona": "ZUE6",
+   "pagina": 0,
+   "seccion": "Artículo 73, Zona ZUE6 El Mariscal - San Francisco",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima: Residencial: 2000 m²",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Residencial: 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.45,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento («Equipamiento: 0,45»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Residencial: 0,5",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el destino es equipamiento («Equipamiento: 1,2»)",
+   "antejardin_m_texto": "Antejardín Mínimo: Residencial: 5 metros",
+   "antejardin_m": 5,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Residencial: Aislada",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura se fija en pisos y depende del destino: residencial, equivalente a 2 pisos más mansarda; equipamiento, libre según rasante. La Ordenanza no la expresa en metros."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Equipamiento: distanciamiento mínimo de 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZI1",
+   "pagina": 0,
+   "seccion": "Artículo 74, Zona ZI1 Industrial Exclusiva Molesta e Inofensiva",
+   "superficie_predial_minima_m2_texto": "Equipamiento y talleres: 500 m²",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente Ocupación de Suelo: Actividades productivas y de servicio de carácter industrial: 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Equipamiento: 1,0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el destino es actividad productiva o talleres («Coeficiente Constructibilidad: Actividades productivas y de servicio de carácter industrial: 2,0»)",
+   "altura_m_texto": "Altura máxima de edificación: Actividades productivas y de servicio de carácter industrial: No se exige.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Mínimo: Actividades productivas y de servicio de carácter industrial: 5 metros",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Actividades productivas y de servicio de carácter industrial: Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo de 5 m a los medianeros; en actividades molestas se aplica hasta 5 m de altura y sobre ella aumenta en el 50 % del exceso de altura."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Actividades productivas y de servicio de carácter industrial y actividades complementarias a la vialidad y transporte: 1.500 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZI2",
+   "pagina": 0,
+   "seccion": "Artículo 75, Zona ZI2 Industrial Inofensiva",
+   "superficie_predial_minima_m2_texto": "Equipamiento y talleres: 1000 m²",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Equipamiento y talleres: 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.45,
+   "coef_ocupacion_suelo_condicion": "el destino es actividad productiva («Coeficiente Ocupación de Suelo: Actividades productivas y de servicios de carácter industrial: 0,45»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad: Actividades productivas y de servicios de carácter industrial: 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de edificación: Actividades productivas y de servicios de carácter industrial: Libre según rasante.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Mínimo: Actividades productivas y de servicios de carácter industrial: 10 metros",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Actividades productivas y de servicios de carácter industrial: Aislada",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo de 5 m; 10 m cuando limita con uso residencial."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Actividades productivas y de servicios de carácter industrial: 2.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZE1",
+   "pagina": 0,
+   "seccion": "Artículo 76, Zona ZE1 Cementerios",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de cementerios: se rige por el Reglamento General de Cementerios y, en los cementerios parque, por el PRMS; observa las rasantes y distanciamientos de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "ZE2",
+   "pagina": 0,
+   "seccion": "Artículo 77, Zona ZE2 Equipamiento Metropolitano",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de Equipamiento Metropolitano: se rige por el Capítulo 5° del PRMS. El predio de José Joaquín Prieto N° 10.001 (polígono A-B-C-D, plano MPRC-SB-01/2010) se rige por las normas de la zona ZU 4 según el D.S. N° 144 de 2010 (V. y U., D.O. 12-03-2011)."
+    }
+   ]
+  },
+  {
+   "zona": "ZE3",
+   "pagina": 0,
+   "seccion": "Artículo 78, Zona ZE3 de Interés Comunal y Conservación Histórica",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de interés comunal: sus condiciones son las de la zona donde se emplaza cada predio (Art. 78); el Hospital Parroquial, el Parque García de la Huerta y el Haras Los Cóndores son además Zonas de Conservación Histórica (Art. 21)."
+    }
+   ]
+  },
+  {
+   "zona": "ZE4",
+   "pagina": 0,
+   "seccion": "Artículo 79, Zona ZE4 de Transferencia de Pasajeros y de Carga",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de estaciones del ferrocarril: equipamiento de comercio, servicios y actividades complementarias al transporte en las condiciones del Art. 44."
+    }
+   ]
+  },
+  {
+   "zona": "ZE5",
+   "pagina": 0,
+   "seccion": "Artículo 80, Zona ZE5 de Cerros Islas y Área Verde",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Cerros islas y área verde: se rigen por el Art. 5.2.3.2 del PRMS y los Arts. 2.1.30 y 2.1.31 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "ZE7",
+   "pagina": 0,
+   "seccion": "Artículo 82, Zona ZE7 de Derrumbe y Asentamiento de Suelos",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de derrumbe y asentamiento de suelos (área de riesgo): se rige por el Art. 8.2.1.2 del PRMS."
+    }
+   ]
+  }
+ ]
+}

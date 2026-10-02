@@ -1,0 +1,28 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Enmienda N° 1 al Plan Regulador Comunal de Quilicura (D.E. N° 4.262/2017, D.O. 05-12-2017, rectificada por el D.E. N° 4.291/2018, D.O. 04-01-2019), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1112038",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "H1",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "H1 Art 479 OGCU 15m",
+   "pagina": 0,
+   "seccion": "Art. 20, Zona H1",
+   "nota": null
+  },
+  {
+   "zona": "H2",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "H2 Art 479 OGCU 7m",
+   "pagina": 0,
+   "seccion": "Art. 20, Zona H2",
+   "nota": null
+  }
+ ]
+}

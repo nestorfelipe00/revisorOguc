@@ -1,0 +1,441 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local de la Actualización del Plan Regulador Comunal de San Joaquín (D.A. N° 2.838 de 24-10-2019, D.O. 06-11-2019), publicada por la Municipalidad",
+ "url": "https://sanjoaquin.cl/informacion-del-plan-regulador-comunal/",
+ "sha256": "d120e9c532ab623eea9c28e188d707bf3001af74ed4603e4d449b6ababf7617e",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZU2a",
+   "pagina": 10,
+   "seccion": "Art. 12-13, Zona ZU2a",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 125 m2",
+   "superficie_predial_minima_m2": 125,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,7",
+   "coef_constructibilidad": 1.7,
+   "altura_m_texto": "Altura máxima de edificación 7 m 2 pisos",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "ZU2a (4) C 6",
+   "antejardin_m": 6.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "ZU2a (1) P-C 0",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Modificación N° 2 (D.A. N° 70/2024) rezonificó un polígono de ZU2a (1) en Av. Santa Rosa a ZU6 (2); la capa de la IDE puede no reflejarlo."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín por subzona: (1) 0 m, (2) 5 m, (3) 0 m, (4) 6 m, (5) 3 m, (6) 2 m, (7) 3 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Subzona ZU2a (4): solo continuo."
+    }
+   ]
+  },
+  {
+   "zona": "ZU2b",
+   "pagina": 12,
+   "seccion": "Art. 12-13, Zona ZU2b",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 180 m2",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,4",
+   "coef_constructibilidad": 1.4,
+   "altura_m_texto": "Altura máxima de edificación 7 m 2 pisos",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "ZU2b (2) A-P 3",
+   "antejardin_m": 3.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "ZU2b (1) P-C 1,5",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "La Modificación N° 1 (D.A. N° 2.894/2023, texto aprobatorio escaneado) agrega la subzona ZU2b (3) con ocupación de suelo 0,9."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Subzona ZU2b (1): 1,5 m; la subzona ZU2b (3) de la Modificación N° 1 (D.A. N° 2.894/2023, texto aprobatorio escaneado) tiene su propio antejardín."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Por subzona: (1) pareado y continuo, (2) aislado y pareado, (3) aislado, pareado y continuo (Modificación N° 1 (D.A. N° 2.894/2023, texto aprobatorio escaneado))."
+    }
+   ]
+  },
+  {
+   "zona": "ZU4",
+   "pagina": 14,
+   "seccion": "Art. 12-13, Zona ZU4",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a un incentivo normativo del Art. 8 (vivienda de interés público, cesión y materialización de áreas verdes en ZAV, mejoramiento de áreas verdes, espacios públicos o equipamientos); la Modificación N° 1 (D.A. N° 2.894/2023) eliminó su aplicación simultánea («Coeficiente de Constructibilidad 2 2 2 2»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m. 4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardines No se exige.",
+   "antejardin_m": 0.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado.",
+   "advertencias": [
+    {
+     "campo": "rasante",
+     "texto": "El cuadro de la zona indica «Rasantes 60%»: confirme con la DOM la rasante aplicable."
+    }
+   ]
+  },
+  {
+   "zona": "ZU5",
+   "pagina": 16,
+   "seccion": "Art. 12-13, Zona ZU5",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a un incentivo normativo del Art. 8 (vivienda de interés público, cesión y materialización de áreas verdes en ZAV, mejoramiento de áreas verdes, espacios públicos o equipamientos); la Modificación N° 1 (D.A. N° 2.894/2023) eliminó su aplicación simultánea («Coeficiente de Constructibilidad 2,4 2,2 2,4 2,2»)",
+   "altura_m_texto": "Altura máxima de edificación 18 m. 5 pisos.",
+   "altura_m": 18.0,
+   "antejardin_m_texto": "Antejardines No se exige",
+   "antejardin_m": 0.0,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado y pareado."
+  },
+  {
+   "zona": "ZU6",
+   "pagina": 18,
+   "seccion": "Art. 12-13, Zona ZU6",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 1.200 m2",
+   "superficie_predial_minima_m2": 1200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 2.4,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a un incentivo normativo del Art. 8 (vivienda de interés público, cesión y materialización de áreas verdes en ZAV, mejoramiento de áreas verdes, espacios públicos o equipamientos); la Modificación N° 1 (D.A. N° 2.894/2023) eliminó su aplicación simultánea («Coeficiente de Constructibilidad 2,4 2,2 2,4 2,2»)",
+   "altura_m_texto": "Altura máxima de edificación 21 m 6 pisos",
+   "altura_m": 21.0,
+   "antejardin_m_texto": "Subzona 1 5",
+   "antejardin_m": 5.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado - Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: hasta 7 m y 2 pisos."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín por subzona: (1) 5 m, (2) 0 m, (3) 5 m, (4) 0 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZU8",
+   "pagina": 21,
+   "seccion": "Art. 12-13, Zona ZU8",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,5",
+   "coef_constructibilidad": 2.5,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a un incentivo normativo del Art. 8 (vivienda de interés público, cesión y materialización de áreas verdes en ZAV, mejoramiento de áreas verdes, espacios públicos o equipamientos); la Modificación N° 1 (D.A. N° 2.894/2023) eliminó su aplicación simultánea («Coeficiente de Constructibilidad 3 2,7 3 2,6»)",
+   "altura_m_texto": "Altura máxima de edificación 28 m. 8 pisos.",
+   "altura_m": 28.0,
+   "antejardin_m_texto": "excepto en zona ubicada entre calles Pedro Sarmiento, Juan Aravena, Berlioz y Av. Santa María, donde se exigen 10 m. 5",
+   "antejardin_m": 5.0,
+   "pisos": 8,
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo y aislado sobre la continuidad.",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Subzona 2, entre Pedro Sarmiento, Juan Aravena, Berlioz y Av. Santa María: 10 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: hasta 7 m y 2 pisos."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín por subzona: (1) 0 m, (2) 5 m, (3) 0 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZU12",
+   "pagina": 24,
+   "seccion": "Art. 12-13, Zona ZU12",
+   "superficie_predial_minima_m2_texto": "ZU12 (1) 2.000 42 12 7 2 C-AC 0",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3,2",
+   "coef_constructibilidad": 3.2,
+   "coef_constructibilidad_max": 4.0,
+   "coef_constructibilidad_condicion": "el proyecto se acoge a un incentivo normativo del Art. 8 (vivienda de interés público, cesión y materialización de áreas verdes en ZAV, mejoramiento de áreas verdes, espacios públicos o equipamientos); la Modificación N° 1 (D.A. N° 2.894/2023) eliminó su aplicación simultánea («Coeficiente de Constructibilidad 4 3,6 3,6 4 3,4»)",
+   "altura_m_texto": "ZU12 (2) 2.000 42 12 - - A 5",
+   "altura_m": 42.0,
+   "antejardin_m_texto": "ZU12 (2) 2.000 42 12 - - A 5",
+   "antejardin_m": 5.0,
+   "pisos": 12,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "ZU12 (5) 2.000 42 - 7 2 A-P-C 5 10 m",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Subzonas ZU12 (5) y ZU12 (6): 10 m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Subzona ZU12 (3): 500 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación continua: hasta 7 m y 2 pisos (salvo ZU12 (2))."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín por subzona: 0 m en (1), (4) y (6); 5 m en (2), (3) y (5)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Por subzona: continuo y aislado sobre la continuidad en (1), (3), (4) y (6); aislado en (2); aislado, pareado y continuo en (5)."
+    }
+   ]
+  },
+  {
+   "zona": "ZAPP",
+   "pagina": 27,
+   "seccion": "Art. 12-13, Zona ZAPP",
+   "superficie_predial_minima_m2_texto": "ZAPP (1) 2.500 m2 18 5 3,2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "ZAPP (2) 1.200 m2 18 5 2",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 3.2,
+   "coef_constructibilidad_condicion": "el predio está en la subzona ZAPP (1) o ZAPP (3) («ZAPP (1) 2.500 m2 18 5 3,2»)",
+   "altura_m_texto": "ZAPP (2) 1.200 m2 18 5 2",
+   "altura_m": 18.0,
+   "altura_incentivo_m": 28.0,
+   "incentivo_texto": "el predio está en la subzona ZAPP (3) (8 pisos): «ZAPP (3) 1.200 m2 28 8 3,2»",
+   "incentivo_pagina": 28,
+   "antejardin_m_texto": "Antejardines 5 m.",
+   "antejardin_m": 5.0,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado.",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 5 m."
+    },
+    {
+     "campo": "zona",
+     "texto": "La Modificación N° 2 (D.A. N° 70/2024) rezonificó un polígono de ZAPP (1) en Av. Santa Rosa a ZU6 (2); la capa de la IDE puede no reflejarlo."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Subzonas ZAPP (2) y (3): 1.200 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZAPR",
+   "pagina": 29,
+   "seccion": "Art. 12-13, Zona ZAPR",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 1.200 m2",
+   "superficie_predial_minima_m2": 1200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "ZAPR (3) 18 5 - - - - 500 2 A 5",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 4.0,
+   "coef_constructibilidad_condicion": "el predio está en la subzona ZAPR (1) o ZAPR (4) (ZAPR (2): 3) («ZAPR (1) 42 12 18 5 - - 1.000 4 A 5»)",
+   "altura_m_texto": "ZAPR (3) 18 5 - - - - 500 2 A 5",
+   "altura_m": 18.0,
+   "altura_incentivo_m": 42.0,
+   "incentivo_texto": "el uso es residencial en las subzonas ZAPR (1) o ZAPR (4) (42 m y 12 pisos; ZAPR (2): 28 m); otros usos: 18 m y 5 pisos: «ZAPR (1) 42 12 18 5 - - 1.000 4 A 5»",
+   "incentivo_pagina": 30,
+   "antejardin_m_texto": "ZAPR (1) 42 12 18 5 - - 1.000 4 A 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "ZAPR (1) 42 12 18 5 - - 1.000 4 A 5",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 5 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Subzona ZAPR (4): 0 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Subzona ZAPR (4): continuo y aislado sobre la continuidad (continua de 7 m y 2 pisos)."
+    }
+   ]
+  },
+  {
+   "zona": "ZE",
+   "pagina": 31,
+   "seccion": "Art. 12-13, Zona ZE",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "Altura máxima de edificación 14 m 4 pisos",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín (m) No se exige.",
+   "antejardin_m": 0.0,
+   "pisos": 4,
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "La Modificación N° 1 (D.A. N° 2.894/2023, texto aprobatorio escaneado) agrega: agrupamiento aislado, pareado y continuo, con profundidad continua de 80% de los deslindes."
+    }
+   ]
+  },
+  {
+   "zona": "ZED",
+   "pagina": 31,
+   "seccion": "Art. 12-13, Zona ZED",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de edificación 7 m 2 pisos",
+   "altura_m": 7.0,
+   "pisos": 2
+  },
+  {
+   "zona": "ZI",
+   "pagina": 31,
+   "seccion": "Art. 12-13, Zona ZI",
+   "superficie_predial_minima_m2_texto": "Superficie de Subdivisión Predial Mínima 2.500 m2",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de edificación 7 m",
+   "altura_m": 7.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado"
+  },
+  {
+   "zona": "ZAV",
+   "pagina": 32,
+   "seccion": "Art. 14, Zona ZAV",
+   "altura_m_texto": "Altura máxima de edificación: 14 m",
+   "altura_m": 14.0,
+   "antejardin_m_texto": "Antejardín: 3 m",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de área verde: rige la OGUC para el tipo de uso Área Verde (art. 2.1.31)."
+    }
+   ]
+  },
+  {
+   "zona": "AV",
+   "pagina": 32,
+   "seccion": "Art. 14, Zona AV",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Plazas y parques existentes (bienes nacionales de uso público): rige la OGUC para el tipo de uso Espacio Público."
+    }
+   ]
+  },
+  {
+   "zona": "AVP",
+   "pagina": 32,
+   "seccion": "Art. 14, Zona AVP",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Plazas y parques proyectados, declarados de utilidad pública (art. 59 LGUC)."
+    }
+   ]
+  },
+  {
+   "zona": "AVI (1)",
+   "pagina": 32,
+   "seccion": "Art. 14, Zona AVI (1)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Parques intercomunales del PRMS (avenidas parque y parques adyacentes a cauces), afectos a utilidad pública."
+    }
+   ]
+  },
+  {
+   "zona": "AVI (2)",
+   "pagina": 32,
+   "seccion": "Art. 14, Zona AVI (2)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Parques intercomunales incorporados al Sistema Metropolitano de Áreas Verdes y Recreación (art. 5.2.3.5 del PRMS)."
+    }
+   ]
+  }
+ ]
+}

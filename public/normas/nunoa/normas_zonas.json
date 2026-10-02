@@ -1,0 +1,602 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Plan Regulador Comunal de Ñuñoa, texto refundido por Asesoría Urbana (abril 2025; incluye Enmienda N°1 vigente desde el 17-12-2024)",
+ "url": "https://www.nunoa.cl/app/uploads/2025/06/Ordenanza-PRC-Texto-Refundido-incluye-Fallo-Enmienda-1-1.pdf",
+ "sha256": "ccadae894e91d338835c69ddebf2ff4f6461588f77792daa8ae598cff784fc9f",
+ "extraido": "2026-09-30",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "cuerpos_salientes": {
+  "articulo": "Artículo 26",
+  "texto": "Cuerpos salientes de la línea de edificación sobre antejardín 1,5 m",
+  "saliente_max_m": 1.5,
+  "solo_revision": true,
+  "pagina": 23
+ },
+ "zonas": [
+  {
+   "zona": "Z-1",
+   "pagina": 22,
+   "seccion": "Artículo 26, Zona Z-1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 500 m²",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 4",
+   "coef_constructibilidad": 4,
+   "altura_m_texto": "Altura máxima de edificación. 44,00 m y 15 pisos",
+   "altura_m": 44,
+   "antejardin_m_texto": "Antejardín 7 m",
+   "antejardin_m": 7,
+   "pisos": 15,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Tipos de agrupamiento Continuo Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "En edificación aislada de 4 pisos o más y en la aislada sobre la continua la Ordenanza exige 5 m a los deslindes, más que la tabla del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "Z-1A",
+   "pagina": 23,
+   "seccion": "Artículo 26, Zona Z-1 A",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 500 m²",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3,6",
+   "coef_constructibilidad": 3.6,
+   "altura_m_texto": "Altura máxima de edificación. 15 pisos y 44,00 m.",
+   "altura_m": 44,
+   "antejardin_m_texto": "Antejardín 7 m",
+   "antejardin_m": 7,
+   "pisos": 15,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Tipos de agrupamiento Continuo y aislado sobre continuo",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "En edificación aislada de 4 pisos o más y en la aislada sobre la continua la Ordenanza exige 5 m a los deslindes, más que la tabla del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "Z-1B",
+   "pagina": 24,
+   "seccion": "Artículo 26, Zona Z-1 B",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 500 m²",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3,2",
+   "coef_constructibilidad": 3.2,
+   "altura_m_texto": "Altura máxima de edificación. 10 pisos y 30,00 m.",
+   "altura_m": 30,
+   "antejardin_m_texto": "Antejardín 7 m",
+   "antejardin_m": 7,
+   "pisos": 10,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Tipos de agrupamiento Continuo y aislado sobre continuo.",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "En edificación aislada de 4 pisos o más y en la aislada sobre la continua la Ordenanza exige 5 m a los deslindes, más que la tabla del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "Z-1C",
+   "pagina": 25,
+   "seccion": "Artículo 26, Zona Z-1 C",
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: - En predios iguales o inferiores a 700m². - En predios mayores a 700m² 0,7 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el predio tiene 700 m² o menos (0,7 para equipamiento; 0,6 para uso residencial) («Coeficiente de ocupación de suelo: - En predios iguales o inferiores a 700m². - En predios mayores a 700m² 0,7 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad - En predio igual o inferiores a 700m² - En predio mayor a 700m² 2,5 2",
+   "coef_constructibilidad": 2,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el predio tiene 700 m² o menos («Coeficiente de constructibilidad - En predio igual o inferiores a 700m² - En predio mayor a 700m² 2,5 2»)",
+   "altura_m_texto": "Continua (placa) y Aislada sobre terreno. 7,00m",
+   "altura_m": 7,
+   "altura_incentivo_m": 17.5,
+   "incentivo_texto": "lo que supera los 7 m es edificación aislada sobre la placa, de hasta 10,50 m sobre ella: «Altura sobre placa. 10,50m. máx.»",
+   "incentivo_pagina": 25,
+   "antejardin_m_texto": "- Antejardín No aplica",
+   "antejardin_m": 0,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante para edificación aislada sobre terreno, hacia los deslindes laterales. 70º",
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: - Continua - Aislada"
+  },
+  {
+   "zona": "Z-1D",
+   "pagina": 26,
+   "seccion": "Artículo 26, Zona Z-1 D",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 500 m²",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima de edificación. 7 pisos y 21,00 m",
+   "altura_m": 21,
+   "antejardin_m_texto": "Antejardín 7,00 m",
+   "antejardin_m": 7,
+   "pisos": 7,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Tipos de agrupamiento Continuo y aislado sobre continuo.",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "En edificación aislada de 4 pisos o más y en la aislada sobre la continua la Ordenanza exige 5 m a los deslindes, más que la tabla del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "Z-2",
+   "pagina": 27,
+   "seccion": "Artículo 26, Zona Z-2",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 500 m²",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 2",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "Altura máxima de edificación. 10 pisos y 28,00 m",
+   "altura_m": 28,
+   "antejardin_m_texto": "Antejardín 7,00 m",
+   "antejardin_m": 7,
+   "pisos": 10,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60°",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Tipos de agrupamiento Aislado, pareado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "En edificios de 4 pisos o más la Ordenanza exige 5 m a los deslindes, más que la tabla del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "Z-3",
+   "pagina": 27,
+   "seccion": "Artículo 26, Zona Z-3",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima. 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "Altura máxima de edificación 8 pisos y 23,00 m.",
+   "altura_m": 23,
+   "antejardin_m_texto": "Antejardín 7,00 m",
+   "antejardin_m": 7,
+   "pisos": 8,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60°",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "En edificios de 4 pisos o más la Ordenanza exige 5 m a los deslindes, más que la tabla del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "Z-3A",
+   "pagina": 28,
+   "seccion": "Artículo 26, Zona Z-3 A",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (116) 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo. (117) - Terreno ≥ a 2000m² 0,4 0,5",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "el terreno tiene 2.000 m² o más («Coeficiente máximo de ocupación de suelo. (117) - Terreno ≥ a 2000m² 0,4 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad - Terreno ≥ a 2000m² 1.5 1,8",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 1.8,
+   "coef_constructibilidad_condicion": "el terreno tiene 2.000 m² o más («Coeficiente de constructibilidad - Terreno ≥ a 2000m² 1.5 1,8»)",
+   "altura_m_texto": "5 pisos , 14 m de altura máx.",
+   "altura_m": 14,
+   "altura_incentivo_m": 20,
+   "incentivo_texto": "el terreno tiene 2.000 m² o más (7 pisos): «7 pisos , 20 m de altura máx.»",
+   "incentivo_pagina": 28,
+   "antejardin_m_texto": "Antejardín 7 m.",
+   "antejardin_m": 7,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasantes 60º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "En edificios de 4 pisos o más la Ordenanza exige 5 m a los deslindes, más que la tabla del art. 2.6.3 de la OGUC."
+    }
+   ]
+  },
+  {
+   "zona": "Z-4",
+   "pagina": 29,
+   "seccion": "Artículo 26, Zona Z-4",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (126) 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "ocupación de suelo se aumentará hasta un 60% 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el predio existente es menor que la superficie mínima («En predios existentes de superficie menor que la mínima señalada, el porcentaje máximo de ocupación de suelo se aumentará hasta un 60%»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura de edificación 14 mts medidos desde el nivel de la solera (5 pisos máximo)",
+   "altura_m": 14,
+   "antejardin_m_texto": "a. En uno a tres pisos 5 m",
+   "antejardin_m": 5,
+   "pisos": 5,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, (129)",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "En edificios de 4 pisos o más la Ordenanza exige 5 m a los deslindes, más que la tabla del art. 2.6.3 de la OGUC."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "En edificios de 4 pisos o más el antejardín es el del Artículo 11 de la Ordenanza."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La tabla dice «Aislado,» y la nota (130) de la MPRCÑ-18 agrega «Pareado»: verifique el sistema de agrupamiento en el texto aprobatorio."
+    }
+   ]
+  },
+  {
+   "zona": "Z-4m",
+   "pagina": 30,
+   "seccion": "Artículo 26, Zona Z-4 m (uso residencial)",
+   "coef_ocupacion_suelo_texto": "En predios de superficie ≤ a 300 m²; 0,4 0,6",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el predio tiene 300 m² o menos («En predios de superficie ≤ a 300 m²; 0,4 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente máx. de constructibilidad: - Terrenos ≥ 1000 m.²: 1 1,5",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el terreno tiene 1.000 m² o más («Coeficiente máx. de constructibilidad: - Terrenos ≥ 1000 m.²: 1 1,5»)",
+   "altura_m_texto": "3 pisos máx., 8 m. de altura.",
+   "altura_m": 8,
+   "altura_incentivo_m": 14,
+   "incentivo_texto": "el terreno tiene 1.000 m² o más (5 pisos): «5 pisos, 14 m. de altura medidos desde el nivel de la solera.»",
+   "incentivo_pagina": 30,
+   "antejardin_m_texto": "a. En uno a tres pisos 5 m",
+   "antejardin_m": 5,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, Pareado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "En edificios de 4 pisos o más la Ordenanza exige 5 m a los deslindes, más que la tabla del art. 2.6.3 de la OGUC."
+    },
+    {
+     "campo": "altura",
+     "texto": "Las cifras transcritas son las del uso residencial; para equipamiento la zona fija 500 m², 0,4, 1,5 y 4 pisos."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "En edificios de 4 pisos o más el antejardín es el del Artículo 11 de la Ordenanza."
+    }
+   ]
+  },
+  {
+   "zona": "Z-4A",
+   "pagina": 31,
+   "seccion": "Artículo 26, Zona Z-4 A (uso residencial)",
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de Constructibilidad 2",
+   "coef_constructibilidad": 2,
+   "altura_m_texto": "Altura máx. de Edificación 17,50m.",
+   "altura_m": 17.5,
+   "hereda_de": "Z-4",
+   "hereda_texto": "Las restantes condiciones de subdivisión y edificación son las mismas que las definidas en esta Ordenanza local para la zona Z-4 destino residencial.",
+   "superficie_predial_minima_m2": 300,
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (126) 300 m²",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "antejardin_m",
+    "agrupamiento",
+    "pisos",
+    "rasante_grados"
+   ],
+   "antejardin_m": 5,
+   "antejardin_m_texto": "a. En uno a tres pisos 5 m",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, (129)",
+   "pisos": 5,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60º",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "En edificios de 4 pisos o más la Ordenanza exige 5 m a los deslindes, más que la tabla del art. 2.6.3 de la OGUC."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "En edificios de 4 pisos o más el antejardín es el del Artículo 11 de la Ordenanza."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La tabla dice «Aislado,» y la nota (130) de la MPRCÑ-18 agrega «Pareado»: verifique el sistema de agrupamiento en el texto aprobatorio."
+    }
+   ]
+  },
+  {
+   "zona": "Z-4B",
+   "pagina": 32,
+   "seccion": "Artículo 26, Zona Z-4 B (uso residencial)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (152) 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: (153) - 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad. 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "Menos de 1000 m.² hasta 3 pisos hasta 9 m.",
+   "altura_m": 9,
+   "altura_incentivo_m": 22,
+   "incentivo_texto": "según el tamaño del terreno: de 1.000 a 2.000 m², 5 pisos y 14 m; sobre 2.000 m², 8 pisos y 22 m: «Sobre 2000m² hasta 8 pisos hasta 22 m.»",
+   "incentivo_pagina": 32,
+   "antejardin_m_texto": "a. En uno a tres pisos 5 m",
+   "antejardin_m": 5,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "En edificios de 4 pisos o más la Ordenanza exige 5 m a los deslindes (y 4 o 5 m al medianero según el terreno), más que la tabla del art. 2.6.3 de la OGUC."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "En edificios de 4 pisos o más el antejardín es el del Artículo 11 de la Ordenanza."
+    }
+   ]
+  },
+  {
+   "zona": "Z-4C",
+   "pagina": 33,
+   "seccion": "Artículo 26, Zona Z-4 C (uso residencial)",
+   "hereda_de": "Z-4",
+   "hereda_texto": "Las restantes condiciones de subdivisión y edificación son las mismas que las definidas en esta Ordenanza local para la zona Z-4.",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En esta zona los cuerpos salientes son de máximo 1 m (no 1,5 m)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "En edificios de 4 pisos o más la Ordenanza exige 5 m a los deslindes, más que la tabla del art. 2.6.3 de la OGUC."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "En edificios de 4 pisos o más el antejardín es el del Artículo 11 de la Ordenanza."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La tabla dice «Aislado,» y la nota (130) de la MPRCÑ-18 agrega «Pareado»: verifique el sistema de agrupamiento en el texto aprobatorio."
+    }
+   ],
+   "superficie_predial_minima_m2": 300,
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (126) 300 m²",
+   "heredado": [
+    "superficie_predial_minima_m2",
+    "coef_ocupacion_suelo",
+    "coef_constructibilidad",
+    "altura_m",
+    "antejardin_m",
+    "agrupamiento",
+    "pisos",
+    "rasante_grados"
+   ],
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_texto": "ocupación de suelo se aumentará hasta un 60% 0,4",
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el predio existente es menor que la superficie mínima («En predios existentes de superficie menor que la mínima señalada, el porcentaje máximo de ocupación de suelo se aumentará hasta un 60%»)",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad 1,5",
+   "altura_m": 14,
+   "altura_m_texto": "Altura de edificación 14 mts medidos desde el nivel de la solera (5 pisos máximo)",
+   "antejardin_m": 5,
+   "antejardin_m_texto": "a. En uno a tres pisos 5 m",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, (129)",
+   "pisos": 5,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60º"
+  },
+  {
+   "zona": "Z-5",
+   "pagina": 33,
+   "seccion": "Artículo 26, Zona Z-5",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de edificación 3 pisos y 8m.",
+   "altura_m": 8,
+   "antejardin_m_texto": "Antejardín mínimo 5 m",
+   "antejardin_m": 5,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Tipo de agrupamiento Aislado y Parado"
+  },
+  {
+   "zona": "Z-5A",
+   "pagina": 34,
+   "seccion": "Artículo 26, Zona Z-5 A (uso residencial)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "En terrenos mayores a 300m². - En terrenos de superficie ≤ a 300m² 0,5 0,6",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el terreno tiene 300 m² o menos («En terrenos mayores a 300m². - En terrenos de superficie ≤ a 300m² 0,5 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de edificación 3 pisos, 9 m",
+   "altura_m": 9,
+   "antejardin_m_texto": "Antejardín mínimo 5m.",
+   "antejardin_m": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento Aislado y Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En esta zona los cuerpos salientes son de máximo 1 m (no 1,5 m)."
+    }
+   ]
+  },
+  {
+   "zona": "Z-5B",
+   "pagina": 35,
+   "seccion": "Artículo 26, Zona Z-5 B (uso residencial)",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de edificación 3 pisos, 9 m.",
+   "altura_m": 9,
+   "antejardin_m_texto": "Antejardín mínimo 5m",
+   "antejardin_m": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistemas de agrupamiento Aislado y Pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En esta zona los cuerpos salientes son de máximo 1 m (no 1,5 m)."
+    }
+   ]
+  },
+  {
+   "zona": "Z-6",
+   "pagina": 36,
+   "seccion": "Artículo 26, Zona Z-6",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (172) 6.500 m²",
+   "superficie_predial_minima_m2": 6500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: (174) 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "Altura máxima de edificación (175) 3 pisos, 9 m",
+   "altura_m": 9,
+   "antejardin_m_texto": "Antejardín mínimo en edificios de 1 a 3 pisos 5 m.",
+   "antejardin_m": 5,
+   "pisos": 3,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "En edificios de 4 pisos y 12 m o más el antejardín mínimo es de 7 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-1",
+   "pagina": 36,
+   "seccion": "Artículo 26, Zona ZI-1",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (178) 5.000 m²",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: (180) 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de edificación 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de edificación (183) 5 pisos y 15 m",
+   "altura_m": 15,
+   "antejardin_m_texto": "Antejardín (184) 7m.",
+   "antejardin_m": 7,
+   "pisos": 5,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante aplicada sobre nivel de suelo 60º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "La Ordenanza exige 5 m a los deslindes, más que la tabla del art. 2.6.3 de la OGUC en edificios bajos."
+    }
+   ]
+  }
+ ]
+}

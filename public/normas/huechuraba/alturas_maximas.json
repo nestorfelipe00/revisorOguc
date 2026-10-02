@@ -1,0 +1,154 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Plan Regulador Comunal de Huechuraba (D.E. N° 1.314 de 19-08-2004, D.O. 29-09-2004), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=230744",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "ZC1",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "b.5 Altura máxima de la edificación: 14 metros.",
+   "pagina": 0,
+   "seccion": "Art. 40, Zona ZC1 Equipamiento (Centro Comunal)",
+   "nota": null
+  },
+  {
+   "zona": "ZC2",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "b.5 Altura máxima de edificación: 14 metros",
+   "pagina": 0,
+   "seccion": "Art. 41, Zona ZC2 Equipamiento (Centro Pedro Fontova)",
+   "nota": null
+  },
+  {
+   "zona": "ZC3",
+   "altura_m": 16.0,
+   "pisos": null,
+   "texto": "b.5 Altura máxima de edificación: 16 metros (6 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 42, Zona ZC3 Residencial Mixto (Santa Elena sur - El Salto), Modificación N° 7",
+   "nota": null
+  },
+  {
+   "zona": "ZC4-1",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "b.7. Altura de edificación: 21 metros",
+   "pagina": 2,
+   "seccion": "Art. 43, Subzona ZC4-1 de Equipamiento (Ciudad Empresarial), Modificación N° 6",
+   "nota": null
+  },
+  {
+   "zona": "ZC4-2",
+   "altura_m": 52.5,
+   "pisos": null,
+   "texto": "b.7. Altura de edificación: 52,5 metros",
+   "pagina": 2,
+   "seccion": "Art. 43, Subzona ZC4-2 Sub-Centro de Equipamiento Metropolitano (Ciudad Empresarial), Modificación N° 6",
+   "nota": null
+  },
+  {
+   "zona": "ZH1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "b.5 Altura máxima de edificación: 10,5 metros.",
+   "pagina": 0,
+   "seccion": "Art. 46, Zona ZH1 Residencial (Sector Antiguo)",
+   "nota": null
+  },
+  {
+   "zona": "ZH2",
+   "altura_m": 11.0,
+   "pisos": null,
+   "texto": "b.5 Altura máxima de edificación: 11 metros (4 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 47, Zona ZH2 Residencial (Los Libertadores), Modificación N° 7",
+   "nota": null
+  },
+  {
+   "zona": "ZH3",
+   "altura_m": 11.0,
+   "pisos": null,
+   "texto": "b.5 Altura máxima de edificación: 11 metros (4 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 48, Zona ZH3 Residencial (Santa Rosa de Huechuraba - Santa Clara), Modificación N° 7",
+   "nota": null
+  },
+  {
+   "zona": "ZH4",
+   "altura_m": 42.0,
+   "pisos": null,
+   "texto": "b.5 Altura máxima de edificación: 42 metros.",
+   "pagina": 0,
+   "seccion": "Art. 49, Zona ZH4 Residencial (Rinconada)",
+   "nota": null
+  },
+  {
+   "zona": "ZH5",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "b.5 Altura máxima de edificación: 10,5 metros.",
+   "pagina": 0,
+   "seccion": "Art. 50, Zona ZH5 Residencial (Los Almendros)",
+   "nota": null
+  },
+  {
+   "zona": "ZH6",
+   "altura_m": 11.0,
+   "pisos": null,
+   "texto": "b.5 Altura de edificación: 11 metros (4 pisos).",
+   "pagina": 0,
+   "seccion": "Art. 51, Zona ZH6 Residencial (El Carmen de Huechuraba), Modificación N° 7",
+   "nota": null
+  },
+  {
+   "zona": "ZH8",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "b.5 Altura máxima de edificación: 21 metros",
+   "pagina": 0,
+   "seccion": "Art. 53, Zona ZH8 Residencial (Pie de Monte)",
+   "nota": null
+  },
+  {
+   "zona": "ZH10",
+   "altura_m": 16.0,
+   "pisos": null,
+   "texto": "b.5 Altura máxima de edificación: 16 metros (6 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 55, Zona ZH10 Residencial (altura media), Modificación N° 7",
+   "nota": null
+  },
+  {
+   "zona": "ZE3",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "b.5 Altura máxima de edificación: 14 metros",
+   "pagina": 0,
+   "seccion": "Art. 58, Zona ZE3 Equipamiento Intercomunal",
+   "nota": null
+  },
+  {
+   "zona": "ZE4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "b.5 Altura máxima de edificación: 10,5 metros",
+   "pagina": 0,
+   "seccion": "Art. 59, Zona ZE4 Equipamiento Recreacional y Deportivo",
+   "nota": null
+  },
+  {
+   "zona": "ZE7",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "b.5 Altura máxima de edificación: 10,5 metros",
+   "pagina": 0,
+   "seccion": "Art. 62, Zona ZE7 Área Verde - Parque",
+   "nota": null
+  }
+ ]
+}

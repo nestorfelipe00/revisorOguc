@@ -1,0 +1,401 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Actualización del Plan Regulador Comunal de La Granja (D.A. N° 4.039 de 13-12-2012, D.O. 27-12-2012), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1047487",
+ "sha256": "f594e7e7741a5ac851611ace5beb62923ac1878bed64e45438cdbf213a4a7a57",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZC-1",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona ZC-1 Equipamiento Metropolitano",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29755.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29756.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29757.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión Predial Mínima (m²) 1000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4.5",
+   "coef_constructibilidad": 4.5,
+   "altura_m_texto": "Altura Máxima de Edificación Libre (según rasante).",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Aislado, Pareado y Continuo (4) (5).",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Residencial: 500 m²; talleres, infraestructura y equipamiento: 1.000 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Coeficiente de ocupación de pisos superiores: 0,7 en segundo piso; 0,6 en los siguientes."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación pareada y continua: hasta 15 m; sobre esa altura opera la rasante de la OGUC y se permite la edificación aislada."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Profundidad máxima de la faja edificada en agrupamiento continuo: 60% de los medianeros laterales."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Talleres e infraestructura: agrupamiento aislado y coeficiente máximo de ocupación de suelo de 0,7 (cuadro de usos)."
+    }
+   ]
+  },
+  {
+   "zona": "ZC-2",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona ZC-2 Densificación Alta",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29757.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29758.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "NORMAS PARA SUBDIVISION Y LOTEOS INFRAESTRUCTURA: Superficie de subdivisión Predial Mínima (m²) 800",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 5.2",
+   "coef_constructibilidad": 5.2,
+   "altura_m_texto": "Altura Máxima de Edificación Libre (según rasante).",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Aislado, Pareado y Continuo (6) (7) (8)",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Usos distintos de infraestructura: 500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Coeficiente de ocupación de pisos superiores: 0,7 en segundo piso; 0,6 en los siguientes."
+    },
+    {
+     "campo": "altura",
+     "texto": "Edificación pareada y continua: hasta 10,5 m; sobre esa altura se permite la edificación aislada."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Profundidad máxima de la faja edificada en agrupamiento continuo: 80% de los medianeros laterales."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "No se permiten antejardines en los predios que enfrentan Av. Santa Rosa."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Infraestructura: agrupamiento aislado y coeficiente máximo de ocupación de suelo de 0,7 (cuadro de usos)."
+    }
+   ]
+  },
+  {
+   "zona": "ZC-3",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona ZC-3 Ejes de Actividad Mixta",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29758.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29759.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29760.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "NORMAS PARA SUBDIVISION Y LOTEOS PARA EQUIPAMIENTO: Superficie de subdivisión Predial Mínima (m²) 1000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0.7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3.7",
+   "coef_constructibilidad": 3.7,
+   "altura_m_texto": "Altura Máxima de Edificación Libre (según rasante).",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Aislado, Pareado y Continuo (12)",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Residencial e infraestructura: 500 m²; talleres y equipamiento: 1.000 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Coeficiente de ocupación de pisos superiores: 0,6."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Profundidad máxima de la faja edificada en agrupamiento continuo: 80% de los medianeros laterales."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Talleres e infraestructura: agrupamiento aislado y coeficiente máximo de ocupación de suelo de 0,7 (cuadro de usos)."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-1",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona ZH-1 Residencial Malaquías Concha",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29761.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29762.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión Predial Mínima (m²) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "INFRAESTRUCTURA Se permite todas las actividades excepto aquellas indicadas como prohibidas. Para este uso de suelo se exigirá predios con agrupamiento aislado y un coeficiente máximo de ocupación de suelo de 0,7.",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial o equipamiento (infraestructura: 0,7) («NORMAS DE EDIFICACIÓN PARA DESTINOS RESIDENCIAL Y EQUIPAMIENTOS: Coeficiente de Ocupación del Suelo 0.8»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2.6",
+   "coef_constructibilidad": 2.6,
+   "altura_m_texto": "Altura Máxima de Edificación 14 m o 4 pisos.",
+   "altura_m": 14.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Aislado y Pareado. (13)",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Coeficiente de ocupación de pisos superiores: 0,6."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La nota (13) fija la profundidad máxima de la faja edificada en agrupamiento continuo en 80% de los medianeros laterales, aunque el cuadro solo admite aislado y pareado."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-2",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona ZH-2 Residencial Densificación",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29762.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29763.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "NORMAS PARA SUBDIVISION Y LOTEOS TODO USO DE SUELO: Superficie de subdivisión Predial Mínima (m²) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4.5",
+   "coef_constructibilidad": 4.5,
+   "altura_m_texto": "Altura Máxima de Edificación Libre (según rasante).",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Aislado y Pareado (14) (15)",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Edificación pareada: hasta 7 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Profundidad máxima de la faja edificada en agrupamiento pareado: 60% de los medianeros laterales."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro de usos admite talleres e infraestructura con agrupamiento aislado y un coeficiente máximo de ocupación de suelo de 0,7, sobre el 0,6 del cuadro de la zona: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-3",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona ZH-3 Residencial Densidad Baja",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29763.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29764.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "(TALLERES ) E INFRAESTRUCTURA Superficie de subdivisión Predial Mínima (m²) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "un coeficiente máximo de ocupación de suelo de 0,7.",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial o equipamiento (talleres e infraestructura: 0,7) («Coeficiente de Ocupación del Suelo 0.8»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2,6",
+   "coef_constructibilidad": 2.6,
+   "altura_m_texto": "Altura Máxima de Edificación 14 m o 4 pisos.",
+   "altura_m": 14.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Aislado y Pareado (16)",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Residencial y equipamiento: 200 m²; talleres e infraestructura: 500 m²."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Coeficiente de ocupación de pisos superiores: 0,6."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Profundidad máxima de la faja edificada en agrupamiento pareado: 80% de los medianeros laterales."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-4",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona ZH-4 Residencial Baja Ocupación",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29764.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29765.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "NORMAS PARA SUBDIVISION Y LOTEOS PARA USO INFRAESTRUCTURA Superficie de subdivisión Predial Mínima (m²) 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1.2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura Máxima de Edificación 7 m o 2 pisos",
+   "altura_m": 7.0,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Aislado y Pareado (17) (18)",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Residencial y equipamiento: 200 m²; infraestructura: 500 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación pareada puede alcanzar la altura máxima de la zona."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Profundidad máxima de la faja edificada en agrupamiento pareado: 80% de los medianeros laterales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Equipamiento solo de escala básica."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "El cuadro de usos admite infraestructura con agrupamiento aislado y un coeficiente máximo de ocupación de suelo de 0,7, sobre el 0,6 del cuadro de la zona: confirme con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-1",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona ZE-1 Equipamiento Comunal",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29769.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión Predial Mínima (m²) 800",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3,0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "Altura Máxima de Edificación Según Rasantes",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín 5 m",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Residencial: solo la vivienda del cuidador."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-1",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona ZI-1 Industrial Exclusiva (art. 6.1.3.3 del PRMS)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29770.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29771.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión Mínima 1.500 m2. 500 m2. 1.500 m2. 500 m2.",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente.de Ocupación del suelo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2.0 1.0 1.0 2.0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el destino es actividad productiva o taller (equipamiento, infraestructura y actividades complementarias a la vialidad: 1,0) («Coeficiente de Constructibilidad 2.0 1.0 1.0 2.0»)",
+   "altura_m_texto": "Altura máxima de edificación 14 m a excepción del uso equipamiento según rasante",
+   "altura_m": 14.0,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el destino es equipamiento (según rasante): «Altura máxima de edificación 14 m a excepción del uso equipamiento según rasante»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Se exigirá un antejardín mínimo de 5 metros en las áreas industriales establecidas por el PRMS.",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento, infraestructura y talleres: 500 m²; actividades productivas y complementarias a la vialidad: 1.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distancia mínima a medianeros: 3 m (actividades productivas y talleres), según OGUC (equipamiento e infraestructura) o 5 m (actividades complementarias a la vialidad)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El cuadro remite el antejardín al artículo 21 de la Ordenanza, que trata de cuerpos salientes; se usa el antejardín mínimo de 5 m que el texto exige en las áreas industriales del PRMS."
+    }
+   ]
+  },
+  {
+   "zona": "ZAV-1",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona ZAV-1 Parque Metropolitano Intercomunal República del Brasil",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/29772.jpg"
+   ],
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 0,05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente Máximo de Constructibilidad 0,05",
+   "coef_constructibilidad": 0.05,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Parque intercomunal regulado por el artículo 5.2.3.1 del PRMS: solo instalaciones complementarias de equipamiento científico, culto y cultura, deporte, esparcimiento al aire libre y espacio público."
+    }
+   ]
+  },
+  {
+   "zona": "ZAV-2",
+   "pagina": 0,
+   "seccion": "Art. 24, Zona ZAV-2 Áreas Verdes Comunales",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Áreas verdes públicas: rige el artículo 2.1.30 de la OGUC; los predios colindantes no pueden adosarse hacia el área verde (art. 13 de la Ordenanza)."
+    }
+   ]
+  }
+ ]
+}

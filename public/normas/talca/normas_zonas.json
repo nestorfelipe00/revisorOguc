@@ -1,0 +1,1127 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Talca (Res. N° 342 del Gobierno Regional del Maule, D.O. 26-10-2011), texto actualizado de la BCN con las enmiendas del Decreto 3920 (D.O. 03-11-2016) y del Decreto 5267 (D.O. 13-10-2025)",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1031594",
+ "sha256": "a5588f9198038df1b6580b65adde4c82e1595359814652a566c381367c00dde6",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "U-1",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-1 Centro Comercial",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/200577.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 400m²",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,9",
+   "coef_ocupacion_suelo": 0.9,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 8",
+   "coef_constructibilidad": 8,
+   "altura_m_texto": "Altura Máxima de Edificación: Continuo: según Artículo 3° de esta Ordenanza Local. Aislado sobre continuidad: Libre, según Rasante OGUC y Artículo 4°",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: No se exige",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Continuo, Aislado sobre continuidad",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a la altura del Art. 3° según el ancho entre líneas oficiales de la vía: 10,5 m (menos de 15 m), 14 m (15 a 20 m), 17,5 m (20 a 25 m), 21 m (25 a 30 m) y 28 m (30 m o más); la aislada, solo rasantes (Art. 4°: desde 5 m tras el plano de continuidad)."
+    }
+   ]
+  },
+  {
+   "zona": "U-2",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-2 Centro Institucional",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/200577.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 400m²",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 8",
+   "coef_constructibilidad": 8,
+   "altura_m_texto": "Altura Máxima de Edificación: Libre, según Rasante OGUC y según Artículos 3° y 4° de esta Ordenanza Local",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Continuo, aislado. Aislado sobre continuidad",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a la altura del Art. 3° según el ancho entre líneas oficiales de la vía: 10,5 m (menos de 15 m), 14 m (15 a 20 m), 17,5 m (20 a 25 m), 21 m (25 a 30 m) y 28 m (30 m o más); la aislada, solo rasantes (Art. 4°: desde 5 m tras el plano de continuidad)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "U-3",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-3 Densificación Residencial (usos residencial y equipamiento; actividades productivas)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/200577.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 400m² (residencial y equipamiento)",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,6 / 0,4 para edificios",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "la construcción no es un edificio (0,6; actividades productivas, 0,5) («Coeficiente de Ocupación de suelo 0,6 / 0,4 para edificios»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1 (actividades productivas)",
+   "coef_constructibilidad": 1,
+   "coef_constructibilidad_max": 6,
+   "coef_constructibilidad_condicion": "el destino es residencial o equipamiento («Coeficiente de Constructibilidad 6 (residencial y equipamiento)»)",
+   "altura_m_texto": "Altura Máxima de Edificación: Libre, según Rasante OGUC y según Artículo 3° de esta Ordenanza Local",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado, Pareado, Continuo.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a la altura del Art. 3° según el ancho entre líneas oficiales de la vía: 10,5 m (menos de 15 m), 14 m (15 a 20 m), 17,5 m (20 a 25 m), 21 m (25 a 30 m) y 28 m (30 m o más); la aislada, solo rasantes (Art. 4°: desde 5 m tras el plano de continuidad)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Actividades productivas: solo aislado, distanciamiento de 3 m y sin adosamiento."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Actividades productivas: 1.000 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "U-4",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-4 Mixta Residencial",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/200577.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 200m² (residencial y equipamiento)",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura Máxima de Edificación: Libre, según Rasante OGUC y según Artículo 3° de esta Ordenanza Local",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado, Pareado, Continuo.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a la altura del Art. 3° según el ancho entre líneas oficiales de la vía: 10,5 m (menos de 15 m), 14 m (15 a 20 m), 17,5 m (20 a 25 m), 21 m (25 a 30 m) y 28 m (30 m o más); la aislada, solo rasantes (Art. 4°: desde 5 m tras el plano de continuidad)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Actividades productivas: solo aislado y distanciamiento de 3 m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Actividades productivas: 400 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "U-5",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-5 Residencial Densidad Media",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/200577.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 200m² (residencial y equipamiento)",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "Altura Máxima de Edificación: Según Rasante OGUC y según Artículo 3° de esta Ordenanza Local",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado, Pareado, Continuo.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a la altura del Art. 3° según el ancho entre líneas oficiales de la vía: 10,5 m (menos de 15 m), 14 m (15 a 20 m), 17,5 m (20 a 25 m), 21 m (25 a 30 m) y 28 m (30 m o más); la aislada, solo rasantes (Art. 4°: desde 5 m tras el plano de continuidad)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Actividades productivas: solo aislado, distanciamiento de 3 m y sin adosamiento."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Actividades productivas: 600 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "U-6",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-6 Industria Inofensiva",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/200577.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 1.000m²",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el destino es vivienda (cuadro «usos residencial, destino vivienda» de la zona) («Coeficiente de Constructibilidad 3 (usos residencial, destino vivienda)»)",
+   "altura_m_texto": "Altura Máxima de Edificación: Según rasantes OGUC",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín 5m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo a medianero: 3 m a vivienda y 10 m a actividad productiva."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Destino vivienda: 200 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Destino vivienda: según Art. 6°. Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Destino vivienda: aislado, pareado o continuo."
+    }
+   ]
+  },
+  {
+   "zona": "U-7",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-7 Equipamiento Deportivo Recreacional (Decreto 5267, D.O. 13-10-2025)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/200556.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.500 m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura Máxima de Edificación: Según Rasante OGUC.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín 10 metros",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 5 m; se prohíbe el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "U-7A",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-7A Equipamiento Deportivo Recreacional y Seguridad (Decreto 5267, D.O. 13-10-2025)",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/200557.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.500 m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura Máxima de Edificación: Según Rasante OGUC.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín 10 metros",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 5 m; se prohíbe el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "U-8",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-8 Equipamiento y Densificación Residencial",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/200578.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 400m² (residencial y equipamiento)",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4",
+   "coef_constructibilidad": 4,
+   "altura_m_texto": "Altura Máxima de Edificación: Según Rasante OGUC y según Artículo 3° de esta Ordenanza Local",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado, Pareado, Continuo.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a la altura del Art. 3° según el ancho entre líneas oficiales de la vía: 10,5 m (menos de 15 m), 14 m (15 a 20 m), 17,5 m (20 a 25 m), 21 m (25 a 30 m) y 28 m (30 m o más); la aislada, solo rasantes (Art. 4°: desde 5 m tras el plano de continuidad)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Actividades productivas: solo aislado y distanciamiento de 3 m."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Actividades productivas: 800 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "U-9",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-9 Nodo Comercial - Transporte",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/200578.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 1.000m²",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,9",
+   "coef_ocupacion_suelo": 0.9,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 10",
+   "coef_constructibilidad": 10,
+   "altura_m_texto": "Altura Máxima de Edificación: Continuo: según Artículo 3° de esta Ordenanza Local. Aislado sobre continuidad: Libre, según Rasante OGUC y Artículo 4°",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: No se exige.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo",
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Continuo, Aislado sobre continuidad.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a la altura del Art. 3° según el ancho entre líneas oficiales de la vía: 10,5 m (menos de 15 m), 14 m (15 a 20 m), 17,5 m (20 a 25 m), 21 m (25 a 30 m) y 28 m (30 m o más); la aislada, solo rasantes (Art. 4°: desde 5 m tras el plano de continuidad)."
+    }
+   ]
+  },
+  {
+   "zona": "U-10",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-10 Equipamiento Recreacional - Área Verde",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/200578.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.500 m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,15",
+   "coef_ocupacion_suelo": 0.15,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "Altura Máxima de Edificación 14m",
+   "altura_m": 14,
+   "antejardin_m_texto": "Antejardín 10m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 10 m; se prohíbe el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "U-11",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-11 Vivienda Densidad Media",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/200578.jpg",
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21542.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 200m² (residencial y equipamiento)",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "Altura Máxima de Edificación: Según Rasante OGUC y según Artículo 3° de esta Ordenanza Local",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado, Pareado, Continuo.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a la altura del Art. 3° según el ancho entre líneas oficiales de la vía: 10,5 m (menos de 15 m), 14 m (15 a 20 m), 17,5 m (20 a 25 m), 21 m (25 a 30 m) y 28 m (30 m o más); la aislada, solo rasantes (Art. 4°: desde 5 m tras el plano de continuidad)."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Actividades productivas: solo aislado, distanciamiento de 3 m y sin adosamiento."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Actividades productivas: 600 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "U-12",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-12 Villorrio Residencial",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21542.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 250m²",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0 (actividades productivas)",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el destino es residencial o equipamiento («Coeficiente de Constructibilidad 1,2 (residencial y equipamiento)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 10,5m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado, Pareado, Continuo.",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "Actividades productivas: solo aislado y distanciamiento de 3 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "U-13",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-13 Villorrio Mixto",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21542.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 250m²",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0 (actividades productivas)",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el destino es residencial o equipamiento («Coeficiente de Constructibilidad 1,2 (residencial y equipamiento)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 10,5m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado, Pareado, Continuo.",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "U-14",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-14 Equipamiento y Vivienda",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21542.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 400m² (residencial y equipamiento)",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4",
+   "coef_constructibilidad": 4,
+   "altura_m_texto": "Altura Máxima de Edificación: Según Rasante OGUC y Artículo 3 de esta Ordenanza Local.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado, Pareado, Continuo.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a la altura del Art. 3° según el ancho entre líneas oficiales de la vía: 10,5 m (menos de 15 m), 14 m (15 a 20 m), 17,5 m (20 a 25 m), 21 m (25 a 30 m) y 28 m (30 m o más); la aislada, solo rasantes (Art. 4°: desde 5 m tras el plano de continuidad)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 3 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Actividades productivas: solo aislado."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Actividades productivas: 800 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "U-15",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-15 Vivienda",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21542.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.500m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino es vivienda (cuadro «usos residencial, destino vivienda») («Coeficiente de Ocupación de suelo 0,6 (usos residencial, destino vivienda)»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el destino es vivienda (cuadro «usos residencial, destino vivienda») («Coeficiente de Constructibilidad 3 (usos residencial, destino vivienda)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 7m",
+   "altura_m": 7,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el destino es vivienda (solo rasantes): «Altura Máxima de Edificación: Según Rasante OGUC (usos residencial, destino vivienda)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Destino vivienda: 300 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Destino vivienda: aislado o pareado."
+    }
+   ]
+  },
+  {
+   "zona": "U-16",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-16 Vivienda Poniente",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21543.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.000m²",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,6",
+   "coef_constructibilidad": 0.6,
+   "altura_m_texto": "Altura Máxima de Edificación 10,5m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "U-17",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-17 Vivienda Baja Densidad - Agroindustria",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21543.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.000m²",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,3 (actividades productivas)",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial o equipamiento («Coeficiente de Ocupación de suelo 0,4 (residencial y equipamiento)»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 0,3 (actividades productivas)",
+   "coef_constructibilidad": 0.3,
+   "coef_constructibilidad_max": 0.8,
+   "coef_constructibilidad_condicion": "el destino es residencial o equipamiento («Coeficiente Constructibilidad 0,8 (residencial y equipamiento)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 7m",
+   "altura_m": 7,
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Actividades productivas: distanciamiento de 5 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "U-18",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-18 Mixta con Limitaciones",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21543.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.000m²",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1",
+   "coef_constructibilidad": 1,
+   "altura_m_texto": "Altura Máxima de Edificación: Según Rasante OGUC",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "U-19",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-19 Industria e Infraestructura",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21543.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.500m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura Máxima de Edificación 10,5m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 10m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 10 m; se prohíbe el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "U-20",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-20 Servicios de Transporte",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21543.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.500m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,2 (actividades productivas)",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.3,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial o equipamiento («Coeficiente de Ocupación de suelo 0,3 (residencial y equipamiento)»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 0,5 (actividades productivas)",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 0.6,
+   "coef_constructibilidad_condicion": "el destino es residencial o equipamiento («Coeficiente de Constructibilidad 0,6 (residencial y equipamiento)»)",
+   "altura_m_texto": "Altura Máxima de Edificación: Según rasante OGUC",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 5 m (actividades productivas: 10 m y 30 m al deslinde con zona habitacional); se prohíbe el adosamiento."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "U-21",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-21 Recreacional - Deportiva",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21543.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.500m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,15",
+   "coef_ocupacion_suelo": 0.15,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "Altura Máxima de Edificación 10,5m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 10m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado"
+  },
+  {
+   "zona": "U-22",
+   "pagina": 0,
+   "seccion": "Art. 22 a), Zona U-22 Agricultura y Agroindustria",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21543.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.500m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,05",
+   "coef_constructibilidad": 0.05,
+   "altura_m_texto": "Altura Máxima de Edificación 10,5m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 10m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 10 m; se prohíbe el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "R-2",
+   "pagina": 0,
+   "seccion": "Art. 22 b), Zona Zona Inundable de Alto Riesgo",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21544.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 5.000m²",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "Altura Máxima de Edificación 7m",
+   "altura_m": 7,
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de riesgo: estas normas rigen solo si el proyecto presenta un estudio fundado de riesgos con los informes de los organismos competentes que certifiquen que las obras eliminan la condición de riesgo (Art. 2.1.17 OGUC); sin él, los predios se destinan a áreas verdes, espacio público y actividades al aire libre sin recintos cerrados."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "R-3A",
+   "pagina": 0,
+   "seccion": "Art. 22 b), Zona Zona Inundable de Riesgo Medio, Subzona R-3A",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21545.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 300m² (uso residencial)",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,1 (equipamiento y actividades productivas)",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el uso es residencial («Coeficiente de Ocupación de suelo 0,6 (uso residencial)»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,2 (equipamiento y actividades productivas)",
+   "coef_constructibilidad": 0.2,
+   "coef_constructibilidad_max": 3,
+   "coef_constructibilidad_condicion": "el uso es residencial («Coeficiente de Constructibilidad 3 (uso residencial)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 7m (equipamiento y actividades productivas)",
+   "altura_m": 7,
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de riesgo: estas normas rigen solo si el proyecto presenta un estudio fundado de riesgos con los informes de los organismos competentes que certifiquen que las obras eliminan la condición de riesgo (Art. 2.1.17 OGUC); sin él, los predios se destinan a áreas verdes, espacio público y actividades al aire libre sin recintos cerrados."
+    },
+    {
+     "campo": "altura",
+     "texto": "Uso residencial: el cuadro no fija altura máxima."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento y actividades productivas: 2.500 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Uso residencial: aislado o pareado."
+    }
+   ]
+  },
+  {
+   "zona": "R-3B",
+   "pagina": 0,
+   "seccion": "Art. 22 b), Zona Zona Inundable de Riesgo Medio, Subzona R-3B",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21546.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 200m²",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "Altura Máxima de Edificación: Continuo: según Artículo 3°; Aislado y pareado: Libre, según Rasante OGUC",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado, Pareado, Continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de riesgo: estas normas rigen solo si el proyecto presenta un estudio fundado de riesgos con los informes de los organismos competentes que certifiquen que las obras eliminan la condición de riesgo (Art. 2.1.17 OGUC); sin él, los predios se destinan a áreas verdes, espacio público y actividades al aire libre sin recintos cerrados."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a la altura del Art. 3° según el ancho entre líneas oficiales de la vía: 10,5 m (menos de 15 m), 14 m (15 a 20 m), 17,5 m (20 a 25 m), 21 m (25 a 30 m) y 28 m (30 m o más); la aislada, solo rasantes (Art. 4°: desde 5 m tras el plano de continuidad)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "R-3C",
+   "pagina": 0,
+   "seccion": "Art. 22 b), Zona Zona Inundable de Riesgo Medio, Subzona R-3C",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21547.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 200m²",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "Altura Máxima de Edificación: Continuo: según Artículo 3°; Aislado y pareado: Libre, según Rasante OGUC",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado, Pareado, Continuo, Aislado sobre continuidad.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de riesgo: estas normas rigen solo si el proyecto presenta un estudio fundado de riesgos con los informes de los organismos competentes que certifiquen que las obras eliminan la condición de riesgo (Art. 2.1.17 OGUC); sin él, los predios se destinan a áreas verdes, espacio público y actividades al aire libre sin recintos cerrados."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a la altura del Art. 3° según el ancho entre líneas oficiales de la vía: 10,5 m (menos de 15 m), 14 m (15 a 20 m), 17,5 m (20 a 25 m), 21 m (25 a 30 m) y 28 m (30 m o más); la aislada, solo rasantes (Art. 4°: desde 5 m tras el plano de continuidad)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "R-3D",
+   "pagina": 0,
+   "seccion": "Art. 22 b), Zona Zona Inundable de Riesgo Medio, Subzona R-3D",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21548.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.500m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,15",
+   "coef_ocupacion_suelo": 0.15,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "Altura Máxima de Edificación 10,5m",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín 10m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de riesgo: estas normas rigen solo si el proyecto presenta un estudio fundado de riesgos con los informes de los organismos competentes que certifiquen que las obras eliminan la condición de riesgo (Art. 2.1.17 OGUC); sin él, los predios se destinan a áreas verdes, espacio público y actividades al aire libre sin recintos cerrados."
+    }
+   ]
+  },
+  {
+   "zona": "R-4",
+   "pagina": 0,
+   "seccion": "Art. 22 b), Zona Zona Potencialmente Inundable: Recreacional - Deportivo",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21549.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 5.000m²",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,5",
+   "coef_constructibilidad": 0.5,
+   "altura_m_texto": "Altura Máxima de Edificación 7m",
+   "altura_m": 7,
+   "antejardin_m_texto": "Antejardín 15m",
+   "antejardin_m": 15,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de riesgo: estas normas rigen solo si el proyecto presenta un estudio fundado de riesgos con los informes de los organismos competentes que certifiquen que las obras eliminan la condición de riesgo (Art. 2.1.17 OGUC); sin él, los predios se destinan a áreas verdes, espacio público y actividades al aire libre sin recintos cerrados."
+    }
+   ]
+  },
+  {
+   "zona": "R-5",
+   "pagina": 0,
+   "seccion": "Art. 22 b), Zona Zona Potencialmente Inundable: Industria",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21550.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.500m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,5",
+   "coef_constructibilidad": 0.5,
+   "antejardin_m_texto": "Antejardín 10m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de riesgo: estas normas rigen solo si el proyecto presenta un estudio fundado de riesgos con los informes de los organismos competentes que certifiquen que las obras eliminan la condición de riesgo (Art. 2.1.17 OGUC); sin él, los predios se destinan a áreas verdes, espacio público y actividades al aire libre sin recintos cerrados."
+    },
+    {
+     "campo": "altura",
+     "texto": "El cuadro no fija altura máxima."
+    }
+   ]
+  },
+  {
+   "zona": "R-7A",
+   "pagina": 0,
+   "seccion": "Art. 22 b), Zona Subzona R-7A",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21551.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 200m² (residencial y equipamiento)",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "Altura Máxima de Edificación: Continuo: según Artículo 3°; Aislado y pareado: Libre, según Rasante OGUC",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín: Se exige, según Artículo 6° de esta Ordenanza Local",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado, Pareado, Continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de riesgo: estas normas rigen solo si el proyecto presenta un estudio fundado de riesgos con los informes de los organismos competentes que certifiquen que las obras eliminan la condición de riesgo (Art. 2.1.17 OGUC); sin él, los predios se destinan a áreas verdes, espacio público y actividades al aire libre sin recintos cerrados."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a la altura del Art. 3° según el ancho entre líneas oficiales de la vía: 10,5 m (menos de 15 m), 14 m (15 a 20 m), 17,5 m (20 a 25 m), 21 m (25 a 30 m) y 28 m (30 m o más); la aislada, solo rasantes (Art. 4°: desde 5 m tras el plano de continuidad)."
+    },
+    {
+     "campo": "zona",
+     "texto": "El texto de la zona R-7 prohíbe expresamente el uso residencial, incluido el destino vivienda, aunque el cuadro lleve el título «usos residencial y equipamiento»."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Actividades productivas: 600 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Art. 6°: antejardín según el ancho de la vía: 3 m (hasta 20 m entre líneas oficiales), 5 m (20 a 40 m), 6 m (más de 40 m) y 15 m frente a Ruta 5, Av. Lircay, Av. Pehuenche Norte y Sur y otros tramos que el artículo indica."
+    }
+   ]
+  },
+  {
+   "zona": "R-7B",
+   "pagina": 0,
+   "seccion": "Art. 22 b), Zona Subzona R-7B",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/21552.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 1.000m²",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,5",
+   "coef_constructibilidad": 1.5,
+   "antejardin_m_texto": "Antejardín 5m",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento: Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Zona de riesgo: estas normas rigen solo si el proyecto presenta un estudio fundado de riesgos con los informes de los organismos competentes que certifiquen que las obras eliminan la condición de riesgo (Art. 2.1.17 OGUC); sin él, los predios se destinan a áreas verdes, espacio público y actividades al aire libre sin recintos cerrados."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo a medianero de 4 m."
+    },
+    {
+     "campo": "altura",
+     "texto": "El cuadro no fija altura máxima."
+    }
+   ]
+  }
+ ]
+}

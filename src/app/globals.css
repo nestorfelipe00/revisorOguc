@@ -370,3 +370,87 @@ textarea {
     border-top: 1px solid var(--border);
   }
 }
+
+/* Pestañas por tema y alertas tipadas (misma estructura que la app de escritorio) */
+.side .tabs button {
+  font-size: 12px;
+  padding: 10px 4px;
+}
+
+.alertas {
+  display: grid;
+  gap: 6px;
+}
+
+.alert-info {
+  border-color: var(--info);
+  color: var(--info);
+}
+
+.alert a {
+  color: inherit;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chip {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #101418;
+  white-space: nowrap;
+}
+
+.regla {
+  border-bottom: 1px solid var(--border);
+  padding: 6px 0;
+}
+
+.regla-head {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: 0;
+  padding: 4px 2px;
+  color: var(--text);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.regla-head:hover {
+  background: var(--panel-2);
+}
+
+.regla-body {
+  display: grid;
+  gap: 4px;
+  padding: 4px 4px 4px 10px;
+}
+
+.mono {
+  font-family: "Cascadia Mono", Consolas, monospace;
+}
+
+.btn.selected {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.btn.small {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.kv input.input,
+.kv select.input {
+  padding: 5px 8px;
+}

@@ -1,0 +1,190 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local de la Actualización del Plan Regulador Comunal de Renca (D.A. N° 214 de 09-02-2022, D.O. 22-02-2022), versión timbrada que publica la Municipalidad",
+ "url": "https://renca.cl/wp-content/uploads/2022/02/Ordenanza-Local-PRCR_Timbrado.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "HM-1",
+   "altura_m": 13.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 13 -­‐ +3,2 -­‐",
+   "pagina": 20,
+   "seccion": "Art. II-1.1, Zona HM-1",
+   "nota": null
+  },
+  {
+   "zona": "HM-2",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 14 +6,5 -­‐ -­‐",
+   "pagina": 22,
+   "seccion": "Art. II-1.1, Zona HM-2",
+   "nota": null
+  },
+  {
+   "zona": "HM-3",
+   "altura_m": 16.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 16 +6,4 +3,2 -­‐",
+   "pagina": 24,
+   "seccion": "Art. II-1.1, Zona HM-3",
+   "nota": null
+  },
+  {
+   "zona": "HM-4",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 7 -­‐ +3,2 -­‐",
+   "pagina": 26,
+   "seccion": "Art. II-1.1, Zona HM-4",
+   "nota": null
+  },
+  {
+   "zona": "RM",
+   "altura_m": 20.4,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 20,4 +9 +3 +6",
+   "pagina": 28,
+   "seccion": "Art. II-1.1, Zona RM",
+   "nota": null
+  },
+  {
+   "zona": "HT-1",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 7 -­‐ -­‐ -­‐",
+   "pagina": 30,
+   "seccion": "Art. II-1.1, Zona HT-1",
+   "nota": null
+  },
+  {
+   "zona": "HT-2",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 9 -­‐ -­‐ -­‐",
+   "pagina": 32,
+   "seccion": "Art. II-1.1, Zona HT-2",
+   "nota": null
+  },
+  {
+   "zona": "HT-3",
+   "altura_m": 10.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 10 -­‐ -­‐ -­‐",
+   "pagina": 34,
+   "seccion": "Art. II-1.1, Zona HT-3",
+   "nota": null
+  },
+  {
+   "zona": "HT-4",
+   "altura_m": 10.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 10 -­‐ +3 -­‐",
+   "pagina": 36,
+   "seccion": "Art. II-1.1, Zona HT-4",
+   "nota": null
+  },
+  {
+   "zona": "EP-1",
+   "altura_m": 14.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 14 -­‐ -­‐ +6,5",
+   "pagina": 38,
+   "seccion": "Art. II-1.1, Zona EP-1",
+   "nota": null
+  },
+  {
+   "zona": "EP-2",
+   "altura_m": 19.2,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 19,2 -­‐ -­‐ +6,4",
+   "pagina": 40,
+   "seccion": "Art. II-1.1, Zona EP-2",
+   "nota": null
+  },
+  {
+   "zona": "EP-3",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 12 -­‐ -­‐ +6",
+   "pagina": 43,
+   "seccion": "Art. II-1.1, Zona EP-3",
+   "nota": null
+  },
+  {
+   "zona": "EP-4",
+   "altura_m": 13.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 13 -­‐ +6,4 +6,4",
+   "pagina": 45,
+   "seccion": "Art. II-1.1, Zona EP-4",
+   "nota": null
+  },
+  {
+   "zona": "EE-1",
+   "altura_m": 20.5,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 20,5 -­‐ +10,2 -­‐",
+   "pagina": 47,
+   "seccion": "Art. II-1.1, Zona EE-1",
+   "nota": null
+  },
+  {
+   "zona": "EE-2",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 9 -­‐ +3 -­‐",
+   "pagina": 49,
+   "seccion": "Art. II-1.1, Zona EE-2",
+   "nota": null
+  },
+  {
+   "zona": "EE-3",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 7 -­‐ -­‐ -­‐",
+   "pagina": 51,
+   "seccion": "Art. II-1.1, Zona EE-3",
+   "nota": null
+  },
+  {
+   "zona": "I-2",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 12 -­‐ -­‐ -­‐",
+   "pagina": 55,
+   "seccion": "Art. II-1.1, Zona I-2",
+   "nota": null
+  },
+  {
+   "zona": "I-3",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 7",
+   "pagina": 57,
+   "seccion": "Art. II-1.1, Zona I-3",
+   "nota": null
+  },
+  {
+   "zona": "ZAV",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 9",
+   "pagina": 59,
+   "seccion": "Art. II-1.1, Zona ZAV",
+   "nota": null
+  },
+  {
+   "zona": "I-1",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "Altura máxima de edificación (metros) 12 -­‐ -­‐ -­‐",
+   "pagina": 53,
+   "seccion": "Art. II-1.1, Zona I-1",
+   "nota": null
+  }
+ ]
+}

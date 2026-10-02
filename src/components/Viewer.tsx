@@ -36,6 +36,7 @@ export default function Viewer({ events, onReady, onError }: Props) {
       onLog: (...a) => eventsRef.current.onLog(...a),
       onPointPicked: (...a) => eventsRef.current.onPointPicked(...a),
       onParcelDrawn: (...a) => eventsRef.current.onParcelDrawn(...a),
+      onCityRequested: () => eventsRef.current.onCityRequested(),
     };
     (async () => {
       const { WebViewer } = await import("@/viewer/web");

@@ -1,0 +1,172 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Reformulación del Plan Regulador Comunal de Viña del Mar (D.A. N° 10.949, D.O. 13-12-2002), texto actualizado de la BCN (versión del 25-10-2022)",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=208029",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "V1",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "a) Para edificaciones aisladas en general: 9 metros.",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona V1",
+   "nota": null
+  },
+  {
+   "zona": "V2",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "a) Para edificaciones aisladas: 12 metros",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona V2",
+   "nota": null
+  },
+  {
+   "zona": "V5",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "12 m. medidos verticalmente desde el suelo natural, la altura máxima para el pareo será de 7 metros",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona V5",
+   "nota": null
+  },
+  {
+   "zona": "E1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "a) Edificación continua 10.50m con un máximo de tres pisos.",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona E1",
+   "nota": null
+  },
+  {
+   "zona": "E3",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "b) Continuo: hasta 7 metros.",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona E3",
+   "nota": null
+  },
+  {
+   "zona": "E3a",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "2.6. Altura máxima: 12 m., medidos verticalmente desde el nivel de suelo natural. Con un máximo de 4 pisos.",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona E3a",
+   "nota": null
+  },
+  {
+   "zona": "E3b",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "a) Edificación continua altura obligatoria 7 metros con un máximo de 2 pisos",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona E3b",
+   "nota": null
+  },
+  {
+   "zona": "E4",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "2.6. Altura máxima: 9 m.",
+   "pagina": 0,
+   "seccion": "Art. 17, Zona E4",
+   "nota": null
+  },
+  {
+   "zona": "V8",
+   "altura_m": 20.0,
+   "pisos": null,
+   "texto": "2.5.- Altura máxima: 20,0 metros (6 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona V8",
+   "nota": null
+  },
+  {
+   "zona": "V9",
+   "altura_m": 32.0,
+   "pisos": null,
+   "texto": "2.5.- Altura máxima: 32,0 metros (10 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona V9",
+   "nota": null
+  },
+  {
+   "zona": "E6-c",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "c) Edificación Continua: 7 metros",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona E6-c",
+   "nota": null
+  },
+  {
+   "zona": "E6-c1",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "c) Edificación Continua: 7 metros",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona E6-c1",
+   "nota": null
+  },
+  {
+   "zona": "E7-c",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "c) Edificación Continua: 7 metros",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona E7-c",
+   "nota": null
+  },
+  {
+   "zona": "E7-c1",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "c) Edificación Continua: 7 metros",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona E7-c1",
+   "nota": null
+  },
+  {
+   "zona": "E8-1",
+   "altura_m": 16.0,
+   "pisos": null,
+   "texto": "2.6.- Altura máxima: 16,0 metros (5 pisos)",
+   "pagina": 0,
+   "seccion": "Art. 17 (agregado por el numeral 9° de la Modificación Sector Población Vergara), Zona E8-1",
+   "nota": null
+  },
+  {
+   "zona": "V3-a",
+   "altura_m": 9.6,
+   "pisos": null,
+   "texto": "Altura máxima de ediﬁcación 3 pisos – 9,6 metros",
+   "pagina": 8,
+   "seccion": "Art. 17 (agregado por el art. 8° de la Modificación Sector Reñaca Norte Costa), Zona V3-a",
+   "nota": null
+  },
+  {
+   "zona": "V3-b",
+   "altura_m": 25.6,
+   "pisos": null,
+   "texto": "Altura máxima de ediﬁcación 8 pisos - 25,6 metros",
+   "pagina": 10,
+   "seccion": "Art. 17 (agregado por el art. 8° de la Modificación Sector Reñaca Norte Costa), Zona V3-b",
+   "nota": null
+  },
+  {
+   "zona": "ZPD",
+   "altura_m": 7.0,
+   "pisos": null,
+   "texto": "Altura máxima de ediﬁcación 2 pisos - 7 metros",
+   "pagina": 12,
+   "seccion": "Art. 17 (agregado por el art. 8° de la Modificación Sector Reñaca Norte Costa), Zona ZPD",
+   "nota": null
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Padre Hurtado (Res. N° 92 del GORE Metropolitano de 13-09-2004, D.O. 04-02-2005), texto publicado por la Municipalidad",
+ "url": "https://portal.mph.cl/wp-content/uploads/2026/04/ORDENANZA-LOCAL.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "A",
+   "altura_m": 21.0,
+   "pisos": null,
+   "texto": "500 M2 0,7 2,8 21 M 600 Hab/Há CONTINUO (**) AISLADO SOBRE EDIFICACION CONTINUA",
+   "pagina": 8,
+   "seccion": "Art. 4.3.2, Zona A: Centro Comunal",
+   "nota": null
+  },
+  {
+   "zona": "B1",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "1.000 M2 0,7 2,1 15 M. 450 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "pagina": 9,
+   "seccion": "Art. 4.3.2, Zona B1: Corredor Regional",
+   "nota": null
+  },
+  {
+   "zona": "B2",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "500 M2 0,7 2,1 15 M. 450 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "pagina": 9,
+   "seccion": "Art. 4.3.2, Zona B2: Corredor Intercomunal",
+   "nota": null
+  },
+  {
+   "zona": "B3",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "300 M2 0,6 1,8 15 M. 350 Hab/Há CONTINUO (*) PAREADO AISLADO",
+   "pagina": 9,
+   "seccion": "Art. 4.3.2, Zona B3: Corredor Local",
+   "nota": null
+  },
+  {
+   "zona": "C1",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "C1 160 M2 0,7 1,4 15 M. 450 Hab/Há",
+   "pagina": 10,
+   "seccion": "Art. 4.3.2, Zona C1: Habitacional",
+   "nota": null
+  },
+  {
+   "zona": "C2",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "C2 160 M2 0,6 1,2 12 M. 350 Hab/Há",
+   "pagina": 10,
+   "seccion": "Art. 4.3.2, Zona C2: Habitacional",
+   "nota": null
+  },
+  {
+   "zona": "C3",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "C3 300 M2 0,5 1,0 9 M. 150 Hab/Há",
+   "pagina": 10,
+   "seccion": "Art. 4.3.2, Zona C3: Habitacional",
+   "nota": null
+  },
+  {
+   "zona": "D",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "500 M2 0,8 2,4 9 M. 5 ----- AISLADO",
+   "pagina": 11,
+   "seccion": "Art. 4.3.2, Zona D: Mixta",
+   "nota": null
+  },
+  {
+   "zona": "E1",
+   "altura_m": 24.0,
+   "pisos": null,
+   "texto": "2.000 M2 0,7 2,8 24 M. --------------- PAREADO AISLADO",
+   "pagina": 11,
+   "seccion": "Art. 4.3.2, Zona E1: Centro Cívico",
+   "nota": null
+  },
+  {
+   "zona": "E3",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "pagina": 12,
+   "seccion": "Art. 4.3.2, Zona E3: Recreacional Deportivo",
+   "nota": null
+  },
+  {
+   "zona": "E4",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "pagina": 12,
+   "seccion": "Art. 4.3.2, Zona E4: Histórico y/o Cultural",
+   "nota": null
+  },
+  {
+   "zona": "E5",
+   "altura_m": 9.0,
+   "pisos": null,
+   "texto": "1.000 M2 0,3 0,3 9 M. ----------------- PAREADO AISLADO",
+   "pagina": 13,
+   "seccion": "Art. 4.3.2, Zona E5: Áreas Verdes e Infraestructura",
+   "nota": null
+  },
+  {
+   "zona": "F1",
+   "altura_m": 12.0,
+   "pisos": null,
+   "texto": "1.500 M2 0,6 1,8 12 M. 5 AISLADO",
+   "pagina": 13,
+   "seccion": "Art. 4.3.2, Zona F1: Industria",
+   "nota": null
+  },
+  {
+   "zona": "E2",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Debe decir: ZONA E2 1.000 M2 0,7 2,1 15 M. 450 Hab/Há PAREADO AISLADO",
+   "pagina": 0,
+   "seccion": "Art. 4.3.2, Zona E2: Equipamiento Comunitario (Enmienda Zona E2 Villa Centenario, 2016)",
+   "nota": null
+  },
+  {
+   "zona": "E6",
+   "altura_m": 15.0,
+   "pisos": null,
+   "texto": "Zona E-6 Equipamiento Comunal 500 m2 0.7 2.1 15 m. ---- Continuo* Pareado Aislado",
+   "pagina": 0,
+   "seccion": "Art. 4.3.2, Zona E-6: Equipamiento (Primera Modificación, 2010)",
+   "nota": null
+  }
+ ]
+}

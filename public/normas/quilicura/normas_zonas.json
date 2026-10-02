@@ -1,0 +1,123 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Enmienda N° 1 al Plan Regulador Comunal de Quilicura (D.E. N° 4.262/2017, D.O. 05-12-2017, rectificada por el D.E. N° 4.291/2018, D.O. 04-01-2019), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1112038",
+ "sha256": "3475072d82e7874577fe9fb5f6a29a76b334e1b821a7181a875f294633783f39",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "H1",
+   "pagina": 0,
+   "seccion": "Art. 20, Zona H1",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/73684.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/87801.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "H1 VIVIENDA OFICINA EQUIPAMIENTO COMERCIO TALLER ARTESANAL INOFENSIVO 160 8 60% AISLADO PAREADO CONTINUO",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "H1 160 8 60%",
+   "coef_ocupacion_suelo": 0.6,
+   "altura_m_texto": "H1 Art 479 OGCU 15m",
+   "altura_m": 15.0,
+   "altura_incentivo_m": 18.0,
+   "incentivo_texto": "el predio está en el área de aplicación de la Enmienda N° 1 (plano del D.E. N° 4.262/2017, rectificado por el D.E. N° 4.291/2018): «H1 18 metros»",
+   "incentivo_pagina": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "H1 AISLADO PAREADO CONTINUO",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Frente predial mínimo: 8 m."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Rasante a medianeros según el art. 479 de la antigua Ordenanza General de Construcciones."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según la vía (Art. 22); en el área de la Enmienda N° 1 es 0 m en Manuel Antonio Matta (salvo 10 m entre El Parque y la Panamericana), José Francisco Vergara y San Martín."
+    }
+   ]
+  },
+  {
+   "zona": "H2",
+   "pagina": 0,
+   "seccion": "Art. 20, Zona H2",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/73684.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/87801.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "H2 VIVIENDA OFICINA EQUIPAMIENTO COMERCIO TALLER ARTESANAL INOFENSIVO 200 10 40% AISLADO PAREADO CONTINUO",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "H2 200 10 40%",
+   "coef_ocupacion_suelo": 0.4,
+   "altura_m_texto": "H2 Art 479 OGCU 7m",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 8.4,
+   "incentivo_texto": "el predio está en el área de aplicación de la Enmienda N° 1 (plano del D.E. N° 4.262/2017, rectificado por el D.E. N° 4.291/2018): «H2 8,4 metros»",
+   "incentivo_pagina": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "H2 AISLADO PAREADO CONTINUO",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Frente predial mínimo: 10 m."
+    },
+    {
+     "campo": "rasante",
+     "texto": "Rasante a medianeros según el art. 479 de la antigua Ordenanza General de Construcciones."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Antejardín según la vía (Art. 22); en el área de la Enmienda N° 1 es 0 m en Manuel Antonio Matta (salvo 10 m entre El Parque y la Panamericana), José Francisco Vergara y San Martín."
+    }
+   ]
+  },
+  {
+   "zona": "I3",
+   "pagina": 0,
+   "seccion": "Art. 20, Zona I3",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/73684.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/87801.jpg"
+   ],
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Rigen las disposiciones del D.S. N° 255 (V. y U.) de 01-09-1980, que no se transcriben."
+    }
+   ]
+  },
+  {
+   "zona": "I1",
+   "pagina": 0,
+   "seccion": "Art. 20, Zona I1",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Ordenanza de 1985 (D. N° 37, D.O. 08-05-1985) no está en la BCN y la Enmienda N° 1 no trae el cuadro de esta zona: confirme las normas con la DOM."
+    }
+   ]
+  },
+  {
+   "zona": "I2",
+   "pagina": 0,
+   "seccion": "Art. 20, Zona I2",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La Ordenanza de 1985 (D. N° 37, D.O. 08-05-1985) no está en la BCN y la Enmienda N° 1 no trae el cuadro de esta zona: confirme las normas con la DOM."
+    }
+   ]
+  }
+ ]
+}

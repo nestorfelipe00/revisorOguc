@@ -1,0 +1,636 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Puente Alto (aprobada por D.A. N° 423, D.O. 25-04-2003), versión publicada por la Municipalidad (diciembre de 2002)",
+ "url": "https://transparencia.mpuentealto.cl/doctos/778d18_ORDENANZA_14_DICIEMBRE_2002.pdf",
+ "sha256": "5e6c061439f9577dc6ddc374a703f0c43696dc6df8ba7fd1d15ccb852dcc1597",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "AV1",
+   "pagina": 14,
+   "seccion": "Artículo 25, Zona AV1 Cerros Islas (Art. 5.2.3.2 del PRMS)",
+   "coef_ocupacion_suelo_texto": "Porcentaje Máximo Ocupación de Suelo 5%",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 0,05",
+   "coef_constructibilidad": 0.05,
+   "altura_m_texto": "Altura Máxima 7,00 m.",
+   "altura_m": 7,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislada",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Superficie predial mínima: la existente."
+    }
+   ]
+  },
+  {
+   "zona": "E(i)3",
+   "pagina": 15,
+   "seccion": "Artículo 25, Zona E(i)3 Equipamiento Recreacional y Deportivo (Art. 5.2.4 del PRMS)",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima - 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Ocupación de Suelo 20% 25%",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.25,
+   "coef_ocupacion_suelo_condicion": "el destino es otro uso permitido («Ocupación de Suelo 20% 25%»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 1,00 1,25",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.25,
+   "coef_constructibilidad_condicion": "el destino es otro uso permitido («Coeficiente Constructibilidad 1,00 1,25»)",
+   "altura_m_texto": "Altura Máxima 10,50 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el destino es otro uso permitido (Art. 2.6.3 OGUC): «Altura Máxima 10,50 m. Artículo 2.6.3»",
+   "incentivo_pagina": 15,
+   "antejardin_m_texto": "Antejardín Mínimo 15,00 m. 7,00 m.",
+   "antejardin_m": 7,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislada Aislada",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento: la ficha no fija superficie mínima; 500 m² para otros usos."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Equipamiento: antejardín de 15 m."
+    }
+   ]
+  },
+  {
+   "zona": "H1",
+   "pagina": 18,
+   "seccion": "Artículo 28, Zona H1 Residencial y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 150 m2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Ocupación de Suelo 50%",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 0,90",
+   "coef_constructibilidad": 0.9,
+   "altura_m_texto": "Altura Máxima Artículo 2.6.3",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Artículo 8º Ordenanza Local",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislada, Pareada y Continua",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Depende del ancho entre líneas oficiales de la vía que enfrenta (Art. 11): 7 m en calles de más de 30 m; 5 m de 20 a 30 m; 3 m de 11 a 20 m; 2 m en pasajes de 8 a 11 m; 5 m frente a los canales La Luz, Las Perdices, San Carlos, San Francisco y Eyzaguirre."
+    }
+   ]
+  },
+  {
+   "zona": "H2",
+   "pagina": 19,
+   "seccion": "Artículo 28, Zona H2 Residencial y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Ocupación de Suelo 40%",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 0,80",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura Máxima Artículo 2.6.3",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Artículo 8º Ordenanza Local",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislada, Pareado y Continua",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Depende del ancho entre líneas oficiales de la vía que enfrenta (Art. 11): 7 m en calles de más de 30 m; 5 m de 20 a 30 m; 3 m de 11 a 20 m; 2 m en pasajes de 8 a 11 m; 5 m frente a los canales La Luz, Las Perdices, San Carlos, San Francisco y Eyzaguirre."
+    }
+   ]
+  },
+  {
+   "zona": "H3",
+   "pagina": 20,
+   "seccion": "Artículo 28, Zona H3 Residencial y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Ocupación de Suelo 40%",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 0,70",
+   "coef_constructibilidad": 0.7,
+   "altura_m_texto": "Altura Máxima Artículo 2.6.3",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Artículo 8º Ordenanza Local",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislada y Pareada",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Depende del ancho entre líneas oficiales de la vía que enfrenta (Art. 11): 7 m en calles de más de 30 m; 5 m de 20 a 30 m; 3 m de 11 a 20 m; 2 m en pasajes de 8 a 11 m; 5 m frente a los canales La Luz, Las Perdices, San Carlos, San Francisco y Eyzaguirre."
+    }
+   ]
+  },
+  {
+   "zona": "H4",
+   "pagina": 21,
+   "seccion": "Artículo 28, Zona H4 Residencial y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 150 m2",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Ocupación de Suelo 50%",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 1,60",
+   "coef_constructibilidad": 1.6,
+   "altura_m_texto": "Altura Máxima Artículo 2.6.3",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Artículo 8º Ordenanza Local",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislada, Pareada y Continua",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Depende del ancho entre líneas oficiales de la vía que enfrenta (Art. 11): 7 m en calles de más de 30 m; 5 m de 20 a 30 m; 3 m de 11 a 20 m; 2 m en pasajes de 8 a 11 m; 5 m frente a los canales La Luz, Las Perdices, San Carlos, San Francisco y Eyzaguirre."
+    }
+   ]
+  },
+  {
+   "zona": "H5",
+   "pagina": 22,
+   "seccion": "Artículo 28, Zona H5 Residencial y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Ocupación de Suelo 40%",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 0,7",
+   "coef_constructibilidad": 0.7,
+   "altura_m_texto": "Altura Máxima 10,50 m.",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín Artículo 8º Ordenanza Local",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislada y Pareada",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Depende del ancho entre líneas oficiales de la vía que enfrenta (Art. 11): 7 m en calles de más de 30 m; 5 m de 20 a 30 m; 3 m de 11 a 20 m; 2 m en pasajes de 8 a 11 m; 5 m frente a los canales La Luz, Las Perdices, San Carlos, San Francisco y Eyzaguirre."
+    }
+   ]
+  },
+  {
+   "zona": "H6",
+   "pagina": 23,
+   "seccion": "Artículo 29, Zona H6 Residencial, Actividades Industriales Inofensivas y Equipamiento",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 450 m2 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Ocupación de Suelo 40% 60%",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino es otro uso permitido («Ocupación de Suelo 40% 60%»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 1,00 2,70",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.7,
+   "coef_constructibilidad_condicion": "el destino es otro uso permitido (equipamiento o actividad productiva inofensiva) («Coeficiente Constructibilidad 1,00 2,70»)",
+   "altura_m_texto": "máximo de 12,00 m. para agrupación aislada y/o pareada",
+   "altura_m": 12,
+   "antejardin_m_texto": "Antejardín Artículo 8º Ordenanza Local",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislada; Pareada (50% máximo)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad (diciembre de 2002): el texto oficial de la BCN no la reproduce y remite al Diario Oficial de 25-04-2003 (págs. 12 a 14). Confírmela en el CIP."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Uso residencial: superficie predial mínima de 450 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Depende del ancho entre líneas oficiales de la vía que enfrenta (Art. 11): 7 m en calles de más de 30 m; 5 m de 20 a 30 m; 3 m de 11 a 20 m; 2 m en pasajes de 8 a 11 m; 5 m frente a los canales La Luz, Las Perdices, San Carlos, San Francisco y Eyzaguirre."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El pareo no puede superar el 50 % del deslinde."
+    }
+   ]
+  },
+  {
+   "zona": "HET1",
+   "pagina": 24,
+   "seccion": "Artículo 30, Zona HET1 Residencial y Equipamiento de Esparcimiento",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 800 m2 800 m2",
+   "superficie_predial_minima_m2": 800,
+   "coef_ocupacion_suelo_texto": "Ocupación de Suelo 30% 40%",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "el destino es otro uso permitido («Ocupación de Suelo 30% 40%»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 0,4 1,2",
+   "coef_constructibilidad": 0.4,
+   "coef_constructibilidad_max": 1.2,
+   "coef_constructibilidad_condicion": "el destino es otro uso permitido («Coeficiente Constructibilidad 0,4 1,2»)",
+   "altura_m_texto": "Altura Máxima Artículo 2.6.3. O.G.U.C. Artículo 2.6.3. O.G.U.C.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Artículo 8º Ordenanza Local",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad (diciembre de 2002): el texto oficial de la BCN no la reproduce y remite al Diario Oficial de 25-04-2003 (págs. 12 a 14). Confírmela en el CIP."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Depende del ancho entre líneas oficiales de la vía que enfrenta (Art. 11): 7 m en calles de más de 30 m; 5 m de 20 a 30 m; 3 m de 11 a 20 m; 2 m en pasajes de 8 a 11 m; 5 m frente a los canales La Luz, Las Perdices, San Carlos, San Francisco y Eyzaguirre."
+    }
+   ]
+  },
+  {
+   "zona": "HE(m)1",
+   "pagina": 25,
+   "seccion": "Artículo 31, Zona HE(m)1 Subcentro de Equipamiento Intercomunal y/o Metropolitano",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 600 m2 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Placa Comercial/Servicios",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "el destino es otro uso en placa comercial o de servicios (100 %); en los pisos superiores rige 40 % más rasantes («Placa Comercial/Servicios»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 1,5 5,0",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 5.0,
+   "coef_constructibilidad_condicion": "el destino es otro uso (equipamiento) («Coeficiente Constructibilidad 1,5 5,0»)",
+   "altura_m_texto": "Altura Máxima Artículo 2.6.3 O.G.U.C. 12 m. para agrupación continua",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Artículo 8º Ordenanza Local",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislado; Pareado Aislado; Pareado; Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad (diciembre de 2002): el texto oficial de la BCN no la reproduce y remite al Diario Oficial de 25-04-2003 (págs. 12 a 14). Confírmela en el CIP."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 12 m; la aislada y la pareada, según rasantes (Art. 2.6.3 OGUC)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Uso residencial: superficie predial mínima de 600 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El Art. 11 no exige antejardín en la zona HE(m)1."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Uso residencial: aislado o pareado; la edificación continua (otros usos) llega a 12 m."
+    }
+   ]
+  },
+  {
+   "zona": "HE(m)2",
+   "pagina": 27,
+   "seccion": "Artículo 33, Zona HE(m)2 Equipamiento y Densificación Residencial",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 600 m2 300 m2",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Comercial/Servicios",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es otro uso en placa comercial o de servicios (80 %); en los pisos superiores rige 40 % más rasantes («Comercial/Servicios»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 1,20 4,00",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 4.0,
+   "coef_constructibilidad_condicion": "el destino es otro uso permitido («Coeficiente Constructibilidad 1,20 4,00»)",
+   "altura_m_texto": "Para agrupación continua 10,50 m.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Artículo 8º Ordenanza Local",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislado; Pareado Aislado; Pareado; Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10,5 m; la aislada y la pareada, según rasantes (Art. 2.6.3 OGUC)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Uso residencial: superficie predial mínima de 600 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Depende del ancho entre líneas oficiales de la vía que enfrenta (Art. 11): 7 m en calles de más de 30 m; 5 m de 20 a 30 m; 3 m de 11 a 20 m; 2 m en pasajes de 8 a 11 m; 5 m frente a los canales La Luz, Las Perdices, San Carlos, San Francisco y Eyzaguirre."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Uso residencial: aislado o pareado; la edificación continua (otros usos) llega a 10,5 m."
+    }
+   ]
+  },
+  {
+   "zona": "E(i)1",
+   "pagina": 28,
+   "seccion": "Artículo 34, Zona E(i)1 Equipamiento de Comercio",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.000 m2",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Ocupación de Suelo 60%",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 3,00",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "Altura Máxima Artículo 2.6.3",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Mínimo Artículo 8º Ordenanza Local",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislada",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Depende del ancho entre líneas oficiales de la vía que enfrenta (Art. 11): 7 m en calles de más de 30 m; 5 m de 20 a 30 m; 3 m de 11 a 20 m; 2 m en pasajes de 8 a 11 m; 5 m frente a los canales La Luz, Las Perdices, San Carlos, San Francisco y Eyzaguirre."
+    }
+   ]
+  },
+  {
+   "zona": "E(i)2",
+   "pagina": 29,
+   "seccion": "Artículo 34, Zona E(i)2 Equipamiento de Esparcimiento, Culto y Cultura",
+   "coef_ocupacion_suelo_texto": "Ocupación de Suelo 5,00%",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 0,10",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "Altura Máxima 7,00 m.",
+   "altura_m": 7,
+   "antejardin_m_texto": "Antejardín Mínimo Artículo 8º Ordenanza Local",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislada",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Superficie predial mínima: la existente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Depende del ancho entre líneas oficiales de la vía que enfrenta (Art. 11): 7 m en calles de más de 30 m; 5 m de 20 a 30 m; 3 m de 11 a 20 m; 2 m en pasajes de 8 a 11 m; 5 m frente a los canales La Luz, Las Perdices, San Carlos, San Francisco y Eyzaguirre."
+    }
+   ]
+  },
+  {
+   "zona": "E(i)4",
+   "pagina": 30,
+   "seccion": "Artículo 34, Zona E(i)4 Equipamiento Intercomunal de Interés Metropolitano",
+   "superficie_predial_minima_m2_texto": "500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "80 % 40 %",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento («80 % 40 %»)",
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 4,00 1,25",
+   "coef_constructibilidad": 1.25,
+   "coef_constructibilidad_max": 4.0,
+   "coef_constructibilidad_condicion": "el destino es equipamiento («Coeficiente Constructibilidad 4,00 1,25»)",
+   "altura_m_texto": "Altura Máxima Artículo 2.6.3. O.G.U.C. Artículo 2.6.3. O.G.U.C.",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Mínimo Artículo 8º Ordenanza Local",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislada; Pareada Aislada",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad (diciembre de 2002): el texto oficial de la BCN no la reproduce y remite al Diario Oficial de 25-04-2003 (págs. 12 a 14). Confírmela en el CIP."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento: 10.000 m² (Art. 3.1.1.2 del PRMS); 500 m² para otros usos (hasta 30 %)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Depende del ancho entre líneas oficiales de la vía que enfrenta (Art. 11): 7 m en calles de más de 30 m; 5 m de 20 a 30 m; 3 m de 11 a 20 m; 2 m en pasajes de 8 a 11 m; 5 m frente a los canales La Luz, Las Perdices, San Carlos, San Francisco y Eyzaguirre."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Los otros usos solo pueden ser aislados."
+    }
+   ]
+  },
+  {
+   "zona": "E(c)1",
+   "pagina": 31,
+   "seccion": "Artículo 34, Zona E(c)1 Equipamiento de Educación, Culto y Cultura",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.500 m2 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Suelo 40% 40%",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 1,00 0,70",
+   "coef_constructibilidad": 0.7,
+   "coef_constructibilidad_max": 1.0,
+   "coef_constructibilidad_condicion": "el destino es equipamiento («Coeficiente Constructibilidad 1,00 0,70»)",
+   "altura_m_texto": "Altura Máxima 10,5 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el destino es otro uso (hasta 20 %): Art. 2.6.3 OGUC: «Altura Máxima 10,5 m. Artículo 2.6.3»",
+   "incentivo_pagina": 31,
+   "antejardin_m_texto": "Antejardín Mínimo Artículo 8º Ordenanza Local",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislada Aislada y Pareada",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad (diciembre de 2002): el texto oficial de la BCN no la reproduce y remite al Diario Oficial de 25-04-2003 (págs. 12 a 14). Confírmela en el CIP."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento: superficie predial mínima de 2.500 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Depende del ancho entre líneas oficiales de la vía que enfrenta (Art. 11): 7 m en calles de más de 30 m; 5 m de 20 a 30 m; 3 m de 11 a 20 m; 2 m en pasajes de 8 a 11 m; 5 m frente a los canales La Luz, Las Perdices, San Carlos, San Francisco y Eyzaguirre."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El equipamiento solo puede ser aislado."
+    }
+   ]
+  },
+  {
+   "zona": "E(c)2",
+   "pagina": 32,
+   "seccion": "Artículo 34, Zona E(c)2 Equipamiento de Deporte y Cultura",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 800 m2 200 m2",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Suelo 40% 40%",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 0,90 0,80",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 0.9,
+   "coef_constructibilidad_condicion": "el destino es equipamiento («Coeficiente Constructibilidad 0,90 0,80»)",
+   "altura_m_texto": "Altura Máxima 10,50 m.",
+   "altura_m": 10.5,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el destino es residencial: Art. 2.6.3 OGUC: «Altura Máxima 10,50 m. Artículo 2.6.3»",
+   "incentivo_pagina": 32,
+   "antejardin_m_texto": "Antejardín Mínimo Artículo 8º Ordenanza Local",
+   "antejardin_m": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislado Aislado y Pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Ficha tomada de la Ordenanza publicada por la Municipalidad (diciembre de 2002): el texto oficial de la BCN no la reproduce y remite al Diario Oficial de 25-04-2003 (págs. 12 a 14). Confírmela en el CIP."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento: superficie predial mínima de 800 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Depende del ancho entre líneas oficiales de la vía que enfrenta (Art. 11): 7 m en calles de más de 30 m; 5 m de 20 a 30 m; 3 m de 11 a 20 m; 2 m en pasajes de 8 a 11 m; 5 m frente a los canales La Luz, Las Perdices, San Carlos, San Francisco y Eyzaguirre."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El equipamiento solo puede ser aislado."
+    }
+   ]
+  },
+  {
+   "zona": "IM1",
+   "pagina": 34,
+   "seccion": "Artículo 38, Zona IM1 Actividad Productiva Exclusiva",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 1.000 m2",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Ocupación de Suelo 60 %",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 1,20",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura Máxima 12,00 m.",
+   "altura_m": 12,
+   "antejardin_m_texto": "Antejardín Mínimo 10,00 m.",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo de 5 m."
+    },
+    {
+     "campo": "zona",
+     "texto": "Parte de las zonas de actividad productiva se rezonificó a H2 o H6 por planos seccionales (D.A. N° 1.837 de 2009, Seccional 4 Oriente - Costanera; D.A. N° 533 de 2012, Villa El Refugio y Villa Carol Urzúa; D.A. N° 534 de 2012, Loteo Loma Oriente). La capa de la IDE es de 2003: confirme la zona en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "IM2",
+   "pagina": 35,
+   "seccion": "Artículo 38, Zona IM2 Actividad Productiva Exclusiva Existente",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 500 m2 500 m2 (sólo para talleres)",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "70 % 70 %",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 1,00",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el destino es actividad productiva o talleres («2,00 (actividad productiva y talleres)»)",
+   "antejardin_m_texto": "Antejardín Mínimo 5,00 m. 5,00 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo de 5 m a los medianeros."
+    },
+    {
+     "campo": "altura",
+     "texto": "La ficha no fija altura máxima."
+    },
+    {
+     "campo": "zona",
+     "texto": "Parte de las zonas de actividad productiva se rezonificó a H2 o H6 por planos seccionales (D.A. N° 1.837 de 2009, Seccional 4 Oriente - Costanera; D.A. N° 533 de 2012, Villa El Refugio y Villa Carol Urzúa; D.A. N° 534 de 2012, Loteo Loma Oriente). La capa de la IDE es de 2003: confirme la zona en el CIP."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Actividad productiva e infraestructura: 1.500 m² (500 m² solo para talleres)."
+    }
+   ]
+  },
+  {
+   "zona": "II",
+   "pagina": 36,
+   "seccion": "Artículo 38, Zona II Actividad Productiva Inofensiva",
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 500 m2",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Ocupación de Suelo 30 %",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente Constructibilidad 1,00",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura Máxima 12,00 m.",
+   "altura_m": 12,
+   "antejardin_m_texto": "Antejardín Mínimo 5,00 m.",
+   "antejardin_m": 5,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Tipo de Agrupación Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo de 5 m a los medianeros."
+    }
+   ]
+  }
+ ]
+}

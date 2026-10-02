@@ -1,0 +1,129 @@
+{
+  "documento": "Ordenanza General de Urbanismo y Construcciones (D.S. 47, V. y U., 1992)",
+  "url": "https://www.bcn.cl/leychile/navegar?idNorma=8201",
+  "version": "texto vigente desde 2026-06-22 (versión BCN 2024-09-30)",
+  "descargado": "2026-09-27",
+  "metodo": "Texto oficial de la BCN (servicio Ley Chile); cada cifra se valida contra el texto literal.",
+  "rasantes": {
+    "articulo": "Art. 2.6.3",
+    "aplicacion": "Las rasantes se levantarán en todos los puntos que forman los deslindes con otros predios y en el punto medio entre líneas oficiales del espacio público que enfrenta el predio",
+    "area_verde": "salvo que el predio colinde con un área verde pública, en cuyo caso las rasantes se aplicarán en el deslinde entre ambos",
+    "sin_rasante_frente": "En los casos que el ancho entre líneas oficiales sea superior a 100 m o no exista línea oficial en el lado opuesto, no se aplicarán rasantes en tal frente",
+    "nivel": "El nivel de aplicación general de las rasantes corresponde al nivel de suelo natural",
+    "ambito": "regirán para las edificaciones aisladas, las partes aisladas de edificaciones pareadas",
+    "ancho_maximo_frente_m": 100,
+    "angulos": [
+      {
+        "angulo_grados": 80,
+        "regiones": [
+          "Arica y Parinacota",
+          "Tarapacá",
+          "Antofagasta",
+          "Atacama"
+        ]
+      },
+      {
+        "angulo_grados": 70,
+        "regiones": [
+          "Coquimbo",
+          "Valparaíso",
+          "Metropolitana de Santiago",
+          "Libertador General Bernardo O'Higgins",
+          "Maule",
+          "Ñuble",
+          "Biobío",
+          "La Araucanía"
+        ]
+      },
+      {
+        "angulo_grados": 60,
+        "regiones": [
+          "Los Ríos",
+          "Los Lagos",
+          "Aysén del General Carlos Ibáñez del Campo",
+          "Magallanes y de la Antártica Chilena"
+        ]
+      }
+    ],
+    "tabla_imagen": {
+      "url": "https://www.bcn.cl/leychile/Navegar/imagen/JPG/164926.jpg",
+      "sha256": "9c0aeddfa56730cdd6d6e799cae135a3410febe6aba5d199c42399ccf5d248a8",
+      "nota": "Tabla del inciso sexto del art. 2.6.3 (reemplazada por D.S. 57, V. y U., D.O. 06.04.2023), publicada como imagen; transcrita por lectura de la imagen oficial."
+    }
+  },
+  "distanciamientos": {
+    "articulo": "Art. 2.6.3",
+    "texto": "Hasta 3,5 m 3,0 m 1,4 m Sobre 3,5 m y hasta 7,0 m 3,0 m 2,5 m Sobre 7,0 m 4,0 m 4,0 m",
+    "tramos": "En las fachadas en que existan tramos con vanos y otros sin vanos los distanciamientos se aplicarán a cada tramo por separado",
+    "tabla": [
+      {
+        "hasta_m": 3.5,
+        "con_vano_m": 3.0,
+        "sin_vano_m": 1.4
+      },
+      {
+        "hasta_m": 7.0,
+        "con_vano_m": 3.0,
+        "sin_vano_m": 2.5
+      },
+      {
+        "hasta_m": null,
+        "con_vano_m": 4.0,
+        "sin_vano_m": 4.0
+      }
+    ]
+  },
+  "adosamiento": {
+    "articulo": "Art. 2.6.2",
+    "largo": "La longitud del adosamiento no podrá exceder del 40% de la longitud total del deslinde común con el vecino",
+    "antejardin": "El adosamiento no podrá en ningún caso ocupar el antejardín",
+    "altura": "La altura del adosamiento en el deslinde no sobrepasará los 3,5 m",
+    "angulo": "El adosamiento deberá inscribirse dentro de un ángulo no superior a 45 grados sexagesimales, aplicado en el deslinde común, desde la altura máxima de adosamiento permitida",
+    "muro": "deberá construirse en el deslinde un muro de adosamiento con una altura mínima de 2,0 m y con una resistencia mínima al fuego de F-60",
+    "exencion": "Los distanciamientos mínimos y rasantes que contempla el artículo 2.6.3. y las normas sobre las mismas materias contenidas en ordenanzas locales, no serán aplicables a las partes de una construcción que se acojan a las disposiciones de este artículo",
+    "muro_cubierta": "Tratándose de edificaciones adosadas al deslinde el muro de adosamiento deberá llegar hasta la cubierta del cuerpo adosado",
+    "aguas_lluvia": "el adosamiento deberá contemplar un sistema de evacuación de aguas lluvia que no afecte a los predios vecinos",
+    "largo_maximo_pct": 40,
+    "altura_deslinde_m": 3.5,
+    "angulo_grados": 45,
+    "muro_minimo_m": 2.0,
+    "resistencia_fuego": "F-60"
+  },
+  "agrupamiento": {
+    "articulo": "Art. 2.6.1",
+    "tipos": "se distinguen tres tipos de agrupamiento de las edificaciones: aislada, pareada y continua",
+    "pareo_simultaneo": "La edificación pareada se aceptará cuando las dos edificaciones que conforman el pareo se ejecutan en forma simultánea",
+    "continuidad": "se admitirán excepciones a la continuidad del plano de fachada hasta en un tercio del frente del predio",
+    "libre": "En los casos que el Plan Regulador Comunal o Seccional no consulte disposiciones sobre los sistemas de agrupamiento de las construcciones, éstas serán de libre determinación",
+    "excepcion_continuidad_fraccion": 0.3333333333333333
+  },
+  "zonas_multiples": {
+    "articulo": "Art. 2.1.21",
+    "cada_zona": "En los casos que un predio quede afecto a dos o más zonas o subzonas, de uno o más Instrumentos de Planificación Territorial, las disposiciones establecidas en éstos deberán cumplirse en cada una de dichas zonas",
+    "promedio": "con excepción de las normas sobre densidad, coeficiente de constructibilidad, de ocupación de suelo y de ocupación de los pisos superiores, las cuales, luego de calculadas para cada zona por separado, podrán promediarse para el predio en su conjunto",
+    "alturas": "respetando en todo caso las alturas máximas permitidas para cada zona",
+    "sin_limite": "En caso que en una de las zonas o subzonas las normas señaladas en este inciso no tuvieren limitación, no podrán promediarse para el resto del predio"
+  },
+  "habitabilidad": {
+    "articulo": "Art. 4.1.1",
+    "altura_piso_cielo": "altura mínima de piso a cielo, medida en obra terminada, de 2,30 m",
+    "altura_piso_cielo_m": 2.3
+  },
+  "altura_elementos_azotea": "podrán sobrepasar la altura de edificación máxima permitida, siempre que dichos elementos se encuentren contemplados en el proyecto aprobado, cumplan con las rasantes correspondientes y no ocupen más del 25% de la superficie de la azotea",
+  "definiciones": {
+    "Altura de edificación": "la distancia vertical, expresada en metros, entre el suelo natural y un plano paralelo superior al mismo.",
+    "Antejardín": "área entre la línea oficial y la línea de edificación, regulada en el instrumento de planificación territorial.",
+    "Coeficiente de constructibilidad": "número que multiplicado por la superficie total del predio, descontadas de esta última las áreas declaradas de utilidad pública, fija el máximo de metros cuadrados posibles de construir sobre el terreno.",
+    "Coeficiente de ocupación del suelo": "número que multiplicado por la superficie total del predio, descontadas de esta última las áreas declaradas de utilidad pública, fija el máximo de metros cuadrados posibles de construir en el nivel de primer piso.",
+    "Distanciamiento": "distancia mínima horizontal entre el deslinde del predio y el punto máscercano de la edificación, sin contar los elementos de techumbre en volado, aleros, vigas, jardineras o marquesinas.",
+    "Edificación aislada": "la separada de los deslindes, emplazada por lo menos a las distancias resultantes de la aplicación de las normas sobre rasantes y distanciamientos que se determinen en el instrumento de planificación territorial o, en su defecto, las que establece la presente Ordenanza.",
+    "Edificación continua": "la emplazada a partir de los deslindes laterales opuestos o concurrente de un mismo predio y ocupando todo el frente de éste, manteniendo un mismo plano de fachada con la edificación colindante y con la altura que establece el instrumento de planificación territorial.",
+    "Edificación pareada": "la que corresponde a dos edificaciones emplazadas a partir de un deslinde común, manteniendo una misma línea de fachada, altura y longitud de pareo. Las fachadas no pareadas deberán cumplir con las normas previstas para la edificación aislada.",
+    "Línea de edificación": "la señalada en el instrumento de planificación territorial, a partir de la cual se podrá levantar la edificación en un predio.",
+    "Línea oficial": "la indicadaen el plano del instrumento de planificación territorial, como deslinde entre propiedades particulares y bienes de uso público o entre bienes de uso público.",
+    "Rasante": "recta imaginaria que, mediante un determinado ángulo de inclinación, define la envolvente teórica dentro de la cual puede desarrollarse un proyecto de edificación.",
+    "Suelo natural": "estado natural del terreno anterior a cualquier modificación artificial practicada en él.",
+    "Superficie edificada": "superficie de una construcción calculada horizontalmente por pisos, sin incluir los vacíos, los ductos verticales y las escaleras de evacuación, medida hasta la cara exterior de los muros perimetrales.\".",
+    "Volumen teórico": "volumen o envolvente máxima, expresado en metros cúbicos, resultante de la aplicación de las disposiciones sobre superficies de rasante, distanciamientos, antejardines y alturas máximas, cuando las hubiere, en un terreno determinado."
+  }
+}

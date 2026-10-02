@@ -1,0 +1,64 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Plan Seccional Alto Hospicio - Alto Molle (Res. N° 40 del Gobierno Regional de Tarapacá, D.O. 31-01-2002), con los cuadros de normas de las zonas Z2, Z3, Z4, Z7, Z7-1, Z8 y Z10 según la Enmienda D.A. N° 710 de la Municipalidad de Alto Hospicio (D.O. 13-04-2013), texto oficial de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1050101",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "Z2",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima (mts) 10.5 o 3 pisos",
+   "pagina": 0,
+   "seccion": "Art. 59° de la Ordenanza Local, según el Art. 2° de la Enmienda D.A. N° 710/2013, Zona Z2 Zona Residencial Mixta",
+   "nota": null
+  },
+  {
+   "zona": "Z3",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima (mts) 10.5 o 3 pisos",
+   "pagina": 0,
+   "seccion": "Art. 60° de la Ordenanza Local, según el Art. 4° de la Enmienda D.A. N° 710/2013, Zona Z3 Zona Residencial en Densidad Alta",
+   "nota": null
+  },
+  {
+   "zona": "Z4",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima (mts) 10.5 o 3 pisos",
+   "pagina": 0,
+   "seccion": "Art. 61° de la Ordenanza Local, según el Art. 6° de la Enmienda D.A. N° 710/2013, Zona Z4 Zona Residencial en Densidad Media",
+   "nota": null
+  },
+  {
+   "zona": "Z7-1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima (mts) 10.5 o 3 pisos",
+   "pagina": 0,
+   "seccion": "Art. 65° de la Ordenanza Local, según el Art. 8° de la Enmienda D.A. N° 710/2013, Zona Z7-1 Zona Industrial Mixta El Boro",
+   "nota": null
+  },
+  {
+   "zona": "Z8",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "Altura Máxima (mts) 10.5 o 3 pisos",
+   "pagina": 0,
+   "seccion": "Art. 66° de la Ordenanza Local, según el Art. 9° de la Enmienda D.A. N° 710/2013, Zona Z8 Zona Industrial Mixta Alto Molle",
+   "nota": null
+  },
+  {
+   "zona": "Z5",
+   "altura_m": 6,
+   "pisos": null,
+   "texto": "ALTURA MAXIMA DE EDIFICACIÓN Libre para equipamiento y hospedaje y 6 metros para vivienda unifamiliar",
+   "pagina": 0,
+   "seccion": "Art. 62° de la Ordenanza Local, según la Enmienda D.A. N° 119/2014, Zona Z5 Zona Deportiva - Industrial",
+   "nota": null
+  }
+ ]
+}

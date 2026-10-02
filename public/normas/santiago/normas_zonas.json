@@ -1,0 +1,216 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Texto Refundido Ordenanza Local, Plan Regulador Comunal de Santiago (junio 2026)",
+ "url": "https://documentos.munistgo.cl/wp-content/uploads/2026/06/Texto-refundido-PRCS-JUNIO-2026.pdf",
+ "sha256": "212e1aa8753037933e1323660e90c7d9f7fa90d8ec00690be1cba5e1e320f373",
+ "extraido": "2026-09-30",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "cuerpos_salientes": {
+  "articulo": "Artículo 17",
+  "texto": "El plano de los cuerpos salientes deberá situarse a una altura mínima de 3m, sobre el nivel más alto de la solera respecto al frente del predio",
+  "saliente_max_m": 1.2,
+  "altura_min_m": 3.0,
+  "pagina": 18
+ },
+ "antejardin_edificable": {
+  "articulo": "Artículo 14",
+  "texto": "éstos deberán constituirse como jardín, con excepción del ingreso peatonal al edificio y el ingreso de autos al estacionamiento",
+  "pagina": 17
+ },
+ "zonas": [
+  {
+   "zona": "A",
+   "pagina": 66,
+   "seccion": "Artículo 30, Zona A",
+   "superficie_predial_minima_m2_texto": "b) Superficie subdivisión predial mínima: 150 m2.",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "0.7 para vivienda y/o establecimientos de educación superior",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "el destino es distinto de vivienda y educación superior (y en los pisos sobre 9 m, 0,7) («1.0 para otros usos, hasta una altura máxima de 9m y 0.7 para pisos superiores, sobre los 9m de altura.»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad para uso vivienda: 8,1, a excepción de los proyectos en que se contemple fusión predial en que será de 6,23.",
+   "coef_constructibilidad": 6.23,
+   "coef_constructibilidad_max": 12.65,
+   "coef_constructibilidad_condicion": "el destino (vivienda 8,1; otros usos 11), la fusión predial y el conjunto armónico (+15 %) lo permiten; 6,23 es la cifra más estricta y 12,65 = 11 × 1,15 la más permisiva («Coeficiente máximo de constructibilidad para otros usos distintos a vivienda: 11, a excepción de los proyectos en que se contemple fusión predial en que será de 8,4. … El incremento de altura para los proyectos acogidos a conjunto armónico será de un 12.5% y el de constructibilidad será de un 15%»)",
+   "altura_m_texto": "La altura máxima de la edificación será 41.5m.",
+   "altura_m": 41.5,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "lo que supera los 41,5 m es construcción aislada sobre la continua, dentro de las rasantes aplicadas desde esa altura y a 5 m de la línea oficial: «Sobre la edificación continua se permitirá la construcción aislada, cuya altura máxima será la resultante de aplicar las rasantes a que se refiere el Artículo 2.6.3 de la Ordenanza General de Urbanismo y Construcciones, a partir de los 41.5m de altura.»",
+   "incentivo_pagina": 68,
+   "antejardin_m": null,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "e) Sistema de Agrupamiento: Continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La capa de la IDE MINVU de Santiago solo trae las zonas genéricas (A, B, D, E, F, G y H): no incluye las Zonas de Conservación Histórica, los Sectores Especiales ni las subzonas del plano PRS-02H, que tienen normas propias (art. 30 de la Ordenanza). Verifique en el CIP que el predio no esté en ellas."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La Ordenanza no fija antejardín por zona: se exige donde ya existe en el mismo costado de la cuadra en más del 50 % de ella (Art. 14). Verifíquelo en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "B",
+   "pagina": 77,
+   "seccion": "Artículo 30, Zona B",
+   "superficie_predial_minima_m2_texto": "b) Superficie subdivisión predial mínima: 150 m2.",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "0.7 para uso vivienda y/o establecimientos de educación superior.",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "el destino es distinto de vivienda y educación superior («1.0 para otros usos.»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad para uso vivienda: 3,6.",
+   "coef_constructibilidad": 3.6,
+   "coef_constructibilidad_max": 5.5,
+   "coef_constructibilidad_condicion": "el destino es distinto de vivienda (sin contar el incentivo de la letra g en los sectores que indica) («Coeficiente máximo de constructibilidad para otros usos distintos a vivienda: 5,5.»)",
+   "altura_m_texto": "Para todos los sistemas de agrupamiento la altura máxima de edificación será de 22,5m.",
+   "altura_m": 22.5,
+   "altura_incentivo_m": 32.5,
+   "incentivo_texto": "el proyecto de obra nueva se acoge al incentivo de la letra g) en los sectores que indica (hasta 10 m adicionales): «Metros adicionales sobre la altura máxima de la zona o sector … 1,4 10 m»",
+   "incentivo_pagina": 79,
+   "antejardin_m": null,
+   "agrupamiento": [
+    "continuo",
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "e) Sistema de Agrupamiento: Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La capa de la IDE MINVU de Santiago solo trae las zonas genéricas (A, B, D, E, F, G y H): no incluye las Zonas de Conservación Histórica, los Sectores Especiales ni las subzonas del plano PRS-02H, que tienen normas propias (art. 30 de la Ordenanza). Verifique en el CIP que el predio no esté en ellas."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La Ordenanza no fija antejardín por zona: se exige donde ya existe en el mismo costado de la cuadra en más del 50 % de ella (Art. 14). Verifíquelo en el CIP."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Aislado y pareado se admiten solo en el sector al oriente de la Av. Presidente Jorge Alessandri R.; en el resto de la zona, continuo."
+    }
+   ]
+  },
+  {
+   "zona": "D",
+   "pagina": 102,
+   "seccion": "Artículo 30, Zona D",
+   "superficie_predial_minima_m2_texto": "b) Superficie subdivisión predial mínima: 150 m2.",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "Vivienda y/o establecimiento de educación superior: 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "el destino es distinto de vivienda y educación superior («Otros usos: 1.0»)",
+   "altura_m_texto": "La altura máxima para los tres tipos de sistema de agrupamiento será 12.5m",
+   "altura_m": 12.5,
+   "altura_incentivo_m": 15,
+   "incentivo_texto": "el predio está al poniente de Av. Jorge Alessandri Rodríguez: «a excepción del sector ubicado al poniente de Av. Jorge Alessandri Rodríguez donde la altura máxima será 15m.»",
+   "incentivo_pagina": 104,
+   "antejardin_m": null,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "d) Sistema de agrupamiento: Aislado, Pareado o Continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La capa de la IDE MINVU de Santiago solo trae las zonas genéricas (A, B, D, E, F, G y H): no incluye las Zonas de Conservación Histórica, los Sectores Especiales ni las subzonas del plano PRS-02H, que tienen normas propias (art. 30 de la Ordenanza). Verifique en el CIP que el predio no esté en ellas."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Para los sistemas aislado y pareado la Ordenanza exige 5 m a los deslindes, más que la tabla del art. 2.6.3 de la OGUC que usa el motor."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La Ordenanza no fija antejardín por zona: se exige donde ya existe en el mismo costado de la cuadra en más del 50 % de ella (Art. 14). Verifíquelo en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "E",
+   "pagina": 122,
+   "seccion": "Artículo 30, Zona E",
+   "superficie_predial_minima_m2_texto": "1 Superficie subdivisión predial mínima (m2) 150",
+   "superficie_predial_minima_m2": 150,
+   "coef_ocupacion_suelo_texto": "2 Coeficiente de ocupación del suelo Vivienda y/o educación superior 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "el destino es distinto de vivienda y educación superior (pisos superiores sobre 7 m: 0,7) («Otros usos 1,0»)",
+   "coef_constructibilidad_texto": "4 Coeficiente máximo de constructibilidad Vivienda 2,0",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 3.1,
+   "coef_constructibilidad_condicion": "el destino es distinto de vivienda («Otros usos 3,1»)",
+   "altura_m_texto": "Altura máxima (m) Para todos los sistemas de agrupamiento no se permitirá exceder la altura máxima de edificación 14",
+   "altura_m": 14,
+   "antejardin_m": null,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "6 Sistema de agrupamiento Aislado Pareado Continuo",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La capa de la IDE MINVU de Santiago solo trae las zonas genéricas (A, B, D, E, F, G y H): no incluye las Zonas de Conservación Histórica, los Sectores Especiales ni las subzonas del plano PRS-02H, que tienen normas propias (art. 30 de la Ordenanza). Verifique en el CIP que el predio no esté en ellas."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La Ordenanza no fija antejardín por zona: se exige donde ya existe en el mismo costado de la cuadra en más del 50 % de ella (Art. 14). Verifíquelo en el CIP."
+    }
+   ]
+  },
+  {
+   "zona": "F",
+   "pagina": 148,
+   "seccion": "Artículo 30, Zona F",
+   "superficie_predial_minima_m2_texto": "b) Superficie subdivisión predial mínima: No se permitirá subdivisión predial.",
+   "superficie_predial_minima_m2": null,
+   "coef_ocupacion_suelo_texto": "c) Coeficiente máximo de ocupación del suelo: 0.01",
+   "coef_ocupacion_suelo": 0.01,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La capa de la IDE MINVU de Santiago solo trae las zonas genéricas (A, B, D, E, F, G y H): no incluye las Zonas de Conservación Histórica, los Sectores Especiales ni las subzonas del plano PRS-02H, que tienen normas propias (art. 30 de la Ordenanza). Verifique en el CIP que el predio no esté en ellas."
+    }
+   ]
+  },
+  {
+   "zona": "G",
+   "pagina": 149,
+   "seccion": "Artículo 30, Zona G",
+   "superficie_predial_minima_m2_texto": "b) Superficie subdivisión predial mínima: No se permitirá subdivisión predial",
+   "superficie_predial_minima_m2": null,
+   "coef_ocupacion_suelo_texto": "c) Coeficiente máximo de ocupación del suelo: 0.05",
+   "coef_ocupacion_suelo": 0.05,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La capa de la IDE MINVU de Santiago solo trae las zonas genéricas (A, B, D, E, F, G y H): no incluye las Zonas de Conservación Histórica, los Sectores Especiales ni las subzonas del plano PRS-02H, que tienen normas propias (art. 30 de la Ordenanza). Verifique en el CIP que el predio no esté en ellas."
+    }
+   ]
+  },
+  {
+   "zona": "H",
+   "pagina": 150,
+   "seccion": "Artículo 30, Zona H Club Hípico",
+   "superficie_predial_minima_m2_texto": "b) Superficie subdivisión predial mínima: 34 há.",
+   "superficie_predial_minima_m2": 340000,
+   "coef_ocupacion_suelo_texto": "c) Coeficiente máximo de ocupación de suelo: 0.2",
+   "coef_ocupacion_suelo": 0.2,
+   "altura_m_texto": "La altura máxima de edificación será 10m.",
+   "altura_m": 10,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La capa de la IDE MINVU de Santiago solo trae las zonas genéricas (A, B, D, E, F, G y H): no incluye las Zonas de Conservación Histórica, los Sectores Especiales ni las subzonas del plano PRS-02H, que tienen normas propias (art. 30 de la Ordenanza). Verifique en el CIP que el predio no esté en ellas."
+    }
+   ]
+  }
+ ]
+}

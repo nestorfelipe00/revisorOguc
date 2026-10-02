@@ -1,0 +1,445 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Plan Regulador Comunal de Conchalí (D.E. N° 292 de 12-02-2013, D.O. 04-05-2013), texto de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1050767",
+ "sha256": "727dbbf9abedb459048b38185da69aea0d4d3d1eb6f21ae9298c07aa909b8ad7",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZM-1",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZM-1",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32639.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32640.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial Mínima (m²) 500 (para todo tipo de proyectos)",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Vivienda: 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (vivienda: 0,6) («Equipamiento: 0,8»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad 3,0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "53m (hasta 15 pisos)",
+   "altura_m": 53.0,
+   "pisos": 15,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Continuo [2], Aislado y Pareado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Pisos superiores: 0,6; en el área entre Av. Independencia, Dorsal y calle La Palma, 0,5 en primer piso para todos los usos."
+    },
+    {
+     "campo": "superficie",
+     "texto": "1.000 m² en el sector entre Av. Independencia, Dorsal y calle La Palma."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Entre Av. Independencia, Dorsal y La Palma la continua puede llegar a 3 pisos (11 m) con el incentivo de cesión de espacio al paso peatonal."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-2",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZM-2",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32642.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32643.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m²) 400",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "1 y 0,6 vivienda: 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento en el primer nivel (vivienda: 0,6) («Equipamiento: 1 en el primer nivel»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3,0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "42m. (hasta 12 pisos)",
+   "altura_m": 42.0,
+   "pisos": 12,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento [3] Continuo Aislado y Pareado",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Pisos superiores: 0,6; 0,5 en primer piso en el área entre Av. Independencia, Dorsal y La Palma."
+    },
+    {
+     "campo": "altura",
+     "texto": "Cuerpo continuo de hasta 7 m y 60% del deslinde común para vivienda; aislado desde 3,5 m de altura."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-3",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZM-3",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32645.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32646.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m²) 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación de Suelo 1º y 2º piso 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2,8",
+   "coef_constructibilidad": 2.8,
+   "altura_m_texto": "28m. (hasta 8 pisos)",
+   "altura_m": 28.0,
+   "antejardin_m_texto": "Antejardín Mínimo [6] 3 m",
+   "antejardin_m": 3.0,
+   "pisos": 8,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento [5] Aislado, pareado o Continuo",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Pisos superiores: 0,4."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La edificación continua se admite solo si ya existe en el predio, en una construcción contigua o en el 50% o más de la cuadra; preferentemente aislada con antejardín."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-4",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZM-4",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32648.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32649.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m²) 160",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Vivienda: 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento o taller (primer piso; vivienda: 0,6) («Equipamiento y talleres: 1»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3,0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "42m. (hasta 12 pisos).",
+   "altura_m": 42.0,
+   "antejardin_m_texto": "Antejardín Mínimo [8] 3 m.",
+   "antejardin_m": 3.0,
+   "pisos": 12,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento [7] Aislado, pareado o Continuo",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Pisos superiores: 0,4."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La edificación continua se admite solo si ya existe en el predio, en una construcción contigua o en el 50% o más de la cuadra; preferentemente aislada con antejardín de 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-5",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZM-5",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32651.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32652.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m²) 160",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Vivienda: 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento o taller (primer piso; vivienda: 0,6) («Equipamiento y talleres: 1»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "22 m. (hasta 6 pisos)",
+   "altura_m": 22.0,
+   "antejardin_m_texto": "Antejardín Mínimo 3 m.",
+   "antejardin_m": 3.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento [9] Aislado o Continuo",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Pisos superiores: 0,4."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Con edificación continua, la aislada se permite desde los 3,5 m de altura."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-6",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZM-6",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32654.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32655.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m²) 250",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación Máxima del Suelo en 1º y 2º piso 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "28m. (hasta 8 pisos) y 22m. (hasta 6 pisos)",
+   "altura_m": 22.0,
+   "altura_incentivo_m": 28.0,
+   "incentivo_texto": "el predio no enfrenta las calles patrimoniales Monterrey, Viena, Carlos Spano, Negrete y Los Minerales (8 pisos): «28m. (hasta 8 pisos) y 22m. (hasta 6 pisos)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín Mínimo 3m",
+   "antejardin_m": 3.0,
+   "pisos": 6,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento [10] Aislado, Pareado o Continuo",
+   "advertencias": [
+    {
+     "campo": "ocupacion",
+     "texto": "Pisos superiores: 0,4."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La edificación continua de un nivel (3,5 m) aplica a los predios que enfrentan las calles patrimoniales."
+    },
+    {
+     "campo": "altura",
+     "texto": "Altura de la edificación aislada: 28 m (8 pisos) en la zona y 22 m (6 pisos) frente a las calles patrimoniales."
+    }
+   ]
+  },
+  {
+   "zona": "ZM-7",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZM-7",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32657.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32658.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m²) 1000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación Máxima del Suelo en 1º y 2º piso. 0.4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3,0",
+   "coef_constructibilidad": 3.0,
+   "altura_m_texto": "Altura Máxima de Edificación (m) Según OGUC",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín Mínimo [12] 10m y 3m",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "10 m frente a Av. Américo Vespucio y 3 m frente a otras calles."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento mínimo a medianeros: 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZR-1",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZR-1",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32660.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32661.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m²) 250",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación Máxima del Suelo en 1º y 2º piso 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "18m. (hasta 5 pisos)",
+   "altura_m": 18.0,
+   "antejardin_m_texto": "Antejardín [15] 3m.",
+   "antejardin_m": 3.0,
+   "pisos": 5,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento [13] Continuo, pareado o Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "Construcciones de cuatro niveles o más: antejardín de 5 m, no usado como estacionamiento y con 70% de área verde."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La edificación continua se admite solo si ya existe en el predio, en una construcción contigua o en el 50% o más de la cuadra."
+    }
+   ]
+  },
+  {
+   "zona": "ZR-2",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZR-2",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32663.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32664.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m²) 160",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación Máxima del Suelo en 1º y 2º piso 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "14m (hasta 4 pisos)",
+   "altura_m": 14.0,
+   "pisos": 4,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento [16] Continuo, pareado o Aislado",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "La edificación continua se admite solo si ya existe en el predio, en una construcción contigua o en el 50% o más de la cuadra; preferentemente aislada con antejardín."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-1",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZE-1",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32668.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32669.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m²) 400",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación Máxima del Suelo en 1º y 2º piso 0.5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "Altura Máxima de Edificación (m) Según rasante y distanciamientos de acuerdo a la OGUC",
+   "altura_m": "sin tope",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento [17] Continuo, pareado o Aislado",
+   "advertencias": [
+    {
+     "campo": "agrupamiento",
+     "texto": "La edificación continua se admite solo si ya existe en el predio, en una construcción contigua o en el 50% o más de la cuadra; preferentemente aislada con antejardín."
+    }
+   ]
+  },
+  {
+   "zona": "ZEs-1",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona ZEs-1",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32675.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32676.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m²) 160",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación Máxima del Suelo en 1º y 2º piso 0.6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "11m. (hasta 3 pisos max)",
+   "altura_m": 11.0,
+   "pisos": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Agrupamiento Continuo, pareado o Aislado"
+  },
+  {
+   "zona": "ZI",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona Z1 (la capa la rotula ZI)",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32671.jpg",
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32672.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima (m) 1500 1500 500m2 500",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente Máximo de Ocupación del Suelo 0,7 0,7 0,7 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0 2,0 1,0 2,0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el destino es industria, almacenamiento o taller (equipamiento y actividades complementarias a la vialidad: 1,0) («Coeficiente de Constructibilidad 1,0 2,0 1,0 2,0»)",
+   "altura_m_texto": "Altura Máxima de Edificación Libre Libre Libre Libre",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Antejardín (m) 5 5 5 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Agrupamiento Aislado Aislado Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "superficie",
+     "texto": "Actividades complementarias a la vialidad y talleres: 500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Separación mínima a medianeros: 5 m (equipamiento y talleres) o 10 m (industria, almacenamiento y actividades complementarias a la vialidad)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "El cuadro indica «Rasantes 5m»: confirme con la DOM la rasante aplicable."
+    }
+   ]
+  },
+  {
+   "zona": "ZEs-2",
+   "pagina": 0,
+   "seccion": "Art. 9, Zona Especial Canal Pinto Solar",
+   "imagenes": [
+    "https://nuevo.leychile.cl/servicios/Navegar/imagen/JPG/32677.jpg"
+   ],
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Espacio residual del Canal Pinto Solar: solo área verde y actividades recreativas al aire libre."
+    }
+   ]
+  }
+ ]
+}

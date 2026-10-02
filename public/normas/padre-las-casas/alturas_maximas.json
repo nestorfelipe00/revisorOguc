@@ -1,0 +1,9 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza del Plan Regulador Comunal de Temuco (D.S. N° 100 del MINVU, 14-07-1983, con modificaciones hasta 1996), válida para el centro urbano de la comuna de Padre Las Casas, compilación de la Dirección de Obras de Temuco (agosto de 1997)",
+ "url": "",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": []
+}

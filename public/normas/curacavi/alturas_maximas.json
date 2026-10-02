@@ -1,0 +1,37 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Curacaví (D.S. N° 19 (V. y U.) de 09-01-1991, D.O. 07-02-1991), transcripción que publica la Municipalidad en su portal de transparencia",
+ "url": "https://transparencia.municipalidadcuracavi.cl/1_07_Plan_regulador/Plan_regulador_Decreto1042_27-05-2011.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "Z1",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "f) Altura máxima de edificación : 8m.",
+   "pagina": 11,
+   "seccion": "Art. 20, Zona Z1",
+   "nota": null
+  },
+  {
+   "zona": "Z2",
+   "altura_m": 8.0,
+   "pisos": null,
+   "texto": "f) Altura máxima de edificación : 8m",
+   "pagina": 11,
+   "seccion": "Art. 20, Zona Z2",
+   "nota": null
+  },
+  {
+   "zona": "ZR4",
+   "altura_m": 6.0,
+   "pisos": null,
+   "texto": "g) Altura máxima de edificación: 6,00m",
+   "pagina": 13,
+   "seccion": "Art. 20, Zona ZR4: Restricción de aeródromos",
+   "nota": null
+  }
+ ]
+}

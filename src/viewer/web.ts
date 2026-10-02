@@ -10,9 +10,10 @@ import { ParcelDrawing } from "./parceldraw";
 import type { ClassCount, ElementInfo, EnvelopeGrid, RasanteScene, TerritoryScene, ViewerMessage } from "./protocol";
 import type { IfcMeta, MetaRequest, MetaResponse } from "./ifcMetaWorker";
 import type { ModelExtent } from "@/lib/territorio/location";
+import { propertyValues } from "./propiedades";
 
 /** Límite de la versión web (advertencia b del plan): sobre este tamaño el IFC no se abre. */
-export const MAX_IFC_BYTES = 300 * 1024 * 1024;
+export const MAX_IFC_BYTES = 100 * 1024 * 1024;
 
 export interface LoadedModel {
   modelId: string;
@@ -26,6 +27,8 @@ export interface LoadedModel {
   meta: IfcMeta | null;
   /** Fragments convertidos (para guardarlos en caché o en el proyecto). */
   fragments: Uint8Array | null;
+  /** El archivo IFC original (se vuelve a leer para extraer la geometría de la revisión; no sale del navegador). */
+  file: File;
 }
 
 export interface WebViewerEvents {
@@ -35,6 +38,8 @@ export interface WebViewerEvents {
   onLog(level: "info" | "warn" | "error", message: string): void;
   onPointPicked(point: { x: number; y: number; z: number }): void;
   onParcelDrawn(points: number[]): void;
+  /** El usuario pidió la ciudad 3D desde la barra del visor. */
+  onCityRequested(): void;
 }
 
 export class WebViewer {
@@ -68,7 +73,7 @@ export class WebViewer {
     this.city = new TerritoryContext(this.viewer);
     const send = (message: ViewerMessage) => this.handleViewerMessage(message);
     this.parcelDrawing = new ParcelDrawing(this.viewer, container, send);
-    this.toolbar.attachCity(this.city, () => this.events.onLog("info", "Ciudad 3D: disponible en una próxima versión web."));
+    this.toolbar.attachCity(this.city, () => this.events.onCityRequested());
     this.toolbar.attachPlacement(
       () => this.events.onLog("info", "Colocación rápida: disponible en una próxima versión web."),
       () => this.events.onLog("info", "Ajuste fino: disponible en una próxima versión web."),
@@ -98,7 +103,7 @@ export class WebViewer {
   loadFile(file: File): Promise<void> {
     return this.enqueue(async () => {
       if (file.size > MAX_IFC_BYTES) {
-        this.events.onLog("error", `${file.name}: el modelo supera los 300 MB y no se puede abrir en la versión web. Use la versión de escritorio.`);
+        this.events.onLog("error", `${file.name}: el modelo supera los 100 MB y no se puede abrir en la versión web. Use la versión de escritorio.`);
         return;
       }
       const modelId = `m${this.models.size + 1}-${Date.now().toString(36)}`;
@@ -123,6 +128,7 @@ export class WebViewer {
           extent: extent ? { minX: extent.min[0], minY: extent.min[1], minZ: extent.min[2], maxX: extent.max[0], maxY: extent.max[1], maxZ: extent.max[2] } : null,
           meta,
           fragments: result.fragments,
+          file,
         });
         if (meta?.geolocation.mapConversion) this.tools.setGeoreference(modelId, meta.geolocation.mapConversion);
       } catch (error) {
@@ -172,6 +178,18 @@ export class WebViewer {
 
   startParcelDrawing(current: number[] | null): void {
     void this.parcelDrawing.start(current);
+  }
+
+  /** No se pudo armar la ciudad 3D: la barra explica el motivo. */
+  cityUnavailable(reason: string): void {
+    this.toolbar.cityUnavailable(reason);
+  }
+
+  /** Resistencia al fuego declarada (propiedad FireRating) de los elementos indicados, por ExpressID. */
+  async fireRatings(modelId: string, expressIds: number[]): Promise<Map<number, string>> {
+    const model = this.viewer.fragments.list.get(modelId);
+    if (!model) return new Map();
+    return propertyValues(model, expressIds, "FireRating");
   }
 
   private async afterModelsChanged(): Promise<void> {

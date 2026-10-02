@@ -1,0 +1,938 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Maipú (D.A. N° 6.383, D.O. 13-11-2004), decreto y ordenanza publicados por la Municipalidad de Maipú",
+ "url": "https://www.transparenciamaipu.cl/wp-content/uploads/2022/08/1_Decreto_y_Ordenanza_PRC_Maipu.pdf",
+ "sha256": "10e18ba4967d930d8dabc61fc7d3cd7065012150bfa71cee692eb3ddd4863661",
+ "documentos_adicionales": {
+  "m2": {
+   "documento": "Modificación N° 2 al PRC de Maipú (D.A. N° 6.971, D.O. 10-11-2012), texto actualizado de la BCN con el D.A. N° 2.358 (D.O. 15-09-2017)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1045540",
+   "sha256": "63a1df7b196f6a47e3c6a04bf97ab35dee9826a320de8bf5ae7c1f8972653be3",
+   "fuente": "bcn"
+  },
+  "m4": {
+   "documento": "Modificación N° 4 al PRC de Maipú (D.A. N° 5.664, D.O. 13-09-2024), texto de la BCN",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1206599",
+   "sha256": "ce3fa832cc993984f95f3cb57677fc11eb124ac84257d4339bb82a7f1ee521c0",
+   "fuente": "bcn"
+  }
+ },
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZC-1",
+   "pagina": 17,
+   "seccion": "Art. 34, ZC-1 Centro Cívico",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 1500",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 2,5",
+   "coef_constructibilidad": 2.5,
+   "altura_m_texto": "Altura de edificación máxima (m) 24 m",
+   "altura_m": 24,
+   "antejardin_m_texto": "Antejardín mínimo (m) 8 (No se exige frente a plaza mayor).",
+   "antejardin_m": 8,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado.",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento a medianeros de 5 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZC-2",
+   "pagina": 18,
+   "seccion": "Art. 34, ZC-2 Centro Comercial",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 500 1000",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 1,0 1,0",
+   "coef_ocupacion_suelo": 1.0,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 3,0 3,5",
+   "coef_constructibilidad": 3.0,
+   "coef_constructibilidad_max": 3.5,
+   "coef_constructibilidad_condicion": "edificación continua y aislada sobre continua (sólo continua: 3,0) («Coeficiente de constructibilidad máximo 3,0 3,5»)",
+   "altura_m_texto": "Para la zona \"ZC 2 Centro Comercial\", en cuadro de \"condiciones de edificación y subdivisión\", en la condición \"Altura de edificación máxima (m)\" en \"Edificación continua y aislada sobre continua\" modifíquese lo existente por \"4 pisos o 12 metros\"",
+   "altura_m": 12,
+   "altura_incentivo_m": 18,
+   "incentivo_texto": "sólo edificación continua (18 m); la continua y aislada sobre continua, 4 pisos o 12 m según la Modificación N° 4 (D.A. N° 5.664/2024): «Altura de edificación máxima (m) 18 30»",
+   "incentivo_pagina": 19,
+   "antejardin_m_texto": "Antejardín mínimo (m) No",
+   "antejardin_m": 0,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º aplicada sobre edificación continua.",
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Continuo Continuo, aislado sobre edificación continua.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La edificación continua va de 7 m mínimo a 18 m máximo; la Modificación N° 4 fija 4 pisos o 12 m para la edificación continua y aislada sobre continua."
+    },
+    {
+     "campo": "altura",
+     "texto": "Art. 51 (Modificación N° 4): los incentivos normativos (viviendas de interés público, equipamiento en primer piso, espacio público y áreas verdes) permiten aumentar hasta 2 pisos según el puntaje de las Tablas 1 y 2."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "5 m para la edificación aislada y retranqueo de 5 m en fachada sobre la continua."
+    }
+   ]
+  },
+  {
+   "zona": "ZC-3",
+   "pagina": 19,
+   "seccion": "Art. 34, ZC-3 Mixta Comercio y Servicios",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 250 350 1000",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,7 0,7 0,4 vivienda 0,6 mixtos 1,0 equipamiento",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda unifamiliar y equipamiento básico 0,7; vivienda multifamiliar 0,4, mixtos 0,6 y equipamiento 1,0) («Coeficiente ocupación de suelo máximo 0,7 0,7 0,4 vivienda 0,6 mixtos 1,0 equipamiento»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 1,0 1,5 3,5",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 3.5,
+   "coef_constructibilidad_condicion": "vivienda multifamiliar o equipamiento de otras escalas (unifamiliar 1,0; equipamiento básico 1,5) («Coeficiente de constructibilidad máximo 1,0 1,5 3,5»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 9 10,5 Libre según rasantes",
+   "altura_m": 9,
+   "altura_incentivo_m": 24,
+   "incentivo_texto": "vivienda multifamiliar o equipamiento de otras escalas (8 pisos o 24 m, Modificación N° 4 (D.A. N° 5.664/2024)); equipamiento básico 10,5 m: «en \"Vivienda Multifamiliar, equipamiento otras escalas\" modifíquese lo existente por \"8 pisos o 24 metros\"»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo (m) * no se exige en edificación continua 3 5 (vía 15m y más) 3 5 (vía 15m y más) 8",
+   "antejardin_m": 8,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Todos",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino y del ancho de la vía (5 m en vías de 15 m y más); se toma el mayor del cuadro."
+    },
+    {
+     "campo": "altura",
+     "texto": "Art. 51 (Modificación N° 4): los incentivos normativos (viviendas de interés público, equipamiento en primer piso, espacio público y áreas verdes) permiten aumentar hasta 2 pisos según el puntaje de las Tablas 1 y 2."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Vivienda multifamiliar y equipamiento de otras escalas: distanciamiento de 5 m y sin adosamiento."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento básico: 350 m²; vivienda multifamiliar y equipamiento de otras escalas: 1.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZC-4",
+   "pagina": 20,
+   "seccion": "Art. 34, ZC-4 Mixta Equipamiento y Vivienda (Ex FISA)",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 200 1500 1500",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,45 0,3 0,7",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (unifamiliar 0,45; multifamiliar 0,3; equipamiento 0,7) («Coeficiente ocupación de suelo máximo 0,45 0,3 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 1,0 2,5 2,5",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "vivienda multifamiliar o equipamiento (unifamiliar 1,0) («Coeficiente de constructibilidad máximo 1,0 2,5 2,5»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 9 Li bre según rasante Libre según rasante",
+   "altura_m": 9,
+   "altura_incentivo_m": 27,
+   "incentivo_texto": "equipamiento o vivienda multifamiliar (9 pisos o 27 m, Modificación N° 4 (D.A. N° 5.664/2024)); vivienda unifamiliar 9 m: «Para la zona \"ZC 4 Mixta Equipamiento y Vivienda (Ex FISA)\", en cuadro de \"Condiciones de edificación y subdivisión\", en la condición \"Altura de edificación máxima (m)\" en \"Equipamiento todas sus escalas y Vivienda Multifamiliar\" modifíquese lo existente por \"9 pisos o 27 metros\"»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo (m) 3 5 (vía 15m y más) 7 5",
+   "antejardin_m": 7,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aisl ado, pareado Aislado Todos",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino y del ancho de la vía (5 m en vías de 15 m y más); se toma el mayor del cuadro."
+    },
+    {
+     "campo": "altura",
+     "texto": "Art. 51 (Modificación N° 4): los incentivos normativos (viviendas de interés público, equipamiento en primer piso, espacio público y áreas verdes) permiten aumentar hasta 2 pisos según el puntaje de las Tablas 1 y 2."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Vivienda multifamiliar y equipamiento: distanciamiento de 5 m; la multifamiliar sin adosamiento."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Vivienda multifamiliar y equipamiento: 1.500 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-1",
+   "pagina": 21,
+   "seccion": "Art. 34, ZH-1 Habitacional 1 (Santa Ana de Chena)",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 2500 2500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,2 0,5",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda / equipamiento): vivienda 0,2; equipamiento 0,5 («Coeficiente ocupación de suelo máximo 0,2 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 0,4 1,0",
+   "coef_constructibilidad": 0.4,
+   "coef_constructibilidad_max": 1.0,
+   "coef_constructibilidad_condicion": "según el destino (vivienda / equipamiento): vivienda 0,4; equipamiento 1,0 («Coeficiente de constructibilidad máximo 0,4 1,0»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 10,5 10,5",
+   "altura_m": 10.5,
+   "antejardin_m_texto": "Antejardín mínimo (m) 7 5",
+   "antejardin_m": 7,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento a medianeros de 5 m y sin adosamiento."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino y del ancho de la vía (5 m en vías de 15 m y más); se toma el mayor del cuadro."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-2",
+   "pagina": 22,
+   "seccion": "Art. 34, ZH-2 Habitacional 2 (Extensión El Abrazo – Sector Fundo El Bosque)",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 250 500 1000",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,5 0,6 0,6",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda 0,5; equipamiento 0,6 («Coeficiente ocupación de suelo máximo 0,5 0,6 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 1 1 1,5",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda y equipamiento básico 1; otras escalas 1,5 («Coeficiente de constructibilidad máximo 1 1 1,5»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 9 10,5 12",
+   "altura_m": 9,
+   "altura_incentivo_m": 12,
+   "incentivo_texto": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda 9 m; equipamiento básico 10,5 m; otras escalas 12 m: «Altura de edificación máxima (m) 9 10,5 12»",
+   "incentivo_pagina": 23,
+   "antejardin_m_texto": "Antejardín mínimo (m) 3 5 (vía 15m y más) 5 5",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aisl ado, pareado Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino y del ancho de la vía (5 m en vías de 15 m y más); se toma el mayor del cuadro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento básico: 500 m²; otras escalas: 1.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-3",
+   "pagina": 24,
+   "seccion": "Art. 34, ZH-3 Habitacional 3 (El Abrazo – Ciudad Satélite)",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 180 350 500 menor 1000 mediano, mayor",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,65 0,6 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.65,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda 0,65; equipamiento 0,6 («Coeficiente ocupación de suelo máximo 0,65 0,6 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 0,8 0,8 1,5",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda y equipamiento básico 0,8; otras escalas 1,5 («Coeficiente de constructibilidad máximo 0,8 0,8 1,5»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 9 10,5 12",
+   "altura_m": 9,
+   "altura_incentivo_m": 12,
+   "incentivo_texto": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda 9 m; equipamiento básico 10,5 m; otras escalas 12 m: «Altura de edificación máxima (m) 9 10,5 12»",
+   "incentivo_pagina": 25,
+   "antejardin_m_texto": "Antejardín mínimo (m) 3 5 (vía 15m y más) 3 5 (vía 15m y más) 5",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado Aislado, pareado Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino y del ancho de la vía (5 m en vías de 15 m y más); se toma el mayor del cuadro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento básico: 350 m²; menor: 500 m²; mediano y mayor: 1.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-4",
+   "pagina": 25,
+   "seccion": "Art. 34, ZH-4 Habitacional 4 (Maipú Centro Oriente)",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 200 350 800 menor 2000 mediano, mayor",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,7 0,7 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda y equipamiento básico 0,7; otras escalas 0,6 («Coeficiente ocupación de suelo máximo 0,7 0,7 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 1 1,5 1,5",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda 1; equipamiento 1,5 («Coeficiente de constructibilidad máximo 1 1,5 1,5»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 9 9 12",
+   "altura_m": 9,
+   "altura_incentivo_m": 12,
+   "incentivo_texto": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda y equipamiento básico 9 m; otras escalas 12 m: «Altura de edificación máxima (m) 9 9 12»",
+   "incentivo_pagina": 26,
+   "antejardin_m_texto": "Antejardín mínimo (m) 3 5 (vía 15m y más) 3 5 (vía 15m y más) 5",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado Aislado, pareado Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino y del ancho de la vía (5 m en vías de 15 m y más); se toma el mayor del cuadro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento básico: 350 m²; menor: 800 m²; mediano y mayor: 2.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-5",
+   "pagina": 26,
+   "seccion": "Art. 34, ZH-5 Habitacional 5 (Maipú Centro Antiguo)",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 300 500 800 menor 2000 mediano, mayor",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,5 0,6 0,7",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda 0,5; equipamiento básico 0,6; otras escalas 0,7 («Coeficiente ocupación de suelo máximo 0,5 0,6 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 1,5 1 1,5",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda y otras escalas 1,5; equipamiento básico 1 («Coeficiente de constructibilidad máximo 1,5 1 1,5»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 15 10,5 12",
+   "altura_m": 10.5,
+   "altura_incentivo_m": 15,
+   "incentivo_texto": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda 15 m; equipamiento básico 10,5 m; otras escalas 12 m: «Altura de edificación máxima (m) 15 10,5 12»",
+   "incentivo_pagina": 27,
+   "antejardin_m_texto": "Antejardín mínimo (m) 3 5 (vía 15m y más) y vivienda multifamiliar 3 5 (vía 15m y más) 5",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Todos Vivienda multifamiliar sólo aislado Todos Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino y del ancho de la vía (5 m en vías de 15 m y más); se toma el mayor del cuadro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento básico: 500 m²; menor: 800 m²; mediano y mayor: 2.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-6",
+   "pagina": 27,
+   "seccion": "Art. 34, ZH-6 Habitacional 6 (Maipú Norte – Sector Villas Pehuén)",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 200 200 500 menor 1500 mediano, mayor",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,7 0,7 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda y equipamiento básico 0,7; otras escalas 0,6 («Coeficiente ocupación de suelo máximo 0,7 0,7 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 1 1 1,5",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda y equipamiento básico 1; otras escalas 1,5 («Coeficiente de constructibilidad máximo 1 1 1,5»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 9 9 12",
+   "altura_m": 9,
+   "altura_incentivo_m": 12,
+   "incentivo_texto": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda y equipamiento básico 9 m; otras escalas 12 m: «Altura de edificación máxima (m) 9 9 12»",
+   "incentivo_pagina": 28,
+   "antejardin_m_texto": "Antejardín mínimo (m) 3 5 (vía 18m y más) y vivienda multifamiliar 3 5 (vía 18m y más) 5",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado. Vivienda multifamiliar sólo aislado Aislado, pareado Aislado, pareado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino y del ancho de la vía (5 m en vías de 15 m y más); se toma el mayor del cuadro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento menor: 500 m²; mediano y mayor: 1.500 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-7",
+   "pagina": 28,
+   "seccion": "Art. 34, ZH-7 Habitacional 7 (Maipú Poniente)",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 200 500 200 500 menor 1500 mediano, mayor",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,7 0,6 0,7 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda / vivienda multifamiliar / equipamiento básico / otras escalas): vivienda y equipamiento básico 0,7; multifamiliar y otras escalas 0,6 («Coeficiente ocupación de suelo máximo 0,7 0,6 0,7 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 1 1,5 1 1,5",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (vivienda / vivienda multifamiliar / equipamiento básico / otras escalas): vivienda y equipamiento básico 1; multifamiliar y otras escalas 1,5 («Coeficiente de constructibilidad máximo 1 1,5 1 1,5»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 9 12 9 12",
+   "altura_m": 9,
+   "altura_incentivo_m": 12,
+   "incentivo_texto": "según el destino (vivienda / vivienda multifamiliar / equipamiento básico / otras escalas): vivienda y equipamiento básico 9 m; multifamiliar y otras escalas 12 m: «Altura de edificación máxima (m) 9 12 9 12»",
+   "incentivo_pagina": 29,
+   "antejardin_m_texto": "Antejardín mínimo (m) 3 5 (vía 15m y más) 5 3 5 (vía 15m y más) 5",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado. Aislado Aislado, pareado Aislado",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino y del ancho de la vía (5 m en vías de 15 m y más); se toma el mayor del cuadro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Vivienda multifamiliar y equipamiento menor: 500 m²; mediano y mayor: 1.500 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-8",
+   "pagina": 29,
+   "seccion": "Art. 34, ZH-8 Habitacional 8 (Corredores de Densidad Alta: Av. Américo Vespucio y Av.",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 200 1000 1500",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,6 0,7 0,35",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda unifamiliar / equipamiento / multifamiliar): unifamiliar 0,6; equipamiento 0,7; multifamiliar 0,35 («Coeficiente ocupación de suelo máximo 0,6 0,7 0,35»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 0,8 2,5 3,0",
+   "coef_constructibilidad": 0.8,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "según el destino (vivienda unifamiliar / equipamiento / multifamiliar): unifamiliar 0,8; equipamiento 2,5; multifamiliar 3,0 («Coeficiente de constructibilidad máximo 0,8 2,5 3,0»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 9 Libre según rasantes Libre según rasantes",
+   "altura_m": 9,
+   "altura_incentivo_m": 27,
+   "incentivo_texto": "equipamiento o vivienda multifamiliar (9 pisos o 27 m, Modificación N° 4 (D.A. N° 5.664/2024)); vivienda unifamiliar 9 m: «Para la zona \"ZH 8 Habitacional 8\", en cuadro de \"Condiciones de edificación y subdivisión\", en la condición \"Altura de edificación máxima (m)\" en \"Equipamiento todas sus escalas y Vivienda Multifamiliar\" modifíquese lo existente por \"9 pisos o 27 metros\"»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo (m) 3 5 (vía 15m y más) 5 8",
+   "antejardin_m": 8,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado Todos Aislado",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "Art. 51 (Modificación N° 4): los incentivos normativos (viviendas de interés público, equipamiento en primer piso, espacio público y áreas verdes) permiten aumentar hasta 2 pisos según el puntaje de las Tablas 1 y 2."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino y del ancho de la vía (5 m en vías de 15 m y más); se toma el mayor del cuadro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento: 1.000 m²; vivienda multifamiliar: 1.500 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-9",
+   "pagina": 30,
+   "seccion": "Art. 34, ZH-9 Habitacional 9 (El Porvenir)",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 250 350 500 menor 1000 mediano, mayor",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,5 0,6 0,7",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda 0,5; equipamiento básico 0,6; otras escalas 0,7 («Coeficiente ocupación de suelo máximo 0,5 0,6 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 1 1,2 2,5",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda 1; equipamiento básico 1,2; otras escalas 2,5 («Coeficiente de constructibilidad máximo 1 1,2 2,5»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 9 9 14",
+   "altura_m": 9,
+   "altura_incentivo_m": 14,
+   "incentivo_texto": "según el destino (vivienda / equipamiento básico / otras escalas): vivienda y equipamiento básico 9 m; otras escalas 14 m: «Altura de edificación máxima (m) 9 9 14»",
+   "incentivo_pagina": 31,
+   "antejardin_m_texto": "Antejardín mínimo (m) 3 5 (vía 15m y más) 5 5",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado Aislado, pareado Todos",
+   "advertencias": [
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino y del ancho de la vía (5 m en vías de 15 m y más); se toma el mayor del cuadro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento básico: 350 m²; menor: 500 m²; mediano y mayor: 1.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-10",
+   "pagina": 31,
+   "seccion": "Art. 34, ZH-10 Habitacional 10 (Borde El Porvenir de Densidad Condicionada)",
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima (m2) 250 350 500 menor 1000 mediano, mayor 1500",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,5 0,6 0,7 0,35 vivienda 0,7 equipam.",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (vivienda unifamiliar / equipamiento básico / otras escalas / condicionados): unifamiliar 0,5; equipamiento básico 0,6; otras escalas 0,7; condicionados: vivienda 0,35 y equipamiento 0,7 («Coeficiente ocupación de suelo máximo 0,5 0,6 0,7 0,35 vivienda 0,7 equipam.»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 1 1,2 1,5 3,0 vivienda 2,5 equipam.",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "según el destino (vivienda unifamiliar / equipamiento básico / otras escalas / condicionados): unifamiliar 1; equipamiento básico 1,2; otras escalas 1,5; condicionados (una vez materializada la conexión vial entre Av. Tres Poniente y Av. El Rosal): vivienda 3,0 y equipamiento 2,5 («Coeficiente de constructibilidad máximo 1 1,2 1,5 3,0 vivienda 2,5 equipam.»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 9 9 12 Libre según rasante",
+   "altura_m": 9,
+   "altura_incentivo_m": 18,
+   "incentivo_texto": "vivienda y equipamiento condicionados (6 pisos o 18 m, Modificación N° 4 (D.A. N° 5.664/2024)), una vez materializada la conexión vial; equipamiento de otras escalas 12 m: «\"Altura de edificación máxima (m) en Vivienda y equipamiento condicionado (todas las escalas)\" modifíquese lo existente por \"6 pisos o 18 metros\"»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo (m) 3 5 (vía 15m y más) 5 5 8",
+   "antejardin_m": 8,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70º",
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado, pareado Aislad o, pareado Aislado, pa reado Aislado vivienda. Aislado, pareado equipamiento",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "La columna de vivienda y equipamiento condicionados rige solo una vez materializada la conexión vial entre Av. Tres Poniente y Av. El Rosal, sobre el Zanjón de la Aguada y Autopista del Sol (nota (*) del cuadro)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino y del ancho de la vía (5 m en vías de 15 m y más); se toma el mayor del cuadro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento básico: 350 m²; menor: 500 m²; mediano y mayor: 1.000 m²; vivienda y equipamiento condicionados: 1.500 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-1",
+   "pagina": 0,
+   "seccion": "Art. 34, ZI-1 Zona Industrial, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "documento": "Modificación N° 2 al PRC de Maipú (D.A. N° 6.971, D.O. 10-11-2012), texto actualizado de la BCN con el D.A. N° 2.358 (D.O. 15-09-2017)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1045540",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/29098.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 1500 1500",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,7 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 1,2 1,5",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (industria 1,2) («Coeficiente de constructibilidad máximo 1,2 1,5»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 14 14",
+   "altura_m": 14,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70° 70°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento a medianeros según los Arts. 6.1.3.1 y 3.2.1 del PRMS; sin adosamiento para la industria."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El cuadro de la Modificación N° 2 no trae la fila de antejardín: confirme el antejardín con la Dirección de Obras."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-2",
+   "pagina": 0,
+   "seccion": "Art. 34, ZI-2 Zona Industrial, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "documento": "Modificación N° 2 al PRC de Maipú (D.A. N° 6.971, D.O. 10-11-2012), texto actualizado de la BCN con el D.A. N° 2.358 (D.O. 15-09-2017)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1045540",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/29098.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 4000 1500",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,5 molesta 0,7 otros 0,7",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino no es industria molesta (molesta 0,5) («Coeficiente ocupación de suelo máximo 0,5 molesta 0,7 otros 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 1 2,0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.0,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (industria 1) («Coeficiente de constructibilidad máximo 1 2,0»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 14 Libre según rasantes",
+   "altura_m": 14,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el destino es equipamiento (libre según rasantes; industria 14 m): «Altura de edificación máxima (m) 14 Libre según rasantes»",
+   "incentivo_pagina": 0,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60° 70°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento a medianeros según los Arts. 6.1.3.1 y 3.2.1 del PRMS; sin adosamiento para la industria."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El cuadro de la Modificación N° 2 no trae la fila de antejardín: confirme el antejardín con la Dirección de Obras."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La industria aplica rasante de 60°; el equipamiento, 70°."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La industria exige 4.000 m²; el equipamiento, 1.500 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-3",
+   "pagina": 0,
+   "seccion": "Art. 34, ZI-3 Zona Industrial, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "documento": "Modificación N° 2 al PRC de Maipú (D.A. N° 6.971, D.O. 10-11-2012), texto actualizado de la BCN con el D.A. N° 2.358 (D.O. 15-09-2017)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1045540",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/29098.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 4000 1000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,5 molesta 0,7 otros 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino es industria no molesta (molesta 0,5; equipamiento 0,4) («Coeficiente ocupación de suelo máximo 0,5 molesta 0,7 otros 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máximo 1 2,5",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "el destino es equipamiento (industria 1) («Coeficiente de constructibilidad máximo 1 2,5»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 14 Libre según rasantes",
+   "altura_m": 14,
+   "altura_incentivo_m": "sin tope",
+   "incentivo_texto": "el destino es equipamiento (libre según rasantes; industria 14 m): «Altura de edificación máxima (m) 14 Libre según rasantes»",
+   "incentivo_pagina": 0,
+   "rasante_grados": 60,
+   "rasante_texto": "Rasante 60° 70°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento a medianeros según los Arts. 6.1.3.1 y 3.2.1 del PRMS; sin adosamiento para la industria."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El cuadro de la Modificación N° 2 no trae la fila de antejardín: confirme el antejardín con la Dirección de Obras."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La industria aplica rasante de 60°; el equipamiento, 70°."
+    },
+    {
+     "campo": "zona",
+     "texto": "Viviendas existentes: lo aprobado por el proyecto de loteo (segundo artículo transitorio: aumento de constructibilidad y altura hasta un 20 %)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La industria exige 4.000 m²; el equipamiento, 1.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-2",
+   "pagina": 0,
+   "seccion": "Art. 41, ZE-2 Equipamiento Recreacional y Deportivo, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "documento": "Modificación N° 2 al PRC de Maipú (D.A. N° 6.971, D.O. 10-11-2012), texto actualizado de la BCN con el D.A. N° 2.358 (D.O. 15-09-2017)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1045540",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/29099.jpg"
+   ],
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,2 deporte y recreación 0,7 otros equip.",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento distinto de deporte y recreación («Coeficiente ocupación de suelo máximo 0,2 deporte y recreación 0,7 otros equip.»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máx. 0,2 deporte y recreación 1,5 otros Equip.",
+   "coef_constructibilidad": 0.2,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el destino es equipamiento distinto de deporte y recreación («Coeficiente de constructibilidad máx. 0,2 deporte y recreación 1,5 otros Equip.»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 9 15 otros Equip.",
+   "altura_m": 9,
+   "altura_incentivo_m": 15,
+   "incentivo_texto": "el destino es equipamiento distinto de deporte y recreación: «Altura de edificación máxima (m) 9 15 otros Equip.»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín mínimo (m) 8",
+   "antejardin_m": 8,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento a medianeros de 5 m y sin adosamiento."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Superficie predial: la existente."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-3",
+   "pagina": 0,
+   "seccion": "Art. 41, ZE-3 Parques Intercomunales, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "documento": "Modificación N° 2 al PRC de Maipú (D.A. N° 6.971, D.O. 10-11-2012), texto actualizado de la BCN con el D.A. N° 2.358 (D.O. 15-09-2017)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1045540",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/29099.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 2500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_ocupacion_suelo_max": 0.5,
+   "coef_ocupacion_suelo_condicion": "proyecto de clase seguridad en la intersección de Av. Parque El Rosal con Isabel Riquelme (Art. 41, nota) («la constructibilidad será de 0,7; la ocupación de suelo y pisos superiores será de 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máx. 0,05",
+   "coef_constructibilidad": 0.05,
+   "coef_constructibilidad_max": 0.7,
+   "coef_constructibilidad_condicion": "proyecto de clase seguridad en la intersección de Av. Parque El Rosal con Isabel Riquelme (Art. 41, nota) («la constructibilidad será de 0,7; la ocupación de suelo y pisos superiores será de 0,5»)",
+   "altura_m_texto": "Altura de edificación máxima (m) 15",
+   "altura_m": 15,
+   "antejardin_m_texto": "Antejardín mínimo (m) 5",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento a medianeros de 5 m y sin adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-5",
+   "pagina": 0,
+   "seccion": "Art. 41, ZE-5 Equipamiento Comunitario con Vivienda, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "documento": "Modificación N° 2 al PRC de Maipú (D.A. N° 6.971, D.O. 10-11-2012), texto actualizado de la BCN con el D.A. N° 2.358 (D.O. 15-09-2017)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1045540",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/29099.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 500 equip. básico 1000 otros equip. 250 unifamiliar 1000 multifamiliar",
+   "superficie_predial_minima_m2": 250,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,7 0,5 unifamiliar 0,35 multifamiliar",
+   "coef_ocupacion_suelo": 0.35,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (equipamiento 0,7; unifamiliar 0,5; multifamiliar 0,35) («Coeficiente ocupación de suelo máximo 0,7 0,5 unifamiliar 0,35 multifamiliar»)",
+   "antejardin_m_texto": "Antejardín mínimo (m) 5 3 5 en vías de +15m y vivienda multifamiliar",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Todos. Aislado, pareado",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura máxima es la de la zona aledaña (cuadro del Art. 41)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "El coeficiente de constructibilidad es el de la zona aledaña (cuadro del Art. 41)."
+    },
+    {
+     "campo": "zona",
+     "texto": "Art. 41, nota: en los predios ZE-5 y ZE-6 frente a Av. Américo Vespucio, Santa Elena (entre el límite comunal norte y la costanera FFCC San Antonio) o Av. Pajaritos al norte del Zanjón de la Aguada se puede aplicar la constructibilidad y la altura de la ZH-8."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín depende del destino y del ancho de la vía (5 m en vías de 15 m y más); se toma el mayor del cuadro."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Equipamiento básico: 500 m²; otros equipamientos y vivienda multifamiliar: 1.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-6",
+   "pagina": 0,
+   "seccion": "Art. 41, ZE-6 Equipamiento Comunitario Exclusivo, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "documento": "Modificación N° 2 al PRC de Maipú (D.A. N° 6.971, D.O. 10-11-2012), texto actualizado de la BCN con el D.A. N° 2.358 (D.O. 15-09-2017)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1045540",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/29099.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie predial mínima 500 equip. básico 1000 otros equip.",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "antejardin_m_texto": "Antejardín mínimo (m) 5",
+   "antejardin_m": 5,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Todos.",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "La altura máxima es la de la zona aledaña (cuadro del Art. 41)."
+    },
+    {
+     "campo": "constructibilidad",
+     "texto": "El coeficiente de constructibilidad es el de la zona aledaña (cuadro del Art. 41)."
+    },
+    {
+     "campo": "zona",
+     "texto": "Art. 41, nota: en los predios ZE-5 y ZE-6 frente a Av. Américo Vespucio, Santa Elena (entre el límite comunal norte y la costanera FFCC San Antonio) o Av. Pajaritos al norte del Zanjón de la Aguada se puede aplicar la constructibilidad y la altura de la ZH-8."
+    },
+    {
+     "campo": "zona",
+     "texto": "Vivienda existente: lo aprobado por el proyecto de loteo (segundo artículo transitorio: aumento de constructibilidad y altura hasta un 20 %)."
+    },
+    {
+     "campo": "superficie",
+     "texto": "Otros equipamientos: 1.000 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-10",
+   "pagina": 0,
+   "seccion": "Art. 41, ZE-10 Estanques de Agua Potable, cuadro reemplazado por la Modificación N° 2 (D.A. N° 6.971/2012)",
+   "documento": "Modificación N° 2 al PRC de Maipú (D.A. N° 6.971, D.O. 10-11-2012), texto actualizado de la BCN con el D.A. N° 2.358 (D.O. 15-09-2017)",
+   "url": "https://www.bcn.cl/leychile/navegar?idNorma=1045540",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/29099.jpg"
+   ],
+   "coef_ocupacion_suelo_texto": "Coeficiente ocupación de suelo máximo 0,05",
+   "coef_ocupacion_suelo": 0.05,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad máx. 0,05",
+   "coef_constructibilidad": 0.05,
+   "altura_m_texto": "Altura de edificación máxima (m) 10",
+   "altura_m": 10,
+   "rasante_grados": 70,
+   "rasante_texto": "Rasante 70°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "distanciamiento",
+     "texto": "No se permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-11",
+   "pagina": 36,
+   "seccion": "Art. 41, ZE-11 Área Verde PRMS",
+   "coef_ocupacion_suelo_texto": "Se permite construcciones complementarias a los usos permitidos, hasta en un 2% de la superficie del área",
+   "coef_ocupacion_suelo": 0.02,
+   "coef_constructibilidad_texto": "con un coeficiente de constructibilidad máximo de 0,02",
+   "coef_constructibilidad": 0.02,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Área verde del PRMS: solo construcciones complementarias a los usos permitidos (deporte, recreación, esparcimiento y turismo al aire libre)."
+    }
+   ]
+  }
+ ]
+}

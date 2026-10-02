@@ -1,0 +1,874 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Independencia (PRCI), Decreto Alcaldicio N° 179 de 14-03-2014 (D.O. 20-03-2014), texto oficial de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1060403",
+ "sha256": "6dd9558d1309d18763b9d7cec5bc5ad261cbbf24f1a88c2253cc787deb35be11",
+ "extraido": "2026-09-30",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "cuerpos_salientes": {
+  "articulo": "Artículo 7",
+  "texto": "En el área correspondiente a antejardín de 5 o más metros de ancho y a partir de los 3 m de altura, podrán permitirse cuerpos salientes abiertos hasta 1,5 m del plano de fachada",
+  "saliente_max_m": 1.5,
+  "solo_revision": true,
+  "pagina": 0
+ },
+ "zonas": [
+  {
+   "zona": "A",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona A Baja altura",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38805.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 200 m²",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,5 (uso residencial)",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento («Coeficiente de Ocupación del Suelo 0,6 (uso equipamiento)»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0 (uso equipamiento)",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "el destino es residencial (1,5; equipamiento 1,0) («Coeficiente de Constructibilidad 1,5 (uso residencial)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 9 m (uso residencial y equipamiento)",
+   "altura_m": 9,
+   "antejardin_m_texto": "Antejardín de edificación aislada y pareada 3 m (uso residencial); 5 m (uso equipamiento); edificación continua: no se permite",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado / Pareado / Continuo (uso residencial); Aislado (uso equipamiento)",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Equipamiento: antejardín de 5 m. La edificación continua residencial no lleva antejardín."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El equipamiento solo puede ser aislado."
+    }
+   ]
+  },
+  {
+   "zona": "A-1",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona A-1 Residencial mixta baja altura",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38807.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 200 m²",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,5 (vivienda unifamiliar y colectiva en altura)",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento («Coeficiente de Ocupación del Suelo 0,6 (uso equipamiento)»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,5 (vivienda unifamiliar y equipamiento)",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 1.8,
+   "coef_constructibilidad_condicion": "es vivienda colectiva en altura («Coeficiente de Constructibilidad 1,8 (vivienda colectiva en altura)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar)",
+   "altura_m": 9,
+   "altura_incentivo_m": 15,
+   "incentivo_texto": "es vivienda colectiva en altura o equipamiento (la vivienda unifamiliar llega a 9 m): «Altura Máxima de Edificación 15 m (vivienda colectiva en altura y equipamiento)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín de edificación aislada y pareada 3 m (uso residencial); 5 m (uso equipamiento); edificación continua: no se permite",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado / Pareado / Continuo (uso residencial); Aislado (uso equipamiento)",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Equipamiento: antejardín de 5 m. La edificación continua residencial no lleva antejardín."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El equipamiento solo puede ser aislado."
+    }
+   ]
+  },
+  {
+   "zona": "A-1P",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona A-1-P Residencial mixta baja altura con actividades productivas inofensivas",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38809.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 200 m²",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,5 (vivienda unifamiliar y colectiva en altura)",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (0,6) o actividad productiva (0,7) («Coeficiente de Ocupación del Suelo 0,6 (uso equipamiento); 0,7 (uso actividades productivas)»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,5 (vivienda unifamiliar, equipamiento y actividades productivas)",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 1.8,
+   "coef_constructibilidad_condicion": "es vivienda colectiva en altura («Coeficiente de Constructibilidad 1,8 (vivienda colectiva en altura)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar)",
+   "altura_m": 9,
+   "altura_incentivo_m": 15,
+   "incentivo_texto": "es vivienda colectiva en altura, equipamiento o actividad productiva (la vivienda unifamiliar llega a 9 m): «Altura Máxima de Edificación 15 m (vivienda colectiva en altura, equipamiento y actividades productivas)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín de edificación aislada y pareada 3 m (uso residencial); 5 m (equipamiento y actividades productivas); edificación continua: no se permite",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado / Pareado / Continuo (uso residencial); Aislado (equipamiento y actividades productivas)",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Actividades productivas: distanciamiento de 5 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Equipamiento y actividades productivas: antejardín de 5 m. La edificación continua residencial no lleva antejardín."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El equipamiento y las actividades productivas solo pueden ser aislados."
+    }
+   ]
+  },
+  {
+   "zona": "B",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona B Transición",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38811.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 200 m²",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,4 (vivienda colectiva en altura)",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "es vivienda unifamiliar (0,5) o equipamiento (0,7) («Coeficiente de Ocupación del Suelo 0,5 (vivienda unifamiliar); 0,7 (equipamiento)»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,5 (vivienda unifamiliar)",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "es vivienda colectiva en altura (2,0) o equipamiento (3,0) («Coeficiente de Constructibilidad 2,0 (vivienda colectiva en altura); 3,0 (equipamiento)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar); Altura Máxima de Edificación Continua 9 m",
+   "altura_m": 9,
+   "altura_incentivo_m": 18,
+   "incentivo_texto": "es vivienda colectiva en altura o equipamiento (la vivienda unifamiliar y la edificación continua llegan a 9 m): «Altura Máxima de Edificación 18 m (vivienda colectiva en altura y equipamiento)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín de edificación aislada y pareada 3 m (vivienda unifamiliar); 5 m (vivienda colectiva en altura y equipamiento); edificación continua: no se permite",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado / Pareado / Continuo (uso residencial); Aislado (equipamiento)",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 5 m (vivienda unifamiliar) o 10 m (vivienda colectiva en altura y equipamiento) al medianero colindante con las Zonas A, A-1, A-P y C, o calle de por medio."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Vivienda colectiva en altura y equipamiento: antejardín de 5 m. La edificación continua residencial no lleva antejardín."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El equipamiento solo puede ser aislado."
+    }
+   ]
+  },
+  {
+   "zona": "B-P",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona B-P Transición con actividades productivas inofensivas",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38814.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 200 m²",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,4 (vivienda colectiva en altura)",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "es vivienda unifamiliar (0,5), equipamiento o actividad productiva (0,7) («Coeficiente de Ocupación del Suelo 0,5 (vivienda unifamiliar); 0,7 (equipamiento y actividades productivas)»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,5 (vivienda unifamiliar y actividades productivas)",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "es vivienda colectiva en altura (2,0) o equipamiento (3,0) («Coeficiente de Constructibilidad 2,0 (vivienda colectiva en altura); 3,0 (equipamiento)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar); Altura Máxima de Edificación Continua 9 m",
+   "altura_m": 9,
+   "altura_incentivo_m": 18,
+   "incentivo_texto": "es vivienda colectiva en altura o equipamiento (18 m) o actividad productiva (15 m); la vivienda unifamiliar y la edificación continua llegan a 9 m: «Altura Máxima de Edificación 18 m (vivienda colectiva en altura y equipamiento); 15 m (actividades productivas)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín de edificación aislada y pareada 3 m (vivienda unifamiliar); 5 m (vivienda colectiva en altura, equipamiento y actividades productivas); edificación continua: no se permite",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado / Pareado / Continuo (uso residencial); Aislado (equipamiento y actividades productivas)",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 5 m (vivienda unifamiliar) o 10 m (vivienda colectiva, equipamiento y actividades productivas) al medianero colindante con las Zonas A, A-1, A-P y C, o calle de por medio."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Vivienda colectiva en altura, equipamiento y actividades productivas: antejardín de 5 m. La edificación continua residencial no lleva antejardín."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "El equipamiento y las actividades productivas solo pueden ser aislados."
+    }
+   ]
+  },
+  {
+   "zona": "C",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona C Renovación",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38817.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,5 (vivienda unifamiliar y colectiva en altura)",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento («Coeficiente de Ocupación del Suelo 0,8 (equipamiento)»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,2 (vivienda unifamiliar)",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 4,
+   "coef_constructibilidad_condicion": "es vivienda colectiva en altura (3) o equipamiento (4) («Coeficiente de Constructibilidad 3 (vivienda colectiva en altura); 4 (equipamiento)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar); Altura Máxima de Edificación Continua 9 m",
+   "altura_m": 9,
+   "altura_incentivo_m": 30,
+   "incentivo_texto": "es vivienda colectiva en altura o equipamiento (la vivienda unifamiliar y la edificación continua llegan a 9 m): «Altura Máxima de Edificación 30 m (vivienda colectiva en altura y equipamiento)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín de edificación aislada y pareada 3 m (vivienda unifamiliar); 5 m (vivienda colectiva en altura y equipamiento); edificación continua: no se permite",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado / Pareado / Continuo (vivienda unifamiliar y equipamiento); Aislado (vivienda colectiva en altura)",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "altura",
+     "texto": "En calles o pasajes de 10 a menos de 15 m entre líneas oficiales la altura máxima es 1,5 veces su ancho; puede superarse con un cuerpo retirado al menos 5 m de la línea oficial o de edificación, hasta la altura de la zona."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 5 m (vivienda unifamiliar) o 10 m (vivienda colectiva en altura y equipamiento) al medianero colindante con las Zonas A, A-1, A-P y B, o calle de por medio."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Vivienda colectiva en altura y equipamiento: antejardín de 5 m. La edificación continua no lleva antejardín."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La vivienda colectiva en altura solo puede ser aislada."
+    }
+   ]
+  },
+  {
+   "zona": "C-1",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona C-1 Renovación Avenida La Paz",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38820.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,5 (vivienda colectiva en altura)",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "es vivienda unifamiliar o equipamiento («Coeficiente de Ocupación del Suelo 0,8 (vivienda unifamiliar y equipamiento)»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,5 (vivienda unifamiliar)",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 4.0,
+   "coef_constructibilidad_condicion": "es vivienda colectiva en altura o equipamiento («Coeficiente de Constructibilidad 4,0 (vivienda colectiva en altura y equipamiento)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 7 m (vivienda unifamiliar); Altura Máxima de Edificación Continua 7 m",
+   "altura_m": 7,
+   "altura_incentivo_m": 30,
+   "incentivo_texto": "es vivienda colectiva en altura o equipamiento (la vivienda unifamiliar y la edificación continua llegan a 7 m): «Altura Máxima de Edificación 30 m (vivienda colectiva en altura y equipamiento)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín: No se permite",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 5 m (vivienda unifamiliar) o 10 m (vivienda colectiva en altura y equipamiento) al medianero colindante con las Zonas A, A-1, A-P y B, o calle de por medio."
+    }
+   ]
+  },
+  {
+   "zona": "C-2",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona C-2 Renovación Avenida Independencia",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38823.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,5 (vivienda colectiva en altura)",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "es vivienda unifamiliar o equipamiento («Coeficiente de Ocupación del Suelo 0,8 (vivienda unifamiliar y equipamiento)»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,5 (vivienda unifamiliar)",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 4.0,
+   "coef_constructibilidad_condicion": "es vivienda colectiva en altura o equipamiento («Coeficiente de Constructibilidad 4,0 (vivienda colectiva en altura y equipamiento)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 7 m (vivienda unifamiliar); Altura Máxima de Edificación Continua 14 m",
+   "altura_m": 7,
+   "altura_incentivo_m": 30,
+   "incentivo_texto": "es vivienda colectiva en altura o equipamiento (la vivienda unifamiliar llega a 7 m y la edificación continua a 14 m): «Altura Máxima de Edificación 30 m (vivienda colectiva en altura y equipamiento)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín: No se permite",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 5 m (vivienda unifamiliar) o 10 m (vivienda colectiva en altura y equipamiento) al medianero colindante con las Zonas A, A-1, A-P y B, o calle de por medio."
+    }
+   ]
+  },
+  {
+   "zona": "C-P",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona C-P Renovación con actividades productivas inofensivas",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38826.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,5 (vivienda unifamiliar y colectiva en altura)",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento (0,8) o actividad productiva (0,7) («Coeficiente de Ocupación del Suelo 0,8 (equipamiento); 0,7 (actividades productivas)»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de Constructibilidad 1,2 (vivienda unifamiliar)",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 4,
+   "coef_constructibilidad_condicion": "es vivienda colectiva en altura (3), equipamiento (4) o actividad productiva (1,5) («Coeficiente máximo de Constructibilidad 3 (vivienda colectiva en altura); 4 (equipamiento); 1,5 (actividades productivas)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar); Altura Máxima de Edificación Continua 9 m",
+   "altura_m": 9,
+   "altura_incentivo_m": 30,
+   "incentivo_texto": "es vivienda colectiva en altura o equipamiento (30 m) o actividad productiva (12 m); la vivienda unifamiliar y la edificación continua llegan a 9 m: «Altura Máxima de Edificación 30 m (vivienda colectiva en altura y equipamiento); 12 m (actividades productivas)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín de edificación aislada y pareada 3 m (vivienda unifamiliar); 5 m (vivienda colectiva en altura, equipamiento y actividades productivas); edificación continua: no se permite",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado / Pareado / Continuo (vivienda unifamiliar y equipamiento); Aislado (vivienda colectiva en altura y actividades productivas)",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 5 m (vivienda unifamiliar) o 10 m (vivienda colectiva, equipamiento y actividades productivas) al medianero colindante con las Zonas A, A-1, A-P y B, o calle de por medio."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Vivienda colectiva en altura, equipamiento y actividades productivas: antejardín de 5 m. La edificación continua no lleva antejardín."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "La vivienda colectiva en altura y las actividades productivas solo pueden ser aisladas."
+    }
+   ]
+  },
+  {
+   "zona": "D",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona D Frente urbano",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38829.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 500 m²",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del suelo 0,7 (actividades productivas e infraestructura)",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es residencial (hospedaje) o equipamiento («Coeficiente de Ocupación del suelo 0,8 (residencial y equipamiento)»)",
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0 (infraestructura)",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 5.0,
+   "coef_constructibilidad_condicion": "el destino es residencial (hospedaje) o equipamiento (5,0), o industria, almacenamiento o talleres (2,0) («Coeficiente de Constructibilidad 5,0 (residencial y equipamiento); 2,0 (industria, almacenamiento y talleres)»)",
+   "altura_m_texto": "Altura Máxima de Edificación 12 m (actividades productivas e infraestructura)",
+   "altura_m": 12,
+   "altura_incentivo_m": 54,
+   "incentivo_texto": "el destino es residencial (hospedaje) o equipamiento: «Altura Máxima de Edificación 54 m (residencial y equipamiento)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín 6 m",
+   "antejardin_m": 6,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "altura",
+     "texto": "En la Zona D se prohíbe en forma expresa el destino vivienda: el uso residencial que alcanza 54 m es hospedaje."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 12 m (8 m para talleres) al medianero colindante con las Zonas A, A-1, A-P y B, o calle de por medio; 5 m para actividades productivas e infraestructura."
+    }
+   ]
+  },
+  {
+   "zona": "EQ",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona EQ Equipamiento de salud",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38834.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.500 m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4",
+   "coef_constructibilidad": 4,
+   "altura_m_texto": "Altura Máxima de Edificación 30 m",
+   "altura_m": 30,
+   "antejardin_m_texto": "Antejardín 10 m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    }
+   ]
+  },
+  {
+   "zona": "EQ-1",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona EQ-1 Equipamiento de educación superior",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38838.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 1.000 m²",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 4",
+   "coef_constructibilidad": 4,
+   "altura_m_texto": "Altura Máxima de Edificación 30 m",
+   "altura_m": 30,
+   "antejardin_m_texto": "Antejardín 10 m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    }
+   ]
+  },
+  {
+   "zona": "RD-1",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona RD-1 Áreas recreacionales y deportivas de nivel metropolitano",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38841.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 2.500 m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 3",
+   "coef_constructibilidad": 3,
+   "altura_m_texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar)",
+   "altura_m": 9,
+   "altura_incentivo_m": 30,
+   "incentivo_texto": "es vivienda colectiva en altura (30 m) o equipamiento (14 m): «Altura Máxima de Edificación 30 m (vivienda colectiva en altura); 14 m (equipamiento)»",
+   "incentivo_pagina": 0,
+   "antejardin_m_texto": "Antejardín 3 m (vivienda unifamiliar); 5 m (vivienda colectiva en altura); 10 m (equipamiento)",
+   "antejardin_m": 3,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Distanciamiento de 5 m (vivienda unifamiliar) o 10 m (vivienda colectiva en altura y equipamiento) al medianero colindante con las Zonas A, A-1, A-P y B, o calle de por medio."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Vivienda colectiva en altura: antejardín de 5 m; equipamiento: 10 m."
+    }
+   ]
+  },
+  {
+   "zona": "RD-2",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona RD-2 Áreas recreacionales y deportivas de nivel comunal",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38843.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial 2.500 m²",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,25",
+   "coef_ocupacion_suelo": 0.25,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 0,25",
+   "coef_constructibilidad": 0.25,
+   "altura_m_texto": "Altura Máxima de Edificación 12 m",
+   "altura_m": 12,
+   "antejardin_m_texto": "Antejardín 10 m",
+   "antejardin_m": 10,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    }
+   ]
+  },
+  {
+   "zona": "P-1-1-1",
+   "pagina": 0,
+   "seccion": "Artículo 13, Zona P-1-1-1 Zona Típica Población Los Castaños",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38845.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "altura",
+     "texto": "Zona Típica (Ley N° 17.288): la altura máxima es la existente; un 2° piso sobre edificación continua en la línea oficial debe retranquearse al menos 3 m."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Zona Típica: el sistema de agrupamiento es el existente."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Zona Típica: el antejardín es el existente."
+    }
+   ]
+  },
+  {
+   "zona": "P-1-1-2",
+   "pagina": 0,
+   "seccion": "Artículo 13, Zona P-1-1-2 Zona Típica Población Manuel Montt",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38847.jpg"
+   ],
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "antejardin_m_texto": "Antejardín 2 m, salvo en los casos en que existe edificación continua sobre la línea oficial en que no se aplicará antejardín",
+   "antejardin_m": 2,
+   "pisos": 2,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Aislado / Pareado / Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "altura",
+     "texto": "Zona Típica (Ley N° 17.288): la altura máxima es de 2 pisos, sin cifra en metros; un 2° piso sobre edificación continua en la línea oficial debe retranquearse al menos 3 m."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Donde existe edificación continua sobre la línea oficial no se aplica antejardín."
+    }
+   ]
+  },
+  {
+   "zona": "P-2-1-1",
+   "pagina": 0,
+   "seccion": "Artículo 13, Zona P-2-1-1 Zona de Conservación Histórica Cité",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38854.jpg"
+   ],
+   "coef_constructibilidad_texto": "Coeficiente de Constructibilidad 1,0",
+   "coef_constructibilidad": 1.0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "ocupacion",
+     "texto": "Zona de Conservación Histórica: no puede aumentarse la superficie de ocupación existente."
+    },
+    {
+     "campo": "altura",
+     "texto": "Zona de Conservación Histórica: la altura máxima es la existente (unidades de 1 o 2 pisos; un 2° piso se levanta sobre la línea de la edificación existente)."
+    }
+   ]
+  },
+  {
+   "zona": "P-2-1-2",
+   "pagina": 0,
+   "seccion": "Artículo 13, Zona P-2-1-2 Zona de Conservación Histórica Barrio Los Carmelitos",
+   "imagenes": [
+    "https://www.bcn.cl/leychile/Navegar/imagen/JPG/38856.jpg"
+   ],
+   "superficie_predial_minima_m2_texto": "Superficie Predial Mínima 300 m²",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente de Ocupación del Suelo 0,6 (uso residencial)",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "el destino es equipamiento («Coeficiente de Ocupación del Suelo 0,8 (uso equipamiento)»)",
+   "antejardin_m_texto": "Antejardín: No se permite (uso residencial); Existente (uso equipamiento)",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de Agrupamiento Continuo",
+   "advertencias": [
+    {
+     "campo": "altura",
+     "texto": "En pasajes y calles de menos de 10 m entre líneas oficiales la altura máxima es 9 m para la edificación aislada y 6 m para la pareada y continua; en esquinas rige la calle de mayor ancho hasta 15 m de profundidad (Art. 4)."
+    },
+    {
+     "campo": "rasante",
+     "texto": "La rasante es de 70°, pero de 60° en los deslindes con un predio que contenga un edificio de uso público, un inmueble de conservación histórica, un monumento nacional, áreas verdes o áreas recreacionales-deportivas (Art. 5)."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Si el predio colinda con predios de la misma zona, las edificaciones de más de cuatro pisos deben distanciarse de todos los medianeros 1/4 de su altura total, sin bajar del mínimo de la zona ni de la OGUC (Art. 5)."
+    },
+    {
+     "campo": "altura",
+     "texto": "Zona de Conservación Histórica: la altura máxima es la existente."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "No se permite distanciamiento a medianeros (edificación continua)."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "Equipamiento: el antejardín es el existente."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Independencia (PRCI), Decreto Alcaldicio N° 179 de 14-03-2014 (D.O. 20-03-2014), texto oficial de la BCN",
+ "url": "https://www.bcn.cl/leychile/navegar?idNorma=1060403",
+ "extraido": "2026-09-30",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "A",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 9 m (uso residencial y equipamiento)",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona A Baja altura",
+   "nota": null
+  },
+  {
+   "zona": "A-1",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar)",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona A-1 Residencial mixta baja altura",
+   "nota": null
+  },
+  {
+   "zona": "A-1P",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar)",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona A-1-P Residencial mixta baja altura con actividades productivas inofensivas",
+   "nota": null
+  },
+  {
+   "zona": "B",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar); Altura Máxima de Edificación Continua 9 m",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona B Transición",
+   "nota": null
+  },
+  {
+   "zona": "B-P",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar); Altura Máxima de Edificación Continua 9 m",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona B-P Transición con actividades productivas inofensivas",
+   "nota": null
+  },
+  {
+   "zona": "C",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar); Altura Máxima de Edificación Continua 9 m",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona C Renovación",
+   "nota": null
+  },
+  {
+   "zona": "C-1",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 7 m (vivienda unifamiliar); Altura Máxima de Edificación Continua 7 m",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona C-1 Renovación Avenida La Paz",
+   "nota": null
+  },
+  {
+   "zona": "C-2",
+   "altura_m": 7,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 7 m (vivienda unifamiliar); Altura Máxima de Edificación Continua 14 m",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona C-2 Renovación Avenida Independencia",
+   "nota": null
+  },
+  {
+   "zona": "C-P",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar); Altura Máxima de Edificación Continua 9 m",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona C-P Renovación con actividades productivas inofensivas",
+   "nota": null
+  },
+  {
+   "zona": "D",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 12 m (actividades productivas e infraestructura)",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona D Frente urbano",
+   "nota": null
+  },
+  {
+   "zona": "EQ",
+   "altura_m": 30,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 30 m",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona EQ Equipamiento de salud",
+   "nota": null
+  },
+  {
+   "zona": "EQ-1",
+   "altura_m": 30,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 30 m",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona EQ-1 Equipamiento de educación superior",
+   "nota": null
+  },
+  {
+   "zona": "RD-1",
+   "altura_m": 9,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 9 m (vivienda unifamiliar)",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona RD-1 Áreas recreacionales y deportivas de nivel metropolitano",
+   "nota": null
+  },
+  {
+   "zona": "RD-2",
+   "altura_m": 12,
+   "pisos": null,
+   "texto": "Altura Máxima de Edificación 12 m",
+   "pagina": 0,
+   "seccion": "Artículo 12, Zona RD-2 Áreas recreacionales y deportivas de nivel comunal",
+   "nota": null
+  }
+ ]
+}

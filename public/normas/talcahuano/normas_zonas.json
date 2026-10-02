@@ -1,0 +1,2869 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Talcahuano (Decreto N° 247, D.O. 31-01-2006), «versión referencial integrada 2016» publicada por la Municipalidad de Talcahuano (copia de archive.org del 25-08-2025 del enlace municipal)",
+ "url": "https://adm.talcahuano.cl/imagenes/ckfinder/files/ORDENANZA%20VERSION%20REFERENCIAL%20INTEGRADA_2016.pdf",
+ "sha256": "044bd34f475e1a1be082de15ae5cbf9609ce59b448b78df33636433cdc3f088b",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "ZH-1",
+   "pagina": 33,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 1: (Las Canchas – Población Young)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 200 500 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6 0,5 0,6",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,6 / 0,5 / 0,6); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,6 0,5 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1 1 1",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de la edificación (m): 7 9 9",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 9.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 7 / 9 / 9 m): «Altura máxima de la edificación (m): 7 9 9»",
+   "incentivo_pagina": 33,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 3 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-C A-C A-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 200 / 500 / 200 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 / 7 / 7 m según el destino; la aplicación verifica la altura máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-2",
+   "pagina": 34,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 2: (Poblaciones Navales, Señoret y Bannen)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 500 500 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,4 0,4 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,8 0,8 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de la edificación (m): 9 9 9",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 4 4 4",
+   "antejardin_m": 4.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A A A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-3",
+   "pagina": 35,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 3: (Centro)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 200 300 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,8 1 1",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,8 / 1 / 1); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,8 1 1»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 2 8 8",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 8.0,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 2 / 8 / 8); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 2 8 8»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 12 30 30",
+   "altura_m": 12.0,
+   "altura_incentivo_m": 30.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 12 / 30 / 30 m): «Altura máxima de la edificación (m): 12 30 30»",
+   "incentivo_pagina": 35,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: C A-C (*) A-C (*)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 200 / 300 / 200 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 12 / 15 / 15 m según el destino; la aplicación verifica la altura máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-4",
+   "pagina": 36,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 4: (David Fuentes)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 200 300 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6 0,7 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,6 / 0,7 / 0,6); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,6 0,7 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,5 4 1,5",
+   "coef_constructibilidad": 1.5,
+   "coef_constructibilidad_max": 4.0,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 1,5 / 4 / 1,5); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 1,5 4 1,5»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 9 20 9",
+   "altura_m": 9.0,
+   "altura_incentivo_m": 20.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 9 / 20 / 9 m): «Altura máxima de la edificación (m): 9 20 9»",
+   "incentivo_pagina": 36,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 3 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: P-C A-P-C A-P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 200 / 300 / 200 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 9 / 15 / 9 m según el destino; la aplicación verifica la altura máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-5",
+   "pagina": 37,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 5: (Bilbao – Simon)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 180 1500 180",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,7 0,4 0,7",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,7 / 0,4 / 0,7); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,7 0,4 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 2 6 4,8",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 6.0,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 2 / 6 / 4,8); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 2 6 4,8»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 10 30 30",
+   "altura_m": 10.0,
+   "altura_incentivo_m": 30.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 10 / 30 / 30 m): «Altura máxima de la edificación (m): 10 30 30»",
+   "incentivo_pagina": 37,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: P-C A-C (*) A-P-C (*)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 180 / 1.500 / 180 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10 / 15 / 15 m según el destino; la aplicación verifica la altura máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-6",
+   "pagina": 38,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 6: (Bilbao – San Vicente)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 180 300 180",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,7 1 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_ocupacion_suelo_max": 1.0,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,7 / 1 / 0,7); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,7 1 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 2 8 4,8",
+   "coef_constructibilidad": 2.0,
+   "coef_constructibilidad_max": 8.0,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 2 / 8 / 4,8); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 2 8 4,8»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 10 30 30",
+   "altura_m": 10.0,
+   "altura_incentivo_m": 30.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 10 / 30 / 30 m): «Altura máxima de la edificación (m): 10 30 30»",
+   "incentivo_pagina": 38,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: P-C A-C (*) A-P-C (*)",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 180 / 300 / 180 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 10 / 15 / 10 m según el destino; la aplicación verifica la altura máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-7",
+   "pagina": 39,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 7: (Salinas – Santa Clara)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 300 900 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6 0,5 0,6",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,6 / 0,5 / 0,6); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,6 0,5 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1 2,5 1",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 1 / 2,5 / 1); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 1 2,5 1»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 9 15 9",
+   "altura_m": 9.0,
+   "altura_incentivo_m": 15.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 9 / 15 / 9 m): «Altura máxima de la edificación (m): 9 15 9»",
+   "incentivo_pagina": 39,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 2 4 2",
+   "antejardin_m": 4.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P A-P A-P",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 300 / 900 / 300 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación pareada llega a 7 / 7 / 7 m según el destino; la aplicación verifica la altura máxima."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La línea de edificación respecto de la línea oficial depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 2 / 4 / 2 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-8",
+   "pagina": 40,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 8: (Salinas)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 240 1.000 240",
+   "superficie_predial_minima_m2": 240,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6 0,6 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2 3 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 1,2 / 3 / 1,2); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 1,2 3 1,2»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 12 15 12",
+   "altura_m": 12.0,
+   "altura_incentivo_m": 15.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 12 / 15 / 12 m): «Altura máxima de la edificación (m): 12 15 12»",
+   "incentivo_pagina": 40,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 2 4 2",
+   "antejardin_m": 4.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P-C A-C A-P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 240 / 1.000 / 240 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 / 7 / 7 m según el destino; la aplicación verifica la altura máxima."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La línea de edificación respecto de la línea oficial depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 2 / 4 / 2 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-9",
+   "pagina": 41,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 9: (Higueras – Salinas – Los Cóndores – Cruz del Sur –",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 140 1.000 160",
+   "superficie_predial_minima_m2": 140,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,7 0,6 0,7",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,7 / 0,6 / 0,7); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,7 0,6 0,7»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2 3 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 1,2 / 3 / 1,2); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 1,2 3 1,2»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 9 15 9",
+   "altura_m": 9.0,
+   "altura_incentivo_m": 15.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 9 / 15 / 9 m): «Altura máxima de la edificación (m): 9 15 9»",
+   "incentivo_pagina": 41,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 3 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P-C A A-P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 140 / 1.000 / 160 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 9 / 15 / 9 m según el destino; la aplicación verifica la altura máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-10",
+   "pagina": 42,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 10: (Santa Leonor – Santa María)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 350 900 350",
+   "superficie_predial_minima_m2": 350,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6 0,5 0,6",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,6 / 0,5 / 0,6); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,6 0,5 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,6 2,5 1,2",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,6 / 2,5 / 1,2); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 0,6 2,5 1,2»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 9 15 9",
+   "altura_m": 9.0,
+   "altura_incentivo_m": 15.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 9 / 15 / 9 m): «Altura máxima de la edificación (m): 9 15 9»",
+   "incentivo_pagina": 42,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 4 3",
+   "antejardin_m": 4.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P A-P A-P",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 350 / 900 / 350 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación pareada llega a 7 / 7 / 7 m según el destino; la aplicación verifica la altura máxima."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La línea de edificación respecto de la línea oficial depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 3 / 4 / 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-11",
+   "pagina": 43,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 11: (Diego Portales – P. Lynch – Carlos Condell)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 160 900 160",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,8 0,5 0,8",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,8 / 0,5 / 0,8); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,8 0,5 0,8»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1 2,5 1",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 2.5,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 1 / 2,5 / 1); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 1 2,5 1»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 7 15 7",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 15.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 7 / 15 / 7 m): «Altura máxima de la edificación (m): 7 15 7»",
+   "incentivo_pagina": 43,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 4 3",
+   "antejardin_m": 4.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P-C A-P A-P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 160 / 900 / 160 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 / 7 / 7 m según el destino; la aplicación verifica la altura máxima."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La línea de edificación respecto de la línea oficial depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 3 / 4 / 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-12",
+   "pagina": 44,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 12: (Esmeralda)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 140 1.000 450",
+   "superficie_predial_minima_m2": 140,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,7 0,6 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,7 / 0,6 / 0,5); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,7 0,6 0,5»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2 3 1,5",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 1,2 / 3 / 1,5); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 1,2 3 1,5»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 9 15 12",
+   "altura_m": 9.0,
+   "altura_incentivo_m": 15.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 9 / 15 / 12 m): «Altura máxima de la edificación (m): 9 15 12»",
+   "incentivo_pagina": 44,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 4 4",
+   "antejardin_m": 4.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P-C A-C A-P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 140 / 1.000 / 450 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 / 7 / 7 m según el destino; la aplicación verifica la altura máxima."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La línea de edificación respecto de la línea oficial depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 3 / 4 / 4 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-13",
+   "pagina": 45,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 13: (Carriel Sur)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 200 1.000 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6 0,6 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1 3,0 1",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 3.0,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 1 / 3 / 1); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 1 3,0 1»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 9 20 9",
+   "altura_m": 9.0,
+   "altura_incentivo_m": 20.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 9 / 20 / 9 m): «Altura máxima de la edificación (m): 9 20 9»",
+   "incentivo_pagina": 45,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 5 3",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P A A-P",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 200 / 1.000 / 200 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación pareada llega a 9 / 9 m según el destino; la aplicación verifica la altura máxima."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La línea de edificación respecto de la línea oficial depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 3 / 5 / 3 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-14",
+   "pagina": 46,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 14 (Aeropuerto)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 1.000 1.000 2.000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3 0,6 0,6",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.6,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,3 / 0,6 / 0,6); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,3 0,6 0,6»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,5 6 4",
+   "coef_constructibilidad": 0.5,
+   "coef_constructibilidad_max": 6.0,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,5 / 6 / 4); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 0,5 6 4»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 10 45 (*) 45 (*)",
+   "altura_m": 10.0,
+   "altura_incentivo_m": 45.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 10 / 45 / 45 m): «Altura máxima de la edificación (m): 10 45 (*) 45 (*)»",
+   "incentivo_pagina": 46,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5 5 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A A A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 1.000 / 1.000 / 2.000 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-1T",
+   "pagina": 47,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 1T: (Cerro Vista Hermosa y Cerro Zaror)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 200 400 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,7 0,7 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,4 1,4 1,4",
+   "coef_constructibilidad": 1.4,
+   "altura_m_texto": "Altura máxima de la edificación (m): 7 9 7",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 9.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 7 / 9 / 7 m): «Altura máxima de la edificación (m): 7 9 7»",
+   "incentivo_pagina": 47,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): Art. 31 Art. 31 Art. 31",
+   "antejardin_m": 31.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P-C A-P-C A-P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 200 / 400 / 200 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 / 7 / 7 m según el destino; la aplicación verifica la altura máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-2T",
+   "pagina": 48,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 2T: (Cerro Buena Vista)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 200 400 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,4 0,4 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2 1,2 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 9 9 9",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): Art. 31 Art. 31 Art. 31",
+   "antejardin_m": 31.0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-C A-C A-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 200 / 400 / 200 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-3T",
+   "pagina": 49,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 3T: (Cerro La Gloria y Monte Redondo)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 180 180 180",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,8 0,8 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,6 1,6 1,6",
+   "coef_constructibilidad": 1.6,
+   "altura_m_texto": "Altura máxima de la edificación (m): 7 7 7",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 2 2 2",
+   "antejardin_m": 2.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: 2 A-P-C A-P-C A-P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-4T",
+   "pagina": 50,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 4T: (Los Lobos)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 140 140 140",
+   "superficie_predial_minima_m2": 140,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,7 0,7 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,0 1,0 1,0",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de la edificación (m): 7 7 7",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): Art. 31 Art. 31 Art. 31",
+   "antejardin_m": 31.0,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: P-C P-C P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-5T",
+   "pagina": 51,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 5T: (Nueva Los Lobos)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 120 120 120",
+   "superficie_predial_minima_m2": 120,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,8 0,8 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,6 1,6 1,6",
+   "coef_constructibilidad": 1.6,
+   "altura_m_texto": "Altura máxima de la edificación (m): 7 7 7",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 2 2 2",
+   "antejardin_m": 2.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: 5 A-P-C A-P-C A-P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento para alguno de los destinos."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-6T",
+   "pagina": 52,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 6T: (Centinela Sur)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 180 2.000 2.000",
+   "superficie_predial_minima_m2": 180,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,8 0,3 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,8 / 0,3 / 0,3); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,8 0,3 0,3»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,6 1,0 1,0",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 1,6 / 1 / 1); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 1,6 1,0 1,0»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 7 12 12",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 12.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 7 / 12 / 12 m): «Altura máxima de la edificación (m): 7 12 12»",
+   "incentivo_pagina": 52,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 2 5 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: P-C A A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 180 / 2.000 / 2.000 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 5 m según el destino; la aplicación verifica la altura máxima."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La línea de edificación respecto de la línea oficial depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 2 / 5 / 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento para alguno de los destinos."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-7T",
+   "pagina": 53,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 7T: (Hijuela Los Copihues)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 100 100 100",
+   "superficie_predial_minima_m2": 100,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6 0,6 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2 1,2 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 7 7 7",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 3 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: P-C P-C P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZH-8T",
+   "pagina": 54,
+   "seccion": "Art. 42, ZONA RESIDENCIAL, ZH- 8T:",
+   "superficie_predial_minima_m2_texto": "Superficie de subdivisión predial mínima (m²): 100",
+   "superficie_predial_minima_m2": 100,
+   "coef_ocupacion_suelo_texto": "Coeficiente de ocupación de suelo: 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente de constructibilidad: 1,6",
+   "coef_constructibilidad": 1.6,
+   "altura_m_texto": "Altura máxima de la edificación (m): 9",
+   "altura_m": 9.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: Aislado y Pareado",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXH-1",
+   "pagina": 56,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 1: (Las Canchas):",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 300 600 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,5 0,5 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1 1 1",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de la edificación (m): 9 9 9",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 3 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A A A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 300 / 600 / 300 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento para alguno de los destinos."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXH-2",
+   "pagina": 57,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 2: (Las Canchas):",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 500 500 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,4 0,4 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,8 0,8 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de la edificación (m): 9 9 9",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 4 4 4",
+   "antejardin_m": 4.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A A A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento para alguno de los destinos."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXH-1T",
+   "pagina": 58,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 1T: (Centinela Norte)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 200 5.000 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,4 0,3 0,4",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,4 / 0,3 / 0,4); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,4 0,3 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2 1,5 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 1,2 / 1,5 / 1,2); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 1,2 1,5 1,2»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 9 15 9",
+   "altura_m": 9.0,
+   "altura_incentivo_m": 15.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 9 / 15 / 9 m): «Altura máxima de la edificación (m): 9 15 9»",
+   "incentivo_pagina": 58,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 3 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A ----- A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 200 / 5.000 / 200 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento para alguno de los destinos."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXH-2T",
+   "pagina": 59,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 2T: (Centinela)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima edificación 1 piso (m²): 120 400 120",
+   "superficie_predial_minima_m2": 120,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,8 0,4 0,8",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,8 / 0,4 / 0,8); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,8 0,4 0,8»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,6 1,2 1,6",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.6,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 1,6 / 1,2 / 1,6); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 1,6 1,2 1,6»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 7 9 7",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 9.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 7 / 9 / 7 m): «Altura máxima de la edificación (m): 7 9 7»",
+   "incentivo_pagina": 59,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial 1 piso (m): 3 3 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: P-C P-C P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 120 / 400 / 120 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 / 7 / 7 m según el destino; la aplicación verifica la altura máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXH-3T",
+   "pagina": 60,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 3T: (Centinela Sur)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 200 2.000 200",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,4 0,3 0,4",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,4 / 0,3 / 0,4); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,4 0,3 0,4»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2 1,5 1,2",
+   "coef_constructibilidad": 1.2,
+   "coef_constructibilidad_max": 1.5,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 1,2 / 1,5 / 1,2); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 1,2 1,5 1,2»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 9 15 9",
+   "altura_m": 9.0,
+   "altura_incentivo_m": 15.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 9 / 15 / 9 m): «Altura máxima de la edificación (m): 9 15 9»",
+   "incentivo_pagina": 60,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 5 3",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A A A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 200 / 2.000 / 200 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La línea de edificación respecto de la línea oficial depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 3 / 5 / 3 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento para alguno de los destinos."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXH-4T",
+   "pagina": 61,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 4T: (Fuerte O’ Higgins)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 175 350 175",
+   "superficie_predial_minima_m2": 175,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,5 0,5 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2 1,2 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 8 8 8",
+   "altura_m": 8.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 3 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P A-P A-P",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 175 / 350 / 175 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXH-5T",
+   "pagina": 62,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 5T: (Los Lobos)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 500 2.500 2.500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,4 0,3 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.4,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,4 / 0,3 / 0,3); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,4 0,3 0,3»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,8 0,6 0,6",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 0.8,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 0,8 / 0,6 / 0,6); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 0,8 0,6 0,6»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 9 8 8",
+   "altura_m": 8.0,
+   "altura_incentivo_m": 9.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 9 / 8 / 8 m): «Altura máxima de la edificación (m): 9 8 8»",
+   "incentivo_pagina": 62,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 4 5 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A A A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 500 / 2.500 / 2.500 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La línea de edificación respecto de la línea oficial depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 4 / 5 / 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento para alguno de los destinos."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXH-6T",
+   "pagina": 63,
+   "seccion": "Art. 42, ZONA EXTENSIÓN RESIDENCIAL, ZEXH- 6T: (Península de Tumbes)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 175 175",
+   "superficie_predial_minima_m2": 175,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,5 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1 1",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de la edificación (m): 8 8",
+   "altura_m": 8.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P A-P",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZHEQ-1",
+   "pagina": 64,
+   "seccion": "Art. 42, ZONA RESIDENCIAL EQUIPAMIENTO, ZHEQ- 1: (Salinas)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 500 1.000 480",
+   "superficie_predial_minima_m2": 480,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,5 0,6 0,8",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.8,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Equipamiento: 0,5 / 0,6 / 0,8); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,5 0,6 0,8»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1 4,8 4",
+   "coef_constructibilidad": 1.0,
+   "coef_constructibilidad_max": 4.8,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Equipamiento: 1 / 4,8 / 4); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 1 4,8 4»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 10 20 15",
+   "altura_m": 10.0,
+   "altura_incentivo_m": 20.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Equipamiento: 10 / 20 / 15 m): «Altura máxima de la edificación (m): 10 20 15»",
+   "incentivo_pagina": 64,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P-C A-C A-P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Equipamiento): 500 / 1.000 / 480 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 / 7 / 7 m según el destino; la aplicación verifica la altura máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZEQ-1",
+   "pagina": 65,
+   "seccion": "Art. 42, ZONA EQUIPAMIENTO, ZEQ- 1:",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "Altura máxima de la edificación (m): 12",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEQ-2",
+   "pagina": 66,
+   "seccion": "Art. 42, ZONA EQUIPAMIENTO, ZEQ- 2:",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 6 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 7 2,0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de la edificación (m): 8 30",
+   "altura_m": 30.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEQ-3",
+   "pagina": 67,
+   "seccion": "Art. 42, ZONA EQUIPAMIENTO, ZEQ- 3:",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 2,0",
+   "coef_constructibilidad": 2.0,
+   "altura_m_texto": "Altura máxima de la edificación (m): 45",
+   "altura_m": 45.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEQ-4",
+   "pagina": 68,
+   "seccion": "Art. 42, ZONA EQUIPAMIENTO, ZEQ- 4: (Ventana al Mar - Huachipato)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 12",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "rasante_grados": 60,
+   "rasante_texto": "Ángulo de la Rasante: 60°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Nota (*) del cuadro: distancia mínima del 1° y siguientes pisos, fachada con y sin vano, de 5,0 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZEQ-5",
+   "pagina": 69,
+   "seccion": "Art. 42, ZONA EQUIPAMIENTO, ZEQ- 5: (Ventana al Mar)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima de la edificación (m): 15",
+   "altura_m": 15.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "rasante_grados": 60,
+   "rasante_texto": "Ángulo de la Rasante: 60°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Nota (*) del cuadro: distancia mínima del 1° y siguientes pisos, fachada con y sin vano, de 5,0 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZEQ-6",
+   "pagina": 70,
+   "seccion": "Art. 42, ZONA EQUIPAMIENTO, ZEQ- 6: (San Vicente Sur)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 2,4",
+   "coef_constructibilidad": 2.4,
+   "altura_m_texto": "Altura máxima de la edificación (m): 15",
+   "altura_m": 15.0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZEQ-7",
+   "pagina": 71,
+   "seccion": "Art. 42, ZONA EQUIPAMIENTO, ZEQ- 7: (Península de Tumbes9)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de la edificación (m): -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 10 Artículo 31",
+   "antejardin_m": 31.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La línea de edificación respecto de la línea oficial depende del destino (): 10 / 31 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXEQ-1",
+   "pagina": 72,
+   "seccion": "Art. 42, ZONA EXTENSIÓN EQUIPAMIENTO, ZEXEQ- 1: (El Manzano)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "Altura máxima de la edificación (m): 12",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXEQ-2",
+   "pagina": 73,
+   "seccion": "Art. 42, ZONA EXTENSIÓN EQUIPAMIENTO, ZEXEQ- 2: (Cerro San Miguel)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 5.000",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 15",
+   "altura_m": 15.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXEQ-3",
+   "pagina": 74,
+   "seccion": "Art. 42, ZONA EXTENSIÓN EQUIPAMIENTO, ZEXEQ- 3: (Carriel Sur)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,7",
+   "coef_constructibilidad": 0.7,
+   "altura_m_texto": "Altura máxima de la edificación (m): 21",
+   "altura_m": 21.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXEQ-4",
+   "pagina": 75,
+   "seccion": "Art. 42, ZONA EXTENSIÓN EQUIPAMIENTO, ZEXEQ- 4: (El Morro)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de la edificación (m): 15",
+   "altura_m": 15.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXEQ-5",
+   "pagina": 76,
+   "seccion": "Art. 42, ZONA EXTENSIÓN EQUIPAMIENTO, ZEXEQ- 5: (Península de Tumbes)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 300",
+   "superficie_predial_minima_m2": 300,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de la edificación (m): -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZE-1",
+   "pagina": 77,
+   "seccion": "Art. 42, ZONA ESPARCIMIENTO, ZE-1 y ZEXE-1:",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 12",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXE-1",
+   "pagina": 77,
+   "seccion": "Art. 42, ZONA ESPARCIMIENTO, ZE-1 y ZEXE-1:",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 12",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZAV-1",
+   "pagina": 78,
+   "seccion": "Art. 42, ZONA ÁREA VERDE, ZAV-1: (Vecinal)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 500",
+   "superficie_predial_minima_m2": 500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 7",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZAV-2",
+   "pagina": 79,
+   "seccion": "Art. 42, ZONA ÁREA VERDE, ZAV-2: (Barrio)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 1.500",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,4",
+   "coef_constructibilidad": 0.4,
+   "altura_m_texto": "Altura máxima de la edificación (m): 9",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZAV-3",
+   "pagina": 80,
+   "seccion": "Art. 42, ZONA ÁREA VERDE, ZAV-3: (Parques comunales)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,6",
+   "coef_constructibilidad": 0.6,
+   "altura_m_texto": "Altura máxima de la edificación (m): 9",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZAV-4",
+   "pagina": 81,
+   "seccion": "Art. 42, ZONA ÁREA VERDE, ZAV-4: (Península de Tumbes)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,6",
+   "coef_constructibilidad": 0.6,
+   "altura_m_texto": "Altura máxima de la edificación (m): 9",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXAV",
+   "pagina": 82,
+   "seccion": "Art. 42, ZONA ÁREA VERDE, ZEXAV: (Barrio)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 1.500",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,4",
+   "coef_constructibilidad": 0.4,
+   "altura_m_texto": "Altura máxima de la edificación (m): 9",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZCA-1",
+   "pagina": 83,
+   "seccion": "Art. 42, ZONA CALETA TUMBES, ZCA- 1: (Caleta Tumbes)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 160 320 200",
+   "superficie_predial_minima_m2": 160,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6 0,6 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2 1,2 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 7 7 9",
+   "altura_m": 7.0,
+   "altura_incentivo_m": 9.0,
+   "incentivo_texto": "según el destino (columnas del cuadro: Residencia Unifamiliar Residencia Colectiva Otros Usos: 7 / 7 / 9 m): «Altura máxima de la edificación (m): 7 7 9»",
+   "incentivo_pagina": 83,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 (optativo) 3 (optativo) 3 (optativo)",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-C A-C A-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Residencia Unifamiliar Residencia Colectiva Otros Usos): 160 / 320 / 200 m²."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 7 / 9 / 9 m según el destino; la aplicación verifica la altura máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZCA-2",
+   "pagina": 84,
+   "seccion": "Art. 42, ZONA CALETA, ZCA- 2: (Caleta El Morro - Rocuant)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 100 100 100",
+   "superficie_predial_minima_m2": 100,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6 0,6 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2 1,2 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 7 7 7",
+   "altura_m": 7.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P-C A-P-C A-P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZPC-1",
+   "pagina": 85,
+   "seccion": "Art. 42, ZONA PUERTO COMERCIAL, ZPC-1: (San Vicente)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 3.000",
+   "superficie_predial_minima_m2": 3000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "Altura máxima de la edificación (m): -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 10",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZPC-2",
+   "pagina": 86,
+   "seccion": "Art. 42, ZONA PUERTO COMERCIAL, ZPC-2: (Talcahuano)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 3.000",
+   "superficie_predial_minima_m2": 3000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,9",
+   "coef_constructibilidad": 0.9,
+   "altura_m_texto": "Altura máxima de la edificación (m): -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 10",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZPC-3",
+   "pagina": 87,
+   "seccion": "Art. 42, ZONA PUERTO COMERCIAL, ZPC-3: (San Vicente)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 10.000",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "Altura máxima de la edificación (m): -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5 (optativo)",
+   "antejardin_m": 5.0,
+   "rasante_grados": 60,
+   "rasante_texto": "Ángulo de la Rasante: 60°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: (*) A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Nota (*) del cuadro: distancia mínima del 1° y siguientes pisos, fachada con y sin vano, de 5,0 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXPC-1",
+   "pagina": 88,
+   "seccion": "Art. 42, ZONA EXTENSIÓN PUERTO COMERCIAL, ZEXPC-1: (San Vicente)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 10.000",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,9",
+   "coef_constructibilidad": 0.9,
+   "altura_m_texto": "Altura máxima de la edificación (m): -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 10",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXPC-2",
+   "pagina": 89,
+   "seccion": "Art. 42, ZONA EXTENSIÓN PUERTO COMERCIAL, ZEXPC-2:  (San Vicente-",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 20.000",
+   "superficie_predial_minima_m2": 20000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de la edificación (m): -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 10",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZPEA",
+   "pagina": 90,
+   "seccion": "Art. 42, ZONA PUERTO PESQUERO ARTESANAL, ZPEA:  (San Vicente-Poza Blanco)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de la edificación (m): 15",
+   "altura_m": 15.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 (optativa)",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZPEI",
+   "pagina": 91,
+   "seccion": "Art. 42, ZONA PUERTO PESQUERO INDUSTRIAL, ZPEI: (San Vicente)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,3",
+   "coef_constructibilidad": 0.3,
+   "altura_m_texto": "Altura máxima de la edificación (m): 7",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3 (optativa)",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZAP",
+   "pagina": 92,
+   "seccion": "Art. 42, ZONA ANTEPUERTO, ZAP: (Sitrans – Cap - Muellaje San Vicente)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 10.000",
+   "superficie_predial_minima_m2": 10000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de la edificación (m): 12",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 10",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXAP",
+   "pagina": 93,
+   "seccion": "Art. 42, ZONA EXTENSIÓN ANTEPUERTO, ZEXAP: (Rocuant)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 20.000",
+   "superficie_predial_minima_m2": 20000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1",
+   "coef_constructibilidad": 1.0,
+   "altura_m_texto": "Altura máxima de la edificación (m): 12",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 10",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZSC-1",
+   "pagina": 94,
+   "seccion": "Art. 42, ZONA SERVICIOS COMERCIALES, ZSC-1: (Latorre)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 1.600",
+   "superficie_predial_minima_m2": 1600,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZSC-2",
+   "pagina": 95,
+   "seccion": "Art. 42, ZONA SERVICIOS COMERCIALES, ZSC-2: (San Vicente - Gaete)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 400",
+   "superficie_predial_minima_m2": 400,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,8",
+   "coef_ocupacion_suelo": 0.8,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,6",
+   "coef_constructibilidad": 1.6,
+   "altura_m_texto": "Altura máxima de la edificación (m): 9",
+   "altura_m": 9.0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZSC-3",
+   "pagina": 96,
+   "seccion": "Art. 42, ZONA SERVICIOS COMERCIALES, ZSC-3: (El Morro)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de la edificación (m): 15",
+   "altura_m": 15.0,
+   "agrupamiento": [
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZSC-4",
+   "pagina": 97,
+   "seccion": "Art. 42, ZONA SERVICIOS COMERCIALES, ZSC-4: (Libertad)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 120",
+   "superficie_predial_minima_m2": 120,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 7",
+   "altura_m": 7.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 2",
+   "antejardin_m": 2.0,
+   "agrupamiento": [
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: P",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZSC-5",
+   "pagina": 98,
+   "seccion": "Art. 42, ZONA SERVICIOS COMERCIALES, ZSC-5: (Dinahue)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 1.000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "Altura máxima de la edificación (m): -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZSC-6",
+   "pagina": 99,
+   "seccion": "Art. 42, ZONA SERVICIOS COMERCIALES, ZSC-6: (Arucas)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 3.000",
+   "superficie_predial_minima_m2": 3000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de la edificación (m): 12",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "rasante_grados": 60,
+   "rasante_texto": "Ángulo de la Rasante: 60°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Nota (*) del cuadro: distancia mínima del 1° y siguientes pisos, fachada con y sin vano, de 5,0 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXSC-1",
+   "pagina": 100,
+   "seccion": "Art. 42, ZONA EXTENSIÓN SERVICIOS COMERCIALES, ZEXSC-1: (Huertos Obreros)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 1.000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,8",
+   "coef_constructibilidad": 1.8,
+   "altura_m_texto": "Altura máxima de la edificación (m): -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXSC-2",
+   "pagina": 101,
+   "seccion": "Art. 42, ZONA EXTENSIÓN SERVICIOS COMERCIALES, ZEXSC-2: (Dinahue)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,9",
+   "coef_constructibilidad": 0.9,
+   "altura_m_texto": "Altura máxima de la edificación (m): -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-1",
+   "pagina": 102,
+   "seccion": "Art. 42, ZONA INDUSTRIAL, ZI-1: (Barrio Industrial)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 100.000 2500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,3 0,3",
+   "coef_constructibilidad": 0.3,
+   "altura_m_texto": "Altura máxima de la edificación (m): ----- -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 10 10",
+   "antejardin_m": 10.0,
+   "rasante_grados": 60,
+   "rasante_texto": "Ángulo de Rasante : 60°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Actividad Productiva Peligrosa Otros Usos): 100.000 / 2.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Nota (*) del cuadro: distancia mínima del 1° y siguientes pisos, fachada con y sin vano, de 5,0 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-2",
+   "pagina": 103,
+   "seccion": "Art. 42, ZONA INDUSTRIAL, ZI-2: (Barrio Industrial)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 5.000 1.500",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,9 0,9",
+   "coef_constructibilidad": 0.9,
+   "altura_m_texto": "Altura máxima de la edificación (m): ----- -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Actividad Productiva Infraestructura Equipamiento Área Verde): 5.000 / 1.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-3",
+   "pagina": 104,
+   "seccion": "Art. 42, ZONA INDUSTRIAL, ZI- 3: (ASMAR)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 5.000",
+   "superficie_predial_minima_m2": 5000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 3.5",
+   "coef_constructibilidad": 3.5,
+   "altura_m_texto": "Altura máxima de la edificación (m): 30",
+   "altura_m": 30.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 10",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-4",
+   "pagina": 105,
+   "seccion": "Art. 42, ZONA INDUSTRIAL, ZI-4: (Isla Rocuant - San Vicente)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 5.000 1.500",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,7 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "según el destino (columnas del cuadro: Actividad Productiva Infraestructura Equipamiento Área Verde: 0,7 / 0,3); la base es la cifra más estricta («Coeficiente máximo de ocupación de suelo: 0,7 0,3»)",
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,4 0,6",
+   "coef_constructibilidad": 0.6,
+   "coef_constructibilidad_max": 1.4,
+   "coef_constructibilidad_condicion": "según el destino (columnas del cuadro: Actividad Productiva Infraestructura Equipamiento Área Verde: 1,4 / 0,6); la base es la cifra más estricta («Coeficiente máximo de constructibilidad: 1,4 0,6»)",
+   "altura_m_texto": "Altura máxima de la edificación (m): 15 15",
+   "altura_m": 15.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5 (optativo) 5 (optativo)",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-C A-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Actividad Productiva Infraestructura Equipamiento Área Verde): 5.000 / 1.500 m²."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-5",
+   "pagina": 106,
+   "seccion": "Art. 42, ZONA INDUSTRIAL, ZI-5: (Huertos Obreros)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.000",
+   "superficie_predial_minima_m2": 2000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de la edificación (m): 10",
+   "altura_m": 10.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P-C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación continua llega a 5 m según el destino; la aplicación verifica la altura máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZI-6",
+   "pagina": 107,
+   "seccion": "Art. 42, ZONA INDUSTRIAL, ZI-6: (El Morro - San Vicente)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 1.000",
+   "superficie_predial_minima_m2": 1000,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,7",
+   "coef_ocupacion_suelo": 0.7,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 12",
+   "altura_m": 12.0,
+   "agrupamiento": [
+    "aislado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A - C",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXI-1",
+   "pagina": 108,
+   "seccion": "Art. 42, ZONA EXTENSIÓN INDUSTRIAL, ZEXI-1: (Petroquímicas)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 10.000 1.500",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,6 0,6",
+   "coef_constructibilidad": 0.6,
+   "altura_m_texto": "Altura máxima de la edificación (m): ----- -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 10 5",
+   "antejardin_m": 10.0,
+   "rasante_grados": 60,
+   "rasante_texto": "Ángulo de la Rasante: 60°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Actividad Productiva Infraestructura Equipamiento Área Verde): 10.000 / 1.500 m²."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "La línea de edificación respecto de la línea oficial depende del destino (Actividad Productiva Infraestructura Equipamiento Área Verde): 10 / 5 m."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento para alguno de los destinos."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Nota (*) del cuadro: distancia mínima del 1° y siguientes pisos, fachada con y sin vano, de 5,0 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXI-2",
+   "pagina": 109,
+   "seccion": "Art. 42, ZONA EXTENSIÓN INDUSTRIAL, ZEXI-2: (Barrio Industrial)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 5.000 1.500",
+   "superficie_predial_minima_m2": 1500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,9 0,9",
+   "coef_constructibilidad": 0.9,
+   "altura_m_texto": "Altura máxima de la edificación (m): ----- -----",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "superficie",
+     "texto": "La subdivisión predial mínima depende del destino (Actividad Productiva Infraestructura Equipamiento Área Verde): 5.000 / 1.500 m²."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZEXI-3",
+   "pagina": 110,
+   "seccion": "Art. 42, ZONA EXTENSIÓN INDUSTRIAL, ZEXI-3: (Huertos Obreros)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,5",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de la edificación (m): 10",
+   "altura_m": 10.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZIn",
+   "pagina": 111,
+   "seccion": "Art. 42, ZONA INFRAESTRUCTURA,  ZIn:",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,6",
+   "coef_ocupacion_suelo": 0.6,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,5",
+   "coef_constructibilidad": 1.5,
+   "altura_m_texto": "Altura máxima de la edificación (m): 15",
+   "altura_m": 15.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 3",
+   "antejardin_m": 3.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    }
+   ]
+  },
+  {
+   "zona": "ZC",
+   "pagina": 112,
+   "seccion": "Art. 42, ZONA CEMENTERIO, ZC: (Cementerios)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,2",
+   "coef_constructibilidad": 0.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 9",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZII-1",
+   "pagina": 113,
+   "seccion": "Art. 42, ZONA INTERÉS INSTITUCIONAL, ZII-1: (Base Naval)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 15",
+   "altura_m": 15.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado",
+    "pareado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A-P",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "altura",
+     "texto": "La edificación pareada llega a 9 m según el destino; la aplicación verifica la altura máxima."
+    }
+   ]
+  },
+  {
+   "zona": "ZII-2",
+   "pagina": 114,
+   "seccion": "Art. 42, ZONA INTERÉS INSTITUCIONAL, ZII-2: (Península de Tumbes)",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,3",
+   "coef_ocupacion_suelo": 0.3,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 1,2",
+   "coef_constructibilidad": 1.2,
+   "altura_m_texto": "Altura máxima de la edificación (m): 12",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZA",
+   "pagina": 115,
+   "seccion": "Art. 42, ZONA AEROPUERTO, ZA:",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 1.800",
+   "superficie_predial_minima_m2": 1800,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,4",
+   "coef_ocupacion_suelo": 0.4,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,8",
+   "coef_constructibilidad": 0.8,
+   "altura_m_texto": "Altura máxima de la edificación (m): 12",
+   "altura_m": 12.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 5",
+   "antejardin_m": 5.0,
+   "rasante_grados": 60,
+   "rasante_texto": "Ángulo de la Rasante: 60°",
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "Nota (*) del cuadro: distancia mínima del 1° y siguientes pisos, fachada con y sin vano, de 5,0 m."
+    }
+   ]
+  },
+  {
+   "zona": "ZPCe",
+   "pagina": 116,
+   "seccion": "Art. 42, ZONA PROTECCIÓN DE CERRO, ZPCe:",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,1",
+   "coef_ocupacion_suelo": 0.1,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,1",
+   "coef_constructibilidad": 0.1,
+   "altura_m_texto": "Altura máxima de la edificación (m): 9",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 10",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZPBcP",
+   "pagina": 117,
+   "seccion": "Art. 42, ZONA PROTECCIÓN DE BORDE COSTERO PRODUCTIVO, ZPBcP:",
+   "superficie_predial_minima_m2_texto": "Subdivisión predial mínima (m²): 2.500",
+   "superficie_predial_minima_m2": 2500,
+   "coef_ocupacion_suelo_texto": "Coeficiente máximo de ocupación de suelo: 0,2",
+   "coef_ocupacion_suelo": 0.2,
+   "coef_constructibilidad_texto": "Coeficiente máximo de constructibilidad: 0,4",
+   "coef_constructibilidad": 0.4,
+   "altura_m_texto": "Altura máxima de la edificación (m): 9",
+   "altura_m": 9.0,
+   "antejardin_m_texto": "Línea de edificación respecto a línea oficial (m): 10",
+   "antejardin_m": 10.0,
+   "agrupamiento": [
+    "aislado"
+   ],
+   "agrupamiento_texto": "Sistema de agrupamiento: A",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "distanciamiento",
+     "texto": "El cuadro de la zona no permite el adosamiento."
+    }
+   ]
+  },
+  {
+   "zona": "ZPBc-2",
+   "pagina": 119,
+   "seccion": "Art. 42, ZONA PROTECCIÓN DE BORDE COSTERO, ZPBc-2:",
+   "coef_ocupacion_suelo_texto": "No se permite ningún tipo de edificación.",
+   "coef_ocupacion_suelo": 0,
+   "coef_constructibilidad_texto": "No se permite ningún tipo de edificación.",
+   "coef_constructibilidad": 0,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de protección no edificable: solo áreas verdes y obras de mantención."
+    }
+   ]
+  },
+  {
+   "zona": "ZPBL",
+   "pagina": 119,
+   "seccion": "Art. 42, ZONA PROTECCIÓN DE BORDE DE LAGUNA, ZPBL:",
+   "coef_ocupacion_suelo_texto": "No se permite ningún tipo de edificación.",
+   "coef_ocupacion_suelo": 0,
+   "coef_constructibilidad_texto": "No se permite ningún tipo de edificación.",
+   "coef_constructibilidad": 0,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de protección no edificable: solo áreas verdes y obras de mantención."
+    }
+   ]
+  },
+  {
+   "zona": "ZPDr",
+   "pagina": 119,
+   "seccion": "Art. 42, ZONA PROTECCIÓN DE DRENAJE,  ZPDr:",
+   "coef_ocupacion_suelo_texto": "No se permiten usos, de acuerdo a definición de Zona no Edificable, Artículo 9 de la presente Ordenanza.",
+   "coef_ocupacion_suelo": 0,
+   "coef_constructibilidad_texto": "No se permiten usos, de acuerdo a definición de Zona no Edificable, Artículo 9 de la presente Ordenanza.",
+   "coef_constructibilidad": 0,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de protección no edificable: solo áreas verdes y obras de mantención."
+    }
+   ]
+  },
+  {
+   "zona": "ZPDu",
+   "pagina": 119,
+   "seccion": "Art. 42, ZONA PROTECCIÓN DE DUNA,  ZPDu:",
+   "coef_ocupacion_suelo_texto": "No se permiten usos, de acuerdo a definición de Zona no Edificable, Artículo 9 de la presente Ordenanza.",
+   "coef_ocupacion_suelo": 0,
+   "coef_constructibilidad_texto": "No se permiten usos, de acuerdo a definición de Zona no Edificable, Artículo 9 de la presente Ordenanza.",
+   "coef_constructibilidad": 0,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de protección no edificable: solo áreas verdes y obras de mantención."
+    }
+   ]
+  },
+  {
+   "zona": "ZPM",
+   "pagina": 120,
+   "seccion": "Art. 42, ZONA PROTECCIÓN DE MARISMA,  ZPM:",
+   "coef_ocupacion_suelo_texto": "No se permiten usos, de acuerdo a definición de Zona no Edificable, Artículo 9 de la presente Ordenanza.",
+   "coef_ocupacion_suelo": 0,
+   "coef_constructibilidad_texto": "No se permiten usos, de acuerdo a definición de Zona no Edificable, Artículo 9 de la presente Ordenanza.",
+   "coef_constructibilidad": 0,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de protección no edificable: solo áreas verdes y obras de mantención."
+    }
+   ]
+  },
+  {
+   "zona": "ZNE",
+   "pagina": 120,
+   "seccion": "Art. 42, ZONA NO EDIFICABLE,  ZNE:",
+   "coef_ocupacion_suelo_texto": "No se permiten usos, de acuerdo a definición de Zona no Edificable, Artículo 9 de la presente Ordenanza.",
+   "coef_ocupacion_suelo": 0,
+   "coef_constructibilidad_texto": "No se permiten usos, de acuerdo a definición de Zona no Edificable, Artículo 9 de la presente Ordenanza.",
+   "coef_constructibilidad": 0,
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: «versión referencial integrada 2016» de la Ordenanza Local publicada por la Municipalidad de Talcahuano; no es el texto oficial del Diario Oficial: confirme con la Dirección de Obras Municipales."
+    },
+    {
+     "campo": "zona",
+     "texto": "Zona de protección no edificable: solo áreas verdes y obras de mantención."
+    }
+   ]
+  }
+ ]
+}

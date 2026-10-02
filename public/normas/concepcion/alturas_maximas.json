@@ -1,0 +1,523 @@
+{
+ "norma": "Altura máxima de edificación por zona",
+ "documento": "Ordenanza Local del Plan Regulador Comunal de Concepción (Decreto N° 148, D.O. 22-04-2004), cuadros refundidos de usos de suelo y edificación del Art. 45 según la 17ª Enmienda, Decreto N° 139 exento del 28-01-2026 de la Municipalidad de Concepción (aviso en el D.O. del 07-04-2026; texto completo publicado en el sitio municipal)",
+ "url": "https://concepcion.cl/wp-content/uploads/2026/02/01-DECRETO-N%C2%B0139-SECMUN.pdf",
+ "extraido": "2026-10-01",
+ "metodo": "Mismas cifras que normas_zonas.json.",
+ "alcance": "Referencia volumétrica: altura base de la zona, sin alturas condicionadas, rasantes ni distanciamientos, que se verifican aparte.",
+ "zonas": [
+  {
+   "zona": "H1",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16m equivalente a 5 pisos",
+   "pagina": 19,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H1",
+   "nota": null
+  },
+  {
+   "zona": "H1L",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10 m equivalente a 4 pisos",
+   "pagina": 20,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H1L",
+   "nota": null
+  },
+  {
+   "zona": "H2",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "pagina": 21,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H2",
+   "nota": null
+  },
+  {
+   "zona": "H3",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "pagina": 22,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H3",
+   "nota": null
+  },
+  {
+   "zona": "H3L",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10 m equivalente a 4 pisos",
+   "pagina": 23,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H3L",
+   "nota": null
+  },
+  {
+   "zona": "H4",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "pagina": 24,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H4",
+   "nota": null
+  },
+  {
+   "zona": "H5",
+   "altura_m": 24,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 24m equivalente a 8 pisos",
+   "pagina": 25,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO RESIDENCIAL H5",
+   "nota": null
+  },
+  {
+   "zona": "H6",
+   "altura_m": 15,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15m equivalente a 5 pisos",
+   "pagina": 26,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO CONSOLIDADO H6",
+   "nota": null
+  },
+  {
+   "zona": "H6a",
+   "altura_m": 6,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 6 m equivalente a 2 pisos",
+   "pagina": 27,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO CONSOLIDADO H6A",
+   "nota": null
+  },
+  {
+   "zona": "Z-6.1",
+   "altura_m": 15.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15,5m equivalente a 5pisos",
+   "pagina": 28,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO CONSOLIDADO Z 6.1 Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "Z-6.3",
+   "altura_m": 15.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15,5m equivalente a 5pisos",
+   "pagina": 29,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO CONSOLIDADO Z 6.3 Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "Z-7.1",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10,5m equivalente a 4pisos",
+   "pagina": 30,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO CONSOLIDADO Z 7.1 Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "H1LC",
+   "altura_m": 10,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10 m equivalente a 4 pisos",
+   "pagina": 31,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL H1LC",
+   "nota": null
+  },
+  {
+   "zona": "H2C",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16,0 m equivalente a 5pisos",
+   "pagina": 32,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL H2C",
+   "nota": null
+  },
+  {
+   "zona": "H3C",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "pagina": 33,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL H3C",
+   "nota": null
+  },
+  {
+   "zona": "H4C",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "pagina": 34,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL H4C",
+   "nota": null
+  },
+  {
+   "zona": "H5C",
+   "altura_m": 24,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 24m equivalente a 8 pisos",
+   "pagina": 35,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL H5C",
+   "nota": null
+  },
+  {
+   "zona": "HE1C",
+   "altura_m": 18.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 18,5m equivalente a 6pisos",
+   "pagina": 36,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO HABITACIONAL EXPANSIÓN HE1C",
+   "nota": null
+  },
+  {
+   "zona": "HE3C",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "pagina": 37,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO HABITACIONAL EXPANSIÓN HE3C",
+   "nota": null
+  },
+  {
+   "zona": "Z-6.1C",
+   "altura_m": 15.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15,5m equivalente a 5pisos",
+   "pagina": 38,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL Z 6.1C Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "Z-7.1C",
+   "altura_m": 10.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 10,5m equivalente a 4pisos",
+   "pagina": 39,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO RESIDENCIAL Z 7.1C Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "DR",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m equivalente a 7 pisos",
+   "pagina": 40,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO DENSIFICACIÓN RESIDENCIAL DR",
+   "nota": null
+  },
+  {
+   "zona": "CBD",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21,0 m equivalente a 7 pisos",
+   "pagina": 41,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), CENTRALIDAD BARRIO DENSIFICACIÓN CBD",
+   "nota": null
+  },
+  {
+   "zona": "HE1",
+   "altura_m": 18.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 18,5m equivalente a 6pisos",
+   "pagina": 42,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO HABITACIONAL EXPANSIÓN HE1",
+   "nota": null
+  },
+  {
+   "zona": "HE2",
+   "altura_m": 18.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 18,5m equivalente a 6pisos",
+   "pagina": 43,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO HABITACIONAL EXPANSIÓN HE2",
+   "nota": null
+  },
+  {
+   "zona": "HE3",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5pisos",
+   "pagina": 44,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO HABITACIONAL EXPANSIÓN HE3",
+   "nota": null
+  },
+  {
+   "zona": "HE4",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16m equivalente a 5 pisos",
+   "pagina": 45,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), BARRIO HABITACIONAL EXPANSIÓN HE4",
+   "nota": null
+  },
+  {
+   "zona": "ESB",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21m equivalente a 7 pisos",
+   "pagina": 46,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS DE BARRIO ESB",
+   "nota": null
+  },
+  {
+   "zona": "ESC1",
+   "altura_m": 27,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 27m equivalente a 9 pisos",
+   "pagina": 47,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS COMUNAL 1 ESC1",
+   "nota": null
+  },
+  {
+   "zona": "ESC2",
+   "altura_m": 36,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 36 m equivalente a 12 pisos",
+   "pagina": 48,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS COMUNAL 2 ESC2",
+   "nota": null
+  },
+  {
+   "zona": "ESC2-1A",
+   "altura_m": 36,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 36 m equivalente a 12 pisos",
+   "pagina": 49,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS COMUNAL 2 Subzona 1A ESC2-1A Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "ESC2-1B",
+   "altura_m": 36,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 36 m equivalente a 12 pisos",
+   "pagina": 50,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS COMUNAL 2 Subzona 1B ESC2-1B Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "ESC2-1C",
+   "altura_m": 36,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 36 m equivalente a 12 pisos",
+   "pagina": 51,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS COMUNAL 2 Subzona 1C ESC2-1C Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "ESC2-1D",
+   "altura_m": 36,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 36 m equivalente a 12 pisos",
+   "pagina": 52,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS COMUNAL 2 Subzona 1D ESC2-1D Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "ESM",
+   "altura_m": 45,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 45 m equivalente a 15 pisos",
+   "pagina": 53,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EJE DE SERVICIOS METROPOLITANO ESM",
+   "nota": null
+  },
+  {
+   "zona": "CPH",
+   "altura_m": 15,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15 m equivalente a 5 pisos",
+   "pagina": 54,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO Y PLAZAS HISTÓRICAS CPH",
+   "nota": null
+  },
+  {
+   "zona": "CPH1",
+   "altura_m": 15,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15 m equivalente a 5 pisos",
+   "pagina": 55,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO Y PLAZAS HISTÓRICAS CPH1 SUBZONA 1",
+   "nota": null
+  },
+  {
+   "zona": "CPH-MC",
+   "altura_m": 20,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 20 m",
+   "pagina": 56,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO Y PLAZAS HISTÓRICAS MONUMENTO HISTÓRICO MERCADO CENTRAL CPH-MC",
+   "nota": null
+  },
+  {
+   "zona": "CPH-PC",
+   "altura_m": 18,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 18 m",
+   "pagina": 56,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO Y PLAZAS HISTÓRICAS MONUMENTO HISTÓRICOS PALACIO CASTELLÓN CPH -PC",
+   "nota": null
+  },
+  {
+   "zona": "CCC",
+   "altura_m": 27,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 27 m equivalente a 9 pisos",
+   "pagina": 57,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO CÍVICO COMERCIAL Y DE SERVICIOS CCC",
+   "nota": null
+  },
+  {
+   "zona": "CCC-1A",
+   "altura_m": 20,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 20 m equivalente a 6 pisos",
+   "pagina": 58,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO CÍVICO COMERCIAL Y DE SERVICIOS CCC Subzona 1A Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "CCC-1B",
+   "altura_m": 20,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 20 m equivalente a 6 pisos",
+   "pagina": 58,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO CÍVICO COMERCIAL Y DE SERVICIOS CCC Subzona 1B Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "CCC-1C",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m",
+   "pagina": 59,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO CÍVICO COMERCIAL Y DE SERVICIOS CCC Subzona 1C Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "CCC-2",
+   "altura_m": 27,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 27 m equivalente a 9 pisos",
+   "pagina": 59,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO CÍVICO COMERCIAL Y DE SERVICIOS CCC Subzona 2 Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "CCC-3",
+   "altura_m": 27,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 27 m equivalente a 9pisos",
+   "pagina": 60,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA CENTRO CÍVICO COMERCIAL Y DE SERVICIOS CCC Subzona 3 Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "FPEPS",
+   "altura_m": 15,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15 m equivalente a 5 pisos",
+   "pagina": 61,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA FRENTE A PARQUES Y EJES PEATONALES SUR FPEPS",
+   "nota": null
+  },
+  {
+   "zona": "FPEPS-TEM",
+   "altura_m": 16.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16,5 m",
+   "pagina": 62,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA FRENTE A PARQUES Y EJES PEATONALES SUR MONUMENTO HISTÓRICO TEATRO LICEO ENRIQUE MOLINA FPEPS-TEM",
+   "nota": null
+  },
+  {
+   "zona": "EPN",
+   "altura_m": 21,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 21 m equivalente a 7 pisos",
+   "pagina": 62,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA EJES PEATONALES NORTE EPN",
+   "nota": null
+  },
+  {
+   "zona": "E5A",
+   "altura_m": 35,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 35m",
+   "pagina": 66,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO DEPORTIVO COMUNAL E5A",
+   "nota": null
+  },
+  {
+   "zona": "E5B",
+   "altura_m": 6,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 6m equivalente a 2 pisos",
+   "pagina": 66,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO DEPORTIVO DE BARRIO E5B",
+   "nota": null
+  },
+  {
+   "zona": "E6",
+   "altura_m": 15,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15 m equivalente a 5 pisos",
+   "pagina": 67,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO CULTURAL E6",
+   "nota": null
+  },
+  {
+   "zona": "MC",
+   "altura_m": 16,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 16 m equivalente a 5 pisos",
+   "pagina": 67,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO MICROCENTRO DE BARRIO MC",
+   "nota": null
+  },
+  {
+   "zona": "Z-2.4",
+   "altura_m": 15.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 15,5m equivalente a 5pisos",
+   "pagina": 68,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), EQUIPAMIENTO DE BARRIO Z 2.4 Sector Ribera Norte",
+   "nota": null
+  },
+  {
+   "zona": "PP",
+   "altura_m": 13,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 13m equivalente a 4pisos",
+   "pagina": 68,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), ZONA PROTECCIÓN DE PAISAJE PP",
+   "nota": null
+  },
+  {
+   "zona": "PE",
+   "altura_m": 7.5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 7,5m",
+   "pagina": 69,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadros refundidos de la Enmienda 23 del Decreto N° 139/2026 (17ª Enmienda), PROTECCIÓN ECOLÓGICA PE",
+   "nota": null
+  },
+  {
+   "zona": "H3h",
+   "altura_m": 12.8,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 12,8 m equivalente a 3pisos",
+   "pagina": 3,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadro agregado por el N° 5.A del D.A. N° 1280/2024, BARRIO RESIDENCIAL H3h",
+   "nota": null
+  },
+  {
+   "zona": "PPHU1",
+   "altura_m": 5,
+   "pisos": null,
+   "texto": "ALTURA MÁXIMA DE EDIFICACIÓN 5 m equivalente a 2 pisos",
+   "pagina": 4,
+   "seccion": "Art. 45 de la Ordenanza Local, cuadro agregado por el N° 5.B del D.A. N° 1280/2024, ZONA PROTECCIÓN DE PAISAJE PP HUMEDAL URBANO 1 PPHU1",
+   "nota": null
+  }
+ ]
+}

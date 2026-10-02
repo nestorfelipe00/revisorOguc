@@ -1,0 +1,45 @@
+{
+ "norma": "Normas urbanísticas de edificación por zona",
+ "documento": "Ordenanza del Plan Regulador Comunal de Temuco (D.S. N° 100 del MINVU, 14-07-1983, con modificaciones hasta 1996), válida para el centro urbano de la comuna de Padre Las Casas, compilación de la Dirección de Obras de Temuco (agosto de 1997)",
+ "url": "",
+ "sha256": "29e95e34e0e0f5eae16479beb06a1d7c03c824f31453bf1148b3be2e2ae9a2c3",
+ "extraido": "2026-10-01",
+ "metodo": "Transcripción manual verificada: cada cifra lleva su cita literal y tools/normas/transcribir_ordenanza.py comprueba que la cita esté en el PDF oficial dentro del tramo de su zona. «pagina» es la del PDF.",
+ "zonas": [
+  {
+   "zona": "F",
+   "pagina": 25,
+   "seccion": "Art. 7°, A.- Zonas urbanas, Zona F",
+   "superficie_predial_minima_m2_texto": "a) Superficie predial : 200 m2.",
+   "superficie_predial_minima_m2": 200,
+   "coef_ocupacion_suelo_texto": "c) Porcentaje máximo de ocupación del suelo : Vivienda: 50%",
+   "coef_ocupacion_suelo": 0.5,
+   "coef_ocupacion_suelo_max": 0.7,
+   "coef_ocupacion_suelo_condicion": "el destino no es vivienda (equipamiento, comercio, oficinas, talleres artesanales, industrias y bodegas inofensivas) («Equipamiento, comercio, oficinas, talleres artesanales, industrias y bodegas inofensivas: 70%»)",
+   "altura_m_texto": "ARTICULO 12° Alturas de Edificación: Las alturas de edificación estarán sometidas a las normas que sobre superficies de rasantes se contemplan en la Ordenanza General de Construcciones y Urbanización y las restricciones señaladas para las áreas afectadas por el funcionamiento del aeropuerto",
+   "altura_m": "sin tope",
+   "antejardin_m_texto": "e) Antejardín mínimo : En esta zona los antejardines tienen carácter opcional, salvo lo indicado en el art. 17°.",
+   "antejardin_m": 0,
+   "agrupamiento": [
+    "aislado",
+    "pareado",
+    "continuo"
+   ],
+   "agrupamiento_texto": "d) Sistema de agrupamiento : Aislado, pareado y continuo.",
+   "advertencias": [
+    {
+     "campo": "zona",
+     "texto": "Fuente: compilación de la Dirección de Obras de Temuco (agosto de 1997) de la Ordenanza del PRC de Temuco válida para Padre Las Casas, documento escaneado: confirme con la DOM de Padre Las Casas. La capa de la IDE muestra toda el área urbana como Zona F; las áreas de restricción R1 a R6 de la Ordenanza (aeropuerto, obras de infraestructura, vertientes y cauces) no están en la capa."
+    },
+    {
+     "campo": "agrupamiento",
+     "texto": "Art. 14°: el agrupamiento pareado o continuo llega hasta 5,80 m de altura y, en construcciones de 1 y 2 pisos, hasta el 40 % de la longitud del deslinde común. La industria inofensiva debe ser aislada, con distanciamiento mínimo de 3 m a los deslindes laterales y posterior."
+    },
+    {
+     "campo": "antejardin",
+     "texto": "El antejardín es opcional en la Zona F y, si se usa, no puede ser inferior a 3 m. El Art. 17° lo exige donde la vía ya tiene un 50 % o más de antejardines construidos y en las vías que el artículo lista (p. ej. 5 m en Av. Caupolicán)."
+    }
+   ]
+  }
+ ]
+}
